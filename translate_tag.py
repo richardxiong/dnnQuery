@@ -272,7 +272,7 @@ def train():
         # Run evals on development set and print their perplexity.
         ### Open a txt file recording the last hidden state
         filename = "last_hidden_state-"+str(model.global_step.eval())+".txt"
-        lasthidden_path = os.path.join(FLAGS.train_dir, filename)
+        lasthidden_path = os.path.join("./PCA-visual/", filename)
         f_lh = open(lasthidden_path, 'w')
         for bucket_id in xrange(len(_buckets)):
           if len(dev_set[bucket_id]) == 0:
