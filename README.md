@@ -1,2 +1,4 @@
 # dnnQuery
 Deep neural parser for database query
+
+Question-Answering (QA) problem has been a long interest to the machine learning community. In this paper, we propose a deep neural parser for QA on table/database queries and search. We transform this problem into building and training a sequence-to-sequence (seq2seq) deep neural network translating natural language queries to a SQL-like logical forms, which could then be used as an intermediate state to query into the table/database. To improve the model, we use Glove pretrained vectors to represent words and tag each word in the queries with possible field name in the corresponding table. We augment a small dataset based on the Wikitable dataset (Pasupat and Liang, 2015) for training and testing, and our model finally achieves a 74.7% training accuracy and 71.0% dev accuracy on this dataset, which gives a new benchmark in research related to Wikitable.
