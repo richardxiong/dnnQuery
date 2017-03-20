@@ -1,4 +1,9 @@
 # Copyright 2015 The TensorFlow Authors. All Rights Reserved.
+# Model modified by Hongyu Xiong: Deep neural parsing for database query
+# specific model: (1) embedding_attention_seq2seq_pretrain
+# (2) embedding_attention_seq2seq_pretrain2_tag
+# (3) model_with_buckets_tag
+# (4) functions are also outputting last encoder hidden state for PCA visual
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.

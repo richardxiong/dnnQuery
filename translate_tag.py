@@ -1,4 +1,9 @@
 # Copyright 2015 The TensorFlow Authors. All Rights Reserved.
+# Model modified by Hongyu Xiong: Deep neural parsing for database query
+# specific model: (1) embedding_attention_seq2seq_pretrain
+# (2) embedding_attention_seq2seq_pretrain2_tag
+# (3) model_with_buckets_tag
+# (4) functions are also outputting last encoder hidden state for PCA visual
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -43,6 +48,7 @@ import data_utils_tag
 import scratch
 import seq2seq_model_tag
 #import tagger as tgr
+
 #==================================================================================
 '''
 Things that might need to be changed
@@ -54,19 +60,6 @@ conventions:
 4) The test file and the test table needs to be put in "test_dir"
 5) It will be best the make all the _dir's equal, that means all the files are in the same folder
 6) If enable_table_test is True, makes sure the test table named "test.json"
-'''
-#tf.app.flags.DEFINE_string("data_dir", "naive", "Data directory")
-#tf.app.flags.DEFINE_string("train_dir", "naive", "Training directory.")
-tf.app.flags.DEFINE_string("test_dir", "./naive", "Test directory")
-# added by Kaifeng, can be changed
-#tf.app.flags.DEFINE_integer('max_num_steps', 10000, 'the maximum number of steps.')
-#tf.app.flags.DEFINE_integer("size", 64, "Size of each model layer.")
-#tf.app.flags.DEFINE_integer("num_layers", 2, "Number of layers in the model.")
-# no need to change this line if not using real table to test
-tf.app.flags.DEFINE_boolean("enable_table_test", False, "Whether use a true table to test")
-# directory of GloVe. Here by default we use GloVe 6B 100
-#tf.app.flags.DEFINE_string('GloVe_dir', "glove.6B", "GloVe directory. ")
-'''
 end of it
 '''
 #==================================================================================
@@ -78,12 +71,12 @@ tf.app.flags.DEFINE_float("max_gradient_norm", 5.0,
                           "Clip gradients to this norm.")
 tf.app.flags.DEFINE_integer("batch_size", 128,
                             "Batch size to use during training.")
-tf.app.flags.DEFINE_integer("size", 256, "Size of each model layer.")
+tf.app.flags.DEFINE_integer("size", 1024, "Size of each model layer.")
 tf.app.flags.DEFINE_integer("num_layers", 2, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("from_vocab_size", 10000, "English vocabulary size.")
 tf.app.flags.DEFINE_integer("to_vocab_size", 10000, "French vocabulary size.")
-tf.app.flags.DEFINE_string("data_dir", "./data8", "Data directory")
-tf.app.flags.DEFINE_string("train_dir", "./data8", "Training directory.")
+tf.app.flags.DEFINE_string("data_dir", "./data", "Data directory")
+tf.app.flags.DEFINE_string("train_dir", "./train_2_1024", "Training directory.")
 tf.app.flags.DEFINE_string("from_train_data", None, "Training data.")
 tf.app.flags.DEFINE_string("to_train_data", None, "Training data.")
 tf.app.flags.DEFINE_string("from_dev_data", None, "Training data.")
@@ -98,6 +91,16 @@ tf.app.flags.DEFINE_boolean("self_test", False,
                             "Run a self-test if this is set to True.")
 tf.app.flags.DEFINE_boolean("use_fp16", False,
                             "Train using fp16 instead of fp32.")
+
+# added by Kaifeng, can be changed
+tf.app.flags.DEFINE_string("test_dir", "./evaluation", "Test directory")
+#tf.app.flags.DEFINE_integer('max_num_steps', 10000, 'the maximum number of steps.')
+# no need to change this line if not using real table to test
+tf.app.flags.DEFINE_boolean("enable_table_test", False, "Whether use a true table to test")
+# directory of GloVe. Here by default we use GloVe 6B 100
+#tf.app.flags.DEFINE_string('GloVe_dir', "glove.6B", "GloVe directory. ")
+'''
+'''
 
 FLAGS = tf.app.flags.FLAGS
 
@@ -293,7 +296,7 @@ def train():
         sys.stdout.flush()
 
 
-# added by Kaifeng
+# modified by Kaifeng
 import json
 from logicalParser import logicalParser
 def decode():
@@ -325,7 +328,7 @@ def decode():
 
     logicalFormOutput = open(FLAGS.test_dir + '/logicalForm.out', 'w')
 
-    ### building tagger
+    ### evaluating tagging model, Hongyu
     
     print('start testing')
     with open(testQuestionFile,'r') as testQuestions:
@@ -374,40 +377,6 @@ def decode():
     logicalFormOutput.close()
     if FLAGS.enable_table_test:
         answerOutput.close()
-
-    '''
-    sys.stdout.write("> ")
-    sys.stdout.flush()
-    sentence = sys.stdin.readline()
-    while sentence:
-      # Get token-ids for the input sentence.
-      token_ids = data_utils.sentence_to_token_ids(tf.compat.as_bytes(sentence), en_vocab)
-      # Which bucket does it belong to?
-      bucket_id = len(_buckets) - 1
-      for i, bucket in enumerate(_buckets):
-        if bucket[0] >= len(token_ids):
-          bucket_id = i
-          break
-      else:
-        logging.warning("Sentence truncated: %s", sentence)
-
-      # Get a 1-element batch to feed the sentence to the model.
-      encoder_inputs, decoder_inputs, target_weights = model.get_batch(
-          {bucket_id: [(token_ids, [])]}, bucket_id)
-      # Get output logits for the sentence.
-      _, _, output_logits = model.step(sess, encoder_inputs, decoder_inputs,
-                                       target_weights, bucket_id, True)
-      # This is a greedy decoder - outputs are just argmaxes of output_logits.
-      outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
-      # If there is an EOS symbol in outputs, cut them at that point.
-      if data_utils.EOS_ID in outputs:
-        outputs = outputs[:outputs.index(data_utils.EOS_ID)]
-      # Print out French sentence corresponding to outputs.
-      print(" ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs]))
-      print("> ", end="")
-      sys.stdout.flush()
-      sentence = sys.stdin.readline()
-      '''
 
 
 def self_test():

@@ -1,3 +1,5 @@
+# By Hongyu Xiong
+# construct vocabulary and represented by GloVe word vectors
 import math
 import os
 import random
@@ -5,7 +7,7 @@ import sys
 import time
 
 import numpy as np
-import data_utils
+import data_utils_tag
 import tensorflow as tf
 
 def constructGloveDict(glove_path, max_vocabulary_size):
