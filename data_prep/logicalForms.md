@@ -8,9 +8,10 @@ conventions:
 4. '=' => 'equal'
 5. '<' => 'less', '>' => 'greater
 
-[Please read the replaceDic in dataset.py]
 I. DIRECT QUERIES: 6 possible logical forms (and their inferences):
+
 ===========================================
+
 length = 3
 utterance_superlative_query = 'arg {max_min} {arg1} {arg2}'
 
@@ -22,6 +23,7 @@ argmax number_medals number_medals
 argmax country_gdp country_size
 
 ===========================================
+
 length = 6
 utterance_pattern_single_select = 'where {comp_field} = {comp_val}  ' \
                                   'select {select_field}'
@@ -34,6 +36,7 @@ where number_medals equal 30 select number_duration
 where country_population equal 300 select number_participants
 
 ===========================================
+
 length = 7
 utterance_pattern_multi_field = 'where {comp_field} {comp} {comp_val} ' \
                                 ' arg {max_min} {arg1} {arg2}'
@@ -46,6 +49,7 @@ where number_medals less 420 argmax year number_audience
 where number_audience greater 40 argmax year country_population
 
 ===========================================
+
 length = 10 (new)
 utterance_pattern_multi_field = 'where {comp_field1} {comp} {comp_val1} ' \
                                 'where {comp_field2} {comp} {comp_val2}  ' \
@@ -55,10 +59,11 @@ examples:
 1. how many people participated in the game whose host country population is 300 and whose number of medals is smaller than 420
 where number_medals less 420 where country_population equal 300 select number_participants
 
-2. What's the rank of nation who has 3 gold medals and 4 silver medals?
+2. what's the rank of nation who has 3 gold medals and 4 silver medals?
 where Gold equal 3 where Silver equal 4 select Nation
 
 ===========================================
+
 length = 11 (new)
 utterance_pattern_multi_field = 'where {comp_field1} {comp} {comp_val1} ' \
                                 'where {comp_field2} {comp} {comp_val2}  ' \
@@ -70,6 +75,7 @@ where Gold equal 2 where Silver equal 0 argmax(Nation, Total)
 
 
 ===========================================
+
 length = 15
 utterance_nested_query_4field = 'where {query1_comp_field} {query1_comp} {query1_comp_val} ' \
                                           'select {query1_project_field} as A ' \
@@ -89,12 +95,14 @@ where Team equal Ballyroan_abbey select Years as A where Years greater A argmin 
 ===========================================
 
 **************************************************************************************
+
 II. QUERIES BASED ON CALCULATION
 sum total
 average
 subtract
 
 ===========================================
+
 sum: sum([field], [A, B, C...])
 
 length = 1
@@ -129,6 +137,7 @@ e.g. how many winning golfers does england and wales combined have in the master
 where Country equal England select Masters as A where Country equal Wales select Masters as B sum A B
 
 ============================================
+
 mean: mean([field], [A, B, C...])
 
 length = 2
@@ -153,6 +162,7 @@ e.g. what is the average of silver medals earned by korea and japan
 where Nation equal Korea select Silver as A where Nation equal Japan select Silver as B mean A B
 
 ============================================
+
 diff: diff(A, B)
 
 length = 13
@@ -161,9 +171,10 @@ utterance_diff_1 = 	' arg {max_min} {arg1} {arg2} as A ' \
                       diff A B
 
 e.g.
-1 what is the difference between the nation with the most medals and the nation with the least amount of medals
+1. what is the difference between the nation with the most medals and the nation with the least amount of medals
 argmax Total Total as A argmin Total Total as B diff A B
-2 largest medal differential between countries
+
+2. largest medal differential between countries
 argmax Total Total as A argmin Total Total as B diff A B
 
 length = 19
@@ -177,7 +188,9 @@ e.g. what is the difference in total number of medals between india and nepal
 where Nation equal India select Total as A where Nation equal Nepal select Total as B diff A B
 
 **************************************************************************************
+
 III. COUPLING BETWEEN MULTIPLE FIELDS
+
 e.g. which of the girls had the least amount in archery (girls are fields)
 
 The query of a given logical form is in logicalParser
