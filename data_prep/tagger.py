@@ -12,15 +12,15 @@ import editdistance as ed
 import numpy as np
 import scratch
 
-word_dim = 100
-vocabulary_path = './data7/vocab10000.from'
-glove_path = './glove.6B/glove.6B.100d.txt'
-max_vocabulary_size = 500000
+class Config(object):
+    word_dim = 100
+    vocabulary_path = './data7/vocab10000.from'
+    glove_path = './glove.6B/glove.6B.100d.txt'
+    max_vocabulary_size = 500000
 
-embedding_matrix, vocab, word_vector = scratch.generateEmbedMatrix(vocabulary_path, glove_path, max_vocabulary_size)
-# all keys for word_vector are in lowercase
+    embedding_matrix, vocab, word_vector = scratch.generateEmbedMatrix(vocabulary_path, glove_path, max_vocabulary_size)
+    # all keys for word_vector are in lowercase
 
-def fromFieldtoWord():
     field2word = {
 			'sum': {'value_type': 'string', 
                        'value_range': ['total', 'combined'], 
@@ -231,22 +231,47 @@ def fromFieldtoWord():
                         			'Vietnam', 'Thailand', 'Switzerland', 'Russia', 'Mexico', 'Egypt', 'Singapore',
                         			'India', 'US', 'Czech', 'Austria', 'UK','Greece', 'Japan'], 
                      'query_word': ['country','countries']}}
-    return field2word
 
-def fromWordtoVec(field2word):
+# Method 1: find direct match
+def buildDictionary(fields):
+    query_dict = dict()
+    string_dict = dict()
+    num_dict = dict()
+    for key in fields:
+        # build query_dict
+        value = fields[key]
+        for query_word in value['query_word']:
+            if query_word not in query_dict:
+                query_dict[query_word] = [] # one value could potentially corresponds to several field names
+            query_dict[query_word].append(key)
+        if value['value_type'] is 'string':
+            # build string_dict
+            for word in value['value_range']:
+                if word not in string_dict:
+                    string_dict[word] = []
+                string_dict[word].append(key)
+        else:
+            # build value_dict
+            for num in value['value_range']:
+                if num not in num_dict:
+                    num_dict[num] = []
+                num_dict[num].append(key)
+    return query_dict, string_dict, num_dict
+
+def fromWordtoVec(config):
     ### generate the field to vector dictionary from the field to words dictionary
     # field2vec = {"nation": [vec1, vec2],...}    # vec are centroids; 
                  # vec could be weighted by words frequency used for future work
     field2vec = dict()
-    for key in field2word:
+    for key in config.field2word:
         field2vec[key] = []
-        if field2word[key]['value_type'] == 'string':
+        if config.field2word[key]['value_type'] == 'string':
             value_vector = np.array([0.0 for i in range(word_dim)])
             count = 0
-            for word in field2word[key]['value_range']:
-                if word.lower() not in word_vector:
+            for word in config.field2word[key]['value_range']:
+                if word.lower() not in config.word_vector:
                     continue
-                vec = word_vector[word.lower()]
+                vec = config.word_vector[word.lower()]
                 value_vector += vec
                 count += 1
             if count > 0:
@@ -256,10 +281,10 @@ def fromWordtoVec(field2word):
                 field2vec[key].append(value_vector)
         query_vector = np.array([0.0 for i in range(word_dim)])
         count = 0
-        for word in field2word[key]['query_word']:
-            if word.lower() not in word_vector:
+        for word in config.field2word[key]['query_word']:
+            if word.lower() not in config.word_vector:
                 continue
-            vec = word_vector[word.lower()]
+            vec = config.word_vector[word.lower()]
             query_vector += vec
             count += 1
         if count > 0:
@@ -271,12 +296,6 @@ def fromWordtoVec(field2word):
             # no vectors added, then delete
             del field2vec[key]
     return field2vec
-
-field2word = fromFieldtoWord()
-field2vec = fromWordtoVec(field2word)
-
-schema = ["Nation", "Rank", "Gold", "Silver", "Bronze", "#_participant", "Total"]
-query = 'how many gold medals the nation ranked 14 won'
 
 def strSimilarity(word1, word2):
     ### Measure how similar word1 is with respect to word2
@@ -307,10 +326,10 @@ def spanInSpace(vectorArray):
     diameter = dist_square
     return diameter
 
-def findNearestNeighbor(word, vectorArray, diameter):
+def findNearestNeighbor(config, word, vectorArray, diameter):
     ### return the word vector which is the nearest neighbor to the query word
     ### return None is word is a new vocab or the distance between word and any of the vecs is larger than diameter
-    char_vec = word_vector[word]
+    char_vec = config.word_vector[word]
     nearest = diameter
     idx = None
     for i in range(len(vectorArray)):
@@ -349,7 +368,12 @@ def basic_tokenizer(sentence):
         words.extend(WORD_SPLIT.split(space_separated_fragment))
     return [w for w in words if w]
 
+
 def sentTagging(query, schema):
+    #schema = ["Nation", "Rank", "Gold", "Silver", "Bronze", "#_participant", "Total"]
+    #query = 'how many gold medals the nation ranked 14 won'
+    config = Config()
+    field2vec = fromWordtoVec(config)
     query = query.lower()
     words = basic_tokenizer(query)
     tag = ["<nan>" for x in words]
@@ -367,17 +391,6 @@ def sentTagging(query, schema):
             schema_vec[vec_sign] = schema[i]
     # go over words, find nearest neighbor
     diameter = spanInSpace(schema_vec.keys())
-#     for i in range(len(words)):    
-#         if tag[i] is not "<nan>":
-#             continue
-#         for j in range(len(schema)):
-#             # split around '_'
-#             div_fields = schema[j].split('_')
-#             if len(div_fields) == 1:
-#                 continue
-#             for k in range(len(div_fields)):
-#                 if strSimilarity(words[i], div_fields[k].lower()) >= 0.8:
-#                     tag[i] = schema[j]
     # 0th pass find devided words, such as country_gdp
     for j in range(len(schema)):
         # split around '_'
@@ -416,7 +429,7 @@ def sentTagging(query, schema):
         if tag[i] is not "<nan>":
             continue
         # Nearest neighbor: finding closest clustroid
-        the_one = findNearestNeighbor(words[i], schema_vec.keys(), diameter/2.7)
+        the_one = findNearestNeighbor(config, words[i], schema_vec.keys(), diameter/2.7)
         if the_one is not None:
             tag[i] = schema_vec[the_one]
     
