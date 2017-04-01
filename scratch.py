@@ -26,7 +26,7 @@ def constructGloveDict(glove_path, max_vocabulary_size):
 def generateEmbedMatrix(vocabulary_path, max_vocabulary_size, glove_path = None):
 	print "Importing GloVe pretrained word vectors"
     
-	vocab, _ = data_utils.initialize_vocabulary(vocabulary_path)	# (token ---> idx)
+	vocab, _ = data_utils_tag.initialize_vocabulary(vocabulary_path)	# (token ---> idx)
 
 	if glove_path is not None:
 		word_vectors = constructGloveDict(glove_path, max_vocabulary_size)

@@ -84,8 +84,8 @@ class Seq2SeqModel(object):
       forward_only: if set, we do not construct the backward pass in the model.
       dtype: the data type to use to store internal variables.
     """
-    self.from_vocab_path = './data8/vocab10000.from'
-    self.to_vocab_path = './data8/vocab10000.to'
+    self.from_vocab_path = './data/vocab10000.from'
+    self.to_vocab_path = './data/vocab10000.to'
     self.glove_path = './glove.6B/glove.6B.100d.txt'
     self.source_vocab_size = source_vocab_size
     self.target_vocab_size = target_vocab_size
