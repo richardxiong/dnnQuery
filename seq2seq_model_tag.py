@@ -142,7 +142,7 @@ class Seq2SeqModel(object):
     def seq2seq_f(encoder_inputs, tag_inputs, decoder_inputs, do_decode):
       ## ADD EMbedding: encoder_input, decoder_input... ###
       
-      return ls.embedding_attention_seq2seq_pretrain2_tag( #####  
+      return ls.embedding_attention_seq2seq_pretrain3_tag( #####  
           encoder_inputs,
           tag_inputs,
           decoder_inputs,
