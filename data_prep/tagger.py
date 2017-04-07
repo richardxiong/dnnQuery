@@ -14,8 +14,8 @@ import scratch
 
 class Config(object):
     word_dim = 100
-    vocabulary_path = './data7/vocab10000.from'
-    glove_path = './glove.6B/glove.6B.100d.txt'
+    vocabulary_path = './data/vocab10000.from'
+    glove_path = '.。/glove.6B/glove.6B.100d.txt'
     max_vocabulary_size = 500000
 
     embedding_matrix, vocab, word_vector = scratch.generateEmbedMatrix(vocabulary_path, glove_path, max_vocabulary_size)
