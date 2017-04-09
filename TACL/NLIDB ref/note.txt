@@ -1,0 +1,20 @@
+1. NLIDB is very important
+(a) Data is stored in database management system (DBMS), relational
+(b) web-based apps could access DBMS through NLI
+
+Not surprisingly, a natural language interface is regarded by many as the ultimate goal for a database query interface, and many natural language inter- faces to databases (NLIDBs) have been built towards this goal [2, 13, 11]
+
+The purpose of NLP is to enable communication between people and computers without needing the memorization of commands and complex procedures [1]. In that the user doesn't require programming language skills. 
+
+One of the classic problems in the field of NLP that has recently attracted the attention of the research community is the Natural Language Database Interface (NLDBI). The objective of NLDBI is to extract information from Database using natural language [2]. In this sense the user of database does not need to have expertise in database language to access the data, but only the natural language is enough. 
+
+2. Semantic parsing in NL with the help of DNN 
+(a) Percy Liang: lambda expression, seq2seq translation + attention-based copying + data recombination
+(b) Neural Enquirer and Neural Programmer
+(c) other translation work
+
+3. Techniques
+(a) Encoding schema and distribution into the query
+(b) data augmentation
+
+
