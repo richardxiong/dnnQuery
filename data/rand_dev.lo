@@ -108,7 +108,6 @@ where Average equal 20 argmin Player Field_Goals
 where Year_inducted equal 2008 select Name
 where No._of_elected less 13 where No._of_elected greater 10 argmax State No._of_elected
 where Total greater 32 where Gold less 28 select Nation
-where Team equal Maynooth select Wins as A where Team equal Confey select Wins as B diff A B
 where No._of_candidates less 14 where No._of_candidates greater 12 argmax State No._of_elected
 where Gold greater 6 where Bronze less 8 select Nation
 where State equal Gujarat select No._of_candidates
@@ -156,7 +155,6 @@ where Goals greater 258 where Goals less 327 select Name
 where 50s greater 400 where Points less 14 argmax Player 100s
 where Silver equal 29 select Nation
 where Runs equal 10 where 100s greater 2 select Average
-where Team equal Greystones select Wins as A where Team equal Dundalk_Gael select Wins as B diff A B
 where Average equal 20 argmax Player Innings
 where 50s equal 15 where Games greater 2 select Points
 where Gold equal 19 select Nation
@@ -214,7 +212,6 @@ where 2nd_Venue equal Cambridge sum
 where 3rd_Venue equal Changzhou argmin Year Year
 where Position equal Defender argmax Name Apps
 where Nation equal Mexico select Gold
-where Team equal Confey select Wins as A where Team equal Crettyard select Wins as B diff A B
 where Innings greater 39 where Points less 30 argmax Player Games
 where Average less 20 argmin Player 100s
 where Innings equal 5 where Matches greater 2 select Points
@@ -283,7 +280,6 @@ where Silver equal 19 select Nation
 where Innings greater 76 where Average less 14 argmax Player 100s
 where No._of_elected greater 18 where No._of_elected less 25 select Total_no._of_seats_in_Assembly
 where Nation equal South_Korea select Gold
-where Team equal Maynooth select Wins as A where Team equal Dundalk_Gael select Wins as B diff A B
 where Nation equal Mongolia select Total
 where Runs greater 76 where Average less 30 argmin Player Matches
 where Nation equal South_Korea select Gold
@@ -352,7 +348,6 @@ where Year greater 1999 where Year less 2002 select 1st_Venue
 where Rank equal 25 select Gold
 where Apps less 285 argmax Name Goals
 where Innings equal 15 where Matches greater 5 select Points
-where Team equal Ballyroan_Abbey select Wins as A where Team equal Confey select Wins as B diff A B
 where Bronze greater 9 where Total less 4 select Nation
 where 1st_Venue equal Austin sum
 where Player equal Ray_Woods select Field_Goals
@@ -482,7 +477,6 @@ where Position equal 7 select Mnemonic
 where Bronze greater 0 sum
 where Gold equal 89 select Nation
 where Average equal 20 argmax Player Runs
-where Team equal Crettyard select Wins as A where Team equal Ballyroan_Abbey select Wins as B diff A B
 where Goals greater 145 where Goals less 175 select Name
 where Innings greater 39 where Points less 14 argmax Player Games
 where 4th_Venue equal Indianapolis select Year
@@ -574,7 +568,6 @@ where Average less 50 argmin Player Runs
 where Silver equal 2 where Gold equal 27 select Rank
 where Innings greater 39 where Average less 7 argmax Player Matches
 where Nation equal Nepal select Silver as A where Nation equal Romania select Silver as B diff A B
-where Team equal Dundalk_Gael select Wins as A where Team equal Fingal_Ravens select Wins as B diff A B
 where Average greater 80 argmin Player 50s
 where Player equal Ted_Tyler select Free_Throws
 where Country equal Italy select U.S._Open as A where Country equal Brazil select U.S._Open as B sum A B
@@ -596,7 +589,6 @@ where Goals greater 76 where Goals less 167 select Name
 where Team equal Greystones select Areas as A where Team equal Ballyroan_Abbey select Areas as B diff A B
 where Apps equal 321 where Goals equal 170 select Name
 where State equal Kerala select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
-where Team equal Fingal_Ravens select Wins as A where Team equal Confey select Wins as B diff A B
 where Nation equal Netherlands select Bronze as A where Nation equal Australia select Bronze as B diff A B
 where Apps greater 125 where Goals less 14 select Name
 where Average less 70 argmin Player Games_Played

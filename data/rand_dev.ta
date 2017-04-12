@@ -108,7 +108,6 @@ Name <nan> <nan> argmax Goals <nan> less <nan> <num> Apps
 Name Year_inducted Year_inducted <nan> <num>
 <nan> State <nan> <nan> <nan> No._of_candidates No._of_candidates No._of_candidates <nan> <nan> No._of_elected No._of_elected No._of_elected <nan> <nan> <num> <nan> <num>
 <nan> Nation <nan> greater <nan> <num> Total <nan> <nan> Gold <nan> <nan> less <nan> <num>
-<nan> <nan> <nan> diff <nan> Wins <nan> <nan> <nan> <nan> <nan>
 <nan> State <nan> <nan> <nan> No._of_elected No._of_elected No._of_elected <nan> <nan> No._of_candidates No._of_candidates No._of_candidates <nan> <nan> <num> <nan> <num>
 <nan> Nation <nan> greater <nan> <num> Gold <nan> <nan> Bronze <nan> <nan> less <nan> <num>
 <nan> <nan> <nan> No._of_candidates No._of_candidates No._of_candidates <nan> <nan>
@@ -156,7 +155,6 @@ Name <nan> <nan> Name <nan> <nan> <num> <nan> <num> Goals
 <nan> Player <nan> greater <nan> <num> 50s <nan> Points less <nan> <num> <nan> <nan> <nan> <nan> argmax 100s
 <nan> <nan> <nan> Nation <nan> <nan> <num> Silver <nan>
 <nan> <nan> <nan> Average <nan> Player <nan> <num> Runs <nan> greater <nan> <num> <nan> 100s
-<nan> <nan> <nan> diff <nan> Wins <nan> <nan> <nan> <nan> <nan> <nan>
 <nan> <nan> <nan> argmax Innings <nan> <nan> Average <nan> <num>
 <nan> <nan> <nan> Points <nan> Player <nan> <num> 50s <nan> greater <nan> <num> <nan> Games_Played
 <nan> <nan> <nan> Nation <nan> <nan> <num> Gold <nan>
@@ -214,7 +212,6 @@ Name Year_inducted Year_inducted <nan> <num>
 <nan> <nan> <nan> <nan> <nan> <nan> <nan> 2nd_Venue 2nd_Venue
 Name <nan> <nan> Position <nan> <nan> argmax Apps
 <nan> <nan> <nan> <nan> <nan> Gold <nan> <nan> <nan>
-<nan> <nan> <nan> diff <nan> Wins <nan> <nan> <nan> <nan> <nan>
 <nan> Player <nan> greater <nan> <num> Innings <nan> Points less <nan> <num> <nan> <nan> <nan> <nan> argmax Games_Played
 <nan> <nan> <nan> argmin 100s <nan> <nan> Average <nan> <num>
 <nan> <nan> <nan> Points <nan> Player <nan> <num> Innings <nan> greater <nan> <num> <nan> Matches
@@ -283,7 +280,6 @@ Name <nan> <nan> argmax Goals <nan> less <nan> <num> Apps
 <nan> Player <nan> greater <nan> <num> Innings <nan> Average less <nan> <num> <nan> <nan> <nan> <nan> argmax 100s
 <nan> <nan> Total_no._of_seats_in_Assembly Total_no._of_seats_in_Assembly Total_no._of_seats_in_Assembly Total_no._of_seats_in_Assembly Total_no._of_seats_in_Assembly Total_no._of_seats_in_Assembly <nan> <nan> State <nan> <nan> greater <nan> <num> <nan> less <nan> <num> <nan> No._of_elected
 <nan> <nan> Gold <nan> <nan> <nan> <nan>
-<nan> <nan> <nan> diff <nan> Wins <nan> <nan> <nan> <nan> <nan> <nan>
 <nan> <nan> <nan> <nan> <nan> Total <nan> <nan> <nan>
 <nan> Player <nan> greater <nan> <num> Runs <nan> Average less <nan> <num> <nan> <nan> <nan> <nan> argmin Matches
 <nan> <nan> <nan> <nan> <nan> Gold <nan>
@@ -352,7 +348,6 @@ Name <nan> <nan> Name <nan> <nan> <num> <nan> <num> Apps
 <nan> <nan> Gold <nan> <nan> Nation Rank <num> <nan>
 Name <nan> <nan> argmax Goals <nan> less <nan> <num> Apps
 <nan> <nan> <nan> Points <nan> Player <nan> <num> Innings <nan> greater <nan> <num> <nan> Matches
-<nan> <nan> <nan> diff <nan> Wins <nan> <nan> <nan> <nan> <nan> <nan>
 <nan> Nation <nan> greater <nan> <num> Bronze <nan> <nan> Total <nan> <nan> less <nan> <num>
 <nan> <nan> <nan> <nan> <nan> <nan> <nan> 1st_Venue 1st_Venue
 <nan> argmax Field_Goals Field_Goals <nan> <nan> <nan> <nan>
@@ -482,7 +477,6 @@ Name <nan> <nan> argmin Apps <nan> greater <nan> <num> Goals
 <nan> <nan> <nan> <nan> <nan> <nan> <nan> <nan> <nan> Bronze <nan>
 <nan> <nan> <nan> Nation <nan> <nan> <num> Gold <nan>
 <nan> <nan> <nan> argmax Runs <nan> <nan> Average <nan> <num>
-<nan> <nan> <nan> diff <nan> Wins <nan> <nan> <nan> <nan> <nan> <nan>
 Name <nan> <nan> Name <nan> <nan> <num> <nan> <num> Goals
 <nan> Player <nan> greater <nan> <num> Innings <nan> Points less <nan> <num> <nan> <nan> <nan> <nan> argmax Games_Played
 <nan> <nan> <nan> 4th_Venue 4th_Venue <nan> <nan>
@@ -574,7 +568,6 @@ Name <nan> <nan> argmin Goals <nan> less <nan> <num> Apps
 <nan> <nan> <nan> Rank <nan> <nan> Nation <nan> <nan> <num> Silver <nan> <num> Gold <nan>
 <nan> Player <nan> greater <nan> <num> Innings <nan> Average less <nan> <num> <nan> <nan> <nan> <nan> argmax Matches
 <nan> <nan> <nan> diff <nan> Silver <nan> <nan> <nan> <nan> <nan>
-<nan> <nan> <nan> diff <nan> Wins <nan> <nan> <nan> <nan> <nan> <nan> <nan>
 <nan> <nan> <nan> argmin 50s <nan> <nan> Average <nan> <num>
 <nan> argmax Free_Throws Free_Throws <nan> <nan> <nan> <nan>
 <nan> <nan> <nan> <nan> <nan> <nan> <nan> <nan> sum <nan> <nan> <nan> U.S._Open U.S._Open
@@ -596,7 +589,6 @@ Name <nan> <nan> Name <nan> <nan> <num> <nan> <num> Goals
 <nan> <nan> <nan> diff <nan> Areas <nan> <nan> <nan> <nan> <nan> <nan>
 Name <nan> <num> Apps <nan> <num> Goals
 <nan> <nan> <nan> State <nan> greater <nan> <nan> Total_no._of_seats_in_Assembly <nan> <nan> <nan> <nan> <nan> State <nan> <nan> greater No._of_candidates No._of_candidates No._of_candidates
-<nan> <nan> <nan> diff <nan> Wins <nan> <nan> <nan> <nan> <nan> <nan>
 <nan> <nan> <nan> diff <nan> Bronze <nan> <nan> <nan> <nan> <nan>
 Name <nan> greater <nan> <num> Apps <nan> less <nan> <num> Goals
 <nan> <nan> <nan> argmin Games_Played Games_Played <nan> <nan> Average <nan> <num>

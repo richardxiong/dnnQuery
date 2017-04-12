@@ -12,9 +12,16 @@ One of the classic problems in the field of NLP that has recently attracted the 
 (a) Percy Liang: lambda expression, seq2seq translation + attention-based copying + data recombination
 (b) Neural Enquirer and Neural Programmer
 (c) other translation work
+Purpose: DB —-> DB, transfer learning
 
 3. Techniques
 (a) Encoding schema and distribution into the query
+<field: i>
+<field_val: j>: first identify it’s a value, then associate it with a certain field (when there are multiple possible fields related to one value, select the correct one it refers); from formula to real values (where <field: 1> equal <field_val: 1> ——> where Nation equal Spain)
+
 (b) data augmentation
+also combined with specific asking type (like ‘how old are you’) when having different database (‘employee’, ‘city’):
+(employee, age, gender…)
+(city, population, area…)
 
 

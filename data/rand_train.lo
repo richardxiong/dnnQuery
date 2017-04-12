@@ -24,7 +24,6 @@ where Year equal 2010 select 3rd_Venue
 where 2nd_Venue equal Guanajuato argmax Year Year
 where Year greater 2013 where Year less 2016 select 1st_Venue
 argmin League_Goals League_Goals
-where Team equal Confey select Wins as A where Team equal Ballyroan_Abbey select Wins as B diff A B
 where 2nd_Venue equal Veracruz sum
 where 50s equal 5 where Games greater 15 select Points
 where Gold greater 3 select Nation
@@ -54,7 +53,6 @@ where Nation equal France select Total
 where Nation equal Brazil select Silver as A where Nation equal Spain select Silver as B diff A B
 where Average less 20 argmax Player Field_Goals
 where Average equal 50 argmax Player Field_Goals
-where Team equal Confey select Wins as A where Team equal Dundalk_Gael select Wins as B diff A B
 where Nation equal India select Bronze as A where Nation equal Romania select Bronze as B diff A B
 where Innings greater 39 where Average less 14 argmax Player Games
 where Party equal Independent argmax Took_office Number
@@ -102,7 +100,6 @@ where 50s greater 76 where Average less 14 argmin Player 100s
 argmax Player 50s
 where 2nd_Venue equal Boston argmin Year Year
 where Apps equal 97 where Goals equal 73 select Name
-where Team equal Ballyroan_Abbey select Wins as A where Team equal Fingal_Ravens select Wins as B diff A B
 where State equal Andhra_Pradesh select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly less A argmin State No._of_candidates
 argmin Nation Silver
 where Gold greater 9 where Bronze less 8 select Nation
@@ -151,7 +148,6 @@ where Runs equal 10 where Matches greater 15 select Points
 where Rank equal 43 select Silver
 where Year greater 2010 where Year less 2012 select 1st_Venue
 where 2nd_Venue equal Seattle argmin Year Year
-where Team equal Ballyroan_Abbey select Wins as A where Team equal Dundalk_Gael select Wins as B diff A B
 where Player equal Bill_Roe select Games_Played
 argmax 1st_Venue Year
 where 50s equal 60 select points
@@ -173,7 +169,6 @@ where Rank equal 1 select Nation
 where Rank equal 75 select Bronze
 where Team equal Ballyroan_Abbey select Areas as A where Team equal Crettyard select Areas as B diff A B
 where Year equal 2016 select 3rd_Venue
-where Team equal Maynooth select Wins as A where Team equal Ballyroan_Abbey select Wins as B diff A B
 where Nation equal Netherlands select Silver as A where Nation equal Italy select Silver as B diff A B
 where Runs greater 39 where Average less 30 argmin Player 100s
 where Player equal Gordon_Otto select Runs
@@ -289,7 +284,6 @@ where Year equal 2000 select 3rd_Venue
 where Player equal Lionel_Palairet select 100s
 where 50s greater 400 where Average less 14 argmin Player 100s
 argmax 4th_Venue Year
-where Team equal Fingal_Ravens select Wins as A where Team equal Ballyroan_Abbey select Wins as B diff A B
 where Player equal Albert_Clapp select Games_Played
 where Runs greater 400 where Points less 30 argmin Player Games
 where Runs equal 10 where Matches greater 5 select Average
@@ -456,7 +450,6 @@ where Gold equal 8 where Silver equal 7 argmax Nation Rank
 where Rank equal 46 select Silver
 where Runs greater 39 where Average less 7 argmax Player 100s
 where 50s greater 76 where Average less 14 argmin Player Matches
-where Team equal Dundalk_Gael select Wins as A where Team equal Ballyroan_Abbey select Wins as B diff A B
 where Average equal 80 argmax Player Runs
 where Runs greater 400 where Points less 30 argmax Player Games
 where Year greater 2011 where Year less 2014 select 4th_Venue
@@ -528,7 +521,6 @@ where Gold equal 71 where Silver equal 5 argmin Nation Rank
 where Player equal George_Nichols select Innings
 where Nation equal Estonia select Bronze
 where Name equal Les_Taylor select Apps
-where Team equal Greystones select Wins as A where Team equal Confey select Wins as B diff A B
 where Nation equal Italy select Gold as A where Nation equal Australia select Gold as B diff A B
 where Year_inducted greater 1998 argmax Goals Goals
 where Team equal Greystones select Prices as A where Team equal Ballyroan_Abbey select Prices as B diff A B
@@ -632,7 +624,6 @@ where Gold equal 3 where Bronze equal 62 select Rank
 where Party equal Socialist_Alternative argmin Took_office Number
 where Goals less 101 argmin Name Apps
 where 2nd_Venue equal Shanghai select 1st_Venue
-where Team equal Crettyard select Wins as A where Team equal Maynooth select Wins as B diff A B
 where Silver equal 3 where Bronze equal 4 select Rank
 argmax 2nd_Venue Year
 where Nation equal Poland select Silver
@@ -650,7 +641,6 @@ where Runs greater 76 where Points less 7 argmax Player Games
 where Silver greater 32 where Total less 8 select Nation
 where Year_of_Election greater 1996 where Year_of_Election less 2003 argmax State No._of_candidates
 where Nation equal China select Silver
-where Team equal Ballyroan_Abbey select Wins as A where Team equal Crettyard select Wins as B diff A B
 argmax Player Free_Throws
 where Silver greater 0 sum
 where Average less 70 argmin Player 100s
@@ -687,7 +677,6 @@ where Silver equal 95 select Nation
 where Team equal Crettyard select Prices as A where Team equal Greystones select Prices as B diff A B
 where Nation equal United_States select Silver
 argmin Player Matches
-where Team equal Fingal_Ravens select Wins as A where Team equal Dundalk_Gael select Wins as B diff A B
 where Nation equal Germany select Bronze
 where Nation equal Jamaica select Silver
 where Year_inducted equal 2009 select Name
@@ -768,7 +757,6 @@ where Average greater 20 argmin Player 50s
 where Nation equal Nepal select Silver as A where Nation equal Australia select Silver as B diff A B
 where Nation equal Uganda select Bronze
 where Country equal Italy select PGA as A where Country equal Spain select PGA as B sum A B
-where Team equal Maynooth select Wins as A where Team equal Greystones select Wins as B diff A B
 where Silver equal 8 where Bronze equal 5 argmax Nation Rank
 where Innings greater 400 where Points less 14 argmax Player Games
 where Runs greater 400 where Points less 14 argmax Player 100s
@@ -804,7 +792,6 @@ where Nation equal Netherlands select Gold as A where Nation equal Australia sel
 where Bronze equal 6 where Gold equal 5 argmax Nation Rank
 argmin Position Goals
 where Runs greater 400 where Average less 7 argmin Player Games
-where Team equal Greystones select Wins as A where Team equal Fingal_Ravens select Wins as B diff A B
 where Bronze equal 98 select Nation
 where Country equal Australia select PGA as A where Country equal Netherlands select PGA as B sum A B
 where Runs equal 10 where Matches greater 15 select Average
@@ -912,7 +899,6 @@ where Nation equal Netherlands select Silver as A where Nation equal Brazil sele
 where 50s greater 76 where Points less 30 argmax Player Games
 where Gold equal 39 select Nation
 where Position equal Midfielder argmin Name Apps
-where Team equal Confey select Wins as A where Team equal Greystones select Wins as B diff A B
 where 3rd_Venue equal Caracas argmin Year Year
 where Average greater 30 argmin Player Games_Played
 where Silver greater 7 select Nation
@@ -1132,7 +1118,6 @@ where Gold greater 32 where Total less 28 select Nation
 where Apps greater 151 where Goals less 137 select Name
 where Innings equal 10 where Games greater 2 select Average
 where Innings equal 40 select Runs
-where Team equal Confey select Wins as A where Team equal Fingal_Ravens select Wins as B diff A B
 where Gold greater 9 where Silver less 8 select Nation
 where Silver less 9 where Gold greater 28 select Nation
 where Nation equal United_States select Silver
@@ -1227,7 +1212,6 @@ where Average equal 30 argmax Player Runs
 where Nation equal Ukraine select Gold
 where Country equal England select PGA as A where Country equal Netherlands select PGA as B sum A B
 where Nation equal Czech_Republic select Gold
-where Team equal Crettyard select Wins as A where Team equal Fingal_Ravens select Wins as B diff A B
 where Team equal Ballyroan_Abbey select Years_won as A where Team equal Maynooth select Years_won as B diff A B
 where Nation equal United_States select Silver
 where Gold equal 81 where Silver equal 62 select Rank
@@ -1247,7 +1231,6 @@ where Country equal Netherlands select Masters as A where Country equal Australi
 where Average equal 50 argmin Player Games_Played
 argmax Games_Played Games_Played
 where Games equal 12 select Runs
-where Team equal Maynooth select Wins as A where Team equal Crettyard select Wins as B diff A B
 where No._of_elected less 2 select State
 where Bronze equal 6 where Silver equal 23 argmax Nation Rank
 where Nation equal Croatia select Gold
@@ -1256,7 +1239,6 @@ where Year_inducted greater 2009 argmax Goals Goals
 where Nation equal Italy select Rank as A where Rank less A argmin Nation Rank
 where Nation equal Cuba select Total
 where Country equal Australia select U.S._Open as A where Country equal England select U.S._Open as B sum A B
-where Team equal Dundalk_Gael select Wins as A where Team equal Maynooth select Wins as B diff A B
 where Nation equal Australia select Silver as A where Nation equal Nepal select Silver as B diff A B
 where Player equal Ralf_Woods select Points
 where State equal Bihar select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
@@ -1392,7 +1374,6 @@ where 50s equal 60 select Runs
 where Country equal Wales select The_Open as A where Country equal England select The_Open as B sum A B
 where Team equal Crettyard select Prices as A where Team equal Fingal_Ravens select Prices as B diff A B
 where Country equal Romania select Masters as A where Country equal Brazil select Masters as B sum A B
-where Team equal Crettyard select Wins as A where Team equal Confey select Wins as B diff A B
 where Country equal Wales select Masters as A where Country equal Spain select Masters as B sum A B
 where Rank equal 1 select Nation
 where Bronze greater 32 where Gold less 28 select Nation
@@ -1592,14 +1573,12 @@ where Goals greater 27 argmin Name Apps
 where Rank equal 86 select Gold
 where Average less 80 argmax Player Points
 where Silver less 32 where Bronze greater 4 select Nation
-where Team equal Fingal_Ravens select Wins as A where Team equal Greystones select Wins as B diff A B
 where Country equal Australia select U.S._Open as A where Country equal Italy select U.S._Open as B sum A B
 where 2nd_Venue equal Tokyo argmax Year Year
 where Runs greater 39 where Points less 30 argmax Player Matches
 where Average equal 50 argmin Player Matches
 where State equal Chhattisgarh select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
 where Bronze equal 6 where Silver equal 7 argmin Nation Rank
-where Team equal Crettyard select Wins as A where Team equal Dundalk_Gael select Wins as B diff A B
 where Bronze equal 6 where Gold equal 23 argmax Nation Rank
 where Average greater 50 argmax Player Free_Throws
 where Average equal 70 argmax Player Innings
@@ -1631,7 +1610,6 @@ where Nation equal Italy select Silver
 where 50s greater 76 where Average less 14 argmin Player Games
 where Bronze equal 6 where Gold equal 7 argmax Nation Rank
 where Nation equal Nepal select Bronze as A where Nation equal Romania select Bronze as B diff A B
-where Team equal Dundalk_Gael select Wins as A where Team equal Confey select Wins as B diff A B
 where Name equal Ian_Bolton select Apps
 where Average equal 30 argmin Player Runs
 where Year greater 2002 where Year less 2005 select 1st_Venue
@@ -1780,7 +1758,6 @@ where 3rd_Venue equal Tokyo select 1st_Venue
 where 1st_Venue equal Seattle sum
 where Country equal Romania select The_Open as A where Country equal Italy select The_Open as B sum A B
 where Apps greater 144 where Goals less 11 select Name
-where Team equal Confey select Wins as A where Team equal Maynooth select Wins as B diff A B
 where Nation equal Morocco select Silver
 where No._of_candidates less 18 where No._of_candidates greater 16 argmax State No._of_elected
 argmin League_App League_App
@@ -1964,7 +1941,6 @@ where Bronze greater 6 where Total less 28 select Nation
 where Team equal Fingal_Ravens select Areas as A where Team equal Crettyard select Areas as B diff A B
 where Average less 80 argmin Player Free_Throws
 where Nation equal China select Bronze
-where Team equal Dundalk_Gael select Wins as A where Team equal Greystones select Wins as B diff A B
 where Bronze less 6 where Gold greater 8 select Nation
 where Nation equal Italy select Silver as A where Nation equal India select Silver as B diff A B
 where Player equal Gordon_Otto select Free_Throws
@@ -1994,7 +1970,6 @@ where Runs equal 10 where Matches greater 2 select Points
 where 50s greater 39 where Average less 14 argmin Player Matches
 where 4th_Venue equal Changzhou select Year
 where Gold equal 6 where Silver equal 7 argmax Nation Rank
-where Team equal Maynooth select Wins as A where Team equal Fingal_Ravens select Wins as B diff A B
 where Innings greater 400 where Average less 14 argmax Player 100s
 where Rank equal 45 select Gold
 where Country equal Romania select U.S._Open as A where Country equal Italy select U.S._Open as B sum A B
@@ -2186,7 +2161,6 @@ argmax Player 50s
 where 3rd_Venue equal Boston select 2nd_Venue
 where Country equal Brazil select PGA as A where Country equal Australia select PGA as B sum A B
 where Position equal Forward argmax Name Apps
-where Team equal Fingal_Ravens select Wins as A where Team equal Maynooth select Wins as B diff A B
 where Year equal 2008 select 4th_Venue
 where 50s greater 39 where Average less 14 argmin Player 100s
 where Rank equal 92 select Gold
@@ -2245,7 +2219,6 @@ where Gold greater 0 sum
 where Year greater 2003 where Year less 2006 select 1st_Venue
 where Bronze equal 14 where Gold equal 1 select Rank
 where Silver equal 0 where Bronze greater 0 select Nation
-where Team equal Dundalk_Gael select Wins as A where Team equal Crettyard select Wins as B diff A B
 where Player equal Herbie_Hewett select 50s
 where Year_inducted greater 2012 argmax Goals Goals
 where Position equal Forward argmin Name Goals
@@ -2283,7 +2256,6 @@ where Team equal Greystones select Years_won as A where Team equal Confey select
 where Innings greater 39 where Points less 30 argmin Player Games
 where Nation equal Australia select Bronze as A where Nation equal India select Bronze as B diff A B
 where Nation equal Italy select Gold as A where Nation equal Brazil select Gold as B diff A B
-where Team equal Ballyroan_Abbey select Wins as A where Team equal Greystones select Wins as B diff A B
 where Nation equal Ukraine select Silver
 where Name equal Duncan_Welbourne select Year_inducted
 where 2nd_Venue equal Caracas select 1st_Venue
@@ -2339,7 +2311,6 @@ where Bronze greater 32 where Gold less 4 select Nation
 where Apps equal 169 where Goals equal 163 select Name
 where No._of_candidates less 12 where No._of_candidates greater 10 argmax State No._of_elected
 where Silver equal 6 where Gold equal 5 argmax Nation Rank
-where Team equal Greystones select Wins as A where Team equal Ballyroan_Abbey select Wins as B diff A B
 where Average equal 80 argmin Player Free_Throws
 where Year greater 2014 where Year less 2017 select 4th_Venue
 where State equal Goa select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly less A argmin State No._of_candidates
@@ -2500,7 +2471,6 @@ argmin Player 50s
 where 2nd_Venue equal Boston argmax Year Year
 where Player equal Ralf_Woods select Games_Played
 where Nation equal France select Bronze
-where Team equal Greystones select Wins as A where Team equal Maynooth select Wins as B diff A B
 where Goals greater 290 where Goals less 311 select Name
 where Country equal Australia select The_Open as A where Country equal Italy select The_Open as B sum A B
 argmax Name Apps
@@ -2588,7 +2558,6 @@ where 50s equal 5 where Matches greater 2 select Average
 where Year greater 2001 where Year less 2004 select 1st_Venue
 where Silver equal 3 where Gold equal 27 select Rank
 where Player equal John_Challen select Free_Throws
-where Team equal Crettyard select Wins as A where Team equal Greystones select Wins as B diff A B
 where 1st_Venue equal Changzhou sum
 where Gold equal 6 where Bronze equal 5 argmax Nation Rank
 where State equal Haryana select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
@@ -2655,7 +2624,6 @@ where Games equal 60 select Points
 where Player equal Albert_Clapp select Free_Throws
 where Country equal Italy select Masters as A where Country equal England select Masters as B sum A B
 where Nation equal Romania select Gold as A where Nation equal Netherlands select Gold as B diff A B
-where Team equal Greystones select Wins as A where Team equal Crettyard select Wins as B diff A B
 where Bronze equal 2 where Gold equal 62 select Rank
 where Average greater 50 argmin Player 100s
 where Gold equal 6 sum
@@ -2875,7 +2843,6 @@ where Nation equal Italy select Bronze as A where Nation equal Nepal select Bron
 where Year greater 2012 where Year less 2015 select 1st_Venue
 where 50s equal 5 where Games greater 10 select Points
 where Nation equal India select Silver as A where Nation equal Italy select Silver as B diff A B
-where Team equal Fingal_Ravens select Wins as A where Team equal Crettyard select Wins as B diff A B
 where Year_of_Election greater 1999 where Year_of_Election less 2006 argmax State No._of_candidates
 where 1st_Venue equal Caracas sum
 where Gold equal 6 where Silver equal 23 argmax Nation Rank
@@ -2903,7 +2870,6 @@ where Player equal George_Nichols select Matches
 where Country equal Spain select The_Open as A where Country equal Netherlands select The_Open as B sum A B
 where 50s greater 76 where Average less 7 argmax Player 100s
 where Goals greater 233 where Goals less 324 select Name
-where Team equal Ballyroan_Abbey select Wins as A where Team equal Maynooth select Wins as B diff A B
 where Team equal Crettyard select Years_won as A where Team equal Dundalk_Gael select Years_won as B diff A B
 where Nation equal Canada select Total
 where Team equal Crettyard select Prices as A where Team equal Maynooth select Prices as B diff A B
