@@ -1,5 +1,5 @@
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -8,9 +8,9 @@ Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
@@ -36,7 +36,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Name Year_inducted Position Apps Goals
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -95,7 +95,7 @@ Nation Name Position League_Apps League_Goals FA_Cup_Apps FA_Cup_Goals Total_App
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Country Masters U.S._Open The_Open PGA Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
@@ -167,7 +167,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Menteri_Besar Took_office Left_office Party
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -190,14 +190,14 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Nation Rank Gold Silver Bronze Total
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Name Year_inducted Position Apps Goals
 Country Masters U.S._Open The_Open PGA Total
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
@@ -257,7 +257,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Nation Rank Gold Silver Bronze Total
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Name Year_inducted Position Apps Goals
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Name Year_inducted Position Apps Goals
@@ -321,7 +321,7 @@ Name Year_inducted Position Apps Goals
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
@@ -366,7 +366,7 @@ Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Menteri_Besar Took_office Left_office Party
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
@@ -427,7 +427,7 @@ Country Masters U.S._Open The_Open PGA Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Name Year_inducted Position Apps Goals
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
@@ -471,7 +471,7 @@ Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Country Masters U.S._Open The_Open PGA Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -505,9 +505,9 @@ Name Year_inducted Position Apps Goals
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Name Year_inducted Position Apps Goals
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
@@ -523,7 +523,7 @@ Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
 Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
@@ -541,7 +541,7 @@ State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_El
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Name Year_inducted Position Apps Goals
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Name Position League_Apps League_Goals FA_Cup_Apps FA_Cup_Goals Total_Apps Total_Goals
 Name Year_inducted Position Apps Goals
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -557,7 +557,7 @@ Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Country Masters U.S._Open The_Open PGA Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -606,16 +606,16 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Name Year_inducted Position Apps Goals
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Name Year_inducted Position Apps Goals
@@ -645,7 +645,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
@@ -674,7 +674,7 @@ Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
@@ -705,7 +705,7 @@ Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -779,7 +779,7 @@ Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Country Masters U.S._Open The_Open PGA Total
@@ -801,7 +801,7 @@ Country Masters U.S._Open The_Open PGA Total
 Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -813,7 +813,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -822,7 +822,7 @@ Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
@@ -843,14 +843,14 @@ Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Country Masters U.S._Open The_Open PGA Total
 Country Masters U.S._Open The_Open PGA Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Name Year_inducted Position Apps Goals
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Name Year_inducted Position Apps Goals
 Country Masters U.S._Open The_Open PGA Total
 Name Year_inducted Position Apps Goals
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -884,7 +884,7 @@ Name Year_inducted Position Apps Goals
 Nation Rank Gold Silver Bronze Total
 Country Masters U.S._Open The_Open PGA Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Name Year_inducted Position Apps Goals
 Nation Rank Gold Silver Bronze Total
@@ -936,7 +936,7 @@ Nation Rank Gold Silver Bronze Total
 Nation Name Position League_Apps League_Goals FA_Cup_Apps FA_Cup_Goals Total_Apps Total_Goals
 Country Masters U.S._Open The_Open PGA Total
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Name Year_inducted Position Apps Goals
@@ -950,7 +950,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
@@ -1033,7 +1033,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Name Position League_Apps League_Goals FA_Cup_Apps FA_Cup_Goals Total_Apps Total_Goals
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -1048,7 +1048,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Name Year_inducted Position Apps Goals
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Name Position League_Apps League_Goals FA_Cup_Apps FA_Cup_Goals Total_Apps Total_Goals
 Country Masters U.S._Open The_Open PGA Total
@@ -1132,7 +1132,7 @@ Name Year_inducted Position Apps Goals
 Name Year_inducted Position Apps Goals
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Name Year_inducted Position Apps Goals
@@ -1160,7 +1160,7 @@ Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Country Masters U.S._Open The_Open PGA Total
 Country Masters U.S._Open The_Open PGA Total
@@ -1178,7 +1178,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Country Masters U.S._Open The_Open PGA Total
@@ -1187,8 +1187,8 @@ State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_El
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Country Masters U.S._Open The_Open PGA Total
-Team County Wins Years Areas Prices
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
 Name Year_inducted Position Apps Goals
 Country Masters U.S._Open The_Open PGA Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
@@ -1200,7 +1200,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
@@ -1212,17 +1212,17 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Nation Rank Gold Silver Bronze Total
 Country Masters U.S._Open The_Open PGA Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Country Masters U.S._Open The_Open PGA Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -1243,7 +1243,7 @@ Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Name Year_inducted Position Apps Goals
 Country Masters U.S._Open The_Open PGA Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
@@ -1358,7 +1358,7 @@ Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Name Year_inducted Position Apps Goals
@@ -1372,7 +1372,7 @@ Nation Rank Gold Silver Bronze Total
 Country Masters U.S._Open The_Open PGA Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Country Masters U.S._Open The_Open PGA Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Country Masters U.S._Open The_Open PGA Total
 Country Masters U.S._Open The_Open PGA Total
 Nation Rank Gold Silver Bronze Total
@@ -1383,7 +1383,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -1427,7 +1427,7 @@ Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
@@ -1438,7 +1438,7 @@ State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_El
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Country Masters U.S._Open The_Open PGA Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Name Year_inducted Position Apps Goals
@@ -1455,18 +1455,18 @@ Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
@@ -1511,10 +1511,10 @@ Nation Rank Gold Silver Bronze Total
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Country Masters U.S._Open The_Open PGA Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Country Masters U.S._Open The_Open PGA Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
@@ -1526,7 +1526,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Name Year_inducted Position Apps Goals
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
@@ -1568,7 +1568,7 @@ Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Name Year_inducted Position Apps Goals
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -1592,7 +1592,7 @@ Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -1624,7 +1624,7 @@ Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
@@ -1665,7 +1665,7 @@ Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -1675,7 +1675,7 @@ Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Country Masters U.S._Open The_Open PGA Total
@@ -1725,7 +1725,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Country Masters U.S._Open The_Open PGA Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -1733,7 +1733,7 @@ Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
@@ -1793,7 +1793,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -1811,7 +1811,7 @@ Country Masters U.S._Open The_Open PGA Total
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Country Masters U.S._Open The_Open PGA Total
 Nation Rank Gold Silver Bronze Total
@@ -1834,11 +1834,11 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Name Year_inducted Position Apps Goals
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Country Masters U.S._Open The_Open PGA Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Name Year_inducted Position Apps Goals
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
@@ -1882,7 +1882,7 @@ Name Year_inducted Position Apps Goals
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -1927,7 +1927,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -1938,7 +1938,7 @@ Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Menteri_Besar Took_office Left_office Party
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
@@ -1951,7 +1951,7 @@ Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Swara Position Short_name Notation Mnemonic
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -2012,7 +2012,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Country Masters U.S._Open The_Open PGA Total
@@ -2050,7 +2050,7 @@ Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
 Name Year_inducted Position Apps Goals
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -2061,17 +2061,17 @@ Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Name Year_inducted Position Apps Goals
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Country Masters U.S._Open The_Open PGA Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
@@ -2088,7 +2088,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
@@ -2108,19 +2108,19 @@ State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_El
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Name Year_inducted Position Apps Goals
 Country Masters U.S._Open The_Open PGA Total
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -2149,7 +2149,7 @@ Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -2174,7 +2174,7 @@ State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_El
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Country Masters U.S._Open The_Open PGA Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -2192,7 +2192,7 @@ Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Country Masters U.S._Open The_Open PGA Total
@@ -2234,7 +2234,7 @@ Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Nation Name Position League_Apps League_Goals FA_Cup_Apps FA_Cup_Goals Total_Apps Total_Goals
@@ -2252,7 +2252,7 @@ Nation Rank Gold Silver Bronze Total
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Name Year_inducted Position Apps Goals
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
@@ -2262,7 +2262,7 @@ Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Country Masters U.S._Open The_Open PGA Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -2275,13 +2275,13 @@ Country Masters U.S._Open The_Open PGA Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Name Year_inducted Position Apps Goals
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
@@ -2498,10 +2498,10 @@ Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Name Year_inducted Position Apps Goals
 Menteri_Besar Took_office Left_office Party
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Name Year_inducted Position Apps Goals
@@ -2516,7 +2516,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Country Masters U.S._Open The_Open PGA Total
 Country Masters U.S._Open The_Open PGA Total
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
 Nation Rank Gold Silver Bronze Total
@@ -2549,7 +2549,7 @@ Country Masters U.S._Open The_Open PGA Total
 Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
@@ -2570,10 +2570,10 @@ Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Country Masters U.S._Open The_Open PGA Total
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Country Masters U.S._Open The_Open PGA Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -2590,8 +2590,8 @@ Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
 Name Year_inducted Position Apps Goals
 Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
@@ -2664,7 +2664,7 @@ State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_El
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 State No._of_candidates No._of_elected Total_no._of_seats_in_Assembly Year_of_Election
 Nation Rank Gold Silver Bronze Total
@@ -2706,7 +2706,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Country Masters U.S._Open The_Open PGA Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Country Masters U.S._Open The_Open PGA Total
@@ -2735,7 +2735,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -2758,7 +2758,7 @@ Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Country Masters U.S._Open The_Open PGA Total
 Country Masters U.S._Open The_Open PGA Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -2861,7 +2861,7 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Name Year_inducted Position Apps Goals
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Country Masters U.S._Open The_Open PGA Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
@@ -2870,9 +2870,9 @@ Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throw
 Country Masters U.S._Open The_Open PGA Total
 Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
 Name Year_inducted Position Apps Goals
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Name Year_inducted Position Apps Goals
 Nation Rank Gold Silver Bronze Total
@@ -2896,7 +2896,7 @@ Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
 Nation Rank Gold Silver Bronze Total
-Team County Wins Years Areas Prices
+Team County Wins Years_won Areas Prices
 Nation Rank Gold Silver Bronze Total
 Menteri_Besar Took_office Left_office Party
 Nation Rank Gold Silver Bronze Total
@@ -2964,3 +2964,245 @@ Country Masters U.S._Open The_Open PGA Total
 Country Masters U.S._Open The_Open PGA Total
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
 Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Discipline Amanda Bernie Javine_H Julia Michelle
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Player Matches Innings Runs Average 100s 50s Games_Played Field_Goals Free_Throws Points
+Swara Position Short_name Notation Mnemonic
+Swara Position Short_name Notation Mnemonic
+Swara Position Short_name Notation Mnemonic
+Swara Position Short_name Notation Mnemonic
+Swara Position Short_name Notation Mnemonic
+Swara Position Short_name Notation Mnemonic
+Swara Position Short_name Notation Mnemonic
+Swara Position Short_name Notation Mnemonic
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Swara Position Short_name Notation Mnemonic
+Swara Position Short_name Notation Mnemonic
+Swara Position Short_name Notation Mnemonic
+Swara Position Short_name Notation Mnemonic
+Swara Position Short_name Notation Mnemonic
+Swara Position Short_name Notation Mnemonic
+Swara Position Short_name Notation Mnemonic
+Swara Position Short_name Notation Mnemonic
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Nation Rank Gold Silver Bronze Total
+Year 1st_Venue 2nd_Venue 3rd_Venue 4th_Venue 5th_Venue 6th_Venue
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices
+Team County Wins Years_won Areas Prices

@@ -2964,3 +2964,245 @@ where Country equal Spain select PGA as A where Country equal Wales select PGA a
 where Country equal England select Masters as A where Country equal Romania select Masters as B sum A B
 where 2nd_Venue equal Sidney sum
 where 1st_Venue equal Veracruz argmax Year Year
+where Matches greater 10 sum Player
+where Matches less 10 sum Player
+where Innings greater 10 sum Player
+where Innings less 10 sum Player
+where Runs greater 10 sum Player
+where Runs less 10 sum Player
+where Matches greater 20 sum Player
+where Matches less 20 sum Player
+where Innings greater 20 sum Player
+where Innings less 20 sum Player
+where Runs greater 20 sum Player
+where Runs less 20 sum Player
+where Matches greater 30 sum Player
+where Matches less 30 sum Player
+where Innings greater 30 sum Player
+where Innings less 30 sum Player
+where Runs greater 30 sum Player
+where Runs less 30 sum Player
+where Discipline equal Hurdles select Amanda
+where Discipline equal Cycling select Amanda
+where Discipline equal Swimming select Amanda
+where Discipline equal Curling select Amanda
+where Discipline equal Archery select Amanda
+where Discipline equal Hammer select Amanda
+where Discipline equal Hurdles select Bernie
+where Discipline equal Cycling select Bernie
+where Discipline equal Swimming select Bernie
+where Discipline equal Curling select Bernie
+where Discipline equal Archery select Bernie
+where Discipline equal Hammer select Bernie
+where Discipline equal Hurdles select Javine_H
+where Discipline equal Cycling select Javine_H
+where Discipline equal Swimming select Javine_H
+where Discipline equal Curling select Javine_H
+where Discipline equal Archery select Javine_H
+where Discipline equal Hammer select Javine_H
+where Discipline equal Hurdles select Julia
+where Discipline equal Cycling select Julia
+where Discipline equal Swimming select Julia
+where Discipline equal Curling select Julia
+where Discipline equal Archery select Julia
+where Discipline equal Hammer select Julia
+where Discipline equal Hurdles select Michelle
+where Discipline equal Cycling select Michelle
+where Discipline equal Swimming select Michelle
+where Discipline equal Curling select Michelle
+where Discipline equal Archery select Michelle
+where Discipline equal Hammer select Michelle
+where Player equal John select Matches as A where Player equal Albert select Matches as B diff A B
+where Player equal John select Matches as A where Player equal Bill select Matches as B diff A B
+where Player equal John select Matches as A where Player equal Herbie select Matches as B diff A B
+where Player equal John select Matches as A where Player equal George select Matches as B diff A B
+where Player equal Albert select Matches as A where Player equal John select Matches as B diff A B
+where Player equal Albert select Matches as A where Player equal Bill select Matches as B diff A B
+where Player equal Albert select Matches as A where Player equal Herbie select Matches as B diff A B
+where Player equal Albert select Matches as A where Player equal George select Matches as B diff A B
+where Player equal Bill select Matches as A where Player equal John select Matches as B diff A B
+where Player equal Bill select Matches as A where Player equal Albert select Matches as B diff A B
+where Player equal Bill select Matches as A where Player equal Herbie select Matches as B diff A B
+where Player equal Bill select Matches as A where Player equal George select Matches as B diff A B
+where Player equal Herbie select Matches as A where Player equal John select Matches as B diff A B
+where Player equal Herbie select Matches as A where Player equal Albert select Matches as B diff A B
+where Player equal Herbie select Matches as A where Player equal Bill select Matches as B diff A B
+where Player equal Herbie select Matches as A where Player equal George select Matches as B diff A B
+where Player equal George select Matches as A where Player equal John select Matches as B diff A B
+where Player equal George select Matches as A where Player equal Albert select Matches as B diff A B
+where Player equal George select Matches as A where Player equal Bill select Matches as B diff A B
+where Player equal George select Matches as A where Player equal Herbie select Matches as B diff A B
+where Player equal John select Innings as A where Player equal Albert select Innings as B diff A B
+where Player equal John select Innings as A where Player equal Bill select Innings as B diff A B
+where Player equal John select Innings as A where Player equal Herbie select Innings as B diff A B
+where Player equal John select Innings as A where Player equal George select Innings as B diff A B
+where Player equal Albert select Innings as A where Player equal John select Innings as B diff A B
+where Player equal Albert select Innings as A where Player equal Bill select Innings as B diff A B
+where Player equal Albert select Innings as A where Player equal Herbie select Innings as B diff A B
+where Player equal Albert select Innings as A where Player equal George select Innings as B diff A B
+where Player equal Bill select Innings as A where Player equal John select Innings as B diff A B
+where Player equal Bill select Innings as A where Player equal Albert select Innings as B diff A B
+where Player equal Bill select Innings as A where Player equal Herbie select Innings as B diff A B
+where Player equal Bill select Innings as A where Player equal George select Innings as B diff A B
+where Player equal Herbie select Innings as A where Player equal John select Innings as B diff A B
+where Player equal Herbie select Innings as A where Player equal Albert select Innings as B diff A B
+where Player equal Herbie select Innings as A where Player equal Bill select Innings as B diff A B
+where Player equal Herbie select Innings as A where Player equal George select Innings as B diff A B
+where Player equal George select Innings as A where Player equal John select Innings as B diff A B
+where Player equal George select Innings as A where Player equal Albert select Innings as B diff A B
+where Player equal George select Innings as A where Player equal Bill select Innings as B diff A B
+where Player equal George select Innings as A where Player equal Herbie select Innings as B diff A B
+where Player equal John select Runs as A where Player equal Albert select Runs as B diff A B
+where Player equal John select Runs as A where Player equal Bill select Runs as B diff A B
+where Player equal John select Runs as A where Player equal Herbie select Runs as B diff A B
+where Player equal John select Runs as A where Player equal George select Runs as B diff A B
+where Player equal Albert select Runs as A where Player equal John select Runs as B diff A B
+where Player equal Albert select Runs as A where Player equal Bill select Runs as B diff A B
+where Player equal Albert select Runs as A where Player equal Herbie select Runs as B diff A B
+where Player equal Albert select Runs as A where Player equal George select Runs as B diff A B
+where Player equal Bill select Runs as A where Player equal John select Runs as B diff A B
+where Player equal Bill select Runs as A where Player equal Albert select Runs as B diff A B
+where Player equal Bill select Runs as A where Player equal Herbie select Runs as B diff A B
+where Player equal Bill select Runs as A where Player equal George select Runs as B diff A B
+where Player equal Herbie select Runs as A where Player equal John select Runs as B diff A B
+where Player equal Herbie select Runs as A where Player equal Albert select Runs as B diff A B
+where Player equal Herbie select Runs as A where Player equal Bill select Runs as B diff A B
+where Player equal Herbie select Runs as A where Player equal George select Runs as B diff A B
+where Player equal George select Runs as A where Player equal John select Runs as B diff A B
+where Player equal George select Runs as A where Player equal Albert select Runs as B diff A B
+where Player equal George select Runs as A where Player equal Bill select Runs as B diff A B
+where Player equal George select Runs as A where Player equal Herbie select Runs as B diff A B
+where Player equal John select Average as A where Player equal Albert select Average as B diff A B
+where Player equal John select Average as A where Player equal Bill select Average as B diff A B
+where Player equal John select Average as A where Player equal Herbie select Average as B diff A B
+where Player equal John select Average as A where Player equal George select Average as B diff A B
+where Player equal Albert select Average as A where Player equal John select Average as B diff A B
+where Player equal Albert select Average as A where Player equal Bill select Average as B diff A B
+where Player equal Albert select Average as A where Player equal Herbie select Average as B diff A B
+where Player equal Albert select Average as A where Player equal George select Average as B diff A B
+where Player equal Bill select Average as A where Player equal John select Average as B diff A B
+where Player equal Bill select Average as A where Player equal Albert select Average as B diff A B
+where Player equal Bill select Average as A where Player equal Herbie select Average as B diff A B
+where Player equal Bill select Average as A where Player equal George select Average as B diff A B
+where Player equal Herbie select Average as A where Player equal John select Average as B diff A B
+where Player equal Herbie select Average as A where Player equal Albert select Average as B diff A B
+where Player equal Herbie select Average as A where Player equal Bill select Average as B diff A B
+where Player equal Herbie select Average as A where Player equal George select Average as B diff A B
+where Player equal George select Average as A where Player equal John select Average as B diff A B
+where Player equal George select Average as A where Player equal Albert select Average as B diff A B
+where Player equal George select Average as A where Player equal Bill select Average as B diff A B
+where Player equal George select Average as A where Player equal Herbie select Average as B diff A B
+where Player equal John select 100s as A where Player equal Albert select 100s as B diff A B
+where Player equal John select 100s as A where Player equal Bill select 100s as B diff A B
+where Player equal John select 100s as A where Player equal Herbie select 100s as B diff A B
+where Player equal John select 100s as A where Player equal George select 100s as B diff A B
+where Player equal Albert select 100s as A where Player equal John select 100s as B diff A B
+where Player equal Albert select 100s as A where Player equal Bill select 100s as B diff A B
+where Player equal Albert select 100s as A where Player equal Herbie select 100s as B diff A B
+where Player equal Albert select 100s as A where Player equal George select 100s as B diff A B
+where Player equal Bill select 100s as A where Player equal John select 100s as B diff A B
+where Player equal Bill select 100s as A where Player equal Albert select 100s as B diff A B
+where Player equal Bill select 100s as A where Player equal Herbie select 100s as B diff A B
+where Player equal Bill select 100s as A where Player equal George select 100s as B diff A B
+where Player equal Herbie select 100s as A where Player equal John select 100s as B diff A B
+where Player equal Herbie select 100s as A where Player equal Albert select 100s as B diff A B
+where Player equal Herbie select 100s as A where Player equal Bill select 100s as B diff A B
+where Player equal Herbie select 100s as A where Player equal George select 100s as B diff A B
+where Player equal George select 100s as A where Player equal John select 100s as B diff A B
+where Player equal George select 100s as A where Player equal Albert select 100s as B diff A B
+where Player equal George select 100s as A where Player equal Bill select 100s as B diff A B
+where Player equal George select 100s as A where Player equal Herbie select 100s as B diff A B
+where Swara equal Shatshruti_Dhaivata select Position as A where Position less A argmax Swara Position
+where Swara equal Shatshruti_Dhaivata select Position as A where Position greater A argmin Swara Position
+where Swara equal Shadja select Position as A where Position less A argmax Swara Position
+where Swara equal Shadja select Position as A where Position greater A argmin Swara Position
+where Swara equal Panchama select Position as A where Position less A argmax Swara Position
+where Swara equal Panchama select Position as A where Position greater A argmin Swara Position
+where Swara equal Antara_Gandhara select Position as A where Position less A argmax Swara Position
+where Swara equal Antara_Gandhara select Position as A where Position greater A argmin Swara Position
+where Team equal Ballyroan_Abbey select Years as A where Years greater A argmin Team Year
+where Team equal Ballyroan_Abbey select Years as A where Years less A argmax Team Year
+where Team equal Wolfe_Tones select Years as A where Years greater A argmin Team Year
+where Team equal Wolfe_Tones select Years as A where Years less A argmax Team Year
+where Team equal Maynooth select Years as A where Years greater A argmin Team Year
+where Team equal Maynooth select Years as A where Years less A argmax Team Year
+where Team equal Fingal_Ravens select Years as A where Years greater A argmin Team Year
+where Team equal Fingal_Ravens select Years as A where Years less A argmax Team Year
+where Team equal Ballyroan_Abbey select Years as A where Years greater A argmin Team Year
+where Team equal Ballyroan_Abbey select Years as A where Years less A argmax Team Year
+where Team equal Wolfe_Tones select Years as A where Years greater A argmin Team Year
+where Team equal Wolfe_Tones select Years as A where Years less A argmax Team Year
+where Team equal Maynooth select Years as A where Years greater A argmin Team Year
+where Team equal Maynooth select Years as A where Years less A argmax Team Year
+where Team equal Fingal_Ravens select Years as A where Years greater A argmin Team Year
+where Team equal Fingal_Ravens select Years as A where Years less A argmax Team Year
+where Team equal Ballyroan_Abbey select Years as A where Years greater A argmin Team Year
+where Team equal Ballyroan_Abbey select Years as A where Years less A argmax Team Year
+where Team equal Wolfe_Tones select Years as A where Years greater A argmin Team Year
+where Team equal Wolfe_Tones select Years as A where Years less A argmax Team Year
+where Team equal Maynooth select Years as A where Years greater A argmin Team Year
+where Team equal Maynooth select Years as A where Years less A argmax Team Year
+where Team equal Fingal_Ravens select Years as A where Years greater A argmin Team Year
+where Team equal Fingal_Ravens select Years as A where Years less A argmax Team Year
+where Gold greater 10 sum
+where Silver greater 10 sum
+where Bronze greater 10 sum
+where Gold less 10 sum
+where Silver less 10 sum
+where Bronze less 10 sum
+where Gold greater 20 sum
+where Silver greater 20 sum
+where Bronze greater 20 sum
+where Gold less 20 sum
+where Silver less 20 sum
+where Bronze less 20 sum
+where Gold greater 30 sum
+where Silver greater 30 sum
+where Bronze greater 30 sum
+where Gold less 30 sum
+where Silver less 30 sum
+where Bronze less 30 sum
+where Gold greater 40 sum
+where Silver greater 40 sum
+where Bronze greater 40 sum
+where Gold less 40 sum
+where Silver less 40 sum
+where Bronze less 40 sum
+where Gold greater 50 sum
+where Silver greater 50 sum
+where Bronze greater 50 sum
+where Gold less 50 sum
+where Silver less 50 sum
+where Bronze less 50 sum
+where Swara equal Shatshruti_Dhaivata select Position as A where Position less A argmax Swara Position
+where Swara equal Shatshruti_Dhaivata select Position as A where Position greater A argmin Swara Position
+where Swara equal Shadja select Position as A where Position less A argmax Swara Position
+where Swara equal Shadja select Position as A where Position greater A argmin Swara Position
+where Swara equal Panchama select Position as A where Position less A argmax Swara Position
+where Swara equal Panchama select Position as A where Position greater A argmin Swara Position
+where Swara equal Antara_Gandhara select Position as A where Position less A argmax Swara Position
+where Swara equal Antara_Gandhara select Position as A where Position greater A argmin Swara Position
+argmax Gold Gold as A argmin Gold Gold as B diff A B
+argmax Silver Silver as A argmin Silver Silver as B diff A B
+argmax Bronze Bronze as A argmin Bronze Bronze as B diff A B
+where Nation equal Algeria select Rank as A where Rank less A argmax Nation Rank
+where Nation equal Japan select Rank as A where Rank less A argmax Nation Rank
+where Nation equal France select Rank as A where Rank less A argmax Nation Rank
+where Nation equal Nepal select Rank as A where Rank less A argmax Nation Rank
+where Nation equal China select Rank as A where Rank less A argmax Nation Rank
+where Nation equal Algeria select Rank as A where Rank greater A argmin Nation Rank
+where Nation equal Japan select Rank as A where Rank greater A argmin Nation Rank
+where Nation equal France select Rank as A where Rank greater A argmin Nation Rank
+where Nation equal Nepal select Rank as A where Rank greater A argmin Nation Rank
+where Nation equal China select Rank as A where Rank greater A argmin Nation Rank
+argmax Year Year as A argmin Year Year as B diff A B
+where Team equal Ballymore_Eustace select Years_won as A where Years_won greater A select Team
+where Team equal Fingal_Ravens select Years_won as A where Years_won greater A select Team
+where Team equal Ballyroan_Abbey select Years_won as A where Years_won greater A select Team
+where Team equal Wolfe_Tones select Years_won as A where Years_won greater A select Team
+where Team equal Dundalk_Gaels select Years_won as A where Years_won greater A select Team
+where Team equal Ballymore_Eustace select Years_won as A where Years_won less A select Team
+where Team equal Fingal_Ravens select Years_won as A where Years_won less A select Team
+where Team equal Ballyroan_Abbey select Years_won as A where Years_won less A select Team
+where Team equal Wolfe_Tones select Years_won as A where Years_won less A select Team
+where Team equal Dundalk_Gaels select Years_won as A where Years_won less A select Team
