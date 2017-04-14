@@ -1,0 +1,20 @@
+**************************************
+Q & A:
+how to represent a <value> when it possibly indicate several different field (another machine learning problem: coreference resolution):
+combination of their word vector
+
+the difference between a number representation and a binary vector representation:
+number could tolerate an increase of classes, while the size of classes for binary representation is fixed.
+
+meaning of field_template:
+capability to add entity complexity into the NLI. e.g. (city, population…); (employee, age…)
+
+necessity of value_embed:
+completely unnecessary if we combined with Pointer Network
+
+**************************************
+Pipeline:
+1 first put convert schema into template representation
+convert the current logical forms to new forms with <field>
+2 tag each word in the input with corresponding item (tag with <field: id> and build dicts for <field:id>: template, <value:id>: words for the use of decoding, could be another function outside NN, before DBMS)
+3 During training it’s relatively simple: (tagged_query, new logical forms); during accuracy evaluation, convert new logical forms back to old logical forms and verify the accuracy. 
