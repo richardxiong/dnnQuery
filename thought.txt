@@ -1,5 +1,14 @@
 **************************************
 Q & A:
+what is template?
+a set that contain all the hash tags like #Name #Country 
+
+where could I get the template?
+TO DO !!!
+
+how to represent schema
+see in the tagger
+
 how to represent a <value> when it possibly indicate several different field (another machine learning problem: coreference resolution):
 combination of their word vector
 
