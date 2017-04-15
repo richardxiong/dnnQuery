@@ -195,12 +195,13 @@ def sentTagging(query, schema):
     
     filter_words = [',','the','a','an','for','of','in','on','with','than','and',\
     'is','are','do','does','did','has','have','had','what','how','many','number','get']
+    count_f = 0
     for i in range(len(words)):
         # 0th pass eliminate non-sense words
         if words[i] in filter_words:
         	continue
         # 1st pass normalize all the numbers to 00/000, but label them for decoding process
-    	if tag[i] is not "<nan>":
+        if tag[i] is not "<nan>":
             continue
         if strIsNum(words[i]):
             tag[i] = '<num>'
@@ -224,6 +225,7 @@ def sentTagging(query, schema):
     	# (4th pass NER for un-tagged name entity field string value, tag for schema[0])
     tag_sentence = ' '.join(tag)
     return tag_sentence
+
 
 def sentTagging_value(query, schema):
     #schema = ["Nation", "Rank", "Gold", "Silver", "Bronze", "#_participant", "Total"]
@@ -270,7 +272,7 @@ def sentTagging_value(query, schema):
         if words[i] in filter_words:
           continue
         # 1st pass normalize all the numbers to 00/000, but label them for decoding process
-      if tag[i] is not "<nan>":
+        if tag[i] is not "<nan>":
             continue
         if strIsNum(words[i]):
             tag[i] = '<num>'
@@ -293,10 +295,12 @@ def sentTagging_value(query, schema):
     
       # (4th pass NER for un-tagged name entity field string value, tag for schema[0])
     tag_sentence = ' '.join(tag)
+
+    # further change the logical forms to new_logical forms
     return tag_sentence
 
 
-f_ta = open('./rand_train.ta', 'w')
+f_ta = open('../data/rand_train.ta', 'w')
 schemas = []
 with open('../data/rand_train.fi') as f_fi:
     for sent in f_fi:
@@ -306,7 +310,7 @@ with open('../data/rand_train.qu') as f_qu:
     idx = 0
     for query in f_qu:
         print query
-        tagged = sentTagging(query, schemas[idx])
+        tagged = sentTagging_value(query, schemas[idx])
         print tagged
         f_ta.write(tagged + '\n')
         idx += 1
