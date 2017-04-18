@@ -16,7 +16,7 @@ class Config(object):
     word_dim = 100
     vocabulary_path = '../data/vocab10000.from'
     glove_path = '../../glove.6B/glove.6B.100d.txt'
-    max_vocabulary_size = 500000
+    max_vocabulary_size = 50000
 
     embedding_matrix, vocab, word_vector = scratch.generateEmbedMatrix(vocabulary_path, max_vocabulary_size, glove_path)
     # all keys for word_vector are in lowercase
@@ -146,7 +146,7 @@ class Config(object):
                         'Greece', 'Japan', 'Taiwan'], 
                      'query_word': ['country','nation','countries','nations']},
 			'Rank': {'value_type':'ordinal',
-            #'value_range': ['first', 'second', 'third', '1st', '2nd', '3rd','last']，
+            #'value_range': ['first', 'second', 'third', '1st', '2nd', '3rd','last'],
 						'query_word': ['rank', 'ranked']},
 			'Gold': {'value_type':'int',
 						'query_word': ['gold']},
