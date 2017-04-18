@@ -129,7 +129,7 @@ class Config(object):
 			'Party':{'value_type': 'string', 
                      'value_range': ['Conservatives', 'Green', 'Independent', 'Labour'], 
                      'query_word': ['party']},
-			'Took_office':{'value_type': 'string', 
+			'Took_office':{'value_type': 'date', 
                      'value_range': ['January', 'Febuary', 'March', 'April','May', 'June', 'July', 'August','September', 'December', 'November', 'October'], 
                      'query_word': ['take_office']},
       'Left_office':{'value_type': 'date', 
@@ -145,7 +145,8 @@ class Config(object):
                         'India', 'Liechtenstein', 'US', 'Czech', 'Austria', 'Yugoslavia', 'Saudi_Arabia', 'UK',
                         'Greece', 'Japan', 'Taiwan'], 
                      'query_word': ['country','nation','countries','nations']},
-			'Rank': {'value_type':'int',
+			'Rank': {'value_type':'ordinal',
+            #'value_range': ['first', 'second', 'third', '1st', '2nd', '3rd','last']，
 						'query_word': ['rank', 'ranked']},
 			'Gold': {'value_type':'int',
 						'query_word': ['gold']},
