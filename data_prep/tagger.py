@@ -323,6 +323,7 @@ def sentTagging_value(query, schema, logic=None):
                                       corresponding to the field at the same position in field_corr
     '''
     ### construct dictionaries ###
+    config = tu.Config()
     field2vecField, field2vecValue = fromWordtoVecList(schema)
     field_dict, value_dict = buildDictionary(schema)
     #print field_dict
@@ -441,10 +442,6 @@ def sentTagging_value(query, schema, logic=None):
 
         else:
             # check reference[1] == '<num>'
-            if reference[1] == '<num>':
-                # TO DO: find corresponding field name (correference model?)
-                # go over schema and check type, only one, then it is; more than one, check which in the field_corr
-                continue
             if reference[1] in field_corr:
                 idx = field_corr.index(reference[1])
                 tag2[i] = '<value>:'+str(idx)
@@ -454,11 +451,26 @@ def sentTagging_value(query, schema, logic=None):
                     value_corr[idx] += ';'+words[i]
 
             else:
+                if reference[1] == '<num>':
+                    continue
                 field_corr.append(reference[1])
                 value_corr.append(words[i])
                 idx = len(field_corr) - 1
                 tag2[i] = '<value>:'+str(idx)
     
+    # for i in range(len(tag2)):
+    #     if tag[i] == '<nan>' or tag2[i] != '<nan>':
+    #         continue
+    #     if len(words[i]) == 4:
+    #         # Year like fields
+    #         # TO DO: find corresponding field name (correference model?)
+    #         continue
+    #     l = len(field_corr)
+    #     for j in range(l):
+    #         if config.field2word[field_corr[l-1-j]]['value_type'] == 'int':
+    #             # compare value range
+    #             # go over schema from BACK and check type, only one, then it is; more than one, check which in the field_corr
+                    
     field_corr_sentence = ' '.join(field_corr)
     value_corr_sentence = ' '.join(value_corr)
     tag2_sentence = ' '.join(tag2)
