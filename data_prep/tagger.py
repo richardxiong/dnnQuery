@@ -31,14 +31,14 @@ def buildDictionary(schema):
         for query_word in value['query_word']:
             if query_word not in query_dict:
                 # one value could potentially corresponds to several field names
-                query_dict[query_word] = [] 
-            query_dict[query_word].append(key)
+                query_dict[query_word.lower()] = [] 
+            query_dict[query_word.lower()].append(key)
         if value['value_type'] is 'string':
             # build string_dict: for field values
             for word in value['value_range']:
                 if word not in string_dict:
-                    string_dict[word] = []
-                string_dict[word].append(key)
+                    string_dict[word.lower()] = []
+                string_dict[word.lower()].append(key)
         # else:
         #     # build num_dict
     return query_dict, string_dict#, num_dict
@@ -157,7 +157,7 @@ def spanInSpace2(vectorArray):
         for j in range(i+1, len(vectorArray)):
             x = EuDisSqu(vectorArray[i], vectorArray[j])
             dist_arr.append(x)
-        center += vectorArray[i]/len(vectorArray)
+        center += vectorArray[i] / len(vectorArray)
     dist_arr = np.array(dist_arr)
     dist = np.mean(dist_arr)
     std = np.std(dist_arr)
@@ -325,6 +325,8 @@ def sentTagging_value(query, schema, logic=None):
     ### construct dictionaries ###
     field2vecField, field2vecValue = fromWordtoVecList(schema)
     field_dict, value_dict = buildDictionary(schema)
+    #print field_dict
+    #print value_dict
     
     ### prepare query, schema, and initialize tag with <nan> ###
     query = query.lower()
@@ -338,7 +340,7 @@ def sentTagging_value(query, schema, logic=None):
     for i in range(len(schema)):
         vec_list = field2vecField[schema[i]]
         for j in range(len(vec_list)):
-            vec_sign = tuple(vec_list[j])
+            vec_sign = tuple(vec_list[j]) # vec_list[j]
             #vec_sign = vec_list[j]
             schema_vec[vec_sign] = schema[i]
     
@@ -347,90 +349,141 @@ def sentTagging_value(query, schema, logic=None):
     for i in range(len(schema)):
         vec_list2 = field2vecValue[schema[i]]
         for j in range(len(vec_list2)):
-            vec_sign2 = tuple(vec_list2[j])
+            vec_sign2 = tuple(vec_list2[j]) # vec_list2[j]
             #vec_sign = vec_list[j]
             schema_vec2[vec_sign] = schema[i]
     
     filter_words = [',','the','a','an','for','of','in','on','with','than','and',\
     'is','are','do','does','did','has','have','had','what','how','many','number','get']
     
-    field_corr = []
-    value_corr = []
-    count = 0
     for i in range(len(words)):
       # 0th pass eliminate non-sense words, label <num> and standby
         if words[i] in filter_words:
             continue
         if strIsNum(words[i]):
-            tag[i] = '<num>'
+            tag[i] = '<value>:<num>'
     
       # 1st pass exact match of field name
         if tag[i] is not "<nan>":
             continue
         if words[i] in field_dict:
+            tag[i] = '<field>:'
             if len(field_dict[words[i]]) == 1:
-                tag[i] = field_dict[words[i]][0]
+                tag[i] += field_dict[words[i]][0]
             else:
-                tag[i] = ';'.join(field_dict[words[i]])
-    
+                tag[i] += ';'.join(field_dict[words[i]])
+            
       # 2nd pass exact match of field values (CURRENTLY assume one word can NOT be both value and name)
+      # TO DO: later update to Bloom filter, for strings with high similarity to certain value
         if tag[i] is not "<nan>":
             continue
         if words[i] in value_dict:
+            tag[i] = '<value>:'
             if len(value_dict[words[i]]) == 1:
-                tag[i] = value_dict[words[i]][0]
+                tag[i] += value_dict[words[i]][0]
             else:
-                tag[i] = ';'.join(value_dict[words[i]])
-    
+                tag[i] += ';'.join(value_dict[words[i]])
+            
       # 3rd pass find field name according to string similarity (field with numerical values)
         if tag[i] is not "<nan>":
             continue
+        baseline = 0.55
         for j in range(len(schema)):
-            if strSimilarity(words[i], schema[j].lower()) >= 0.7:
+            if strSimilarity(words[i], schema[j].lower()) >= baseline:
                 tag[i] = schema[j]
+                baseline = strSimilarity(words[i], schema[j].lower())
+        if tag[i] is not '<nan>':
+            tag[i] = '<field>:' + tag[i]
     
       # 4th pass find values to closest field name in semantic space (name entities)
         #          find query words to closest field name in semantic space
-        if tag[i] is not "<nan>":
-            continue
-        # Nearest neighbor: finding closest clustroid
-        kneighbors = findKNearestNeighbor(words[i], schema_vec.keys() + schema_vec2.keys(), k = len(schema))
-        stat = dict()
-        for (vector, weight) in kneighbors:
-            if vector in schema_vec:
-                candidate = schema_vec[vector]
-            else:
-                candidate = schema_vec2[vector]
-            if candidate not in stat:
-                stat[candidate] = 0.0
-            stat[candidate] += weight
-        def getvalue(item):
-            return item[1]
-        weightlist = sorted(stat.items(), key=getvalue, reverse=True)
-        tag[i] = weightlist[0][0]
+        # if tag[i] is not "<nan>":
+        #     continue
+        # # Nearest neighbor: finding closest clustroid
+        # kneighbors = findKNearestNeighbor(words[i], [np.array(x) for x in (schema_vec.keys() + schema_vec2.keys())], k = len(schema))
+        # if kneighbors is None:
+        #     continue
+        # stat = dict()
+        # for (vector, weight) in kneighbors:
+        #     if tuple(vector) in schema_vec:
+        #         candidate = schema_vec[tuple(vector)]
+        #     else:
+        #         candidate = schema_vec2[tuple(vector)]
+        #     if candidate not in stat:
+        #         stat[candidate] = 0.0
+        #     stat[candidate] += weight
+        # def getvalue(item):
+        #     return item[1]
+        # weightlist = sorted(stat.items(), key=getvalue, reverse=True)
+        # tag[i] = weightlist[0][0]
         # if the_one is not None:
         #     tag[i] = schema_vec[the_one]
     
     tag_sentence = ' '.join(tag)
+    tag2 = ["<nan>" for x in tag]
+    field_corr = []
+    value_corr = []
+    # count = 0
+    for i in range(len(tag2)):
+        if tag[i] == "<nan>":
+            continue
+        reference = tag[i].split(':')
+        print reference
+        if reference[0] == '<field>':
+            if reference[1] in field_corr:
+                idx = field_corr.index(reference[1])
+                tag2[i] = '<field>:'+str(idx)
+            else:
+                field_corr.append(reference[1])
+                value_corr.append("<nan>")
+                idx = len(field_corr) - 1
+                tag2[i] = '<field>:'+str(idx)
 
+        else:
+            # check reference[1] == '<num>'
+            if reference[1] == '<num>':
+                # TO DO: find corresponding field name (correference model?)
+                # go over schema and check type, only one, then it is; more than one, check which in the field_corr
+                continue
+            if reference[1] in field_corr:
+                idx = field_corr.index(reference[1])
+                tag2[i] = '<value>:'+str(idx)
+                if value_corr[idx] is "<nan>":
+                    value_corr[idx] = words[i]
+                else:
+                    value_corr[idx] += ';'+words[i]
+
+            else:
+                field_corr.append(reference[1])
+                value_corr.append(words[i])
+                idx = len(field_corr) - 1
+                tag2[i] = '<value>:'+str(idx)
+    
+    field_corr_sentence = ' '.join(field_corr)
+    value_corr_sentence = ' '.join(value_corr)
+    tag2_sentence = ' '.join(tag2)
     # further change the logical forms to new_logical forms
-    return tag_sentence
+    return tag_sentence, field_corr_sentence, value_corr_sentence, tag2_sentence
 
 
 f_ta = open('../data/rand_train.ta', 'w')
-schemas = []
 with open('../data/rand_train.fi') as f_fi:
-    for sent in f_fi:
-        schema = sent.split()
-        schemas.append(schema)
-with open('../data/rand_train.qu') as f_qu:
-    idx = 0
-    for query in f_qu:
-        if idx == 100:
-            break
-        print query
-        tagged = sentTagging_value(query, schemas[idx])
-        print tagged
-        f_ta.write(tagged + '\n')
-        idx += 1
+    with open('../data/rand_train.qu') as f_qu:
+        sent, query = f_fi.readline(), f_qu.readline()
+        idx = 0
+        while sent and query:
+            idx += 1
+            if idx == 15:
+                break
+            schema = sent.split()
+            tagged, field_corr, value_corr, tagged2 = sentTagging_value(query, schema)
+            print sent
+            print query
+            print tagged
+            print field_corr
+            print value_corr
+            print tagged2
+            print '\n'
+            f_ta.write(tagged2 + '\n')
+            sent, query = f_fi.readline(), f_qu.readline()
 f_ta.close()
