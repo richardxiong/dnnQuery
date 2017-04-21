@@ -367,7 +367,7 @@ def sentTagging_knn_semantic(query, schema, logic=None):
     return None
 
 
-def sentTagging_value(query, schema, logic=None):
+def sentTagging_value(query, fields, logic=None):
     ''' Tag each word in a query with one of the three possible tokens:
           1. <nan>
           2. <field: i>
@@ -380,15 +380,16 @@ def sentTagging_value(query, schema, logic=None):
                 value correspondence: a list of the corresponding field values in seuquence ['13', 'China'],
                                       corresponding to the field at the same position in field_corr
     '''
+    ### prepare query, schema, and initialize tag with <nan> ###
+    query = query.lower()
+    words = basic_tokenizer(query)
+    schema = fields.split()
+    tag = ["<nan>" for x in words]
+    
     ### construct dictionaries ###
     config = tu.Config()
     field2vecField, field2vecValue = fromWordtoVecList(schema)
     field_dict, value_dict = buildDictionary(schema)
-    
-    ### prepare query, schema, and initialize tag with <nan> ###
-    query = query.lower()
-    words = basic_tokenizer(query)
-    tag = ["<nan>" for x in words]
     
     filter_words = [',','the','a','an','for','of','in','on','with','than','and',\
     'is','are','do','does','did','has','have','had','what','how','many','number','get']
@@ -432,7 +433,7 @@ def sentTagging_value(query, schema, logic=None):
         if tag[i] is not '<nan>':
             tag[i] = '<field>:' + tag[i]
       
-    tag_sentence = ' '.join(tag)
+    #tag_sentence = ' '.join(tag)
     tag2 = ["<nan>" for x in tag]
     field_corr = []
     value_corr = []
@@ -443,7 +444,7 @@ def sentTagging_value(query, schema, logic=None):
         if tag[i] == "<nan>":
             continue
         reference = tag[i].split(':')
-        print reference
+        #print reference
         if reference[0] == '<field>':
             if reference[1] in field_corr:
                 idx = field_corr.index(reference[1])
@@ -477,8 +478,8 @@ def sentTagging_value(query, schema, logic=None):
                 idx = len(field_corr) - 1
                 tag2[i] = '<value>:'+str(idx)
     
-    print num_field_position    #[(4, 1), (7, 2)]
-    print num_value_position    #[9]
+    #print num_field_position    #[(4, 1), (7, 2)]
+    #print num_value_position    #[9]
     for i in num_value_position:
         if len(words[i]) == 4:
             # find Year like fields
@@ -517,6 +518,13 @@ def sentTagging_value(query, schema, logic=None):
     value_corr_sentence = ' '.join(value_corr)
     tag2_sentence = ' '.join(tag2)
 
+    newquery = [x for x in words]
+    for i in range(len(tag2)):
+        if tag2[i] == '<nan>':
+            continue
+        newquery[i] = tag2[i]
+
+    newquery_sentence = ' '.join(newquery)
     if logic is not None:
         tokens = logic.split()
         newlogic = ['<nan>' for x in tokens]
@@ -535,7 +543,7 @@ def sentTagging_value(query, schema, logic=None):
     else:
         newlogic_sentence = None
     # further change the logical forms to new_logical forms
-    return tag_sentence, field_corr_sentence, value_corr_sentence, tag2_sentence, newlogic_sentence
+    return tag2_sentence, field_corr_sentence, value_corr_sentence, newquery_sentence, newlogic_sentence
 
 
 f_ta = open('../data/rand_train.ta', 'w')
@@ -544,26 +552,26 @@ f_qux = open('../data/rand_train.qux', 'w')
 with open('../data/rand_train.fi') as f_fi:
     with open('../data/rand_train.qu') as f_qu:
         with open('../data/rand_train.lo') as f_lo:
-            sent, query, logic = f_fi.readline(), f_qu.readline(), f_lo.readline()
+            schema, query, logic = f_fi.readline(), f_qu.readline(), f_lo.readline()
             idx = 0
-            while sent and query and logic:
+            while schema and query and logic:
                 # idx += 1
                 # if idx == 15:
                 #     break
-                schema = sent.split()
-                tagged, field_corr, value_corr, tagged2, newlogical = sentTagging_value(query, schema, logic)
-                print sent
-                print query
-                print logic
-                print tagged
-                print field_corr
-                print value_corr
-                print tagged2
-                print newlogical
-                print '\n'
+                tagged2, field_corr, value_corr, newquery, newlogical = sentTagging_value(query, schema, logic)
+                # print schema
+                # print query
+                # print logic
+                # print field_corr
+                # print value_corr
+                # print tagged2
+                # print newquery
+                # print newlogical
+                # print '\n'
+                f_qux.write(newquery + '\n')
                 f_lox.write(newlogical + '\n')
                 f_ta.write(tagged2 + '\n')
-                sent, query, logic = f_fi.readline(), f_qu.readline(), f_lo.readline()
+                schema, query, logic = f_fi.readline(), f_qu.readline(), f_lo.readline()
 f_ta.close()
 f_lox.close()
 f_qux.close()
