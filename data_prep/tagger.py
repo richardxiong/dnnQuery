@@ -546,12 +546,12 @@ def sentTagging_value(query, fields, logic=None):
     return tag2_sentence, field_corr_sentence, value_corr_sentence, newquery_sentence, newlogic_sentence
 
 
-f_ta = open('../data/rand_train.ta', 'w')
-f_lox = open('../data/rand_train.lox', 'w')
-f_qux = open('../data/rand_train.qux', 'w')
-with open('../data/rand_train.fi') as f_fi:
-    with open('../data/rand_train.qu') as f_qu:
-        with open('../data/rand_train.lo') as f_lo:
+f_ta = open('../data/rand_dev.ta', 'w')
+f_lox = open('../data/rand_dev.lox', 'w')
+f_qux = open('../data/rand_dev.qux', 'w')
+with open('../data/rand_dev.fi') as f_fi:
+    with open('../data/rand_dev.qu') as f_qu:
+        with open('../data/rand_dev.lo') as f_lo:
             schema, query, logic = f_fi.readline(), f_qu.readline(), f_lo.readline()
             idx = 0
             while schema and query and logic:
