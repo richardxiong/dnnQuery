@@ -50,7 +50,7 @@ NAN_ID = 4
 NUM_ID = 5
 
 # Regular expressions used to tokenize.
-_WORD_SPLIT = re.compile(b"([,!?\"':;)(])")   # get rid of '.'
+_WORD_SPLIT = re.compile(b"([,!?\"')(])")   # get rid of '.':;
 _DIGIT_RE = re.compile(br"\d")
 
 # URLs for WMT data.
@@ -121,7 +121,7 @@ def basic_tokenizer(sentence):
 
 
 def create_vocabulary(vocabulary_path, data_path, max_vocabulary_size,
-                      tokenizer=None, normalize_digits=True):
+                      tokenizer=None, normalize_digits=False):
   """Create vocabulary file (if it does not exist yet) from data file.
   Data file is assumed to contain one sentence per line. Each sentence is
   tokenized and digits are normalized (if normalize_digits is set).
@@ -189,7 +189,7 @@ def initialize_vocabulary(vocabulary_path):
 
 
 def sentence_to_token_ids(sentence, vocabulary,
-                          tokenizer=None, normalize_digits=True):
+                          tokenizer=None, normalize_digits=False):
   """Convert a string to list of integers representing token-ids.
   For example, a sentence "I have a dog" may become tokenized into
   ["I", "have", "a", "dog"] and with vocabulary {"I": 1, "have": 2,
@@ -217,7 +217,7 @@ def sentence_to_token_ids(sentence, vocabulary,
 
 
 def data_to_token_ids(data_path, target_path, vocabulary_path,
-                      tokenizer=None, normalize_digits=True):
+                      tokenizer=None, normalize_digits=False):
   """Tokenize data file and turn into token-ids using given vocabulary file.
   This function loads data line-by-line from data_path, calls the above
   sentence_to_token_ids, and saves the result to target_path. See comment

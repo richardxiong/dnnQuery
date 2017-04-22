@@ -42,34 +42,65 @@ def generateEmbedMatrix(vocabulary_path, max_vocabulary_size, glove_path = None)
 				embedding_matrix[vocab[token], :] = np.array(word_vectors[token]) 
 	return embedding_matrix, vocab, word_vectors
 
-# _buckets = [(10, 8), (15, 12), (20, 16), (24, 21)]
+def bucketStat():
+	_buckets = [(11, 8), (15, 12), (20, 16), (24, 21)]
+	max_size = None
+	data_set = [[] for _ in _buckets]
 
-# max_size = None
-# data_set = [[] for _ in _buckets]
-# with tf.gfile.GFile('./data6/rand_train.qu', mode="r") as source_file:
-#     with tf.gfile.GFile('./data6/rand_train.lo', mode="r") as target_file:
-#         with tf.gfile.GFile('./data6/rand_train.ta', mode="r") as tag_file:
-#             source, target, tag = source_file.readline(), target_file.readline(), tag_file.readline()
-#             counter = 0
-#             while source and target and tag and (not max_size or counter < max_size):
-#                 counter += 1
-#                 if counter % 200 == 0:
-#                     print("  reading data line %d" % counter)
-#                     sys.stdout.flush()
-#                 source_ids = [x for x in source.split()]
-#                 target_ids = [x for x in target.split()]
-#                 tag_ids = [x for x in tag.split()]
-#                 target_ids.append(data_utils.EOS_ID)
-#                 for bucket_id, (source_size, target_size) in enumerate(_buckets):
-#                     if len(source_ids) < source_size and len(target_ids) < target_size:
-#                         data_set[bucket_id].append([source_ids, tag_ids, target_ids])
-#                         break
-#                 source, target, tag = source_file.readline(), target_file.readline(), tag_file.readline()
+	with tf.gfile.GFile('../data/rand_train.qu', mode="r") as source_file:
+    	with tf.gfile.GFile('../data/rand_train.lo', mode="r") as target_file:
+        	with tf.gfile.GFile('../data/rand_train.ta', mode="r") as tag_file:
+            	source, target, tag = source_file.readline(), target_file.readline(), tag_file.readline()
+            	counter = 0
+            	while source and target and tag and (not max_size or counter < max_size):
+                	counter += 1
+                	if counter % 200 == 0:
+                    	print("  reading data line %d" % counter)
+                    	sys.stdout.flush()
+                	source_ids = [x for x in source.split()]
+                	target_ids = [x for x in target.split()]
+                	tag_ids = [x for x in tag.split()]
+                	target_ids.append(data_utils_tag.EOS_ID)
+                	for bucket_id, (source_size, target_size) in enumerate(_buckets):
+                    	if len(source_ids) < source_size and len(target_ids) < target_size:
+                        	data_set[bucket_id].append([source_ids, tag_ids, target_ids])
+                        	break
+                	source, target, tag = source_file.readline(), target_file.readline(), tag_file.readline()
 
-# print "bucket 0: %d" % len(data_set[0])
-# print "bucket 1: %d" % len(data_set[1])
-# print "bucket 2: %d" % len(data_set[2])
-# print "bucket 3: %d" % len(data_set[3])
+	print "bucket 0: %d" % len(data_set[0])		# 811
+	print "bucket 1: %d" % len(data_set[1])		# 880
+	print "bucket 2: %d" % len(data_set[2])		# 829
+	print "bucket 3: %d" % len(data_set[3])		# 631
+	return
 
 def randomizeData():
+	Fqu = []
+	Flo = []
+	Ffi = []
+
+	with open('../data/rand_dev.fi') as f_fi:
+    	with open('../data/rand_dev.qu') as f_qu:
+        	with open('../data/rand_dev.lo') as f_lo:
+            	schema, query, logic = f_fi.readline(), f_qu.readline(), f_lo.readline()
+            	idx = 0
+            	while schema and query and logic:
+                	Fqu.append(query)
+                	Flo.append(logic)
+                	Ffi.append(schema)
+                	schema, query, logic = f_fi.readline(), f_qu.readline(), f_lo.readline()
+                
+	num = np.random.permutation(len(Fqu))
+	print num
+	f_fi1 = open('../data/rand_dev2.fi', 'w')
+	f_lo1 = open('../data/rand_dev2.lo', 'w')
+	f_qu1 = open('../data/rand_dev2.qu', 'w')
+
+	for i in range(len(num)):
+    	f_lo1.write(Flo[num[i]])
+    	f_fi1.write(Ffi[num[i]])
+    	f_qu1.write(Fqu[num[i]])
+
+	f_fi1.close()
+	f_qu1.close()
+	f_lo1.close()
 	return
