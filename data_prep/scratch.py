@@ -32,7 +32,8 @@ def generateEmbedMatrix(vocabulary_path, max_vocabulary_size, glove_path = None)
 		word_vectors = constructGloveDict(glove_path, max_vocabulary_size)
 	else:
 		word_vectors = None
-	embedding_matrix = np.asarray(np.random.normal(0, 0.9, (len(vocab), 100)), dtype = 'float32')
+	# random initialize word vectors, with a larger radius than glove vector, in order to deal with outside-vocab words
+	embedding_matrix = np.asarray(np.random.uniform(-1.99, 1.99, (len(vocab), 100)), dtype = 'float32')
 
 	if word_vectors is not None:
 		print "Replacing GloVe word vectors as initialization"
@@ -70,51 +71,5 @@ def generateEmbedMatrix(vocabulary_path, max_vocabulary_size, glove_path = None)
 # print "bucket 2: %d" % len(data_set[2])
 # print "bucket 3: %d" % len(data_set[3])
 
-#embedding_matrix = generateEmbedMatrix('./data4/wikicompose_train.qu.ids10000', './glove.6B/glove.6B.50d.txt', 100000)
-#print embedding_matrix
-
-#f_qu = open('wikicompose_1_random.qu', 'w')
-#f_lo = open('wikicompose_1_random.lo', 'w')
-
-# f_qu1 = open('wikicompose_train.qu', 'w')
-# f_lo1 = open('wikicompose_train.lo', 'w')
-# f_qu2 = open('wikicompose_dev.qu', 'w')
-# f_lo2 = open('wikicompose_dev.lo', 'w')
-
-# Fqu = [[] for i in range(97)]
-# Flo = [[] for i in range(97)]
-
-# count = 0
-# hash_func = dict()
-# with open('wikicompose_1_random.lo') as f1:
-#     for line in f1:
-#         num = random.randint(0, 96)
-#         hash_func[count] = num
-#         Flo[num].append(line)
-#         count += 1
-
-# count2 = 0
-# with open('wikicompose_1_random.qu') as f2:
-#     for line in f2:
-#         num = hash_func[count2]
-#         Fqu[num].append(line)
-#         count2 += 1
-
-# for i in range(97):
-#     if i < 81:
-#         for line in Flo[i]:
-#             f_lo1.write(line)
-#         for line in Fqu[i]:
-#             f_qu1.write(line)
-#     else:
-#         for line in Flo[i]:
-#             f_lo2.write(line)
-#         for line in Fqu[i]:
-#             f_qu2.write(line)
-        
-# # f_qu.close()
-# # f_lo.close()
-# f_qu1.close()
-# f_lo1.close()
-# f_qu2.close()
-# f_lo2.close()
+def randomizeData():
+	return
