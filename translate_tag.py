@@ -1,33 +1,17 @@
-# Copyright 2015 The TensorFlow Authors. All Rights Reserved.
-# Model modified by Hongyu Xiong: Deep neural parsing for database query
+# Tensorflow Model modified by Hongyu Xiong: Deep neural parsing for database query
 # specific model: (1) embedding_attention_seq2seq_pretrain
 # (2) embedding_attention_seq2seq_pretrain2_tag
 # (3) model_with_buckets_tag
 # (4) functions are also outputting last encoder hidden state for PCA visual
 #
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 # ==============================================================================
 
 """Binary for training translation models and decoding from them.
-Running this program without --decode will download the WMT corpus into
+Running this program without --decode will download the corpus into
 the directory specified as --data_dir and tokenize it in a very basic way,
 and then start training a model saving checkpoints to --train_dir.
 Running with --decode starts an interactive loop so you can see how
-the current checkpoint translates English sentences into French.
-See the following papers for more information on neural translation models.
- * http://arxiv.org/abs/1409.3215
- * http://arxiv.org/abs/1409.0473
- * http://arxiv.org/abs/1412.2007
+the current checkpoint translates natual language queries into SQL-like logical forms.
 """
 from __future__ import absolute_import
 from __future__ import division
@@ -64,7 +48,7 @@ end of it
 '''
 #==================================================================================
 
-tf.app.flags.DEFINE_float("learning_rate", 0.05, "Learning rate.")
+tf.app.flags.DEFINE_float("learning_rate", 0.05 * 0.007, "Learning rate.")
 tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.99,
                           "Learning rate decays by this much.")
 tf.app.flags.DEFINE_float("max_gradient_norm", 5.0,
@@ -106,9 +90,9 @@ FLAGS = tf.app.flags.FLAGS
 
 # We use a number of buckets and pad to the closest one for efficiency.
 # See seq2seq_model.Seq2SeqModel for details of how they work.
-### _buckets = [(10, 8), (15, 12), (20, 16), (24, 21)]
+### _buckets = [(11, 8), (15, 12), (20, 16), (24, 21)]
 # 1. no field / tagging model
-_buckets = [(10, 8), (13, 10), (18, 13), (23, 21)]  # less pad then previous
+_buckets = [(10, 8), (15, 12), (19, 16), (23, 21)] #less pad then previous
 # 2. add entity
 #_buckets = [(11, 8), (14, 10), (19, 13), (24, 21)]
 # 3. add field

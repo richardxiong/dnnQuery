@@ -483,6 +483,7 @@ def sentTagging_value(query, fields, logic=None):
     for i in num_value_position:
         if len(words[i]) == 4:
             # find Year like fields
+            the_one = None
             for j in range(len(schema)):
                 if config.field2word[schema[j]]['value_type'] == 'date':
                     # find year_like field
@@ -509,10 +510,11 @@ def sentTagging_value(query, fields, logic=None):
                 idx = m
                 nearest_dist = np.abs(j - i)
         tag2[i] = '<value>:'+str(idx)
-        if value_corr[idx] is "<nan>":
-            value_corr[idx] = words[i]
-        else:
-            value_corr[idx] += ';'+words[i]
+        if idx is not None:
+            if value_corr[idx] is "<nan>":
+                value_corr[idx] = words[i]
+            else:
+                value_corr[idx] += ';'+words[i]
                     
     field_corr_sentence = ' '.join(field_corr)
     value_corr_sentence = ' '.join(value_corr)
@@ -546,18 +548,19 @@ def sentTagging_value(query, fields, logic=None):
     return tag2_sentence, field_corr_sentence, value_corr_sentence, newquery_sentence, newlogic_sentence
 
 
-f_ta = open('../data/rand_dev.ta', 'w')
-f_lox = open('../data/rand_dev.lox', 'w')
-f_qux = open('../data/rand_dev.qux', 'w')
-with open('../data/rand_dev.fi') as f_fi:
-    with open('../data/rand_dev.qu') as f_qu:
-        with open('../data/rand_dev.lo') as f_lo:
+f_ta = open('../data/rand_train.ta', 'w')
+f_lox = open('../data/rand_train.lox', 'w')
+f_qux = open('../data/rand_train.qux', 'w')
+with open('../data/rand_train.fi') as f_fi:
+    with open('../data/rand_train.qu') as f_qu:
+        with open('../data/rand_train.lo') as f_lo:
             schema, query, logic = f_fi.readline(), f_qu.readline(), f_lo.readline()
             idx = 0
             while schema and query and logic:
                 # idx += 1
                 # if idx == 15:
                 #     break
+                # print '### example: %d ###' % idx
                 tagged2, field_corr, value_corr, newquery, newlogical = sentTagging_value(query, schema, logic)
                 # print schema
                 # print query
