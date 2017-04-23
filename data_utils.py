@@ -1,9 +1,4 @@
 # Copyright 2015 The TensorFlow Authors. All Rights Reserved.
-# Model modified by Hongyu Xiong: Deep neural parsing for database query
-# specific model: (1) embedding_attention_seq2seq_pretrain
-# (2) embedding_attention_seq2seq_pretrain2_tag
-# (3) model_with_buckets_tag
-# (4) functions are also outputting last encoder hidden state for PCA visual
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -38,16 +33,12 @@ _PAD = b"_PAD"
 _GO = b"_GO"
 _EOS = b"_EOS"
 _UNK = b"_UNK"
-_NAN = b"<nan>"
-_NUM = b"<num>"
 _START_VOCAB = [_PAD, _GO, _EOS, _UNK]
 
 PAD_ID = 0
 GO_ID = 1
 EOS_ID = 2
 UNK_ID = 3
-NAN_ID = 4
-NUM_ID = 5
 
 # Regular expressions used to tokenize.
 _WORD_SPLIT = re.compile(b"([,!?\"')(])")   # get rid of '.':;
@@ -148,7 +139,6 @@ def create_vocabulary(vocabulary_path, data_path, max_vocabulary_size,
         line = tf.compat.as_bytes(line)
         tokens = tokenizer(line) if tokenizer else basic_tokenizer(line)
         for w in tokens:
-          #word = _DIGIT_RE.sub(b"0", w) if normalize_digits else w
           word = _DIGIT_RE.sub(b"0", w) if normalize_digits else w
           if word in vocab:
             vocab[word] += 1
@@ -210,10 +200,8 @@ def sentence_to_token_ids(sentence, vocabulary,
     words = basic_tokenizer(sentence)
   if not normalize_digits:
     return [vocabulary.get(w, UNK_ID) for w in words]
-  else:
-    # Normalize digits by 0 before looking words up in the vocabulary.
-    return [vocabulary.get(_DIGIT_RE.sub(b"0", w), UNK_ID) for w in words]
-
+  # Normalize digits by 0 before looking words up in the vocabulary.
+  return [vocabulary.get(_DIGIT_RE.sub(b"0", w), UNK_ID) for w in words]
 
 
 def data_to_token_ids(data_path, target_path, vocabulary_path,
@@ -268,19 +256,16 @@ def prepare_wmt_data(data_dir, en_vocabulary_size, fr_vocabulary_size, tokenizer
   train_path = os.path.join(data_dir, "rand_train")
   dev_path = os.path.join(data_dir, "rand_dev")
 
-  from_train_path = train_path + ".qu"
-  to_train_path = train_path + ".lox"   # we have a new logical form, 04/20/2017
-  tag_train_path = train_path + ".ta"
-  from_dev_path = dev_path + ".qu"
-  to_dev_path = dev_path + ".lox"   # we have a new logical form, 04/20/2017
-  tag_dev_path = dev_path + ".ta"
-  return prepare_data(data_dir, from_train_path, to_train_path, tag_train_path,
-                      from_dev_path, to_dev_path, tag_dev_path, en_vocabulary_size,
+  from_train_path = train_path + ".qux"
+  to_train_path = train_path + ".lox"
+  from_dev_path = dev_path + ".qux"
+  to_dev_path = dev_path + ".lox"
+  return prepare_data(data_dir, from_train_path, to_train_path, from_dev_path, to_dev_path, en_vocabulary_size,
                       fr_vocabulary_size, tokenizer)
 
 
-def prepare_data(data_dir, from_train_path, to_train_path, tag_train_path, from_dev_path, to_dev_path, tag_dev_path,
-                    from_vocabulary_size, to_vocabulary_size, tokenizer=None):
+def prepare_data(data_dir, from_train_path, to_train_path, from_dev_path, to_dev_path, from_vocabulary_size,
+                 to_vocabulary_size, tokenizer=None):
   """Preapre all necessary files that are required for the training.
     Args:
       data_dir: directory in which the data sets will be stored.
@@ -310,21 +295,17 @@ def prepare_data(data_dir, from_train_path, to_train_path, tag_train_path, from_
   # Create token ids for the training data.
   to_train_ids_path = to_train_path + (".ids%d" % to_vocabulary_size)
   from_train_ids_path = from_train_path + (".ids%d" % from_vocabulary_size)
-  tag_train_ids_path = tag_train_path + (".ids%d" % to_vocabulary_size)
   data_to_token_ids(to_train_path, to_train_ids_path, to_vocab_path, tokenizer)
   data_to_token_ids(from_train_path, from_train_ids_path, from_vocab_path, tokenizer)
-  data_to_token_ids(tag_train_path, tag_train_ids_path, to_vocab_path, tokenizer)
 
   # Create token ids for the development data.
   to_dev_ids_path = to_dev_path + (".ids%d" % to_vocabulary_size)
   from_dev_ids_path = from_dev_path + (".ids%d" % from_vocabulary_size)
-  tag_dev_ids_path = tag_dev_path + (".ids%d" % to_vocabulary_size)
   data_to_token_ids(to_dev_path, to_dev_ids_path, to_vocab_path, tokenizer)
   data_to_token_ids(from_dev_path, from_dev_ids_path, from_vocab_path, tokenizer)
-  data_to_token_ids(tag_dev_path, tag_dev_ids_path, to_vocab_path, tokenizer)
 
-  return (from_train_ids_path, to_train_ids_path, tag_train_ids_path,
-          from_dev_ids_path, to_dev_ids_path, tag_dev_ids_path, 
+  return (from_train_ids_path, to_train_ids_path,
+          from_dev_ids_path, to_dev_ids_path,
           from_vocab_path, to_vocab_path)
 
   # Get wmt data to the specified directory.

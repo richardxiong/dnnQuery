@@ -574,6 +574,7 @@ with open('../data/rand_train.fi') as f_fi:
                 f_qux.write(newquery + '\n')
                 f_lox.write(newlogical + '\n')
                 f_ta.write(tagged2 + '\n')
+                # TO DO: export field_corr and value_corr
                 schema, query, logic = f_fi.readline(), f_qu.readline(), f_lo.readline()
 f_ta.close()
 f_lox.close()
