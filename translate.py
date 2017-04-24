@@ -99,7 +99,7 @@ FLAGS = tf.app.flags.FLAGS
 # We use a number of buckets and pad to the closest one for efficiency.
 # It is better to try to make the numbers in each bucket being close:
 # 1. no field / tagging model
-_buckets = [(10, 8), (15, 12), (20, 16), (24, 21)]
+_buckets = [(10, 8), (15, 12), (19, 16), (23, 21)]
 # 2. add entity
 #_buckets = [(11, 8), (16, 12), (21, 16), (25, 21)]
 # 3. add field
