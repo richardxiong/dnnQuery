@@ -26,7 +26,7 @@ from six.moves import xrange  # pylint: disable=redefined-builtin
 import tensorflow as tf
 
 import data_utils
-import scratch
+import scratchX
 import legacy_seq2seq as ls
 
 class Seq2SeqModel(object):
@@ -82,8 +82,8 @@ class Seq2SeqModel(object):
       dtype: the data type to use to store internal variables.
     """
     # changed by Kaifeng
-    self.from_vocab_path = './data/vocab10000.from'
-    self.to_vocab_path = './data/vocab10000.to'
+    self.from_vocab_path = './datax/vocab10000.from'
+    self.to_vocab_path = './datax/vocab10000.to'
     self.glove_path = '../glove.6B/glove.6B.100d.txt'
     self.source_vocab_size = source_vocab_size
     self.target_vocab_size = target_vocab_size
@@ -134,7 +134,7 @@ class Seq2SeqModel(object):
       cell = tf.contrib.rnn.MultiRNNCell([single_cell() for _ in range(num_layers)])
 
     # Add pretrained embedding
-    embedding_matrix, _, _ = scratch.generateEmbedMatrix(self.from_vocab_path, 500000, self.glove_path)
+    embedding_matrix, _, _ = scratchX.generateEmbedMatrix(self.from_vocab_path, 500000, self.glove_path)
     # The seq2seq function: we use embedding for the input and attention.
     def seq2seq_f(encoder_inputs, decoder_inputs, do_decode):
       ## ADD EMbedding: encoder_input, decoder_input... ###

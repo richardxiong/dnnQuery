@@ -22,8 +22,19 @@ necessity of value_embed:
 completely unnecessary if we combined with Pointer Network
 
 **************************************
-Pipeline:
+Pipeline: ——— Contribution Pipeline
 1 first put convert schema into template representation
 convert the current logical forms to new forms with <field>
 2 tag each word in the input with corresponding item (tag with <field: id> and build dicts for <field:id>: template, <value:id>: words for the use of decoding, could be another function outside NN, before DBMS)
 3 During training it’s relatively simple: (tagged_query, new logical forms); during accuracy evaluation, convert new logical forms back to old logical forms and verify the accuracy. 
+
+**************************************
+1 Generate more data: take Wikitable questions and categorized by logical forms (and schema), augment to more data (it would be best if we have a factor of 10~100X than current data) ——— contribution Dataset, data augmentation (later study GAN)
+
+3 Learning model for current value-field correspondence ——— contribution Tagging model
+
+2 Evaluate on other dataset
+
+4 bloom filter which is able to check even similar words (for values, and field too if enabled)
+
+5 optimization: beam search, hyper parameter control, LSTM

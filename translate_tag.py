@@ -299,8 +299,8 @@ def decode():
 
     # Decode from standard input.
     # changed by Kaifeng, for test
-    testQuestionFile = FLAGS.test_dir + '/test.qu'
-    testTagFile = FLAGS.test_dir + '/test.ta'   # For tagging model, Hongyu
+    testQuestionFile = FLAGS.data_dir + '/rand_test.qu'
+    testTagFile = FLAGS.data_dir + '/rand_test.ta'   # For tagging model, Hongyu
     testTableFile = FLAGS.test_dir +'/test.json'
 
     offset = 0; # the test data is the last 20000 items in the table
@@ -310,7 +310,7 @@ def decode():
             tables = json.load(testTables)
         answerOutput = open(FLAGS.test_dir + '/answer.out', 'w')
 
-    logicalFormOutput = open(FLAGS.test_dir + '/logicalForm.out', 'w')
+    logicalFormOutput = open(FLAGS.test_dir + '/logicalForm_test.out', 'w')
 
     ### evaluating tagging model, Hongyu
     
