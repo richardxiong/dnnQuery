@@ -547,10 +547,20 @@ def sentTagging_value(query, fields, logic=None):
     # further change the logical forms to new_logical forms
     return tag2_sentence, field_corr_sentence, value_corr_sentence, newquery_sentence, newlogic_sentence
 
+def templateToLogicalfrom(field_corr_path, value_corr_path, template_path):
+    f_lo = open('../evaluation/forms_train.lo', 'w')
+    with open(field_corr_path) as f_ficorr:
+        with open(value_corr_path) as f_vacorr:
+            with open(template_path) as f_lox:
+                field_corr, value_corr, newlogical = f_ficorr.readline(), f_vacorr.readline(), f_lox.readline()
+                # go over each token in newlogical and replace with corresponding field name
+    return None
 
 f_ta = open('../data/rand_train.ta', 'w')
 f_lox = open('../data/rand_train.lox', 'w')
 f_qux = open('../data/rand_train.qux', 'w')
+f_ficorr = open('../evaluation/rand_train.ficorr', 'w')
+f_vacorr = open('../evaluation/rand_train.vacorr', 'w')
 with open('../data/rand_train.fi') as f_fi:
     with open('../data/rand_train.qu') as f_qu:
         with open('../data/rand_train.lo') as f_lo:
@@ -562,20 +572,24 @@ with open('../data/rand_train.fi') as f_fi:
                 #     break
                 # print '### example: %d ###' % idx
                 tagged2, field_corr, value_corr, newquery, newlogical = sentTagging_value(query, schema, logic)
-                # print schema
-                # print query
-                # print logic
-                # print field_corr
-                # print value_corr
-                # print tagged2
-                # print newquery
-                # print newlogical
-                # print '\n'
+                print schema
+                print query
+                print logic
+                print field_corr
+                print value_corr
+                print tagged2
+                print newquery
+                print newlogical
+                print '\n'
                 f_qux.write(newquery + '\n')
                 f_lox.write(newlogical + '\n')
+                f_ficorr.write(field_corr +'\n')
+                f_vacorr.write(value_corr + '\n')
                 f_ta.write(tagged2 + '\n')
                 # TO DO: export field_corr and value_corr
                 schema, query, logic = f_fi.readline(), f_qu.readline(), f_lo.readline()
 f_ta.close()
 f_lox.close()
 f_qux.close()
+f_vacorr.close()
+f_ficorr.close()
