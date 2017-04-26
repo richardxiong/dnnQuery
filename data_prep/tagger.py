@@ -557,10 +557,11 @@ def templateToLogicalfrom(field_corr_sentence, value_corr_sentence, newlogic_sen
     newlogical = newlogic_sentence.split()
     field_corr = field_corr_sentence.split()
     value_corr = value_corr_sentence.split()
-    print newlogical
-    print field_corr
-    print value_corr
+    # print newlogical
+    # print field_corr
+    # print value_corr
     # go over each token in newlogical and replace with corresponding field name
+    checkcount = dict()   # used for keep track field with multiple values appeared
     for i in range(len(newlogical)):
         reference = newlogical[i].split(':')
         print reference
@@ -570,10 +571,20 @@ def templateToLogicalfrom(field_corr_sentence, value_corr_sentence, newlogic_sen
         if reference[0] == '<field>':
             idx = int(reference[1])
             logic.append(field_corr[idx])
+            if field_corr[idx] not in checkcount:
+                checkcount[field_corr[idx]] = 0
+            else: 
+                checkcount[field_corr[idx]] += 1
         else:
             idx = int(reference[1])
-            logic.append(value_corr[idx])
-    print logic
+            # check whether value_corr[idx] is single value
+            value_choice = value_corr[idx].split(';')
+            if len(value_choice) == 1:
+                logic.append(value_corr[idx])
+                continue
+            pick = checkcount[field_corr[idx]]
+            logic.append(value_choice[pick])
+    #print logic
     logic_sentence = ' '.join(logic)
     return logic_sentence
 
@@ -591,8 +602,8 @@ def main2():
                 idx = 0
                 while field_corr and value_corr and newlogical:
                     idx += 1
-                    if idx == 15:
-                        break
+                    # if idx == 15:
+                    #     break
                     print '### example: %d ###' % idx
                     logic = templateToLogicalfrom(field_corr, value_corr, newlogical)
                     print newlogical
