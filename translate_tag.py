@@ -274,7 +274,7 @@ def train():
           for j in range(FLAGS.batch_size):
             for i in range(FLAGS.num_layers): # all the layer of encoders are outputed
               words = [str(num) for num in eval_lasthidden[i][j]]
-              f_lh.write(' '.join(words))
+              f_lh.write(','.join(words))
             f_lh.write('\n')
         f_lh.close()
         sys.stdout.flush()

@@ -318,9 +318,9 @@ where Nation equal Croatia select Total
 where Bronze equal 97 select Nation
 where Country equal Spain select PGA as A where Country equal England select PGA as B sum A B
 where Gold less 32 where Total greater 28 select Nation
-where Team equal Dundalk_Gaels select Years_won as A where Team equal Ballyroan_Abbey select Years_won as B diff A B
+where Team equal Dundalk_Gael select Years_won as A where Team equal Ballyroan_Abbey select Years_won as B diff A B
 where Innings equal 5 where 100s greater 15 select Points
-where Team equal Dundalk_Gaels select Years_won as A where Team equal Fingal_Ravens select Years_won as B diff A B
+where Team equal Dundalk_Gael select Years_won as A where Team equal Fingal_Ravens select Years_won as B diff A B
 where 50s equal 5 where 100s greater 15 select Points
 where 4th_Venue equal Caracas select Year
 where Year equal 2007 select 1st_Venue
@@ -334,7 +334,7 @@ where Average less 30 argmin Player Field_Goals
 where Nation equal Italy select Bronze as A where Nation equal Brazil select Bronze as B diff A B
 where Silver equal 49 select Nation
 where 2nd_Venue equal Sheffield select 1st_Venue
-where Team equal Dundalk_Gaels select Areas as A where Team equal Ballyroan_Abbey select Areas as B diff A B
+where Team equal Dundalk_Gael select Areas as A where Team equal Ballyroan_Abbey select Areas as B diff A B
 where Nation equal Italy select Gold as A where Nation equal Spain select Gold as B diff A B
 where Team equal Wolfe_Tones select Years as A where Years greater A argmin Team Year
 where State equal Madhya_Pradesh select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly less A argmin State No._of_candidates
@@ -388,7 +388,7 @@ where 2nd_Venue equal Veracruz argmax Year Year
 where 2nd_Venue equal Minneapolis argmin Year Year
 where Player equal John_Felmley select Points
 where Player equal Herbie_Hewett select Matches
-where Nation equal China mean Total_App
+where Nation equal China mean Total_Apps
 where Runs greater 400 where Average less 7 argmin Player 100s
 where Nation equal Great_Britain select Total
 where Average less 70 argmax Player Matches
@@ -406,7 +406,7 @@ where Innings greater 30 sum Player
 where Player equal Ray_Woods select Games_Played
 where Nation equal Nepal select Bronze as A where Nation equal Italy select Bronze as B diff A B
 argmax Runs Runs
-where Nation equal France mean Total_App
+where Nation equal France mean Total_Apps
 where Runs equal 15 where Matches greater 10 select Average
 where Nation equal Japan mean League_Apps
 where Innings greater 39 where Average less 7 argmin Player 100s
