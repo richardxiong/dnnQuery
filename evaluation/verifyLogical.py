@@ -27,13 +27,13 @@ with open(test_truth) as infile:
         # for i in range(len(wordsList)):
         #     wordsList[i] = _DIGIT_RE.sub(b"0", wordsList[i])
         # truth.append(' '.join(wordsList))
-        truth.append(wordsList)
+        truth.append(wordsList.lower())
 
 index = 0
 with open(test_output) as infile:
     for line in infile:
         line = line.strip()
-        if line == truth[index]:
+        if line.lower() == truth[index]:
             correct += 1
         index += 1
 

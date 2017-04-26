@@ -1,0 +1,14 @@
+where Nation equal italy;india select Silver as A where Nation equal italy;india select Silver as B diff A B
+where Name equal tommy_mooney select Year_inducted
+where 4th_Venue equal sydney select Year
+where Goals greater 22 argmin Name Apps
+where Player equal george_nichols select Free_Throws
+where Runs greater 39 where Average less 14 argmax Player Games_Played
+where Nation equal japan select Bronze
+where Name equal duncan_welbourne select Position
+where 2nd_Venue equal havana argmax Year Year
+where Silver equal 6 sum
+where Average equal 50 argmax Player Field_Goals
+where 3rd_Venue equal chicago select 2nd_Venue
+where Player equal john_challen select Points
+where Total greater 0 sum

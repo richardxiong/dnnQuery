@@ -547,14 +547,63 @@ def sentTagging_value(query, fields, logic=None):
     # further change the logical forms to new_logical forms
     return tag2_sentence, field_corr_sentence, value_corr_sentence, newquery_sentence, newlogic_sentence
 
-def templateToLogicalfrom(field_corr_path, value_corr_path, template_path):
-    # f_lo = open('../evaluation/forms_train.lo', 'w')
-    # with open(field_corr_path) as f_ficorr:
-    #     with open(value_corr_path) as f_vacorr:
-    #         with open(template_path) as f_lox:
-    #             field_corr, value_corr, newlogical = f_ficorr.readline(), f_vacorr.readline(), f_lox.readline()
-                # go over each token in newlogical and replace with corresponding field name
-    return None
+
+def templateToLogicalfrom(field_corr_sentence, value_corr_sentence, newlogic_sentence):
+    ''' given newlogical template with field_corr and value_corr
+        output the declarative logical form
+    '''
+    
+    logic = []
+    newlogical = newlogic_sentence.split()
+    field_corr = field_corr_sentence.split()
+    value_corr = value_corr_sentence.split()
+    print newlogical
+    print field_corr
+    print value_corr
+    # go over each token in newlogical and replace with corresponding field name
+    for i in range(len(newlogical)):
+        reference = newlogical[i].split(':')
+        print reference
+        if len(reference) == 1:
+            logic.append(newlogical[i])
+            continue
+        if reference[0] == '<field>':
+            idx = int(reference[1])
+            logic.append(field_corr[idx])
+        else:
+            idx = int(reference[1])
+            logic.append(value_corr[idx])
+    print logic
+    logic_sentence = ' '.join(logic)
+    return logic_sentence
+
+
+def main2():
+    ''' convert .lox back to .lo, the final stage of NLIDB pipeline
+              (template)->(declarative)
+        using for the final accuracy check
+    '''
+    f_lo = open('../evaluation/forms_train.lo', 'w')
+    with open('../evaluation/rand_train.ficorr') as f_ficorr:
+        with open('../evaluation/rand_train.vacorr') as f_vacorr:
+            with open('../data/rand_train.lox') as f_lox:
+                field_corr, value_corr, newlogical = f_ficorr.readline(), f_vacorr.readline(), f_lox.readline()
+                idx = 0
+                while field_corr and value_corr and newlogical:
+                    idx += 1
+                    if idx == 15:
+                        break
+                    print '### example: %d ###' % idx
+                    logic = templateToLogicalfrom(field_corr, value_corr, newlogical)
+                    print newlogical
+                    print field_corr
+                    print value_corr
+                    print logic
+                    f_lo.write(logic + '\n')
+                    field_corr, value_corr, newlogical = f_ficorr.readline(), f_vacorr.readline(), f_lox.readline()
+    f_lo.close()
+    return
+
 
 def main1():
     ''' process data, from .qu, .lo, and .fi
@@ -599,4 +648,5 @@ def main1():
     f_ficorr.close()
     return
 
-main1()
+#main1()
+main2()
