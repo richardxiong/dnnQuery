@@ -1,7 +1,7 @@
 where <field>:1 equal <value>:1 select <field>:0
 where Name equal Tommy_Mooney select <field>:0
 where <field>:1 equal Sidney select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
@@ -9,45 +9,45 @@ where Name equal Duncan_Welbourne select <field>:0
 where <field>:1 equal Havana argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 sum
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
-where <field>:3 equal Tokyo select <field>:1
+where <field>:3 equal Shanghai argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where Total greater 0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:1 equal Cambridge argmax <field>:0 <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 equal 0 sum
-where <field>:1 less <value>:1 select <field>:0
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
+where <field>:0 equal <value>:0 sum
+where Player equal Ray_Woods select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal Chicago argmax <field>:0 <field>:0
+where <field>:1 equal Boston argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal Nassau argmin <field>:0 <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2
-where <field>:1 equal Chicago argmax <field>:0 <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:1 equal <value>:1 select <field>:0
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:1 equal Detroit argmin <field>:0 <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:1 equal <value>:1 select <field>:0
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:2 equal <value>:2 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where Nation equal Moldova select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:0 equal <value>:0 select <field>:1
 where <field>:0 equal <value>:0 sum
 where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:0 select <field>:0
 where Nation equal Belarus select <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 argmax <field>:0 Year
@@ -60,7 +60,7 @@ where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:0 equal <value>:0 select Nation
 where <field>:1 equal <value>:1 select <field>:0
 argmin <field>:0 <field>:1
@@ -68,26 +68,26 @@ where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where Name equal Duncan_Welbourne select <field>:0
 where Nation equal Estonia select <field>:0
-where <field>:0 equal Andhra_Pradesh select <field>:2
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:2 equal <value>:2 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
-where <field>:1 equal <value>:2 argmax <field>:0 <field>:0
+where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:0 select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:3 equal Tokyo select <field>:1
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:3 equal Tokyo argmax <field>:0 <field>:3
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
@@ -95,43 +95,43 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where Player equal Gordon_Otto select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
 where Name equal Nigel_Gibbs select <field>:0
 where <field>:1 equal Havana select <field>:0
+where <field>:0 equal <value>:0 select <field>:1
 where <field>:0 equal <value>:0 sum
-where <field>:1 equal <value>:0 sum
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:1 equal <value>:0 sum
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 sum
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
-where <field>:0 equal Los_Angeles select <field>:2 as A where <field>:1 less A
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:0 equal <value>:0 select <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
 where Nation equal Armenia select <field>:0
-where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where Player equal Ernest_McKay select <field>:0
 where <field>:1 less <value>:1 where <field>:2 greater <value>:2 select <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:1 equal Hangzhou argmax <field>:0 <field>:0
+where <field>:1 equal Hangzhou argmin <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 select <field>:1
 where <field>:0 equal <value>:0 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:2 select <field>:0
 argmax <field>:0 <field>:1
 where Nation equal United_States mean <field>:0
@@ -140,22 +140,22 @@ where <field>:0 equal <value>:0 select Nation
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where Nation equal Czech_Republic select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
 argmax <field>:1 <field>:1 as A argmin <field>:1 <field>:1 as B diff A B
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 select <field>:1
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:2 equal <value>:2 select <field>:0
 where Name equal Luther_Blissett select <field>:0
 where <field>:1 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
+where <field>:1 equal <value>:1 argmin <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 greater <value>:0 select Nation
@@ -174,12 +174,12 @@ where Nation equal Great_Britain mean <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:3 equal Hangzhou argmax <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal Hangzhou argmax <field>:0 <field>:0
 where <field>:1 greater <value>:1 where <field>:2 greater <value>:2 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2
@@ -189,11 +189,11 @@ argmax <field>:0 <field>:1
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 argmin <field>:0 <field>:0
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:2
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 less <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
@@ -205,12 +205,12 @@ where <field>:1 equal <value>:1 select <field>:0
 where Nation equal Uzbekistan select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where Nation equal Malaysia select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where Name equal Duncan_Welbourne select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
@@ -218,7 +218,7 @@ where <field>:1 equal <value>:2 select <field>:0
 where <field>:1 equal Tokyo argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
@@ -229,61 +229,61 @@ where <field>:1 equal Nassau select <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 argmin <field>:0 Year
-where <field>:1 equal <value>:2 argmax <field>:0 <field>:0
+where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where Nation equal Czech_Republic select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:2 less <value>:2 argmax <field>:0 <field>:1
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 argmax <field>:0 <field>:1
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 equal <value>:0 sum
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:3 equal <value>:1 select <field>:1
+where <field>:3 equal <value>:1 where <field>:3 equal <value>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 sum
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:0 equal <value>:0 sum
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:0 equal Detroit sum
 where Nation equal Estonia select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal Hangzhou argmax <field>:0 <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
-where <field>:3 equal Shanghai select <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:3 equal <value>:3 select <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:2
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:0 equal <value>:0 select Nation
@@ -292,7 +292,7 @@ where Nation equal Belarus select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 mean <field>:0
@@ -312,33 +312,33 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where Name equal David_James select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal 0 select <field>:0
+where <field>:1 equal <value>:0 select <field>:0
 where <field>:1 greater <value>:1 sum
 where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal Sidney argmax <field>:0 <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 argmax <field>:0 <field>:0
-where <field>:1 equal <value>:1 argmin <field>:0 <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:0 equal <value>:0 select <field>:1
 where <field>:0 equal Shanghai sum
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where Nation equal United_States mean <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:0 equal George_Halas select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:0 equal Meghalaya select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal Los_Angeles select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
@@ -346,33 +346,33 @@ where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 select points
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where State equal Manipur select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 select <field>:1
+where <field>:1 equal <value>:0 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 argmin <field>:0 <field>:1
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where Nation equal Scotland mean <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 less <value>:1 where <field>:2 greater <value>:2 select <field>:0
 where <field>:1 equal 0 sum
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:2 equal <value>:2 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:0 equal <value>:0 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:2 equal <value>:2 select <field>:0
@@ -380,31 +380,31 @@ where <field>:1 equal Austin argmax <field>:0 <field>:0
 where <field>:1 greater <value>:1 where <field>:2 greater <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 argmax <field>:0 <field>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where Games equal <value>:2 select <field>:0
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where Name equal John_McClelland select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 less <value>:1 sum
 where Player equal Ralf_Woods select <field>:0
-argmax <field>:1 Year
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 equal Washington argmax <field>:0 <field>:0
+where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 less <value>:1 where <field>:2 greater <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
@@ -414,52 +414,52 @@ where Name equal Luther_Blissett select <field>:0
 where <field>:1 equal <value>:1 mean League_App
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:1 equal <value>:1 select <field>:0
 where Nation equal Uganda select <field>:0
-where <field>:3 equal Hangzhou select <field>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:3 equal Hangzhou argmax <field>:0 <field>:3
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where Name equal Ross_Jenkins select <field>:0
-where <field>:1 equal Seattle select <field>:0
+where <field>:1 greater 0 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where Nation equal Bahamas select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 argmax <field>:0 <field>:1
 where <field>:2 equal <value>:2 argmin <field>:0 <field>:1
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:2 select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 equal <value>:1 argmin <field>:0 <field>:2
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal Seattle argmax <field>:0 <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:0 equal <value>:0 sum
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 less <value>:1 where <field>:2 greater <value>:2 select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:0 greater <value>:0 select Nation
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:0 equal 9 select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:0 equal Tamil_Nadu select <field>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:0 select <field>:0
@@ -469,33 +469,33 @@ where <field>:0 equal <value>:0 sum
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:3 equal Hangzhou select <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal Hangzhou argmax <field>:0 <field>:0
+where <field>:1 equal Washington argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 sum
 where <field>:2 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:2
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal Shanghai select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where Name equal Luther_Blissett select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal Los_Angeles select <field>:2
+where <field>:0 equal <value>:0 select <field>:2
 where <field>:0 equal <value>:0 sum
-where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 select <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 greater <value>:2 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
@@ -507,7 +507,7 @@ where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where Name equal Ross_Jenkins select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
-where <field>:0 equal <value>:1 select <field>:2
+where <field>:0 equal <value>:0 select <field>:2
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where Nation equal Great_Britain select <field>:0
@@ -521,43 +521,43 @@ where Nation equal Clyde_Alwood select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
-where <field>:1 equal <value>:2 argmax <field>:0 <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 argmin <field>:0 Year
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:1 equal <value>:0 sum
-where <field>:0 equal George_Halas select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:0 equal <value>:0 sum
+where <field>:0 equal Meghalaya select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where Nation equal Estonia select <field>:0
 where <field>:1 equal <value>:0 sum
 where Nation equal United_States mean League_App
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
-where <field>:1 equal <value>:1 select <field>:0
+where <field>:1 greater <value>:1 argmin <field>:0 <field>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:0 equal <value>:0 sum
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where Player equal Ralf_Woods select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:0 select <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where Name equal Tommy_Mooney select <field>:0
 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal Mizoram select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:0 equal Meghalaya select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:0 equal <value>:0 sum
-where <field>:0 equal George_Halas select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:0 equal Chhattisgarh select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
@@ -571,14 +571,14 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 select points
 where <field>:1 equal <value>:1 select <field>:0
+where <field>:1 equal <value>:1 argmin <field>:0 <field>:2
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:0 sum
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 select <field>:1
+where <field>:1 equal <value>:0 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
@@ -586,7 +586,7 @@ where <field>:1 less <value>:1 sum
 where Name equal Les_Taylor select <field>:0
 where Games equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:2
 where <field>:1 equal Seattle select <field>:0
 where Player equal Ernest_McKay select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
@@ -595,14 +595,14 @@ where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 greater <value>:2 select <field>:0
 where <field>:1 equal <value>:2 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:0 equal Sidney sum
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:0 equal <value>:0 sum
 where <field>:1 equal Austin select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:1 equal <value>:0 sum
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:0 equal <value>:0 sum
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
@@ -611,9 +611,9 @@ where Name equal Tony_Coton select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:0 equal <value>:0 sum
 where <field>:2 equal <value>:1 argmax <field>:0 <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:1 equal <value>:0 sum
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:0 equal <value>:0 sum
 where <field>:0 greater <value>:0 select Nation
 where <field>:1 equal <value>:1 sum
 argmax County <field>:0
@@ -627,18 +627,18 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:
 where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
 where Name equal Les_Taylor select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 less <value>:1 sum <field>:0
-where <field>:0 equal Manipur select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:0 equal Chhattisgarh select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:0 greater <value>:0 select Nation
 argmax <field>:0 <field>:1
-where <field>:0 greater 0 where <field>:2 greater 0
-where <field>:1 equal <value>:2 argmax <field>:0 <field>:0
-where <field>:0 equal Manipur select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 select <field>:0
+where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
+where <field>:0 equal Chhattisgarh select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 argmin <field>:0 <field>:1
@@ -648,7 +648,7 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:2 equal <value>:2 select <field>:0
 where State equal Tripura select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
@@ -663,7 +663,7 @@ where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal Seattle select <field>:0
 where <field>:3 equal Tokyo argmax <field>:0 <field>:3
-where <field>:2 equal <value>:2 select <field>:0
+where <field>:0 equal <value>:0 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
@@ -675,19 +675,19 @@ argmax <field>:0 <field>:1
 where <field>:2 equal <value>:2 select <field>:0
 where Nation equal Great_Britain select <field>:0
 where <field>:1 equal <value>:1 sum
-where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 select <field>:1
 where <field>:1 equal <value>:1 mean <field>:0
 where <field>:1 equal Chicago argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 equal Sidney argmax <field>:0 <field>:0
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
+where <field>:1 equal Sidney argmin <field>:0 <field>:0
 where Name equal Ian_Bolton select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
@@ -695,23 +695,23 @@ where <field>:2 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:1 equal <value>:2 select <field>:0
 argmin <field>:0 Rank
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:3 equal Hangzhou select <field>:1
+where <field>:3 equal Hangzhou argmax <field>:0 <field>:3
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:0 sum
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
-where <field>:1 equal <value>:2 argmax <field>:0 <field>:0
+where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
 where <field>:0 equal Tokyo sum
 where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:2
 where <field>:2 equal <value>:2 select <field>:0
@@ -725,22 +725,22 @@ where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:0 equal <value>:0 select <field>:1
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal 1 select <field>:0
-where <field>:1 equal Hangzhou select <field>:0
+where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 mean <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where Nation equal Cuba select <field>:0
-where <field>:3 equal Nassau select <field>:1
-where Nation equal Ray_Woods select <field>:0
+where <field>:3 equal Hangzhou select <field>:1
+where <field>:0 equal Shatshruti_Dhaivata select Position
 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal Seattle select <field>:0
+where <field>:1 greater 0 select <field>:0
 where <field>:3 equal Hangzhou select <field>:1
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
@@ -750,15 +750,15 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:
 where Nation equal Cuba select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:0 equal <value>:0 sum
 argmin <field>:0 Year
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:3 equal <value>:1 select <field>:1
+where <field>:3 equal <value>:1 where <field>:3 equal <value>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
@@ -771,25 +771,25 @@ where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2
-where <field>:1 greater 0 argmax <field>:0 <field>:2
+where <field>:1 greater 0 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 greater <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-argmin League_App League_App
+argmin League_Goals League_Goals
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal Chicago argmax <field>:0 <field>:0
 where <field>:2 equal <value>:2 select points
 where <field>:1 equal <value>:1 mean <field>:0
-where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
-where <field>:1 equal <value>:2 argmax <field>:0 <field>:0
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
+where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:0 equal <value>:0 select <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:1 equal <value>:0 sum
-where <field>:0 equal Los_Angeles select <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 select <field>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
@@ -800,22 +800,22 @@ where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:0 equal <value>:0 sum
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 equal <value>:0 sum
-where <field>:3 equal Tokyo select <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:0 equal <value>:0 sum
+where <field>:3 equal Tokyo argmax <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
@@ -823,22 +823,22 @@ where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
 where Nation equal Jamaica select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:1 equal <value>:2 argmax <field>:0 <field>:0
-where <field>:1 equal 0 sum
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
+where <field>:1 equal <value>:0 sum
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:2 equal <value>:2 select points
 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 argmin <field>:0 <field>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 argmax <field>:1 Year
@@ -847,7 +847,7 @@ argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 less <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
@@ -860,27 +860,27 @@ where <field>:0 equal <value>:0 sum
 where Nation equal Respect argmax <field>:0 Number
 argmin <field>:0 <field>:1
 where <field>:1 less <value>:1 select <field>:0
-where <field>:1 equal <value>:0 sum
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:0 equal <value>:0 sum
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal Shanghai argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 equal 0 sum
-where <field>:0 equal George_Halas select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:0 equal Mizoram select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:0 greater 0 where <field>:2 greater 0
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 less <value>:1 sum <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
 where <field>:1 equal Boston select <field>:0
 where <field>:1 equal <value>:1 sum
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
-where <field>:1 equal Seattle argmax <field>:0 <field>:0
+where <field>:1 equal Seattle argmin <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 argmax <field>:0 Rank
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
@@ -890,25 +890,25 @@ where <field>:0 equal <value>:0 select <field>:1
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:1 less <value>:1 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:1 less <value>:1 argmin <field>:0 <field>:2
 where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 select <field>:1
 argmax <field>:0 <field>:1
-where <field>:3 equal Hangzhou select <field>:1
+where <field>:3 equal Hangzhou argmax <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where State equal Uttarakhand select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:2 equal <value>:2 select <field>:0
 where Nation equal Jamaica select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
@@ -916,12 +916,12 @@ where <field>:1 equal Boston select <field>:0
 where <field>:0 equal <value>:0 select <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where Nation equal Scotland mean League_App
-where <field>:1 equal <value>:0 select <field>:1
+where <field>:1 equal <value>:0 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where Games equal <value>:2 select <field>:0
 where <field>:1 equal <value>:0 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where Party equal Respect argmax <field>:0 Number
+where Nation equal Respect select <field>:0
 where Nation equal United_States select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
@@ -942,16 +942,16 @@ where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 less <value>:1 sum
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal <value>:0 sum
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:0 equal <value>:0 select <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
 argmin <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
@@ -963,24 +963,24 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 argmin <field>:0 <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:0 less <value>:0 select County
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 mean League_App
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
-where <field>:2 equal <value>:2 select <field>:0
+where <field>:0 equal <value>:0 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
 argmin <field>:1 Year
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
@@ -989,18 +989,18 @@ where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 argmax <field>:0 <field>:1
 where <field>:0 equal <value>:0 select Nation
 where <field>:1 equal <value>:2 where <field>:2 equal <value>:2 argmax <field>:4 <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
@@ -1010,18 +1010,18 @@ where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 argmax League_App League_App
 where Total greater 0 sum
-where <field>:1 equal <value>:0 select <field>:0
+where <field>:1 greater <value>:0 where <field>:0 less <value>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 greater 0 where <field>:2 greater 0
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:1 sum
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 argmax <field>:0 <field>:0
 where <field>:2 equal <value>:2 select <field>:0
@@ -1031,13 +1031,13 @@ where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 argmin <field>:0 <field>:1
 argmin <field>:0 <field>:1
 where <field>:0 equal Cambridge sum
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-argmax <field>:1 Year
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
+where <field>:1 equal Washington argmax <field>:0 <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 sum <field>:0
 where <field>:0 equal <value>:0 select <field>:1
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:0 equal Havana sum
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
@@ -1047,7 +1047,7 @@ where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 less <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where Party equal British_National_Party argmax <field>:0 Number
@@ -1055,38 +1055,38 @@ where Nation equal United_States select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 select <field>:1
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:0 equal <value>:0 sum
 where <field>:0 equal <value>:0 select Nation
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:1 equal <value>:1 argmax <field>:0 Number
-where <field>:1 equal <value>:0 select <field>:1
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
+where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
+where <field>:0 equal <value>:0 select <field>:1
 where Nation equal United_States select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal George_Halas select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:0 equal Madhya_Pradesh select <field>:2
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:3 equal Hangzhou select <field>:1
-where <field>:0 equal <value>:0 sum
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:0 equal <value>:0 select <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 mean League_App
-where <field>:1 equal <value>:0 sum
-where Party equal Czech_Republic argmin <field>:0 Number
+where <field>:0 equal <value>:0 sum
+where <field>:0 equal Havana select Position
 where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
@@ -1101,22 +1101,22 @@ where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
+where <field>:0 equal <value>:0 select <field>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal Austin argmax <field>:0 <field>:0
-where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 select <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 equal <value>:0 select <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal Sidney argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
@@ -1135,41 +1135,41 @@ where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>
 where <field>:0 equal <value>:0 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:3 equal Tokyo select <field>:1
+where <field>:3 equal Shanghai argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 mean League_App
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 less <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:4 equal Shanghai select <field>:1
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:1 argmax <field>:0 <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where Player equal George_Halas select <field>:0
 where Nation equal Croatia select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:3 equal Hangzhou select <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal <value>:0 select <field>:1
+where <field>:1 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where Nation equal Cyprus select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 equal <value>:2
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:1 equal <value>:1 select <field>:0
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:1 equal <value>:0 sum
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:0 equal <value>:0 sum
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:2 equal <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal Cambridge argmax <field>:0 <field>:0
@@ -1180,12 +1180,12 @@ where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:1 greater 0 argmax <field>:0 <field>:2
+where <field>:2 greater 0 argmax <field>:0 <field>:2
 where <field>:1 equal Washington select <field>:0
 where <field>:1 equal <value>:0 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
-where <field>:0 equal <value>:0 sum
-where <field>:0 greater 0 where <field>:2 greater 0
+where <field>:0 equal <value>:0 select <field>:1
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:0 equal <value>:0 sum
 where <field>:1 equal Shanghai argmax <field>:0 <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2
@@ -1197,8 +1197,8 @@ where <field>:1 equal <value>:1 select <field>:0
 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 equal <value>:0 sum
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:0 equal <value>:0 sum
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
@@ -1206,12 +1206,12 @@ where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where Player equal Gordon_Otto select <field>:0
 where <field>:0 equal Boston sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
 where <field>:1 less <value>:1 sum <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
@@ -1220,17 +1220,17 @@ where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 sum <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where Party equal Respect select <field>:0
+where Party equal Respect argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 greater 0 sum
 where <field>:1 less <value>:1 sum
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where Name equal Nigel_Gibbs select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:0 equal <value>:0 sum
 where <field>:0 equal <value>:0 select Nation
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
@@ -1238,25 +1238,25 @@ where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where Player equal Gordon_Otto select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal 0 sum
+where <field>:0 equal <value>:0 sum
 where Name equal Ross_Jenkins select <field>:0
-where Party equal Czech_Republic argmin <field>:0 Number
+where <field>:0 equal Nassau select Position
 where Name equal Tony_Coton select <field>:0
 where State equal Assam select <field>:0
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal Cambridge select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 argmax <field>:1 Year
-where <field>:1 less <value>:1 select <field>:0
+where Player equal Ray_Woods select <field>:0
 where <field>:0 equal West_Bengal select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
@@ -1267,32 +1267,32 @@ where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 mean Total_App
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal <value>:0 sum
-where <field>:0 equal <value>:0 sum
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:0 equal <value>:0 select <field>:1
+where <field>:0 equal <value>:0 select <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:0 select <field>:0
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:0 equal Havana sum
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where Name equal Robert_Page select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal Los_Angeles select <field>:0
-where <field>:0 equal Andhra_Pradesh select <field>:2
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:0 equal <value>:0 select <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal Washington argmax <field>:0 <field>:0
 where <field>:0 greater 0 mean <field>:0
 where <field>:1 equal Cambridge argmin <field>:0 <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
-where <field>:1 equal Washington argmax <field>:0 <field>:0
+where <field>:1 equal Cambridge argmin <field>:0 <field>:0
 argmin <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
@@ -1302,23 +1302,23 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where Games equal <value>:2 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 sum
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:0 equal <value>:0 select <field>:1
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where Nation equal Cuba select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:3 equal Tokyo select <field>:1
+where <field>:3 equal <value>:3 select <field>:1
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:3 equal Shanghai select <field>:1
+where <field>:3 equal <value>:3 select <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 sum <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
@@ -1328,17 +1328,17 @@ where <field>:1 equal Caracas argmax <field>:0 <field>:0
 where <field>:0 equal <value>:0 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 equal <value>:0 sum
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 equal 5 select <field>:0
@@ -1346,21 +1346,21 @@ where <field>:0 greater <value>:0 select Nation
 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:2
 where <field>:2 less <value>:2 argmax <field>:0 <field>:1
-where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:1 equal No_party argmax <field>:0 Number
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:1 equal No_party argmax <field>:0 <field>:0
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal Indianapolis argmax <field>:0 <field>:0
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:0 equal <value>:0 select Nation
-where <field>:1 equal <value>:2 argmax <field>:0 <field>:0
+where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 sum
@@ -1377,46 +1377,46 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where Player equal Ralf_Woods select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-argmin League_App League_App
+argmin League_Goals League_Goals
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:2 greater 0 mean <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 mean League_App
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
 argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal Manipur select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:0 equal Gujarat select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where Games equal <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where Party equal Liberal_Democrats argmax <field>:0 Number
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where Party equal Respect argmin <field>:0 Number
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 equal <value>:0 select <field>:1
-where <field>:1 greater 0 argmax <field>:0 <field>:2
+where <field>:1 greater 0 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 sum <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 sum
@@ -1430,43 +1430,43 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:0 sum
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:1 less <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 argmin <field>:0 <field>:1
 where Name equal Luther_Blissett select <field>:0
-where <field>:0 equal Manipur select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:0 equal Tamil_Nadu select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where Nation equal Great_Britain select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:0 equal Andhra_Pradesh select <field>:2
-where <field>:3 equal <value>:1 select <field>:1
+where <field>:2 equal <value>:2 select <field>:0
+where <field>:3 equal <value>:1 where <field>:3 equal <value>:3
 where <field>:1 less <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 less <value>:1 sum
 where Nation equal Jamaica select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 select <field>:0
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:3 equal Hangzhou select <field>:1
+where <field>:3 equal Hangzhou argmax <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:3 equal <value>:1 argmax <field>:0 <field>:3
-where <field>:1 equal <value>:1 argmax <field>:0 Number
+where <field>:3 equal Indianapolis argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 argmin <field>:0 Year
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 greater <value>:2 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:0 equal <value>:0 sum
 argmax <field>:0 Year
@@ -1476,13 +1476,13 @@ where Nation equal Uzbekistan select <field>:0
 where <field>:1 less <value>:1 where <field>:2 greater <value>:2 select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where Nation equal Great_Britain select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:1 greater <value>:1 where <field>:2 equal <value>:2
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where Nation equal Malaysia select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
@@ -1500,22 +1500,22 @@ where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal Cambridge select <field>:0
 where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal Austin argmin <field>:0 <field>:0
+where <field>:1 equal Havana argmin <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 sum
 argmin <field>:0 <field>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 sum
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where Nation equal Moldova select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal Austin argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:3 equal Hangzhou select <field>:1
@@ -1524,7 +1524,7 @@ where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where Player equal Ray_Woods select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:3 equal Tokyo select <field>:1
+where <field>:3 equal Tokyo where <field>:3 greater <value>:3
 where <field>:0 equal <value>:0 select Nation
 where <field>:0 greater <value>:0 select Nation
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
@@ -1532,19 +1532,19 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
-where <field>:0 equal <value>:1 select <field>:2
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:0 equal <value>:0 where <field>:2 less <value>:2 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 argmin <field>:0 <field>:1
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 argmax <field>:0 <field>:1
 where <field>:2 equal <value>:1 argmax <field>:0 <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 less <value>:1 sum
@@ -1556,26 +1556,26 @@ where <field>:1 equal <value>:1 select <field>:0
 where Name equal David_James select <field>:0
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:0 equal Los_Angeles select <field>:2
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
+where <field>:0 equal <value>:0 select <field>:2
 where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
-where <field>:1 equal Austin argmin <field>:0 <field>:0
+where <field>:1 equal <value>:1 argmin <field>:0 <field>:0
+where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:1 equal Havana argmin <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:0 equal Nassau sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 argmax <field>:0 <field>:1
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:1 equal <value>:0 select <field>:0
@@ -1584,23 +1584,23 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where Nation equal Great_Britain mean League_App
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 argmax <field>:0 <field>:0
-where <field>:2 less <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 argmax <field>:0 <field>:1
 where <field>:1 less <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal Indianapolis argmin <field>:0 <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
@@ -1614,34 +1614,34 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:
 where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:0 equal <value>:0 sum
-where <field>:1 greater 0 where <field>:2 less 0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:1 greater 0 where <field>:2 less <value>:2
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-argmax <field>:0 <field>:0
+argmax <field>:0 <field>:2
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 argmax <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:3 equal Shanghai select <field>:1
+where <field>:3 equal <value>:3 select <field>:1
 where <field>:1 less <value>:1 sum
 where <field>:1 equal <value>:2 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:1 equal <value>:1 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:1 equal <value>:1 argmin <field>:0 <field>:2
 where <field>:1 equal Washington argmax <field>:0 <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
@@ -1649,8 +1649,8 @@ where Name equal Les_Taylor select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
@@ -1662,23 +1662,23 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal Manipur select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:0 equal Tamil_Nadu select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:0 sum
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:0 equal <value>:0 select <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:3 equal Indianapolis argmax <field>:0 <field>:3
+where <field>:3 equal Tokyo argmax <field>:0 <field>:3
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:0 equal Chicago sum
@@ -1689,65 +1689,65 @@ where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
-where <field>:1 equal Tokyo argmax <field>:0 <field>:0
+where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:1 equal Tokyo argmin <field>:0 <field>:0
 where <field>:1 equal <value>:0 sum
 where <field>:0 equal Seattle sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:3 equal Tokyo select <field>:1
+where <field>:3 equal Tokyo argmax <field>:0 <field>:3
 where State equal Madhya_Pradesh select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 argmax <field>:0 Rank
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 greater 0 where <field>:2 greater 0
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
-where <field>:0 equal <value>:0 sum
 where <field>:0 equal <value>:0 select <field>:1
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 select <field>:1
+where <field>:0 equal <value>:0 sum
 where State equal West_Bengal select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:3 equal Tokyo select <field>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:3 equal Shanghai argmax <field>:0 <field>:3
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:1 equal <value>:0 sum
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 equal Detroit argmax <field>:0 <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:0 sum
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
+where <field>:1 equal <value>:1 select <field>:0
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:1 equal Indianapolis argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 where State equal Meghalaya select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 equal <value>:0 sum
-where <field>:0 equal <value>:0 sum
-where <field>:4 equal Shanghai select <field>:1
-where <field>:0 equal George_Halas select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:0 equal <value>:0 select <field>:1
+where <field>:1 equal <value>:0 select <field>:0
+where <field>:0 equal Mizoram select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
 where <field>:1 equal 5 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 equal Sidney sum
 where Nation equal Great_Britain select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 greater <value>:2 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal Caracas select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 greater 0 mean <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where Player equal Ralf_Woods select <field>:0
@@ -1758,10 +1758,10 @@ where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 less <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:0 equal <value>:0 sum
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:1 argmax <field>:0 Number
+where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
@@ -1770,7 +1770,7 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 argmax <field>:0 <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
@@ -1781,26 +1781,26 @@ where State equal Karnataka select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where Player equal Gordon_Otto select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
-where <field>:0 equal Los_Angeles select <field>:2
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:0 equal <value>:0 select <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:1 greater <value>:1 sum <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where Nation equal Moldova select <field>:0
-where <field>:1 equal <value>:2 argmax <field>:0 <field>:0
+where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
 where Nation equal Great_Britain select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 less <value>:1 sum <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
 where Name equal Ian_Bolton select <field>:0
 where <field>:1 less <value>:1 sum
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 argmax <field>:0 Year
-where <field>:0 equal George_Halas select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:0 equal Chhattisgarh select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 where Nation equal Armenia select <field>:0
@@ -1808,33 +1808,33 @@ where Party equal British_National_Party argmax <field>:0 Number
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
-where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where Player equal Clyde_Alwood select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
 where State equal Chhattisgarh select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 argmax <field>:0 <field>:1
-where <field>:1 equal <value>:2 argmax <field>:0 <field>:0
+where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:0 equal Los_Angeles select <field>:2
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:0 equal <value>:0 select <field>:2
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:2 equal <value>:2 select <field>:0
 argmin <field>:0 <field>:1
 argmax <field>:0 <field>:1
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:2 equal <value>:2 argmin <field>:0 <field>:1
 where <field>:0 equal Minneapolis sum
 where <field>:1 equal <value>:1 select <field>:0
@@ -1848,33 +1848,33 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where State equal Goa select <field>:0
-where <field>:0 greater 0 where <field>:2 greater 0
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:0 equal Seattle sum
-where Party equal Scotland argmax <field>:0 Number
+where Party equal British_National_Party argmax <field>:0 Number
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
 where <field>:1 equal <value>:1 mean <field>:0
-where <field>:0 equal 4 select <field>:2
+where <field>:0 equal Gujarat select <field>:1 as A where <field>:1 greater A argmax <field>:0 <field>:2
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
-where <field>:0 equal Andhra_Pradesh select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:0 equal Jammu_and_Kashmir select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
-where State equal Rajasthan select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where State equal Maharashtra select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 equal <value>:1 select <field>:0
+where <field>:2 equal <value>:2 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
+where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:0 sum
-where <field>:1 equal <value>:0 sum
-where <field>:1 equal 0 sum
 where <field>:2 equal <value>:2 select <field>:0
 argmax <field>:0 <field>:1
 where <field>:2 equal <value>:2 select <field>:0
@@ -1885,56 +1885,56 @@ where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where Nation equal Malaysia select <field>:0
-where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 select <field>:1
 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:2 equal <value>:2 select <field>:0
 argmin <field>:0 <field>:1
 where <field>:0 equal <value>:0 select Nation
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 less <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:0 sum
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where Nation equal United_States select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 where Name equal Duncan_Welbourne select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater 0 where <field>:2 less 0
+where <field>:1 greater 0 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 mean <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 argmin <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal Chicago argmax <field>:0 <field>:0
+where <field>:1 equal Boston argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where Nation equal Cuba select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where Nation equal Great_Britain mean Total_App
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-argmax <field>:0 <field>:1
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
+where <field>:1 equal Seattle argmax <field>:0 <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where Nation equal Scotland mean <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where State equal Mizoram select <field>:0
 where <field>:4 equal Shanghai select <field>:1
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
 where Player equal Ray_Woods select <field>:0
 where <field>:1 equal Chicago select <field>:0
@@ -1943,11 +1943,11 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 argmax <field>:0 <field>:1
-where <field>:1 equal <value>:0 sum
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal 0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
@@ -1955,7 +1955,7 @@ where <field>:0 equal <value>:0 select Nation
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 greater <value>:1 sum
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 less <value>:1 sum <field>:0
 where <field>:1 equal <value>:1 select <field>:0
@@ -1967,34 +1967,34 @@ where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 argmin <field>:0 Total
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater 0 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 mean <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:1 argmax <field>:0 <field>:0
 where Games equal <value>:2 select <field>:0
-where <field>:2 equal <value>:2 select <field>:0
+where <field>:0 equal <value>:0 where <field>:2 less <value>:2 select <field>:0
 argmin <field>:1 Year
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater 0 sum
 where <field>:0 equal Washington sum
 where Nation equal United_States select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where Nation equal Morocco select <field>:0
 where Nation equal Estonia select <field>:0
@@ -2002,34 +2002,34 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
 where Games equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:1 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:2 argmax <field>:0 <field>:0
+where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:0 sum
 where <field>:0 equal Austin sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:3 equal Sidney select <field>:1
+where <field>:3 equal Hangzhou select <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 less <value>:1 sum
@@ -2038,41 +2038,41 @@ where <field>:1 equal Sidney argmin <field>:0 <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where Name equal Tony_Coton select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:3 equal Tokyo select <field>:1
-where <field>:3 equal Tokyo select <field>:1
+where <field>:3 equal Tokyo argmax <field>:0 <field>:3
 where <field>:0 greater <value>:0 select Nation
 where <field>:1 equal <value>:1 select <field>:0
 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:2
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:1 equal <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:2
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:1 equal <value>:1 sum
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
 where Player equal Clyde_Alwood select <field>:0
 where <field>:1 equal <value>:0 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal Boston argmax <field>:0 <field>:0
 where <field>:1 equal <value>:2 select <field>:0
 where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
@@ -2085,19 +2085,19 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 equal San_Jose sum
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where State equal Uttar_Pradesh select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 less <value>:1 sum
-where <field>:1 greater 0 where <field>:2 less 0
+where <field>:1 greater 0 where <field>:2 less <value>:2
 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where Nation equal Moldova select <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 equal <value>:2 select <field>:0
@@ -2106,69 +2106,69 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:
 where <field>:0 equal <value>:0 select <field>:1
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater 0 mean <field>:0
-where <field>:2 less <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 argmin <field>:0 <field>:0
-where <field>:1 equal <value>:1 argmin <field>:0 <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
-where State equal Tripura select <field>:0
-where <field>:0 equal Detroit sum
+where State equal Odisha select <field>:0
+where <field>:0 equal Indianapolis sum
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:1 equal Malaysia sum
+where <field>:0 equal <value>:0 sum
 where Name equal Robert_Page select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 argmax <field>:0 <field>:0
-where <field>:1 greater 0 where <field>:2 less 0
+where <field>:1 greater 0 where <field>:2 less <value>:2
 where <field>:0 greater <value>:0 select Nation
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 mean Total_App
 where <field>:1 equal <value>:1 mean <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 select <field>:1
+where <field>:0 equal <value>:0 select <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 argmax <field>:1 <field>:1 as A argmin <field>:1 <field>:1 as B diff A B
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where Player equal Ralf_Woods select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal <value>:0 sum
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:0 equal <value>:0 select <field>:1
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal Sidney select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:0 equal <value>:0 sum
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
+where <field>:0 equal <value>:0 select <field>:1
 where <field>:1 equal <value>:1 mean <field>:0
 where Name equal Ian_Bolton select <field>:0
 where <field>:1 less <value>:1 sum
 where <field>:0 equal <value>:0 select <field>:1
 where Nation equal United_States select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
@@ -2177,32 +2177,32 @@ where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:1 equal <value>:0 sum
-where <field>:1 greater 0 where <field>:2 less 0
+where <field>:0 equal <value>:0 sum
+where <field>:1 greater 0 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:0 greater 0 where <field>:2 greater 0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal Shanghai argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 sum
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:0 equal Mizoram select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:0 equal Chhattisgarh select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 equal <value>:0 select <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal Tokyo select <field>:0
@@ -2210,8 +2210,8 @@ where <field>:1 equal <value>:1 select <field>:0
 where State equal Himachal_Pradesh select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal Andhra_Pradesh select <field>:2
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:2 equal <value>:2 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:0 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 argmax <field>:1 Year
@@ -2221,29 +2221,29 @@ where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where Games equal <value>:2 select <field>:0
-where <field>:1 equal <value>:0 select <field>:1
+where <field>:0 equal <value>:0 select <field>:1
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmax <field>:0 <field>:1
-where <field>:1 equal <value>:1 argmax <field>:0 Number
+where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:1 equal <value>:0 sum
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where Nation equal Great_Britain select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:1 equal 0 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:1 greater 0 select <field>:0
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 equal <value>:0 sum
-where <field>:1 equal Hangzhou select <field>:0
+where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:3 equal Nassau select <field>:1
+where <field>:3 equal Hangzhou select <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
@@ -2251,42 +2251,42 @@ where <field>:1 greater <value>:1 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where Nation equal Ray_Woods select <field>:0
+where Nation equal David_James select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:0 select <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 equal <value>:0 sum
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:0 equal Los_Angeles sum
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:0 equal <value>:0 select <field>:1
 where <field>:0 equal <value>:0 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
 where Nation equal United_States mean Total_App
 where Nation equal Bahamas select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:1 equal <value>:0 sum
-where <field>:2 less <value>:2 argmax <field>:0 <field>:1
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:0 equal <value>:0 sum
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
+where <field>:0 equal <value>:0 select <field>:1
 where Nation equal Uganda select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater 0 argmax <field>:0 <field>:2
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:2 greater <value>:2 argmin <field>:0 <field>:2
+where <field>:2 greater 0 argmax <field>:0 <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where State equal Gujarat select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal <value>:0 sum
-where <field>:0 equal Manipur select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:0 equal <value>:0 select <field>:1
+where <field>:0 equal Meghalaya select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
@@ -2299,10 +2299,10 @@ where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:0 equal <value>:0 select <field>:2
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:1 equal <value>:0 sum
-where <field>:2 less <value>:2 argmax <field>:0 <field>:1
+where <field>:0 equal <value>:0 sum
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 equal <value>:2 select <field>:0
 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
@@ -2311,41 +2311,41 @@ argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
 where Nation equal United_States select <field>:0
-where <field>:4 equal Shanghai select <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
-where <field>:0 equal <value>:0 sum
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:0 equal George_Halas select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:4 equal <value>:3 select <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:0 equal <value>:0 select <field>:1
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
+where <field>:2 equal <value>:2 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where Player equal Gordon_Otto select <field>:0
 where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:1 equal <value>:0 select <field>:1
+where <field>:1 equal <value>:0 sum
 where Nation equal United_States select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 equal <value>:2 argmax <field>:0 <field>:0
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 greater <value>:1 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 less <value>:1 sum <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 equal <value>:2 select <field>:0
 where Name equal Les_Taylor select <field>:0
 where <field>:1 greater <value>:1 sum
 where <field>:0 equal <value>:0 sum
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal Sidney argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
@@ -2354,56 +2354,56 @@ argmax <field>:0 <field>:1
 where Player equal Ralf_Woods select <field>:0
 where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:2
 where <field>:0 equal <value>:0 sum
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal Los_Angeles argmin <field>:0 <field>:0
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal Los_Angeles argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 argmin <field>:0 <field>:1
-where <field>:2 equal <value>:1 select <field>:0
-where <field>:2 less <value>:2 argmax <field>:0 <field>:1
+where <field>:2 equal <value>:2 where <field>:2 greater <value>:2 select <field>:0
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:0 equal <value>:0 sum
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal Tokyo select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where Nation equal Estonia select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal Seattle argmax <field>:0 <field>:0
 where <field>:0 equal <value>:0 sum
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where Player equal Ray_Woods select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where Name equal Ross_Jenkins select <field>:0
-where <field>:3 equal <value>:1 argmax <field>:0 <field>:3
-where <field>:3 equal Tokyo select <field>:1
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:3 equal Los_Angeles argmax <field>:0 <field>:3
+where <field>:3 equal Tokyo argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal Gordon_Otto select <field>:0
 argmax <field>:0 <field>:1
 where <field>:1 equal Indianapolis argmin <field>:0 <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:0 sum
 where Player equal George_Halas select <field>:0
@@ -2413,28 +2413,28 @@ where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0
 where <field>:1 equal <value>:1 mean <field>:0
 where <field>:1 equal <value>:1 sum
 argmin <field>:0 <field>:1
-where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where Nation equal Morocco select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 select <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 sum
 where Nation equal Ray_Woods select <field>:0
 where <field>:1 equal George_Halas select <field>:0
 where <field>:0 greater <value>:0 select Nation
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 less <value>:1 sum
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
@@ -2444,14 +2444,14 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal Austin argmax <field>:0 <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
-where Party equal Respect argmax <field>:0 Number
+where Party equal Respect argmin <field>:0 Number
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal Washington argmax <field>:0 <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
@@ -2472,15 +2472,15 @@ where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:0 equal <value>:0 sum
-where Party equal Respect argmax <field>:0 Number
+where <field>:0 equal <value>:0 select <field>:1
+where Nation equal Respect select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where <field>:0 equal <value>:0 sum
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal Shanghai argmax <field>:0 <field>:0
-where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
@@ -2489,14 +2489,14 @@ where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmax <field>:
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 greater 0 argmax <field>:0 <field>:2
+where <field>:2 greater 0 argmax <field>:0 <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where Nation equal Scotland mean Total_App
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 select <field>:1
 where <field>:0 equal Cambridge sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
@@ -2507,28 +2507,28 @@ where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:0 equal Los_Angeles select <field>:2
-where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:0 equal <value>:0 select <field>:2
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where Nation equal United_States select <field>:0
-where <field>:1 equal <value>:0 select <field>:1
+where <field>:1 equal <value>:0 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 select <field>:0
+where <field>:1 greater <value>:0 where <field>:0 less <value>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 sum
@@ -2538,42 +2538,42 @@ where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
 where State equal Delhi select <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
-where <field>:1 equal <value>:0 sum
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 argmax <field>:0 <field>:1
 where <field>:1 less <value>:1 sum
 where <field>:1 equal <value>:1 argmax <field>:0 <field>:2
 where Nation equal Great_Britain mean <field>:0
-where <field>:0 equal Andhra_Pradesh select <field>:2
-where <field>:1 greater <value>:1 where <field>:2 equal <value>:2
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
+where <field>:2 equal <value>:2 select <field>:0
+where <field>:1 equal <value>:1 select <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
-where <field>:1 equal 0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where Player equal Ralf_Woods select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal Havana select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:0 equal Austin sum
-where <field>:0 equal Manipur select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:0 equal Tripura select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
 where Player equal Gordon_Otto select <field>:0
-where <field>:1 equal <value>:2 argmax <field>:0 <field>:0
+where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:2 equal <value>:2 select <field>:0
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
+where <field>:0 equal <value>:0 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:0 select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
@@ -2584,25 +2584,25 @@ where <field>:1 equal Austin argmax <field>:0 <field>:0
 where <field>:1 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where State equal Rajasthan select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where Nation equal Great_Britain select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 argmax <field>:0 <field>:1
-where <field>:2 less <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where Player equal Ray_Woods select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal Nassau argmax <field>:0 <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:0 equal <value>:0 sum
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 less <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
@@ -2612,56 +2612,56 @@ where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:0 equal <value>:0 select <field>:1
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where Games equal <value>:2 select <field>:0
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where Player equal George_Halas select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
-where <field>:3 equal Tokyo select <field>:1
+where <field>:3 equal <value>:3 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:3 equal Shanghai select <field>:1
+where <field>:3 equal <value>:3 select <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where Nation equal Belarus select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 <field>:3
-where <field>:3 equal <value>:1 argmax <field>:0 <field>:3
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:3 equal Tokyo where <field>:3 greater <value>:3
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 argmax <field>:0 <field>:0
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
+where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:2
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where Player equal George_Halas select <field>:0
 where <field>:1 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
 where Name equal Ross_Jenkins select <field>:0
-where <field>:1 equal <value>:0 sum
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:0 equal <value>:0 sum
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 argmax <field>:0 <field>:0
 where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
-where <field>:1 equal <value>:0 sum
 where <field>:0 equal <value>:0 sum
-where <field>:1 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 sum
 where <field>:1 equal <value>:1 select <field>:0
-where Name equal Tony_Coton select <field>:0
+where Name equal David_James select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:1 argmax <field>:0 <field>:0
 where <field>:1 less <value>:1 sum <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:0 equal Manipur select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
+where <field>:0 equal Gujarat select <field>:1 as A where <field>:1 less A argmax <field>:0 <field>:2
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal Andhra_Pradesh select <field>:2
+where <field>:2 equal <value>:2 select <field>:0
 argmin <field>:0 <field>:1
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:0 equal <value>:0 sum
@@ -2671,9 +2671,9 @@ where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:
 where <field>:1 equal <value>:1 mean <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 less <value>:1 where <field>:2 greater <value>:2 select <field>:0
-where <field>:1 equal <value>:2 argmax <field>:0 <field>:0
+where <field>:2 equal <value>:2 argmax <field>:0 <field>:1
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 argmax <field>:0 <field>:1
@@ -2682,48 +2682,48 @@ where Nation equal Great_Britain select <field>:0
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:0 greater <value>:0 where <field>:0 less <value>:0 select <field>:2
 where <field>:2 equal <value>:2 select <field>:0
+where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 less <value>:1 where <field>:2 less <value>:2 select <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 greater 0 where <field>:2 greater 0
+where <field>:2 equal <value>:2 select <field>:0
 where <field>:2 greater <value>:2 where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:0 equal Hangzhou sum
 where <field>:0 equal <value>:0 sum
 where <field>:1 less <value>:1 where <field>:2 greater <value>:2 select <field>:0
 where <field>:1 equal <value>:0 sum
-where <field>:1 greater <value>:1 argmax <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 argmax League_App League_App
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
-where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 select <field>:1
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:0 greater <value>:0 select Nation
 where <field>:1 equal Hangzhou argmax <field>:0 <field>:0
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where Name equal Tommy_Mooney select <field>:0
 where <field>:1 equal Caracas argmax <field>:0 <field>:0
-where State equal Karnataka select <field>:0
+where State equal Punjab select <field>:0
 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal Shanghai select <field>:0
-where <field>:3 equal <value>:1 select <field>:1
+where <field>:3 equal <value>:1 where <field>:3 equal <value>:3
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 where Player equal George_Halas select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 greater <value>:3 select <field>:0
-where <field>:0 equal Los_Angeles select <field>:2 as A where <field>:1 less A
+where <field>:0 equal <value>:0 select <field>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
@@ -2731,9 +2731,9 @@ where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 Games
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:0 equal <value>:0 sum
+where <field>:0 equal <value>:0 select <field>:1
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2
-where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmin <field>:0 Games
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:0 equal <value>:0 select Nation
 where <field>:1 equal <value>:1 select <field>:0
@@ -2746,23 +2746,23 @@ where Name equal Tommy_Mooney select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 greater <value>:2 select <field>:0
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:0 sum
 where <field>:2 equal <value>:2 where Games greater <value>:3 select <field>:0
 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 argmin <field>:0 <field>:1
 where <field>:1 equal <value>:1 sum
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
+where <field>:2 less <value>:2 where <field>:2 greater <value>:2 argmax <field>:0 <field>:2
 where <field>:0 equal Shanghai sum
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 select <field>:0
-where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmax <field>:0 <field>:3
+where <field>:1 equal <value>:1 where <field>:2 equal <value>:2 argmin <field>:0 <field>:3
 argmax <field>:0 <field>:2
 where <field>:1 equal Washington select <field>:0
 where Player equal Ernest_McKay select <field>:0
@@ -2782,12 +2782,12 @@ where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
 where <field>:2 greater <value>:2 argmax <field>:0 <field>:1
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:2 where <field>:3 equal <value>:3 select <field>:0
-where <field>:3 equal Tokyo select <field>:1
+where <field>:3 equal Tokyo argmax <field>:0 <field>:3
 where <field>:2 less <value>:2 argmin <field>:0 <field>:1
-where <field>:1 greater <value>:1 where <field>:2 less <value>:1
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:2 equal <value>:1 argmax <field>:0 <field>:0
-where <field>:2 greater <value>:2 argmin <field>:0 <field>:1
+where <field>:2 less <value>:2 argmin <field>:0 <field>:1
 where <field>:1 greater <value>:1 where <field>:2 greater <value>:2 select <field>:0
 argmax <field>:0 <field>:1
 where <field>:2 equal <value>:2 select <field>:0
@@ -2796,5 +2796,5 @@ where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal Caracas argmin <field>:0 <field>:0
 where <field>:1 equal <value>:1 select <field>:0
 where <field>:1 equal <value>:1 sum
-where <field>:1 greater <value>:1 argmin <field>:0 <field>:0
+where <field>:1 greater <value>:1 where <field>:2 less <value>:2
 where <field>:1 greater <value>:1 where <field>:2 less <value>:2 select <field>:0

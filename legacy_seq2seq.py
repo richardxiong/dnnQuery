@@ -54,6 +54,7 @@ from __future__ import division
 from __future__ import print_function
 
 import copy
+import numpy as np
 import tensorflow as tf
 
 # We disable pylint because we need python3 compatibility.
@@ -130,21 +131,59 @@ def _extract_beamsearch_and_embed(beam_size,
         (original, sequence, updated prob, current embed vector)
     """
     candidates = []
+    # batch_size = len(states[0][0][0])
     for i in range(len(states)):
       sequence, prob, _= states[i]
       prev = sequence[-1]
+      #prev = embedding_ops.embedding_lookup(embedding, prev)
       if output_projection is not None:
         prev = nn_ops.xw_plus_b(prev, output_projection[0], output_projection[1])
-      prev_symbols, new_probs = nn_ops.top_k(prev, beam_size)
+      # Finds values and indices of the k largest entries for the last dimension.
+      new_probs, prev_symbols = nn_ops.top_k(prev, beam_size)
       for j in range(beam_size):
-        emb_prev = embedding_ops.embedding_lookup(embedding, prev_symbols[j])
+        emb_prev = embedding_ops.embedding_lookup(embedding, prev_symbols[:,j])
         if not update_embedding:
+          # Note that gradients will not propagate through the second parameter of
+          # embedding_lookup.
           emb_prev = array_ops.stop_gradient(emb_prev)
-        candidates.append((sequence, prob * new_probs[j], emb_prev))
-    indices, _ = nn_ops.top_k([y for (x, y, z) in candidates], beam_size)
-    promo = [candidates[idx] for idx in indices]
-    # Note that gradients will not propagate through the second parameter of
-    # embedding_lookup.
+        candidates.append((sequence, prob * new_probs[:,j], emb_prev))
+    
+    # 1st transpose, convert a list of k^2 element into matrices
+    prob_mat = tf.stack([y for (x, y, z) in candidates])
+    emb_prev_mat = tf.stack([z for (x, y, z) in candidates])
+    prob_mat = tf.transpose(prob_mat, perm=[1, 0], name='1st_transpose_value')
+    emb_prev_mat = tf.transpose(emb_prev_mat, perm=[1, 0, 2], name='1st_transpose_vec')
+    
+    # Finds values and indices of the k largest entries for the last dimension.
+    values, indices = nn_ops.top_k(prob_mat, beam_size)
+    batch_size = tf.shape(prob_mat)[0]
+    prob_mat2 = tf.zeros([batch_size, beam_size], tf.float32)
+    emb_prev_mat2 = tf.zeros([batch_size, beam_size, tf.shape(emb_prev_mat)[2]], tf.float32)
+    for k in range(batch_size.eval()):
+      prob_mat2[k, :] = prob_mat[k, indices[k, :]]
+      emb_prev_mat2[k, :, :] = emb_prev_mat[k, indices[k, :], :]
+    
+    # 2nd transpose
+    indices = tf.transpose(indices, perm=[1, 0], name='transpose_indices')
+    values = tf.transpose(values, perm=[1, 0], name='transpose_values')
+    prob_mat2 = tf.transpose(prob_mat2, perm=[1, 0], name='2nd_transpose_value')
+    emb_prev_mat2 = tf.transpose(emb_prev_mat2, perm=[1, 0, 2], name='2nd_transpose_value')
+    
+    # generate the promotion candidates
+    promo = []
+    T = len(states[0][0])
+    output_size = tf.shape(states[0][0][0])[1]
+    unit = tf.zeros([batch_size, output_size], tf.float32)
+    for j in range(beam_size):
+      # create a copy of a sequence
+      new_sequence = [unit] * T
+      # promo.append((indices[j,:], prob_mat2[j, :], emb_prev_mat2[j, :, :]))
+      for k in range(batch_size.eval()):
+        for t in range(T):
+          corespo = candidates[indices[j,k]][0]
+          new_sequence[t][k,:] = corespo[t][k,:]
+      # new_sequence.append(indices[j,:])
+      promo.append((new_sequence, prob_mat2[j, :], emb_prev_mat2[j, :, :]))
     
     return promo
 
@@ -855,7 +894,8 @@ def attention_decoder_beamsearch(decoder_inputs,
         with variable_scope.variable_scope("loop_function", reuse=True):
           promo = loop_function(prevs, i)
       else: 
-        promo = [(outputs, 1, inp)]
+        prob = tf.ones([batch_size,], tf.float32)
+        promo = [(outputs, prob, inp)]
       # Using beamsearch loop function, keep top k candidates
       new_prevs = []
       for j in range(len(promo)):
@@ -1380,7 +1420,8 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
     decoder_inputs_embed = []
     for i in range(len(encoder_inputs)):
       encoder_step = embedding_ops.embedding_lookup(embedding_matrix_from, encoder_inputs[i])
-      tag_step = embedding_ops.embedding_lookup(embedding_matrix_to, tag_inputs[i])
+      tag_step = embedding_ops.embedding_lookup(embedding_matrix_from, tag_inputs[i])
+      #tag_step = embedding_ops.embedding_lookup(embedding_matrix_to, tag_inputs[i])
       ##### Concate encoder input with corresponding tags
       encoder_inputs_embed.append(tf.concat([encoder_step, tag_step], 1))
     for i in range(len(decoder_inputs)):
