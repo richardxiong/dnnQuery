@@ -29,14 +29,14 @@ def buildDictionary(schema):
             continue
         value = config.field2word[key]
         for query_word in value['query_word']:
-            if query_word not in query_dict:
+            if query_word.lower() not in query_dict:
                 # one value could potentially corresponds to several field names
                 query_dict[query_word.lower()] = [] 
             query_dict[query_word.lower()].append(key)
         if value['value_type'] == 'string':
             # build string_dict: for field values
             for word in value['value_range']:
-                if word not in string_dict:
+                if word.lower() not in string_dict:
                     string_dict[word.lower()] = []
                 string_dict[word.lower()].append(key)
         # else:
@@ -379,6 +379,12 @@ def sentTagging_value(query, fields, logic=None):
                                       if <field: 1> is Gold and <field: 2> is Nation
                 value correspondence: a list of the corresponding field values in seuquence ['13', 'China'],
                                       corresponding to the field at the same position in field_corr
+      for example:
+                .ficorr -- [Gold, Nation]
+                .vacorr -- [14, italy;japan]
+      deprecate the previous thought:
+                .ficorr -- [Gold, Nation, Nation]
+                .vacorr -- [14, italy, japan]
     '''
     ### prepare query, schema, and initialize tag with <nan> ###
     query = query.lower()
@@ -390,9 +396,11 @@ def sentTagging_value(query, fields, logic=None):
     config = tu.Config()
     field2vecField, field2vecValue = fromWordtoVecList(schema)
     field_dict, value_dict = buildDictionary(schema)
+    # print "value_dict:"
+    # print value_dict
     
     filter_words = [',','the','a','an','for','of','in','on','with','than','and',\
-    'is','are','do','does','did','has','have','had','what','how','many','number','get']
+    'is','are','do','does','did','has','have','had','what','how','many','get'] #,'number'
     
     for i in range(len(words)):
       # 0th pass eliminate non-sense words, label <num> and standby
@@ -444,8 +452,8 @@ def sentTagging_value(query, fields, logic=None):
         if tag[i] == "<nan>":
             continue
         reference = tag[i].split(':')
-        print reference
         if reference[0] == '<field>':
+            print reference
             if reference[1] in field_corr:
                 idx = field_corr.index(reference[1])
                 tag2[i] = '<field>:'+str(idx)
@@ -458,8 +466,13 @@ def sentTagging_value(query, fields, logic=None):
             refers = reference[1].split(';')
             if config.field2word[refers[0]]['value_type'] != 'string':
                 num_field_position.append((i, idx))
-
-        else:
+    ## changed on 05/01/2017, separate the field and value tagging
+    for i in range(len(tag2)):
+        if tag[i] == "<nan>":
+            continue
+        reference = tag[i].split(':')
+        if reference[0] == '<value>':
+            print reference
             # check reference[1] == '<num>'
             if reference[1] in field_corr:
                 idx = field_corr.index(reference[1])
@@ -548,6 +561,29 @@ def sentTagging_value(query, fields, logic=None):
     return tag2_sentence, field_corr_sentence, value_corr_sentence, newquery_sentence, newlogic_sentence
 
 
+def sentTagging_tree(query, fields, logic=None):
+    ''' Tag each word in a query with one of the three possible tokens:
+          BASED ON Dependency Tree
+          1. <nan>
+          2. <field: i>
+          3. <value: j>
+          where i, j are the position according to the schema
+      return -- tagged query
+                tagged logical form: where <field: 1> equal <value: 1>, select <field: 2>
+                field correspondence: a list of the corresponding field names in seuquence [Gold, Nation], 
+                                      if <field: 1> is Gold and <field: 2> is Nation
+                value correspondence: a list of the corresponding field values in seuquence ['13', 'China'],
+                                      corresponding to the field at the same position in field_corr
+      for example:
+                .ficorr -- [Gold, Nation]
+                .vacorr -- [14, italy;japan]
+      deprecate the previous thought:
+                .ficorr -- [Gold, Nation, Nation]
+                .vacorr -- [14, italy, japan]
+    '''
+    return None
+
+
 def templateToLogicalfrom(field_corr_sentence, value_corr_sentence, newlogic_sentence):
     ''' given newlogical template with field_corr and value_corr
         output the declarative logical form
@@ -564,18 +600,26 @@ def templateToLogicalfrom(field_corr_sentence, value_corr_sentence, newlogic_sen
     checkcount = dict()   # used for keep track field with multiple values appeared
     for i in range(len(newlogical)):
         reference = newlogical[i].split(':')
-        print reference
         if len(reference) == 1:
             logic.append(newlogical[i])
             continue
         if reference[0] == '<field>':
+            print reference
             idx = int(reference[1])
             logic.append(field_corr[idx])
             if field_corr[idx] not in checkcount:
                 checkcount[field_corr[idx]] = 0
             else: 
                 checkcount[field_corr[idx]] += 1
+    # ## changed on 05/01/2017, separate the field and value tagging
+    # for i in range(len(newlogical)):
+    #     reference = newlogical[i].split(':')
+    #     if len(reference) == 1:
+    #         logic.append(newlogical[i])
+    #         continue
+    #     if reference[0] == '<value>':
         else:
+            print reference
             idx = int(reference[1])
             # check whether value_corr[idx] is single value
             value_choice = value_corr[idx].split(';')
@@ -597,7 +641,7 @@ def main2():
     f_lo = open('../evaluation/forms_train.lo', 'w')
     with open('../evaluation/rand_train.ficorr') as f_ficorr:
         with open('../evaluation/rand_train.vacorr') as f_vacorr:
-            with open('../data/rand_train.lox') as f_lox:
+            with open('../data/rand_train.lox') as f_lox:   # final test change to logicalForm.out
                 field_corr, value_corr, newlogical = f_ficorr.readline(), f_vacorr.readline(), f_lox.readline()
                 idx = 0
                 while field_corr and value_corr and newlogical:

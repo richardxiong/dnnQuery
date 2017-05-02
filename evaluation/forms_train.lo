@@ -336,7 +336,7 @@ where Silver equal 8 sum
 where Innings greater 400 where Points less 14 argmax Player 100s
 where Nation equal united_states mean Total_Goals
 where 50s greater 400 where Points less 30 argmax Player 100s
-where State equal punjab select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where State equal meghalaya select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
 where Goals greater 211 where Goals less 283 select Name
 where Average greater 30 argmin Player Points
 where 4th_Venue equal los_angeles select Year
@@ -459,7 +459,7 @@ where Apps less 382 where Goals greater 78 select Name
 where Year_inducted greater 2015 argmax Goals Goals
 where Gold greater 6 select Nation
 where Goals less 140 argmin Name Apps
-where State equal punjab select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where State equal tamil_nadu select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
 where Nation equal netherlands select Silver as A where Nation equal romania select Silver as B diff A B
 where Apps less 215 argmin Name Goals
 where Nation equal spain select Rank as A where Rank less A argmax Nation Rank
@@ -530,7 +530,7 @@ where Runs greater 39 where Points less 30 argmin Player Games_Played
 argmin 2nd_Venue Year
 where Silver greater 9 where Gold less 8 select Nation
 where Country equal brazil select U.S._Open as A where Country equal wales select U.S._Open as B sum A B
-where State equal punjab select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where State equal manipur select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
 where Average less 30 argmax Player Points
 where Nation equal estonia select Gold
 where 1st_Venue equal sheffield sum
@@ -553,11 +553,11 @@ where Silver equal 14 where Bronze equal 4 select Rank
 where Name equal tommy_mooney select Apps
 argmax Nation Silver
 where Nation equal slovenia select Silver
-where State equal punjab select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where State equal assam select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
 where Discipline equal curling select Michelle
 where Runs greater 76 where Points less 7 argmin Player Games_Played
 where Country equal england select U.S._Open as A where Country equal romania select U.S._Open as B sum A B
-where State equal punjab select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where State equal uttarakhand select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
 where Gold less 9 where Silver greater 8 select Nation
 where Year equal 2009 select 2nd_Venue
 where Discipline equal swimming select Michelle
@@ -631,13 +631,13 @@ where Goals greater 132 argmin Name Apps
 where Name equal les_taylor select Position
 where Silver greater 32 where Gold less 28 select Nation
 where Innings less 20 sum Player
-where State equal punjab select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where State equal bihar select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
 where State equal chhattisgarh select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
 where Silver greater 7 select Nation
 argmax Nation Gold
 where Position equal 6 select Notation
 where Year_of_Election equal 1995 argmin State No._of_candidates
-where State equal punjab select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where State equal rajasthan select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
 where Bronze equal 14 where Gold equal 4 select Rank
 where Player equal bill_roe select Innings as A where Player equal albert_clapp select Innings as B diff A B
 where 50s greater 400 where Points less 7 argmin Player Games_Played
@@ -868,7 +868,7 @@ where 1st_Venue equal shanghai argmax Year Year
 where Nation equal slovenia select Bronze
 where Total less 32 where Silver greater 28 select Nation
 where Bronze equal 0 sum
-where State equal punjab select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where State equal mizoram select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
 where Average less 50 argmax Player Runs
 where Position equal 8 select Mnemonic
 where Matches less 30 sum Player
@@ -993,3 +993,1808 @@ where Bronze equal 3 where Gold equal 1 select Rank
 where Silver equal 2 where Bronze equal 27 select Rank
 argmax State No._of_candidates
 where Rank equal 21 select Nation
+where 1st_Venue equal beijing where 2nd_Venue equal dubai argmax 3rd_Venue Year
+where Average greater 80 argmin Player Points
+where Total greater 6 where Gold less 28 select Nation
+where Gold equal 8 where Bronze equal 23 argmax Nation Rank
+where Silver equal 7 sum
+where Nation equal nepal select Gold as A where Nation equal brazil select Gold as B diff A B
+where Year greater 2004 where Year less 2007 select 1st_Venue
+where Silver equal 71 where Gold equal 7 argmin Nation Rank
+where Matches equal 60 select 100s
+where 50s equal 5 where Games_Played greater 10 select Points
+where No._of_elected greater 17 where No._of_elected less 22 select Total_no._of_seats_in_Assembly
+where Nation equal romania select Silver as A where Nation equal netherlands select Silver as B diff A B
+where 2nd_Venue equal mexico_city argmax Year Year
+where Bronze equal 94 select Nation
+where Team equal confey select Years_won as A where Team equal crettyard select Years_won as B diff A B
+argmax League_Apps League_Apps
+where Total greater 0 sum
+where Nation equal mexico select Rank as A where Rank less A argmin Nation Rank
+where Nation equal brazil select Silver as A where Nation equal romania select Silver as B diff A B
+where Nation equal south_korea select Total
+where Position equal 7 select Mnemonic
+where Average less 50 argmax Player Points
+where 50s greater 76 where Points less 30 argmax Player Games_Played
+where Silver equal 9 sum
+where Runs equal 5 where Games_Played greater 15 select Points
+where 50s equal 15 where 100s greater 2 select Points
+where Total greater 32 where Bronze less 4 select Nation
+where Nation equal australia select Gold as A where Nation equal brazil select Gold as B diff A B
+where Bronze equal 2 where Gold equal 1 select Rank
+where 50s equal 10 where Games_Played greater 2 select Average
+argmax Total_Apps Total_Apps
+where Rank equal 65 select Gold
+where Team equal greystones select Areas as A where Team equal dundalk_gael select Areas as B diff A B
+where State equal jammu_and_kashmir select No._of_candidates
+where Average equal 20 argmax Player Points
+argmin Nation Bronze
+argmin Name Goals
+where 1st_Venue equal cambridge sum
+where Year_inducted greater 1998 argmin Goals Goals
+where Bronze equal 71 where Gold equal 5 argmin Nation Rank
+where Nation equal wales select Rank as A where Rank less A argmin Nation Rank
+where 50s greater 76 where Average less 30 argmin Player 100s
+sum No._of_elected
+where Nation equal russia select Gold
+where Silver equal 6 where Gold equal 7 argmin Nation Rank
+where 1st_Venue equal havana sum
+where Year greater 2001 where Year less 2004 select 4th_Venue
+where Runs greater 39 where Average less 14 argmin Player Matches
+where Bronze equal 10 sum
+where Team equal crettyard select Areas as A where Team equal confey select Areas as B diff A B
+where 50s equal 90 select Runs
+where Runs greater 76 where Points less 30 argmax Player Games_Played
+where Apps less 298 where Goals less 14 select Name
+where Year_inducted equal 2000 select Name
+where Year_of_Election greater 1998 where Year_of_Election less 2002 argmin State Total_no._of_seats_in_Assembly
+where Apps greater 144 where Goals less 11 select Name
+where 2nd_Venue equal mexico_city argmax Year Year
+where Party equal British_National_Party argmin Took_office Number
+where Nation equal united_states select Gold
+where 50s greater 39 where Points less 14 argmin Player Games_Played
+where 50s greater 76 where Points less 7 argmax Player 100s
+where Rank equal 43 select Bronze
+where Country equal brazil select The_Open as A where Country equal romania select The_Open as B sum A B
+where 50s equal 10 where Matches greater 15 select Points
+where Goals greater 155 where Goals less 162 select Name
+where Country equal brazil select U.S._Open as A where Country equal spain select U.S._Open as B sum A B
+where Rank equal 4 select Nation
+where Country equal netherlands select Masters as A where Country equal england select Masters as B sum A B
+where Average equal 50 argmin Player Field_Goals
+where Silver greater 9 where Gold less 4 select Nation
+where Nation equal brazil select Bronze as A where Nation equal netherlands select Bronze as B diff A B
+where Player equal george_nichols select Runs as A where Player equal albert_clapp select Runs as B diff A B
+where Silver equal 81 where Gold equal 62 select Rank
+where Party equal green argmin Left_office Number
+where Nation equal nepal select Rank as A where Rank less A argmax Nation Rank
+where Nation equal united_states select Gold
+where Innings equal 15 where 100s greater 2 select Points
+where 50s greater 400 where Points less 14 argmin Player 100s
+where Bronze equal 81 where Silver equal 4 select Rank
+where Year_of_Election greater 2000 where Year_of_Election less 2006 argmin State No._of_candidates
+where Nation equal brazil select Silver as A where Nation equal netherlands select Silver as B diff A B
+where Nation equal spain select Gold
+where Silver equal 81 where Gold equal 27 select Rank
+where Nation equal romania select Silver
+where Player equal bill_roe select Matches as A where Player equal herbie_hewett select Matches as B diff A B
+where State equal madhya_pradesh select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where Gold equal 3 where Bronze equal 27 select Rank
+where 3rd_Venue equal sydney select 2nd_Venue
+where Country equal brazil select The_Open as A where Country equal england select The_Open as B sum A B
+where Average greater 30 argmax Player Points
+where Apps greater 254 where Apps less 269 select Name
+where Nation equal south_korea mean League_Apps
+where Country equal australia select PGA as A where Country equal spain select PGA as B sum A B
+where Swara equal panchama select Position as A where Position less A argmax Swara Position
+where Average equal 30 argmax Player Games_Played
+where Country equal romania select PGA as A where Country equal wales select PGA as B sum A B
+where Total equal 91 select Nation
+where Nation equal spain select Gold as A where Nation equal india select Gold as B diff A B
+where Gold equal 6 where Bronze equal 7 argmax Nation Rank
+where 50s greater 76 where Average less 7 argmax Player Games_Played
+where 4th_Venue equal guanajuato select Year
+where Nation equal australia select Gold as A where Nation equal nepal select Gold as B diff A B
+where Discipline equal archery select Michelle
+where Average equal 20 argmax Player 100s
+where No._of_candidates greater 16 where No._of_candidates less 19 select Total_no._of_seats_in_Assembly
+where Team equal dundalk_gael select Years_won as A where Team equal confey select Years_won as B diff A B
+where Party equal labour argmax Took_office Number
+where Runs greater 76 where Points less 14 argmin Player Matches
+where Bronze equal 71 where Gold equal 7 argmin Nation Rank
+where Position equal 8 select Short_name
+where Player equal bill_roe select Runs as A where Player equal george_nichols select Runs as B diff A B
+where Rank equal 54 select Gold
+where Year_inducted less 1996 argmax Goals Goals
+where Average greater 80 argmin Player Free_Throws
+where Average equal 20 argmax Player Games_Played
+where Party equal no_party argmin Took_office Number
+where Country equal england select The_Open as A where Country equal netherlands select The_Open as B sum A B
+where Nation equal netherlands select Silver as A where Nation equal brazil select Silver as B diff A B
+where Player equal john_challen select Average as A where Player equal herbie_hewett select Average as B diff A B
+where Nation equal japan select Gold
+where Nation equal south_korea select Total
+where Total less 32 where Gold greater 4 select Nation
+where Silver less 32 where Gold greater 4 select Nation
+where Year_inducted less 2005 argmax Goals Goals
+where Innings greater 39 where Points less 14 argmax Player 100s
+where 2nd_Venue equal sydney argmax Year Year
+where Nation equal spain select Silver as A where Nation equal romania select Silver as B diff A B
+where Nation equal uzbekistan select Gold
+where Team equal crettyard select Years_won as A where Team equal confey select Years_won as B diff A B
+where Nation equal morocco select Bronze
+where Country equal italy select U.S._Open as A where Country equal australia select U.S._Open as B sum A B
+where Nation equal Bahamas select Silver
+where 50s equal 12 select points
+where Innings equal 99 select Runs
+where 50s greater 39 where Points less 7 argmax Player Matches
+where Nation equal greece select Gold
+where Innings greater 76 where Points less 30 argmax Player 100s
+where 1st_Venue equal los_angeles argmax Year Year
+where Runs equal 15 where 100s greater 10 select Points
+where Country equal italy select U.S._Open as A where Country equal england select U.S._Open as B sum A B
+where 50s greater 39 where Average less 30 argmin Player Games_Played
+where Nation equal romania select Total
+where 2nd_Venue equal shanghai select 1st_Venue
+where Nation equal china mean League_Apps
+where Gold less 9 where Silver greater 28 select Nation
+where Apps less 406 where Goals less 122 select Name
+where Runs greater 76 where Points less 30 argmin Player Matches
+where Team equal ballyroan_abbey select Years_won as A where Team equal crettyard select Years_won as B diff A B
+where Bronze equal 3 where Silver equal 62 select Rank
+where Nation equal france select Silver
+where Year_inducted less 2011 argmin Goals Goals
+where 3rd_Venue equal changzhou select 1st_Venue
+where Innings equal 15 where 100s greater 10 select Average
+where Average less 30 argmax Player Games_Played
+where Nation equal nepal select Silver as A where Nation equal brazil select Silver as B diff A B
+where Year_inducted less 2000 argmin Goals Goals
+where Player equal herbie_hewett select 100s as A where Player equal bill_roe select 100s as B diff A B
+where 1st_Venue equal veracruz argmax Year Year
+where Country equal italy select PGA as A where Country equal australia select PGA as B sum A B
+where Player equal george_halas select Innings
+where Nation equal croatia select Gold
+where 50s greater 39 where Points less 7 argmax Player Games_Played
+where 3rd_Venue equal hangzhou select 2nd_Venue
+where Player equal herbie_hewett select Innings
+where 2nd_Venue equal veracruz select 1st_Venue
+where Gold equal 59 select Nation
+argmin Player Average
+where Player equal george_nichols select Points
+argmin Name Goals
+where Silver equal 89 select Nation
+where Nation equal Cyprus select Total
+where Apps equal 256 where Goals equal 72 select Name
+where Goals greater 46 argmin Name Apps
+where 50s greater 39 where Points less 14 argmin Player Matches
+where Country equal romania select PGA as A where Country equal brazil select PGA as B sum A B
+where Goals greater 71 argmin Name Apps
+where Average greater 30 argmax Player Field_Goals
+where 3rd_Venue equal doha argmin Year Year
+where Average equal 30 argmin Player Free_Throws
+where 1st_Venue equal cambridge argmax Year Year
+where Nation equal england select Rank as A where Rank less A argmin Nation Rank
+where Average less 80 argmin Player Points
+where Nation equal united_states select Gold
+where Nation equal russia select Bronze
+where Year_inducted equal 2015 select Name
+where Nation equal spain select Silver
+where Runs greater 400 where Points less 14 argmax Player 100s
+where Silver equal 0 where Gold greater 0 select Nation
+where 4th_Venue equal washington select Year
+where Team equal ballymore_eustace select Years_won as A where Years_won greater A select Team
+where Innings greater 39 where Points less 7 argmax Player Games_Played
+where Country equal brazil select The_Open as A where Country equal spain select The_Open as B sum A B
+where Position equal 5 select Notation
+where Country equal australia select U.S._Open as A where Country equal brazil select U.S._Open as B sum A B
+where 2nd_Venue equal shanghai argmin Year Year
+where Apps greater 83 where Apps less 170 select Name
+where 3rd_Venue equal washington select 1st_Venue
+where Runs greater 39 where Points less 14 argmax Player Games_Played
+where Gold equal 2 where Bronze equal 1 select Rank
+where Nation equal spain select Gold as A where Nation equal australia select Gold as B diff A B
+where Player equal albert_clapp select Games_Played
+argmax Name Goals
+where Nation equal ukraine select Silver
+where Bronze less 32 where Gold greater 28 select Nation
+where Country equal netherlands select PGA as A where Country equal spain select PGA as B sum A B
+where Gold equal 2 where Silver equal 4 select Rank
+where Team equal crettyard select Prices as A where Team equal ballyroan_abbey select Prices as B diff A B
+where Average equal 80 argmin Player Games_Played
+where Silver less 6 where Gold greater 28 select Nation
+where Average less 30 argmin Player 50s
+where Total less 9 where Gold greater 4 select Nation
+where Player equal albert_clapp select Average as A where Player equal herbie_hewett select Average as B diff A B
+where Bronze equal 59 select Nation
+where Average greater 20 argmax Player Innings
+where Player equal gordon_otto select Innings
+where 2nd_Venue equal boston sum
+where Innings greater 400 where Average less 30 argmin Player Matches
+where Average less 80 argmin Player Games_Played
+where Goals greater 23 argmin Name Apps
+where Runs less 30 sum Player
+where Innings greater 400 where Points less 14 argmin Player Matches
+where Player equal john_felmley select 50s
+where 2nd_Venue equal mexico_city sum
+where Nation equal brazil select Gold as A where Nation equal nepal select Gold as B diff A B
+where Runs greater 30 sum Player
+where Player equal bill_roe select Games_Played
+where Silver equal 94 select Nation
+where Nation equal Algeria select Rank as A where Rank less A argmax Nation Rank
+where Player equal bill_roe select Runs
+where Runs equal 5 where 100s greater 15 select Points
+where Silver greater 0 sum
+where Bronze less 50 sum
+where Apps equal 191 where Goals equal 89 select Position
+where Name equal nigel_gibbs select Apps
+where Year_inducted greater 2006 argmin Goals Goals
+where State equal manipur select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+where Innings greater 400 where Average less 7 argmax Player Games_Played
+where Bronze equal 3 where Silver equal 4 select Rank
+where Country equal brazil select U.S._Open as A where Country equal italy select U.S._Open as B sum A B
+where Rank equal 16 select Nation
+where 2nd_Venue equal dubai argmax Year Year
+where Average less 50 argmin Player Matches
+where Player equal gordon_otto select Runs
+where Innings greater 76 where Average less 30 argmin Player 100s
+where Bronze less 6 where Gold greater 28 select Nation
+where Country equal england select The_Open as A where Country equal wales select The_Open as B sum A B
+where Gold equal 69 select Nation
+where 50s equal 10 where Games_Played greater 5 select Average
+where Innings greater 76 where Average less 14 argmin Player Games_Played
+where Year equal 2010 select 3rd_Venue
+where Year equal 2013 select 2nd_Venue
+where Country equal wales select The_Open as A where Country equal australia select The_Open as B sum A B
+where Name equal ross_jenkins select Goals
+where Swara equal panchama select Position as A where Position greater A argmin Swara Position
+where Swara equal panchama select Position as A where Position greater A argmin Swara Position
+where State equal assam select No._of_candidates
+where State equal delhi select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+where Average less 30 argmin Player Innings
+where 1st_Venue equal cambridge select Year
+where Year equal 2007 select 3rd_Venue
+where Innings greater 39 where Average less 14 argmin Player Matches
+where Year_inducted greater 2011 argmax Goals Goals
+argmax 2nd_Venue Year
+where Swara equal shadja select Position as A where Position greater A argmin Swara Position
+where State equal west_bengal select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where Runs equal 10 where 100s greater 2 select Average
+where 50s equal 12 select 100s
+where Player equal albert_clapp select Runs as A where Player equal george_nichols select Runs as B diff A B
+where Innings equal 5 where 100s greater 10 select Average
+where 50s greater 76 where Average less 30 argmax Player Matches
+where 3rd_Venue equal beijing argmin Year Year
+where Apps equal 457 where Goals equal 25 select Position
+where Nation equal ukraine mean Total_Apps
+where Nation equal turkey select Gold
+where Country equal netherlands select The_Open as A where Country equal spain select The_Open as B sum A B
+where Country equal australia select The_Open as A where Country equal italy select The_Open as B sum A B
+where Average greater 20 argmin Player Free_Throws
+where Nation equal romania select Rank as A where Rank less A argmax Nation Rank
+where State equal meghalaya select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+where Gold equal 91 select Nation
+where Nation equal slovakia select Total
+where Team equal greystones select Prices as A where Team equal dundalk_gael select Prices as B diff A B
+where Silver equal 3 where Bronze equal 27 select Rank
+where Nation equal netherlands select Gold as A where Nation equal brazil select Gold as B diff A B
+where Runs greater 39 where Points less 14 argmax Player Matches
+where Goals greater 172 where Goals less 247 select Name
+where 2nd_Venue equal havana sum
+where Matches equal 60 select Points
+where Year greater 1994 where Year less 1997 select 1st_Venue
+where Name equal robert_page select Position
+where Silver equal 81 where Bronze equal 4 select Rank
+where 1st_Venue equal los_angeles select Year
+where Position equal 4 select Short_name
+where Silver greater 9 where Bronze less 28 select Nation
+where Apps equal 321 where Goals equal 186 select Name
+where 3rd_Venue equal washington argmin Year Year
+where Gold greater 0 mean Gold
+where 3rd_Venue equal cambridge argmin Year Year
+where Year greater 2005 where Year less 2007 select 1st_Venue
+where 2nd_Venue equal cambridge argmin Year Year
+argmin Runs Runs
+where Team equal crettyard select Prices as A where Team equal maynooth select Prices as B diff A B
+where Nation equal ireland select Bronze
+where Nation equal netherlands select Bronze as A where Nation equal india select Bronze as B diff A B
+where Year equal 2014 select 4th_Venue
+where Total less 32 where Gold greater 28 select Nation
+where Team equal dundalk_gael select Years_won as A where Team equal maynooth select Years_won as B diff A B
+where Average less 30 argmin Player Free_Throws
+where Games_Played equal 40 select 100s
+where Gold greater 32 where Bronze less 28 select Nation
+where Gold greater 20 sum
+where Runs equal 10 where Matches greater 15 select Average
+where Nation equal russia select Total
+where Year_inducted greater 2007 argmax Goals Goals
+where Year equal 2007 select 4th_Venue
+where Gold equal 8 where Silver equal 7 argmax Nation Rank
+where Nation equal france select Gold
+where Average greater 80 argmax Player 50s
+where Nation equal italy select Bronze as A where Nation equal romania select Bronze as B diff A B
+where Nation equal cuba select Silver
+where Gold equal 92 select Nation
+where Rank equal 55 select Bronze
+where 2nd_Venue equal dubai select 1st_Venue
+where Year_of_Election greater 2003 where Year_of_Election less 2007 argmax State No._of_candidates
+where Team equal greystones select Years_won as A where Team equal dundalk_gael select Years_won as B diff A B
+where 3rd_Venue equal veracruz select 1st_Venue
+where Player equal george_nichols select 100s as A where Player equal bill_roe select 100s as B diff A B
+where Matches greater 20 sum Player
+where Gold less 32 where Silver greater 4 select Nation
+where Nation equal india select Silver as A where Nation equal australia select Silver as B diff A B
+argmax Total Rank
+where 2nd_Venue equal Caracas argmax Year Year
+where Country equal brazil select U.S._Open as A where Country equal netherlands select U.S._Open as B sum A B
+where 50s greater 39 where Points less 7 argmax Player 100s
+where Team equal ballyroan_abbey select Areas as A where Team equal greystones select Areas as B diff A B
+where Country equal romania select PGA as A where Country equal england select PGA as B sum A B
+where No._of_candidates greater 15 where No._of_candidates less 24 select Total_no._of_seats_in_Assembly
+where Party equal green argmin Took_office Number
+where Innings greater 76 where Average less 30 argmin Player Matches
+where Average equal 50 argmin Player Free_Throws
+where Innings equal 10 where Games_Played greater 5 select Points
+where 50s greater 39 where Points less 30 argmin Player Matches
+where Bronze equal 81 where Gold equal 27 select Rank
+where Nation equal netherlands select Silver as A where Nation equal spain select Silver as B diff A B
+where Country equal brazil select Masters as A where Country equal england select Masters as B sum A B
+where Silver equal 2 where Gold equal 1 select Rank
+where Runs greater 39 where Points less 14 argmin Player Games_Played
+where 50s equal 5 where 100s greater 2 select Points
+where Rank equal 5 select Nation
+where Bronze greater 5 select Nation
+argmax Nation Bronze
+where Position equal defender argmax Name Apps
+where Average less 80 argmax Player Games_Played
+where Average greater 50 argmax Player Matches
+where Nation equal slovakia select Gold
+where Team equal maynooth select Areas as A where Team equal confey select Areas as B diff A B
+where Silver greater 9 where Bronze less 4 select Nation
+where Party equal no_party argmin Left_office Number
+where Silver equal 71 where Bronze equal 23 argmin Nation Rank
+where Innings equal 10 where Matches greater 5 select Average
+where Innings greater 39 where Average less 14 argmax Player 100s
+where Total greater 32 where Silver less 28 select Nation
+where 2nd_Venue equal indianapolis argmax Year Year
+where Gold equal 14 where Bronze equal 4 select Rank
+where Runs equal 15 where Matches greater 2 select Average
+where Runs greater 400 where Points less 14 argmin Player Games_Played
+where Rank equal 5 select Nation
+where Year_of_Election equal 2007 argmin State No._of_candidates
+where Player equal herbie_hewett select Innings as A where Player equal george_nichols select Innings as B diff A B
+where Runs greater 39 where Points less 30 argmin Player Matches
+where Bronze equal 4 sum
+where Country equal wales select PGA as A where Country equal england select PGA as B sum A B
+where Gold equal 97 select Nation
+where Runs equal 10 where 100s greater 5 select Points
+where Innings equal 90 select Points
+where Team equal fingal_ravens select Years as A where Years less A argmax Team Year
+where Innings equal 15 where 100s greater 5 select Average
+where 3rd_Venue equal mexico_city argmin Year Year
+where Player equal ralf_woods select 50s
+where Nation equal kazakhstan select Total
+where Runs greater 39 where Average less 7 argmax Player Matches
+where 50s greater 400 where Average less 30 argmax Player Matches
+where Runs greater 39 where Average less 14 argmax Player Matches
+where Player equal john_challen select Innings
+where Bronze greater 32 where Gold less 8 select Nation
+where Player equal ralf_woods select 100s
+where Runs greater 39 where Points less 7 argmin Player 100s
+where 50s equal 5 where Games_Played greater 15 select Points
+where Average less 20 argmax Player Points
+argmin League_Apps League_Apps
+where Team equal crettyard select Areas as A where Team equal ballyroan_abbey select Areas as B diff A B
+where Gold less 6 where Bronze greater 28 select Nation
+where Player equal george_nichols select Matches as A where Player equal bill_roe select Matches as B diff A B
+where Bronze equal 6 where Silver equal 5 argmax Nation Rank
+where Gold greater 32 where Silver less 8 select Nation
+where Gold less 6 where Total greater 8 select Nation
+where Player equal george_nichols select Average as A where Player equal albert_clapp select Average as B diff A B
+where Year greater 2009 where Year less 2012 select 1st_Venue
+where Gold greater 0 mean Silver
+where Gold less 9 where Bronze greater 8 select Nation
+where Nation equal germany mean League_Apps
+where Country equal netherlands select Masters as A where Country equal romania select Masters as B sum A B
+where Total less 32 where Bronze greater 4 select Nation
+where State equal mizoram select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+where Team equal ballyroan_abbey select Prices as A where Team equal dundalk_gael select Prices as B diff A B
+where Innings greater 400 where Points less 7 argmin Player Games_Played
+where Nation equal nepal select Bronze as A where Nation equal spain select Bronze as B diff A B
+argmax Average Average
+where Year_inducted equal 2003 select Name
+where State equal kerala select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where Runs greater 400 where Points less 14 argmin Player 100s
+where Games_Played equal 90 select Runs
+where Runs greater 400 where Average less 7 argmin Player Matches
+where Nation equal netherlands select Gold as A where Nation equal romania select Gold as B diff A B
+where Total greater 9 where Silver less 28 select Nation
+where Gold equal 8 where Bronze equal 7 argmin Nation Rank
+where 50s greater 76 where Average less 30 argmin Player Games_Played
+where Party equal liberal_democrats argmin Left_office Number
+where Year_inducted less 2015 argmin Goals Goals
+where Player equal lionel_palairet select Field_Goals
+where Nation equal south_korea select Bronze
+where Silver equal 0 where Bronze greater 0 select Nation
+where Matches greater 10 sum Player
+where Average greater 80 argmin Player Field_Goals
+where Innings greater 400 where Points less 14 argmax Player Games_Played
+where Team equal ballyroan_abbey select Prices as A where Team equal crettyard select Prices as B diff A B
+where Bronze greater 10 sum
+where 2nd_Venue equal changzhou sum
+where Name equal tony_coton select Year_inducted
+where Runs equal 10 where Games_Played greater 2 select Average
+argmax Matches Matches
+where Nation equal mexico select Bronze
+where Nation equal iran select Gold
+where Runs greater 76 where Points less 30 argmax Player Matches
+where Nation equal poland select Gold
+where Team equal greystones select Areas as A where Team equal maynooth select Areas as B diff A B
+where Country equal wales select PGA as A where Country equal italy select PGA as B sum A B
+where Gold equal 71 where Silver equal 23 argmin Nation Rank
+where Apps less 117 where Goals less 130 select Name
+where Average less 50 argmax Player Field_Goals
+where Nation equal russia select Bronze
+argmin Player Runs
+where Name equal luther_blissett select Year_inducted
+where State equal gujarat select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where Gold equal 81 where Bronze equal 4 select Rank
+where Gold equal 14 where Silver equal 62 select Rank
+where Nation equal great_britain select Bronze
+where Runs greater 39 where Average less 7 argmin Player Games_Played
+where Bronze equal 6 where Gold equal 7 argmax Nation Rank
+where State equal rajasthan select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+where 3rd_Venue equal changzhou select 2nd_Venue
+where Apps less 229 where Goals less 21 select Name
+where Bronze less 30 sum
+where Nation equal jamaica select Gold
+where Team equal greystones select Years_won as A where Team equal confey select Years_won as B diff A B
+where Total equal 94 select Nation
+where Innings equal 5 where 100s greater 15 select Average
+where Average greater 50 argmin Player 100s
+where Apps equal 219 where Goals equal 108 select Name
+where Average equal 80 argmin Player Innings
+where Average less 50 argmax Player 50s
+where Year_inducted less 2016 argmax Goals Goals
+where Runs greater 76 where Average less 7 argmin Player Games_Played
+where 3rd_Venue equal austin select 2nd_Venue
+where 50s greater 39 where Average less 14 argmin Player Games_Played
+where Player equal lionel_palairet select Matches
+where Average equal 30 argmin Player 100s
+where 2nd_Venue equal Caracas select 1st_Venue
+where Party equal independent argmin Took_office Number
+where Player equal john_challen select Innings as A where Player equal herbie_hewett select Innings as B diff A B
+argmin 2nd_Venue Year
+where Average equal 20 argmin Player Points
+where Silver equal 98 select Nation
+where Average greater 80 argmin Player 50s
+where 50s equal 15 where 100s greater 10 select Points
+where Country equal spain select Masters as A where Country equal italy select Masters as B sum A B
+argmax 3rd_Venue Year
+where Team equal fingal_ravens select Prices as A where Team equal dundalk_gael select Prices as B diff A B
+where Nation equal germany select Gold
+where Nation equal uzbekistan select Bronze
+where Apps less 327 where Goals greater 189 select Name
+where Year greater 2013 where Year less 2016 select 4th_Venue
+where Nation equal great_britain select Gold
+where Total greater 9 where Bronze less 28 select Nation
+argmin Name Apps
+where Nation equal australia select Total
+where Apps greater 142 where Apps less 157 select Name
+where Bronze equal 81 where Gold equal 62 select Rank
+where Runs greater 400 where Average less 30 argmax Player 100s
+where Apps equal 109 where Goals equal 111 select Name
+where Silver equal 2 where Bronze equal 4 select Rank
+where Nation equal malaysia select Silver
+where Runs greater 76 where Points less 30 argmin Player Games_Played
+argmin Innings Innings
+where Nation equal china select Bronze
+where Year equal 2015 select 3rd_Venue
+where Player equal george_nichols select 100s as A where Player equal john_challen select 100s as B diff A B
+where Year greater 1994 where Year less 1996 select 1st_Venue
+where Year_inducted equal 2005 select Name
+where Player equal george_halas select 50s
+where Bronze equal 8 sum
+where 50s greater 400 where Average less 30 argmin Player Games_Played
+where Average less 20 argmin Player Runs
+where Bronze equal 19 select Nation
+where 4th_Venue equal cambridge select Year
+where Country equal australia select Masters as A where Country equal england select Masters as B sum A B
+where Nation equal ukraine select Bronze
+where 3rd_Venue equal havana argmin Year Year
+where Bronze equal 9 select Nation
+where Gold equal 10 sum
+argmin No._of_elected Year_of_Election
+where Average greater 20 argmax Player Runs
+where Runs greater 76 where Average less 30 argmin Player 100s
+where Nation equal australia select Silver as A where Nation equal spain select Silver as B diff A B
+where Nation equal china select Bronze
+where 1st_Venue equal changzhou argmax Year Year
+where Gold equal 8 where Silver equal 23 argmax Nation Rank
+where Silver equal 3 sum
+where Year_inducted greater 2002 argmin Goals Goals
+where Nation equal moldova select Bronze
+where Player equal albert_clapp select Runs as A where Player equal herbie_hewett select Runs as B diff A B
+where 2nd_Venue equal changzhou argmax Year Year
+where Year_inducted greater 2010 argmin Goals Goals
+where Party equal no_party argmax Left_office Number
+where Team equal fingal_ravens select Areas as A where Team equal maynooth select Areas as B diff A B
+where 3rd_Venue equal washington select 2nd_Venue
+where Team equal fingal_ravens select Prices as A where Team equal maynooth select Prices as B diff A B
+where Apps equal 331 where Goals equal 97 select Name
+where Year_inducted equal 2014 select Name
+where Player equal Ray_Woods select Runs
+where Nation equal brazil select Bronze as A where Nation equal romania select Bronze as B diff A B
+where 3rd_Venue equal los_angeles select 2nd_Venue
+where Rank equal 7 select Nation
+where Gold greater 5 select Nation
+where Runs greater 400 where Average less 30 argmin Player Games_Played
+where Apps greater 66 where Goals less 157 select Name
+where Nation equal south_korea select Gold
+where Innings greater 76 where Points less 7 argmax Player Matches
+where Runs greater 76 where Average less 14 argmax Player Games_Played
+where State equal uttarakhand select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly less A argmin State No._of_candidates
+where Silver equal 2 where Gold equal 4 select Rank
+where Nation equal brazil select Bronze
+where Average equal 50 argmin Player Matches
+where Year equal 2003 select 4th_Venue
+where Average equal 70 argmin Player Games_Played
+where Year_of_Election greater 2002 where Year_of_Election less 2010 argmin State Total_no._of_seats_in_Assembly
+where Runs equal 5 where Matches greater 2 select Points
+where Average equal 70 argmax Player 100s
+where Runs greater 400 where Average less 30 argmax Player Matches
+argmax Player 50s
+where 2nd_Venue equal guanajuato argmax Year Year
+where Country equal spain select Masters as A where Country equal brazil select Masters as B sum A B
+where Year_inducted equal 2010 select Name
+where Innings greater 400 where Average less 7 argmax Player 100s
+where Bronze less 40 sum
+where Discipline equal curling select Amanda
+where Runs greater 39 where Average less 30 argmin Player 100s
+where Innings greater 39 where Points less 7 argmax Player 100s
+where Player equal george_nichols select 100s as A where Player equal herbie_hewett select 100s as B diff A B
+where Player equal george_nichols select Runs as A where Player equal herbie_hewett select Runs as B diff A B
+where Name equal david_james select Apps
+where 2nd_Venue equal beijing argmax Year Year
+where Nation equal nepal select Gold as A where Nation equal australia select Gold as B diff A B
+where Year_inducted greater 2014 argmin Goals Goals
+where Team equal fingal_ravens select Years_won as A where Team equal crettyard select Years_won as B diff A B
+where Silver equal 81 where Bronze equal 27 select Rank
+where State equal maharashtra select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly less A argmin State No._of_candidates
+where No._of_elected less 8 where No._of_elected greater 12 argmax State No._of_elected
+where Nation equal brazil select Silver as A where Nation equal india select Silver as B diff A B
+where Nation equal spain select Bronze as A where Nation equal romania select Bronze as B diff A B
+where 50s equal 15 where 100s greater 2 select Average
+where 3rd_Venue equal nanjing argmin Year Year
+where Year_of_Election greater 2000 where Year_of_Election less 2006 argmin State Total_no._of_seats_in_Assembly
+where 2nd_Venue equal havana argmin Year Year
+where Player equal albert_clapp select 100s as A where Player equal bill_roe select 100s as B diff A B
+where Year_inducted greater 2004 argmin Goals Goals
+where Year_inducted less 2011 argmax Goals Goals
+where 2nd_Venue equal nassau sum
+where Team equal ballyroan_abbey select Prices as A where Team equal greystones select Prices as B diff A B
+where 50s greater 39 where Points less 30 argmax Player Games_Played
+where Bronze equal 69 select Nation
+where Nation equal netherlands select Gold as A where Nation equal nepal select Gold as B diff A B
+where Country equal italy select PGA as A where Country equal england select PGA as B sum A B
+argmax Player Average
+where Runs equal 5 where Games_Played greater 15 select Average
+where Nation equal spain select Rank as A where Rank less A argmin Nation Rank
+where Team equal greystones select Years_won as A where Team equal maynooth select Years_won as B diff A B
+where 50s greater 76 where Average less 30 argmin Player Matches
+where Runs greater 76 where Points less 14 argmax Player Games_Played
+where Year greater 2001 where Year less 2003 select 1st_Venue
+where Team equal crettyard select Prices as A where Team equal dundalk_gael select Prices as B diff A B
+where Team equal ballyroan_abbey select Years as A where Years less A argmax Team Year
+where Runs equal 5 where Matches greater 15 select Points
+where Nation equal great_britain mean League_Apps
+where Apps less 388 argmin Name Goals
+where Gold greater 32 where Total less 28 select Nation
+where Nation equal thailand select Silver
+where Player equal george_nichols select Average as A where Player equal john_challen select Average as B diff A B
+argmax 100s 100s
+where Apps less 334 argmax Name Goals
+where Innings greater 76 where Points less 14 argmax Player Games_Played
+where Nation equal italy select Gold as A where Nation equal australia select Gold as B diff A B
+where Bronze greater 9 where Total less 8 select Nation
+argmax Position Apps
+where Apps less 427 where Goals less 149 select Name
+where Discipline equal swimming select Javine_H
+where Nation equal italy select Gold as A where Nation equal romania select Gold as B diff A B
+where Average greater 50 argmax Player 100s
+where Gold less 6 where Bronze greater 8 select Nation
+where 3rd_Venue equal indianapolis argmin Year Year
+where No._of_candidates greater 21 where No._of_candidates less 25 select Total_no._of_seats_in_Assembly
+where Party equal respect argmax Left_office Number
+where Nation equal spain select Gold as A where Nation equal netherlands select Gold as B diff A B
+where Party equal green argmax Took_office Number
+where Average equal 30 argmin Player Innings
+where Silver equal 0 sum
+where Team equal confey select Areas as A where Team equal ballyroan_abbey select Areas as B diff A B
+where Bronze less 32 where Total greater 4 select Nation
+where Country equal spain select U.S._Open as A where Country equal brazil select U.S._Open as B sum A B
+where 1st_Venue equal mexico_city sum
+where Nation equal netherlands select Gold
+where Year_inducted less 1996 argmin Goals Goals
+where 2nd_Venue equal dubai sum
+where Bronze greater 0 where Silver equal 0 select Nation
+where Bronze equal 14 where Gold equal 1 select Rank
+where Party equal labour argmax Left_office Number
+where Average greater 30 argmax Player 50s
+where Average equal 30 argmax Player 100s
+where Player equal ted_tyler select 100s
+argmax Games_Played Games_Played
+where Average less 30 argmin Player Points
+where Average greater 70 argmax Player Innings
+where Runs equal 15 where Matches greater 2 select Points
+where Bronze greater 32 where Gold less 28 select Nation
+where Average greater 80 argmax Player 100s
+where Nation equal romania select Silver as A where Nation equal india select Silver as B diff A B
+where Nation equal nepal select Gold as A where Nation equal romania select Gold as B diff A B
+argmax Player Points
+where Innings greater 76 where Average less 30 argmax Player Games_Played
+where Rank equal 15 select Gold
+where 3rd_Venue equal veracruz select 2nd_Venue
+where Silver less 40 sum
+where 1st_Venue equal veracruz select Year
+where Country equal spain select Masters as A where Country equal netherlands select Masters as B sum A B
+where 50s greater 400 where Average less 14 argmax Player 100s
+where Total greater 9 where Gold less 4 select Nation
+where Position equal defender argmin Name Apps
+where 2nd_Venue equal washington argmin Year Year
+where Country equal wales select U.S._Open as A where Country equal romania select U.S._Open as B sum A B
+where Year greater 1997 where Year less 2000 select 4th_Venue
+where Gold less 6 where Silver greater 8 select Nation
+where Average less 80 argmin Player Field_Goals
+where Name equal les_taylor select Position
+where Nation equal poland select Silver
+where Year equal 2014 select 1st_Venue
+where Nation equal russia select Silver
+where Goals greater 107 argmin Name Apps
+where Year_inducted greater 1996 argmin Goals Goals
+where 50s greater 400 where Points less 30 argmin Player 100s
+where No._of_candidates greater 20 where No._of_candidates less 29 select Total_no._of_seats_in_Assembly
+where Nation equal australia select Gold as A where Nation equal romania select Gold as B diff A B
+where Bronze less 6 where Silver greater 4 select Nation
+argmax Player 50s
+where 2nd_Venue equal doha sum
+where Team equal fingal_ravens select Years as A where Years less A argmax Team Year
+where Innings greater 76 where Points less 14 argmin Player Games_Played
+where Silver equal 6 where Gold equal 5 argmax Nation Rank
+where Bronze equal 99 select Nation
+where Player equal george_nichols select Innings
+where State equal maharashtra select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where Bronze equal 8 where Gold equal 5 argmin Nation Rank
+where Year equal 2015 select 2nd_Venue
+where Nation equal netherlands select Silver as A where Nation equal india select Silver as B diff A B
+where Innings greater 400 where Average less 14 argmax Player Matches
+where Nation equal india select Gold as A where Nation equal italy select Gold as B diff A B
+where Rank equal 35 select Silver
+where Silver greater 6 where Gold less 8 select Nation
+where Team equal greystones select Prices as A where Team equal maynooth select Prices as B diff A B
+where Year_inducted less 1997 argmin Goals Goals
+where 1st_Venue equal beijing sum
+where Rank equal 45 select Gold
+where Bronze greater 6 where Total less 4 select Nation
+where Nation equal germany select Bronze
+where Total greater 6 where Silver less 4 select Nation
+where Nation equal india select Silver as A where Nation equal romania select Silver as B diff A B
+where 3rd_Venue equal Seattle select 2nd_Venue
+where Innings equal 5 where Games_Played greater 2 select Points
+where Innings greater 76 where Points less 7 argmax Player 100s
+where 1st_Venue equal chicago sum
+where Player equal george_nichols select Matches
+argmin Name Year_inducted
+where Nation equal india select Gold as A where Nation equal australia select Gold as B diff A B
+where Nation equal thailand select Bronze
+where Total less 6 where Bronze greater 4 select Nation
+where Nation equal spain select Total
+where 2nd_Venue equal doha argmin Year Year
+where No._of_candidates less 15 where No._of_candidates greater 19 argmax State No._of_elected
+where Year_inducted less 1999 argmin Goals Goals
+where 3rd_Venue equal tokyo argmin Year Year
+where Country equal brazil select PGA as A where Country equal wales select PGA as B sum A B
+where 1st_Venue equal Seattle sum
+where Runs greater 76 where Average less 30 argmin Player Games_Played
+where Player equal george_nichols select 100s
+where 2nd_Venue equal tokyo select 1st_Venue
+where State equal madhya_pradesh select No._of_candidates
+where Nation equal slovakia select Silver
+argmax Silver Rank
+where 50s equal 15 where Matches greater 10 select Average
+where Team equal maynooth select Prices as A where Team equal greystones select Prices as B diff A B
+where Position equal 4 select Notation
+where Innings equal 5 where Games_Played greater 15 select Points
+where Country equal romania select The_Open as A where Country equal italy select The_Open as B sum A B
+where Nation equal germany select Gold
+where Country equal england select PGA as A where Country equal italy select PGA as B sum A B
+where State equal west_bengal select No._of_candidates
+where Player equal albert_clapp select Matches as A where Player equal herbie_hewett select Matches as B diff A B
+where Rank equal 25 select Silver
+where 3rd_Venue equal chicago select 1st_Venue
+where Average greater 70 argmax Player 50s
+where Total equal 97 select Nation
+where Total greater 6 where Gold less 8 select Nation
+where Country equal italy select Masters as A where Country equal wales select Masters as B sum A B
+where Year_inducted greater 2015 argmin Goals Goals
+where Silver equal 71 where Gold equal 5 argmin Nation Rank
+where Nation equal australia select Bronze as A where Nation equal nepal select Bronze as B diff A B
+where Goals greater 138 argmin Name Apps
+where Total less 9 where Silver greater 28 select Nation
+where Goals less 101 argmin Name Apps
+where Apps greater 125 where Goals less 14 select Name
+where 2nd_Venue equal indianapolis argmin Year Year
+where Silver less 6 where Gold greater 8 select Nation
+where Country equal wales select The_Open as A where Country equal romania select The_Open as B sum A B
+where Player equal crescens_robinson select Games_Played
+where Innings equal 5 where Matches greater 10 select Average
+where Innings equal 60 select 100s
+where State equal meghalaya select No._of_candidates
+where Nation equal australia select Silver as A where Nation equal netherlands select Silver as B diff A B
+where Country equal spain select Masters as A where Country equal romania select Masters as B sum A B
+where Country equal italy select The_Open as A where Country equal spain select The_Open as B sum A B
+where 3rd_Venue equal beijing select 1st_Venue
+where State equal tripura select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where Rank equal 3 select Nation
+where Nation equal brazil select Silver
+where 2nd_Venue equal sydney sum
+where Nation equal great_britain select Bronze
+where Year_inducted greater 2016 argmin Goals Goals
+where Apps greater 248 where Goals greater 26 select Name
+where Country equal romania select PGA as A where Country equal italy select PGA as B sum A B
+where 50s greater 400 where Points less 14 argmin Player Matches
+where 1st_Venue equal Caracas select Year
+where Player equal bill_roe select Points
+where Silver greater 0 mean Silver
+where Bronze greater 9 where Silver less 4 select Nation
+where Bronze greater 32 where Silver less 8 select Nation
+where State equal uttarakhand select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+where Player equal albert_clapp select 100s as A where Player equal herbie_hewett select 100s as B diff A B
+where Player equal ted_tyler select Games_Played
+where Player equal ralf_woods select Points
+where 1st_Venue equal austin argmax Year Year
+where 50s greater 400 where Points less 7 argmin Player Matches
+where Country equal australia select Masters as A where Country equal wales select Masters as B sum A B
+where No._of_elected greater 15 where No._of_elected less 20 select Total_no._of_seats_in_Assembly
+where Player equal herbie_hewett select 100s as A where Player equal john_challen select 100s as B diff A B
+where Apps less 193 where Goals less 34 select Name
+where Country equal netherlands select U.S._Open as A where Country equal italy select U.S._Open as B sum A B
+where Year_inducted greater 2007 argmin Goals Goals
+where Goals less 123 argmin Name Apps
+where Nation equal brazil select Gold as A where Nation equal italy select Gold as B diff A B
+where Party equal conservatives argmin Left_office Number
+where Average less 20 argmin Player Innings
+where Innings equal 40 select 100s
+where Player equal crescens_robinson select Free_Throws
+where Bronze greater 0 mean Bronze
+where Bronze less 6 where Total greater 4 select Nation
+where Bronze equal 90 select Nation
+where 50s greater 400 where Average less 7 argmin Player Matches
+argmax Year Year as A argmin Year Year as B diff A B
+where Team equal ballyroan_abbey select Years as A where Years less A argmax Team Year
+where Average less 20 argmax Player Games_Played
+argmax Nation Gold
+where Player equal albert_clapp select Average as A where Player equal bill_roe select Average as B diff A B
+where Player equal albert_clapp select Matches as A where Player equal george_nichols select Matches as B diff A B
+where Silver less 6 where Total greater 4 select Nation
+where Nation equal poland select Total
+where State equal karnataka select No._of_candidates
+where Year equal 2004 select 1st_Venue
+where Player equal gordon_otto select Field_Goals
+where Runs equal 15 where Games_Played greater 10 select Average
+where State equal karnataka select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly less A argmin State No._of_candidates
+where Bronze greater 9 where Gold less 4 select Nation
+where Rank equal 92 select Bronze
+where Average equal 20 argmax Player Runs
+where Innings greater 10 sum Player
+where 50s greater 400 where Average less 14 argmin Player 100s
+where Nation equal moldova select Gold
+where Year_of_Election equal 1998 argmin State No._of_candidates
+where Nation equal great_britain select Gold
+where Year equal 2012 select 4th_Venue
+where Silver equal 79 select Nation
+where Runs less 10 sum Player
+where Year_inducted less 2006 argmin Goals Goals
+where Innings greater 400 where Average less 14 argmin Player Games_Played
+where Silver equal 19 select Nation
+where Name equal ian_bolton select Year_inducted
+where Gold less 20 sum
+where 50s equal 5 where Games_Played greater 15 select Average
+argmax 2nd_Venue Year
+where State equal chhattisgarh select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where Year equal 2002 select 4th_Venue
+where Rank equal 25 select Gold
+where Nation equal armenia select Bronze
+where Party equal British_National_Party argmin Left_office Number
+where 50s greater 76 where Points less 14 argmax Player Matches
+where 50s greater 400 where Average less 7 argmax Player 100s
+where Year greater 2009 where Year less 2011 select 1st_Venue
+where Average greater 70 argmax Player Runs
+where Team equal confey select Prices as A where Team equal greystones select Prices as B diff A B
+where Nation equal denmark select Silver
+where 2nd_Venue equal beijing argmax Year Year
+where Average equal 80 argmin Player 100s
+where Player equal Clyde_Alwood select Points
+where Player equal crescens_robinson select Innings
+where Year_inducted greater 1996 argmax Goals Goals
+where Innings equal 15 where Matches greater 10 select Average
+where Year_of_Election greater 2003 where Year_of_Election less 2006 argmin State Total_no._of_seats_in_Assembly
+where Innings greater 400 where Points less 14 argmax Player Matches
+where Average equal 70 argmax Player Free_Throws
+where Goals greater 165 argmin Name Apps
+where State equal chhattisgarh select No._of_candidates
+where Year greater 2003 where Year less 2006 select 1st_Venue
+argmax Player Matches
+where Year_of_Election equal 2002 argmin State No._of_candidates
+where Nation equal spain select Silver as A where Nation equal nepal select Silver as B diff A B
+where Matches equal 40 select Runs
+where Runs greater 39 where Points less 7 argmax Player 100s
+where Average greater 50 argmin Player 50s
+where State equal delhi select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly less A argmin State No._of_candidates
+where Nation equal france select Bronze
+where State equal tripura select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+argmin Nation Bronze
+argmax Player 100s
+where Year_inducted less 1998 argmin Goals Goals
+where Average equal 30 argmin Player Games_Played
+where 2nd_Venue equal minneapolis sum
+where Nation equal india select Bronze as A where Nation equal spain select Bronze as B diff A B
+where Nation equal spain select Gold as A where Nation equal nepal select Gold as B diff A B
+argmax State No._of_candidates
+where Nation equal united_states select Total
+where Rank equal 9 select Nation
+where Innings greater 76 where Average less 7 argmin Player 100s
+where Bronze greater 20 sum
+where 50s greater 400 where Average less 7 argmin Player 100s
+where Bronze less 9 where Gold greater 4 select Nation
+where Nation equal italy select Silver
+where State equal goa select No._of_candidates
+where Position equal 9 select Mnemonic
+where Year greater 2004 where Year less 2007 select 4th_Venue
+where 2nd_Venue equal Seattle sum
+where Party equal British_National_Party argmax Left_office Number
+where Apps less 113 argmin Name Goals
+where Goals greater 131 argmin Name Apps
+where Nation equal france mean League_Goals
+where State equal punjab select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+where Average greater 70 argmin Player Games_Played
+where Team equal maynooth select Years as A where Years greater A argmin Team Year
+where State equal jammu_and_kashmir select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where Year equal 2006 select 3rd_Venue
+where Runs greater 39 where Average less 30 argmin Player Matches
+where Team equal crettyard select Areas as A where Team equal dundalk_gael select Areas as B diff A B
+where Player equal george_nichols select Matches as A where Player equal john_challen select Matches as B diff A B
+where Year_inducted less 2013 argmax Goals Goals
+where Player equal albert_clapp select Field_Goals
+where State equal maharashtra select No._of_candidates
+where Year_inducted greater 2005 argmax Goals Goals
+where Gold equal 3 where Bronze equal 1 select Rank
+where Innings greater 76 where Average less 14 argmax Player Games_Played
+where Player equal john_challen select Runs
+where State equal himachal_pradesh select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly less A argmin State No._of_candidates
+where Team equal maynooth select Years_won as A where Team equal ballyroan_abbey select Years_won as B diff A B
+where Country equal romania select Masters as A where Country equal italy select Masters as B sum A B
+where Country equal netherlands select U.S._Open as A where Country equal wales select U.S._Open as B sum A B
+where Country equal wales select PGA as A where Country equal spain select PGA as B sum A B
+where Matches equal 12 select Points
+argmax Player Free_Throws
+where 50s equal 40 select Runs
+where Player equal herbie_hewett select Runs as A where Player equal bill_roe select Runs as B diff A B
+where Team equal confey select Areas as A where Team equal dundalk_gael select Areas as B diff A B
+where Gold equal 6 where Silver equal 23 argmax Nation Rank
+where Apps less 203 argmin Name Goals
+where 50s greater 400 where Points less 7 argmax Player Matches
+where Nation equal spain select Silver as A where Nation equal brazil select Silver as B diff A B
+where Nation equal malaysia select Gold
+where Country equal spain select The_Open as A where Country equal italy select The_Open as B sum A B
+argmin Player Runs
+where Team equal fingal_ravens select Areas as A where Team equal greystones select Areas as B diff A B
+where Gold equal 8 where Silver equal 7 argmin Nation Rank
+where Innings equal 40 select Runs
+argmin Player Innings
+where Rank equal 10 select Nation
+where Total equal 9 select Nation
+where Apps less 139 argmax Name Goals
+where Nation equal ukraine select Bronze
+where 50s equal 10 where 100s greater 5 select Average
+where Silver equal 71 where Gold equal 5 argmax Nation Rank
+where Nation equal australia select Bronze as A where Nation equal italy select Bronze as B diff A B
+where Country equal netherlands select PGA as A where Country equal wales select PGA as B sum A B
+where Average greater 20 argmin Player Points
+where Average less 30 argmin Player Matches
+where Nation equal united_states select Gold
+where Runs equal 5 where 100s greater 15 select Average
+where Matches equal 40 select 100s
+where Swara equal antara_gandhara select Position as A where Position greater A argmin Swara Position
+where Nation equal nepal select Silver as A where Nation equal spain select Silver as B diff A B
+where Gold greater 0 where Silver equal 0 select Nation
+where Gold less 32 where Silver greater 8 select Nation
+where Year_inducted less 2004 argmax Goals Goals
+where Silver greater 6 where Gold less 28 select Nation
+where Nation equal germany mean Total_Goals
+where Total equal 99 select Nation
+where Player equal herbie_hewett select Innings as A where Player equal bill_roe select Innings as B diff A B
+where Average less 70 argmax Player Field_Goals
+where Gold greater 9 where Silver less 28 select Nation
+argmin Free_Throws Free_Throws
+where Nation equal japan select Silver
+where Bronze greater 6 where Gold less 28 select Nation
+where Team equal maynooth select Prices as A where Team equal crettyard select Prices as B diff A B
+where Apps greater 198 where Apps less 236 select Name
+where Player equal herbie_hewett select Matches as A where Player equal george_nichols select Matches as B diff A B
+where 2nd_Venue equal boston argmax Year Year
+where Player equal bill_roe select Free_Throws
+where Nation equal cuba select Bronze
+where Year greater 1998 where Year less 2000 select 1st_Venue
+where Nation equal great_britain mean Total_Apps
+where Year_inducted equal 2011 select Name
+where Bronze equal 8 where Gold equal 7 argmin Nation Rank
+where Party equal no_party argmax Took_office Number
+where Innings greater 400 where Points less 30 argmin Player Matches
+where Nation equal scotland mean League_Goals
+where Average less 50 argmax Player Innings
+where State equal mizoram select No._of_candidates
+where 3rd_Venue equal dubai select 1st_Venue
+where Country equal italy select U.S._Open as A where Country equal wales select U.S._Open as B sum A B
+where No._of_elected greater 21 where No._of_elected less 27 select Total_no._of_seats_in_Assembly
+where Player equal Ray_Woods select Free_Throws
+where 1st_Venue equal chicago select Year
+where Team equal dundalk_gael select Prices as A where Team equal fingal_ravens select Prices as B diff A B
+where Innings greater 39 where Points less 30 argmax Player Games_Played
+where Average less 70 argmin Player Field_Goals
+where Nation equal austria select Gold
+argmax Player Points
+where Country equal spain select PGA as A where Country equal brazil select PGA as B sum A B
+where Country equal spain select PGA as A where Country equal netherlands select PGA as B sum A B
+where Team equal ballyroan_abbey select Areas as A where Team equal crettyard select Areas as B diff A B
+where Nation equal china select Silver
+where Country equal wales select Masters as A where Country equal brazil select Masters as B sum A B
+where Player equal herbie_hewett select 50s
+where Total less 9 where Gold greater 8 select Nation
+where Nation equal iran select Total
+where Rank equal 15 select Nation
+where 50s greater 400 where Points less 14 argmax Player 100s
+where Silver greater 10 sum
+where Rank equal 32 select Gold
+where Bronze equal 3 where Silver equal 1 select Rank
+where Nation equal japan select Gold
+where Matches less 20 sum Player
+where Discipline equal hurdles select Amanda
+where Player equal ernest_mckay select Matches
+where Games_Played equal 99 select Runs
+where 50s greater 39 where Average less 14 argmax Player Matches
+where Name equal robert_page select Year_inducted
+where Silver equal 6 where Bronze equal 7 argmax Nation Rank
+where 2nd_Venue equal dubai argmax Year Year
+where Average less 70 argmax Player 50s
+where Innings equal 60 select Runs
+where Year_of_Election greater 2001 where Year_of_Election less 2005 argmin State Total_no._of_seats_in_Assembly
+argmin Nation Total
+where Runs greater 39 where Average less 7 argmin Player 100s
+where Runs greater 76 where Average less 14 argmin Player Matches
+where Player equal john_challen select Matches
+where Year_inducted greater 2014 argmax Goals Goals
+where Bronze greater 0 sum
+where Innings greater 39 where Points less 7 argmin Player 100s
+where Silver equal 2 where Gold equal 27 select Rank
+where Average less 80 argmax Player 100s
+where Average greater 70 argmin Player 100s
+where Gold greater 9 where Total less 8 select Nation
+where Nation equal ukraine mean League_Goals
+where Gold equal 71 where Silver equal 7 argmax Nation Rank
+where Bronze equal 95 select Nation
+where 1st_Venue equal mexico_city argmax Year Year
+where Games_Played equal 12 select Points
+where State equal puducherry select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly less A argmin State No._of_candidates
+argmin 2nd_Venue Year
+where Average less 70 argmin Player Games_Played
+where Innings greater 76 where Points less 30 argmin Player Games_Played
+where Year equal 2000 select 3rd_Venue
+where Bronze equal 6 where Silver equal 5 argmin Nation Rank
+where Total equal 29 select Nation
+where Silver greater 0 sum
+where 1st_Venue equal washington sum
+where Nation equal united_states select Silver
+where Country equal wales select The_Open as A where Country equal netherlands select The_Open as B sum A B
+where Runs greater 39 where Average less 7 argmax Player Games_Played
+where Nation equal morocco select Gold
+where Nation equal estonia select Total
+where Runs greater 76 where Average less 14 argmin Player 100s
+where Apps less 123 argmin Name Goals
+argmax Name Year_inducted
+where Year_inducted equal 2002 select Name
+where Year_inducted less 2008 argmax Goals Goals
+where Apps less 99 argmin Name Goals
+where Average greater 50 argmin Player Games_Played
+where 50s equal 99 select 100s
+where Team equal maynooth select Prices as A where Team equal dundalk_gael select Prices as B diff A B
+where 50s greater 39 where Average less 7 argmax Player Matches
+where Matches equal 99 select 100s
+where Year_inducted greater 2009 argmin Goals Goals
+where Player equal john_felmley select Innings
+where Games_Played equal 60 select Runs
+where Player equal albert_clapp select 50s
+where Year_of_Election greater 2006 where Year_of_Election less 2011 argmin State Total_no._of_seats_in_Assembly
+where 50s greater 400 where Points less 30 argmin Player Games_Played
+where Innings greater 400 where Points less 30 argmin Player Games_Played
+where Team equal ballyroan_abbey select Years_won as A where Team equal dundalk_gael select Years_won as B diff A B
+where Position equal midfielder argmin Name Goals
+where Runs greater 76 where Average less 30 argmax Player Matches
+where Discipline equal cycling select Michelle
+where Year_of_Election equal 2000 argmin State No._of_candidates
+where 2nd_Venue equal guanajuato sum
+where 2nd_Venue equal austin sum
+where Total less 6 where Bronze greater 28 select Nation
+where 50s greater 76 where Points less 14 argmin Player Games_Played
+where Player equal herbie_hewett select Points
+where Nation equal spain select Gold as A where Nation equal italy select Gold as B diff A B
+where Year_inducted greater 2013 argmin Goals Goals
+where Year_inducted equal 2013 select Name
+where 3rd_Venue equal cambridge select 2nd_Venue
+where Team equal dundalk_gael select Areas as A where Team equal crettyard select Areas as B diff A B
+where Silver less 32 where Bronze greater 4 select Nation
+where Silver less 20 sum
+argmax Nation Silver
+where 3rd_Venue equal sydney argmin Year Year
+where Innings greater 400 where Points less 7 argmin Player 100s
+where Total less 6 where Gold greater 4 select Nation
+where Name equal tony_coton select Year_inducted
+where Gold equal 81 where Bronze equal 27 select Rank
+where Innings greater 76 where Average less 30 argmax Player Matches
+where 3rd_Venue equal tokyo select 2nd_Venue
+where 3rd_Venue equal tokyo select 1st_Venue
+where Gold greater 3 select Nation
+where Nation equal switzerland select Total
+argmax Position Goals
+where Discipline equal archery select Amanda
+where Bronze equal 6 where Gold equal 5 argmin Nation Rank
+where No._of_elected less 13 where No._of_elected greater 17 argmax State No._of_elected
+where Total greater 9 where Gold less 8 select Nation
+where Innings equal 5 where Games_Played greater 10 select Points
+where 1st_Venue equal mexico_city select Year
+where 50s greater 400 where Average less 7 argmax Player Matches
+where Year equal 2013 select 4th_Venue
+where No._of_candidates less 16 where No._of_candidates greater 18 argmax State No._of_elected
+where Apps equal 334 where Goals equal 82 select Name
+where Apps greater 203 where Apps less 228 select Name
+where Silver equal 96 select Nation
+where Nation equal australia select Bronze as A where Nation equal romania select Bronze as B diff A B
+where Year greater 2001 where Year less 2004 select 1st_Venue
+where Bronze equal 9 sum
+where Year_of_Election greater 1996 where Year_of_Election less 2003 argmax State No._of_candidates
+where Total less 32 where Bronze greater 28 select Nation
+where Country equal romania select PGA as A where Country equal spain select PGA as B sum A B
+argmax Player Field_Goals
+where Nation equal spain select Silver as A where Nation equal australia select Silver as B diff A B
+where Average greater 50 argmin Player Runs
+where Bronze less 9 where Silver greater 28 select Nation
+where Average equal 50 argmin Player 50s
+where 50s greater 39 where Average less 7 argmax Player Games_Played
+where Year equal 2005 select 2nd_Venue
+where Player equal Clyde_Alwood select 50s
+where Team equal wolfe_tones select Years_won as A where Years_won greater A select Team
+where Silver equal 3 where Gold equal 62 select Rank
+where 1st_Venue equal boston argmax Year Year
+where 1st_Venue equal beijing select Year
+where Average equal 70 argmax Player Games_Played
+where 2nd_Venue equal Caracas argmax Year Year
+where 1st_Venue equal minneapolis sum
+where Gold equal 3 sum
+where Nation equal netherlands select Bronze as A where Nation equal nepal select Bronze as B diff A B
+where Apps less 494 argmin Name Goals
+where Innings greater 39 where Points less 14 argmax Player Games_Played
+where Team equal maynooth select Years_won as A where Team equal greystones select Years_won as B diff A B
+where 1st_Venue equal San_Jose sum
+where Team equal fingal_ravens select Years_won as A where Team equal confey select Years_won as B diff A B
+where Bronze equal 2 where Gold equal 4 select Rank
+where Player equal lionel_palairet select 100s
+where State equal uttar_pradesh select No._of_candidates
+where Nation equal india select Gold as A where Nation equal brazil select Gold as B diff A B
+where Silver less 50 sum
+where Gold greater 0 where Bronze equal 0 select Nation
+argmin Player 100s
+where Runs greater 39 where Average less 30 argmax Player 100s
+where Runs greater 76 where Points less 7 argmin Player 100s
+where Country equal spain select PGA as A where Country equal wales select PGA as B sum A B
+where Player equal albert_clapp select Innings as A where Player equal george_nichols select Innings as B diff A B
+where Nation equal turkey select Bronze
+where Country equal england select PGA as A where Country equal spain select PGA as B sum A B
+where Nation equal moldova select Silver
+where Year_of_Election greater 2006 where Year_of_Election less 2013 argmin State No._of_candidates
+where Rank equal 86 select Silver
+where 50s greater 76 where Average less 14 argmax Player Matches
+where Innings greater 39 where Average less 14 argmin Player Games_Played
+where Nation equal south_korea select Gold
+where Innings equal 12 select 100s
+where Average equal 80 argmax Player Free_Throws
+where Country equal italy select Masters as A where Country equal spain select Masters as B sum A B
+where Year equal 2012 select 3rd_Venue
+where Innings greater 76 where Average less 7 argmax Player 100s
+where Average less 20 argmin Player Games_Played
+where Year_of_Election greater 1996 where Year_of_Election less 1998 argmin State No._of_candidates
+where Nation equal romania select Gold as A where Nation equal australia select Gold as B diff A B
+where Gold greater 0 mean Bronze
+where Apps less 494 argmax Name Goals
+where Innings greater 400 where Average less 14 argmax Player Games_Played
+where Total less 32 where Silver greater 8 select Nation
+argmin Total_Goals Total_Goals
+where Position equal goalkeeper argmin Name Goals
+where Player equal herbie_hewett select Runs
+where Average greater 80 argmax Player Free_Throws
+where State equal odisha select No._of_candidates
+where 2nd_Venue equal indianapolis sum
+where Average less 70 argmax Player Points
+where Country equal wales select The_Open as A where Country equal italy select The_Open as B sum A B
+where Name equal robert_page select Goals
+where Rank equal 42 select Gold
+where Party equal socialist_alternative argmax Left_office Number
+where Silver greater 0 where Bronze equal 0 select Nation
+where Silver greater 5 select Nation
+where Average less 50 argmax Player Free_Throws
+where Apps equal 363 where Goals equal 8 select Position
+where Bronze greater 6 where Total less 8 select Nation
+where Nation equal netherlands select Bronze as A where Nation equal romania select Bronze as B diff A B
+where Nation equal japan mean Total_Apps
+where Nation equal germany mean League_Goals
+where Player equal albert_clapp select Innings as A where Player equal john_challen select Innings as B diff A B
+where Nation equal nepal select Rank as A where Rank greater A argmin Nation Rank
+where Nation equal india select Gold as A where Nation equal romania select Gold as B diff A B
+where Player equal john_felmley select Matches
+argmax Gold Gold as A argmin Gold Gold as B diff A B
+where Team equal maynooth select Years_won as A where Team equal dundalk_gael select Years_won as B diff A B
+where Total greater 32 where Bronze less 28 select Nation
+where Year equal 2001 select 4th_Venue
+where Player equal ralf_woods select Runs
+where Innings greater 76 where Average less 14 argmin Player 100s
+where State equal uttar_pradesh select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+where Nation equal china select Silver
+where Player equal lionel_palairet select Free_Throws
+argmin Nation Silver
+where Year_inducted equal 1998 select Name
+where Country equal england select The_Open as A where Country equal australia select The_Open as B sum A B
+where State equal puducherry select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+where Average less 70 argmax Player Runs
+where 1st_Venue equal sydney select Year
+where Average greater 20 argmin Player Field_Goals
+where Average less 50 argmin Player Points
+where Innings greater 39 where Points less 14 argmin Player Matches
+where Average greater 30 argmax Player Runs
+where Country equal italy select The_Open as A where Country equal netherlands select The_Open as B sum A B
+where Nation equal france mean Total_Goals
+where Name equal ian_bolton select Position
+where Bronze less 20 sum
+where Nation equal ukraine select Gold
+where Nation equal united_states select Bronze
+where Year greater 2000 where Year less 2003 select 1st_Venue
+where Goals greater 142 argmin Name Apps
+where Runs equal 10 where Games_Played greater 15 select Points
+where Average greater 80 argmin Player 100s
+where Average greater 20 argmin Player Innings
+where Gold equal 49 select Nation
+where Player equal albert_clapp select 100s
+where Nation equal france select Silver
+where Player equal george_halas select Field_Goals
+where Year greater 2007 where Year less 2010 select 4th_Venue
+where Average less 70 argmin Player 50s
+where Nation equal spain select Gold as A where Nation equal brazil select Gold as B diff A B
+where Runs greater 39 where Points less 14 argmax Player 100s
+where Country equal italy select PGA as A where Country equal romania select PGA as B sum A B
+where Bronze greater 0 where Gold equal 0 select Nation
+where 50s greater 76 where Average less 7 argmin Player 100s
+where 2nd_Venue equal sheffield sum
+where Player equal bill_roe select Field_Goals
+where Bronze equal 89 select Nation
+where Nation equal spain select Bronze
+where Player equal john_challen select 100s as A where Player equal bill_roe select 100s as B diff A B
+where Gold greater 6 where Total less 8 select Nation
+where Position equal 5 select Mnemonic
+where 2nd_Venue equal shanghai argmax Year Year
+where Year equal 2000 select 2nd_Venue
+where Nation equal south_korea select Bronze
+where Year greater 2011 where Year less 2014 select 1st_Venue
+where Average equal 20 argmin Player Field_Goals
+where Bronze greater 9 where Total less 4 select Nation
+where Nation equal hungary select Gold
+where Runs greater 400 where Points less 7 argmax Player Matches
+where Average greater 50 argmax Player Field_Goals
+where Apps equal 93 where Goals equal 146 select Position
+where Gold equal 9 sum
+where Innings equal 10 where Matches greater 15 select Points
+where State equal odisha select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where Discipline equal hammer select Michelle
+where Nation equal ukraine select Bronze
+where Silver greater 9 where Total less 28 select Nation
+where Innings greater 400 where Points less 14 argmin Player Games_Played
+where Rank equal 32 select Bronze
+where 1st_Venue equal tokyo select Year
+where Nation equal italy select Bronze as A where Nation equal nepal select Bronze as B diff A B
+where State equal himachal_pradesh select No._of_candidates
+where Apps greater 70 where Goals less 87 select Name
+where Year equal 2001 select 1st_Venue
+where State equal tamil_nadu select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+where Year_inducted less 2005 argmin Goals Goals
+where 1st_Venue equal veracruz sum
+where Apps greater 151 where Goals less 137 select Name
+argmax 3rd_Venue Year
+where Party equal socialist_alternative argmin Left_office Number
+where Team equal ballyroan_abbey select Years_won as A where Team equal greystones select Years_won as B diff A B
+where Runs equal 15 where Games_Played greater 2 select Points
+where Year equal 2005 select 1st_Venue
+where Nation equal mongolia select Gold
+where Games_Played equal 12 select Runs
+where Nation equal china select Rank as A where Rank less A argmax Nation Rank
+where Year_of_Election greater 1998 where Year_of_Election less 2000 argmax State No._of_candidates
+where Party equal independent argmin Left_office Number
+where No._of_candidates greater 24 where No._of_candidates less 28 select Total_no._of_seats_in_Assembly
+where 50s equal 10 where Games_Played greater 15 select Average
+where Country equal brazil select Masters as A where Country equal wales select Masters as B sum A B
+where Year_inducted less 2013 argmin Goals Goals
+where Nation equal great_britain select Total
+where State equal madhya_pradesh select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+where Nation equal thailand select Gold
+where 50s greater 76 where Points less 7 argmin Player Matches
+where Goals greater 158 argmin Name Apps
+where Gold greater 32 where Bronze less 8 select Nation
+where Bronze greater 32 where Total less 8 select Nation
+where Team equal Dundalk_Gaels select Years_won as A where Years_won greater A select Team
+where Average greater 80 argmax Player Points
+where Team equal greystones select Areas as A where Team equal fingal_ravens select Areas as B diff A B
+where Country equal australia select Masters as A where Country equal brazil select Masters as B sum A B
+where 2nd_Venue equal dubai argmin Year Year
+where Nation equal india select Gold as A where Nation equal spain select Gold as B diff A B
+where 3rd_Venue equal nassau select 2nd_Venue
+where Innings greater 39 where Points less 14 argmax Player Matches
+where No._of_candidates less 10 where No._of_candidates greater 12 argmax State No._of_elected
+where Runs greater 400 where Points less 30 argmax Player Games_Played
+where 1st_Venue equal sheffield select Year
+where Runs greater 39 where Points less 7 argmin Player Matches
+where Silver greater 50 sum
+where Nation equal nepal select Gold as A where Nation equal italy select Gold as B diff A B
+where 50s equal 15 where Games_Played greater 10 select Points
+where Innings equal 5 where 100s greater 2 select Points
+where Swara equal shatshruti_dhaivata select Position as A where Position greater A argmin Swara Position
+where Year equal 2001 select 3rd_Venue
+where Team equal fingal_ravens select Areas as A where Team equal dundalk_gael select Areas as B diff A B
+where Nation equal france select Rank as A where Rank greater A argmin Nation Rank
+where Nation equal romania select Silver as A where Nation equal spain select Silver as B diff A B
+where Country equal netherlands select U.S._Open as A where Country equal spain select U.S._Open as B sum A B
+where Country equal australia select U.S._Open as A where Country equal wales select U.S._Open as B sum A B
+where Bronze equal 71 where Gold equal 7 argmax Nation Rank
+where Year_inducted less 2001 argmax Goals Goals
+where 1st_Venue equal los_angeles sum
+where 50s equal 99 select Runs
+where Nation equal france select Total
+where Country equal spain select U.S._Open as A where Country equal romania select U.S._Open as B sum A B
+where Gold less 32 where Bronze greater 8 select Nation
+where 50s greater 39 where Average less 7 argmin Player Games_Played
+where Goals greater 66 argmin Name Apps
+where Nation equal united_states mean Total_Apps
+where Nation equal Bahamas select Total
+where Nation equal romania select Bronze as A where Nation equal brazil select Bronze as B diff A B
+where Silver equal 8 where Bronze equal 7 argmax Nation Rank
+where Country equal wales select U.S._Open as A where Country equal spain select U.S._Open as B sum A B
+where Apps less 494 argmax Name Goals
+where Gold equal 81 where Silver equal 62 select Rank
+where Country equal england select The_Open as A where Country equal romania select The_Open as B sum A B
+where Nation equal uganda select Bronze
+where Goals greater 199 argmin Name Apps
+where Gold equal 0 where Silver greater 0 select Nation
+where Gold greater 6 where Bronze less 8 select Nation
+where State equal gujarat select No._of_candidates
+where Player equal george_nichols select Innings as A where Player equal john_challen select Innings as B diff A B
+where Player equal john_challen select Games_Played
+where Nation equal netherlands select Bronze as A where Nation equal australia select Bronze as B diff A B
+where Country equal brazil select The_Open as A where Country equal italy select The_Open as B sum A B
+where State equal goa select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where Innings greater 400 where Average less 30 argmax Player 100s
+where Bronze equal 81 where Gold equal 1 select Rank
+where Bronze equal 6 where Gold equal 23 argmax Nation Rank
+where Player equal john_challen select Innings as A where Player equal bill_roe select Innings as B diff A B
+where No._of_elected greater 18 where No._of_elected less 25 select Total_no._of_seats_in_Assembly
+where 2nd_Venue equal austin argmax Year Year
+where Name equal ross_jenkins select Apps
+argmin Position Year_inducted
+where Nation equal japan select Total
+argmax Total_Goals Total_Goals
+where Year_inducted equal 2016 select Name
+where Total equal 90 select Nation
+where Nation equal australia select Gold as A where Nation equal italy select Gold as B diff A B
+where 50s greater 39 where Average less 7 argmin Player 100s
+where Position equal 7 select Short_name
+where Rank equal 54 select Bronze
+where Country equal netherlands select PGA as A where Country equal romania select PGA as B sum A B
+where Apps less 301 argmax Name Goals
+where State equal west_bengal select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+argmin Player Innings
+where Nation equal spain select Bronze as A where Nation equal australia select Bronze as B diff A B
+where 50s greater 76 where Points less 14 argmax Player Games_Played
+argmax Player Innings
+where Nation equal canada select Bronze
+where No._of_candidates greater 18 where No._of_candidates less 23 select Total_no._of_seats_in_Assembly
+where Nation equal united_states select Silver
+where 3rd_Venue equal mexico_city select 1st_Venue
+where Total greater 6 where Bronze less 4 select Nation
+where Country equal italy select The_Open as A where Country equal romania select The_Open as B sum A B
+where Gold equal 6 where Bronze equal 5 argmin Nation Rank
+where Innings greater 39 where Average less 7 argmax Player 100s
+where State equal andhra_pradesh select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where Silver less 32 where Total greater 4 select Nation
+where State equal odisha select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+where Runs greater 39 where Average less 7 argmax Player 100s
+where State equal punjab select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+where Nation equal netherlands select Gold as A where Nation equal australia select Gold as B diff A B
+where Team equal confey select Years_won as A where Team equal fingal_ravens select Years_won as B diff A B
+where Year_of_Election greater 2005 where Year_of_Election less 2011 argmax State No._of_candidates
+where Player equal gordon_otto select Free_Throws
+where Average less 70 argmax Player Games_Played
+where Average less 20 argmax Player Runs
+where Nation equal france select Rank as A where Rank less A argmax Nation Rank
+where Nation equal united_states select Bronze
+where Innings equal 15 where Matches greater 2 select Points
+where Bronze less 6 where Silver greater 8 select Nation
+where Goals less 148 argmin Name Apps
+where Year_of_Election equal 2006 argmin State No._of_candidates
+where Silver equal 81 where Bronze equal 62 select Rank
+where Bronze greater 50 sum
+where Nation equal spain select Bronze as A where Nation equal india select Bronze as B diff A B
+where Innings less 10 sum Player
+where Team equal ballyroan_abbey select Areas as A where Team equal confey select Areas as B diff A B
+where Average greater 70 argmin Player 50s
+where Rank equal 58 select Bronze
+where Name equal les_taylor select Goals
+where Bronze greater 30 sum
+where Country equal australia select Masters as A where Country equal netherlands select Masters as B sum A B
+where Silver equal 14 where Bronze equal 27 select Rank
+where Runs equal 5 where Games_Played greater 10 select Points
+where Year_inducted less 2009 argmin Goals Goals
+where Average less 20 argmin Player Matches
+where 2nd_Venue equal sydney argmax Year Year
+where Team equal maynooth select Areas as A where Team equal ballyroan_abbey select Areas as B diff A B
+where Games_Played equal 40 select Points
+argmax Name Goals
+where Player equal ralf_woods select Innings
+where No._of_elected less 16 where No._of_elected greater 21 argmax State No._of_elected
+where Country equal australia select U.S._Open as A where Country equal netherlands select U.S._Open as B sum A B
+where Average greater 20 argmax Player 100s
+where 2nd_Venue equal los_angeles argmin Year Year
+where Average equal 20 argmax Player Matches
+where Bronze equal 92 select Nation
+where Discipline equal archery select Javine_H
+where 2nd_Venue equal los_angeles argmax Year Year
+where Nation equal mexico select Gold
+where Year_inducted less 2007 argmin Goals Goals
+where Team equal wolfe_tones select Years as A where Years greater A argmin Team Year
+where Runs greater 76 where Average less 14 argmax Player 100s
+argmin Name Apps
+where State equal west_bengal select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly less A argmin State No._of_candidates
+where Apps less 215 argmax Name Goals
+where Player equal john_felmley select Games_Played
+where Country equal brazil select U.S._Open as A where Country equal romania select U.S._Open as B sum A B
+where Year_inducted less 2009 argmax Goals Goals
+where 50s greater 76 where Points less 14 argmin Player Matches
+where 4th_Venue equal tokyo select Year
+where Innings greater 76 where Points less 7 argmin Player 100s
+where Runs equal 10 where Matches greater 15 select Points
+where Country equal romania select Masters as A where Country equal australia select Masters as B sum A B
+where Team equal crettyard select Years_won as A where Team equal maynooth select Years_won as B diff A B
+where Nation equal estonia select Silver
+where Player equal albert_clapp select Runs as A where Player equal john_challen select Runs as B diff A B
+where Bronze equal 71 where Silver equal 5 argmin Nation Rank
+where 2nd_Venue equal Seattle argmax Year Year
+where Country equal spain select U.S._Open as A where Country equal australia select U.S._Open as B sum A B
+where Total greater 9 where Silver less 8 select Nation
+where 50s greater 76 where Points less 30 argmin Player Games_Played
+where Rank equal 46 select Bronze
+where Apps equal 60 where Goals equal 105 select Name
+where Year equal 2012 select 2nd_Venue
+where Average greater 70 argmin Player Innings
+where Average greater 20 argmax Player Free_Throws
+where Year equal 2005 select 4th_Venue
+where Rank equal 87 select Silver
+where Player equal george_nichols select Runs as A where Player equal john_challen select Runs as B diff A B
+where Runs equal 10 where Matches greater 2 select Average
+where Player equal Ray_Woods select 100s
+where Average greater 50 argmin Player Innings
+where Name equal ross_jenkins select Year_inducted
+where 2nd_Venue equal los_angeles select 1st_Venue
+where 3rd_Venue equal indianapolis select 1st_Venue
+where Gold equal 71 where Bronze equal 7 argmin Nation Rank
+where Player equal gordon_otto select Games_Played
+argmax Player Games_Played
+where 3rd_Venue equal minneapolis argmin Year Year
+where Runs greater 39 where Average less 30 argmin Player Games_Played
+where Bronze less 6 where Total greater 28 select Nation
+where Bronze equal 14 where Silver equal 4 select Rank
+where Apps greater 407 where Goals less 29 select Name
+where Country equal spain select Masters as A where Country equal wales select Masters as B sum A B
+where Player equal george_halas select Points
+where Bronze less 6 where Total greater 8 select Nation
+where 1st_Venue equal nassau sum
+where Gold equal 71 where Silver equal 23 argmax Nation Rank
+where Nation equal china mean Total_Goals
+where Silver equal 5 sum
+argmin Player Points
+where Average greater 80 argmax Player Field_Goals
+where Nation equal morocco select Silver
+where Team equal fingal_ravens select Areas as A where Team equal ballyroan_abbey select Areas as B diff A B
+where Average less 20 argmin Player Field_Goals
+where Year_inducted less 2003 argmin Goals Goals
+where Total less 9 where Bronze greater 28 select Nation
+where Silver greater 32 where Bronze less 4 select Nation
+where Team equal ballyroan_abbey select Prices as A where Team equal maynooth select Prices as B diff A B
+where Country equal england select The_Open as A where Country equal brazil select The_Open as B sum A B
+where Player equal herbie_hewett select Average as A where Player equal bill_roe select Average as B diff A B
+where Gold equal 7 sum
+where Swara equal shadja select Position as A where Position greater A argmin Swara Position
+where Player equal george_halas select Games_Played
+where Silver greater 3 select Nation
+where Average greater 30 argmin Player Runs
+where Gold less 30 sum
+where Goals greater 183 where Goals less 223 select Name
+where Nation equal romania select Gold as A where Nation equal nepal select Gold as B diff A B
+where Average greater 70 argmin Player Free_Throws
+where Apps greater 291 where Apps less 379 select Name
+where No._of_candidates greater 22 where No._of_candidates less 31 select Total_no._of_seats_in_Assembly
+where Bronze greater 9 where Silver less 28 select Nation
+where 50s equal 15 where Matches greater 2 select Average
+argmin Nation Bronze
+where 50s greater 400 where Average less 30 argmin Player 100s
+argmin Nation Gold
+where Average less 50 argmin Player Runs
+where Team equal fingal_ravens select Years as A where Years greater A argmin Team Year
+where Bronze less 32 where Gold greater 4 select Nation
+where Player equal john_challen select 100s
+where Average equal 50 argmax Player Games_Played
+where Gold greater 9 where Bronze less 28 select Nation
+where 2nd_Venue equal austin argmin Year Year
+where Year greater 1999 where Year less 2002 select 4th_Venue
+where Runs greater 400 where Average less 30 argmax Player Games_Played
+where Innings equal 10 where 100s greater 5 select Average
+where Innings greater 76 where Average less 7 argmax Player Games_Played
+where Year equal 2002 select 3rd_Venue
+where Party equal liberal_democrats argmin Took_office Number
+where Bronze less 9 where Total greater 8 select Nation
+where 2nd_Venue equal washington argmax Year Year
+where Innings equal 15 where 100s greater 10 select Points
+where Innings equal 90 select 100s
+where 50s greater 400 where Points less 30 argmax Player Matches
+where Nation equal germany select Bronze
+where Nation equal romania select Silver as A where Nation equal australia select Silver as B diff A B
+where 2nd_Venue equal nassau argmax Year Year
+where Player equal lionel_palairet select Innings
+where Bronze less 32 where Silver greater 4 select Nation
+argmin Nation Total
+where Year equal 2010 select 4th_Venue
+where Apps less 300 argmin Name Goals
+where Innings greater 39 where Points less 30 argmax Player 100s
+where Team equal crettyard select Prices as A where Team equal confey select Prices as B diff A B
+where Year equal 2016 select 1st_Venue
+where Innings equal 10 where Matches greater 2 select Average
+where Team equal fingal_ravens select Prices as A where Team equal crettyard select Prices as B diff A B
+where Player equal john_challen select Runs as A where Player equal herbie_hewett select Runs as B diff A B
+where 50s greater 39 where Average less 30 argmax Player 100s
+where Country equal brazil select The_Open as A where Country equal australia select The_Open as B sum A B
+where Party equal respect argmin Left_office Number
+where Innings greater 400 where Average less 7 argmin Player 100s
+where Country equal italy select U.S._Open as A where Country equal netherlands select U.S._Open as B sum A B
+where No._of_candidates greater 19 where No._of_candidates less 26 select Total_no._of_seats_in_Assembly
+where Bronze equal 81 where Silver equal 62 select Rank
+where Silver equal 99 select Nation
+where 2nd_Venue equal shanghai argmax Year Year
+where Average greater 70 argmax Player 100s
+where 1st_Venue equal dubai sum
+where Nation equal india select Bronze as A where Nation equal brazil select Bronze as B diff A B
+where Average less 20 argmin Player Points
+where Gold greater 0 sum
+where Year_of_Election greater 2004 where Year_of_Election less 2011 argmax State No._of_candidates
+where Player equal john_challen select Average as A where Player equal albert_clapp select Average as B diff A B
+where Average equal 30 argmin Player 50s
+where Nation equal romania select Gold as A where Nation equal india select Gold as B diff A B
+argmin Games_Played Games_Played
+where Innings equal 15 where 100s greater 2 select Average
+where Average greater 20 argmax Player Games_Played
+where Nation equal scotland mean Total_Apps
+where Runs greater 400 where Average less 7 argmax Player Games_Played
+where Runs equal 15 where Games_Played greater 10 select Points
+where Player equal ted_tyler select 50s
+where Country equal australia select The_Open as A where Country equal england select The_Open as B sum A B
+where 2nd_Venue equal cambridge sum
+where Nation equal nepal select Bronze as A where Nation equal australia select Bronze as B diff A B
+where 50s greater 76 where Points less 7 argmax Player Games_Played
+where Country equal australia select Masters as A where Country equal romania select Masters as B sum A B
+where Year equal 2003 select 1st_Venue
+where Silver less 9 where Bronze greater 8 select Nation
+where Nation equal slovenia select Total
+where Player equal bill_roe select 100s
+where No._of_candidates greater 17 where No._of_candidates less 20 select Total_no._of_seats_in_Assembly
+where Nation equal australia select Gold as A where Nation equal india select Gold as B diff A B
+where Total greater 32 where Gold less 4 select Nation
+where Nation equal spain select Bronze as A where Nation equal brazil select Bronze as B diff A B
+where 50s greater 76 where Average less 7 argmax Player Matches
+where Innings greater 39 where Points less 30 argmin Player 100s
+where State equal bihar select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly less A argmin State No._of_candidates
+where Average greater 70 argmax Player Field_Goals
+where Nation equal india select Gold as A where Nation equal nepal select Gold as B diff A B
+where Innings greater 76 where Points less 30 argmax Player Games_Played
+where Nation equal romania select Gold as A where Nation equal netherlands select Gold as B diff A B
+where Nation equal hungary select Total
+where Bronze equal 14 where Silver equal 1 select Rank
+where Team equal greystones select Areas as A where Team equal confey select Areas as B diff A B
+where Nation equal united_states select Silver
+where Nation equal romania select Rank as A where Rank less A argmin Nation Rank
+where Runs greater 400 where Average less 14 argmax Player Games_Played
+where Average equal 70 argmin Player Innings
+where Average equal 80 argmin Player Runs
+where Player equal john_challen select 100s as A where Player equal albert_clapp select 100s as B diff A B
+where Nation equal mexico select Rank as A where Rank less A argmax Nation Rank
+where Average less 70 argmin Player Matches
+where Runs equal 10 where 100s greater 15 select Average
+where Country equal romania select PGA as A where Country equal netherlands select PGA as B sum A B
+where Year_of_Election greater 2003 where Year_of_Election less 2012 argmin State No._of_candidates
+where Nation equal nepal select Silver as A where Nation equal italy select Silver as B diff A B
+where Bronze equal 1 sum
+where Year_of_Election greater 1999 where Year_of_Election less 2006 argmax State No._of_candidates
+where 2nd_Venue equal Seattle select 1st_Venue
+where Team equal crettyard select Prices as A where Team equal fingal_ravens select Prices as B diff A B
+where 50s greater 400 where Average less 30 argmin Player Matches
+where State equal delhi select No._of_candidates
+where Year greater 2008 where Year less 2011 select 1st_Venue
+where Goals greater 290 where Goals less 363 select Name
+where Country equal england select Masters as A where Country equal spain select Masters as B sum A B
+where Player equal albert_clapp select Matches as A where Player equal bill_roe select Matches as B diff A B
+where Average greater 50 argmax Player 50s
+where Innings equal 5 where Games_Played greater 10 select Average
+where Nation equal russia select Gold
+argmax Nation Gold
+where Year equal 2008 select 1st_Venue
+where Player equal bill_roe select Innings as A where Player equal herbie_hewett select Innings as B diff A B
+where 50s greater 76 where Points less 30 argmin Player Matches
+where Year_inducted less 2014 argmax Goals Goals
+argmax Name Goals
+where Gold less 10 sum
+where Position equal forward argmax Name Apps
+where Nation equal great_britain mean League_Goals
+where State equal haryana select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+where Apps equal 64 where Goals equal 34 select Name
+where Goals greater 145 where Goals less 175 select Name
+where Average equal 70 argmin Player Runs
+where Year greater 1993 where Year less 1996 select 1st_Venue
+where Country equal wales select The_Open as A where Country equal spain select The_Open as B sum A B
+where Year_of_Election greater 2001 where Year_of_Election less 2007 argmax State No._of_candidates
+where Player equal ralf_woods select Free_Throws
+where Rank equal 65 select Silver
+where 4th_Venue equal havana select Year
+where Total greater 6 where Silver less 8 select Nation
+where 1st_Venue equal austin sum
+where State equal punjab select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where Player equal gordon_otto select Matches
+where Year_of_Election equal 2005 argmin State No._of_candidates
+where Innings greater 39 where Average less 7 argmin Player Matches
+where Silver equal 8 where Bronze equal 7 argmin Nation Rank
+where State equal uttar_pradesh select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly less A argmin State No._of_candidates
+where Nation equal brazil select Rank as A where Rank less A argmin Nation Rank
+where Apps less 97 argmin Name Goals
+where Gold equal 6 where Bronze equal 7 argmin Nation Rank
+where Player equal george_nichols select Matches as A where Player equal albert_clapp select Matches as B diff A B
+where Gold less 9 where Total greater 28 select Nation
+where 50s greater 39 where Points less 30 argmin Player 100s
+where Bronze equal 39 select Nation
+where Runs greater 39 where Average less 14 argmax Player 100s
+where Silver equal 59 select Nation
+where 2nd_Venue equal austin argmax Year Year
+where Country equal wales select PGA as A where Country equal netherlands select PGA as B sum A B
+where Team equal maynooth select Years_won as A where Team equal confey select Years_won as B diff A B
+where State equal rajasthan select No._of_candidates
+where Goals greater 290 where Goals less 311 select Name
+where Nation equal italy select Silver as A where Nation equal spain select Silver as B diff A B
+where Nation equal australia select Silver as A where Nation equal brazil select Silver as B diff A B
+where Player equal bill_roe select Average as A where Player equal albert_clapp select Average as B diff A B
+where Nation equal great_britain select Silver
+where Apps greater 281 where Goals less 109 select Name
+argmax Player Innings
+where Apps less 285 argmax Name Goals
+where Player equal Ray_Woods select Field_Goals
+where Discipline equal swimming select Julia
+where 1st_Venue equal nassau argmax Year Year
+where Gold equal 71 where Bronze equal 23 argmax Nation Rank
+where Country equal england select U.S._Open as A where Country equal italy select U.S._Open as B sum A B
+where Gold equal 14 where Silver equal 4 select Rank
+where Average equal 30 argmax Player Matches
+where Team equal confey select Areas as A where Team equal greystones select Areas as B diff A B
+where Apps less 431 where Goals less 135 select Name
+where Average greater 30 argmin Player Field_Goals
+where Bronze equal 2 where Silver equal 27 select Rank
+where Innings greater 76 where Average less 7 argmin Player Games_Played
+where Innings greater 400 where Points less 7 argmax Player 100s
+where 50s equal 10 where Games_Played greater 5 select Points
+where Matches equal 90 select Runs
+where Nation equal thailand select Total
+where Average less 20 argmax Player Field_Goals
+where Player equal albert_clapp select 100s as A where Player equal john_challen select 100s as B diff A B
+where Gold equal 6 where Silver equal 5 argmax Nation Rank
+where Nation equal china select Bronze
+where Goals less 55 argmin Name Apps
+where Games_Played equal 12 select 100s
+where Innings equal 5 where Games_Played greater 2 select Average
+where Bronze equal 91 select Nation
+where Player equal george_halas select 100s
+where Rank equal 46 select Gold
+where 2nd_Venue equal beijing select 1st_Venue
+where Bronze equal 8 where Gold equal 5 argmax Nation Rank
+where Player equal herbie_hewett select Average as A where Player equal john_challen select Average as B diff A B
+where 50s greater 39 where Points less 30 argmin Player Games_Played
+where No._of_elected greater 22 where No._of_elected less 30 select Total_no._of_seats_in_Assembly
+where Nation equal south_korea select Silver
+where 3rd_Venue equal sheffield select 1st_Venue
+where Nation equal netherlands select Silver
+where Nation equal belarus select Gold
+where 50s greater 39 where Average less 14 argmax Player Games_Played
+where Year greater 2013 where Year less 2016 select 1st_Venue
+where Year equal 2014 select 3rd_Venue
+where Goals less 187 argmin Name Apps
+where Total equal 96 select Nation
+where Runs greater 400 where Points less 7 argmin Player 100s
+where 3rd_Venue equal los_angeles select 1st_Venue
+where Average greater 30 argmin Player 50s
+where Party equal socialist_alternative argmax Took_office Number
+where Year greater 2002 where Year less 2005 select 1st_Venue
+where No._of_candidates less 17 where No._of_candidates greater 21 argmax State No._of_elected
+where Silver equal 81 where Gold equal 1 select Rank
+where Year equal 2002 select 2nd_Venue
+where Year_inducted equal 1996 select Name
+where Country equal australia select The_Open as A where Country equal wales select The_Open as B sum A B
+where Player equal george_halas select Free_Throws
+where Country equal wales select PGA as A where Country equal romania select PGA as B sum A B
+where Team equal dundalk_gael select Prices as A where Team equal confey select Prices as B diff A B
+where Name equal ross_jenkins select Apps
+where Country equal spain select The_Open as A where Country equal wales select The_Open as B sum A B
+where Total greater 9 where Bronze less 8 select Nation
+argmax Free_Throws Free_Throws
+where Average equal 30 argmin Player Matches
+where Country equal italy select The_Open as A where Country equal wales select The_Open as B sum A B
+where Country equal brazil select Masters as A where Country equal australia select Masters as B sum A B
+where Country equal romania select Masters as A where Country equal brazil select Masters as B sum A B
+where Player equal john_challen select Runs as A where Player equal bill_roe select Runs as B diff A B
+where Swara equal shatshruti_dhaivata select Position as A where Position greater A argmin Swara Position
+where Year_inducted equal 2004 select Name
+where 2nd_Venue equal veracruz argmax Year Year
+where Runs less 20 sum Player
+where Average less 70 argmin Player 100s
+where State equal karnataka select No._of_candidates as A where No._of_candidates less A argmax State No._of_elected
+where Apps equal 222 where Goals equal 141 select Name
+where State equal andhra_pradesh select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly greater A argmax State No._of_candidates
+argmin Player 100s
+where Rank equal 43 select Gold
+where Country equal brazil select Masters as A where Country equal spain select Masters as B sum A B
+where Nation equal morocco select Total
+where Year greater 2002 where Year less 2004 select 1st_Venue
+where Runs greater 76 where Average less 30 argmin Player Matches
+where Nation equal ukraine mean Total_Goals
+where Runs greater 76 where Points less 7 argmax Player Games_Played
+where Apps less 486 where Goals greater 183 select Name
+where Year_of_Election equal 2001 argmin State No._of_candidates
+where 50s equal 10 where Games_Played greater 2 select Points
+where Gold greater 6 where Bronze less 28 select Nation
+where Bronze less 32 where Total greater 28 select Nation
+where Rank equal 21 select Gold
+argmax Player 100s
+where Apps less 295 where Goals greater 164 select Name
+where Nation equal great_britain select Gold
+where Apps less 424 argmin Name Goals
+where Year greater 2008 where Year less 2010 select 1st_Venue
+where Matches equal 99 select Points
+where Silver equal 81 where Gold equal 4 select Rank
+where Innings equal 10 where 100s greater 5 select Points
+where Year_inducted greater 2001 argmax Goals Goals
+where Gold equal 81 where Bronze equal 1 select Rank
+where Apps less 100 where Goals less 5 select Name
+where Silver equal 6 where Bronze equal 5 argmin Nation Rank
+where Team equal fingal_ravens select Years_won as A where Team equal dundalk_gael select Years_won as B diff A B
+where Rank equal 87 select Gold
+where Player equal bill_roe select Average as A where Player equal george_nichols select Average as B diff A B
+where Team equal confey select Years_won as A where Team equal ballyroan_abbey select Years_won as B diff A B
+where Player equal herbie_hewett select Games_Played
+where Position equal 9 select Notation
+where Year_of_Election greater 2002 where Year_of_Election less 2007 argmax State No._of_candidates
+where 1st_Venue equal hangzhou sum
+where Country equal netherlands select U.S._Open as A where Country equal england select U.S._Open as B sum A B
+where Apps less 430 where Goals greater 50 select Name
+where 1st_Venue equal changzhou sum
+where Team equal ballyroan_abbey select Years as A where Years less A argmax Team Year
+where Bronze equal 8 where Gold equal 23 argmax Nation Rank
+argmax League_Apps League_Apps
+where Innings greater 39 where Points less 30 argmax Player Matches
+where Country equal italy select The_Open as A where Country equal brazil select The_Open as B sum A B
+where Innings equal 10 where Games_Played greater 15 select Average
+where Runs equal 10 where Matches greater 5 select Points
+where Bronze greater 6 select Nation
+where 2nd_Venue equal hangzhou argmax Year Year
+where Year_inducted greater 2003 argmin Goals Goals
+where Name equal tommy_mooney select Year_inducted
+where 1st_Venue equal Caracas argmax Year Year
+where State equal punjab select No._of_candidates
+argmin Name Goals
+where Nation equal austria select Silver
+where Goals less 36 argmin Name Apps
+where 1st_Venue equal shanghai select Year
+where 3rd_Venue equal dubai select 2nd_Venue
+where Runs equal 10 where Matches greater 5 select Average
+where Bronze equal 6 where Gold equal 7 argmin Nation Rank
+where Gold equal 8 where Bronze equal 23 argmin Nation Rank
+where Player equal george_halas select Matches
+where 50s equal 5 where 100s greater 10 select Points
+where 50s equal 15 where 100s greater 5 select Average
+where State equal punjab select Total_no._of_seats_in_Assembly as A where Total_no._of_seats_in_Assembly less A argmin State No._of_candidates
+where Discipline equal hammer select Julia
+where Silver equal 2 where Bronze equal 1 select Rank
+where Nation equal ireland select Silver
+where Team equal confey select Areas as A where Team equal fingal_ravens select Areas as B diff A B
+where Innings greater 39 where Average less 30 argmax Player Games_Played
+where Discipline equal hurdles select Michelle
+where Total equal 39 select Nation
+where Country equal romania select The_Open as A where Country equal brazil select The_Open as B sum A B
+where Team equal fingal_ravens select Years as A where Years greater A argmin Team Year
+where Gold greater 32 where Total less 4 select Nation
+where Average equal 80 argmax Player Runs
+where Rank equal 17 select Nation
+where Team equal greystones select Areas as A where Team equal ballyroan_abbey select Areas as B diff A B
+where Player equal albert_clapp select Runs
+where Innings equal 10 where Matches greater 2 select Points
+where Gold less 6 where Silver greater 28 select Nation
+where Runs equal 5 where 100s greater 2 select Average
+where Party equal conservatives argmax Took_office Number
+where Name equal tommy_mooney select Position
+where Apps greater 103 where Goals greater 7 select Name
+where Runs greater 400 where Average less 7 argmax Player 100s
+where Player equal george_nichols select Games_Played
+where Average greater 50 argmax Player Free_Throws
+where 1st_Venue equal nanjing sum
+where Innings equal 10 where Games_Played greater 5 select Average
+where Silver equal 6 where Bronze equal 23 argmax Nation Rank
+where Nation equal germany select Bronze
+where Goals less 90 argmin Name Apps
+where Year equal 2011 select 2nd_Venue
+argmin Nation Silver
+where Gold equal 1 sum
+where Nation equal india select Silver as A where Nation equal nepal select Silver as B diff A B
+where No._of_candidates less 12 where No._of_candidates greater 14 argmax State No._of_elected
+where 1st_Venue equal shanghai sum
+where Team equal crettyard select Areas as A where Team equal fingal_ravens select Areas as B diff A B
+where Player equal bill_roe select Matches as A where Player equal george_nichols select Matches as B diff A B
+where Nation equal romania select Silver as A where Nation equal brazil select Silver as B diff A B
+where Team equal fingal_ravens select Years_won as A where Team equal greystones select Years_won as B diff A B
+where Bronze equal 71 where Silver equal 7 argmin Nation Rank
+argmax No._of_candidates No._of_elected
+where 1st_Venue equal washington select Year
+where Player equal ernest_mckay select 100s
+where Average equal 50 argmax Player 50s
+where Runs equal 10 where 100s greater 5 select Average
+where Silver less 32 where Bronze greater 8 select Nation
+where State equal andhra_pradesh select No._of_candidates
+where Nation equal brazil select Silver as A where Nation equal italy select Silver as B diff A B
+where Average less 80 argmax Player 50s
+where Runs greater 76 where Average less 14 argmax Player Matches
+where Average equal 70 argmin Player 100s
+where 2nd_Venue equal changzhou argmax Year Year
+where Average less 30 argmin Player Runs
+where Innings greater 76 where Points less 14 argmax Player 100s
+where Innings greater 39 where Average less 30 argmin Player Matches
+where Average equal 70 argmin Player Free_Throws
+where Average equal 70 argmax Player Matches
+where Team equal confey select Prices as A where Team equal fingal_ravens select Prices as B diff A B
+where Apps equal 321 where Goals equal 20 select Position
+where 3rd_Venue equal indianapolis select 2nd_Venue
+where Average less 80 argmax Player Field_Goals
+where Apps greater 236 where Apps less 322 select Name
+where Player equal george_nichols select 50s
+where 1st_Venue equal beijing argmax Year Year
+where Average greater 20 argmin Player 100s
+where Apps greater 103 where Goals greater 178 select Name
+argmax Nation Silver
+where Rank equal 55 select Gold
+where Team equal maynooth select Years_won as A where Team equal fingal_ravens select Years_won as B diff A B
+where Discipline equal cycling select Javine_H
+where 2nd_Venue equal Caracas argmin Year Year
+where Nation equal france select Gold
+where Silver equal 4 sum
+where Year_inducted less 2012 argmin Goals Goals
+where Gold less 6 where Silver greater 4 select Nation

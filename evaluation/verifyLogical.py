@@ -15,8 +15,11 @@ test_truth_path = "../data"
 test_output_path = "../evaluation"
 
 
-test_truth = test_truth_path + "/rand_test.lox"
-test_output = test_output_path + "/logicalForm_test.out"
+# test_truth = test_truth_path + "/rand_test.lox"
+# test_output = test_output_path + "/logicalForm_test.out"
+
+test_truth = test_truth_path + "/rand_train.lo"
+test_output = test_output_path + "/forms_train.lo"
 
 correct = 0
 truth = []
@@ -31,10 +34,13 @@ with open(test_truth) as infile:
 
 index = 0
 with open(test_output) as infile:
-    for line in infile:
-        line = line.strip()
+    for line0 in infile:
+        line = line0.strip()
         if line.lower() == truth[index]:
             correct += 1
+        else:
+            print "wrong examples: %d" %(index + 1)
+            print line0
         index += 1
 
 print "total accuracy: " + str(correct * 1.0 / len(truth))
