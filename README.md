@@ -1,6 +1,5 @@
-# dnnQuery
-Deep neural parser for database query
-(extended from Stanford CS224N project)
+# Transferable Deep Neural Natural Language Interface for Database
+
 
 1 Introduction 
 
