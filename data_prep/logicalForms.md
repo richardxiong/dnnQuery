@@ -1,5 +1,4 @@
-### Developed by: Hongyu, Kaifeng and Yinglan
-### the grammar rules are extended from the synthetic dataset of Neural Enquirer
+### Developed grammar rules are extended from the synthetic dataset of Neural Enquirer
 
 conventions:
 1. all punctuations are deleted in both questions and logical forms, meaning no ',' '.' '?'
@@ -80,6 +79,7 @@ where Gold equal 2 where Silver equal 0 argmax(Nation, Total)
 
 
 ===========================================
+
 length = 13
 
 utterance_nested_query_4field = 'select {query1_project_field}' \
@@ -87,6 +87,8 @@ utterance_nested_query_4field = 'select {query1_project_field}' \
 					'as select {query1_project_field}' \
 					'where {query1_comp_field} {query1_comp} {query1_comp_val} '
 					
+
+===========================================
 					
 length = 14
 
@@ -118,11 +120,22 @@ subtract
 
 ===========================================
 
+Aggregation: count
+
+(length = 1
+utterance_sum_basic = 'count')
+
+length = 5
+
+utterance_sum_dependent = 'count' 'where {comp_field} {comp} {comp_val} '
+					
+length = 9
+
+utterance_sum_dependent = 'count' 'where {comp_field1} {comp} {comp_val1} '\
+				'and {comp_field2} {comp} {comp_val2}'
+					
+					
 sum: sum([field], [A, B, C...])
-
-length = 1
-
-utterance_sum_basic = 'count'
 
 length = 2
 
@@ -130,11 +143,6 @@ utterance_sum_basic2 = 'sum {query_field}'
 
 e.g. what is the total number of gold medals earned
 sum Gold
-
-length = 5
-
-utterance_sum_dependent = 'sum' 'where {comp_field1} {comp} {comp_val} '
-					
 
 e.g. what is the total number of nations that did not win gold
 where Gold equal 0 sum
