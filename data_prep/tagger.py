@@ -43,6 +43,7 @@ def buildDictionary(schema):
         #     # build num_dict
     return query_dict, string_dict#, num_dict
 
+
 def fromWordtoVec():
     ''' generate the field to vector dictionary from the field to words dictionary
     # field2vec = {"nation": [vec1, vec2],...}    # vec1 is average vec for query words;
@@ -85,6 +86,7 @@ def fromWordtoVec():
             # del field2vec[key]
     return field2vec
 
+
 def fromWordtoVecList(schema):
     ''' generate the field to vector dictionary from the field to words dictionary
     # field2vecQuery = {"nation": [vec1, vec2,...]}    # vec are centroids; 
@@ -117,6 +119,7 @@ def fromWordtoVecList(schema):
             # del field2vec[key]
     return field2vecQuery, field2vecString
 
+
 def strSimilarity(word1, word2):
     ''' Measure the similarity based on Edit Distance'''
     ### Measure how similar word1 is with respect to word2
@@ -129,11 +132,13 @@ def strSimilarity(word1, word2):
         similarity = 1.0 * (length-diff) / length
     return similarity
 
+
 def EuDisSqu(vector1, vector2):
     ''' Calculate the square of Euclidean distance between two vectors'''
     dist_square = 0.0
     dist_square += np.dot(vector1, vector1) + np.dot(vector2, vector2) - 2*np.dot(vector1, vector2)
     return np.sqrt(dist_square)
+
 
 def spanInSpace(vectorArray):
     ''' calculate the maximum distance within a list of word vectors '''
@@ -145,6 +150,7 @@ def spanInSpace(vectorArray):
                 dist = x
     span = dist
     return span
+
 
 def spanInSpace2(vectorArray):
     ''' calculate 1 the average distance 
@@ -162,6 +168,7 @@ def spanInSpace2(vectorArray):
     dist = np.mean(dist_arr)
     std = np.std(dist_arr)
     return center, dist, std
+
 
 def findNearestNeighbor(word, vectorArray, diameter):
     ''' return the word vector which is the nearest neighbor to the query word
@@ -187,6 +194,7 @@ def findNearestNeighbor(word, vectorArray, diameter):
         #print idx
         #print nearest
         return vectorArray[idx]
+
 
 def findKNearestNeighbor(word, vectorArray, k=3):
     ''' return the list of word vectors which are the k nearest neighbors to the query word with corresponding 
@@ -214,10 +222,25 @@ def findKNearestNeighbor(word, vectorArray, k=3):
         result.append((vectorArray[idx[i]], 1.0 / dist_array[idx[i]]))
     return result
 
+
 def strIsNum(s):
-    ### verify if the word represent a numerical value
+    '''verify if the word represent a numerical value
+    ''' 
     if not isinstance(s, basestring):
         return 0
+    ones = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"}
+    tens = {"twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"}
+    teens = {"ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", \
+            "seventeen", "eighteen", "nineteen"}
+    levels = {"hundred", "thousand", "million", "billion", "trillion"}
+    if s in ones:
+        return True 
+    if s in tens:
+        return True 
+    if s in teens:
+        return True 
+    if s in levels:
+        return True 
     if s.isdigit():
         return True #return int(s)
     # for float value
@@ -228,10 +251,27 @@ def strIsNum(s):
         return False
     return False
 
+
+def strIsOrdinal(s):
+    '''verify if the word represent a numerical value
+    ''' 
+    if not isinstance(s, basestring):
+        return 0
+    ones = {'zeroth','first', 'second', 'third', 'fourth', 'fifth', 'sixth','seventh', 'eighth',\
+           'ninth', 'tenth','last'}
+    nums = {'0th','1st', '2nd', '3rd', '4th', '5th'}
+    if s in ones:
+        return True 
+    if s in nums:
+        return True 
+    return False
+
+
 def basic_tokenizer(sentence):
-    ### Very basic tokenizer: split the sentence into a list of tokens.
+    '''Very basic tokenizer: split the sentence into a list of tokens.
+    ''' 
     words = []
-    WORD_SPLIT = re.compile(b"([,!?\"':;)(])")   # get rid of '.'
+    WORD_SPLIT = re.compile(b"([,!?\"')(])")   # get rid of '.':;
     for space_separated_fragment in sentence.strip().split():
         words.extend(WORD_SPLIT.split(space_separated_fragment))
     return [w for w in words if w]
@@ -402,12 +442,23 @@ def sentTagging_value(query, fields, logic=None):
     filter_words = [',','the','a','an','for','of','in','on','with','than','and',\
     'is','are','do','does','did','has','have','had','what','how','many','get'] #,'number'
     
+    ### TAG WITH <field> & <value>
     for i in range(len(words)):
       # 0th pass eliminate non-sense words, label <num> and standby
         if words[i] in filter_words:
             continue
         if strIsNum(words[i]):
             tag[i] = '<value>:<num>'
+        if strIsOrdinal(words[i]):
+            # tag[i] = '<value>:<order>'
+            the_one = None
+            for j in range(len(schema)):
+                if config.field2word[schema[j]]['value_type'] == 'ordinal':
+                    # find ordinal field
+                    the_one = schema[j]
+            if the_one == None:
+                continue
+            tag[i] = '<value>:' + the_one
     
       # 1st pass exact match of field name
         if tag[i] is not "<nan>":
@@ -448,6 +499,7 @@ def sentTagging_value(query, fields, logic=None):
     num_field_position = []
     num_value_position = []
     # count = 0
+    ### CORRESPOND <field> with <value>
     for i in range(len(tag2)):
         if tag[i] == "<nan>":
             continue
@@ -466,7 +518,6 @@ def sentTagging_value(query, fields, logic=None):
             refers = reference[1].split(';')
             if config.field2word[refers[0]]['value_type'] != 'string':
                 num_field_position.append((i, idx))
-    ## changed on 05/01/2017, separate the field and value tagging
     for i in range(len(tag2)):
         if tag[i] == "<nan>":
             continue
