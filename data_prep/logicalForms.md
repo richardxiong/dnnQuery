@@ -1,5 +1,4 @@
-### Developed by: Hongyu, Kaifeng and Yinglan
-### the grammar rules are extended from the synthetic dataset of Neural Enquirer
+### Developed grammar rules are extended from the synthetic dataset of Neural Enquirer
 
 conventions:
 1. all punctuations are deleted in both questions and logical forms, meaning no ',' '.' '?'
