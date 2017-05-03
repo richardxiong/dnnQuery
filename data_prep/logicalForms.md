@@ -80,7 +80,14 @@ where Gold equal 2 where Silver equal 0 argmax(Nation, Total)
 
 
 ===========================================
+length = 13
 
+utterance_nested_query_4field = 'select {query1_project_field}' \
+					'where {query1_project_field} {query2_comp} A ' \
+					'as select {query1_project_field}' \
+					'where {query1_comp_field} {query1_comp} {query1_comp_val} '
+					
+					
 length = 14
 
 utterance_nested_query_4field = 'arg {max_min} {arg1} {arg2}' \
@@ -115,7 +122,7 @@ sum: sum([field], [A, B, C...])
 
 length = 1
 
-utterance_sum_basic = 'sum'
+utterance_sum_basic = 'count'
 
 length = 2
 
@@ -149,15 +156,15 @@ where Country equal England select Masters as A where Country equal Wales select
 
 ============================================
 
-mean: mean([field], [A, B, C...])
+avg: avg([field], [A, B, C...])
 
 length = 2
 
-utterance_mean_basic = 'mean {query_field}'
+utterance_mean_basic = 'avg {query_field}'
 
 length = 6
 
-utterance_mean_dependent = 'mean {comp_field2}' 'where {comp_field1} {comp} {comp_val} '
+utterance_mean_dependent = 'avg {comp_field2}' 'where {comp_field1} {comp} {comp_val} '
 						
 
 e.g. what is the mean number of total appearances of scotland
@@ -165,7 +172,7 @@ where Nation equal Scotland mean Total_Apps
 
 length = 18
 
-utterance_mean_multi = 'mean' 'A as select {query1_project_field}' \
+utterance_mean_multi = 'avg' 'A as select {query1_project_field}' \
 				'where {query1_comp_field} {query1_comp} {query1_comp_val} ' \
                                 'and' 'B as select {query2_project_field}' \
 				 'where {query1_comp_field} {query2_comp} {query2_comp_val} '
