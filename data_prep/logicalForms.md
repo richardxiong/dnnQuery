@@ -13,6 +13,7 @@ I. DIRECT QUERIES: 6 possible logical forms (and their inferences):
 ===========================================
 
 length = 3
+
 utterance_superlative_query = 'arg {max_min} {arg1} {arg2}'
 
 examples:
@@ -25,8 +26,9 @@ argmax country_gdp country_size
 ===========================================
 
 length = 6
-utterance_pattern_single_select = 'where {comp_field} = {comp_val}  ' \
-                                  'select {select_field}'
+
+utterance_pattern_single_select = 'select {select_field}' 'where {comp_field} {comp} {comp_val} 
+                                  
 
 examples:
 1. how long is the game with 30 medals
@@ -38,8 +40,9 @@ where country_population equal 300 select number_participants
 ===========================================
 
 length = 7
-utterance_pattern_multi_field = 'where {comp_field} {comp} {comp_val} ' \
-                                ' arg {max_min} {arg1} {arg2}'
+
+utterance_pattern_multi_field = ' arg {max_min} {arg1} {arg2}' 'where {comp_field} {comp} {comp_val} '
+                                
 
 examples:
 1. when was the game hosted watched by the most people whose number of medals is smaller than 420
@@ -51,9 +54,10 @@ where number_audience greater 40 argmax year country_population
 ===========================================
 
 length = 10 (new)
-utterance_pattern_multi_field = 'where {comp_field1} {comp} {comp_val1} ' \
-                                'where {comp_field2} {comp} {comp_val2}  ' \
-                                  'select {select_field}'
+
+utterance_pattern_multi_field = 'select {select_field}' 'where {comp_field1} {comp} {comp_val1} ' \
+                                'and {comp_field2} {comp} {comp_val2} '
+                                  
 
 examples:
 1. how many people participated in the game whose host country population is 300 and whose number of medals is smaller than 420
@@ -65,9 +69,10 @@ where Gold equal 3 where Silver equal 4 select Nation
 ===========================================
 
 length = 11 (new)
-utterance_pattern_multi_field = 'where {comp_field1} {comp} {comp_val1} ' \
-                                'where {comp_field2} {comp} {comp_val2}  ' \
-                                  ' arg {max_min} {arg1} {arg2}'
+
+utterance_pattern_multi_field = ' arg {max_min} {arg1} {arg2}' 'where {comp_field1} {comp} {comp_val1} ' \
+                                'and {comp_field2} {comp} {comp_val2} ' \
+                                  
 
 examples:
 1. which nation with 2 gold and 0 silver has the most medals in total
@@ -76,11 +81,14 @@ where Gold equal 2 where Silver equal 0 argmax(Nation, Total)
 
 ===========================================
 
-length = 15
-utterance_nested_query_4field = 'where {query1_comp_field} {query1_comp} {query1_comp_val} ' \
-                                          'select {query1_project_field} as A ' \
-                                          'where {query1_project_field} {query2_comp} A ' \
-                                          'arg {max_min} {arg1} {arg2}'
+length = 14
+
+utterance_nested_query_4field = 'arg {max_min} {arg1} {arg2}' \
+					'where {query1_project_field} {query2_comp} A ' \
+					'as select {query1_project_field}' \
+					'where {query1_comp_field} {query1_comp} {query1_comp_val} '
+                                          
+                                          
 
 examples:
 1. how long is the game with the most medals whose host country is less wealthy than the game in seattle
@@ -106,32 +114,35 @@ subtract
 sum: sum([field], [A, B, C...])
 
 length = 1
+
 utterance_sum_basic = 'sum'
 
 length = 2
+
 utterance_sum_basic2 = 'sum {query_field}'
 
 e.g. what is the total number of gold medals earned
 sum Gold
 
 length = 5
-utterance_sum_dependent = 'where {comp_field1} {comp} {comp_val} ' \
-					'sum'
+
+utterance_sum_dependent = 'sum' 'where {comp_field1} {comp} {comp_val} '
+					
 
 e.g. what is the total number of nations that did not win gold
 where Gold equal 0 sum
 
 length = 6
-utterance_sum_dependent = 'where {comp_field1} {comp} {comp_val} ' \
-					'sum {comp_field2}'
 
-length = 19
-utterance_sum_multi = 'where {query1_comp_field} {query1_comp} {query1_comp_val} ' \
-                                          'select {query1_project_field} as A ' \
-                      'where {query1_comp_field} {query2_comp} {query2_comp_val} ' \
-                                          'select {query2_project_field} as B ' \
-                      ...
-                      sum A B ...
+utterance_sum_dependent = 'sum {comp_field2}' 'where {comp_field1} {comp} {comp_val} '
+					
+
+length = 18
+
+utterance_sum_multi = 'sum' 'A as select {query1_project_field}' \
+				'where {query1_comp_field} {query1_comp} {query1_comp_val} ' \
+                             'and' 'B as select {query2_project_field}' \
+				 'where {query1_comp_field} {query2_comp} {query2_comp_val} '
 
 e.g. how many winning golfers does england and wales combined have in the masters
 where Country equal England select Masters as A where Country equal Wales select Masters as B sum A B
@@ -141,22 +152,23 @@ where Country equal England select Masters as A where Country equal Wales select
 mean: mean([field], [A, B, C...])
 
 length = 2
+
 utterance_mean_basic = 'mean {query_field}'
 
 length = 6
-utterance_mean_dependent = 'where {comp_field1} {comp} {comp_val} ' \
-						'mean {comp_field2}'
+
+utterance_mean_dependent = 'mean {comp_field2}' 'where {comp_field1} {comp} {comp_val} '
+						
 
 e.g. what is the mean number of total appearances of scotland
 where Nation equal Scotland mean Total_Apps
 
-length = 19
-utterance_mean_multi = 'where {query1_comp_field} {query1_comp} {query1_comp_val} ' \
-                                          'select {query1_project_field} as A ' \
-                      'where {query1_comp_field} {query2_comp} {query2_comp_val} ' \
-                                          'select {query2_project_field} as B ' \
-                      ...
-                      mean A B ...
+length = 18
+
+utterance_mean_multi = 'mean' 'A as select {query1_project_field}' \
+				'where {query1_comp_field} {query1_comp} {query1_comp_val} ' \
+                                'and' 'B as select {query2_project_field}' \
+				 'where {query1_comp_field} {query2_comp} {query2_comp_val} '
 
 e.g. what is the average of silver medals earned by korea and japan
 where Nation equal Korea select Silver as A where Nation equal Japan select Silver as B mean A B
@@ -165,10 +177,11 @@ where Nation equal Korea select Silver as A where Nation equal Japan select Silv
 
 diff: diff(A, B)
 
-length = 13
-utterance_diff_1 = 	' arg {max_min} {arg1} {arg2} as A ' \
-                      ' arg {max_min} {arg1} {arg2} as B ' \
-                      diff A B
+length = 12
+
+utterance_diff_1 = 'diff' 'A as arg {max_min} {arg1} {arg2}' \
+				'and' 'B as arg {max_min} {arg1} {arg2}'
+                    
 
 e.g.
 1. what is the difference between the nation with the most medals and the nation with the least amount of medals
@@ -177,13 +190,13 @@ argmax Total Total as A argmin Total Total as B diff A B
 2. largest medal differential between countries
 argmax Total Total as A argmin Total Total as B diff A B
 
-length = 19
-utterance_diff_2 = 'where {query1_comp_field} {query1_comp} {query1_comp_val} ' \
-                                          'select {query1_project_field} as A ' \
-                      'where {query1_comp_field} {query2_comp} {query2_comp_val} ' \
-                                          'select {query2_project_field} as B ' \
-                      diff A B
+length = 18
 
+utterance_diff_2 = 'diff' 'A as select {query1_project_field}' \
+				'where {query1_comp_field} {query1_comp} {query1_comp_val} ' \
+                                 'and' 'B as select {query2_project_field}' \
+				 'where {query1_comp_field} {query2_comp} {query2_comp_val} '
+				 
 e.g. what is the difference in total number of medals between india and nepal
 where Nation equal India select Total as A where Nation equal Nepal select Total as B diff A B
 
