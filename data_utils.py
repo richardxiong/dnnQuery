@@ -41,7 +41,7 @@ EOS_ID = 2
 UNK_ID = 3
 
 # Regular expressions used to tokenize.
-_WORD_SPLIT = re.compile(b"([,!?\"')(])")   # get rid of '.':;
+_WORD_SPLIT = re.compile(b"([,!?\")(])")   # get rid of '.':;'
 _DIGIT_RE = re.compile(br"\d")
 
 # URLs for WMT data.

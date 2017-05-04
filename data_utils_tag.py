@@ -50,7 +50,7 @@ NAN_ID = 4
 NUM_ID = 5
 
 # Regular expressions used to tokenize.
-_WORD_SPLIT = re.compile(b"([,!?\"')(])")   # get rid of '.':;
+_WORD_SPLIT = re.compile(b"([,!?\")(])")   # get rid of '.':;'
 _DIGIT_RE = re.compile(br"\d")
 
 # URLs for WMT data.

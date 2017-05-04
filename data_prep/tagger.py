@@ -258,8 +258,8 @@ def strIsOrdinal(s):
     if not isinstance(s, basestring):
         return 0
     ones = {'zeroth','first', 'second', 'third', 'fourth', 'fifth', 'sixth','seventh', 'eighth',\
-           'ninth', 'tenth','last'}
-    nums = {'0th','1st', '2nd', '3rd', '4th', '5th'}
+           'ninth', 'tenth','last','top','bottom'}
+    nums = {'0th','1st', '2nd', '3rd', '4th', '5th','6th','7th','8th','9th'}
     if s in ones:
         return True 
     if s in nums:
@@ -271,7 +271,7 @@ def basic_tokenizer(sentence):
     '''Very basic tokenizer: split the sentence into a list of tokens.
     ''' 
     words = []
-    WORD_SPLIT = re.compile(b"([,!?\"')(])")   # get rid of '.':;
+    WORD_SPLIT = re.compile(b"([,!?\")(])")   # get rid of '.':;'
     for space_separated_fragment in sentence.strip().split():
         words.extend(WORD_SPLIT.split(space_separated_fragment))
     return [w for w in words if w]
@@ -448,7 +448,19 @@ def sentTagging_value(query, fields, logic=None):
         if words[i] in filter_words:
             continue
         if strIsNum(words[i]):
-            tag[i] = '<value>:<num>'
+            if len(words[i]) == 4:
+            # find Year like fields
+                the_one = None
+                for j in range(len(schema)):
+                    if config.field2word[schema[j]]['value_type'] == 'date':
+                        # find year_like field
+                        the_one = schema[j]
+                if the_one == None:
+                    tag[i] = '<value>:<num>'
+                else: 
+                    tag[i] = '<value>:' + the_one
+            else: 
+                tag[i] = '<value>:<num>'
         if strIsOrdinal(words[i]):
             # tag[i] = '<value>:<order>'
             the_one = None
@@ -457,8 +469,9 @@ def sentTagging_value(query, fields, logic=None):
                     # find ordinal field
                     the_one = schema[j]
             if the_one == None:
-                continue
-            tag[i] = '<value>:' + the_one
+                tag[i] = '<value>:<order>'
+            else: 
+                tag[i] = '<value>:' + the_one
     
       # 1st pass exact match of field name
         if tag[i] is not "<nan>":
@@ -499,6 +512,7 @@ def sentTagging_value(query, fields, logic=None):
     num_field_position = []
     num_value_position = []
     # count = 0
+    
     ### CORRESPOND <field> with <value>
     for i in range(len(tag2)):
         if tag[i] == "<nan>":
@@ -534,7 +548,7 @@ def sentTagging_value(query, fields, logic=None):
                     value_corr[idx] += ';'+words[i]
 
             else:
-                if reference[1] == '<num>':
+                if reference[1] == '<num>' or reference[1] == '<order>':
                     num_value_position.append(i)
                     continue
                 field_corr.append(reference[1])
@@ -545,27 +559,7 @@ def sentTagging_value(query, fields, logic=None):
     print num_field_position    #[(4, 1), (7, 2)]
     print num_value_position    #[9]
     for i in num_value_position:
-        if len(words[i]) == 4:
-            # find Year like fields
-            the_one = None
-            for j in range(len(schema)):
-                if config.field2word[schema[j]]['value_type'] == 'date':
-                    # find year_like field
-                    the_one = schema[j]
-            if the_one in field_corr:
-                idx = field_corr.index(the_one)
-                tag2[i] = '<value>:'+str(idx)
-                if value_corr[idx] is "<nan>":
-                    value_corr[idx] = words[i]
-                else:
-                    value_corr[idx] += ';'+words[i]
-            else:
-                field_corr.append(the_one)
-                value_corr.append(words[i])
-                idx = len(field_corr) - 1
-                tag2[i] = '<value>:'+str(idx)
-            continue
-        # TO DO: find corresponding field name (correference model = classification model?)
+        # TO DO: find corresponding field name (dependency tree LCA)
         # find nearest neighbor for this classification model
         idx = None
         nearest_dist = len(tag2)

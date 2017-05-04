@@ -184,7 +184,7 @@ class Config(object):
 			'Apps': {'value_type':'int',
 						'query_word': ['appearance','appearances']},
 			'Discipline': {'value_type':'string',
-            'value_range': ['Hurdles', 'Cycling', 'Swimming', 'Curling', 'Archery', 'Hammer'],
+            'value_range': ['Hurdles', 'Cycling', 'Swimming', 'Curling', 'Archery', 'Hammer','Whitewater_Kayak'],
             'query_word': []},
       'Amanda':{'value_type':'int',
             'query_word': ['amanda']},
