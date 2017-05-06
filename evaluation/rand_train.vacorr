@@ -23,14 +23,14 @@ shadja
 <nan> poland
 <nan> boston
 <nan> 71 5 <nan>
-<nan> nassau
+first nassau
 <nan> 2000
 <nan> <nan> 20
 <nan> 2004
 <nan> george_nichols;bill_roe
 <nan> <nan> 268
 fingal_ravens 2008
-<nan> detroit
+first detroit
 <nan> <nan> 5 10
 <nan> 9 4
 <nan> john_challen;george_nichols
@@ -126,7 +126,7 @@ assam <nan> <nan>
 <nan> <nan> 80
 <nan> 39 30 <nan>
 <nan> <nan> 21
-<nan> <nan> hangzhou
+first <nan> hangzhou
 <nan> bill_roe;albert_clapp
 <nan> netherlands;italy
 <nan> australia;england
@@ -155,7 +155,7 @@ assam <nan> <nan>
 <nan> 93
 <nan> nanjing
 <nan> bill_roe;albert_clapp
-<nan> <nan> veracruz
+first <nan> veracruz
 <nan> brazil
 <nan> 2000
 <nan> 4
@@ -376,7 +376,7 @@ chhattisgarh <nan> <nan>
 <nan> <nan> 20;22
 1997;2000 <nan> <nan>
 <nan> <nan> 42
-<nan> austin
+first austin
 <nan> 148 106
 <nan> 39 30 <nan>
 <nan> <nan>
@@ -438,7 +438,7 @@ karnataka <nan> <nan>
 <nan> <nan>
 <nan> confey;dundalk_gael
 <nan> 2010
-<nan> mexico_city
+first mexico_city
 <nan> hungary
 <nan> <nan> 30
 <nan> maynooth;crettyard
@@ -481,7 +481,7 @@ jammu_and_kashmir <nan> <nan>
 <nan> <nan> 70
 <nan> <nan> 383 26
 <nan> south_korea
-<nan> <nan> beijing
+first <nan> beijing
 <nan> 7
 <nan> <nan> sheffield
 <nan> 76 30 <nan>
@@ -522,7 +522,7 @@ antara_gandhara
 <nan> <nan> 10 15
 <nan> <nan> 15 2
 <nan> 32 4
-<nan> <nan> guanajuato
+first <nan> guanajuato
 <nan> <nan> 14 27
 <nan> 1999
 <nan> <nan> 2009
@@ -655,7 +655,7 @@ gujarat <nan> <nan>
 <nan> <nan> <nan>
 <nan> <nan> 16;25
 <nan> 2009
-<nan> respect
+last respect
 <nan> 76 7 <nan>
 <nan> ukraine
 <nan> 2012
@@ -681,7 +681,7 @@ manipur <nan> <nan>
 <nan> nepal;netherlands
 <nan> brazil;australia
 <nan> <nan> 20
-<nan> <nan> sydney
+first <nan> sydney
 <nan> ian_bolton
 <nan> 400 7 <nan>
 2002;2005 <nan> <nan>
@@ -693,7 +693,7 @@ manipur <nan> <nan>
 <nan> 400 14 <nan>
 <nan> <nan> guanajuato
 <nan> <nan> veracruz
-<nan> <nan>
+<nan> <nan> first
 <nan> japan
 <nan> <nan> <nan> <nan> sydney
 <nan> <nan> 66
@@ -726,8 +726,8 @@ manipur <nan> <nan>
 2009;2012 <nan> <nan>
 <nan> japan
 <nan> <nan> 2 1
-<nan> <nan>
-<nan> changzhou
+<nan> first
+first changzhou
 <nan> <nan> 80
 2003;2006 <nan> <nan>
 <nan> 39 14 <nan>
@@ -777,7 +777,7 @@ wolfe_tones <nan>
 <nan> kazakhstan
 <nan>
 <nan> 321 170
-<nan> <nan> chicago
+first <nan> chicago
 <nan> <nan> 40
 <nan> south_korea
 <nan> <nan> 70
@@ -804,7 +804,7 @@ rajasthan <nan> <nan>
 <nan> 400 7 <nan>
 <nan> george_nichols;albert_clapp
 <nan> 6 4
-<nan> <nan> guanajuato
+first <nan> guanajuato
 <nan> romania;italy
 <nan> <nan> 70
 <nan> 9 4
@@ -854,10 +854,10 @@ rajasthan <nan> <nan>
 <nan> romania;spain
 <nan>
 <nan> <nan> 17;26
-<nan> <nan> hangzhou
+first <nan> hangzhou
 <nan> 9 4
 <nan> australia;italy
-<nan> respect
+first respect
 <nan> <nan>
 <nan> 2
 <nan> wales;italy
@@ -876,12 +876,12 @@ mizoram <nan> <nan>
 <nan> <nan> 89
 <nan> <nan> boston
 <nan> 6
-<nan> <nan> nanjing
-<nan> <nan>
+first <nan> nanjing
+first <nan>
 <nan> lionel_palairet
 <nan> john_challen;herbie_hewett
 <nan> brazil;spain
-<nan> <nan>
+<nan> <nan> last
 <nan> india;netherlands
 <nan> <nan> 15 10
 <nan> china
@@ -921,16 +921,16 @@ netherlands <nan>
 <nan> <nan> 90
 <nan> italy;wales
 <nan> 76 7 <nan>
-<nan> socialist_alternative
+first socialist_alternative
 <nan> united_states
 <nan> russia
 <nan> 400 30 <nan>
 <nan> switzerland
 <nan> 6 5 <nan>
 2003;2005 <nan> <nan>
-<nan> independent
+last independent
 <nan> 169 163
-<nan> <nan> tokyo
+first <nan> tokyo
 <nan>
 <nan> malaysia
 <nan> 292 134
@@ -960,7 +960,7 @@ netherlands <nan>
 <nan> 76 30 <nan>
 <nan> germany
 <nan> 442 89
-<nan> <nan> sheffield
+first <nan> sheffield
 <nan> <nan> 80
 <nan>
 <nan> 6 23 <nan>
@@ -993,7 +993,7 @@ mizoram <nan> <nan>
 <nan> <nan> 2 27
 <nan> <nan>
 <nan> 21
-<nan> beijing dubai <nan> <nan>
+<nan> <nan> <nan> <nan> <nan> beijing;dubai
 <nan> <nan> 80
 <nan> 6 28
 <nan> 8 23 <nan>
@@ -1050,7 +1050,7 @@ wales <nan>
 <nan> <nan> 1998;2002
 <nan> 144 11
 <nan> mexico_city
-<nan>
+first
 <nan> united_states
 <nan> 39 14 <nan>
 <nan> 76 7 <nan>
@@ -1066,7 +1066,7 @@ wales <nan>
 <nan> brazil;netherlands
 <nan> george_nichols;albert_clapp
 <nan> <nan> 81 62
-<nan> green
+first green
 nepal <nan>
 <nan> united_states
 <nan> <nan> 15 2
@@ -1099,7 +1099,7 @@ panchama
 <nan> <nan> 20
 <nan> <nan> 16;19
 <nan> dundalk_gael;confey
-<nan> labour
+last labour
 <nan> 76 14 <nan>
 <nan> 71 7 <nan>
 <nan> <nan> <nan>
@@ -1108,7 +1108,7 @@ panchama
 <nan> 1996
 <nan> <nan> 80
 <nan> <nan> 20
-<nan> no_party
+first no_party
 <nan> england;netherlands
 <nan> netherlands;brazil
 <nan> john_challen;herbie_hewett
@@ -1170,7 +1170,7 @@ panchama
 <nan> romania;brazil
 <nan> <nan> 71
 <nan> <nan> 30
-<nan> <nan> doha
+first <nan> doha
 <nan> <nan> 30
 <nan> <nan> cambridge
 england <nan>
@@ -1187,7 +1187,7 @@ ballymore_eustace <nan>
 <nan> brazil;spain
 <nan> <nan> <nan>
 <nan> australia;brazil
-<nan> shanghai
+first shanghai
 <nan> 83;170
 <nan> <nan> <nan> <nan> washington
 <nan> 39 14 <nan>
@@ -1263,7 +1263,7 @@ west_bengal <nan> <nan>
 <nan> albert_clapp;george_nichols
 <nan> <nan> 5 10
 <nan> 76 30 <nan>
-<nan> <nan> beijing
+first <nan> beijing
 <nan> <nan> 457 25
 <nan> ukraine
 <nan> turkey
@@ -1288,11 +1288,11 @@ havana
 <nan> <nan> <nan>
 <nan> 9 28
 <nan> 321 186
-<nan> <nan> washington
+first <nan> washington
 <nan> <nan>
-<nan> <nan> cambridge
+first <nan> cambridge
 2005;2007 <nan> <nan>
-<nan> cambridge
+first cambridge
 <nan>
 <nan> crettyard;maynooth
 <nan> ireland
@@ -1323,14 +1323,14 @@ havana
 <nan> 20
 <nan> 32 4
 <nan> india;australia
-<nan>
+<nan> last
 <nan> <nan>
 <nan> brazil;netherlands
 <nan> 39 7 <nan>
 <nan> ballyroan_abbey;greystones
 <nan> romania;england
 <nan> <nan> 15;24
-<nan> green
+first green
 <nan> 76 30 <nan>
 <nan> <nan> 50
 <nan> <nan> 10 5
@@ -1341,7 +1341,7 @@ havana
 <nan> <nan> 2 1
 <nan> 39 14 <nan>
 <nan> <nan> 5 2
-<nan> <nan>
+<nan> fifth
 <nan> 5
 <nan> <nan>
 <nan> <nan> defender
@@ -1350,7 +1350,7 @@ havana
 <nan> slovakia
 <nan> maynooth;confey
 <nan> 9 4
-<nan> no_party
+first no_party
 <nan> 71 23 <nan>
 <nan> <nan> 10 5
 <nan> 39 14 <nan>
@@ -1370,7 +1370,7 @@ havana
 <nan> <nan> 90
 fingal_ravens 2009
 <nan> <nan> 15 5
-<nan> <nan> mexico_city
+first <nan> mexico_city
 <nan> ralf_woods
 <nan> kazakhstan
 <nan> 39 7 <nan>
@@ -1410,7 +1410,7 @@ kerala <nan> <nan>
 <nan> 9 28
 <nan> 8 7 <nan>
 <nan> 76 30 <nan>
-<nan> liberal_democrats
+first liberal_democrats
 <nan> 2015
 <nan> lionel_palairet
 <nan> south_korea
@@ -1461,7 +1461,7 @@ rajasthan <nan> <nan>
 <nan> lionel_palairet
 <nan> <nan> 30
 <nan> <nan> <nan> <nan>
-<nan> independent
+first independent
 <nan> john_challen;herbie_hewett
 <nan>
 <nan> <nan> 20
@@ -1500,7 +1500,7 @@ rajasthan <nan> <nan>
 <nan> <nan> cambridge
 <nan> australia;england
 <nan> ukraine
-<nan> <nan> havana
+first <nan> havana
 <nan> 9
 <nan> 10
 <nan> <nan>
@@ -1516,7 +1516,7 @@ rajasthan <nan> <nan>
 <nan> albert_clapp;herbie_hewett
 <nan> changzhou
 <nan> 2010
-<nan> no_party
+last no_party
 <nan> fingal_ravens;maynooth
 <nan> washington <nan> <nan>
 <nan> fingal_ravens;maynooth
@@ -1564,9 +1564,9 @@ maharashtra <nan> <nan>
 <nan> brazil;india
 <nan> spain;romania
 <nan> <nan> 15 2
-<nan> nanjing
+first nanjing
 <nan> <nan> 2000;2006
-<nan> havana
+first havana
 <nan> albert_clapp;bill_roe
 <nan> 2004
 <nan> 2011
@@ -1602,11 +1602,11 @@ ballyroan_abbey 2008
 <nan> italy;romania
 <nan> <nan> 50
 <nan> 6 8
-<nan> <nan> indianapolis
+first <nan> indianapolis
 <nan> <nan> 21;25
-<nan> respect
+last respect
 <nan> spain;netherlands
-<nan> green
+last green
 <nan> <nan> 30
 <nan> <nan> <nan>
 <nan> confey;ballyroan_abbey
@@ -1618,7 +1618,7 @@ ballyroan_abbey 2008
 <nan> dubai
 <nan> <nan> <nan>
 <nan> <nan> 14 1
-<nan> labour
+last labour
 <nan> <nan> 30
 <nan> <nan> 30
 <nan> ted_tyler
@@ -1640,7 +1640,7 @@ ballyroan_abbey 2008
 <nan> 400 14 <nan>
 <nan> 9 4
 <nan> <nan> defender
-<nan> washington
+first washington
 <nan> wales;romania
 1997;2000 <nan> <nan>
 <nan> 6 8
@@ -1688,10 +1688,10 @@ maharashtra <nan> <nan>
 <nan> thailand
 <nan> 6 4
 <nan> spain
-<nan> <nan> doha
+first <nan> doha
 <nan> <nan> 15;19
 <nan> 1999
-<nan> <nan> tokyo
+first <nan> tokyo
 <nan> brazil;wales
 <nan>
 <nan> 76 30 <nan>
@@ -1699,7 +1699,7 @@ maharashtra <nan> <nan>
 <nan> <nan> <nan> <nan> tokyo
 <nan> madhya_pradesh
 <nan> slovakia
-<nan> <nan>
+<nan> <nan> last
 <nan> <nan> 15 10
 <nan> maynooth;greystones
 <nan> <nan> <nan>
@@ -1722,7 +1722,7 @@ maharashtra <nan> <nan>
 <nan> 9 28
 <nan> <nan> 101
 <nan> 125 14
-<nan> indianapolis
+first indianapolis
 <nan> 6 8
 <nan> wales;romania
 <nan> crescens_robinson
@@ -1734,7 +1734,7 @@ maharashtra <nan> <nan>
 <nan> italy;spain
 <nan> <nan> <nan> <nan> beijing
 tripura <nan> <nan>
-<nan> <nan>
+<nan> third
 <nan> brazil
 <nan> sydney
 <nan> great_britain
@@ -1761,7 +1761,7 @@ uttarakhand <nan> <nan>
 <nan> 2007
 <nan> <nan> 123
 <nan> brazil;italy
-<nan> conservatives
+first conservatives
 <nan> <nan> 20
 <nan> <nan> 40
 <nan> crescens_robinson
@@ -1804,7 +1804,7 @@ chhattisgarh <nan> <nan>
 <nan> 2002
 <nan> <nan> 25
 <nan> armenia
-<nan>
+first
 <nan> 76 14 <nan>
 <nan> 400 7 <nan>
 2009;2011 <nan> <nan>
@@ -1851,7 +1851,7 @@ tripura <nan> <nan>
 <nan> <nan> <nan>
 2004;2007 <nan> <nan>
 <nan>
-<nan>
+last
 <nan> <nan> 113
 <nan> <nan> 131
 <nan> france
@@ -1928,7 +1928,7 @@ antara_gandhara
 <nan> great_britain
 <nan> 2011
 <nan> 8 7 <nan>
-<nan> no_party
+last no_party
 <nan> 400 30 <nan>
 <nan> scotland
 <nan> <nan> 50
@@ -2034,7 +2034,7 @@ puducherry <nan> <nan>
 <nan> 32 4
 <nan> 20
 <nan> <nan>
-<nan> <nan> sydney
+first <nan> sydney
 <nan> 400 7 <nan>
 <nan> 6 4
 <nan> tony_coton
@@ -2126,7 +2126,7 @@ indianapolis
 <nan> wales;italy
 <nan> robert_page
 <nan> <nan> 42
-<nan> socialist_alternative
+last socialist_alternative
 <nan> <nan> <nan>
 <nan> 5
 <nan> <nan> 50
@@ -2215,7 +2215,7 @@ tamil_nadu <nan> <nan>
 <nan> veracruz
 <nan> 151 137
 <nan> <nan>
-<nan> socialist_alternative
+first socialist_alternative
 <nan> ballyroan_abbey;greystones
 <nan> <nan> 15 2
 <nan> 2005
@@ -2223,7 +2223,7 @@ tamil_nadu <nan> <nan>
 <nan> <nan> 12
 china <nan>
 <nan> <nan> 1998;2000;2006
-<nan> independent
+first independent
 <nan> <nan> 24;28
 <nan> <nan> 10 15
 <nan> brazil;wales
@@ -2239,7 +2239,7 @@ dundalk_gael <nan>
 <nan> <nan> 80
 <nan> greystones;fingal_ravens
 <nan> australia;brazil
-<nan> <nan> dubai
+first <nan> dubai
 <nan> india;spain
 <nan> nassau <nan> <nan>
 <nan> 39 14 <nan>
@@ -2355,7 +2355,7 @@ france <nan>
 <nan> <nan> 16;21
 <nan> australia;netherlands
 <nan> <nan> 20
-<nan> <nan> los_angeles
+first <nan> los_angeles
 <nan> <nan> 20
 <nan> 92
 <nan> archery
@@ -2400,7 +2400,7 @@ west_bengal <nan> <nan>
 <nan> 71 7 <nan>
 <nan> gordon_otto
 <nan> <nan>
-<nan> minneapolis
+first minneapolis
 <nan> 39 30 <nan>
 <nan> 6 28
 <nan> <nan> 14 4
@@ -2445,13 +2445,13 @@ fingal_ravens 2009
 <nan> john_challen
 <nan> <nan> 50
 <nan> 9 28
-<nan> <nan> austin
+first <nan> austin
 1999;2002 <nan> <nan>
 <nan> 400 30 <nan>
 <nan> <nan> 10 5
 <nan> 76 7 <nan>
 <nan> 2002
-<nan> liberal_democrats
+first liberal_democrats
 <nan> 9 8
 <nan> washington
 <nan> <nan> 15 10
@@ -2473,7 +2473,7 @@ fingal_ravens 2009
 <nan> john_challen;herbie_hewett
 <nan> 39 30 <nan>
 <nan> brazil;australia
-<nan> respect
+first respect
 <nan> 400 7 <nan>
 <nan> italy;netherlands
 <nan> <nan> 19;26
@@ -2635,7 +2635,7 @@ brazil <nan>
 <nan> 400 7 <nan>
 <nan> <nan> <nan> <nan> los_angeles
 <nan> <nan> 30
-<nan> socialist_alternative
+last socialist_alternative
 2002;2005 <nan> <nan>
 <nan> <nan> 17;21
 <nan> <nan> 81 1
@@ -2741,7 +2741,7 @@ fingal_ravens 2008
 <nan> <nan> 10 2
 <nan> 6 28
 <nan> <nan> 5 2
-<nan> conservatives
+last conservatives
 <nan> tommy_mooney
 <nan> 103 7
 <nan> 400 7 <nan>
@@ -2793,7 +2793,7 @@ fingal_ravens 2008
 <nan> <nan> 55
 <nan> maynooth;fingal_ravens
 <nan> cycling
-<nan> <nan>
+first <nan>
 <nan> france
 <nan> 4
 <nan> 2012

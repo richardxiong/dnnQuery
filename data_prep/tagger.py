@@ -7,10 +7,14 @@ import random
 import sys
 import time
 import re
+import inspect
 
 import editdistance as ed
 import numpy as np
 import tag_utils as tu
+
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
 
 def buildDictionary(schema):
     ''' Build a search dictionary based on a given schema
@@ -512,7 +516,7 @@ def sentTagging_value(query, fields, logic=None):
     num_field_position = []
     num_value_position = []
     # count = 0
-    
+
     ### CORRESPOND <field> with <value>
     for i in range(len(tag2)):
         if tag[i] == "<nan>":
@@ -683,10 +687,10 @@ def main2():
               (template)->(declarative)
         using for the final accuracy check
     '''
-    f_lo = open('../evaluation/forms_train.lo', 'w')
-    with open('../evaluation/rand_train.ficorr') as f_ficorr:
-        with open('../evaluation/rand_train.vacorr') as f_vacorr:
-            with open('../data/rand_train.lox') as f_lox:   # final test change to logicalForm.out
+    f_lo = open(parentdir + '/evaluation/forms_train.lo', 'w')
+    with open(parentdir + '/evaluation/rand_train.ficorr') as f_ficorr:
+        with open(parentdir + '/evaluation/rand_train.vacorr') as f_vacorr:
+            with open(parentdir + '/data/rand_train.lox') as f_lox:   # final test change to logicalForm.out
                 field_corr, value_corr, newlogical = f_ficorr.readline(), f_vacorr.readline(), f_lox.readline()
                 idx = 0
                 while field_corr and value_corr and newlogical:
@@ -710,14 +714,14 @@ def main1():
         to .ta, .lox, .qux
         and .ficorr, .vacorr
     '''
-    f_ta = open('../data/rand_train.ta', 'w')
-    f_lox = open('../data/rand_train.lox', 'w')
-    f_qux = open('../data/rand_train.qux', 'w')
-    f_ficorr = open('../evaluation/rand_train.ficorr', 'w')
-    f_vacorr = open('../evaluation/rand_train.vacorr', 'w')
-    with open('../data/rand_train.fi') as f_fi:
-        with open('../data/rand_train.qu') as f_qu:
-            with open('../data/rand_train.lo') as f_lo:
+    f_ta = open(parentdir + '/data/rand_test.ta', 'w')
+    f_lox = open(parentdir + '/data/rand_test.lox', 'w')
+    f_qux = open(parentdir + '/data/rand_test.qux', 'w')
+    f_ficorr = open(parentdir + '/evaluation/rand_test.ficorr', 'w')
+    f_vacorr = open(parentdir + '/evaluation/rand_test.vacorr', 'w')
+    with open(parentdir + '/data/rand_test.fi') as f_fi:
+        with open(parentdir + '/data/rand_test.qu') as f_qu:
+            with open(parentdir + '/data/rand_test.lo') as f_lo:
                 schema, query, logic = f_fi.readline(), f_qu.readline(), f_lo.readline()
                 idx = 0
                 while schema and query and logic:
@@ -749,4 +753,4 @@ def main1():
     return
 
 #main1()
-main2()
+#main2()

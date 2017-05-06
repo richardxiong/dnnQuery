@@ -7,15 +7,19 @@ import random
 import sys
 import time
 import re
+import inspect
 
 import editdistance as ed
 import numpy as np
 import scratch
 
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+
 class Config(object):
     word_dim = 100
-    vocabulary_path = '../data/vocab10000.from'
-    glove_path = '../../glove.6B/glove.6B.100d.txt'
+    vocabulary_path = parentdir + '/data/vocab10000.from'
+    glove_path = os.path.dirname(parentdir) + '/glove.6B/glove.6B.100d.txt'
     max_vocabulary_size = 50000
 
     embedding_matrix, vocab, word_vector = scratch.generateEmbedMatrix(vocabulary_path, max_vocabulary_size, glove_path)

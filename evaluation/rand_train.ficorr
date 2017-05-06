@@ -693,7 +693,7 @@ Total_no._of_seats_in_Assembly State No._of_candidates
 Player Runs Average Matches
 Year 1st_Venue 4th_Venue
 Year 4th_Venue 2nd_Venue;3rd_Venue
-Gold Nation
+Gold Nation Rank
 Silver Nation
 1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 1st_Venue Year 2nd_Venue 1st_Venue;4th_Venue
 Name Goals Apps
@@ -881,7 +881,7 @@ Year 2nd_Venue
 Points Player
 100s Player
 PGA Country
-Bronze Nation
+Bronze Nation Rank
 Silver Nation
 Average Player Innings Games_Played
 Total Nation
@@ -993,7 +993,7 @@ Rank Nation Bronze Gold
 Rank Nation Silver Bronze
 State No._of_candidates
 Nation Rank
-Year 1st_Venue 2nd_Venue 1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 3rd_Venue
+Year 1st_Venue 2nd_Venue 1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 3rd_Venue 1st_Venue;2nd_Venue
 Player Points Average
 Nation Total Gold
 Nation Gold Bronze Rank
@@ -1323,7 +1323,7 @@ Years_won Team
 Player Matches
 Nation Gold Silver
 Silver Nation
-Nation
+Nation Rank
 Year 2nd_Venue
 U.S._Open Country
 Player 50s Points 100s
@@ -1699,7 +1699,7 @@ Player Runs Average Games_Played
 1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 1st_Venue Year 2nd_Venue 4th_Venue
 No._of_candidates State
 Silver Nation
-Silver Nation
+Silver Nation Rank
 Average Player 50s Matches
 Prices Team
 Position Swara Notation
