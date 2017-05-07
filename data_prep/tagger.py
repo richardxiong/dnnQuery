@@ -13,13 +13,18 @@ import editdistance as ed
 import numpy as np
 import tag_utils as tu
 
+from nltk.parse import stanford
+from nltk import tree
+os.environ['STANFORD_PARSER'] = '/Users/richard_xiong/Documents/DeepLearningMaster/jars'
+os.environ['STANFORD_MODELS'] = '/Users/richard_xiong/Documents/DeepLearningMaster/jars'
+    
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)
 
 def buildDictionary(schema):
     ''' Build a search dictionary based on a given schema
-      tu.Config() contains a huge SCHEMA database, which contains all the fields in schema given
-      return --- query_dict, mapping between words and possible field names they refer
+        tu.Config() contains a huge SCHEMA database, which contains all the fields in schema given
+        return --- query_dict, mapping between words and possible field names they refer
                  string_dict, mapping between values and possible field names they refer
     '''
     config = tu.Config()
@@ -50,8 +55,8 @@ def buildDictionary(schema):
 
 def fromWordtoVec():
     ''' generate the field to vector dictionary from the field to words dictionary
-    # field2vec = {"nation": [vec1, vec2],...}    # vec1 is average vec for query words;
-    #                                             # vec2 is average vec for value words; 
+        # field2vec = {"nation": [vec1, vec2],...}    # vec1 is average vec for query words;
+        #                                             # vec2 is average vec for value words; 
                  # vec could be weighted by words frequency used for future work
     '''  
     config = tu.Config()
@@ -93,8 +98,8 @@ def fromWordtoVec():
 
 def fromWordtoVecList(schema):
     ''' generate the field to vector dictionary from the field to words dictionary
-    # field2vecQuery = {"nation": [vec1, vec2,...]}    # vec are centroids; 
-    # field2vecString = {"nation": [vec1, vec2,...]}    # vec are centroids; 
+        # field2vecQuery = {"nation": [vec1, vec2,...]}    # vec are centroids; 
+        # field2vecString = {"nation": [vec1, vec2,...]}    # vec are centroids; 
                  # vec could be weighted by words frequency used for future work
     '''
     config = tu.Config()
@@ -125,8 +130,9 @@ def fromWordtoVecList(schema):
 
 
 def strSimilarity(word1, word2):
-    ''' Measure the similarity based on Edit Distance'''
+    ''' Measure the similarity based on Edit Distance
     ### Measure how similar word1 is with respect to word2
+    '''
     diff = ed.eval(word1.lower(), word2.lower())   #search
     # lcs = LCS(word1, word2)   #search
     length = max(len(word1), len(word2))
@@ -138,14 +144,16 @@ def strSimilarity(word1, word2):
 
 
 def EuDisSqu(vector1, vector2):
-    ''' Calculate the square of Euclidean distance between two vectors'''
+    ''' Calculate the square of Euclidean distance between two vectors
+    '''
     dist_square = 0.0
     dist_square += np.dot(vector1, vector1) + np.dot(vector2, vector2) - 2*np.dot(vector1, vector2)
     return np.sqrt(dist_square)
 
 
 def spanInSpace(vectorArray):
-    ''' calculate the maximum distance within a list of word vectors '''
+    ''' calculate the maximum distance within a list of word vectors 
+    '''
     dist = 0.0
     for i in range(len(vectorArray)):
         for j in range(i+1, len(vectorArray)):
@@ -158,7 +166,8 @@ def spanInSpace(vectorArray):
 
 def spanInSpace2(vectorArray):
     ''' calculate 1 the average distance 
-                2 the standard deviation within a list of word vectors '''
+                2 the standard deviation within a list of word vectors 
+    '''
     dist = 0.0
     std = 0.0
     center = np.array([0.0 for i in range(len(vectorArray[0]))])
@@ -176,7 +185,7 @@ def spanInSpace2(vectorArray):
 
 def findNearestNeighbor(word, vectorArray, diameter):
     ''' return the word vector which is the nearest neighbor to the query word
-      return None is word is a new vocab or the distance between word and any of the vecs is larger than diameter
+        return None is word is a new vocab or the distance between word and any of the vecs is larger than diameter
     '''
     config = tu.Config()
     if word in config.word_vector:
@@ -203,7 +212,7 @@ def findNearestNeighbor(word, vectorArray, diameter):
 def findKNearestNeighbor(word, vectorArray, k=3):
     ''' return the list of word vectors which are the k nearest neighbors to the query word with corresponding 
               weights (1 / distance), list of tuples
-      return None is word is a new vocab or the distance between word and any of the vecs is larger than diameter
+        return None is word is a new vocab or the distance between word and any of the vecs is larger than diameter
     '''
     config = tu.Config()
     if word in config.word_vector:
@@ -281,78 +290,6 @@ def basic_tokenizer(sentence):
     return [w for w in words if w]
 
 
-def sentTagging(query, schema):
-    #schema = ["Nation", "Rank", "Gold", "Silver", "Bronze", "#_participant", "Total"]
-    #query = 'how many gold medals the nation ranked 14 won'
-    # config = tu.Config()
-    # print config.word_dim
-    field2vec = fromWordtoVec()
-    query = query.lower()
-    words = basic_tokenizer(query)
-    tag = ["<nan>" for x in words]
-    schema0 = ['sum', 'diff','less','greater','argmax', 'argmin'] #, 'mean', ]
-    schema += schema0
-    if 'Average' not in schema:
-        schema.append('mean')
-    # construct schema_vec, a dict with (key = vector for centroids, value = schema field name)
-    schema_vec = dict()
-    for i in range(len(schema)):
-        vec_list = field2vec[schema[i]]
-        for j in range(len(vec_list)):
-            vec_sign = tuple(vec_list[j])
-            #vec_sign = vec_list[j]
-            schema_vec[vec_sign] = schema[i]
-    # go over words, find nearest neighbor
-    diameter = spanInSpace(schema_vec.keys())
-    # 0th pass find devided words, such as country_gdp
-    for j in range(len(schema)):
-        # split around '_'
-        div_fields = schema[j].split('_')
-        k = len(div_fields)
-        if k == 1:
-            continue
-        for i in range(len(words) - k + 1):
-            if tag[i] is not "<nan>":
-                continue
-            check_combine = '_'.join(words[i:i+k])
-            if strSimilarity(check_combine, schema[j].lower()) >= 0.7:
-                for l in range(k):
-                    tag[i+l] = schema[j]
-    
-    filter_words = [',','the','a','an','for','of','in','on','with','than','and',\
-    'is','are','do','does','did','has','have','had','what','how','many','number','get']
-    count_f = 0
-    for i in range(len(words)):
-        # 0th pass eliminate non-sense words
-        if words[i] in filter_words:
-        	continue
-        # 1st pass normalize all the numbers to 00/000, but label them for decoding process
-        if tag[i] is not "<nan>":
-            continue
-        if strIsNum(words[i]):
-            tag[i] = '<num>'
-    
-    	# 2nd pass find field name according to string similarity (field with numerical values)
-        if tag[i] is not "<nan>":
-            continue
-        for j in range(len(schema)):
-            if strSimilarity(words[i], schema[j].lower()) >= 0.7:
-                tag[i] = schema[j]
-    
-    	# 3rd pass find values to closest field name in semantic space (name entities)
-        #          find query words to closest field name in semantic space
-        if tag[i] is not "<nan>":
-            continue
-        # Nearest neighbor: finding closest clustroid
-        the_one = findNearestNeighbor(words[i], schema_vec.keys(), diameter/3.5)
-        if the_one is not None:
-            tag[i] = schema_vec[the_one]
-    
-    	# (4th pass NER for un-tagged name entity field string value, tag for schema[0])
-    tag_sentence = ' '.join(tag)
-    return tag_sentence
-
-
 def sentTagging_knn_semantic(query, schema, logic=None):
     ''' Tag each word in a query with one of the three possible tokens:
           1. <nan>
@@ -417,13 +354,14 @@ def sentTagging_value(query, fields, logic=None):
           2. <field: i>
           3. <value: j>
           where i, j are the position according to the schema
-      return -- tagged query
-                tagged logical form: where <field: 1> equal <value: 1>, select <field: 2>
+      return -- tag
                 field correspondence: a list of the corresponding field names in seuquence [Gold, Nation], 
                                       if <field: 1> is Gold and <field: 2> is Nation
                 value correspondence: a list of the corresponding field values in seuquence ['13', 'China'],
                                       corresponding to the field at the same position in field_corr
-      for example:
+                tagged query: how many <field>:0 the <field>:1 <field>:2 <value>:2 won
+                tagged logical form: where <field>:1 equal <value>:1, select <field>:2
+                      for example:
                 .ficorr -- [Gold, Nation]
                 .vacorr -- [14, italy;japan]
       deprecate the previous thought:
@@ -610,27 +548,235 @@ def sentTagging_value(query, fields, logic=None):
     return tag2_sentence, field_corr_sentence, value_corr_sentence, newquery_sentence, newlogic_sentence
 
 
-def sentTagging_tree(query, fields, logic=None):
+def treeLCAdepth(deptree, value_position, field_position):
+    ''' Measure the depth of Lowest Common Ancestor (LCA) in a tree
+        arguments --- deptree: dependency tree of a certain parse_query
+                      value_position (int): the index of value in original query
+                      field_position (int): the index of field in original query
+        call function nltk.tree.treeposition_spanning_leaves(start, end), return the sequence of common ancestors
+        return --- length of common ancestor sequence, the depth of LCA
+    '''
+    if value_position > field_position:
+        start = field_position
+        end = value_position
+    else:
+        start = value_position
+        end = field_position
+    treespan = deptree.treeposition_spanning_leaves(start, end)
+    return len(treespan)
+
+
+def sentTagging_tree(parser, query, fields, logic=None):
     ''' Tag each word in a query with one of the three possible tokens:
           BASED ON Dependency Tree
           1. <nan>
-          2. <field: i>
-          3. <value: j>
+          2. <field>:i
+          3. <value>:j
           where i, j are the position according to the schema
-      return -- tagged query
-                tagged logical form: where <field: 1> equal <value: 1>, select <field: 2>
-                field correspondence: a list of the corresponding field names in seuquence [Gold, Nation], 
-                                      if <field: 1> is Gold and <field: 2> is Nation
-                value correspondence: a list of the corresponding field values in seuquence ['13', 'China'],
-                                      corresponding to the field at the same position in field_corr
-      for example:
-                .ficorr -- [Gold, Nation]
-                .vacorr -- [14, italy;japan]
-      deprecate the previous thought:
-                .ficorr -- [Gold, Nation, Nation]
-                .vacorr -- [14, italy, japan]
+        argument --- parser: Stanford Dependency parser using NLTK python interface, output a dependency tree 
+                             of a parse_query
+        return --- tag
+                   field correspondence: a list of the corresponding field names in seuquence [Gold, Nation], 
+                                        if <field: 1> is Gold and <field: 2> is Nation
+                   value correspondence: a list of the corresponding field values in seuquence ['13', 'China'],
+                                        corresponding to the field at the same position in field_corr
+                   tagged query: how many <field>:0 the <field>:1 <field>:2 <value>:2 won
+                   tagged logical form: where <field>:1 equal <value>:1, select <field>:2
+                   .ficorr -- [Gold, Nation]
+                   .vacorr -- [14, italy;japan]
+        deprecate the previous thought:
+                   .ficorr -- [Gold, Nation, Nation]
+                   .vacorr -- [14, italy, japan]
     '''
-    return None
+    ### prepare query, schema, and initialize tag with <nan> ###
+    query = query.lower()
+    words = basic_tokenizer(query)
+    schema = fields.split()
+    tag = ["<nan>" for x in words]
+    
+    ### construct dictionaries ###
+    config = tu.Config()
+    field2vecField, field2vecValue = fromWordtoVecList(schema)
+    field_dict, value_dict = buildDictionary(schema)
+    # print "value_dict:"
+    # print value_dict
+    
+    filter_words = [',','the','a','an','for','of','in','on','with','than','and',\
+    'is','are','do','does','did','has','have','had','what','how','many','get'] #,'number'
+    
+    ### TAG WITH <field> & <value>
+    for i in range(len(words)):
+      # 0th pass eliminate non-sense words, label <num> and standby
+        if words[i] in filter_words:
+            continue
+        if strIsNum(words[i]):
+            if len(words[i]) == 4:
+            # find Year like fields
+                the_one = None
+                for j in range(len(schema)):
+                    if config.field2word[schema[j]]['value_type'] == 'date':
+                        # find year_like field
+                        the_one = schema[j]
+                if the_one == None:
+                    tag[i] = '<value>:<num>'
+                else: 
+                    tag[i] = '<value>:' + the_one
+            else: 
+                tag[i] = '<value>:<num>'
+        if strIsOrdinal(words[i]):
+            # tag[i] = '<value>:<order>'
+            the_one = None
+            for j in range(len(schema)):
+                if config.field2word[schema[j]]['value_type'] == 'ordinal':
+                    # find ordinal field
+                    the_one = schema[j]
+            if the_one == None:
+                tag[i] = '<value>:<order>'
+            else: 
+                tag[i] = '<value>:' + the_one
+    
+      # 1st pass exact match of field name
+        if tag[i] is not "<nan>":
+            continue
+        if words[i] in field_dict:
+            tag[i] = '<field>:'
+            if len(field_dict[words[i]]) == 1:
+                tag[i] += field_dict[words[i]][0]
+            else:
+                tag[i] += ';'.join(field_dict[words[i]])
+            
+      # 2nd pass exact match of field values (CURRENTLY assume one word can NOT be both value and name)
+      # TO DO: later update to Bloom filter, for strings with high similarity to certain value
+        if tag[i] is not "<nan>":
+            continue
+        if words[i] in value_dict:
+            tag[i] = '<value>:'
+            if len(value_dict[words[i]]) == 1:
+                tag[i] += value_dict[words[i]][0]
+            else:
+                tag[i] += ';'.join(value_dict[words[i]])
+            
+      # 3rd pass find field name according to string similarity (field with numerical values)
+        if tag[i] is not "<nan>":
+            continue
+        baseline = 0.55
+        for j in range(len(schema)):
+            if strSimilarity(words[i], schema[j].lower()) >= baseline:
+                tag[i] = schema[j]
+                baseline = strSimilarity(words[i], schema[j].lower())
+        if tag[i] is not '<nan>':
+            tag[i] = '<field>:' + tag[i]
+      
+    #tag_sentence = ' '.join(tag)
+    tag2 = ["<nan>" for x in tag]
+    field_corr = []
+    value_corr = []
+    num_field_position = []
+    num_value_position = []
+    # count = 0
+
+    # (for dependency tree LCA)
+    parsequery = [x for x in words]
+    
+    ### CORRESPOND <field> with <value>
+    for i in range(len(tag2)):
+        if tag[i] == "<nan>":
+            continue
+        reference = tag[i].split(':')
+        if reference[0] == '<field>':
+            parsequery[i] = '<field>'    # (dependency tree LCA)
+            print reference
+            if reference[1] in field_corr:
+                idx = field_corr.index(reference[1])
+                tag2[i] = '<field>:'+str(idx)
+            else:
+                field_corr.append(reference[1])
+                value_corr.append("<nan>")
+                idx = len(field_corr) - 1
+                tag2[i] = '<field>:'+str(idx)
+            
+            refers = reference[1].split(';')
+            if config.field2word[refers[0]]['value_type'] != 'string':
+                num_field_position.append((i, idx))
+    for i in range(len(tag2)):
+        if tag[i] == "<nan>":
+            continue
+        reference = tag[i].split(':')
+        if reference[0] == '<value>':
+            parsequery[i] = '<value>'    # (dependency tree LCA)
+            print reference
+            # check reference[1] == '<num>'
+            if reference[1] in field_corr:
+                idx = field_corr.index(reference[1])
+                tag2[i] = '<value>:'+str(idx)
+                if value_corr[idx] is "<nan>":
+                    value_corr[idx] = words[i]
+                else:
+                    value_corr[idx] += ';'+words[i]
+
+            else:
+                if reference[1] == '<num>' or reference[1] == '<order>':
+                    num_value_position.append(i)
+                    continue
+                field_corr.append(reference[1])
+                value_corr.append(words[i])
+                idx = len(field_corr) - 1
+                tag2[i] = '<value>:'+str(idx)
+    
+    print num_field_position    #[(4, 1), (7, 2)]
+    print num_value_position    #[9]
+    
+    # find corresponding field (dependency tree LCA)
+    parsequery = ' '.join(parsequery)
+    #print parsequery
+    dependency_tree = parser.raw_parse_sents(('Hello, My name is Melroy', parsequery))
+    # only take dependency_tree[1]
+    for i in num_value_position:
+        # find largest ancestor depth for (value, field) pair in the tree
+        idx = None
+        largest_depth = 0
+        for (j,m) in num_field_position:
+            depth = treeLCAdepth(dependency_tree[1], i, j)
+            if depth > largest_depth:
+                idx = m
+                largest_depth = depth
+        tag2[i] = '<value>:'+str(idx)
+        if idx is not None:
+            if value_corr[idx] is "<nan>":
+                value_corr[idx] = words[i]
+            else:
+                value_corr[idx] += ';'+words[i]
+                    
+    field_corr_sentence = ' '.join(field_corr)
+    value_corr_sentence = ' '.join(value_corr)
+    tag2_sentence = ' '.join(tag2)
+
+    newquery = [x for x in words]
+    for i in range(len(tag2)):
+        if tag2[i] == '<nan>':
+            continue
+        newquery[i] = tag2[i]
+
+    newquery_sentence = ' '.join(newquery)
+    if logic is not None:
+        tokens = logic.split()
+        newlogic = ['<nan>' for x in tokens]
+        for i in range(len(tokens)):
+            if tokens[i] in field_corr:
+                idx = field_corr.index(tokens[i])
+                newlogic[i] = '<field>:'+str(idx)
+                continue
+            for idx in range(len(value_corr)):
+                if tokens[i].lower() in value_corr[idx].split(';'):
+                    newlogic[i] = '<value>:'+str(idx)
+                    continue
+            if newlogic[i] == '<nan>':
+                newlogic[i] = tokens[i]
+        newlogic_sentence = ' '.join(newlogic)
+    else:
+        newlogic_sentence = None
+    # further change the logical forms to new_logical forms
+    return tag2_sentence, field_corr_sentence, value_corr_sentence, newquery_sentence, newlogic_sentence
 
 
 def templateToLogicalfrom(field_corr_sentence, value_corr_sentence, newlogic_sentence):
@@ -714,6 +860,7 @@ def main1():
         to .ta, .lox, .qux
         and .ficorr, .vacorr
     '''
+    parser = stanford.StanfordParser(model_path='/Users/richard_xiong/Documents/DeepLearningMaster/jars/englishPCFG.ser.gz')
     f_ta = open(parentdir + '/data/rand_test.ta', 'w')
     f_lox = open(parentdir + '/data/rand_test.lox', 'w')
     f_qux = open(parentdir + '/data/rand_test.qux', 'w')
@@ -729,7 +876,8 @@ def main1():
                     # if idx == 15:
                     #     break
                     print '### example: %d ###' % idx
-                    tagged2, field_corr, value_corr, newquery, newlogical = sentTagging_value(query, schema, logic)
+                    #tagged2, field_corr, value_corr, newquery, newlogical = sentTagging_value(query, schema, logic)
+                    tagged2, field_corr, value_corr, newquery, newlogical = sentTagging_tree(parser, query, schema, logic)
                     print schema
                     print query
                     print logic
@@ -752,5 +900,5 @@ def main1():
     f_ficorr.close()
     return
 
-#main1()
+main1()
 #main2()
