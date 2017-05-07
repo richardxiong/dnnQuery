@@ -39,15 +39,34 @@ _GO = b"_GO"
 _EOS = b"_EOS"
 _UNK = b"_UNK"
 _NAN = b"<nan>"
-_NUM = b"<num>"
-_START_VOCAB = [_PAD, _GO, _EOS, _UNK]
+_F0 = b"<field>:0"
+_F1 = b"<field>:1"
+_F2 = b"<field>:2"
+_F3 = b"<field>:3"
+_F4 = b"<field>:4"
+_V0 = b"<value>:0"
+_V1 = b"<value>:1"
+_V2 = b"<value>:2"
+_V3 = b"<value>:3"
+_V4 = b"<value>:4"
+
+_START_VOCAB = [_PAD, _GO, _EOS, _UNK, _NAN, _F0, _F1, _F2, _F3, _F4, _V0, _V1, _V2, _V3, _V4]
 
 PAD_ID = 0
 GO_ID = 1
 EOS_ID = 2
 UNK_ID = 3
 NAN_ID = 4
-NUM_ID = 5
+F0_ID = 5
+F1_ID = 6
+F2_ID = 7
+F3_ID = 8
+F4_ID = 9
+V0_ID = 10
+V1_ID = 11
+V2_ID = 12
+V3_ID = 13
+V4_ID = 14
 
 # Regular expressions used to tokenize.
 _WORD_SPLIT = re.compile(b"([,!?\")(])")   # get rid of '.':;'
@@ -121,7 +140,7 @@ def basic_tokenizer(sentence):
 
 
 def create_vocabulary(vocabulary_path, data_path, max_vocabulary_size,
-                      tokenizer=None, normalize_digits=False):
+                      tokenizer=None, normalize_digits=False, crop = False):
   """Create vocabulary file (if it does not exist yet) from data file.
   Data file is assumed to contain one sentence per line. Each sentence is
   tokenized and digits are normalized (if normalize_digits is set).
@@ -154,7 +173,10 @@ def create_vocabulary(vocabulary_path, data_path, max_vocabulary_size,
             vocab[word] += 1
           else:
             vocab[word] = 1
-      vocab_list = _START_VOCAB + sorted(vocab, key=vocab.get, reverse=True)
+      if crop == True:
+        vocab_list = _START_VOCAB[:5] + sorted(vocab, key=vocab.get, reverse=True)
+      else: 
+        vocab_list = _START_VOCAB + sorted(vocab, key=vocab.get, reverse=True)
       if len(vocab_list) > max_vocabulary_size:
         vocab_list = vocab_list[:max_vocabulary_size]
       with gfile.GFile(vocabulary_path, mode="wb") as vocab_file:
@@ -304,7 +326,7 @@ def prepare_data(data_dir, from_train_path, to_train_path, tag_train_path, from_
   # Create vocabularies of the appropriate sizes.
   to_vocab_path = os.path.join(data_dir, "vocab%d.to" % to_vocabulary_size)
   from_vocab_path = os.path.join(data_dir, "vocab%d.from" % from_vocabulary_size)
-  create_vocabulary(to_vocab_path, to_train_path , to_vocabulary_size, tokenizer)
+  create_vocabulary(to_vocab_path, to_train_path , to_vocabulary_size, tokenizer, crop=True)
   create_vocabulary(from_vocab_path, from_train_path , from_vocabulary_size, tokenizer)
 
   # Create token ids for the training data.

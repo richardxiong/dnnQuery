@@ -33,12 +33,16 @@ _PAD = b"_PAD"
 _GO = b"_GO"
 _EOS = b"_EOS"
 _UNK = b"_UNK"
-_START_VOCAB = [_PAD, _GO, _EOS, _UNK]
+_NAN = b"<nan>"
+_NUM = b"<num>"
+_START_VOCAB = [_PAD, _GO, _EOS, _UNK, _NAN, _NUM]
 
 PAD_ID = 0
 GO_ID = 1
 EOS_ID = 2
 UNK_ID = 3
+NAN_ID = 4
+NUM_ID = 5
 
 # Regular expressions used to tokenize.
 _WORD_SPLIT = re.compile(b"([,!?\")(])")   # get rid of '.':;'
