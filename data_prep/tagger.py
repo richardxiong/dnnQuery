@@ -15,8 +15,8 @@ import tag_utils as tu
 
 from nltk.parse import stanford
 from nltk import tree
-os.environ['STANFORD_PARSER'] = '/Users/richard_xiong/Documents/DeepLearningMaster/jars'
-os.environ['STANFORD_MODELS'] = '/Users/richard_xiong/Documents/DeepLearningMaster/jars'
+os.environ['STANFORD_PARSER'] = '/Users/richard_xiong/Documents/DeepLearningMaster/deep_parser'
+os.environ['STANFORD_MODELS'] = '/Users/richard_xiong/Documents/DeepLearningMaster/deep_parser'
     
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)
@@ -860,7 +860,7 @@ def main1():
         to .ta, .lox, .qux
         and .ficorr, .vacorr
     '''
-    parser = stanford.StanfordParser(model_path='/Users/richard_xiong/Documents/DeepLearningMaster/jars/englishPCFG.ser.gz')
+    parser = stanford.StanfordParser(model_path='/Users/richard_xiong/Documents/DeepLearningMaster/deep_parser/englishPCFG.ser.gz')
     f_ta = open(parentdir + '/data/rand_test.ta', 'w')
     f_lox = open(parentdir + '/data/rand_test.lox', 'w')
     f_qux = open(parentdir + '/data/rand_test.qux', 'w')
@@ -877,10 +877,8 @@ def main1():
                     #     break
                     print '### example: %d ###' % idx
                     #tagged2, field_corr, value_corr, newquery, newlogical = sentTagging_value(query, schema, logic)
+                    print schema, query,logic
                     tagged2, field_corr, value_corr, newquery, newlogical = sentTagging_tree(parser, query, schema, logic)
-                    print schema
-                    print query
-                    print logic
                     print field_corr
                     print value_corr
                     print tagged2
