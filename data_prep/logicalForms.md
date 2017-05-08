@@ -11,9 +11,9 @@ I. DIRECT QUERIES: 6 possible logical forms (and their inferences):
 
 ===========================================
 
-length = 3
+length = 4
 
-utterance_superlative_query = 'arg {max_min} {arg1} {arg2}'
+utterance_superlative_query = 'select {arg1} arg {max_min} {arg2}'
 
 examples:
 1. how many medals are in the game with the most medals
@@ -38,9 +38,9 @@ where country_population equal 300 select number_participants
 
 ===========================================
 
-length = 7
+length = 8
 
-utterance_pattern_multi_field = ' arg {max_min} {arg1} {arg2}' 'where {comp_field} {comp} {comp_val} '
+utterance_pattern_multi_field = ' select {arg1} arg {max_min} {arg2}' 'where {comp_field} {comp} {comp_val} '
                                 
 
 examples:
@@ -67,9 +67,9 @@ where Gold equal 3 where Silver equal 4 select Nation
 
 ===========================================
 
-length = 11 (new)
+length = 12 (new)
 
-utterance_pattern_multi_field = ' arg {max_min} {arg1} {arg2}' 'where {comp_field1} {comp} {comp_val1} ' \
+utterance_pattern_multi_field = ' select {arg1} arg {max_min} {arg2}' 'where {comp_field1} {comp} {comp_val1} ' \
                                 'and {comp_field2} {comp} {comp_val2} ' \
                                   
 
@@ -79,14 +79,22 @@ where Gold equal 2 where Silver equal 0 argmax(Nation, Total)
 
 
 ===========================================
-					
-length = 14
+next and prev:
+
+length = 6
+
+utterance_next_query = 'next/prev {field1} where {field2} equal {value2}'
+
+
+
+===========================================
+(length = 14
 
 utterance_nested_query_4field = 'arg {max_min} {arg1} {arg2}' \
 					'where {query1_project_field} {query2_comp} A ' \
 					'as select {query1_project_field}' \
 					'where {query1_comp_field} {query1_comp} {query1_comp_val} '
-                                          
+)                                          
                                           
 
 examples:
@@ -113,15 +121,16 @@ subtract
 Aggregation: count
 
 (length = 1
-utterance_sum_basic = 'count')
+utterance_sum_basic = 'count'
+)
 
-length = 5
+length = 6
 
-utterance_sum_dependent = 'count' 'where {comp_field} {comp} {comp_val} '
+utterance_sum_dependent = 'count {field}' 'where {comp_field} {comp} {comp_val} '
 					
-length = 9
+length = 10
 
-utterance_sum_dependent = 'count' 'where {comp_field1} {comp} {comp_val1} '\
+utterance_sum_dependent = 'count {field}' 'where {comp_field1} {comp} {comp_val1} '\
 				'and {comp_field2} {comp} {comp_val2}'
 					
 					
@@ -142,7 +151,12 @@ length = 6
 utterance_sum_dependent = 'sum {comp_field2}' 'where {comp_field1} {comp} {comp_val} '
 					
 
-length = 18
+length = 10
+
+utterance_sum_dependent = 'sum {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
+			     'and' where {comp_field2} {comp} {query2_comp_val} '
+
+(length = 18
 
 utterance_sum_multi = 'sum' 'A as select {query1_project_field}' \
 				'where {query1_comp_field} {query1_comp} {query1_comp_val} ' \
@@ -151,6 +165,7 @@ utterance_sum_multi = 'sum' 'A as select {query1_project_field}' \
 
 e.g. how many winning golfers does england and wales combined have in the masters
 where Country equal England select Masters as A where Country equal Wales select Masters as B sum A B
+)
 
 ============================================
 
@@ -158,17 +173,22 @@ avg: avg([field], [A, B, C...])
 
 length = 2
 
-utterance_mean_basic = 'avg {query_field}'
+utterance_avg_basic = 'avg {query_field}'
 
 length = 6
 
-utterance_mean_dependent = 'avg {comp_field2}' 'where {comp_field1} {comp} {comp_val} '
+utterance_avg_dependent = 'avg {comp_field2}' 'where {comp_field1} {comp} {comp_val} '
 						
-
 e.g. what is the mean number of total appearances of scotland
-where Nation equal Scotland mean Total_Apps
+where Nation equal Scotland avg Total_Apps
 
-length = 18
+length = 10
+
+utterance_sum_dependent = 'avg {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
+			     'and' where {comp_field2} {comp} {query2_comp_val} '
+			     
+
+(length = 18
 
 utterance_mean_multi = 'avg' 'A as select {query1_project_field}' \
 				'where {query1_comp_field} {query1_comp} {query1_comp_val} ' \
@@ -177,15 +197,20 @@ utterance_mean_multi = 'avg' 'A as select {query1_project_field}' \
 
 e.g. what is the average of silver medals earned by korea and japan
 where Nation equal Korea select Silver as A where Nation equal Japan select Silver as B mean A B
-
+)
 ============================================
 
 diff: diff(A, B)
 
-length = 12
+length = 10
 
-utterance_diff_1 = 'diff' 'A as arg {max_min} {arg1} {arg2}' \
-				'and' 'B as arg {max_min} {arg1} {arg2}'
+utterance_sum_dependent = 'diff {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
+			     'and' where {comp_field2} {comp} {query2_comp_val} '
+			     
+length = 7
+
+utterance_diff_1 = 'diff {comp_field1}' arg {max_min} {arg1} 
+				'and' arg {max_min} {arg1} 
                     
 
 e.g.
