@@ -151,7 +151,7 @@ length = 6
 utterance_sum_dependent = 'sum {comp_field2}' 'where {comp_field1} {comp} {comp_val} '
 					
 
-length = 10
+length = 11
 
 utterance_sum_dependent = 'sum {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
 			     'and' where {comp_field2} {comp} {query2_comp_val} '
@@ -182,7 +182,7 @@ utterance_avg_dependent = 'avg {comp_field2}' 'where {comp_field1} {comp} {comp_
 e.g. what is the mean number of total appearances of scotland
 where Nation equal Scotland avg Total_Apps
 
-length = 10
+length = 11
 
 utterance_sum_dependent = 'avg {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
 			     'and' where {comp_field2} {comp} {query2_comp_val} '
@@ -198,18 +198,19 @@ utterance_mean_multi = 'avg' 'A as select {query1_project_field}' \
 e.g. what is the average of silver medals earned by korea and japan
 where Nation equal Korea select Silver as A where Nation equal Japan select Silver as B mean A B
 )
+
 ============================================
 
 diff: diff(A, B)
 
-length = 10
+length = 11
 
 utterance_sum_dependent = 'diff {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
 			     'and' where {comp_field2} {comp} {query2_comp_val} '
 			     
-length = 7
+length = 8
 
-utterance_diff_1 = 'diff {comp_field1}' arg {max_min} {arg1} 
+utterance_diff_1 = 'diff {comp_field1} where' arg {max_min} {arg1} 
 				'and' arg {max_min} {arg1} 
                     
 
