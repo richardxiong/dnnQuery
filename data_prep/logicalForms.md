@@ -208,9 +208,9 @@ length = 11
 utterance_sum_dependent = 'diff {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
 			     'and' where {comp_field2} {comp} {query2_comp_val} '
 			     
-length = 8
+length = 7
 
-utterance_diff_1 = 'diff {comp_field1} where' arg {max_min} {arg1} 
+utterance_diff_1 = 'diff {comp_field1}' arg {max_min} {arg1} 
 				'and' arg {max_min} {arg1} 
                     
 
