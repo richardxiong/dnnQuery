@@ -79,15 +79,22 @@ where Gold equal 2 where Silver equal 0 argmax(Nation, Total)
 
 
 ===========================================
+
 next and prev:
 
 length = 6
 
-utterance_next_query = 'next/prev {field1} where {field2} equal {value2}'
+utterance_next_query = 'select {field1} next/prev {field2} equal {value2}'
 
+examples:
+1. what nation came after spain
+select nation next Nation equal spain
 
+2. which team won a year before wolfe_tones
+select team prev team equal wolfe_tones
 
 ===========================================
+
 (length = 14
 
 utterance_nested_query_4field = 'arg {max_min} {arg1} {arg2}' \
