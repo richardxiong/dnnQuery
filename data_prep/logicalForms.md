@@ -79,15 +79,22 @@ where Gold equal 2 where Silver equal 0 argmax(Nation, Total)
 
 
 ===========================================
+
 next and prev:
 
 length = 6
 
-utterance_next_query = 'next/prev {field1} where {field2} equal {value2}'
+utterance_next_query = 'select {field1} next/prev {field2} equal {value2}'
 
+examples:
+1. what nation came after spain
+select nation next Nation equal spain
 
+2. which team won a year before wolfe_tones
+select team prev team equal wolfe_tones
 
 ===========================================
+
 (length = 14
 
 utterance_nested_query_4field = 'arg {max_min} {arg1} {arg2}' \
@@ -151,7 +158,7 @@ length = 6
 utterance_sum_dependent = 'sum {comp_field2}' 'where {comp_field1} {comp} {comp_val} '
 					
 
-length = 10
+length = 11
 
 utterance_sum_dependent = 'sum {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
 			     'and' where {comp_field2} {comp} {query2_comp_val} '
@@ -182,7 +189,7 @@ utterance_avg_dependent = 'avg {comp_field2}' 'where {comp_field1} {comp} {comp_
 e.g. what is the mean number of total appearances of scotland
 where Nation equal Scotland avg Total_Apps
 
-length = 10
+length = 11
 
 utterance_sum_dependent = 'avg {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
 			     'and' where {comp_field2} {comp} {query2_comp_val} '
@@ -198,11 +205,12 @@ utterance_mean_multi = 'avg' 'A as select {query1_project_field}' \
 e.g. what is the average of silver medals earned by korea and japan
 where Nation equal Korea select Silver as A where Nation equal Japan select Silver as B mean A B
 )
+
 ============================================
 
 diff: diff(A, B)
 
-length = 10
+length = 11
 
 utterance_sum_dependent = 'diff {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
 			     'and' where {comp_field2} {comp} {query2_comp_val} '
