@@ -422,7 +422,7 @@ where 2nd_Venue equal Washington select 1st_Venue
 where Average greater 70 argmax Player Points
 where Innings equal 10 where Games_Played greater 2 select Points
 where Name equal Ross_Jenkins select Position
-where Team equal Dundalk_Gaels select Years_won as A where Years_won less A select Team
+where Team equal Dundalk_Gael select Years_won as A where Years_won less A select Team
 where Nation equal China select Gold
 where Nation equal Bahamas select Gold
 where Player equal Herbie_Hewett select Matches as A where Player equal Bill_Roe select Matches as B diff A B
@@ -2235,7 +2235,7 @@ where 50s greater 76 where Points less 7 argmin Player Matches
 where Goals greater 158 argmin Name Apps
 where Gold greater 32 where Bronze less 8 select Nation
 where Bronze greater 32 where Total less 8 select Nation
-where Team equal Dundalk_Gaels select Years_won as A where Years_won greater A select Team
+where Team equal Dundalk_Gael select Years_won as A where Years_won greater A select Team
 where Average greater 80 argmax Player Points
 where Team equal Greystones select Areas as A where Team equal Fingal_Ravens select Areas as B diff A B
 where Country equal Australia select Masters as A where Country equal Brazil select Masters as B sum A B
