@@ -85,9 +85,9 @@ class Config(object):
                      'value_range': ['Wicklow','Kildare','Laois','Dublin','Meath','Louth'], 
                      'query_word': ['county','counties']},
       'Years': {'value_type':'date',
-						'query_word': ['years','year','when','time','times','above', 'below','after','before','previous','next']},
+						'query_word': ['years','year','when','time','times','latest']}, #'above', 'below','after','before','previous','next'
 			'Years_won': {'value_type':'date',
-            'query_word': ['years','year','when','time','times','above', 'below','after','before','previous','next']},
+            'query_word': ['years','year','when','time','times','latest']}, #'above', 'below','after','before','previous','next'
       'Wins': {'value_type':'int',
 						'query_word': []},
 			'Areas': {'value_type':'int',
@@ -160,10 +160,10 @@ class Config(object):
                      'query_word': ['country','nation','countries','nations','team','who']},
 			'Rank': {'value_type':'ordinal',
             #'value_range': ['first', 'second', 'third', '1st', '2nd', '3rd','last'],
-						'query_word': ['rank', 'ranked', 'above', 'below','after','before','previous','next']},
+						'query_word': ['rank', 'ranked','ranking','ranks']}, #'above', 'below','after','before','previous','next'
       'Number': {'value_type':'ordinal',
             #'value_range': ['first', 'second', 'third', '1st', '2nd', '3rd','last'],
-            'query_word': ['number', '#', 'above', 'below','after','before','previous','next']},
+            'query_word': ['number', '#']}, # 'above', 'below','after','before','previous','next'
       
 			'Gold': {'value_type':'int',
 						'query_word': ['gold']},
@@ -184,7 +184,7 @@ class Config(object):
 						'value_range':['Goalkeeper','Defender','Midfielder','Forward'],
 						'query_word': ['position']},
 			'Year_inducted': {'value_type':'date',
-						'query_word': ['year','years','when','time','times','above', 'below','after','before','previous','next']},
+						'query_word': ['year','years','when','time','times','latest']}, #'above', 'below','after','before','previous','next'
 			'Apps': {'value_type':'int',
 						'query_word': ['appearance','appearances']},
 			'Discipline': {'value_type':'string',
@@ -227,9 +227,9 @@ class Config(object):
 			'Total_no._of_seats_in_Assembly': {'value_type':'int',
 						'query_word': ['seat', 'seats']},
 			'Year_of_Election': {'value_type':'date',
-						'query_word': ['year','years','when','time','times','above', 'below','after','before','previous','next']},
+						'query_word': ['year','years','when','time','times','latest']}, #'above', 'below','after','before','previous','next'
 			'Year': {'value_type':'date',
-						'query_word': ['year','years','when','time','times','above', 'below','after','before','previous','next']},
+						'query_word': ['year','years','when','time','times','latest']}, #'above', 'below','after','before','previous','next'
 			'1st_Venue': {'value_type': 'string', 
                        'value_range': ['Sheffield','Tijuana','Doha','Qingdao','Moscow','Dubai','Beijing','Sydney'], 
                        'query_word': ['city','1st_venue']}, 
