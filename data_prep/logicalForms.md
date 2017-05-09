@@ -1,19 +1,19 @@
-### Developed grammar rules are extended from the synthetic dataset of Neural Enquirer
+# Developed grammar rules are extended from the synthetic dataset of Neural Enquirer
 
-conventions:
+## conventions:
 1. all punctuations are deleted in both questions and logical forms, meaning no ',' '.' '?'
 2. '#' is replaced with 'number'
 3. 'arg max'=>'argmax', 'arg min'=>'argmin'
 4. '=' => 'equal'
 5. '<' => 'less', '>' => 'greater
 
-I. DIRECT QUERIES: 6 possible logical forms (and their inferences):
+### I. DIRECT QUERIES: 6 possible logical forms (and their inferences):
 
 ===========================================
 
-length = 4
+#### length = 4
 
-utterance_superlative_query = 'select {arg1} arg {max_min} {arg2}'
+utterance_superlative = 'select {arg1} arg {max_min} {arg2}'
 
 examples:
 1. how many medals are in the game with the most medals
@@ -24,9 +24,9 @@ argmax country_gdp country_size
 
 ===========================================
 
-length = 6
+#### length = 6
 
-utterance_pattern_single_select = 'select {select_field}' 'where {comp_field} {comp} {comp_val} 
+utterance_select_single_condition = 'select {select_field}' 'where {comp_field} {comp} {comp_val} 
                                   
 
 examples:
@@ -38,9 +38,9 @@ where country_population equal 300 select number_participants
 
 ===========================================
 
-length = 8
+#### length = 8
 
-utterance_pattern_multi_field = ' select {arg1} arg {max_min} {arg2}' 'where {comp_field} {comp} {comp_val} '
+utterance_superlative_single_condition = ' select {arg1} arg {max_min} {arg2}' 'where {comp_field} {comp} {comp_val} '
                                 
 
 examples:
@@ -52,9 +52,9 @@ where number_audience greater 40 argmax year country_population
 
 ===========================================
 
-length = 10 (new)
+#### length = 10 (new)
 
-utterance_pattern_multi_field = 'select {select_field}' 'where {comp_field1} {comp} {comp_val1} ' \
+utterance_select_multi_conditions = 'select {select_field}' 'where {comp_field1} {comp} {comp_val1} ' \
                                 'and {comp_field2} {comp} {comp_val2} '
                                   
 
@@ -67,9 +67,9 @@ where Gold equal 3 where Silver equal 4 select Nation
 
 ===========================================
 
-length = 12 (new)
+#### length = 12 (new)
 
-utterance_pattern_multi_field = ' select {arg1} arg {max_min} {arg2}' 'where {comp_field1} {comp} {comp_val1} ' \
+utterance_superlative_multi_condition = ' select {arg1} arg {max_min} {arg2}' 'where {comp_field1} {comp} {comp_val1} ' \
                                 'and {comp_field2} {comp} {comp_val2} ' \
                                   
 
@@ -80,11 +80,9 @@ where Gold equal 2 where Silver equal 0 argmax(Nation, Total)
 
 ===========================================
 
-next and prev:
+#### length = 6 (next and prev):
 
-length = 6
-
-utterance_next_query = 'select {field1} next/prev {field2} equal {value2}'
+utterance_select_next/prev = 'select {field1} next/prev {field2} equal {value2}'
 
 examples:
 1. what nation came after spain
@@ -116,12 +114,14 @@ where Team equal Ballyroan_abbey select Years as A where Years greater A argmin 
 
 ===========================================
 
+
 **************************************************************************************
 
-II. QUERIES BASED ON CALCULATION
-sum total
+### II. QUERIES BASED ON CALCULATION
+
+sum count
 average
-subtract
+diff
 
 ===========================================
 
@@ -131,21 +131,21 @@ Aggregation: count
 utterance_sum_basic = 'count'
 )
 
-length = 6
+#### length = 6
 
-utterance_sum_dependent = 'count {field}' 'where {comp_field} {comp} {comp_val} '
+utterance_count_single_condition = 'count {field}' 'where {comp_field} {comp} {comp_val} '
 					
-length = 10
+#### length = 10
 
-utterance_sum_dependent = 'count {field}' 'where {comp_field1} {comp} {comp_val1} '\
+utterance_count_multi_condition = 'count {field}' 'where {comp_field1} {comp} {comp_val1} '\
 				'and {comp_field2} {comp} {comp_val2}'
 					
 					
 sum: sum([field], [A, B, C...])
 
-length = 2
+#### length = 2
 
-utterance_sum_basic2 = 'sum {query_field}'
+utterance_sum_basic = 'sum {query_field}'
 
 e.g. what is the total number of gold medals earned
 sum Gold
@@ -153,14 +153,14 @@ sum Gold
 e.g. what is the total number of nations that did not win gold
 where Gold equal 0 sum
 
-length = 6
+#### length = 6
 
-utterance_sum_dependent = 'sum {comp_field2}' 'where {comp_field1} {comp} {comp_val} '
+utterance_sum_single_condition = 'sum {comp_field2}' 'where {comp_field1} {comp} {comp_val} '
 					
 
-length = 11
+#### length = 11
 
-utterance_sum_dependent = 'sum {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
+utterance_sum_2_entity = 'sum {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
 			     'and' where {comp_field2} {comp} {query2_comp_val} '
 
 (length = 18
@@ -178,20 +178,20 @@ where Country equal England select Masters as A where Country equal Wales select
 
 avg: avg([field], [A, B, C...])
 
-length = 2
+#### length = 2
 
 utterance_avg_basic = 'avg {query_field}'
 
-length = 6
+#### length = 6
 
-utterance_avg_dependent = 'avg {comp_field2}' 'where {comp_field1} {comp} {comp_val} '
+utterance_avg_single_condition = 'avg {comp_field2}' 'where {comp_field1} {comp} {comp_val} '
 						
 e.g. what is the mean number of total appearances of scotland
 where Nation equal Scotland avg Total_Apps
 
-length = 11
+#### length = 11
 
-utterance_sum_dependent = 'avg {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
+utterance_avg_2_entity = 'avg {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
 			     'and' where {comp_field2} {comp} {query2_comp_val} '
 			     
 
@@ -210,14 +210,14 @@ where Nation equal Korea select Silver as A where Nation equal Japan select Silv
 
 diff: diff(A, B)
 
-length = 11
+#### length = 11
 
-utterance_sum_dependent = 'diff {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
+utterance_diff_2_entity = 'diff {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
 			     'and' where {comp_field2} {comp} {query2_comp_val} '
 			     
-length = 7
+#### length = 7
 
-utterance_diff_1 = 'diff {comp_field1}' arg {max_min} {arg1} 
+utterance_diff_superlative = 'diff {comp_field1}' arg {max_min} {arg1} 
 				'and' arg {max_min} {arg1} 
                     
 
@@ -228,7 +228,7 @@ argmax Total Total as A argmin Total Total as B diff A B
 2. largest medal differential between countries
 argmax Total Total as A argmin Total Total as B diff A B
 
-length = 18
+(length = 18
 
 utterance_diff_2 = 'diff' 'A as select {query1_project_field}' \
 				'where {query1_comp_field} {query1_comp} {query1_comp_val} ' \
@@ -237,10 +237,11 @@ utterance_diff_2 = 'diff' 'A as select {query1_project_field}' \
 				 
 e.g. what is the difference in total number of medals between india and nepal
 where Nation equal India select Total as A where Nation equal Nepal select Total as B diff A B
+)
 
 **************************************************************************************
 
-III. COUPLING BETWEEN MULTIPLE FIELDS
+### III. COUPLING BETWEEN MULTIPLE FIELDS
 
 e.g. which of the girls had the least amount in archery (girls are fields)
 
