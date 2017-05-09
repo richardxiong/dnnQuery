@@ -182,7 +182,7 @@ select 1st_Venue where 3rd_Venue equal Austin
 select Nation argmax Rank where Silver equal 71 and Bronze equal 7
 select Player argmax 50s where Average equal 70
 select 2nd_Venue where Year equal 2008
-select State argmax No._of_elected where No._of_candidates less 22 and No._of_candidates greater 19
+select State argmax No._of_elected where No._of_candidates greater 19 and No._of_candidates less 22
 select Gold where Nation equal Cyprus
 select Average where 50s equal 5 and 100s greater 2
 select Player argmax Points where Average equal 50
@@ -371,7 +371,7 @@ select Nation where Bronze greater 9 and Gold less 28
 select Player argmax Matches where Average less 50
 select Nation where Gold greater 6 and Silver less 8
 select Nation where Total less 6 and Bronze greater 8
-select State argmax No._of_elected where No._of_elected less 20 and No._of_elected greater 14
+select State argmax No._of_candidates where No._of_elected greater 14 and No._of_elected less 20
 diff Prices where Team equal Greystones and where Team equal Crettyard
 count Nation where Silver equal 1
 select Player argmax 100s where 50s greater 400 and Points less 7
@@ -508,7 +508,7 @@ select Points where Innings equal 5 and Matches greater 2
 count Year where 2nd_Venue equal Beijing
 select Bronze where Nation equal Estonia
 select Player argmin Points where Average greater 50
-select State argmax No._of_elected where No._of_candidates less 20 and No._of_candidates greater 5
+select State argmax No._of_elected where No._of_candidates greater 5 and No._of_candidates less 20
 select Player argmax Matches where Innings greater 400 and Points less 30
 select Player argmax 100s where Average equal 50
 select Average where Runs equal 15 and 100s greater 5

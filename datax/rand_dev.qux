@@ -5,7 +5,7 @@ what is the number of <field>:0 medals <value>:1 got
 what is the average number of <field>:0 of <value>:1
 <field>:0 has the most <field>:1 with an <field>:2 of <value>:2
 what is the <field>:0 of the <field>:1 <field>:1 has <value>:2 <field>:2 and <value>:3 <field>:3 medals
-<field>:0 was the <value>:0 <field>:0 <value>:2 was <field>:1
+<field>:0 was the <value>:0 <field>:0 <value>:1 was <field>:1
 how many <field>:0 did <value>:1 take
 how many <field>:0 did <value>:1 take
 which <field>:0 won a <field>:1 after <value>:0
@@ -21,7 +21,7 @@ what is the <field>:0 that won <value>:1 medals in <field>:1
 what is the difference in <field>:0 medals between <value>:1 and <value>:1
 what is the <field>:0 of the <field>:1 <field>:1 has <value>:2 <field>:2 and <value>:3 <field>:3 medals
 which <field>:0 <field>:1 the <value>:1
-<field>:0 was the <value>:0 <field>:0 <value>:2 was <field>:1
+<field>:0 was the <value>:0 <field>:0 <value>:1 was <field>:1
 what is the number of points <field>:0 scored in <value>:1
 for <field>:0 with more than <value>:1 <field>:1 and <field>:2 less than <value>:2 , <field>:0 has the least <field>:3
 which <field>:0 has more than <value>:1 <field>:1 but its <field>:2 medals are less than <value>:2
@@ -30,10 +30,10 @@ what is the average number of <field>:0 of <value>:1
 what is the number of <field>:0 medals <value>:1 got
 <field>:0 has the most <field>:1 with an <field>:2 below <value>:2
 how many winning golfers does <value>:1 and <value>:1 combined have in the <field>:0
-find the <value>:None <field>:0 <field>:1 , what is its <field>:2
+find the 9th <field>:0 <field>:1 , what is its <field>:2
 which <field>:0 has more than <value>:1 <field>:1 but its <field>:2 medals are less than <value>:2
 which <field>:0 has more than <value>:1 <field>:1 but its <field>:2 medals are less than <value>:2
-<field>:0 was the <value>:0 <field>:0 <value>:2 was <field>:1
+<field>:0 was the <value>:0 <field>:0 <value>:1 was <field>:1
 what is the <field>:0 of the <field>:1 <field>:1 has <value>:2 <field>:2 and <value>:3 <field>:3 medals
 what is the <field>:0 that won <value>:1 <field>:1 medals
 which <field>:0 was the <field>:1 <field>:2
@@ -55,7 +55,7 @@ which <field>:0 has less than <value>:1 <field>:1 but its <field>:2 medals are m
 what is the <field>:0 for <field>:1 with <value>:2 <field>:2 and more than <value>:3 select <field>:3
 what is the number of <field>:0 for <field>:1 with <value>:2 <field>:2
 for <field>:0 with more than <value>:1 <field>:1 and <field>:2 less than <value>:2 , <field>:0 has the least <field>:3
-<field>:0 was the <value>:0 <field>:0 <value>:2 was <field>:1
+<field>:0 was the <value>:0 <field>:0 <value>:1 was <field>:1
 what is the <field>:0 that won <value>:1 <field>:1 medals
 which <field>:0 has more than <value>:1 <field>:1 but its <field>:2 medals are less than <value>:2
 what is the amount of the most <field>:0 before <value>:1
@@ -74,7 +74,7 @@ what is the number of <field>:0 medals <value>:1 got
 <field>:0 has the least <field>:1 and less than <value>:2 <field>:2
 what is the <field>:0 for <field>:1 with <value>:2 <field>:2 and more than <value>:3 select <field>:3
 <field>:0 a person <field>:0 has between <value>:1 and <value>:1 <field>:1
-find the <value>:None <field>:0 <field>:1 , what is its <field>:2
+find the 6th <field>:0 <field>:1 , what is its <field>:2
 how many winning golfers does <value>:1 and <value>:1 combined have in the <field>:0
 <field>:0 has the least <field>:1 and less than <value>:2 <field>:2
 what is the amount of the most <field>:0 before <value>:1
@@ -84,7 +84,7 @@ what is the <field>:0 that won <value>:1 <field>:1 medals
 what is the <field>:0 that won <value>:1 <field>:1 medals
 what is the <field>:0 of the <field>:1 <field>:1 has <value>:2 <field>:2 and <value>:3 <field>:3 medals
 what is the number of <field>:0 for <field>:1 with <value>:2 <field>:2
-which <field>:0 was the <field>:0 <field>:0 that <value>:2 was the <field>:1
+which <field>:0 was the <field>:0 <field>:0 that <value>:1 was the <field>:1
 what is the <field>:0 for <field>:1 with <value>:2 <field>:2 and more than <value>:3 select <field>:3
 for <field>:0 with more than <value>:1 <field>:1 and <field>:2 less than <value>:2 , <field>:0 has the least <field>:3
 how many <field>:0 did <value>:1 take
@@ -101,7 +101,7 @@ which <field>:0 with <value>:1 <field>:1 and <value>:2 <field>:2 medals has the 
 for <field>:0 with more than <value>:1 <field>:1 and <field>:2 less than <value>:2 , <field>:0 has the most <field>:3
 which <field>:0 had the least <field>:1 in <value>:2
 which <field>:0 was the next winner after <value>:0 in <value>:1
-how many <field>:0 has <value>:2 been the <field>:1
+how many <field>:0 has <value>:1 been the <field>:1
 which <field>:0 has more than <value>:1 <field>:1 but its <field>:2 medals are less than <value>:2
 how many <field>:0 did the <field>:1 <field>:2 <value>:2 get
 how many winning golfers does <value>:1 and <value>:1 combined have in the <field>:0
@@ -119,11 +119,11 @@ how many <field>:0 did <value>:1 take
 how many <field>:0 did <value>:1 take
 in the <field>:0 between <value>:0 and <value>:0 , which <field>:1 was the <field>:2
 where was the <field>:0 in <value>:1
-<field>:0 was the <value>:0 <field>:0 <value>:2 was <field>:1
+<field>:0 was the <value>:0 <field>:0 <value>:1 was <field>:1
 what is the number of <field>:0 medals <value>:1 got
 for <field>:0 with more than <value>:1 <field>:1 and <field>:2 less than <value>:2 , <field>:0 has the least <field>:3
 for <field>:0 with more than <value>:1 <field>:1 and <field>:2 less than <value>:2 , <field>:0 has the most <field>:3
-how many <field>:0 has <value>:2 been the <field>:1
+how many <field>:0 has <value>:1 been the <field>:1
 what is the <field>:0 for <field>:1 with <value>:2 <field>:2 and more than <value>:3 select <field>:3
 <field>:0 has the most <field>:1 with an <field>:2 below <value>:2
 which <field>:0 had the largest amount of <field>:1
@@ -168,11 +168,11 @@ how many winning golfers does <value>:1 and <value>:1 combined have in the <fiel
 for <field>:0 with more than <value>:1 <field>:1 and <field>:2 less than <value>:2 , <field>:0 has the least <field>:3
 of all the <field>:0 with smaller <field>:1 than <value>:0 which <field>:0 has the minimum <field>:2
 the <field>:0 after <value>:0
-<field>:0 was the <field>:1 in <value>:2
+<field>:0 was the <field>:1 in <value>:1
 when did the <value>:0 to <field>:0 who was <value>:1
 what is the <field>:0 that won <value>:1 medals in <field>:1
 what is the number of <field>:0 medals <value>:1 got
-<field>:0 was the <value>:0 <field>:0 <value>:2 was <field>:1
+<field>:0 was the <value>:0 <field>:0 <value>:1 was <field>:1
 how many <field>:0 did the <field>:1 <field>:2 <value>:2 get
 what is the difference in <field>:0 medals between <value>:1 and <value>:1
 which <field>:0 has more than <value>:1 <field>:1 but its <field>:2 medals are less than <value>:2
@@ -182,7 +182,7 @@ which <field>:0 was the <field>:1 <field>:2 <value>:3 was the <field>:3
 which <field>:0 with <value>:1 <field>:1 and <value>:2 <field>:2 medals has the lowest <field>:3
 <field>:0 has the most <field>:1 with an <field>:2 of <value>:2
 where was the <field>:0 in <value>:1
-which <field>:0 had the largest <field>:1 and its <field>:2 are within <value>:2 and <value>:2
+which <field>:0 had the largest <field>:1 , and its <field>:2 are within <value>:2 and <value>:2
 what is the number of <field>:0 medals <value>:1 got
 what is the <field>:0 for <field>:1 with <value>:2 <field>:2 and more than <value>:3 select <field>:3
 <field>:0 has the most <field>:1 with an <field>:2 of <value>:2
@@ -194,7 +194,7 @@ number of <field>:0 medals <value>:1 earned
 what is the number of <field>:0 medals <value>:1 got
 <field>:0 has the most <field>:1 but less than <value>:2 <field>:2
 which <field>:0 had the highest number of <field>:1 medals
-find the <value>:None <field>:0 <field>:1 , what is its <field>:2
+find the 4th <field>:0 <field>:1 , what is its <field>:2
 <value>:1 won how many <field>:0 medals
 how many more <field>:0 does <value>:1 have than <value>:1
 what is the difference in <field>:0 medals between <value>:1 and <value>:1
@@ -227,13 +227,13 @@ which <field>:0 has the least number of <field>:1 medals
 for <field>:0 with more than <value>:1 <field>:1 and <field>:2 less than <value>:2 , <field>:0 has the most <field>:3
 <field>:0 has the least <field>:1 and less than <value>:2 <field>:2
 <field>:0 a person <field>:0 has within <value>:1 and <value>:1 <field>:1
-<field>:0 was the <field>:1 in <value>:2
+<field>:0 was the <field>:1 in <value>:1
 how many medals did the <value>:1 <field>:0 won
 which <field>:0 with <value>:1 <field>:1 and <value>:2 <field>:2 medals has the lowest <field>:3
 <field>:0 has the least <field>:1 with an <field>:2 of <value>:2
 how many winning golfers does <value>:1 and <value>:1 combined have in the <field>:0
 how many <field>:0 did <value>:1 take
-<field>:0 was the <value>:0 <field>:0 <value>:2 was <field>:1
+<field>:0 was the <value>:0 <field>:0 <value>:1 was <field>:1
 how many winning golfers does <value>:1 and <value>:1 combined have in the <field>:0
 of all the <field>:0 with smaller <field>:1 than <value>:0 , which has the maximum <field>:2
 what is the difference in <field>:0 medals between <value>:1 and <value>:1
@@ -252,11 +252,11 @@ which <field>:0 had least <field>:1 in assembly <value>:2 <field>:2 <value>:2 an
 <field>:0 has the least <field>:1 with an <field>:2 below <value>:2
 for <field>:0 with more than <value>:1 <field>:1 and <field>:2 less than <value>:2 , <field>:0 has the most <field>:3
 what is the <field>:0 of the <field>:1 <field>:1 has <value>:2 <field>:2 and <value>:3 <field>:3 medals
-<field>:0 was the <field>:1 in <value>:2
+<field>:0 was the <field>:1 in <value>:1
 in the <field>:0 between <value>:0 and <value>:0 , which <field>:1 was the <field>:2
 what is the number of <field>:0 for <field>:1 with <value>:2 <field>:2
 <field>:0 has the least <field>:1 with an <field>:2 below <value>:2
-<field>:0 was the <value>:0 <field>:0 <value>:2 was <field>:1
+<field>:0 was the <value>:0 <field>:0 <value>:1 was <field>:1
 <value>:1 won how many medals in <field>:0
 <field>:0 is <field>:1 number <value>:1
 <field>:0 has the most <field>:1 with an <field>:2 below <value>:2
@@ -276,7 +276,7 @@ how many <field>:0 did <value>:1 take
 <field>:0 has less than <value>:1 <field>:1 and less than <value>:2 <field>:2
 which <field>:0 has less than <value>:1 <field>:1 but its <field>:2 medals are more than <value>:2
 what is the difference in <field>:0 medals between <value>:1 and <value>:1
-how many <field>:0 has <value>:2 been the <field>:1
+how many <field>:0 has <value>:1 been the <field>:1
 how many <field>:0 did <value>:1 have
 what is the number of <field>:0 medals <value>:1 got
 what is the <field>:0 for <field>:1 with <value>:2 <field>:2 and more than <value>:3 select <field>:3
@@ -312,10 +312,10 @@ how many winning golfers does <value>:1 and <value>:1 combined have in the <fiel
 where was the <field>:0 in <value>:1
 how many <field>:0 did <value>:1 take
 <field>:0 a person <field>:0 has between <value>:1 and <value>:1 <field>:1
-find the <value>:None <field>:0 <field>:1 , what is its <field>:2
+find the 5th <field>:0 <field>:1 , what is its <field>:2
 of all the <field>:0 with smaller <field>:1 than <value>:0 which <field>:0 has the minimum <field>:2
 <value>:1 won how many medals in <field>:0
-<field>:0 was the <value>:0 <field>:0 <value>:2 was <field>:1
+<field>:0 was the <value>:0 <field>:0 <value>:1 was <field>:1
 what is the <field>:0 for <field>:1 with <value>:2 <field>:2 and more than <value>:3 select <field>:3
 <field>:0 has the most <field>:1 with an <field>:2 above <value>:2
 what is the difference in <field>:0 won for <value>:1 and <value>:1
@@ -354,7 +354,7 @@ how many more <field>:0 does <value>:1 have than <value>:1
 what is the name of the <field>:0 that come after <value>:0
 which <field>:0 has more than <value>:1 <field>:1 but its <field>:2 medals are less than <value>:2
 <field>:0 has the least <field>:1 and less than <value>:2 <field>:2
-how many <field>:0 has <value>:2 been the <field>:1
+how many <field>:0 has <value>:1 been the <field>:1
 what is the <field>:0 for <field>:1 with <value>:2 <field>:2 and more than <value>:3 select <field>:3
 what is the difference in <field>:0 medals between <value>:1 and <value>:1
 what is the <field>:0 of the <field>:1 <field>:1 has <value>:2 <field>:2 and <value>:3 <field>:3 medals
@@ -371,7 +371,7 @@ which <field>:0 has more than <value>:1 <field>:1 but its <field>:2 medals are l
 <field>:0 has the most <field>:1 with an <field>:2 below <value>:2
 which <field>:0 has more than <value>:1 <field>:1 but its <field>:2 medals are less than <value>:2
 which <field>:0 has less than <value>:1 <field>:1 but its <field>:2 medals are more than <value>:2
-which <field>:0 had the largest <field>:1 and its <field>:2 are within <value>:2 and <value>:2
+which <field>:0 had the largest <field>:1 , and its <field>:2 are within <value>:2 and <value>:2
 what is the difference in <field>:0 won for <value>:1 and <value>:1
 how many <field>:0 had <value>:1 <field>:1 medal
 for <field>:0 with more than <value>:1 <field>:1 and <field>:2 less than <value>:2 , <field>:0 has the most <field>:3
@@ -400,7 +400,7 @@ in which <field>:0 was <value>:1 <field>:0
 what is the <field>:0 that won <value>:1 <field>:1 medals
 how many winning golfers does <value>:1 and <value>:1 combined have in the <field>:0
 <field>:0 a person <field>:0 has between <value>:1 and <value>:1 <field>:1
-which <field>:0 was the <field>:0 <field>:0 that <value>:2 was the <field>:1
+which <field>:0 was the <field>:0 <field>:0 that <value>:1 was the <field>:1
 what is the number of <field>:0 medals <value>:1 got
 for <field>:0 with more than <value>:1 <field>:1 and <field>:2 less than <value>:2 , <field>:0 has the most <field>:3
 what is the <field>:0 of the <field>:1 <field>:1 has <value>:2 <field>:2 and <value>:3 <field>:3 medals
@@ -436,7 +436,7 @@ what is the number of <field>:0 medals <value>:1 got
 <field>:0 has greater than <value>:1 <field>:1 and greater than <value>:2 <field>:2
 what is the <field>:0 that won <value>:1 medals in <field>:1
 what is the difference in <field>:0 won for <value>:1 and <value>:1
-<field>:0 was the <field>:1 in <value>:2
+<field>:0 was the <field>:1 in <value>:1
 how many more <field>:0 does <value>:1 have than <value>:1
 <field>:0 is <field>:1 number <value>:1
 what is the amount of the most <field>:0 before <value>:1
@@ -448,16 +448,16 @@ which <field>:0 has more than <value>:1 <field>:1 but its <field>:2 medals are l
 <field>:0 has the most <field>:1 <field>:1 with an <field>:2 below <value>:2
 how many <field>:0 <field>:1 did <value>:1 take
 how many more <field>:0 does <value>:1 have than <value>:1
-<field>:0 was the <value>:0 <field>:0 <value>:2 was <field>:1
+<field>:0 was the <value>:0 <field>:0 <value>:1 was <field>:1
 for <field>:0 with more than <value>:1 <field>:1 and <field>:2 less than <value>:2 , <field>:0 has the least <field>:3
 what is the <field>:0 of the <field>:1 <field>:1 has <value>:2 <field>:2 and <value>:3 <field>:3 medals
-<field>:0 was the <field>:1 in <value>:2
+<field>:0 was the <field>:1 in <value>:1
 <field>:0 has the least <field>:1 <field>:0 with an <field>:2 above <value>:2
 <value>:1 won how many <field>:0 medals
 how many <field>:0 did the <field>:1 <field>:2 <value>:2 get
-which <field>:0 was the <field>:0 <field>:0 that <value>:2 was the <field>:1
+which <field>:0 was the <field>:0 <field>:0 that <value>:1 was the <field>:1
 how many <field>:0 did <value>:1 have
-which <field>:0 was the <field>:1 <field>:2 <value>:4 was the <field>:3
+which <field>:0 was the <field>:1 <field>:2 <value>:3 was the <field>:3
 how long is the list of <field>:0 that won <field>:1 medals
 how many <field>:0 had <value>:1 <field>:1 medal
 what is the <field>:0 for <field>:1 with <value>:2 <field>:2 and more than <value>:3 select <field>:3
@@ -505,10 +505,10 @@ what is the difference in <field>:0 medals between <value>:1 and <value>:1
 for <field>:0 with more than <value>:1 <field>:1 and <field>:2 less than <value>:2 , <field>:0 has the least <field>:3
 how many <field>:0 did the <field>:1 <field>:2 <value>:2 get
 what is the <field>:0 for <field>:1 with <value>:2 <field>:2 and more than <value>:3 select <field>:3
-how many <field>:0 has <value>:2 been the <field>:1
+how many <field>:0 has <value>:1 been the <field>:1
 what is the number of <field>:0 medals <value>:1 got
 <field>:0 has the least <field>:1 with an <field>:2 above <value>:2
-which <field>:0 had the largest <field>:1 and its <field>:2 are within <value>:2 and <value>:2
+which <field>:0 had the largest <field>:1 , and its <field>:2 are within <value>:2 and <value>:2
 for <field>:0 with more than <value>:1 <field>:1 and <field>:2 less than <value>:2 , <field>:0 has the most <field>:3
 <field>:0 has the most <field>:1 with an <field>:2 of <value>:2
 what is the <field>:0 for <field>:1 with <value>:2 <field>:2 and more than <value>:3 select <field>:3
@@ -519,7 +519,7 @@ what is the <field>:0 for <field>:1 with <value>:2 <field>:2 and more than <valu
 what is the <field>:0 of the <field>:1 <field>:1 has <value>:2 <field>:2 and <value>:3 <field>:3 medals
 what is the <field>:0 of the <field>:1 <field>:1 has <value>:2 <field>:2 and <value>:3 <field>:3 medals
 how many winning golfers does <value>:1 and <value>:1 combined have in the <field>:0
-how many <field>:0 has <value>:2 been the <field>:1
+how many <field>:0 has <value>:1 been the <field>:1
 which <field>:0 has more than <value>:1 <field>:1 but its <field>:2 medals are less than <value>:2
 what is the difference in <field>:0 medals between <value>:1 and <value>:1
 how many more <field>:0 does <value>:1 have than <value>:1
@@ -535,10 +535,10 @@ how many <field>:0 medals did <value>:1 earn
 in the <field>:0 between <value>:0 and <value>:0 , which <field>:1 was the <field>:2
 when did the <value>:0 to <field>:0 who was <value>:1
 which <field>:0 was the earliest <field>:1
-<field>:0 was the <value>:0 <field>:0 <value>:2 was <field>:1
+<field>:0 was the <value>:0 <field>:0 <value>:1 was <field>:1
 which <field>:0 had the highest number of medals in <field>:1
 <field>:0 has the least <field>:1 and greater than <value>:2 <field>:2
-which <field>:0 was the <field>:1 <field>:2 <value>:1 was the <field>:3
+which <field>:0 was the <field>:1 <field>:2 <value>:3 was the <field>:3
 how many winning golfers does <value>:1 and <value>:1 combined have in the <field>:0
 <field>:0 has the most <field>:1 but less than <value>:2 <field>:2
 how many winning golfers does <value>:1 and <value>:1 combined have in the <field>:0
@@ -548,13 +548,13 @@ how many <field>:0 had <value>:1 <field>:1 medal
 which <field>:0 has less than <value>:1 <field>:1 but its <field>:2 medals are more than <value>:2
 what is the number of <field>:0 for <field>:1 with <value>:2 <field>:2
 what is the number of <field>:0 medals <value>:1 got
-how many <field>:0 has <value>:2 been the <field>:1
+how many <field>:0 has <value>:1 been the <field>:1
 how many more <field>:0 does <value>:1 have than <value>:1
 how many <field>:0 medals did the <value>:2 <field>:1 won
 what is the <field>:0 for <field>:1 with <value>:2 <field>:2 and more than <value>:3 select <field>:3
 how many winning golfers does <value>:1 and <value>:1 combined have in the <field>:0
 what is the number of <field>:0 medals <value>:1 got
-which <field>:0 was the <field>:1 <field>:2 <value>:1 was the <field>:3
+which <field>:0 was the <field>:1 <field>:2 <value>:3 was the <field>:3
 which <field>:0 with <value>:1 <field>:1 and <value>:2 <field>:2 medals has the lowest <field>:3
 how many <field>:0 did <value>:1 take
 how many more <field>:0 does <value>:1 have than <value>:1
@@ -596,5 +596,5 @@ how many <field>:0 did <value>:1 take
 what is the difference in <field>:0 medals between <value>:1 and <value>:1
 in the <field>:0 between <value>:0 and <value>:0 , which <field>:1 was the <field>:2
 where was the <field>:0 in <value>:1
-<field>:0 was the <field>:1 in <value>:2
+<field>:0 was the <field>:1 in <value>:1
 how many winning golfers does <value>:1 and <value>:1 combined have in the <field>:0

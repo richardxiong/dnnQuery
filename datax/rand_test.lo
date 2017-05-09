@@ -155,7 +155,7 @@ select Player argmin 100s where Innings greater 39 and Points less 14
 select Player argmin 100s where Runs greater 39 and Points less 14
 select Player argmax Matches
 select Left_office argmin Number where Party equal Labour
-select State argmax No._of_elected where No._of_elected less 20 and No._of_elected greater 11
+select State argmax No._of_candidates where No._of_elected greater 11 and No._of_elected less 20
 select Free_Throws where Player equal Ernest_McKay
 select Player argmax Games_Played where Runs greater 76 and Average less 30
 select Rank where Bronze equal 2 and Gold equal 62
@@ -305,7 +305,7 @@ select Silver where Nation equal Mongolia
 select Year argmax Year where 1st_Venue equal Washington
 select Nation where Total less 32 and Gold greater 8
 select Player argmin Games_Played where Runs greater 400 and Average less 14
-select State argmax No._of_elected where No._of_candidates less 24 and No._of_candidates greater 18
+select State argmax No._of_elected where No._of_candidates greater 18 and No._of_candidates less 24
 select Player argmin Free_Throws where Average greater 30
 select Total where Nation equal Russia
 select Player argmax Matches where Runs greater 39 and Average less 30
@@ -410,7 +410,7 @@ avg Total_Apps where Nation equal France
 select Average where Runs equal 15 and Matches greater 10
 avg League_Apps where Nation equal Japan
 select Player argmin 100s where Innings greater 39 and Average less 7
-select State argmax No._of_elected where No._of_elected less 15 and No._of_elected greater 12
+select State argmax No._of_candidates where No._of_elected greater 12 and No._of_elected less 15
 select Player argmax 100s where Runs greater 76 and Average less 30
 select Player argmin 50s where Average equal 70
 select Nation where Silver less 9 and Total greater 28
