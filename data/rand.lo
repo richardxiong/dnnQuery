@@ -189,7 +189,7 @@ select Name argmax Apps
 select Player argmax Matches where Average less 80
 select Player argmax Games_Played where 50s greater 400 and Average less 7
 select Matches argmin Matches
-select State argmax No._of_elected where No._of_candidates less 16 and No._of_candidates greater 14
+select State argmax No._of_elected where No._of_candidates greater 14 and No._of_candidates less 16
 select Position where Apps equal 213 and Goals equal 138
 select Player argmin Matches where Innings greater 76 and Points less 7
 diff Bronze where Nation equal Brazil and where Nation equal Australia
@@ -275,7 +275,7 @@ select Year argmax Year where 2nd_Venue equal Hangzhou
 select Goals argmin Goals where Year_inducted greater 2008
 select 2nd_Venue where 3rd_Venue equal Sheffield
 select Nation where Bronze greater 9 and Gold less 8
-select State argmax No._of_elected where No._of_elected less 23 and No._of_elected greater 15
+select State argmax No._of_candidates where No._of_elected greater 15 and No._of_elected less 23
 select Nation where Silver greater 6 and Total less 4
 select Player argmin Points where Average equal 80
 select Total where Nation equal Denmark
@@ -394,7 +394,7 @@ select Player argmax 100s where 50s greater 39 and Average less 7
 count Nation where Gold less 40
 select Field_Goals where Player equal Ralf_Woods
 select Nation prev Nation equal Wales
-select State argmax No._of_elected where No._of_candidates less 19 and No._of_candidates greater 13
+select State argmax No._of_elected where No._of_candidates greater 13 and No._of_candidates less 19
 select Nation where Silver greater 9 and Total less 4
 diff Innings where Player equal Bill_Roe and where Player equal George_Nichols
 diff Areas where Team equal Maynooth and where Team equal Crettyard
@@ -486,7 +486,7 @@ count Nation where Bronze equal 7
 select Year argmax Year where 2nd_Venue equal Sheffield
 select Player argmin 100s where Innings greater 76 and Points less 30
 select Player argmin Matches where Average equal 80
-select State argmax No._of_elected where No._of_elected less 13 and No._of_elected greater 10
+select State argmax No._of_candidates where No._of_elected greater 10 and No._of_elected less 13
 select Nation argmin Rank where Gold equal 71 and Silver equal 5
 select Nation where Gold equal 98
 select Year where 4th_Venue equal Shanghai
@@ -586,7 +586,7 @@ count Nation where Bronze less 10
 select Year_inducted where Name equal Les_Taylor
 select Points where Games_Played equal 60
 select Nation where Gold equal 79
-select State argmax No._of_elected where No._of_candidates less 20 and No._of_candidates greater 11
+select State argmax No._of_elected where No._of_candidates greater 11 and No._of_candidates less 20
 select Year where 1st_Venue equal Seattle
 select Field_Goals where Player equal Ernest_McKay
 diff Areas where Team equal Dundalk_Gael and where Team equal Maynooth
@@ -713,7 +713,7 @@ select Total where Nation equal Finland
 select Points where 50s equal 5 and Games_Played greater 2
 select State argmin No._of_candidates where Year_of_Election equal 2011
 count Year where 2nd_Venue equal Tokyo
-select State argmax No._of_elected where No._of_elected less 13 and No._of_elected greater 9
+select State argmax No._of_candidates where No._of_elected greater 9 and No._of_elected less 13
 select Bronze where Rank equal 87
 select Points where Runs equal 5 and Matches greater 10
 select Points where Matches equal 40
@@ -853,7 +853,7 @@ select 50s where Player equal Bill_Roe
 diff Years_won where Team equal Dundalk_Gael and where Team equal Greystones
 diff Bronze where Nation equal Romania and where Nation equal Spain
 select 50s where Player equal Ray_Woods
-select State argmax No._of_elected where No._of_elected less 26 and No._of_elected greater 17
+select State argmax No._of_candidates where No._of_elected greater 17 and No._of_elected less 26
 select Year argmin Year where 2nd_Venue equal Hangzhou
 select Nation where Gold less 9 and Bronze greater 4
 sum Masters where Country equal Australia and where Country equal Italy
@@ -1560,7 +1560,7 @@ select Goals argmin Goals where Year_inducted greater 2014
 diff Years_won where Team equal Fingal_Ravens and where Team equal Crettyard
 select Rank where Silver equal 81 and Bronze equal 27
 select State argmin No._of_candidates where Total_no._of_seats_in_Assembly less where State equal Maharashtra
-select State argmax No._of_elected where No._of_elected less 12 and No._of_elected greater 8
+select State argmax No._of_candidates where No._of_elected greater 8 and No._of_elected less 12
 diff Silver where Nation equal Brazil and where Nation equal India
 diff Bronze where Nation equal Spain and where Nation equal Romania
 select Average where 50s equal 15 and 100s greater 2
@@ -1689,7 +1689,7 @@ select Bronze where Nation equal Thailand
 select Nation where Total less 6 and Bronze greater 4
 select Total where Nation equal Spain
 select Year argmin Year where 2nd_Venue equal Doha
-select State argmax No._of_elected where No._of_candidates less 19 and No._of_candidates greater 15
+select State argmax No._of_elected where No._of_candidates greater 15 and No._of_candidates less 19
 select Goals argmin Goals where Year_inducted less 1999
 select Year argmin Year where 3rd_Venue equal Tokyo
 sum PGA where Country equal Brazil and where Country equal Wales
@@ -2047,13 +2047,13 @@ select Total where Nation equal Switzerland
 select Position argmax Goals
 select Amanda where Discipline equal Archery
 select Nation argmin Rank where Bronze equal 6 and Gold equal 5
-select State argmax No._of_elected where No._of_elected less 17 and No._of_elected greater 13
+select State argmax No._of_candidates where No._of_elected greater 13 and No._of_elected less 17
 select Nation where Total greater 9 and Gold less 8
 select Points where Innings equal 5 and Games_Played greater 10
 select Year where 1st_Venue equal Mexico_City
 select Player argmax Matches where 50s greater 400 and Average less 7
 select 4th_Venue where Year equal 2013
-select State argmax No._of_elected where No._of_candidates less 18 and No._of_candidates greater 16
+select State argmax No._of_elected where No._of_candidates greater 16 and No._of_candidates less 18
 select Name where Apps equal 334 and Goals equal 82
 select Name where Apps greater 203 and Apps less 228
 select Nation where Silver equal 96
@@ -2243,7 +2243,7 @@ select Year argmin Year where 2nd_Venue equal Dubai
 diff Gold where Nation equal India and where Nation equal Spain
 select 2nd_Venue where 3rd_Venue equal Nassau
 select Player argmax Matches where Innings greater 39 and Points less 14
-select State argmax No._of_elected where No._of_candidates less 12 and No._of_candidates greater 10
+select State argmax No._of_elected where No._of_candidates greater 10 and No._of_candidates less 12
 select Player argmax Games_Played where Runs greater 400 and Points less 30
 select Year where 1st_Venue equal Sheffield
 select Player argmin Matches where Runs greater 39 and Points less 7
@@ -2352,7 +2352,7 @@ diff Areas where Team equal Maynooth and where Team equal Ballyroan_Abbey
 select Points where Games_Played equal 40
 select Name argmax Goals
 select Innings where Player equal Ralf_Woods
-select State argmax No._of_elected where No._of_elected less 21 and No._of_elected greater 16
+select State argmax No._of_candidates where No._of_elected greater 16 and No._of_elected less 21
 sum U.S._Open where Country equal Australia and where Country equal Netherlands
 select Player argmax 100s where Average greater 20
 select Year argmin Year where 2nd_Venue equal Los_Angeles
@@ -2637,7 +2637,7 @@ select 1st_Venue where 3rd_Venue equal Los_Angeles
 select Player argmin 50s where Average greater 30
 select Took_office argmax Number where Party equal Socialist_Alternative
 select 1st_Venue where Year greater 2002 and Year less 2005
-select State argmax No._of_elected where No._of_candidates less 21 and No._of_candidates greater 17
+select State argmax No._of_elected where No._of_candidates greater 17 and No._of_candidates less 21
 select Rank where Silver equal 81 and Gold equal 1
 select 2nd_Venue where Year equal 2002
 select Name where Year_inducted equal 1996
@@ -2756,7 +2756,7 @@ select 2nd_Venue where Year equal 2011
 select Nation argmin Silver
 count Nation where Gold equal 1
 diff Silver where Nation equal India and where Nation equal Nepal
-select State argmax No._of_elected where No._of_candidates less 14 and No._of_candidates greater 12
+select State argmax No._of_elected where No._of_candidates greater 12 and No._of_candidates less 14
 count Year where 1st_Venue equal Shanghai
 diff Areas where Team equal Crettyard and where Team equal Fingal_Ravens
 diff Matches where Player equal Bill_Roe and where Player equal George_Nichols
@@ -2982,7 +2982,7 @@ select 1st_Venue where 3rd_Venue equal Austin
 select Nation argmax Rank where Silver equal 71 and Bronze equal 7
 select Player argmax 50s where Average equal 70
 select 2nd_Venue where Year equal 2008
-select State argmax No._of_elected where No._of_candidates less 22 and No._of_candidates greater 19
+select State argmax No._of_elected where No._of_candidates greater 19 and No._of_candidates less 22
 select Gold where Nation equal Cyprus
 select Average where 50s equal 5 and 100s greater 2
 select Player argmax Points where Average equal 50
@@ -3171,7 +3171,7 @@ select Nation where Bronze greater 9 and Gold less 28
 select Player argmax Matches where Average less 50
 select Nation where Gold greater 6 and Silver less 8
 select Nation where Total less 6 and Bronze greater 8
-select State argmax No._of_elected where No._of_elected less 20 and No._of_elected greater 14
+select State argmax No._of_candidates where No._of_elected greater 14 and No._of_elected less 20
 diff Prices where Team equal Greystones and where Team equal Crettyard
 count Nation where Silver equal 1
 select Player argmax 100s where 50s greater 400 and Points less 7
@@ -3308,7 +3308,7 @@ select Points where Innings equal 5 and Matches greater 2
 count Year where 2nd_Venue equal Beijing
 select Bronze where Nation equal Estonia
 select Player argmin Points where Average greater 50
-select State argmax No._of_elected where No._of_candidates less 20 and No._of_candidates greater 5
+select State argmax No._of_elected where No._of_candidates greater 5 and No._of_candidates less 20
 select Player argmax Matches where Innings greater 400 and Points less 30
 select Player argmax 100s where Average equal 50
 select Average where Runs equal 15 and 100s greater 5
@@ -3555,7 +3555,7 @@ select Player argmin 100s where Innings greater 39 and Points less 14
 select Player argmin 100s where Runs greater 39 and Points less 14
 select Player argmax Matches
 select Left_office argmin Number where Party equal Labour
-select State argmax No._of_elected where No._of_elected less 20 and No._of_elected greater 11
+select State argmax No._of_candidates where No._of_elected greater 11 and No._of_elected less 20
 select Free_Throws where Player equal Ernest_McKay
 select Player argmax Games_Played where Runs greater 76 and Average less 30
 select Rank where Bronze equal 2 and Gold equal 62
@@ -3705,7 +3705,7 @@ select Silver where Nation equal Mongolia
 select Year argmax Year where 1st_Venue equal Washington
 select Nation where Total less 32 and Gold greater 8
 select Player argmin Games_Played where Runs greater 400 and Average less 14
-select State argmax No._of_elected where No._of_candidates less 24 and No._of_candidates greater 18
+select State argmax No._of_elected where No._of_candidates greater 18 and No._of_candidates less 24
 select Player argmin Free_Throws where Average greater 30
 select Total where Nation equal Russia
 select Player argmax Matches where Runs greater 39 and Average less 30
@@ -3810,7 +3810,7 @@ avg Total_Apps where Nation equal France
 select Average where Runs equal 15 and Matches greater 10
 avg League_Apps where Nation equal Japan
 select Player argmin 100s where Innings greater 39 and Average less 7
-select State argmax No._of_elected where No._of_elected less 15 and No._of_elected greater 12
+select State argmax No._of_candidates where No._of_elected greater 12 and No._of_elected less 15
 select Player argmax 100s where Runs greater 76 and Average less 30
 select Player argmin 50s where Average equal 70
 select Nation where Silver less 9 and Total greater 28
@@ -3909,4 +3909,3 @@ sum PGA where Country equal Spain and where Country equal Italy
 select Position where Name equal Nigel_Gibbs
 sum PGA where Country equal Netherlands and where Country equal Brazil
 select Nation where Silver greater 9 and Bronze less 8
-
