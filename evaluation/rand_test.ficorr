@@ -54,7 +54,7 @@ Nation Rank
 PGA Country
 Year 2nd_Venue 4th_Venue
 Year 2nd_Venue 1st_Venue;2nd_Venue;3rd_Venue
-Bronze
+Bronze Nation
 State Total_no._of_seats_in_Assembly Year_of_Election
 Free_Throws Player
 State Total_no._of_seats_in_Assembly No._of_candidates
@@ -118,13 +118,13 @@ Player Innings Average
 Points Player Innings
 Masters Country
 Year_inducted Name
-2nd_Venue 4th_Venue
-2nd_Venue
-Points
+Year 2nd_Venue 4th_Venue
+Year 2nd_Venue
+Points Player
 Silver Nation
 Goals Year_inducted
 PGA Country
-Matches
+Matches Player
 Runs Player
 Nation Gold
 Position Name Apps Goals
@@ -141,7 +141,7 @@ Year 1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 1st_Venue
 Year 1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 1st_Venue
 3rd_Venue Year
 Player Runs Average
-2nd_Venue 1st_Venue;2nd_Venue
+Year 2nd_Venue 1st_Venue;2nd_Venue
 Silver Nation
 Runs Player
 Bronze Nation Rank
@@ -243,7 +243,7 @@ Player Runs Points Matches
 Name Goals
 Nation Bronze Silver Rank
 Team Years_won
-Matches
+Matches Player
 1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 1st_Venue
 The_Open Country
 Player Innings Points Matches
@@ -268,11 +268,11 @@ Nation Bronze
 Position Swara Notation
 Player Innings Average 100s
 State No._of_candidates Year_of_Election
-Nation Rank
+Nation
 Year 1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 4th_Venue
-3rd_Venue
+Year 3rd_Venue
 Nation Gold
-Innings
+Innings Player
 Player Innings Average
 Points Player Innings Games_Played
 Player 50s Average
@@ -285,7 +285,7 @@ Bronze Nation
 Name Apps
 Player Runs Points Games_Played
 100s Player
-1st_Venue
+Year 1st_Venue 2nd_Venue
 Player Free_Throws Average
 100s Player
 Nation Total Silver
@@ -322,7 +322,7 @@ Years_won Team
 Points Player Innings 100s
 Years_won Team
 Points Player 50s 100s
-Year 4th_Venue
+Year 4th_Venue 2nd_Venue
 1st_Venue Year
 100s Player
 Swara
@@ -371,7 +371,7 @@ Nation Bronze
 Player Innings Points Games_Played
 Nation Bronze
 Points Player
-2nd_Venue
+Year 2nd_Venue
 Year_inducted Name
 Player 50s Points 100s
 Gold Nation
@@ -380,7 +380,7 @@ Nation Total Gold
 Amanda Discipline
 Nation Gold Bronze
 Name Apps
-2nd_Venue
+Year 2nd_Venue
 Bronze Nation
 Years_won Team
 Average Player Runs 100s
@@ -416,7 +416,7 @@ Player 50s Average
 Nation Silver Total
 Prices Team
 Player Runs
-Field_Goals
+Field_Goals Player
 Player Innings Points Matches
 1st_Venue Year
 Bronze Nation
@@ -488,7 +488,7 @@ State No._of_candidates Year_of_Election
 Player 50s Points Matches
 Player Matches Average
 Year 2nd_Venue 4th_Venue
-Nation Rank
+Nation
 Player Innings Average
 Goals Name
 Total Nation

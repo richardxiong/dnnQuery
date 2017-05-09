@@ -157,7 +157,7 @@ class Config(object):
                         'India', 'Liechtenstein', 'US', 'Czech', 'Austria', 'Yugoslavia', 'Saudi_Arabia', 'UK',
                         'Greece', 'Japan', 'Taiwan','Scotland','Mongolia','England','Kazakhstan','Nepal','Wales','Moldova',
                         'Belarus','Latvia','Armenia','United_States','Czech_Republic','Jamaica','Great_Britain','Uzbekistan',
-                        'Malaysia','Uganda','Estonia','Croatia','Cuba','Morocco','Bahamas','Algeria'，'Cyprus'], 
+                        'Malaysia','Uganda','Estonia','Croatia','Cuba','Morocco','Bahamas','Algeria','Cyprus'], 
                      'query_word': ['country','nation','countries','nations','team','who']},
 			'Rank': {'value_type':'ordinal',
             #'value_range': ['first', 'second', 'third', '1st', '2nd', '3rd','last'],

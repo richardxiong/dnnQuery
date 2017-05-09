@@ -673,18 +673,16 @@ def sentTagging_tree(parser, query, fields, logic=None):
     value_corr = []
     num_field_position = []
     num_value_position = []
+    str_field_position = []
+    str_value_position = []
     # count = 0
 
-    # (for dependency tree LCA)
-    parsequery = [x for x in words]
-    
     ### CORRESPOND <field> with <value>
     for i in range(len(tag2)):
         if tag[i] == "<nan>":
             continue
         reference = tag[i].split(':')
         if reference[0] == '<field>':
-            parsequery[i] = '<field>'    # (dependency tree LCA)
             print reference
             if reference[1] in field_corr:
                 idx = field_corr.index(reference[1])
@@ -698,12 +696,13 @@ def sentTagging_tree(parser, query, fields, logic=None):
             refers = reference[1].split(';')
             if config.field2word[refers[0]]['value_type'] != 'string':
                 num_field_position.append((i, idx))
+            else:
+                str_field_position.append((i, idx))
     for i in range(len(tag2)):
         if tag[i] == "<nan>":
             continue
         reference = tag[i].split(':')
         if reference[0] == '<value>':
-            parsequery[i] = '<value>'    # (dependency tree LCA)
             print reference
             # check reference[1] == '<num>'
             if reference[1] in field_corr:
@@ -718,6 +717,10 @@ def sentTagging_tree(parser, query, fields, logic=None):
                 if reference[1] == '<num>' or reference[1] == '<order>':
                     num_value_position.append(i)
                     continue
+                elif len(reference[1].split(';')) > 1:
+                    # Overlapping value range for field with 'string' type (e.g. 1st_venue)
+                    str_value_position.append(i)
+                    continue
                 field_corr.append(reference[1])
                 value_corr.append(words[i])
                 idx = len(field_corr) - 1
@@ -725,28 +728,59 @@ def sentTagging_tree(parser, query, fields, logic=None):
     
     print num_field_position    #[(4, 1), (7, 2)]
     print num_value_position    #[9]
+    print str_field_position    #[(4, 1), (7, 2)]
+    print str_value_position    #[9]
     
-    # find corresponding field (dependency tree LCA)
-    parsequery = ' '.join(parsequery)
-    #print parsequery
-    dependency_tree = parser.raw_parse_sents(('Hello, My name is Melroy', parsequery))
-    # only take dependency_tree[1]
-    for i in num_value_position:
-        # find largest ancestor depth for (value, field) pair in the tree
-        idx = None
-        largest_depth = 0
+    # (dependency tree LCA) build parse query for str_position and num_position
+    if len(num_value_position) > 0:
+        parsequery_num = [x for x in words]
         for (j,m) in num_field_position:
-            depth = treeLCAdepth(dependency_tree[1], i, j)
-            if depth > largest_depth:
-                idx = m
-                largest_depth = depth
-        tag2[i] = '<value>:'+str(idx)
-        if idx is not None:
-            if value_corr[idx] is "<nan>":
-                value_corr[idx] = words[i]
-            else:
-                value_corr[idx] += ';'+words[i]
-                    
+            parsequery_num[j] = '<field>'
+        for i in num_value_position:
+            parsequery_num[i] = '<value>'
+        dependency_tree_num = parser.raw_parse_sents(('Hello, My name is Melroy', ' '.join(parsequery_num)))
+        # find corresponding field (dependency tree LCA)
+        # only take dependency_tree[1]
+        for i in num_value_position:
+            # find largest ancestor depth for (value, field) pair in the tree
+            idx = None
+            largest_depth = 0
+            for (j,m) in num_field_position:
+                depth = treeLCAdepth(dependency_tree_num[1], i, j)
+                if depth > largest_depth:
+                    idx = m
+                    largest_depth = depth
+            if idx is not None:
+                tag2[i] = '<value>:'+str(idx)
+                if value_corr[idx] is "<nan>":
+                    value_corr[idx] = words[i]
+                else:
+                    value_corr[idx] += ';'+words[i]
+    
+    ### 0508 newly added, to deal with overlap range in string-type field                
+    if len(str_value_position) > 0:    
+        parsequery_str = [x for x in words]
+        for (j,m) in str_field_position:
+            parsequery_str[j] = '<field>'
+        for i in str_value_position:
+            parsequery_str[i] = '<value>'
+        dependency_tree_str = parser.raw_parse_sents(('Hello, My name is Melroy', ' '.join(parsequery_str)))
+        for i in str_value_position:
+            # find largest ancestor depth for (value, field) pair in the tree
+            idx = None
+            largest_depth = 0
+            for (j,m) in str_field_position:
+                depth = treeLCAdepth(dependency_tree_str[1], i, j)
+                if depth > largest_depth:
+                    idx = m
+                    largest_depth = depth
+            if idx is not None:
+                tag2[i] = '<value>:'+str(idx)
+                if value_corr[idx] is "<nan>":
+                    value_corr[idx] = words[i]
+                else:
+                    value_corr[idx] += ';'+words[i]
+
     field_corr_sentence = ' '.join(field_corr)
     value_corr_sentence = ' '.join(value_corr)
     tag2_sentence = ' '.join(tag2)
@@ -861,14 +895,14 @@ def main1():
         and .ficorr, .vacorr
     '''
     parser = stanford.StanfordParser(model_path='/Users/richard_xiong/Documents/DeepLearningMaster/deep_parser/englishPCFG.ser.gz')
-    f_ta = open(parentdir + '/data/rand_test.ta', 'w')
-    f_lox = open(parentdir + '/data/rand_test.lox', 'w')
-    f_qux = open(parentdir + '/data/rand_test.qux', 'w')
-    f_ficorr = open(parentdir + '/evaluation/rand_test.ficorr', 'w')
-    f_vacorr = open(parentdir + '/evaluation/rand_test.vacorr', 'w')
-    with open(parentdir + '/data/rand_test.fi') as f_fi:
-        with open(parentdir + '/data/rand_test.qu') as f_qu:
-            with open(parentdir + '/data/rand_test.lo') as f_lo:
+    f_ta = open(parentdir + '/data/rand_train.ta', 'w')
+    f_lox = open(parentdir + '/data/rand_train.lox', 'w')
+    f_qux = open(parentdir + '/data/rand_train.qux', 'w')
+    f_ficorr = open(parentdir + '/evaluation/rand_train.ficorr', 'w')
+    f_vacorr = open(parentdir + '/evaluation/rand_train.vacorr', 'w')
+    with open(parentdir + '/data/rand_train.fi') as f_fi:
+        with open(parentdir + '/data/rand_train.qu') as f_qu:
+            with open(parentdir + '/data/rand_train.lo') as f_lo:
                 schema, query, logic = f_fi.readline(), f_qu.readline(), f_lo.readline()
                 idx = 0
                 while schema and query and logic:

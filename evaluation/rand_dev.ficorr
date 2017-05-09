@@ -27,16 +27,16 @@ Player Innings Points Games_Played
 Nation Silver Gold
 Silver Nation Rank
 Total_Apps Nation
-Bronze
+Bronze Nation
 Player Innings Average
 The_Open Country
 Position Swara Short_name
 Nation Silver Bronze
 Nation Gold Total
-Year 3rd_Venue
+Year 3rd_Venue 1st_Venue
 Rank Nation Gold Bronze
 Nation Silver
-1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 4th_Venue
+1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue Year 4th_Venue
 Position Name
 Total Nation
 1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 1st_Venue Year 2nd_Venue
@@ -46,16 +46,16 @@ Nation Silver Gold Rank
 The_Open Country
 Position Name Apps Goals
 Areas Team
-Nation Rank
+Nation
 Masters Country
 Nation Silver Gold Rank
-Silver
+Silver Nation
 Nation Total Silver
 Player Matches Average
 Average Player Innings Matches
 Runs Player Matches
 Player 50s Average Games_Played
-Year 2nd_Venue
+Year 2nd_Venue 1st_Venue
 Nation Silver
 Nation Silver Bronze
 Goals Year_inducted
@@ -101,7 +101,7 @@ Nation Gold Bronze Rank
 Player 50s Average 100s
 State No._of_candidates Year_of_Election
 Team Years_won
-1st_Venue 4th_Venue
+Year 1st_Venue 4th_Venue
 Nation Bronze Silver
 Silver Nation Rank
 U.S._Open Country
@@ -123,12 +123,12 @@ Year 3rd_Venue 2nd_Venue
 Gold Nation
 Player 50s Average Matches
 Player 50s Points Games_Played
-1st_Venue 2nd_Venue
+Year 1st_Venue 2nd_Venue
 Average Player Innings Games_Played
 Player Field_Goals Average
 Player Runs
 Player Innings Points Matches
-Runs
+Runs Player
 Nation Silver Total
 Bronze Nation
 Player Runs Average 100s
@@ -167,9 +167,9 @@ Masters Country
 Year 2nd_Venue
 Player 50s Average Games_Played
 State Total_no._of_seats_in_Assembly No._of_candidates
-Nation Rank
+Nation
 Year 1st_Venue 2nd_Venue
-Took_office
+Took_office Party
 Nation Total
 Silver Nation
 Year 3rd_Venue 2nd_Venue
@@ -183,7 +183,7 @@ Nation Silver Bronze Rank
 Player 50s Average
 2nd_Venue Year
 State No._of_elected No._of_candidates
-Gold
+Gold Nation
 Average Player 50s 100s
 Player Points Average
 Matches Player
@@ -233,7 +233,7 @@ Nation Silver Bronze Rank
 Player Field_Goals Average
 Masters Country
 100s Player
-Year 3rd_Venue
+Year 3rd_Venue 2nd_Venue
 The_Open Country
 State No._of_candidates No._of_elected
 Gold Nation
@@ -276,7 +276,7 @@ Matches Player
 Name Apps Goals
 Nation Silver Gold
 Bronze Nation
-2nd_Venue
+Year 2nd_Venue 1st_Venue
 Goals Name
 Total Nation
 Average Player Runs Matches
@@ -284,7 +284,7 @@ Average Player 50s 100s
 Gold Nation
 Player 50s
 Player Free_Throws Average
-Innings
+Innings Player
 State Total_no._of_seats_in_Assembly Year_of_Election
 Games_Played Player
 U.S._Open Country
@@ -354,7 +354,7 @@ Average Player
 Swara
 Nation Gold Total
 Name Apps Goals
-1st_Venue 4th_Venue
+Year 1st_Venue 4th_Venue
 Points Player Innings Games_Played
 Gold Nation
 Rank Nation Silver Bronze
@@ -455,19 +455,19 @@ Year 1st_Venue 2nd_Venue
 Player Games_Played Average
 Gold Nation
 Bronze Nation Rank
-Year 2nd_Venue
+Year 2nd_Venue 1st_Venue
 Goals Name
-1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 1st_Venue Year 3rd_Venue
+1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 1st_Venue Year 3rd_Venue 2nd_Venue
 Nation Gold
 Nation Bronze
 Average Player Runs 100s
-Nation Rank
-1st_Venue
+Nation
+Year 1st_Venue
 Player Innings Points Matches
 League_Goals Nation
 Swara
 Player Innings Points Matches
-Free_Throws
+Free_Throws Player
 Silver Nation
 Player Runs Points 100s
 Player Runs Average 100s
@@ -486,7 +486,7 @@ Bronze Nation
 State No._of_candidates Year_of_Election
 Team Years_won
 Nation Total Gold
-Nation Rank
+Nation
 Gold Nation Bronze
 Masters Country
 Runs Player
@@ -505,7 +505,7 @@ Gold Nation
 Player Innings Average 100s
 Gold Nation Rank
 Points Player Innings Matches
-2nd_Venue 1st_Venue;2nd_Venue
+Year 2nd_Venue 1st_Venue;2nd_Venue
 Bronze Nation
 Player Points Average
 State No._of_elected No._of_candidates
@@ -519,7 +519,7 @@ Points Player Runs Games_Played
 Rank Nation Silver Gold
 Rank Nation Bronze Gold
 U.S._Open Country
-1st_Venue 2nd_Venue
+Year 1st_Venue 2nd_Venue
 Nation Silver Total
 Bronze Nation
 Matches Player
@@ -535,7 +535,7 @@ Gold Nation
 Year 1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 1st_Venue
 Took_office Party
 1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 4th_Venue
-Year 3rd_Venue
+Year 3rd_Venue 1st_Venue
 Nation Total
 Name Apps Goals
 1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 1st_Venue Year 3rd_Venue
@@ -548,7 +548,7 @@ Nation Gold
 Nation Silver Bronze
 Runs Player Games_Played
 Silver Nation
-1st_Venue 2nd_Venue
+Year 1st_Venue 2nd_Venue
 Average Player
 Silver Nation Rank
 Points Player 50s Matches
@@ -556,7 +556,7 @@ Masters Country
 Total Nation
 1st_Venue;2nd_Venue;3rd_Venue;4th_Venue;5th_Venue;6th_Venue 2nd_Venue Year 3rd_Venue
 Nation Gold Bronze Rank
-100s
+100s Player
 Matches Player
 Nation Total Gold
 Years_won Team
