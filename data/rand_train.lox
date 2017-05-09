@@ -82,7 +82,7 @@ select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
 select <field>:0 prev <field>:0 equal <value>:0
 select <field>:2 where <field>:0 greater <value>:0 and <field>:0 less <value>:0
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
-select <field>:1 where <field>:3 equal <value>:4
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 argmin <field>:0 where <field>:1 greater <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
@@ -100,7 +100,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
@@ -153,7 +153,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -169,10 +169,10 @@ select <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 greater 0
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 avg <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
-select <field>:1 where <field>:3 equal <value>:4
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
 select <field>:0 argmax <field>:0 where <field>:1 less <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
@@ -189,7 +189,7 @@ select <field>:0 argmax <field>:1
 select <field>:0 argmax <field>:1 where <field>:2 less <value>:2
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 argmin <field>:0
-select <field>:0 argmax <field>:1 where <field>:2 less <value>:2 and <field>:2 greater <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 equal <value>:3
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
@@ -214,8 +214,8 @@ sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
-select <field>:0 where <field>:1 equal <value>:2
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 equal <value>:3
@@ -225,7 +225,7 @@ select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
 avg <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
 select <field>:0 argmin Year
@@ -249,7 +249,7 @@ select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
-select <field>:1 where <field>:3 equal <value>:1
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 where <field>:1 equal <value>:1
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
@@ -275,7 +275,7 @@ select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:0 where <field>:1 greater <value>:1
 select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
-select <field>:0 argmax <field>:2 where <field>:2 less <value>:2 and <field>:2 greater <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
@@ -394,7 +394,7 @@ select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:
 count <field>:0 where <field>:1 less <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 prev <field>:0 equal <value>:0
-select <field>:0 argmax <field>:1 where <field>:2 less <value>:2 and <field>:2 greater <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
@@ -486,10 +486,10 @@ count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
-select <field>:0 argmax <field>:2 where <field>:2 less <value>:2 and <field>:2 greater <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 argmin <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -522,7 +522,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 equal <value>:3
 select <field>:0 argmax <field>:0 where <field>:1 less <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
@@ -563,7 +563,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 greater <value>:1 and <field>:1 less <value>:1
@@ -586,7 +586,7 @@ count <field>:0 where <field>:1 less <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmax <field>:1 where <field>:2 less <value>:2 and <field>:2 greater <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
@@ -599,7 +599,7 @@ sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:
 count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 equal <value>:3
@@ -618,7 +618,7 @@ select <field>:0 where <field>:1 greater <value>:1
 count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1
 select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
-select <field>:1 where <field>:3 equal <value>:1
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
 select <field>:0 where <field>:1 equal <value>:1
@@ -661,7 +661,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 argmin <field>:2 where <field>:1 less where <field>:0 equal <value>:0
 select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
@@ -677,7 +677,7 @@ select <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 avg <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
@@ -691,7 +691,7 @@ select <field>:0 argmin <field>:3 where <field>:1 equal <value>:1 and <field>:2 
 select <field>:0 where <field>:2 equal <value>:2
 select <field>:0 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:2
 select <field>:0 where <field>:1 equal <value>:1
@@ -712,8 +712,8 @@ select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
 select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
-count <field>:0 where <field>:1 equal <value>:2
-select <field>:0 argmax <field>:2 where <field>:2 less <value>:2 and <field>:2 greater <value>:2
+count <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 where <field>:2 equal <value>:2
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
 select <field>:0 where <field>:2 equal <value>:2
@@ -736,7 +736,7 @@ diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:1 where <field>:3 equal <value>:4
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 prev <field>:0 equal <value>:0
 select <field>:0 argmax <field>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
@@ -777,7 +777,7 @@ select <field>:0 where <field>:1 greater <value>:1 and <field>:2 greater <value>
 select <field>:0 where <field>:1 equal <value>:1
 select League_Goals argmin League_Goals
 select <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 select points where <field>:2 equal <value>:2
 avg <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
@@ -793,7 +793,7 @@ select <field>:0 argmin <field>:2 where <field>:1 less where <field>:0 equal <va
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -804,7 +804,7 @@ select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
@@ -853,7 +853,7 @@ select <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmax <field>:2 where <field>:2 less <value>:2 and <field>:2 greater <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
@@ -864,7 +864,7 @@ sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:
 select <field>:0 argmin <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
 count <field>:1 where <field>:2 equal 0
@@ -874,10 +874,10 @@ select <field>:2 where <field>:0 equal 8
 sum <field>:0 where <field>:1 less <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
@@ -912,7 +912,7 @@ select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal 
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 less <value>:2
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 avg <field>:0 where <field>:1 equal <value>:1
@@ -930,7 +930,7 @@ select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 
 select <field>:2 where <field>:0 greater <value>:0 and <field>:0 less <value>:0
 select <field>:0 argmax Number where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:0
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
@@ -1030,7 +1030,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmin <field>:1
 select <field>:0 argmin <field>:1
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:0 where <field>:1 greater <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 select <field>:0 prev <field>:0 equal <value>:0
@@ -1038,7 +1038,7 @@ select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:
 sum <field>:0
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 select <field>:2 where <field>:0 greater <value>:0 and <field>:0 less <value>:0
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 count <field>:0 where <field>:1 equal <value>:1
@@ -1130,7 +1130,7 @@ select <field>:0 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
@@ -1144,7 +1144,7 @@ diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 equal <value>:3
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:0 where <field>:1 less <value>:1
-select <field>:1 where <field>:3 equal <value>:4
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
 select <field>:0 argmax <field>:1 where <field>:2 less <value>:2
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
@@ -1170,9 +1170,9 @@ select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
 select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 prev <field>:0 equal <value>:0
 select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
@@ -1181,7 +1181,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal 0 and <field>:2 greater 0
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 next <field>:0 equal <value>:0
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
@@ -1189,7 +1189,7 @@ select <field>:2 where <field>:0 equal 5
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 greater <value>:1 and <field>:1 less <value>:1
-select <field>:1 where <field>:3 equal <value>:4
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 equal <value>:3
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
@@ -1251,7 +1251,7 @@ select <field>:0 next <field>:0 equal <value>:0
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
 select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 argmax <field>:0 where <field>:1 greater <value>:1
@@ -1284,13 +1284,13 @@ select <field>:0 where <field>:2 equal <value>:2
 select <field>:2 where <field>:0 greater <value>:0 and <field>:0 less <value>:0
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 equal <value>:3
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:2 where <field>:0 equal 4
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 avg <field>:0 where <field>:0 greater 0
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 select <field>:2 where <field>:0 greater <value>:0 and <field>:0 less <value>:0
 select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:0
@@ -1370,7 +1370,7 @@ select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
 select <field>:0 where <field>:2 equal <value>:2
 select <field>:0 prev <field>:0 equal <value>:0
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
@@ -1443,7 +1443,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
-select <field>:1 where <field>:3 equal <value>:1
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 where <field>:1 less <value>:1 and <field>:2 less <value>:2
 count <field>:0 where <field>:1 less <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -1497,10 +1497,10 @@ count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1
@@ -1508,7 +1508,7 @@ select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:0 where <field>:1 greater <value>:1
@@ -1518,13 +1518,13 @@ select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:0 where <field>:1 greater <value>:1
 select <field>:0 argmax Number where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
-select <field>:1 where <field>:3 equal <value>:1
+select <field>:1 where <field>:3 equal <value>:3
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
-select <field>:1 where <field>:3 equal <value>:4
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 greater <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
@@ -1543,7 +1543,7 @@ select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 argmax <field>:1
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
@@ -1560,7 +1560,7 @@ select <field>:0 argmin <field>:0 where <field>:1 greater <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 equal <value>:3
 select <field>:0 argmin <field>:2 where <field>:1 less where <field>:0 equal <value>:0
-select <field>:0 argmax <field>:2 where <field>:2 less <value>:2 and <field>:2 greater <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
@@ -1602,7 +1602,7 @@ select <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
 select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 argmax Number where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
@@ -1612,7 +1612,7 @@ count <field>:1 where <field>:2 equal 0
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:0 where <field>:1 less <value>:1
 count <field>:0 where <field>:1 equal <value>:1
@@ -1656,7 +1656,7 @@ select <field>:0 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
 select <field>:0 argmax <field>:1
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 prev <field>:0 equal <value>:0
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
@@ -1678,25 +1678,25 @@ select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
-select <field>:1 where <field>:3 equal <value>:4
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
-select <field>:0 argmax <field>:1 where <field>:2 less <value>:2 and <field>:2 greater <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 argmin <field>:0 where <field>:1 less <value>:1
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:1 where <field>:3 equal <value>:4
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:2
@@ -1742,7 +1742,7 @@ select <field>:0 argmin <field>:0 where <field>:1 greater <value>:1
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 greater <value>:2
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 avg <field>:0 where <field>:0 greater 0
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
@@ -1751,7 +1751,7 @@ select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal 
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
@@ -1836,7 +1836,7 @@ select <field>:0 argmin <field>:1
 select <field>:0 argmax <field>:1
 select <field>:0 argmin <field>:0 where <field>:1 less <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1
@@ -1850,7 +1850,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:2 where <field>:0 equal 9
 select <field>:2 where <field>:0 greater <value>:0 and <field>:0 less <value>:0
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax Number where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
 select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
@@ -1937,7 +1937,7 @@ select <field>:1 where <field>:3 equal <value>:3
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
@@ -1982,7 +1982,7 @@ select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 avg <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2
 select <field>:0 argmin <field>:2 where <field>:1 less where <field>:0 equal <value>:0
 select <field>:1 argmin Year
@@ -1992,7 +1992,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 greater 0
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
@@ -2021,15 +2021,15 @@ select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
-count <field>:0 where <field>:1 equal <value>:2
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
+count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:0 where <field>:1 greater <value>:1
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:1 where <field>:3 equal <value>:1
+select <field>:1 where <field>:3 equal <value>:3
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
 count <field>:0 where <field>:1 less <value>:1
@@ -2040,20 +2040,20 @@ select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 equal <value>:3
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
-select <field>:1 where <field>:3 equal <value>:4
-select <field>:1 where <field>:3 equal <value>:4
+select <field>:1 where <field>:3 equal <value>:3
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 where <field>:1 greater <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
-select <field>:0 argmax <field>:2 where <field>:2 less <value>:2 and <field>:2 greater <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmax <field>:1 where <field>:2 less <value>:2 and <field>:2 greater <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 select <field>:0 where <field>:1 greater <value>:1 and <field>:1 less <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -2073,11 +2073,11 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 next <field>:0 equal <value>:0
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 equal <value>:3
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
@@ -2205,7 +2205,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:2 equal <value>:2
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
@@ -2241,9 +2241,9 @@ diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
-select <field>:1 where <field>:3 equal <value>:1
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
-select <field>:0 argmax <field>:1 where <field>:2 less <value>:2 and <field>:2 greater <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
@@ -2260,7 +2260,7 @@ sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 select <field>:0 argmax <field>:0 where <field>:1 less <value>:1
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
@@ -2290,7 +2290,7 @@ select <field>:0 where <field>:2 equal <value>:2 and <field>:3 equal <value>:3
 select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:2
 select <field>:0 where <field>:1 equal <value>:1
@@ -2311,7 +2311,7 @@ select <field>:0 argmax <field>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:1 where <field>:3 equal <value>:4
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
@@ -2352,14 +2352,14 @@ diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>
 select <field>:0 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:1
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmax <field>:2 where <field>:2 less <value>:2 and <field>:2 greater <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:0 where <field>:1 less <value>:1
 select <field>:0 next <field>:0 equal <value>:0
@@ -2379,7 +2379,7 @@ diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>
 select <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
@@ -2395,8 +2395,8 @@ select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:1 where <field>:3 equal <value>:4
-select <field>:1 where <field>:3 equal <value>:4
+select <field>:1 where <field>:3 equal <value>:3
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 argmin <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1
@@ -2408,7 +2408,7 @@ select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 avg <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
@@ -2445,7 +2445,7 @@ select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
-select <field>:0 argmin <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
 select <field>:2 where <field>:0 greater <value>:0 and <field>:0 less <value>:0
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
@@ -2533,7 +2533,7 @@ select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2 and <field>:
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
-select <field>:1 where <field>:3 equal <value>:1
+select <field>:1 where <field>:3 equal <value>:3
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
@@ -2562,9 +2562,9 @@ sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:
 select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:2 where <field>:1 less where <field>:0 equal <value>:0
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
@@ -2580,7 +2580,7 @@ select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -2594,7 +2594,7 @@ select <field>:0 argmax <field>:1
 select <field>:0 argmax <field>:1 where <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 equal <value>:3
@@ -2633,11 +2633,11 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
-select <field>:1 where <field>:3 equal <value>:4
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
 select <field>:0 argmax Number where <field>:1 equal <value>:1
 select <field>:2 where <field>:0 greater <value>:0 and <field>:0 less <value>:0
-select <field>:0 argmax <field>:1 where <field>:2 less <value>:2 and <field>:2 greater <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 equal <value>:3
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -2698,7 +2698,7 @@ select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:
 count <field>:0 where <field>:1 equal <value>:1
 sum <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 less <value>:1 and <field>:2 greater <value>:2
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 prev <field>:0 equal <value>:0
 select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 select <field>:0 argmax <field>:0
@@ -2710,12 +2710,12 @@ select <field>:0 where <field>:1 greater <value>:1
 select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:0 where <field>:1 greater <value>:1
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmax <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
 select <field>:0 argmin <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
@@ -2747,7 +2747,7 @@ select <field>:0 where <field>:1 greater <value>:1 and <field>:2 greater <value>
 select <field>:0 argmax <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
-count <field>:0 where <field>:1 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
 select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
@@ -2756,15 +2756,15 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1
 count <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
-select <field>:0 argmax <field>:1 where <field>:2 less <value>:2 and <field>:2 greater <value>:2
-count <field>:0 where <field>:1 equal <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
+count <field>:0 where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 select <field>:0 argmax <field>:2
-select <field>:0 where <field>:1 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 greater <value>:3
@@ -2782,7 +2782,7 @@ select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 diff <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 select <field>:0 where <field>:2 equal <value>:2 and <field>:3 equal <value>:3
-select <field>:1 where <field>:3 equal <value>:1
+select <field>:1 where <field>:3 equal <value>:3
 select <field>:0 argmax <field>:1 where <field>:2 less <value>:2
 select <field>:0 where <field>:1 greater <value>:1 and <field>:1 less <value>:1
 select <field>:0 where <field>:1 equal <value>:1

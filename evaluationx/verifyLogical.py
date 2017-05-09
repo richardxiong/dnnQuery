@@ -11,8 +11,8 @@ _DIGIT_RE = re.compile(br"\d")
 '''
 input files
 '''
-test_truth_path = "../datax/"
-test_output_path = "../evaluationx/"
+truth_path = "../datax/"
+output_path = "../evaluationx/"
 
 
 train_truth = truth_path + "/rand_train.lox"

@@ -697,6 +697,8 @@ def sentTagging_tree(parser, query, fields, logic=None):
             if config.field2word[refers[0]]['value_type'] != 'string':
                 num_field_position.append((i, idx))
             else:
+                if len(refers) > 1:
+                    continue
                 str_field_position.append((i, idx))
     for i in range(len(tag2)):
         if tag[i] == "<nan>":
@@ -706,6 +708,10 @@ def sentTagging_tree(parser, query, fields, logic=None):
             print reference
             # check reference[1] == '<num>'
             if reference[1] in field_corr:
+                if len(reference[1].split(';')) > 1:
+                    # Overlapping value range for field with 'string' type (e.g. 1st_venue)
+                    str_value_position.append(i)
+                    continue
                 idx = field_corr.index(reference[1])
                 tag2[i] = '<value>:'+str(idx)
                 if value_corr[idx] is "<nan>":
@@ -735,9 +741,9 @@ def sentTagging_tree(parser, query, fields, logic=None):
     if len(num_value_position) > 0:
         parsequery_num = [x for x in words]
         for (j,m) in num_field_position:
-            parsequery_num[j] = '<field>'
-        for i in num_value_position:
-            parsequery_num[i] = '<value>'
+            parsequery_num[j] = '<field:'+str(m)+'>'
+        #for i in num_value_position:
+          #  parsequery_num[i] = '<value>'
         dependency_tree_num = parser.raw_parse_sents(('Hello, My name is Melroy', ' '.join(parsequery_num)))
         # find corresponding field (dependency tree LCA)
         # only take dependency_tree[1]
@@ -761,9 +767,9 @@ def sentTagging_tree(parser, query, fields, logic=None):
     if len(str_value_position) > 0:    
         parsequery_str = [x for x in words]
         for (j,m) in str_field_position:
-            parsequery_str[j] = '<field>'
-        for i in str_value_position:
-            parsequery_str[i] = '<value>'
+            parsequery_str[j] = '<field:'+str(m)+'>'
+        #for i in str_value_position:
+          #  parsequery_str[i] = '<value>'
         dependency_tree_str = parser.raw_parse_sents(('Hello, My name is Melroy', ' '.join(parsequery_str)))
         for i in str_value_position:
             # find largest ancestor depth for (value, field) pair in the tree

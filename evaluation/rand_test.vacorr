@@ -28,13 +28,13 @@ himachal_pradesh <nan> <nan>
 <nan> great_britain
 <nan> switzerland
 <nan> 2010
-<nan> <nan> chicago
+<nan> chicago
 <nan> <nan> <nan> nassau
 <nan> 32 28
 <nan> australia;romania
 <nan> ballyroan_abbey;maynooth
 <nan> lionel_palairet
-<nan> <nan> <nan> <nan> boston
+<nan> <nan> <nan> boston
 <nan> <nan> 2 62
 <nan> 39 7 <nan>
 <nan> <nan>
@@ -50,10 +50,10 @@ himachal_pradesh <nan> <nan>
 2000;2003 <nan> <nan>
 <nan> <nan> last
 <nan> fourth
-<nan> <nan> <nan> <nan> cambridge
+<nan> <nan> <nan> cambridge
 <nan> brazil;romania
-<nan> <nan> los_angeles
-<nan> <nan> sheffield
+<nan> los_angeles
+<nan> sheffield
 <nan> bahamas
 <nan> <nan> 2000;2004
 <nan> john_felmley
@@ -118,7 +118,7 @@ kerala <nan> <nan>
 <nan> <nan> 99
 <nan> england;brazil
 <nan> robert_page
-<nan> <nan> los_angeles
+<nan> los_angeles
 <nan> caracas
 <nan> ray_woods
 <nan> belarus
@@ -135,13 +135,13 @@ kerala <nan> <nan>
 <nan> crescens_robinson
 <nan> <nan> 12
 <nan> 39 7 <nan>
-<nan> <nan> <nan> <nan> havana
+<nan> <nan> <nan> havana
 <nan> swimming
 2014;2016 <nan> <nan>
 1998;2001 <nan> <nan>
 <nan> 2008
 <nan> <nan> 50
-<nan> <nan> beijing
+<nan> beijing
 <nan> united_states
 <nan> bill_roe;albert_clapp
 <nan> <nan> first
@@ -202,8 +202,8 @@ ballyroan_abbey 2006
 <nan> 206 80
 <nan> <nan> 50
 <nan> ted_tyler
-first <nan> sheffield
-<nan> <nan> tokyo
+first sheffield
+<nan> tokyo
 <nan> 6 23 <nan>
 <nan> <nan>
 <nan> <nan> 30
@@ -218,7 +218,7 @@ first <nan> sheffield
 <nan> 4
 <nan> hurdles
 <nan> <nan> 81 1
-<nan> havana <nan> <nan>
+<nan> <nan> <nan> havana
 <nan> fingal_ravens;confey
 <nan> <nan>
 <nan> 2003
@@ -285,7 +285,7 @@ japan
 <nan> <nan>
 <nan> 400 7 <nan>
 <nan> albert_clapp;george_nichols
-<nan> <nan> caracas
+<nan> caracas
 <nan> <nan> 80
 <nan> john_challen;george_nichols
 <nan> 9 8
@@ -302,7 +302,7 @@ japan
 <nan> 76 7 <nan>
 <nan> 39 14 <nan>
 <nan> mongolia
-<nan> <nan> washington
+<nan> washington
 <nan> 32 8
 <nan> 400 14 <nan>
 <nan> <nan> 18;24
@@ -313,7 +313,7 @@ japan
 <nan> netherlands;england
 <nan> 8 23 <nan>
 <nan> 76 30 <nan>
-<nan> <nan> chicago
+<nan> chicago
 <nan> croatia
 <nan> 97
 <nan> spain;england
@@ -322,7 +322,7 @@ japan
 <nan> <nan> 5 15
 <nan> dundalk_gael;fingal_ravens
 <nan> <nan> 5 15
-<nan> <nan> caracas
+<nan> caracas
 <nan> 2007
 <nan> crescens_robinson
 shadja
@@ -333,7 +333,7 @@ shadja
 <nan> <nan> 30
 <nan> italy;brazil
 <nan> 49
-<nan> <nan> <nan> <nan> sheffield
+<nan> <nan> <nan> sheffield
 <nan> dundalk_gael;ballyroan_abbey
 <nan> italy;spain
 <nan> 2008
@@ -344,7 +344,7 @@ madhya_pradesh <nan> <nan>
 haryana <nan> <nan>
 haryana <nan> <nan>
 <nan> <nan> 15 5
-<nan> <nan> <nan> <nan> shanghai
+<nan> <nan> <nan> shanghai
 <nan> <nan> 14 62
 <nan> 267;358
 <nan> netherlands;brazil
@@ -384,8 +384,8 @@ last liberal_democrats
 <nan> france
 <nan> fingal_ravens;maynooth
 <nan> <nan> 15 10
-<nan> <nan> veracruz
-first <nan> minneapolis
+<nan> veracruz
+first minneapolis
 <nan> john_felmley
 <nan> herbie_hewett
 <nan> china
@@ -393,7 +393,7 @@ first <nan> minneapolis
 <nan> great_britain
 <nan> <nan> 70
 <nan> nigel_gibbs
-<nan> <nan> indianapolis
+<nan> indianapolis
 <nan> <nan> 20
 <nan> ukraine
 <nan> wales;england
@@ -443,7 +443,7 @@ delhi <nan> <nan>
 <nan> 71 5 <nan>
 <nan> 2001
 <nan> <nan> 81 1
-<nan> <nan> dubai
+<nan> dubai
 <nan> 2016
 <nan> <nan> <nan>
 <nan> 400 30 <nan>
@@ -456,8 +456,8 @@ delhi <nan> <nan>
 <nan> 2012
 <nan>
 ballyroan_abbey 2009
-<nan> <nan> hangzhou
-first <nan> boston
+<nan> hangzhou
+first boston
 tamil_nadu <nan> <nan>
 <nan> 94
 <nan> 30
@@ -466,10 +466,10 @@ tamil_nadu <nan> <nan>
 <nan> 10
 <nan> <nan> 2014
 <nan> 7
-<nan> <nan> tokyo
+<nan> tokyo
 <nan> romania;england
 <nan> 9 28
-<nan> caracas <nan> <nan>
+<nan> <nan> <nan> caracas
 <nan> italy;romania
 panchama
 <nan> 76 7 <nan>
@@ -487,7 +487,7 @@ goa <nan> <nan>
 <nan> <nan> 2000;2002;2006
 <nan> 400 14 <nan>
 <nan> <nan> 50
-<nan> <nan> guanajuato
+<nan> guanajuato
 algeria
 <nan> <nan> 30
 <nan> david_james
@@ -502,7 +502,7 @@ algeria
 <nan> spain;england
 <nan> <nan> 10 2
 <nan> russia
-<nan> <nan> chicago
+<nan> chicago
 <nan> 76 7 <nan>
 <nan> 400 14 <nan>
 <nan> spain;italy

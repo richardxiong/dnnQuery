@@ -359,7 +359,7 @@ def decode():
                 resultAnswer = logicalParser(tables[qid], resultLogical)
                 answerOutput.write(str(resultAnswer) + '\n')
 
-            logicalFormOutput.write(str(resultLogical) + '\n')
+            logicalTemp_train.write(str(resultLogical) + '\n')
             q_index += 1
             sentence, tag_sen = trainQuestions.readline(), trainTags.readline()
     print('=== dev dataset ===')
@@ -402,7 +402,7 @@ def decode():
                 resultAnswer = logicalParser(tables[qid], resultLogical)
                 answerOutput.write(str(resultAnswer) + '\n')
 
-            logicalFormOutput.write(str(resultLogical) + '\n')
+            logicalTemp_dev.write(str(resultLogical) + '\n')
             q_index += 1
             sentence, tag_sen = devQuestions.readline(), devTags.readline()
     print('=== test dataset ===')        
@@ -445,7 +445,7 @@ def decode():
                 resultAnswer = logicalParser(tables[qid], resultLogical)
                 answerOutput.write(str(resultAnswer) + '\n')
 
-            logicalFormOutput.write(str(resultLogical) + '\n')
+            logicalTemp_test.write(str(resultLogical) + '\n')
             q_index += 1
             sentence, tag_sen = testQuestions.readline(), testTags.readline()
 
