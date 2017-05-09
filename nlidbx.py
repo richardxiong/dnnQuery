@@ -299,7 +299,6 @@ def decode():
 
     # Decode from standard input.
     # changed by Kaifeng, for test
-    testQuestionFile = FLAGS.data_dir + '/rand_test.qux'
     testTableFile = FLAGS.test_dir +'/test.json'
 
     offset = 0; # the test data is the last 20000 items in the table
@@ -309,9 +308,88 @@ def decode():
             tables = json.load(testTables)
         answerOutput = open(FLAGS.test_dir + '/answer.out', 'w')
 
-    logicalFormOutput = open(FLAGS.test_dir + '/logicalForm_test.out', 'w')
+    trainQuestionFile = FLAGS.data_dir + '/rand_train.qux'
+    devQuestionFile = FLAGS.data_dir + '/rand_dev.qux'
+    testQuestionFile = FLAGS.data_dir + '/rand_test.qux'
+    
+    logicalTemp_train = open(FLAGS.test_dir + '/logicalTemp_train.out', 'w')
+    logicalTemp_dev = open(FLAGS.test_dir + '/logicalTemp_dev.out', 'w')
+    logicalTemp_test = open(FLAGS.test_dir + '/logicalTemp_test.out', 'w')
 
-    print('start testing')
+    print('======= start testing =======')
+    print('=== train dataset ===')
+    with open(trainQuestionFile,'r') as trainQuestions:
+        q_index = 0
+        for sentence in trainQuestions:
+            qid = 'qID_' + str(q_index)
+            print('training question: ', qid)
+            # Get token-ids for the input sentence.
+            token_ids = data_utils.sentence_to_token_ids(tf.compat.as_bytes(sentence), en_vocab)
+            # Which bucket does it belong to?
+            bucket_id = len(_buckets) - 1
+            for i, bucket in enumerate(_buckets):
+              if bucket[0] >= len(token_ids):
+                bucket_id = i
+                break
+            else:
+              logging.warning("Sentence truncated: %s", sentence)
+
+            # Get a 1-element batch to feed the sentence to the model.
+            encoder_inputs, decoder_inputs, target_weights = model.get_batch(
+                {bucket_id: [(token_ids, [])]}, bucket_id)
+            # Get output logits for the sentence.
+            _, _, output_logits, _ = model.step(sess, encoder_inputs, decoder_inputs,
+                                             target_weights, bucket_id, True)
+            # This is a greedy decoder - outputs are just argmaxes of output_logits.
+            outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
+            # If there is an EOS symbol in outputs, cut them at that point.
+            if data_utils.EOS_ID in outputs:
+              outputs = outputs[:outputs.index(data_utils.EOS_ID)]
+            # Print out French sentence corresponding to outputs.
+            resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
+            if FLAGS.enable_table_test:
+                resultAnswer = logicalParser(tables[qid], resultLogical)
+                answerOutput.write(str(resultAnswer) + '\n')
+
+            logicalFormOutput.write(str(resultLogical) + '\n')
+            q_index += 1
+    print('=== dev dataset ===')
+    with open(devQuestionFile,'r') as devQuestions:
+        q_index = 0
+        for sentence in devQuestions:
+            qid = 'qID_' + str(q_index)
+            print('deving question: ', qid)
+            # Get token-ids for the input sentence.
+            token_ids = data_utils.sentence_to_token_ids(tf.compat.as_bytes(sentence), en_vocab)
+            # Which bucket does it belong to?
+            bucket_id = len(_buckets) - 1
+            for i, bucket in enumerate(_buckets):
+              if bucket[0] >= len(token_ids):
+                bucket_id = i
+                break
+            else:
+              logging.warning("Sentence truncated: %s", sentence)
+
+            # Get a 1-element batch to feed the sentence to the model.
+            encoder_inputs, decoder_inputs, target_weights = model.get_batch(
+                {bucket_id: [(token_ids, [])]}, bucket_id)
+            # Get output logits for the sentence.
+            _, _, output_logits, _ = model.step(sess, encoder_inputs, decoder_inputs,
+                                             target_weights, bucket_id, True)
+            # This is a greedy decoder - outputs are just argmaxes of output_logits.
+            outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
+            # If there is an EOS symbol in outputs, cut them at that point.
+            if data_utils.EOS_ID in outputs:
+              outputs = outputs[:outputs.index(data_utils.EOS_ID)]
+            # Print out French sentence corresponding to outputs.
+            resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
+            if FLAGS.enable_table_test:
+                resultAnswer = logicalParser(tables[qid], resultLogical)
+                answerOutput.write(str(resultAnswer) + '\n')
+
+            logicalFormOutput.write(str(resultLogical) + '\n')
+            q_index += 1
+    print('=== test dataset ===')
     with open(testQuestionFile,'r') as testQuestions:
         q_index = 0
         for sentence in testQuestions:
@@ -348,7 +426,9 @@ def decode():
             logicalFormOutput.write(str(resultLogical) + '\n')
             q_index += 1
 
-    logicalFormOutput.close()
+    logicalTemp_train.close()
+    logicalTemp_dev.close()
+    logicalTemp_test.close()
     if FLAGS.enable_table_test:
         answerOutput.close()
 
