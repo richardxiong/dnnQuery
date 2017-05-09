@@ -99,11 +99,9 @@ FLAGS = tf.app.flags.FLAGS
 # We use a number of buckets and pad to the closest one for efficiency.
 # It is better to try to make the numbers in each bucket being close:
 # 1. no field / tagging model
-_buckets = [(10, 8), (15, 12), (19, 16), (23, 21)]
-# 2. add entity
-#_buckets = [(11, 8), (16, 12), (21, 16), (25, 21)]
-# 3. add field
-#_buckets = [(14, 1), (19, 11), (24, 15), (30, 21)]
+#_buckets = [(10, 8), (15, 12), (19, 16), (23, 21)]
+
+_buckets = [(11, 8), (16, 12), (19, 14)]  #new logical forms
 
 def read_data(source_path, target_path, max_size=None):
   """Read data from source and target files and put into buckets.
