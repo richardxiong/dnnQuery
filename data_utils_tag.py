@@ -332,22 +332,22 @@ def prepare_data(data_dir, from_train_path, to_train_path, tag_train_path, from_
   # Create token ids for the training data.
   to_train_ids_path = to_train_path + (".ids%d" % to_vocabulary_size)
   from_train_ids_path = from_train_path + (".ids%d" % from_vocabulary_size)
-  #tag_train_ids_path = tag_train_path + (".ids%d" % to_vocabulary_size)
-  tag_train_ids_path = tag_train_path + (".ids%d" % from_vocabulary_size)
+  tag_train_ids_path = tag_train_path + (".ids%d" % to_vocabulary_size)
+  # tag_train_ids_path = tag_train_path + (".ids%d" % from_vocabulary_size)
   data_to_token_ids(to_train_path, to_train_ids_path, to_vocab_path, tokenizer)
   data_to_token_ids(from_train_path, from_train_ids_path, from_vocab_path, tokenizer)
-  #data_to_token_ids(tag_train_path, tag_train_ids_path, to_vocab_path, tokenizer)
-  data_to_token_ids(tag_train_path, tag_train_ids_path, from_vocab_path, tokenizer)
+  data_to_token_ids(tag_train_path, tag_train_ids_path, to_vocab_path, tokenizer)
+  #data_to_token_ids(tag_train_path, tag_train_ids_path, from_vocab_path, tokenizer)
 
   # Create token ids for the development data.
   to_dev_ids_path = to_dev_path + (".ids%d" % to_vocabulary_size)
   from_dev_ids_path = from_dev_path + (".ids%d" % from_vocabulary_size)
-  # tag_dev_ids_path = tag_dev_path + (".ids%d" % to_vocabulary_size)
-  tag_dev_ids_path = tag_dev_path + (".ids%d" % from_vocabulary_size)
+  tag_dev_ids_path = tag_dev_path + (".ids%d" % to_vocabulary_size)
+  # tag_dev_ids_path = tag_dev_path + (".ids%d" % from_vocabulary_size)
   data_to_token_ids(to_dev_path, to_dev_ids_path, to_vocab_path, tokenizer)
   data_to_token_ids(from_dev_path, from_dev_ids_path, from_vocab_path, tokenizer)
-  #data_to_token_ids(tag_dev_path, tag_dev_ids_path, to_vocab_path, tokenizer)
-  data_to_token_ids(tag_dev_path, tag_dev_ids_path, from_vocab_path, tokenizer)
+  data_to_token_ids(tag_dev_path, tag_dev_ids_path, to_vocab_path, tokenizer)
+  #data_to_token_ids(tag_dev_path, tag_dev_ids_path, from_vocab_path, tokenizer)
 
   return (from_train_ids_path, to_train_ids_path, tag_train_ids_path,
           from_dev_ids_path, to_dev_ids_path, tag_dev_ids_path, 

@@ -1420,8 +1420,8 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
     decoder_inputs_embed = []
     for i in range(len(encoder_inputs)):
       encoder_step = embedding_ops.embedding_lookup(embedding_matrix_from, encoder_inputs[i])
-      tag_step = embedding_ops.embedding_lookup(embedding_matrix_from, tag_inputs[i])
-      #tag_step = embedding_ops.embedding_lookup(embedding_matrix_to, tag_inputs[i])
+      # tag_step = embedding_ops.embedding_lookup(embedding_matrix_from, tag_inputs[i])
+      tag_step = embedding_ops.embedding_lookup(embedding_matrix_to, tag_inputs[i])
       ##### Concate encoder input with corresponding tags
       encoder_inputs_embed.append(tf.concat([encoder_step, tag_step], 1))
     for i in range(len(decoder_inputs)):
