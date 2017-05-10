@@ -93,14 +93,25 @@ select team prev team equal wolfe_tones
 
 ===========================================
 
-(length = 14
+nested questions
 
-utterance_nested_query_4field = 'arg {max_min} {arg1} {arg2}' \
-					'where {query1_project_field} {query2_comp} A ' \
-					'as select {query1_project_field}' \
+#### length = 9
+
+utterance_nested_query_select = 'select {arg1} 'where {query1_project_field} {query2_comp} 
 					'where {query1_comp_field} {query1_comp} {query1_comp_val} '
-)                                          
-                                          
+                                        
+
+examples:
+1. in what year was the 3rd venue the same as 2011's 1st venue
+
+2. nation to earn the same number of silver medals as uruguay
+
+#### length = 11
+
+utterance_nested_query_superlative = 'select {arg1} arg {max_min} {arg2}' \
+					'where {query1_project_field} {query2_comp} 
+					'where {query1_comp_field} {query1_comp} {query1_comp_val} '
+                                        
 
 examples:
 1. how long is the game with the most medals whose host country is less wealthy than the game in seattle
@@ -160,8 +171,8 @@ utterance_sum_single_condition = 'sum {comp_field2}' 'where {comp_field1} {comp}
 
 #### length = 11
 
-utterance_sum_2_entity = 'sum {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
-			     'and' where {comp_field2} {comp} {query2_comp_val} '
+utterance_sum_2_entity = 'sum {comp_field1}' 'where {comp_field2} equal {comp_val1} '
+			     'and' where {comp_field2} equal {comp_val2} '
 
 (length = 18
 
@@ -191,8 +202,8 @@ where Nation equal Scotland avg Total_Apps
 
 #### length = 11
 
-utterance_avg_2_entity = 'avg {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
-			     'and' where {comp_field2} {comp} {query2_comp_val} '
+utterance_avg_2_entity = 'avg {comp_field1}' 'where {comp_field2} equal {comp_val1} '
+			     'and' where {comp_field2} equal {comp_val2} '
 			     
 
 (length = 18
@@ -212,13 +223,13 @@ diff: diff(A, B)
 
 #### length = 11
 
-utterance_diff_2_entity = 'diff {comp_field1}' 'where {comp_field2} {comp} {comp_val} '
-			     'and' where {comp_field2} {comp} {query2_comp_val} '
+utterance_diff_2_entity = 'diff {comp_field1}' 'where {comp_field2} equal {comp_val1} '
+			     'and' where {comp_field2} equal {comp_val2} '
 			     
 #### length = 7
 
-utterance_diff_superlative = 'diff {comp_field1}' arg {max_min} {arg1} 
-				'and' arg {max_min} {arg1} 
+utterance_diff_superlative = 'diff {comp_field1}' argmax {comp_field2} 
+				'and' argmin {comp_field2} 
                     
 
 e.g.
