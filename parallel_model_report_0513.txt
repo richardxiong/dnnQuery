@@ -1,0 +1,2634 @@
+wrong examples: 1
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 14
+select <field>:0 where <field>:0 greater <value>:1 and <field>:0
+
+wrong examples: 15
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 26
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 27
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 30
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 33
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 36
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 55
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 57
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 60
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 63
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 65
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 72
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 77
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 81
+select <field>:0 argmin <field>:1
+
+wrong examples: 84
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 86
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 89
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 90
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 112
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 113
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 118
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 125
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 130
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 140
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 144
+select <field>:0 where <field>:0 greater <value>:1 and <field>:0 less <value>:0
+
+wrong examples: 145
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 146
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 149
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 154
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 157
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 158
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 166
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 167
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 169
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 177
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 179
+select <field>:0 where <field>:0 greater <value>:0 and <field>:2
+
+wrong examples: 180
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 182
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 184
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 185
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 195
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 200
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 204
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 206
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 214
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 219
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 223
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 232
+select <field>:0 argmin <field>:1
+
+wrong examples: 238
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 246
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 248
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 249
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 257
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 262
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 266
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 268
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 269
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 271
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 275
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 280
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 287
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 292
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 294
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 297
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 307
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 314
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 318
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 320
+select <field>:0 where <field>:0 greater <value>:0 and <field>:2
+
+wrong examples: 324
+select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
+
+wrong examples: 332
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 333
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 340
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 344
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 348
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 349
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 356
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 360
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 364
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 368
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 371
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 372
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 379
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 380
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 384
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 390
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 391
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 399
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 400
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 403
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 408
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 411
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 428
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 432
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 434
+select <field>:0 argmin <field>:3 where <field>:2 greater <value>:2
+
+wrong examples: 439
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 440
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 441
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 444
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 446
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 447
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 449
+select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
+
+wrong examples: 450
+select <field>:0 where <field>:0 greater <value>:0 and <field>:2
+
+wrong examples: 458
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 459
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 463
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 471
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 477
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 484
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 488
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 500
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 514
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 518
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 519
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 520
+select <field>:0 where <field>:0 greater <value>:0 and <field>:0
+
+wrong examples: 527
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 528
+select <field>:0 argmin <field>:1
+
+wrong examples: 539
+select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
+
+wrong examples: 545
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 546
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 564
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 569
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 571
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 572
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 573
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 574
+select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
+
+wrong examples: 579
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 587
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 592
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 595
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 596
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 613
+select <field>:0 where <field>:0 greater <value>:0 and <field>:2
+
+wrong examples: 629
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 639
+select <field>:0 argmin <field>:1
+
+wrong examples: 642
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 658
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 667
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 668
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 670
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 671
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 673
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 681
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 682
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 684
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 691
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 694
+select <field>:0 where <field>:0 greater <value>:0 and <field>:2
+
+wrong examples: 706
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 714
+select <field>:0 argmin <field>:1
+
+wrong examples: 719
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 723
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 729
+select <field>:0 where <field>:1 equal 5
+
+wrong examples: 731
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 735
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 740
+select <field>:0 where <field>:0 equal <value>:1
+
+wrong examples: 742
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 745
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 746
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 747
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 757
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 760
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 762
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 768
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 770
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 773
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 774
+select <field>:0 argmax <field>:1
+
+wrong examples: 776
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 779
+select <field>:0 where <field>:1 equal <value>:1 and <field>:2
+
+wrong examples: 780
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 781
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 784
+select <field>:0 argmin <field>:1
+
+wrong examples: 785
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 787
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 805
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 807
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 809
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 822
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 824
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 826
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 828
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 830
+select <field>:0 argmin <field>:1
+
+wrong examples: 833
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 838
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 839
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 850
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 851
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 853
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 854
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 860
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 866
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 867
+select <field>:0 where <field>:0 greater <value>:0 and <field>:2
+
+wrong examples: 875
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 880
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 882
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 885
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 894
+select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
+
+wrong examples: 899
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 907
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 909
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 914
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 921
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 924
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 931
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 933
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 941
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 946
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 948
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 950
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 951
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 955
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 962
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 964
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 977
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 988
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1001
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1004
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1007
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1010
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1014
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1016
+select <field>:2 where <field>:0 equal 8
+
+wrong examples: 1023
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1028
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1034
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1045
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1046
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1048
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 1051
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1053
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1060
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 1064
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1066
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1067
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1069
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1076
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1080
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1086
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 1089
+select <field>:0 where <field>:0 equal <value>:1 and where
+
+wrong examples: 1090
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1093
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1097
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1101
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1102
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1106
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1108
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1110
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1111
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1113
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1114
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1119
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1122
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1124
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1128
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1129
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1141
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 1143
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1146
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1150
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1151
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1152
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1153
+select <field>:0 where <field>:0 greater <value>:0 and <field>:2
+
+wrong examples: 1167
+select <field>:0 where <field>:1 equal <value>:1 and <field>:2
+
+wrong examples: 1173
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1174
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1175
+select <field>:0 where <field>:0 greater <value>:0 and <field>:2
+
+wrong examples: 1183
+select <field>:0 argmax <field>:1
+
+wrong examples: 1188
+select <field>:2 where <field>:0 equal 6
+
+wrong examples: 1191
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 1195
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1202
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1203
+select <field>:0 argmin <field>:3 where <field>:2 greater <value>:2
+
+wrong examples: 1207
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1219
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1230
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1249
+select <field>:0 where <field>:0 equal <value>:1
+
+wrong examples: 1257
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1262
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1263
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1266
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1277
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1279
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1281
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 1283
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1288
+select <field>:2 where <field>:0 equal 8
+
+wrong examples: 1291
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1295
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1297
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1299
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1302
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1304
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1309
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1314
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1320
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1322
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1325
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1330
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1333
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1335
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1339
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1348
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1351
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1353
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1363
+select <field>:0 argmin <field>:1
+
+wrong examples: 1364
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1370
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1373
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1385
+select League_Goals argmin League_Goals
+
+wrong examples: 1386
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1388
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1392
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1400
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1402
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1407
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1409
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1413
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1414
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1417
+select <field>:0 argmax <field>:1
+
+wrong examples: 1421
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1431
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1434
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 1447
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 1450
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1455
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1457
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1462
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1464
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1465
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1467
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1473
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1476
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 1482
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 1485
+select <field>:0 where <field>:1 equal <value>:1 and <field>:2
+
+wrong examples: 1492
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1503
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1506
+select <field>:0 where <field>:2 equal <value>:1 and where
+
+wrong examples: 1509
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1511
+select <field>:0 where <field>:0 greater <value>:0 and <field>:2
+
+wrong examples: 1514
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1516
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1518
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1519
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1520
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1522
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1526
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1531
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1538
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1540
+select <field>:0 argmin <field>:3 where <field>:2 greater <value>:2
+
+wrong examples: 1554
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1555
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1558
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1559
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1560
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1564
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1565
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1569
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1570
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1571
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1572
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1574
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1577
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1582
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1586
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1593
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1597
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1600
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 1602
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1605
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1607
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1608
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1609
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1610
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1612
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1617
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1619
+select <field>:2 where <field>:1 greater 0 and <field>:2
+
+wrong examples: 1621
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1631
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1632
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1642
+select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
+
+wrong examples: 1643
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1653
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1656
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1668
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1670
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1673
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1674
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1680
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1686
+select <field>:0 where <field>:2 greater <value>:1 and <field>:2
+
+wrong examples: 1687
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1691
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1693
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1694
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1704
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1705
+select <field>:2 where <field>:0 equal 6
+
+wrong examples: 1711
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1718
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1720
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1724
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1725
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1730
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1732
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1737
+select <field>:0 where <field>:1 equal 5
+
+wrong examples: 1741
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1742
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1751
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1758
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1759
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 1761
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1763
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1764
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1766
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1772
+select <field>:0 where <field>:0 greater <value>:0 and <field>:0
+
+wrong examples: 1774
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1776
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1777
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1791
+select <field>:0 argmin <field>:1
+
+wrong examples: 1796
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1807
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1812
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1815
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1818
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1827
+select <field>:0 argmin <field>:1
+
+wrong examples: 1828
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1829
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1837
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1838
+select <field>:0 argmin <field>:3 where <field>:2 greater <value>:2
+
+wrong examples: 1840
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1841
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1851
+select <field>:2 where <field>:0 equal 8
+
+wrong examples: 1854
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1858
+select <field>:0 where <field>:2 greater <value>:2 and <field>:3 less <value>:3
+
+wrong examples: 1859
+select <field>:0 argmin <field>:3 where <field>:2 greater <value>:2
+
+wrong examples: 1864
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1865
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1866
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1869
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1874
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1878
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1880
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1881
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1882
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1886
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1890
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1892
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1900
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1906
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1908
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1909
+select <field>:2 where <field>:1 greater 0 and <field>:2
+
+wrong examples: 1911
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1915
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1921
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1922
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 1923
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1931
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1941
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1948
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1963
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1969
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1975
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1976
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 1986
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 1989
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1994
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2005
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2007
+select <field>:0 argmin <field>:3 where <field>:2 greater <value>:2
+
+wrong examples: 2008
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 2009
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2011
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 2012
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 2014
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 2019
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2023
+select <field>:0 argmin <field>:1
+
+wrong examples: 2029
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2030
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 2033
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2058
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 2060
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2067
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2070
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2078
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2082
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2085
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2087
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2091
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2093
+select <field>:0 where <field>:1 greater 0 and <field>:2
+
+wrong examples: 2098
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2107
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 2112
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2114
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2120
+select <field>:0 argmin <field>:1 where <field>:2 less <value>:2
+
+wrong examples: 2129
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2130
+select <field>:0 where <field>:1 greater 0 and <field>:2
+
+wrong examples: 2135
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2138
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2140
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2142
+select <field>:0 where <field>:0 greater <value>:1 and <field>:0 less <value>:0
+
+wrong examples: 2143
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2178
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2181
+select <field>:0 where <field>:1 greater 0 and <field>:2
+
+wrong examples: 2187
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2189
+select <field>:2 where <field>:0 equal 8
+
+wrong examples: 2194
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2209
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2211
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2214
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 2216
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2218
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2219
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2223
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 2226
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2230
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 2240
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2242
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2243
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2251
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2254
+select <field>:0 where <field>:0 equal <value>:1
+
+wrong examples: 2256
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2258
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2262
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2264
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 2272
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2280
+select <field>:0 argmax <field>:1
+
+wrong examples: 2283
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2285
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2291
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2295
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 2300
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2302
+select <field>:2 where <field>:0 equal 8
+
+wrong examples: 2308
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2324
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2325
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2328
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2335
+select <field>:0 argmin <field>:1
+
+wrong examples: 2338
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2340
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2348
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 2351
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2352
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 2358
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2364
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 2372
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2378
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2380
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2393
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2403
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2407
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2418
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2420
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 2423
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2425
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2427
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2432
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 2433
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2435
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 2446
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2448
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2454
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2458
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 2461
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2469
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2472
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2473
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2476
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2485
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2489
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2490
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2491
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2501
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2509
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2511
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2516
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2518
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2521
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2525
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2526
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2527
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2533
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2537
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2541
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 2543
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2549
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2551
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2557
+select <field>:0 where <field>:1 equal <value>:1 and <field>:2
+
+wrong examples: 2558
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 2559
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2570
+select <field>:0 argmin <field>:1
+
+wrong examples: 2577
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2585
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2587
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 2588
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2589
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2590
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2592
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2597
+select <field>:0 where <field>:0 greater <value>:0 and <field>:2
+
+wrong examples: 2602
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2603
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 2609
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 2612
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2616
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 2623
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2638
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2647
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2652
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2656
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2663
+select <field>:0 where <field>:1 equal <value>:1 and <field>:2
+
+wrong examples: 2673
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 2674
+select <field>:0 argmin <field>:1
+
+wrong examples: 2680
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 2684
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 2687
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2689
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 2691
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2693
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2694
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2696
+select <field>:2 where <field>:0 equal 6
+
+wrong examples: 2700
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 2711
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 2730
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2739
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2744
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2746
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2758
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2761
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2762
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2763
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2764
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2773
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2776
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2781
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2783
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2787
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 2789
+select <field>:0 where <field>:0 greater <value>:0 and <field>:2
+
+wrong examples: 2791
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2794
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 2796
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2799
+select <field>:0 where <field>:1 less <value>:1
+
+train accuracy: 0.773571428571
+wrong examples: 1
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 8
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 13
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 14
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 16
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 17
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 21
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 23
+select <field>:0 where <field>:1 equal 5
+
+wrong examples: 33
+select <field>:2 where <field>:0 equal 8
+
+wrong examples: 36
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 48
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 56
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 58
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 61
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 64
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 66
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 69
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 76
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 77
+select <field>:2 where <field>:0 equal 8
+
+wrong examples: 80
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 86
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 87
+select <field>:0 where <field>:0 greater <value>:0 and <field>:2
+
+wrong examples: 102
+select <field>:0 argmin <field>:1
+
+wrong examples: 103
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 113
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 115
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 133
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 136
+select <field>:0 argmax <field>:1
+
+wrong examples: 139
+avg <field>:0 where <field>:0 greater 0
+
+wrong examples: 144
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 146
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 156
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 160
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 162
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 167
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 172
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 175
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 177
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 189
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 192
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 197
+select <field>:2 where <field>:0 equal 8
+
+wrong examples: 199
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 200
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 203
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 204
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 206
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 208
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 210
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 214
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 218
+select <field>:0 argmin <field>:3 where <field>:2 greater <value>:2
+
+wrong examples: 224
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 229
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 231
+select Total argmax <field>:1
+
+wrong examples: 233
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 236
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 239
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 247
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 248
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 257
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 265
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 267
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 268
+count <field>:0 where Total greater 0
+
+wrong examples: 269
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 276
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 278
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 284
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 304
+select <field>:0 argmin <field>:1
+
+wrong examples: 305
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 306
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 314
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 315
+select <field>:2 where <field>:0 equal 8
+
+wrong examples: 321
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 325
+select <field>:0 argmin <field>:1
+
+wrong examples: 330
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 331
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 339
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 349
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 351
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 353
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 354
+select <field>:0 where <field>:0 greater <value>:1 and <field>:0
+
+wrong examples: 359
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 363
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 366
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 368
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 375
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 387
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 391
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 394
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 402
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 403
+select <field>:0 where <field>:0 greater <value>:0 and <field>:2
+
+wrong examples: 408
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 409
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 412
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 413
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 414
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 416
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 419
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 423
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 427
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 429
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 432
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 434
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 436
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 438
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 440
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 442
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 443
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 444
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 448
+select <field>:0 argmax <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 450
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 455
+select <field>:0 argmin <field>:3 where <field>:2 greater <value>:2
+
+wrong examples: 461
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 476
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 477
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 486
+select <field>:0 argmin <field>:1
+
+wrong examples: 492
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 497
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 502
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 503
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 504
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 524
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 525
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 526
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 529
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 530
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 536
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 537
+select <field>:0 argmax <field>:1
+
+wrong examples: 538
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 539
+select <field>:0 argmin <field>:1
+
+wrong examples: 545
+select <field>:0 argmin <field>:1
+
+wrong examples: 549
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 552
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 560
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 562
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 564
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 565
+select <field>:0 argmin <field>:3 where <field>:2 greater <value>:2
+
+wrong examples: 574
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 577
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 579
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 580
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 588
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 590
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 596
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+dev accuracy: 0.761666666667
+wrong examples: 2
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 5
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 6
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 10
+select <field>:0 argmin <field>:2
+
+wrong examples: 15
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 17
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 20
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 22
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 30
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 35
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 44
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 48
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 52
+select <field>:0 where <field>:1 equal 5
+
+wrong examples: 62
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 63
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 65
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 70
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 72
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 81
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 83
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 89
+select <field>:0 argmin <field>:1
+
+wrong examples: 92
+select <field>:0 where <field>:0 greater <value>:1 and <field>:0 less <value>:0
+
+wrong examples: 94
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 98
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 100
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 103
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 116
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 117
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 118
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 125
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 136
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 143
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 146
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 150
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 157
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 168
+select <field>:0 argmin <field>:3 where <field>:2 greater <value>:2
+
+wrong examples: 182
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 185
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 188
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 202
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 206
+select <field>:0 where <field>:0 greater <value>:0 and <field>:2
+
+wrong examples: 214
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 222
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 225
+select <field>:2 where <field>:0 equal 6
+
+wrong examples: 229
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 235
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 236
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 243
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 245
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 250
+select <field>:0 argmax <field>:1
+
+wrong examples: 260
+select <field>:0 where <field>:2 equal <value>:2 and <field>:3
+
+wrong examples: 268
+select <field>:2 where <field>:0 equal 6
+
+wrong examples: 270
+select <field>:0 argmin <field>:1
+
+wrong examples: 280
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 284
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 287
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 290
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 297
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 321
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 323
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 328
+select <field>:0 where <field>:0 equal <value>:1
+
+wrong examples: 330
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 334
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 337
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 338
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 339
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 342
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 349
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 350
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 351
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 364
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 365
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 368
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 369
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 377
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 382
+select <field>:0 where <field>:1 greater <value>:1
+
+wrong examples: 385
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 388
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 396
+select <field>:0 where <field>:0 greater <value>:0 and <field>:2
+
+wrong examples: 403
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 407
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 415
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 417
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 423
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 432
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 436
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 437
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 441
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 442
+select <field>:0 where <field>:1 less <value>:1 and <field>:2
+
+wrong examples: 447
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 448
+select <field>:0 where <field>:1 greater 0 and <field>:2
+
+wrong examples: 456
+select <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 458
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 460
+select <field>:0 argmax <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 467
+select <field>:0 argmin <field>:1
+
+wrong examples: 473
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 478
+select <field>:0 argmax <field>:1
+
+wrong examples: 485
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 496
+select <field>:0 where <field>:1 equal <value>:1 and where
+
+wrong examples: 497
+select <field>:2 where <field>:0 equal 8
+
+test accuracy: 0.804305283757
