@@ -1409,7 +1409,7 @@ def embedding_attention_seq2seq_pretrain_tag(encoder_inputs,
         It is a 2D Tensor of shape [batch_size x cell.state_size].
   """
   with variable_scope.variable_scope(
-      scope or "embedding_attention_seq2seq_pretrain2_tag", dtype=dtype) as scope:
+      scope or "embedding_attention_seq2seq_pretrain_tag", dtype=dtype) as scope:
     dtype = scope.dtype
     # Encoder.
     encoder_cell = copy.deepcopy(cell)
@@ -1536,11 +1536,11 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
     tag_matrix[5] = embedding_matrix_to[5, 0:50]
     tag_matrix[6] = embedding_matrix_to[10, 0:50]
     tag_matrix = tf.Variable(tag_matrix, trainable = True)
-    embedding_matrix_tag = tf.stack(tf.concat([tag_matrix[5], tag_matrix[0]]), tf.concat([tag_matrix[5], tag_matrix[1]]),
-                                    tf.concat([tag_matrix[5], tag_matrix[2]]), tf.concat([tag_matrix[5], tag_matrix[3]]),
-                                    tf.concat([tag_matrix[5], tag_matrix[4]]), tf.concat([tag_matrix[6], tag_matrix[0]]),
-                                    tf.concat([tag_matrix[6], tag_matrix[1]]), tf.concat([tag_matrix[6], tag_matrix[2]]),
-                                    tf.concat([tag_matrix[6], tag_matrix[3]]), tf.concat([tag_matrix[6], tag_matrix[4]]))
+    embedding_matrix_tag = tf.stack([tf.concat([tag_matrix[5], tag_matrix[0]], 0), tf.concat([tag_matrix[5], tag_matrix[1]], 0),
+                                    tf.concat([tag_matrix[5], tag_matrix[2]], 0), tf.concat([tag_matrix[5], tag_matrix[3]], 0),
+                                    tf.concat([tag_matrix[5], tag_matrix[4]], 0), tf.concat([tag_matrix[6], tag_matrix[0]], 0),
+                                    tf.concat([tag_matrix[6], tag_matrix[1]], 0), tf.concat([tag_matrix[6], tag_matrix[2]], 0),
+                                    tf.concat([tag_matrix[6], tag_matrix[3]], 0), tf.concat([tag_matrix[6], tag_matrix[4]], 0)])
     # recombine output embedding
     embedding_matrix_to = tf.concat([embedding_matrix_to_pre[0:5], embedding_matrix_tag, embedding_matrix_to_pre[15:]], 0)
     
@@ -1553,6 +1553,143 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
       tag_step = embedding_ops.embedding_lookup(embedding_matrix_to, tag_inputs[i])
       ##### Concate encoder input with corresponding tags
       encoder_inputs_embed.append(tf.concat([encoder_step, tag_step], 1))
+    for i in range(len(decoder_inputs)):
+      decoder_inputs_embed.append(embedding_ops.embedding_lookup(embedding_matrix_to, decoder_inputs[i]))
+    ### encoder_inputs = tf.reshape(encoder_inputs, [])   
+    
+    encoder_outputs, encoder_state = core_rnn.static_rnn(
+        encoder_cell, encoder_inputs_embed, dtype=dtype)
+
+    # First calculate a concatenation of encoder outputs to put attention on.
+    top_states = [
+        array_ops.reshape(e, [-1, 1, cell.output_size]) for e in encoder_outputs
+    ]
+    attention_states = array_ops.concat(top_states, 1)
+
+    # Decoder.
+    output_size = None
+    # if output_projection is None:
+    #   cell = core_rnn_cell.OutputProjectionWrapper(cell, num_decoder_symbols)
+    #   output_size = num_decoder_symbols
+
+    if output_size is None:
+      output_size = cell.output_size
+    if output_projection is not None:
+      proj_biases = ops.convert_to_tensor(output_projection[1], dtype=dtype)
+      #num_symbols = embedding_matrix_to.get_shape()[0]
+      proj_biases.get_shape().assert_is_compatible_with([num_decoder_symbols])
+
+    loop_function = _extract_argmax_and_embed(
+        embedding_matrix_to, output_projection, True) if feed_previous else None
+  
+    if isinstance(feed_previous, bool):
+      outputs, state = attention_decoder(
+          decoder_inputs_embed,
+          encoder_state,
+          attention_states,
+          cell,
+          output_size=output_size,
+          num_heads=num_heads,
+          loop_function=loop_function,
+          initial_state_attention=initial_state_attention)
+
+      return outputs, state, encoder_state ### the last hidden state of encoder
+
+    # If feed_previous is a Tensor, we construct 2 graphs and use cond.
+    def decoder(feed_previous_bool):
+      reuse = None if feed_previous_bool else True
+      with variable_scope.variable_scope(
+        variable_scope.get_variable_scope(), reuse=reuse) as scope:
+        outputs, state = attention_decoder(
+            decoder_inputs_embed,
+            encoder_state,
+            attention_states,
+            cell,
+            output_size=output_size,
+            num_heads=num_heads,
+            loop_function=loop_function,
+            initial_state_attention=initial_state_attention)
+        state_list = [state]
+        if nest.is_sequence(state):
+          state_list = nest.flatten(state)
+        return outputs + state_list
+
+    outputs_and_state = control_flow_ops.cond(feed_previous,
+                                              lambda: decoder(True),
+                                              lambda: decoder(False))
+    outputs_len = len(decoder_inputs)  # Outputs length same as decoder inputs.
+    state_list = outputs_and_state[outputs_len:]
+    state = state_list[0]
+    if nest.is_sequence(encoder_state):
+      state = nest.pack_sequence_as(
+          structure=encoder_state, flat_sequence=state_list)
+    return outputs_and_state[:outputs_len], state, encoder_state ### the last hidden state of encoder
+
+
+def embedding_attention_seq2seq_pretrain2_X(batch_size, 
+                                encoder_inputs,
+                                tag_inputs,
+                                decoder_inputs,
+                                cell,
+                                embedding_matrix_from,
+                                embedding_matrix_to,
+                                #num_encoder_symbols,
+                                num_decoder_symbols,
+                                embedding_size = 100,
+                                num_heads=1,
+                                output_projection=None,
+                                feed_previous=False,
+                                dtype=None,
+                                scope=None,
+                                initial_state_attention=False):
+  """Embedding sequence-to-sequence model with attention.
+  Returns:
+    A tuple of the form (outputs, state), where:
+      outputs: A list of the same length as decoder_inputs of 2D Tensors with
+        shape [batch_size x num_decoder_symbols] containing the generated
+        outputs.
+      state: The state of each decoder cell at the final time-step.
+        It is a 2D Tensor of shape [batch_size x cell.state_size].
+  """
+  with variable_scope.variable_scope(
+      scope or "embedding_attention_seq2seq_pretrain2_X", dtype=dtype) as scope:
+    dtype = scope.dtype
+    # Encoder.
+    encoder_cell = copy.deepcopy(cell)
+    embedding_matrix_from = tf.Variable(embedding_matrix_from, trainable = False)
+    embedding_matrix_to_pre = tf.Variable(embedding_matrix_to, trainable = True)  # decoder vocab vectors could be trained
+    # tag part of the variable
+    tag_matrix = np.zeros((7, 50), dtype = 'float32')
+    for i in range(5):
+      tag_matrix[i] = embedding_matrix_to[5+i, 50:]
+    tag_matrix[5] = embedding_matrix_to[5, 0:50]
+    tag_matrix[6] = embedding_matrix_to[10, 0:50]
+    tag_matrix = tf.Variable(tag_matrix, trainable = True)
+    embedding_matrix_tag = tf.stack([tf.concat([tag_matrix[5], tag_matrix[0]], 0), tf.concat([tag_matrix[5], tag_matrix[1]], 0),
+                                    tf.concat([tag_matrix[5], tag_matrix[2]], 0), tf.concat([tag_matrix[5], tag_matrix[3]], 0),
+                                    tf.concat([tag_matrix[5], tag_matrix[4]], 0), tf.concat([tag_matrix[6], tag_matrix[0]], 0),
+                                    tf.concat([tag_matrix[6], tag_matrix[1]], 0), tf.concat([tag_matrix[6], tag_matrix[2]], 0),
+                                    tf.concat([tag_matrix[6], tag_matrix[3]], 0), tf.concat([tag_matrix[6], tag_matrix[4]], 0)])
+    # recombine output embedding
+    embedding_matrix_to = tf.concat([embedding_matrix_to_pre[0:5], embedding_matrix_tag, embedding_matrix_to_pre[15:]], 0)
+    
+    encoder_inputs_embed = []
+    #tag_inputs_embed = []
+    decoder_inputs_embed = []
+    for i in range(len(encoder_inputs)):
+      encoder_step = embedding_ops.embedding_lookup(embedding_matrix_from, encoder_inputs[i])
+      # tag_step = embedding_ops.embedding_lookup(embedding_matrix_from, tag_inputs[i])
+      tag_step = embedding_ops.embedding_lookup(embedding_matrix_to, tag_inputs[i])
+      ##### Replace encoder input with corresponding tags
+      encoder_step_list = tf.unstack(encoder_step, batch_size, axis=0)
+      tag_step_list = tf.unstack(tag_step, batch_size, axis=0)
+      embed_list = []
+      for j in range(batch_size):
+        if tag_step_list[j] == embedding_matrix_to[4]:
+          embed_list.append(encoder_step_list[j])
+        else:
+          embed_list.append(tag_step_list[j])
+      encoder_inputs_embed.append(tf.stack(embed_list, 0))
     for i in range(len(decoder_inputs)):
       decoder_inputs_embed.append(embedding_ops.embedding_lookup(embedding_matrix_to, decoder_inputs[i]))
     ### encoder_inputs = tf.reshape(encoder_inputs, [])   
