@@ -59,7 +59,7 @@ class Config(object):
                         'India', 'Liechtenstein', 'US', 'Czech', 'Austria', 'Yugoslavia', 'Saudi_Arabia', 'UK',
                         'Greece', 'Japan', 'Taiwan','Scotland','Mongolia','England','Kazakhstan','Nepal','Wales','Moldova',
                         'Belarus','Latvia','Armenia','United_States','Czech_Republic','Jamaica','Great_Britain','Uzbekistan',
-                        'Malaysia','Uganda','Estonia','Croatia','Cuba','Morocco','Bahamas','Algeria','Cyprus'], 
+                        'Malaysia','Uganda','Estonia','Croatia','Cuba','Morocco','Bahamas','Algeria','Cyprus','Zimbabwe'], 
                      'query_word': ['country','nation','countries','nations','team','who']},
       'U.S._Open': {'value_type':'int',
 						'query_word': ['u.s._open']},
@@ -79,15 +79,15 @@ class Config(object):
                         'India', 'Liechtenstein', 'US', 'Czech', 'Austria', 'Yugoslavia', 'Saudi_Arabia', 'UK',
                         'Greece', 'Japan', 'Taiwan','Scotland','Mongolia','England','Kazakhstan','Nepal','Wales','Moldova',
                         'Belarus','Latvia','Armenia','United_States','Czech_Republic','Jamaica','Great_Britain','Uzbekistan',
-                        'Malaysia','Uganda','Estonia','Croatia','Cuba','Morocco','Bahamas','Algeria','Cyprus'], 
+                        'Malaysia','Uganda','Estonia','Croatia','Cuba','Morocco','Bahamas','Algeria','Cyprus','Zimbabwe'], 
                      'query_word': ['team','nation','country','who']},
       'County':{'value_type': 'string', 
                      'value_range': ['Wicklow','Kildare','Laois','Dublin','Meath','Louth'], 
                      'query_word': ['county','counties']},
       'Years': {'value_type':'date',
-						'query_word': ['years','year','when','time','times','latest']}, #'above', 'below','after','before','previous','next'
+						'query_word': ['years','year','time','times','when','latest']}, #'above', 'below','after','before','previous','next'
 			'Years_won': {'value_type':'date',
-            'query_word': ['years','year','when','time','times','latest']}, #'above', 'below','after','before','previous','next'
+            'query_word': ['years','year','time','times','when','latest']}, #'above', 'below','after','before','previous','next'
       'Wins': {'value_type':'int',
 						'query_word': []},
 			'Areas': {'value_type':'int',
@@ -157,8 +157,8 @@ class Config(object):
                         'India', 'Liechtenstein', 'US', 'Czech', 'Austria', 'Yugoslavia', 'Saudi_Arabia', 'UK',
                         'Greece', 'Japan', 'Taiwan','Scotland','Mongolia','England','Kazakhstan','Nepal','Wales','Moldova',
                         'Belarus','Latvia','Armenia','United_States','Czech_Republic','Jamaica','Great_Britain','Uzbekistan',
-                        'Malaysia','Uganda','Estonia','Croatia','Cuba','Morocco','Bahamas','Algeria','Cyprus'], 
-                     'query_word': ['country','nation','countries','nations','team','who']},
+                        'Malaysia','Uganda','Estonia','Croatia','Cuba','Morocco','Bahamas','Algeria','Cyprus','Zimbabwe'], 
+                     'query_word': ['nation','country','nations','countries','team','who']},
 			'Rank': {'value_type':'ordinal',
             #'value_range': ['first', 'second', 'third', '1st', '2nd', '3rd','last'],
 						'query_word': ['rank', 'ranked','ranking','ranks']}, #'above', 'below','after','before','previous','next'
@@ -185,7 +185,7 @@ class Config(object):
 						'value_range':['Goalkeeper','Defender','Midfielder','Forward','CB','DE','TE','S','QB'],
 						'query_word': ['position']},
 			'Year_inducted': {'value_type':'date',
-						'query_word': ['year','years','when','time','times','latest']}, #'above', 'below','after','before','previous','next'
+						'query_word': ['year','years','time','times','when','latest']}, #'above', 'below','after','before','previous','next'
 			'Apps': {'value_type':'int',
 						'query_word': ['appearance','appearances']},
 			'Discipline': {'value_type':'string',
@@ -228,9 +228,9 @@ class Config(object):
 			'Total_no._of_seats_in_Assembly': {'value_type':'int',
 						'query_word': ['seat', 'seats']},
 			'Year_of_Election': {'value_type':'date',
-						'query_word': ['year','years','when','time','times','latest']}, #'above', 'below','after','before','previous','next'
+						'query_word': ['year','years','time','times','when','latest']}, #'above', 'below','after','before','previous','next'
 			'Year': {'value_type':'date',
-						'query_word': ['year','years','when','time','times','latest']}, #'above', 'below','after','before','previous','next'
+						'query_word': ['year','years','time','times','when','latest']}, #'above', 'below','after','before','previous','next'
 			'1st_Venue': {'value_type': 'string', 
                        'value_range': ['Mexico_City','Changzhou','Sheffield','Veracruz','Doha','Beijing','Dubai','Nanjing',
                        'Havana','Cambridge','San_Jose','Boston','Nassau','Detroit','Hangzhou','Indianapolis','Shanghai','Austin',

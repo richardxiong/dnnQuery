@@ -1,0 +1,4245 @@
+wrong examples: 1
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 6
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 11
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 14
+select <field>:0 argmax <field>:0
+
+wrong examples: 15
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 20
+select <field>:0 next <field>:0 equal <value>:0
+
+wrong examples: 27
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 30
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 31
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 36
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 42
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 48
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 52
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 55
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 56
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 57
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 59
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 60
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 63
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 65
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 66
+select <field>:0 argmax <field>:1
+
+wrong examples: 72
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 77
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 79
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 84
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 86
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 87
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 89
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 90
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 94
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 95
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 97
+select <field>:0 argmax <field>:1
+
+wrong examples: 110
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 111
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 112
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 113
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 115
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 118
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 120
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 123
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 124
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 125
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 126
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 127
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 130
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 134
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 140
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 144
+<field>:3 <field>:1 <value>:2 <field>:3 avg <value>:2
+
+wrong examples: 145
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 146
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 148
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 154
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 157
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 164
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 166
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 169
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 174
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 176
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 177
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 178
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 180
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 181
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 182
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 184
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 185
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 186
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 187
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 189
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 190
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 195
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 196
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 197
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 198
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 200
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 204
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 210
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 214
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 216
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 219
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 223
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 224
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 238
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 239
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 240
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 246
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 247
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 248
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 249
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 255
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 257
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 258
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 265
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 266
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 268
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 269
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 271
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 275
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 280
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 282
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 287
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 288
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 294
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 296
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 297
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 300
+count <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 303
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 307
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 308
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 310
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 311
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 314
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 315
+select <field>:0 next <field>:0 equal <value>:0
+
+wrong examples: 316
+count <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 318
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 323
+select <field>:0 argmin <field>:0
+
+wrong examples: 325
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 332
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 333
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 336
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 338
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 340
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 343
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 344
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 346
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 348
+select <field>:0 where <field>:2 equal <value>:2
+
+wrong examples: 349
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 356
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 360
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 364
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 365
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 367
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 368
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 370
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 371
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 372
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 375
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 380
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 382
+select <field>:0 argmin <field>:1
+
+wrong examples: 386
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 387
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 390
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 391
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 393
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 399
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 400
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 402
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 403
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 406
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 408
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 411
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 416
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 422
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 425
+select <field>:0 next <field>:0 equal <value>:0
+
+wrong examples: 428
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 430
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 432
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 434
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 435
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 438
+select <field>:0 argmin <field>:1
+
+wrong examples: 439
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 440
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 443
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 444
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 446
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 447
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 451
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 452
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 453
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 458
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 459
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 461
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 463
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 464
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 471
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 474
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 475
+count <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 476
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 477
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 481
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 488
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 490
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 493
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 496
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 500
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 510
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 514
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 517
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 518
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 519
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 527
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 534
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 540
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 544
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 545
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 546
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 554
+select <field>:0 argmin <field>:1
+
+wrong examples: 561
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 564
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 569
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 570
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 571
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 572
+select <field>:0 where <field>:2 equal <value>:2
+
+wrong examples: 573
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 576
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 579
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 581
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 583
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 592
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 595
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 596
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 600
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 608
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 620
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 625
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 626
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 629
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 637
+select <field>:0 argmin <field>:1
+
+wrong examples: 638
+select <field>:2 where <field>:0 equal 5
+
+wrong examples: 642
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 644
+select <field>:0 argmax <field>:1
+
+wrong examples: 646
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
+
+wrong examples: 654
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 658
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 663
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 666
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 667
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 668
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 670
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 671
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 672
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 673
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 681
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 682
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 683
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 686
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 689
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 690
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 693
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 696
+select <field>:0 argmax <field>:2
+
+wrong examples: 699
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 700
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 705
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 706
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 709
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 711
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 721
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 723
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 725
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 731
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 735
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 742
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 743
+select <field>:0 next <field>:0 equal <value>:0
+
+wrong examples: 745
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 746
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 749
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 753
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 756
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 757
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 760
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 762
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 766
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 770
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 773
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 774
+select <field>:0 where <field>:1 equal 0 and <field>:2
+
+wrong examples: 776
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 778
+select <field>:0 argmin <field>:0
+
+wrong examples: 779
+select <field>:0 where <field>:1 equal <value>:1 and <field>:2
+
+wrong examples: 781
+select <field>:0 where <field>:2 equal <value>:2
+
+wrong examples: 783
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 785
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 787
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 788
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 792
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 794
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 800
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 802
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 805
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 809
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 810
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 812
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 817
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 821
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 822
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 824
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 825
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 826
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 828
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 832
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 833
+select <field>:0 where <field>:2 equal <value>:2
+
+wrong examples: 834
+select <field>:0 argmax <field>:1
+
+wrong examples: 837
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 838
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 839
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 840
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 842
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 846
+select <field>:0 argmax <field>:1
+
+wrong examples: 850
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 851
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 853
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 854
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 858
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 864
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 866
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 869
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 872
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 873
+select <field>:2 where <field>:0 equal 5
+
+wrong examples: 875
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 882
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 885
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 888
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 891
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 899
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 907
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 909
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 910
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 913
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 914
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 917
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 923
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 931
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 939
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 940
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 941
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 943
+count <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 944
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 946
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 948
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 950
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 951
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 955
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 960
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 962
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 964
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 966
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 967
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 970
+select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
+
+wrong examples: 971
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 972
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 976
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 977
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 979
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 980
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 982
+select <field>:0 argmax <field>:1
+
+wrong examples: 983
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 988
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1001
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1003
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 1007
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1010
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1011
+select <field>:0 argmin <field>:0
+
+wrong examples: 1014
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1016
+select <field>:2 where <field>:0 equal 5
+
+wrong examples: 1017
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1018
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1023
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1026
+select <field>:0 argmin <field>:0
+
+wrong examples: 1028
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1030
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1034
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1035
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 1040
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 1045
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1047
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1048
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1051
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1056
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1060
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 1064
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1066
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1067
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1076
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1080
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1085
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1086
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 1090
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 1093
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1095
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1097
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1099
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1101
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1102
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 1104
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 1105
+select <field>:2 where <field>:0 equal 5
+
+wrong examples: 1106
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1108
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1110
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 1113
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1114
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1117
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1118
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1119
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1120
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1122
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1124
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1128
+select <field>:0 where <field>:2 equal <value>:2
+
+wrong examples: 1130
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1132
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1140
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1141
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1143
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1146
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1149
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 1150
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1151
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1152
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1157
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1162
+select <field>:0 argmax <field>:1
+
+wrong examples: 1164
+select <field>:0 argmax <field>:1
+
+wrong examples: 1167
+select <field>:0 where <field>:1 equal <value>:1 and <field>:2
+
+wrong examples: 1172
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1174
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 1177
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1182
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1183
+select <field>:0 where <field>:1 equal 0 and <field>:2
+
+wrong examples: 1186
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1191
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 1193
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1195
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1199
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1202
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1203
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 1204
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1205
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1206
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1207
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1209
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1213
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 1219
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1220
+sum <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1230
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1232
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1237
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1240
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1249
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 1253
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1257
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1263
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1265
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1277
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1279
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1280
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1281
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 1288
+select <field>:2 where <field>:0 equal 5
+
+wrong examples: 1297
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1299
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1301
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1302
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1303
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1306
+count <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1309
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1313
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1314
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1319
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
+
+wrong examples: 1320
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1322
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1323
+sum <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1324
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1325
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1329
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1330
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1335
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1339
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1344
+select <field>:0 where <field>:1 equal 1
+
+wrong examples: 1346
+select <field>:0 argmin <field>:1
+
+wrong examples: 1347
+select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
+
+wrong examples: 1348
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 1349
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1351
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1354
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 1356
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1364
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1376
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1377
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1378
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1384
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1386
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1387
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1388
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1391
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1392
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1395
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1398
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1400
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1402
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1403
+select <field>:0 argmin <field>:0
+
+wrong examples: 1409
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1411
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 1414
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1417
+select <field>:0 where <field>:1 equal 0 and <field>:2
+
+wrong examples: 1418
+sum <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1420
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1421
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1422
+count <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1426
+select <field>:0 argmin <field>:0
+
+wrong examples: 1429
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1431
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1433
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 1434
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1435
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1437
+select <field>:0 argmax <field>:1
+
+wrong examples: 1447
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1450
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1455
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1456
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1457
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1462
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1465
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1467
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1473
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1476
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1482
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 1484
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1485
+select <field>:0 where <field>:1 equal <value>:1 and <field>:2
+
+wrong examples: 1492
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1498
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1507
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1509
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1514
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1516
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1518
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1519
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 1520
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1522
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1526
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1531
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1533
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1534
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1535
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 1538
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1540
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 1543
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1544
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1549
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1553
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1554
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1555
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1558
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1559
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1560
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1562
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 1564
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1565
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1570
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1571
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1572
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1574
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1575
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1577
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1582
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1584
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1586
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1590
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1593
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1594
+select <field>:0 argmin <field>:0
+
+wrong examples: 1595
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1596
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1597
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1600
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1602
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1603
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1604
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1607
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 1608
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1609
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 1610
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1612
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1613
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1617
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1619
+select <field>:0 where <field>:1 greater 0 and <field>:2
+
+wrong examples: 1621
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 1622
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1623
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1625
+select <field>:0 argmin <field>:0
+
+wrong examples: 1626
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1627
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1630
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1631
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1632
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1634
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1640
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1646
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1647
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1653
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1656
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1657
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1666
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 1668
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1669
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1670
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1673
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1674
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1680
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1683
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1686
+select <field>:0 argmin Year greater <value>:2
+
+wrong examples: 1687
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1689
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1693
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1704
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1705
+select <field>:2 where <field>:0 equal 5
+
+wrong examples: 1711
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1714
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1718
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1719
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 1720
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1722
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1723
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1724
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1726
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1732
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1737
+select <field>:0 where <field>:1 equal 1
+
+wrong examples: 1741
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1742
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1751
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1758
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1759
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 1761
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1762
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1763
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1765
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1769
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1772
+select <field>:0 argmin 0 greater <value>:2 Number Year
+
+wrong examples: 1774
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 1776
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1777
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1778
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1784
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 1787
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1788
+sum <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1796
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1808
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1809
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1811
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1812
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1815
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1818
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1821
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1822
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1828
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1830
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1832
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 1837
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1838
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 1840
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1841
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1846
+count <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1848
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1851
+select <field>:2 where <field>:0 equal 5
+
+wrong examples: 1854
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 1855
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1858
+select <field>:0 argmax <field>:2
+
+wrong examples: 1859
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 1860
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 1864
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1865
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1866
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1869
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1871
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1873
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 1874
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1881
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1882
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1884
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1885
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1886
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1889
+select <field>:0 argmax <field>:1
+
+wrong examples: 1890
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1891
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 1893
+select <field>:0 argmax <field>:1
+
+wrong examples: 1896
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1900
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1903
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1908
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1909
+select <field>:0 where <field>:1 greater 0 and <field>:2
+
+wrong examples: 1910
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1911
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1915
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1916
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1921
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1922
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 1923
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1930
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 1931
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 1934
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1941
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1942
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1943
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1948
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1952
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1955
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1956
+count <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 1964
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 1968
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1975
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 1976
+<field>:3 <field>:1 greater <value>:2
+
+wrong examples: 1979
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 1987
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 1988
+select <field>:0 argmax <field>:1
+
+wrong examples: 1989
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 1992
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 1994
+<field>:3 <field>:1 greater <value>:2
+
+wrong examples: 1998
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2002
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2005
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2006
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2007
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 2009
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2010
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2012
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2019
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2021
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2026
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2029
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2030
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2033
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2034
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2039
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2042
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2049
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 2054
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2058
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 2060
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2063
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
+
+wrong examples: 2064
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2067
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2069
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2070
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2071
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2078
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 2082
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2083
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2084
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2085
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2087
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2091
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2093
+select <field>:0 where <field>:1 greater 0 and <field>:2
+
+wrong examples: 2094
+select <field>:0 argmax <field>:1
+
+wrong examples: 2095
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2098
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2104
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2108
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2111
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2112
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 2114
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2116
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2117
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2118
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2122
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 2125
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2129
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 2130
+select <field>:0 where <field>:1 greater 0 and <field>:2
+
+wrong examples: 2132
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2135
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2138
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2139
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 2140
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2142
+<field>:3 <field>:1 <value>:2 <field>:3 avg <value>:2
+
+wrong examples: 2143
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2155
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2158
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2160
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2177
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2178
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2179
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2181
+select <field>:0 where <field>:1 greater 0 and <field>:2
+
+wrong examples: 2187
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2194
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2197
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2198
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2209
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2211
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2214
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2216
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2219
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2225
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
+
+wrong examples: 2230
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2239
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2240
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2243
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2245
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2247
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2250
+count <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 2251
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2254
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 2256
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2257
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 2258
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2262
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2267
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2272
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2275
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2280
+select <field>:0 where <field>:1 equal 0 and <field>:2
+
+wrong examples: 2283
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2285
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2288
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2291
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2295
+select <field>:0 argmin <field>:2 greater <value>:2
+
+wrong examples: 2297
+select <field>:0 argmin <field>:0
+
+wrong examples: 2300
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2302
+select <field>:2 where <field>:0 equal 5
+
+wrong examples: 2305
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2307
+select <field>:0 argmax <field>:1
+
+wrong examples: 2308
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2309
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2317
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 2318
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2320
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2322
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2324
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2325
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2326
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
+
+wrong examples: 2328
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 2329
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2333
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2334
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2337
+count <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 2338
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2340
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2344
+count <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 2348
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2349
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2351
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2353
+select <field>:0 argmin <field>:1
+
+wrong examples: 2357
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2359
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2364
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2365
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 2366
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2367
+select <field>:0 argmax <field>:1
+
+wrong examples: 2368
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 2369
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2372
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2378
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2380
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2381
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 2390
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2393
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2400
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 2405
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2407
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2410
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2415
+select <field>:0 argmax <field>:1
+
+wrong examples: 2416
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2418
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2419
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2420
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2421
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2423
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2425
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2427
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 2432
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 2433
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2435
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 2442
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2443
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 2444
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2446
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 2450
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2452
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2455
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2459
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2461
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2464
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2467
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2468
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2469
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2472
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2473
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2474
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2483
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2485
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2486
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2488
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
+
+wrong examples: 2489
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2490
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2491
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2494
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 2496
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2501
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2502
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2505
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2509
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2511
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2512
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2514
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 2515
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2516
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2517
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2518
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2521
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2524
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2525
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2526
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2527
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2529
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2533
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2535
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
+
+wrong examples: 2537
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2541
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 2543
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2544
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2547
+select <field>:0 argmin <field>:1
+
+wrong examples: 2549
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2551
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2554
+select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
+
+wrong examples: 2557
+select <field>:0 where <field>:1 equal <value>:1 and <field>:2
+
+wrong examples: 2558
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 2559
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2562
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
+
+wrong examples: 2572
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 2573
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 2575
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2576
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 2577
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2578
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2581
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2585
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2587
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 2588
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2589
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2590
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2592
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2594
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2601
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2602
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2603
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2607
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2611
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2612
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2615
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2623
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2630
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2633
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2638
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 2647
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2651
+select <field>:0 argmin <field>:0
+
+wrong examples: 2652
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2656
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2661
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2663
+select <field>:0 where <field>:1 equal <value>:1 and <field>:2
+
+wrong examples: 2665
+select <field>:0 argmax <field>:1
+
+wrong examples: 2672
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2673
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2677
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2680
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2682
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2687
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2689
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2690
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 2691
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2693
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2694
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2696
+select <field>:2 where <field>:0 equal 5
+
+wrong examples: 2697
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
+
+wrong examples: 2700
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2704
+select <field>:0 argmin <field>:0
+
+wrong examples: 2705
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2711
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2717
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2721
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 2722
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 2726
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 2730
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2731
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2735
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 2737
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2739
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2742
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2744
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 2746
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2747
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2749
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2754
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2758
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2761
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2762
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2763
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2764
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2765
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 2769
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2771
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2773
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2774
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2775
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2776
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2778
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2779
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 2781
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2782
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2783
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2786
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 2787
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 2791
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2792
+select <field>:0 argmin <field>:1
+
+wrong examples: 2794
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2799
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 2800
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+train accuracy: 0.644285714286
+wrong examples: 1
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 2
+select <field>:0 argmax <field>:1
+
+wrong examples: 3
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 6
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 13
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 16
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 17
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 21
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 23
+select <field>:0 where <field>:1 equal 1
+
+wrong examples: 31
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 33
+select <field>:2 where <field>:0 equal 5
+
+wrong examples: 48
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 53
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 54
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 61
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 64
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 65
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 66
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 68
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 69
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 70
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 74
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 76
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 77
+select <field>:2 where <field>:0 equal 5
+
+wrong examples: 79
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 80
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 81
+select <field>:0 argmax <field>:1
+
+wrong examples: 93
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 97
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 98
+select <field>:0 argmin <field>:1
+
+wrong examples: 101
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 103
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 109
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 113
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 115
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 117
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 125
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 128
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 132
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 133
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 136
+select <field>:0 where <field>:1 equal 0 and <field>:2
+
+wrong examples: 139
+diff <field>:0 argmax <field>:0 and argmin <field>:0
+
+wrong examples: 141
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 144
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 146
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 150
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 151
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 156
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 160
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 162
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 164
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 169
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 170
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 172
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 177
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 183
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 188
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 189
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 192
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 195
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 196
+select <field>:0 argmin <field>:1
+
+wrong examples: 197
+select <field>:2 where <field>:0 equal 5
+
+wrong examples: 199
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 200
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 203
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 205
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 208
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 211
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 214
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 218
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 223
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 224
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 227
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 228
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 229
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 231
+select Total argmax <field>:1
+
+wrong examples: 233
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 239
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 242
+select <field>:0 argmax <field>:1
+
+wrong examples: 246
+sum <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 247
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 248
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 252
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 253
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 258
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 262
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 265
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 267
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 268
+count <field>:0 where Total greater 0
+
+wrong examples: 269
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 270
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 272
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 274
+select <field>:0 next <field>:0 equal <value>:0
+
+wrong examples: 276
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 277
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 278
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 284
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 285
+select <field>:0 argmax <field>:1
+
+wrong examples: 286
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 291
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 299
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 303
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 305
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 306
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 309
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 314
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 316
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 320
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 321
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 323
+select <field>:0 next <field>:0 equal <value>:0
+
+wrong examples: 325
+select <field>:0 argmin <field>:1
+
+wrong examples: 329
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 330
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 331
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 336
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 342
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 345
+select <field>:0 argmin <field>:0
+
+wrong examples: 346
+select <field>:0 argmin <field>:0
+
+wrong examples: 348
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 349
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 351
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 353
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 354
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 356
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 359
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 363
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 366
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 368
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 371
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 373
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 375
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 377
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 379
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 381
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 385
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 387
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 391
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 393
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 394
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 402
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 405
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 407
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
+
+wrong examples: 408
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 409
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 410
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 412
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 413
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 414
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 416
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 419
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 420
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 421
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 423
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 426
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 427
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 428
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 429
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 431
+select <field>:0 argmax <field>:1
+
+wrong examples: 432
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 433
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 436
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 438
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 440
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 442
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 443
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 444
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 445
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 446
+select <field>:0 argmin <field>:0
+
+wrong examples: 448
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 450
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 455
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 461
+<field>:3 <field>:1 greater <value>:2
+
+wrong examples: 466
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 468
+select <field>:0 next <field>:0 equal <value>:0
+
+wrong examples: 472
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 473
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 476
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 477
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 479
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 480
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 482
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 488
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 492
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 495
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 497
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 498
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 502
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 504
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 512
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 513
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 524
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 525
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 526
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 529
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 530
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 532
+count <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 537
+select <field>:0 argmax <field>:1
+
+wrong examples: 539
+select <field>:0 argmin <field>:1
+
+wrong examples: 543
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 548
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 552
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 553
+select <field>:0 argmax <field>:2
+
+wrong examples: 560
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 562
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 564
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 565
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 572
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 574
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 575
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 576
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 577
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 579
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 580
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 582
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 583
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 585
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 588
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 590
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 591
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 592
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 594
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 596
+avg <field>:0 where <field>:1 equal <value>:1
+
+dev accuracy: 0.63
+wrong examples: 2
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 3
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 5
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 6
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 10
+select <field>:0 argmin <field>:2
+
+wrong examples: 12
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 15
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 20
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 22
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 30
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 35
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 40
+select <field>:0 argmax <field>:1
+
+wrong examples: 43
+sum <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 44
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 46
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 48
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 52
+select <field>:0 where <field>:1 equal 1
+
+wrong examples: 62
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 63
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 70
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 72
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 80
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 81
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 83
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 84
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 86
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 90
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 92
+<field>:3 <field>:1 <value>:2 <field>:3 avg <value>:2
+
+wrong examples: 94
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 98
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 100
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 103
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 104
+select <field>:0 argmax <field>:1
+
+wrong examples: 107
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 108
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 110
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 111
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 112
+count <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 114
+select <field>:0 argmax <field>:1
+
+wrong examples: 116
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 117
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 125
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 131
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 133
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 143
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 146
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 147
+select <field>:0 argmax <field>:2
+
+wrong examples: 149
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 150
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 152
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 160
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 163
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 165
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 167
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 168
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 169
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 173
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 180
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 181
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 182
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 185
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 186
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 188
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 192
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 193
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 197
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 202
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 203
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 207
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 209
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 214
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 215
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 222
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 223
+select <field>:0 argmax <field>:1
+
+wrong examples: 225
+select <field>:2 where <field>:0 equal 5
+
+wrong examples: 229
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 230
+select <field>:0 next <field>:0 equal <value>:0
+
+wrong examples: 231
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 232
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 235
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 236
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 237
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 240
+select <field>:0 argmax <field>:1
+
+wrong examples: 241
+sum <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 242
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 243
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 244
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 245
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 247
+select <field>:0 argmax <field>:1
+
+wrong examples: 249
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 250
+select <field>:0 argmax <field>:1
+
+wrong examples: 258
+select <field>:0 argmin <field>:1
+
+wrong examples: 268
+select <field>:2 where <field>:0 equal 5
+
+wrong examples: 269
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 278
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 280
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 283
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 284
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 286
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 287
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 289
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 290
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 291
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 292
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 293
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 296
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 297
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 300
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 301
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 302
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 303
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 306
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 311
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 312
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 315
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 320
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 321
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 323
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 330
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 333
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 334
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 337
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 338
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 339
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 340
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 342
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 345
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 349
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 350
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 351
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 352
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 353
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 355
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 356
+select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
+
+wrong examples: 357
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 358
+select <field>:0 argmax <field>:3 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+
+wrong examples: 362
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 364
+select <field>:0 argmin Number where <field>:1 equal <value>:1
+
+wrong examples: 365
+select <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 368
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 369
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 371
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 372
+count <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 377
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 382
+select <field>:0 where <field>:1 greater <value>:1 and <field>:1
+
+wrong examples: 385
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 394
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 397
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 402
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 403
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 404
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 405
+sum <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 407
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 408
+select <field>:0 argmin <field>:0
+
+wrong examples: 414
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 415
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 416
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 417
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 418
+sum <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 423
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 428
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 429
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 430
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 431
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 432
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 434
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 436
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 437
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 439
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 441
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 442
+select <field>:0 where <field>:1 greater <value>:1 and <field>:2
+
+wrong examples: 447
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 448
+select <field>:0 where <field>:1 greater 0 and <field>:2
+
+wrong examples: 449
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 453
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 456
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 458
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 461
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 463
+count <field>:0 where <field>:1 less <value>:1
+
+wrong examples: 473
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 474
+select <field>:0 next <field>:0 equal <value>:0
+
+wrong examples: 478
+select <field>:0 where <field>:1 equal 0 and <field>:2
+
+wrong examples: 479
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 480
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 482
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 485
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 486
+select <field>:0 argmax <field>:2 where <field>:1 greater where <field>:0 equal <value>:0
+
+wrong examples: 487
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2 and <field>:2 less <value>:2
+
+wrong examples: 488
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+wrong examples: 491
+select <field>:0 prev <field>:0 equal <value>:0
+
+wrong examples: 492
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 496
+avg <field>:0 where <field>:1 equal <value>:1
+
+wrong examples: 497
+select <field>:2 where <field>:0 equal 5
+
+wrong examples: 500
+select <field>:0 avg <field>:1 <field>:2 <field>:2 greater <value>:2
+
+wrong examples: 501
+select <field>:0 argmin <field>:1 where <field>:2 greater <value>:2
+
+wrong examples: 506
+select <field>:0 argmin <field>:3 where <field>:1 greater <value>:1 and <field>:2 less <value>:2
+
+test accuracy: 0.616438356164
