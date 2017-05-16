@@ -253,9 +253,9 @@ def train():
         step_time, loss = 0.0, 0.0
         # Run evals on development set and print their perplexity.
         ### Open a txt file recording the last hidden state
-        filename = "last_hidden_state-"+str(model.global_step.eval())+".txt"
-        lasthidden_path = os.path.join("./PCA-visual/", filename)
-        f_lh = open(lasthidden_path, 'w')
+        #filename = "last_hidden_state-"+str(model.global_step.eval())+".txt"
+        #lasthidden_path = os.path.join("./PCA-visual/", filename)
+        #f_lh = open(lasthidden_path, 'w')
         for bucket_id in xrange(len(_buckets)):
           if len(dev_set[bucket_id]) == 0:
             print("  eval: empty bucket %d" % (bucket_id))
@@ -269,12 +269,12 @@ def train():
           print("  eval: bucket %d perplexity %.2f" % (bucket_id, eval_ppx))
           ### Print hidden state to file
           #print("   bucket %d has %d samples" % (bucket_id, len(eval_lasthidden)))
-          for j in range(FLAGS.batch_size):
-            for i in range(FLAGS.num_layers): # all the layer of encoders are outputed
-              words = [str(num) for num in eval_lasthidden[i][j]]
-              f_lh.write(','.join(words))
-            f_lh.write('\n')
-        f_lh.close()
+          # for j in range(FLAGS.batch_size):
+          #   for i in range(FLAGS.num_layers): # all the layer of encoders are outputed
+          #     words = [str(num) for num in eval_lasthidden[i][j]]
+          #     f_lh.write(','.join(words))
+          #   f_lh.write('\n')
+        #f_lh.close()
         sys.stdout.flush()
 
 
