@@ -25,6 +25,30 @@ class Config(object):
     embedding_matrix, vocab, word_vector = scratch.generateEmbedMatrix(vocabulary_path, max_vocabulary_size, glove_path)
     # all keys for word_vector are in lowercase
 
+    schema_collect = [['Nation','Rank','Gold','Silver','Bronze','Total'],
+                      ['Name','Year_inducted','Position','Apps','Goals'],
+                      ['State','Year_of_Election','No._of_candidates','No._of_elected','Total_no._of_seats_in_Assembly'],
+                      ['Team','Years_won','County','Wins','Areas','Prices'], 
+                      ['Player','Matches','Innings','Runs','Average','100s','50s','Games_Played','Field_Goals','Free_Throws','Points'], 
+                      ['Country','Masters','U.S._Open','The_Open','PGA','Total'],
+                      ['Discipline','Amanda','Bernie','Javine_H','Julia','Michelle'], 
+                      ['Nation','Name','Position','League_Apps','League_Goals','FA_Cup_Apps','FA_Cup_Goals','Total_Apps','Total_Goals'], 
+                      ['Swara','Position','Short_name','Notation','Mnemonic'], 
+                      ['Year','1st_Venue','2nd_Venue','3rd_Venue','4th_Venue','5th_Venue','6th_Venue'], 
+                      ['Menteri_Besar','Took_office','Left_office','Party']]
+    
+    schema_collect_type = [['string','ordinal','int','int','int','int'],
+                      ['string','date','string','int','int'],
+                      ['string','date','int','int','int'],
+                      ['string','date','string','int','int','int'], 
+                      ['string','int','int','int','int','int','int','int','int','int','int'], 
+                      ['string','int','int','int','int'],
+                      ['string','int','int','int','int','int'], 
+                      ['string','string','string','int','int','int','int','int','int'], 
+                      ['string','string','string','string','string'], 
+                      ['string','string','string','string','string','string','string'], 
+                      ['string','date','date','string']]
+
     field2word = {
 			'sum': {'value_type': 'string', 
                        'value_range': [], 
