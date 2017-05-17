@@ -31,11 +31,12 @@ class Config(object):
                       ['Team','Years_won','County','Wins','Areas','Prices'], 
                       ['Player','Matches','Innings','Runs','Average','100s','50s','Games_Played','Field_Goals','Free_Throws','Points'], 
                       ['Country','Masters','U.S._Open','The_Open','PGA','Total'],
-                      ['Discipline','Amanda','Bernie','Javine_H','Julia','Michelle'], 
                       ['Nation','Name','Position','League_Apps','League_Goals','FA_Cup_Apps','FA_Cup_Goals','Total_Apps','Total_Goals'], 
                       ['Swara','Position','Short_name','Notation','Mnemonic'], 
                       ['Year','1st_Venue','2nd_Venue','3rd_Venue','4th_Venue','5th_Venue','6th_Venue'], 
-                      ['Menteri_Besar','Took_office','Left_office','Party']]
+                      ['Menteri_Besar','Took_office','Left_office','Party'], 
+                      ['Discipline','Amanda','Bernie','Javine_H','Julia','Michelle']  # special
+                      ]
     
     schema_collect_type = [['string','ordinal','int','int','int','int'],
                       ['string','date','string','int','int'],
@@ -43,11 +44,12 @@ class Config(object):
                       ['string','date','string','int','int','int'], 
                       ['string','int','int','int','int','int','int','int','int','int','int'], 
                       ['string','int','int','int','int'],
-                      ['string','int','int','int','int','int'], 
                       ['string','string','string','int','int','int','int','int','int'], 
                       ['string','string','string','string','string'], 
                       ['string','string','string','string','string','string','string'], 
-                      ['string','date','date','string']]
+                      ['string','date','date','string'], 
+                      ['string','int','int','int','int','int']  # special
+                      ]
 
     field2word = {
 			'sum': {'value_type': 'string', 
@@ -107,7 +109,7 @@ class Config(object):
                      'query_word': ['team','nation','country','who']},
       'County':{'value_type': 'string', 
                      'value_range': ['Wicklow','Kildare','Laois','Dublin','Meath','Louth'], 
-                     'query_word': ['county','counties']},
+                     'query_word': ['county','counties','who']},
       'Years': {'value_type':'date',
 						'query_word': ['years','year','time','times','when','latest']}, #'above', 'below','after','before','previous','next'
 			'Years_won': {'value_type':'date',
@@ -122,7 +124,7 @@ class Config(object):
                      'value_range': ['Shadja','Shuddha_Rishabha','Chatushruti_Rishabha','Shuddha_Gandhara','Shatshruti_Rishabha',
                      'Sadharana_Gandhara','Antara_Gandhara','Shuddha_Madhyama','Prati_Madhyama','Panchama','Shuddha_Dhaivata',
                      'Chatushruti_Dhaivata','Shuddha_Nishada','Shatshruti_Dhaivata','Kaisiki_Nishada','Kakali_Nishada'], 
-                     'query_word': ['swara']},
+                     'query_word': ['swara','player','who']},
       'Short_name': {'value_type': 'string', 
                      'value_range': ['Pa','Sa','Ga','Gu','Gi','Ra','Ri','Ru','Ma','Mi','Dha','Dhi','Dhu','Na','Ni','Nu'], 
                      'query_word': ['short_name']},
@@ -214,7 +216,7 @@ class Config(object):
 						'query_word': ['appearance','appearances']},
 			'Discipline': {'value_type':'string',
             'value_range': ['Hurdles', 'Cycling', 'Swimming', 'Curling', 'Archery', 'Hammer','Whitewater_Kayak'],
-            'query_word': []},
+            'query_word': ['discipline']},
       'Amanda':{'value_type':'int',
             'query_word': ['amanda']},
       'Bernie':{'value_type':'int',
