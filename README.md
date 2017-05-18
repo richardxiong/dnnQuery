@@ -1,4 +1,4 @@
-# Transferable Deep Neural Natural Language Interface for Database
+# Transfer-learnable Deep Neural Natural Language Interface for Database
 
 
 1 Introduction 
