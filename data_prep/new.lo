@@ -1,1747 +1,2045 @@
-select Bronze where Nation equal Ireland
-select Bronze where Nation equal Kuwait
+select Nation argmin Bronze
+select Nation argmin Silver
+select Nation argmin Gold
+select Nation argmin Bronze
+select Nation argmin Silver
+select Nation argmin Gold
+select Position argmin Apps
+select Name argmin Apps
+select Position argmin Goals
+select Name argmin Goals
+select State argmin Total_no._of_seats_in_Assembly
+select State argmin No._of_candidates
+select State argmin No._of_elected
+select County argmin Prices
+select Team argmin Prices
+select County argmin Wins
+select Team argmin Wins
+select County argmin Areas
+select Team argmin Areas
+select Player argmin Innings
+select Player argmin Runs
+select Player argmin Matches
+select Player argmin Field_Goals
+select Player argmin Free_Throws
+select Player argmin Points
+select Player argmin Games_Played
+select Player argmin 100s
+select Player argmin 50s
+select Country argmin U.S._Open
+select Country argmin Masters
+select Country argmin The_Open
+select Country argmin PGA
+select Position argmin Total_Apps
+select Name argmin Total_Apps
+select Nation argmin Total_Apps
+select Position argmin FA_Cup_Apps
+select Name argmin FA_Cup_Apps
+select Nation argmin FA_Cup_Apps
+select Position argmin Total_Goals
+select Name argmin Total_Goals
+select Nation argmin Total_Goals
+select Position argmin FA_Cup_Goals
+select Name argmin FA_Cup_Goals
+select Nation argmin FA_Cup_Goals
+select Position argmin League_Apps
+select Name argmin League_Apps
+select Nation argmin League_Apps
+select Position argmin League_Goals
+select Name argmin League_Goals
+select Nation argmin League_Goals
+select Country argmin U.S._Open
+select Country argmin Masters
+select Country argmin The_Open
+select Country argmin PGA
+select Nation argmin Bronze
+select Nation argmin Silver
+select Nation argmin Gold
+select Position argmin Apps
+select Name argmin Apps
+select Position argmin Goals
+select Name argmin Goals
+select State argmin Total_no._of_seats_in_Assembly
+select State argmin No._of_candidates
+select State argmin No._of_elected
+select County argmin Prices
+select Team argmin Prices
+select County argmin Wins
+select Team argmin Wins
+select County argmin Areas
+select Team argmin Areas
+select Player argmin Innings
+select Player argmin Runs
+select Player argmin Matches
+select Player argmin Field_Goals
+select Player argmin Free_Throws
+select Player argmin Points
+select Player argmin Games_Played
+select Player argmin 100s
+select Player argmin 50s
+select Country argmin U.S._Open
+select Country argmin Masters
+select Country argmin The_Open
+select Country argmin PGA
+select Position argmin Total_Apps
+select Name argmin Total_Apps
+select Nation argmin Total_Apps
+select Position argmin FA_Cup_Apps
+select Name argmin FA_Cup_Apps
+select Nation argmin FA_Cup_Apps
+select Position argmin Total_Goals
+select Name argmin Total_Goals
+select Nation argmin Total_Goals
+select Position argmin FA_Cup_Goals
+select Name argmin FA_Cup_Goals
+select Nation argmin FA_Cup_Goals
+select Position argmin League_Apps
+select Name argmin League_Apps
+select Nation argmin League_Apps
+select Position argmin League_Goals
+select Name argmin League_Goals
+select Nation argmin League_Goals
+select Nation argmin Bronze
+select Nation argmin Silver
+select Nation argmin Gold
+select Nation argmin Bronze
+select Nation argmin Silver
+select Nation argmin Gold
+select Nation argmin Bronze
+select Nation argmin Silver
+select Nation argmin Gold
+select Position argmin Apps
+select Name argmin Apps
+select Position argmin Goals
+select Name argmin Goals
+select State argmin Total_no._of_seats_in_Assembly
+select State argmin No._of_candidates
+select State argmin No._of_elected
+select County argmin Prices
+select Team argmin Prices
+select County argmin Wins
+select Team argmin Wins
+select County argmin Areas
+select Team argmin Areas
+select Player argmin Innings
+select Player argmin Runs
+select Player argmin Matches
+select Player argmin Field_Goals
+select Player argmin Free_Throws
+select Player argmin Points
+select Player argmin Games_Played
+select Player argmin 100s
+select Player argmin 50s
+select Country argmin U.S._Open
+select Country argmin Masters
+select Country argmin The_Open
+select Country argmin PGA
+select Position argmin Total_Apps
+select Name argmin Total_Apps
+select Nation argmin Total_Apps
+select Position argmin FA_Cup_Apps
+select Name argmin FA_Cup_Apps
+select Nation argmin FA_Cup_Apps
+select Position argmin Total_Goals
+select Name argmin Total_Goals
+select Nation argmin Total_Goals
+select Position argmin FA_Cup_Goals
+select Name argmin FA_Cup_Goals
+select Nation argmin FA_Cup_Goals
+select Position argmin League_Apps
+select Name argmin League_Apps
+select Nation argmin League_Apps
+select Position argmin League_Goals
+select Name argmin League_Goals
+select Nation argmin League_Goals
+select Nation argmin Rank
+select Nation argmin Rank
+select Nation argmin Rank
+select Nation argmin Bronze
+select Nation argmin Silver
+select Nation argmin Gold
+select Nation argmin Rank
+select Nation argmin Rank
+select Nation argmin Rank
+select Nation argmin Rank
+select Nation argmin Rank
+select Nation argmin Rank
+select Player argmin Player
+select State argmin State
+select Nation argmin Nation
+select Position argmin Position
+select Name argmin Name
+select State argmin State
+select County argmin County
+select Team argmin Team
+select Player argmin Player
+select Country argmin Country
+select Nation argmin Nation
+select Mnemonic argmin Mnemonic
+select Swara argmin Swara
+select Short_name argmin Short_name
+select Notation argmin Notation
+select 2nd_Venue argmin 2nd_Venue
+select 5th_Venue argmin 5th_Venue
+select 4th_Venue argmin 4th_Venue
+select 3rd_Venue argmin 3rd_Venue
+select 6th_Venue argmin 6th_Venue
+select 1st_Venue argmin 1st_Venue
+select Name argmin Name
+select Position argmin Position
+select Team argmin Team
+select County argmin County
+select Nation argmin Nation
+select Nation argmin Nation
+select Position argmin Position
+select Name argmin Name
+select Position argmin Position
+select Swara argmin Swara
+select Short_name argmin Short_name
+select Notation argmin Notation
+select Mnemonic argmin Mnemonic
+select Swara argmin Swara
+select Short_name argmin Short_name
+select Notation argmin Notation
+select Mnemonic argmin Mnemonic
+select Position argmin Position
+select Short_name argmin Short_name
+select Notation argmin Notation
+select Mnemonic argmin Mnemonic
+select Position argmin Position
+select Swara argmin Swara
+select Notation argmin Notation
+select Mnemonic argmin Mnemonic
+select Position argmin Position
+select Swara argmin Swara
+select Short_name argmin Short_name
+select 5th_Venue argmin 5th_Venue
+select 4th_Venue argmin 4th_Venue
+select 3rd_Venue argmin 3rd_Venue
+select 6th_Venue argmin 6th_Venue
+select 1st_Venue argmin 1st_Venue
+select 2nd_Venue argmin 2nd_Venue
+select 4th_Venue argmin 4th_Venue
+select 3rd_Venue argmin 3rd_Venue
+select 6th_Venue argmin 6th_Venue
+select 1st_Venue argmin 1st_Venue
+select 2nd_Venue argmin 2nd_Venue
+select 5th_Venue argmin 5th_Venue
+select 3rd_Venue argmin 3rd_Venue
+select 6th_Venue argmin 6th_Venue
+select 1st_Venue argmin 1st_Venue
+select 2nd_Venue argmin 2nd_Venue
+select 5th_Venue argmin 5th_Venue
+select 4th_Venue argmin 4th_Venue
+select 6th_Venue argmin 6th_Venue
+select 1st_Venue argmin 1st_Venue
+select 2nd_Venue argmin 2nd_Venue
+select 5th_Venue argmin 5th_Venue
+select 4th_Venue argmin 4th_Venue
+select 3rd_Venue argmin 3rd_Venue
+select 1st_Venue argmin 1st_Venue
+select 2nd_Venue argmin 2nd_Venue
+select 5th_Venue argmin 5th_Venue
+select 4th_Venue argmin 4th_Venue
+select 3rd_Venue argmin 3rd_Venue
+select 6th_Venue argmin 6th_Venue
+select Nation argmin Nation
+select Position argmin Position
+select Name argmin Name
+select State argmin State
+select County argmin County
+select Team argmin Team
+select Player argmin Player
+select Nation argmin Nation
+select Mnemonic argmin Mnemonic
+select Swara argmin Swara
+select Short_name argmin Short_name
+select Notation argmin Notation
+select 2nd_Venue argmin 2nd_Venue
+select 5th_Venue argmin 5th_Venue
+select 4th_Venue argmin 4th_Venue
+select 3rd_Venue argmin 3rd_Venue
+select 6th_Venue argmin 6th_Venue
+select 1st_Venue argmin 1st_Venue
+select Bronze argmin Bronze
+select Silver argmin Silver
+select Gold argmin Gold
+select Apps argmin Apps
+select Goals argmin Goals
+select Total_no._of_seats_in_Assembly argmin Total_no._of_seats_in_Assembly
+select No._of_candidates argmin No._of_candidates
+select No._of_elected argmin No._of_elected
+select Prices argmin Prices
+select Wins argmin Wins
+select Areas argmin Areas
+select Innings argmin Innings
+select Runs argmin Runs
+select Matches argmin Matches
+select Free_Throws argmin Free_Throws
+select Points argmin Points
+select Games_Played argmin Games_Played
+select 100s argmin 100s
+select 50s argmin 50s
+select U.S._Open argmin U.S._Open
+select Masters argmin Masters
+select The_Open argmin The_Open
+select PGA argmin PGA
+select Total_Apps argmin Total_Apps
+select FA_Cup_Apps argmin FA_Cup_Apps
+select Total_Goals argmin Total_Goals
+select FA_Cup_Goals argmin FA_Cup_Goals
+select League_Apps argmin League_Apps
+select League_Goals argmin League_Goals
+select Player argmax Player
+select State argmax State
+select Nation argmax Nation
+select Position argmax Position
+select Name argmax Name
+select State argmax State
+select County argmax County
+select Team argmax Team
+select Player argmax Player
+select Nation argmax Nation
+select Mnemonic argmax Mnemonic
+select Swara argmax Swara
+select Short_name argmax Short_name
+select Notation argmax Notation
+select 2nd_Venue argmax 2nd_Venue
+select 5th_Venue argmax 5th_Venue
+select 4th_Venue argmax 4th_Venue
+select 3rd_Venue argmax 3rd_Venue
+select 6th_Venue argmax 6th_Venue
+select 1st_Venue argmax 1st_Venue
+select Name argmax Name
+select Position argmax Position
+select Team argmax Team
+select County argmax County
+select Nation argmax Nation
+select Nation argmax Nation
+select Position argmax Position
+select Name argmax Name
+select Position argmax Position
+select Swara argmax Swara
+select Short_name argmax Short_name
+select Notation argmax Notation
+select Mnemonic argmax Mnemonic
+select Swara argmax Swara
+select Short_name argmax Short_name
+select Notation argmax Notation
+select Mnemonic argmax Mnemonic
+select Position argmax Position
+select Short_name argmax Short_name
+select Notation argmax Notation
+select Mnemonic argmax Mnemonic
+select Position argmax Position
+select Swara argmax Swara
+select Notation argmax Notation
+select Mnemonic argmax Mnemonic
+select Position argmax Position
+select Swara argmax Swara
+select Short_name argmax Short_name
+select 5th_Venue argmax 5th_Venue
+select 4th_Venue argmax 4th_Venue
+select 3rd_Venue argmax 3rd_Venue
+select 6th_Venue argmax 6th_Venue
+select 1st_Venue argmax 1st_Venue
+select 2nd_Venue argmax 2nd_Venue
+select 4th_Venue argmax 4th_Venue
+select 3rd_Venue argmax 3rd_Venue
+select 6th_Venue argmax 6th_Venue
+select 1st_Venue argmax 1st_Venue
+select 2nd_Venue argmax 2nd_Venue
+select 5th_Venue argmax 5th_Venue
+select 3rd_Venue argmax 3rd_Venue
+select 6th_Venue argmax 6th_Venue
+select 1st_Venue argmax 1st_Venue
+select 2nd_Venue argmax 2nd_Venue
+select 5th_Venue argmax 5th_Venue
+select 4th_Venue argmax 4th_Venue
+select 6th_Venue argmax 6th_Venue
+select 1st_Venue argmax 1st_Venue
+select 2nd_Venue argmax 2nd_Venue
+select 5th_Venue argmax 5th_Venue
+select 4th_Venue argmax 4th_Venue
+select 3rd_Venue argmax 3rd_Venue
+select 1st_Venue argmax 1st_Venue
+select 2nd_Venue argmax 2nd_Venue
+select 5th_Venue argmax 5th_Venue
+select 4th_Venue argmax 4th_Venue
+select 3rd_Venue argmax 3rd_Venue
+select 6th_Venue argmax 6th_Venue
+select Bronze argmax Bronze
+select Silver argmax Silver
+select Gold argmax Gold
+select Apps argmax Apps
+select Goals argmax Goals
+select Total_no._of_seats_in_Assembly argmax Total_no._of_seats_in_Assembly
+select No._of_candidates argmax No._of_candidates
+select No._of_elected argmax No._of_elected
+select Prices argmax Prices
+select Wins argmax Wins
+select Areas argmax Areas
+select Innings argmax Innings
+select Runs argmax Runs
+select Matches argmax Matches
+select Field_Goals argmax Field_Goals
+select Free_Throws argmax Free_Throws
+select Points argmax Points
+select Games_Played argmax Games_Played
+select 100s argmax 100s
+select 50s argmax 50s
+select U.S._Open argmax U.S._Open
+select Masters argmax Masters
+select The_Open argmax The_Open
+select PGA argmax PGA
+select Total_Apps argmax Total_Apps
+select FA_Cup_Apps argmax FA_Cup_Apps
+select Total_Goals argmax Total_Goals
+select FA_Cup_Goals argmax FA_Cup_Goals
+select League_Apps argmax League_Apps
+select League_Goals argmax League_Goals
+select Nation argmax Bronze
+select Nation argmax Silver
+select Nation argmax Gold
+select Position argmax Apps
+select Name argmax Apps
+select Position argmax Goals
+select Name argmax Goals
+select State argmax Total_no._of_seats_in_Assembly
+select State argmax No._of_candidates
+select State argmax No._of_elected
+select County argmax Prices
+select Team argmax Prices
+select County argmax Wins
+select Team argmax Wins
+select County argmax Areas
+select Team argmax Areas
+select Player argmax Innings
+select Player argmax Runs
+select Player argmax Matches
+select Player argmax Field_Goals
+select Player argmax Free_Throws
+select Player argmax Points
+select Player argmax Games_Played
+select Player argmax 100s
+select Player argmax 50s
+select Country argmax U.S._Open
+select Country argmax Masters
+select Country argmax The_Open
+select Country argmax PGA
+select Position argmax Total_Apps
+select Name argmax Total_Apps
+select Nation argmax Total_Apps
+select Position argmax FA_Cup_Apps
+select Name argmax FA_Cup_Apps
+select Nation argmax FA_Cup_Apps
+select Position argmax Total_Goals
+select Name argmax Total_Goals
+select Nation argmax Total_Goals
+select Position argmax FA_Cup_Goals
+select Name argmax FA_Cup_Goals
+select Nation argmax FA_Cup_Goals
+select Position argmax League_Apps
+select Name argmax League_Apps
+select Nation argmax League_Apps
+select Position argmax League_Goals
+select Name argmax League_Goals
+select Nation argmax League_Goals
+select Country argmax U.S._Open
+select Country argmax Masters
+select Country argmax The_Open
+select Country argmax PGA
+select Nation argmax Bronze
+select Nation argmax Silver
+select Nation argmax Gold
+select Position argmax Apps
+select Name argmax Apps
+select Position argmax Goals
+select Name argmax Goals
+select State argmax Total_no._of_seats_in_Assembly
+select State argmax No._of_candidates
+select State argmax No._of_elected
+select County argmax Prices
+select Team argmax Prices
+select County argmax Wins
+select Team argmax Wins
+select County argmax Areas
+select Team argmax Areas
+select Player argmax Innings
+select Player argmax Runs
+select Player argmax Matches
+select Player argmax Field_Goals
+select Player argmax Free_Throws
+select Player argmax Points
+select Player argmax Games_Played
+select Player argmax 100s
+select Player argmax 50s
+select Country argmax U.S._Open
+select Country argmax Masters
+select Country argmax The_Open
+select Country argmax PGA
+select Position argmax Total_Apps
+select Name argmax Total_Apps
+select Nation argmax Total_Apps
+select Position argmax FA_Cup_Apps
+select Name argmax FA_Cup_Apps
+select Nation argmax FA_Cup_Apps
+select Position argmax Total_Goals
+select Name argmax Total_Goals
+select Nation argmax Total_Goals
+select Position argmax FA_Cup_Goals
+select Name argmax FA_Cup_Goals
+select Nation argmax FA_Cup_Goals
+select Position argmax League_Apps
+select Name argmax League_Apps
+select Nation argmax League_Apps
+select Position argmax League_Goals
+select Name argmax League_Goals
+select Nation argmax League_Goals
+select Nation argmax Bronze
+select Nation argmax Silver
+select Nation argmax Gold
+select Nation argmax Bronze
+select Nation argmax Silver
+select Nation argmax Gold
+select Nation argmax Bronze
+select Nation argmax Silver
+select Nation argmax Gold
+select Nation argmax Bronze
+select Nation argmax Silver
+select Nation argmax Gold
+select Position argmax Apps
+select Name argmax Apps
+select Position argmax Goals
+select Name argmax Goals
+select State argmax Total_no._of_seats_in_Assembly
+select State argmax No._of_candidates
+select State argmax No._of_elected
+select County argmax Prices
+select Team argmax Prices
+select County argmax Wins
+select Team argmax Wins
+select County argmax Areas
+select Team argmax Areas
+select Player argmax Innings
+select Player argmax Runs
+select Player argmax Matches
+select Player argmax Field_Goals
+select Player argmax Free_Throws
+select Player argmax Points
+select Player argmax Games_Played
+select Player argmax 100s
+select Player argmax 50s
+select Country argmax U.S._Open
+select Country argmax Masters
+select Country argmax The_Open
+select Country argmax PGA
+select Position argmax Total_Apps
+select Name argmax Total_Apps
+select Nation argmax Total_Apps
+select Position argmax FA_Cup_Apps
+select Name argmax FA_Cup_Apps
+select Nation argmax FA_Cup_Apps
+select Position argmax Total_Goals
+select Name argmax Total_Goals
+select Nation argmax Total_Goals
+select Position argmax FA_Cup_Goals
+select Name argmax FA_Cup_Goals
+select Nation argmax FA_Cup_Goals
+select Position argmax League_Apps
+select Name argmax League_Apps
+select Nation argmax League_Apps
+select Position argmax League_Goals
+select Name argmax League_Goals
+select Nation argmax League_Goals
+select Nation argmax Bronze
+select Nation argmax Bronze
+select Nation argmax Bronze
+select Nation argmax Silver
+select Nation argmax Silver
+select Nation argmax Silver
+select Nation argmax Gold
+select Nation argmax Gold
+select Nation argmax Gold
+select Position argmax Apps
+select Position argmax Apps
+select Position argmax Apps
+select Name argmax Apps
+select Name argmax Apps
+select Name argmax Apps
+select Position argmax Goals
+select Position argmax Goals
+select Position argmax Goals
+select Name argmax Goals
+select Name argmax Goals
+select Name argmax Goals
+select State argmax Total_no._of_seats_in_Assembly
+select State argmax Total_no._of_seats_in_Assembly
+select State argmax Total_no._of_seats_in_Assembly
+select State argmax No._of_candidates
+select State argmax No._of_candidates
+select State argmax No._of_candidates
+select State argmax No._of_elected
+select State argmax No._of_elected
+select State argmax No._of_elected
+select County argmax Prices
+select County argmax Prices
+select County argmax Prices
+select Team argmax Prices
+select Team argmax Prices
+select Team argmax Prices
+select County argmax Wins
+select County argmax Wins
+select County argmax Wins
+select Team argmax Wins
+select Team argmax Wins
+select Team argmax Wins
+select County argmax Areas
+select County argmax Areas
+select County argmax Areas
+select Team argmax Areas
+select Team argmax Areas
+select Team argmax Areas
+select Player argmax Innings
+select Player argmax Innings
+select Player argmax Innings
+select Player argmax Runs
+select Player argmax Runs
+select Player argmax Runs
+select Player argmax Matches
+select Player argmax Matches
+select Player argmax Matches
+select Player argmax Field_Goals
+select Player argmax Field_Goals
+select Player argmax Field_Goals
+select Player argmax Free_Throws
+select Player argmax Free_Throws
+select Player argmax Free_Throws
+select Player argmax Points
+select Player argmax Points
+select Player argmax Points
+select Player argmax Games_Played
+select Player argmax Games_Played
+select Player argmax Games_Played
+select Player argmax 100s
+select Player argmax 100s
+select Player argmax 100s
+select Player argmax 50s
+select Player argmax 50s
+select Player argmax 50s
+select Country argmax U.S._Open
+select Country argmax U.S._Open
+select Country argmax U.S._Open
+select Country argmax Masters
+select Country argmax Masters
+select Country argmax Masters
+select Country argmax The_Open
+select Country argmax The_Open
+select Country argmax The_Open
+select Country argmax PGA
+select Country argmax PGA
+select Country argmax PGA
+select Position argmax Total_Apps
+select Position argmax Total_Apps
+select Position argmax Total_Apps
+select Name argmax Total_Apps
+select Name argmax Total_Apps
+select Name argmax Total_Apps
+select Nation argmax Total_Apps
+select Nation argmax Total_Apps
+select Nation argmax Total_Apps
+select Position argmax FA_Cup_Apps
+select Position argmax FA_Cup_Apps
+select Position argmax FA_Cup_Apps
+select Name argmax FA_Cup_Apps
+select Name argmax FA_Cup_Apps
+select Name argmax FA_Cup_Apps
+select Nation argmax FA_Cup_Apps
+select Nation argmax FA_Cup_Apps
+select Nation argmax FA_Cup_Apps
+select Position argmax Total_Goals
+select Position argmax Total_Goals
+select Position argmax Total_Goals
+select Name argmax Total_Goals
+select Name argmax Total_Goals
+select Name argmax Total_Goals
+select Nation argmax Total_Goals
+select Nation argmax Total_Goals
+select Nation argmax Total_Goals
+select Position argmax FA_Cup_Goals
+select Position argmax FA_Cup_Goals
+select Position argmax FA_Cup_Goals
+select Name argmax FA_Cup_Goals
+select Name argmax FA_Cup_Goals
+select Name argmax FA_Cup_Goals
+select Nation argmax FA_Cup_Goals
+select Nation argmax FA_Cup_Goals
+select Nation argmax FA_Cup_Goals
+select Position argmax League_Apps
+select Position argmax League_Apps
+select Position argmax League_Apps
+select Name argmax League_Apps
+select Name argmax League_Apps
+select Name argmax League_Apps
+select Nation argmax League_Apps
+select Nation argmax League_Apps
+select Nation argmax League_Apps
+select Position argmax League_Goals
+select Position argmax League_Goals
+select Position argmax League_Goals
+select Name argmax League_Goals
+select Name argmax League_Goals
+select Name argmax League_Goals
+select Nation argmax League_Goals
+select Nation argmax League_Goals
+select Nation argmax League_Goals
+select Player argmax Innings
+select Player argmax Innings
+select Player argmax Innings
+select Player argmax Runs
+select Player argmax Runs
+select Player argmax Runs
+select Player argmax Matches
+select Player argmax Matches
+select Player argmax Matches
+select Player argmax Field_Goals
+select Player argmax Field_Goals
+select Player argmax Field_Goals
+select Player argmax Free_Throws
+select Player argmax Free_Throws
+select Player argmax Free_Throws
+select Player argmax Points
+select Player argmax Points
+select Player argmax Points
+select Player argmax Games_Played
+select Player argmax Games_Played
+select Player argmax Games_Played
+select Player argmax 100s
+select Player argmax 100s
+select Player argmax 100s
+select Player argmax 50s
+select Player argmax 50s
+select Player argmax 50s
+select Nation argmax Bronze
+select Nation argmax Silver
+select Nation argmax Gold
+select Nation argmax Bronze
+select Nation argmax Silver
+select Nation argmax Gold
+select Nation argmax Rank
+select Nation argmax Rank
+select Nation argmax Rank
+select Nation argmax Rank
+select Nation argmax Rank
+select Nation argmax Rank
+select Bronze where Nation equal Qatar
 select Bronze where Nation equal Poland
-select Bronze where Nation equal Morocco
-select Silver where Nation equal Ireland
-select Silver where Nation equal Kuwait
+select Bronze where Nation equal Slovakia
+select Silver where Nation equal Qatar
 select Silver where Nation equal Poland
-select Silver where Nation equal Morocco
-select Gold where Nation equal Ireland
-select Gold where Nation equal Kuwait
+select Silver where Nation equal Slovakia
+select Gold where Nation equal Qatar
 select Gold where Nation equal Poland
-select Gold where Nation equal Morocco
+select Gold where Nation equal Slovakia
+select Apps where Position equal S
 select Apps where Position equal DE
-select Apps where Position equal CB
-select Apps where Position equal TE
-select Apps where Position equal QB
+select Apps where Position equal Defender
+select Goals where Position equal S
 select Goals where Position equal DE
-select Goals where Position equal CB
-select Goals where Position equal TE
-select Goals where Position equal QB
-select Apps where Name equal John_McClelland
-select Apps where Name equal James_Wood
+select Goals where Position equal Defender
 select Apps where Name equal Len_Marlow
-select Apps where Name equal David_James
-select Goals where Name equal John_McClelland
-select Goals where Name equal James_Wood
+select Apps where Name equal Luther_Blissett
+select Apps where Name equal Harry_Brough
 select Goals where Name equal Len_Marlow
-select Goals where Name equal David_James
-select Total_no._of_seats_in_Assembly where State equal Goa
+select Goals where Name equal Luther_Blissett
+select Goals where Name equal Harry_Brough
 select Total_no._of_seats_in_Assembly where State equal Uttar_Pradesh
-select Total_no._of_seats_in_Assembly where State equal California
-select Total_no._of_seats_in_Assembly where State equal Bihar
-select No._of_candidates where State equal Goa
+select Total_no._of_seats_in_Assembly where State equal Louisiana
+select Total_no._of_seats_in_Assembly where State equal Andhra_Pradesh
 select No._of_candidates where State equal Uttar_Pradesh
-select No._of_candidates where State equal California
-select No._of_candidates where State equal Bihar
-select No._of_elected where State equal Goa
+select No._of_candidates where State equal Louisiana
+select No._of_candidates where State equal Andhra_Pradesh
 select No._of_elected where State equal Uttar_Pradesh
-select No._of_elected where State equal California
-select No._of_elected where State equal Bihar
-select Prices where County equal Laois
-select Prices where County equal Kildare
-select Prices where County equal Dublin
-select Prices where County equal Louth
-select Wins where County equal Laois
-select Wins where County equal Kildare
-select Wins where County equal Dublin
-select Wins where County equal Louth
-select Areas where County equal Laois
-select Areas where County equal Kildare
-select Areas where County equal Dublin
-select Areas where County equal Louth
-select Prices where Team equal Poland
-select Prices where Team equal Egypt
-select Prices where Team equal Czech_Republic
-select Prices where Team equal Iceland
-select Wins where Team equal Poland
-select Wins where Team equal Egypt
-select Wins where Team equal Czech_Republic
-select Wins where Team equal Iceland
-select Areas where Team equal Poland
-select Areas where Team equal Egypt
-select Areas where Team equal Czech_Republic
-select Areas where Team equal Iceland
-select Innings where Player equal Albert_Clapp
-select Innings where Player equal Herbie_Hewett
-select Innings where Player equal Clyde_Alwood
-select Innings where Player equal Ray_Woods
-select Runs where Player equal Albert_Clapp
-select Runs where Player equal Herbie_Hewett
-select Runs where Player equal Clyde_Alwood
-select Runs where Player equal Ray_Woods
-select Matches where Player equal Albert_Clapp
-select Matches where Player equal Herbie_Hewett
-select Matches where Player equal Clyde_Alwood
-select Matches where Player equal Ray_Woods
-select Field_Goals where Player equal Albert_Clapp
-select Field_Goals where Player equal Herbie_Hewett
-select Field_Goals where Player equal Clyde_Alwood
-select Field_Goals where Player equal Ray_Woods
-select Free_Throws where Player equal Albert_Clapp
-select Free_Throws where Player equal Herbie_Hewett
-select Free_Throws where Player equal Clyde_Alwood
-select Free_Throws where Player equal Ray_Woods
-select Points where Player equal Albert_Clapp
-select Points where Player equal Herbie_Hewett
-select Points where Player equal Clyde_Alwood
-select Points where Player equal Ray_Woods
-select Games_Played where Player equal Albert_Clapp
-select Games_Played where Player equal Herbie_Hewett
-select Games_Played where Player equal Clyde_Alwood
-select Games_Played where Player equal Ray_Woods
-select 100s where Player equal Albert_Clapp
-select 100s where Player equal Herbie_Hewett
-select 100s where Player equal Clyde_Alwood
-select 100s where Player equal Ray_Woods
-select 50s where Player equal Albert_Clapp
-select 50s where Player equal Herbie_Hewett
-select 50s where Player equal Clyde_Alwood
-select 50s where Player equal Ray_Woods
-select U.S._Open where Country equal Belgium
-select U.S._Open where Country equal Estonia
-select U.S._Open where Country equal West_Germany
-select U.S._Open where Country equal Mexico
-select Masters where Country equal Belgium
-select Masters where Country equal Estonia
-select Masters where Country equal West_Germany
-select Masters where Country equal Mexico
-select The_Open where Country equal Belgium
-select The_Open where Country equal Estonia
-select The_Open where Country equal West_Germany
-select The_Open where Country equal Mexico
-select PGA where Country equal Belgium
-select PGA where Country equal Estonia
-select PGA where Country equal West_Germany
-select PGA where Country equal Mexico
-select Total_Apps where Position equal DE
-select Total_Apps where Position equal Goalkeeper
-select Total_Apps where Position equal Midfielder
-select Total_Apps where Position equal QB
-select FA_Cup_Apps where Position equal DE
-select FA_Cup_Apps where Position equal Goalkeeper
-select FA_Cup_Apps where Position equal Midfielder
-select FA_Cup_Apps where Position equal QB
-select Total_Goals where Position equal DE
-select Total_Goals where Position equal Goalkeeper
-select Total_Goals where Position equal Midfielder
-select Total_Goals where Position equal QB
-select FA_Cup_Goals where Position equal DE
-select FA_Cup_Goals where Position equal Goalkeeper
-select FA_Cup_Goals where Position equal Midfielder
-select FA_Cup_Goals where Position equal QB
-select League_Apps where Position equal DE
-select League_Apps where Position equal Goalkeeper
-select League_Apps where Position equal Midfielder
-select League_Apps where Position equal QB
-select League_Goals where Position equal DE
-select League_Goals where Position equal Goalkeeper
-select League_Goals where Position equal Midfielder
-select League_Goals where Position equal QB
-select Total_Apps where Name equal Ernie_Islip
-select Total_Apps where Name equal Robert_Page
-select Total_Apps where Name equal Ned_Barkas
-select Total_Apps where Name equal Frank_Mann
-select FA_Cup_Apps where Name equal Ernie_Islip
-select FA_Cup_Apps where Name equal Robert_Page
-select FA_Cup_Apps where Name equal Ned_Barkas
-select FA_Cup_Apps where Name equal Frank_Mann
-select Total_Goals where Name equal Ernie_Islip
-select Total_Goals where Name equal Robert_Page
-select Total_Goals where Name equal Ned_Barkas
-select Total_Goals where Name equal Frank_Mann
-select FA_Cup_Goals where Name equal Ernie_Islip
-select FA_Cup_Goals where Name equal Robert_Page
-select FA_Cup_Goals where Name equal Ned_Barkas
-select FA_Cup_Goals where Name equal Frank_Mann
-select League_Apps where Name equal Ernie_Islip
-select League_Apps where Name equal Robert_Page
-select League_Apps where Name equal Ned_Barkas
-select League_Apps where Name equal Frank_Mann
-select League_Goals where Name equal Ernie_Islip
-select League_Goals where Name equal Robert_Page
-select League_Goals where Name equal Ned_Barkas
-select League_Goals where Name equal Frank_Mann
-select Total_Apps where Nation equal Pakistan
-select Total_Apps where Nation equal Ireland
-select Total_Apps where Nation equal Yugoslavia
-select Total_Apps where Nation equal Israel
-select FA_Cup_Apps where Nation equal Pakistan
-select FA_Cup_Apps where Nation equal Ireland
-select FA_Cup_Apps where Nation equal Yugoslavia
-select FA_Cup_Apps where Nation equal Israel
-select Total_Goals where Nation equal Pakistan
-select Total_Goals where Nation equal Ireland
-select Total_Goals where Nation equal Yugoslavia
-select Total_Goals where Nation equal Israel
-select FA_Cup_Goals where Nation equal Pakistan
-select FA_Cup_Goals where Nation equal Ireland
-select FA_Cup_Goals where Nation equal Yugoslavia
-select FA_Cup_Goals where Nation equal Israel
-select League_Apps where Nation equal Pakistan
-select League_Apps where Nation equal Ireland
-select League_Apps where Nation equal Yugoslavia
-select League_Apps where Nation equal Israel
-select League_Goals where Nation equal Pakistan
-select League_Goals where Nation equal Ireland
-select League_Goals where Nation equal Yugoslavia
-select League_Goals where Nation equal Israel
-select Bronze where Nation equal Russia
-select Bronze where Nation equal Mongolia
-select Bronze where Nation equal Switzerland
-select Bronze where Nation equal Argentina
-select Silver where Nation equal Russia
-select Silver where Nation equal Mongolia
-select Silver where Nation equal Switzerland
-select Silver where Nation equal Argentina
-select Gold where Nation equal Russia
-select Gold where Nation equal Mongolia
-select Gold where Nation equal Switzerland
-select Gold where Nation equal Argentina
-select Apps where Position equal Midfielder
-select Apps where Position equal Goalkeeper
-select Apps where Position equal TE
-select Apps where Position equal DE
-select Goals where Position equal Midfielder
-select Goals where Position equal Goalkeeper
-select Goals where Position equal TE
-select Goals where Position equal DE
-select Apps where Name equal George_Richardson
-select Apps where Name equal Billy_H._Smith
-select Apps where Name equal Billy_Watson
-select Apps where Name equal Ned_Barkas
-select Goals where Name equal George_Richardson
-select Goals where Name equal Billy_H._Smith
-select Goals where Name equal Billy_Watson
-select Goals where Name equal Ned_Barkas
-select Total_no._of_seats_in_Assembly where State equal Odisha
-select Total_no._of_seats_in_Assembly where State equal Maharashtra
-select Total_no._of_seats_in_Assembly where State equal Haryana
-select Total_no._of_seats_in_Assembly where State equal Tamil_Nadu
-select No._of_candidates where State equal Odisha
-select No._of_candidates where State equal Maharashtra
-select No._of_candidates where State equal Haryana
-select No._of_candidates where State equal Tamil_Nadu
-select No._of_elected where State equal Odisha
-select No._of_elected where State equal Maharashtra
-select No._of_elected where State equal Haryana
-select No._of_elected where State equal Tamil_Nadu
-select Prices where County equal Laois
-select Prices where County equal Wicklow
+select No._of_elected where State equal Louisiana
+select No._of_elected where State equal Andhra_Pradesh
 select Prices where County equal Meath
 select Prices where County equal Kildare
-select Wins where County equal Laois
-select Wins where County equal Wicklow
+select Prices where County equal Dublin
 select Wins where County equal Meath
 select Wins where County equal Kildare
-select Areas where County equal Laois
-select Areas where County equal Wicklow
+select Wins where County equal Dublin
 select Areas where County equal Meath
 select Areas where County equal Kildare
-select Prices where Team equal Israel
-select Prices where Team equal Yugoslavia
-select Prices where Team equal Spain
-select Prices where Team equal Greece
-select Wins where Team equal Israel
-select Wins where Team equal Yugoslavia
-select Wins where Team equal Spain
-select Wins where Team equal Greece
-select Areas where Team equal Israel
-select Areas where Team equal Yugoslavia
-select Areas where Team equal Spain
-select Areas where Team equal Greece
-select Innings where Player equal Ernest_McKay
+select Areas where County equal Dublin
+select Prices where Team equal Taiwan
+select Prices where Team equal South_Korea
+select Prices where Team equal Morocco
+select Wins where Team equal Taiwan
+select Wins where Team equal South_Korea
+select Wins where Team equal Morocco
+select Areas where Team equal Taiwan
+select Areas where Team equal South_Korea
+select Areas where Team equal Morocco
+select Innings where Player equal Albert_Clapp
+select Innings where Player equal Ray_Woods
+select Innings where Player equal Bill_Roe
+select Runs where Player equal Albert_Clapp
+select Runs where Player equal Ray_Woods
+select Runs where Player equal Bill_Roe
+select Matches where Player equal Albert_Clapp
+select Matches where Player equal Ray_Woods
+select Matches where Player equal Bill_Roe
+select Field_Goals where Player equal Albert_Clapp
+select Field_Goals where Player equal Ray_Woods
+select Field_Goals where Player equal Bill_Roe
+select Free_Throws where Player equal Albert_Clapp
+select Free_Throws where Player equal Ray_Woods
+select Free_Throws where Player equal Bill_Roe
+select Points where Player equal Albert_Clapp
+select Points where Player equal Ray_Woods
+select Points where Player equal Bill_Roe
+select Games_Played where Player equal Albert_Clapp
+select Games_Played where Player equal Ray_Woods
+select Games_Played where Player equal Bill_Roe
+select 100s where Player equal Albert_Clapp
+select 100s where Player equal Ray_Woods
+select 100s where Player equal Bill_Roe
+select 50s where Player equal Albert_Clapp
+select 50s where Player equal Ray_Woods
+select 50s where Player equal Bill_Roe
+select U.S._Open where Country equal Japan
+select U.S._Open where Country equal Fiji
+select U.S._Open where Country equal Ireland
+select Masters where Country equal Japan
+select Masters where Country equal Fiji
+select Masters where Country equal Ireland
+select The_Open where Country equal Japan
+select The_Open where Country equal Fiji
+select The_Open where Country equal Ireland
+select PGA where Country equal Japan
+select PGA where Country equal Fiji
+select PGA where Country equal Ireland
+select Total_Apps where Position equal Defender
+select Total_Apps where Position equal DE
+select Total_Apps where Position equal TE
+select FA_Cup_Apps where Position equal Defender
+select FA_Cup_Apps where Position equal DE
+select FA_Cup_Apps where Position equal TE
+select Total_Goals where Position equal Defender
+select Total_Goals where Position equal DE
+select Total_Goals where Position equal TE
+select FA_Cup_Goals where Position equal Defender
+select FA_Cup_Goals where Position equal DE
+select FA_Cup_Goals where Position equal TE
+select League_Apps where Position equal Defender
+select League_Apps where Position equal DE
+select League_Apps where Position equal TE
+select League_Goals where Position equal Defender
+select League_Goals where Position equal DE
+select League_Goals where Position equal TE
+select Total_Apps where Name equal Billy_Watson
+select Total_Apps where Name equal Robert_Page
+select Total_Apps where Name equal Tony_Coton
+select FA_Cup_Apps where Name equal Billy_Watson
+select FA_Cup_Apps where Name equal Robert_Page
+select FA_Cup_Apps where Name equal Tony_Coton
+select Total_Goals where Name equal Billy_Watson
+select Total_Goals where Name equal Robert_Page
+select Total_Goals where Name equal Tony_Coton
+select FA_Cup_Goals where Name equal Billy_Watson
+select FA_Cup_Goals where Name equal Robert_Page
+select FA_Cup_Goals where Name equal Tony_Coton
+select League_Apps where Name equal Billy_Watson
+select League_Apps where Name equal Robert_Page
+select League_Apps where Name equal Tony_Coton
+select League_Goals where Name equal Billy_Watson
+select League_Goals where Name equal Robert_Page
+select League_Goals where Name equal Tony_Coton
+select Total_Apps where Nation equal Brazil
+select Total_Apps where Nation equal Yugoslavia
+select Total_Apps where Nation equal India
+select FA_Cup_Apps where Nation equal Brazil
+select FA_Cup_Apps where Nation equal Yugoslavia
+select FA_Cup_Apps where Nation equal India
+select Total_Goals where Nation equal Brazil
+select Total_Goals where Nation equal Yugoslavia
+select Total_Goals where Nation equal India
+select FA_Cup_Goals where Nation equal Brazil
+select FA_Cup_Goals where Nation equal Yugoslavia
+select FA_Cup_Goals where Nation equal India
+select League_Apps where Nation equal Brazil
+select League_Apps where Nation equal Yugoslavia
+select League_Apps where Nation equal India
+select League_Goals where Nation equal Brazil
+select League_Goals where Nation equal Yugoslavia
+select League_Goals where Nation equal India
+select Bronze where Nation equal Hungary
+select Bronze where Nation equal Uganda
+select Bronze where Nation equal Slovakia
+select Silver where Nation equal Hungary
+select Silver where Nation equal Uganda
+select Silver where Nation equal Slovakia
+select Gold where Nation equal Hungary
+select Gold where Nation equal Uganda
+select Gold where Nation equal Slovakia
+select Apps where Position equal Goalkeeper
+select Apps where Position equal CB
+select Apps where Position equal Defender
+select Goals where Position equal Goalkeeper
+select Goals where Position equal CB
+select Goals where Position equal Defender
+select Apps where Name equal David_James
+select Apps where Name equal Jack_Byers
+select Apps where Name equal James_Wood
+select Goals where Name equal David_James
+select Goals where Name equal Jack_Byers
+select Goals where Name equal James_Wood
+select Total_no._of_seats_in_Assembly where State equal Tamil_Nadu
+select Total_no._of_seats_in_Assembly where State equal Uttar_Pradesh
+select Total_no._of_seats_in_Assembly where State equal Meghalaya
+select No._of_candidates where State equal Tamil_Nadu
+select No._of_candidates where State equal Uttar_Pradesh
+select No._of_candidates where State equal Meghalaya
+select No._of_elected where State equal Tamil_Nadu
+select No._of_elected where State equal Uttar_Pradesh
+select No._of_elected where State equal Meghalaya
+select Prices where County equal Wicklow
+select Prices where County equal Laois
+select Prices where County equal Dublin
+select Wins where County equal Wicklow
+select Wins where County equal Laois
+select Wins where County equal Dublin
+select Areas where County equal Wicklow
+select Areas where County equal Laois
+select Areas where County equal Dublin
+select Prices where Team equal Confey
+select Prices where Team equal Uzbekistan
+select Prices where Team equal Chile
+select Wins where Team equal Confey
+select Wins where Team equal Uzbekistan
+select Wins where Team equal Chile
+select Areas where Team equal Confey
+select Areas where Team equal Uzbekistan
+select Areas where Team equal Chile
 select Innings where Player equal Ralf_Woods
 select Innings where Player equal Albert_Clapp
-select Innings where Player equal Lionel_Palairet
-select Runs where Player equal Ernest_McKay
+select Innings where Player equal Ray_Woods
 select Runs where Player equal Ralf_Woods
 select Runs where Player equal Albert_Clapp
-select Runs where Player equal Lionel_Palairet
-select Matches where Player equal Ernest_McKay
+select Runs where Player equal Ray_Woods
 select Matches where Player equal Ralf_Woods
 select Matches where Player equal Albert_Clapp
-select Matches where Player equal Lionel_Palairet
-select Field_Goals where Player equal Ernest_McKay
+select Matches where Player equal Ray_Woods
 select Field_Goals where Player equal Ralf_Woods
 select Field_Goals where Player equal Albert_Clapp
-select Field_Goals where Player equal Lionel_Palairet
-select Free_Throws where Player equal Ernest_McKay
+select Field_Goals where Player equal Ray_Woods
 select Free_Throws where Player equal Ralf_Woods
 select Free_Throws where Player equal Albert_Clapp
-select Free_Throws where Player equal Lionel_Palairet
-select Points where Player equal Ernest_McKay
+select Free_Throws where Player equal Ray_Woods
 select Points where Player equal Ralf_Woods
 select Points where Player equal Albert_Clapp
-select Points where Player equal Lionel_Palairet
-select Games_Played where Player equal Ernest_McKay
+select Points where Player equal Ray_Woods
 select Games_Played where Player equal Ralf_Woods
 select Games_Played where Player equal Albert_Clapp
-select Games_Played where Player equal Lionel_Palairet
-select 100s where Player equal Ernest_McKay
+select Games_Played where Player equal Ray_Woods
 select 100s where Player equal Ralf_Woods
 select 100s where Player equal Albert_Clapp
-select 100s where Player equal Lionel_Palairet
-select 50s where Player equal Ernest_McKay
+select 100s where Player equal Ray_Woods
 select 50s where Player equal Ralf_Woods
 select 50s where Player equal Albert_Clapp
-select 50s where Player equal Lionel_Palairet
-select U.S._Open where Country equal Portugal
-select U.S._Open where Country equal Great_Britain
-select U.S._Open where Country equal Cuba
-select U.S._Open where Country equal Turkey
-select Masters where Country equal Portugal
-select Masters where Country equal Great_Britain
-select Masters where Country equal Cuba
-select Masters where Country equal Turkey
-select The_Open where Country equal Portugal
-select The_Open where Country equal Great_Britain
-select The_Open where Country equal Cuba
-select The_Open where Country equal Turkey
-select PGA where Country equal Portugal
-select PGA where Country equal Great_Britain
-select PGA where Country equal Cuba
-select PGA where Country equal Turkey
-select Total_Apps where Position equal Goalkeeper
-select Total_Apps where Position equal QB
-select Total_Apps where Position equal S
-select Total_Apps where Position equal CB
-select FA_Cup_Apps where Position equal Goalkeeper
-select FA_Cup_Apps where Position equal QB
-select FA_Cup_Apps where Position equal S
-select FA_Cup_Apps where Position equal CB
-select Total_Goals where Position equal Goalkeeper
-select Total_Goals where Position equal QB
-select Total_Goals where Position equal S
-select Total_Goals where Position equal CB
-select FA_Cup_Goals where Position equal Goalkeeper
-select FA_Cup_Goals where Position equal QB
-select FA_Cup_Goals where Position equal S
-select FA_Cup_Goals where Position equal CB
-select League_Apps where Position equal Goalkeeper
-select League_Apps where Position equal QB
-select League_Apps where Position equal S
-select League_Apps where Position equal CB
-select League_Goals where Position equal Goalkeeper
-select League_Goals where Position equal QB
-select League_Goals where Position equal S
-select League_Goals where Position equal CB
-select Total_Apps where Name equal Tommy_Mooney
-select Total_Apps where Name equal George_Richardson
-select Total_Apps where Name equal Colin_McKay
-select Total_Apps where Name equal Len_Marlow
-select FA_Cup_Apps where Name equal Tommy_Mooney
-select FA_Cup_Apps where Name equal George_Richardson
-select FA_Cup_Apps where Name equal Colin_McKay
-select FA_Cup_Apps where Name equal Len_Marlow
-select Total_Goals where Name equal Tommy_Mooney
-select Total_Goals where Name equal George_Richardson
-select Total_Goals where Name equal Colin_McKay
-select Total_Goals where Name equal Len_Marlow
-select FA_Cup_Goals where Name equal Tommy_Mooney
-select FA_Cup_Goals where Name equal George_Richardson
-select FA_Cup_Goals where Name equal Colin_McKay
-select FA_Cup_Goals where Name equal Len_Marlow
-select League_Apps where Name equal Tommy_Mooney
-select League_Apps where Name equal George_Richardson
-select League_Apps where Name equal Colin_McKay
-select League_Apps where Name equal Len_Marlow
-select League_Goals where Name equal Tommy_Mooney
-select League_Goals where Name equal George_Richardson
-select League_Goals where Name equal Colin_McKay
-select League_Goals where Name equal Len_Marlow
-select Total_Apps where Nation equal Yugoslavia
-select Total_Apps where Nation equal Ivory_Coast
-select Total_Apps where Nation equal Zimbabwe
-select Total_Apps where Nation equal Japan
-select FA_Cup_Apps where Nation equal Yugoslavia
-select FA_Cup_Apps where Nation equal Ivory_Coast
-select FA_Cup_Apps where Nation equal Zimbabwe
-select FA_Cup_Apps where Nation equal Japan
-select Total_Goals where Nation equal Yugoslavia
-select Total_Goals where Nation equal Ivory_Coast
-select Total_Goals where Nation equal Zimbabwe
-select Total_Goals where Nation equal Japan
-select FA_Cup_Goals where Nation equal Yugoslavia
-select FA_Cup_Goals where Nation equal Ivory_Coast
-select FA_Cup_Goals where Nation equal Zimbabwe
-select FA_Cup_Goals where Nation equal Japan
-select League_Apps where Nation equal Yugoslavia
-select League_Apps where Nation equal Ivory_Coast
-select League_Apps where Nation equal Zimbabwe
-select League_Apps where Nation equal Japan
-select League_Goals where Nation equal Yugoslavia
-select League_Goals where Nation equal Ivory_Coast
-select League_Goals where Nation equal Zimbabwe
-select League_Goals where Nation equal Japan
-select U.S._Open where Country equal Argentina
-select U.S._Open where Country equal Nepal
-select U.S._Open where Country equal Sweden
-select U.S._Open where Country equal US
-select Masters where Country equal Argentina
-select Masters where Country equal Nepal
-select Masters where Country equal Sweden
-select Masters where Country equal US
-select The_Open where Country equal Argentina
-select The_Open where Country equal Nepal
-select The_Open where Country equal Sweden
-select The_Open where Country equal US
-select PGA where Country equal Argentina
-select PGA where Country equal Nepal
-select PGA where Country equal Sweden
-select PGA where Country equal US
-select Nation where Bronze equal 61
-select Nation where Bronze equal 88
-select Nation where Bronze equal 85
-select Nation where Bronze equal 56
-select Nation where Silver equal 34
-select Nation where Silver equal 28
-select Nation where Silver equal 60
-select Nation where Silver equal 98
-select Nation where Gold equal 94
-select Nation where Gold equal 45
-select Nation where Gold equal 64
-select Nation where Gold equal 26
-select Bronze where Nation equal England
-select Bronze where Nation equal Iceland
-select Bronze where Nation equal Kuwait
-select Bronze where Nation equal Philippines
-select Silver where Nation equal England
-select Silver where Nation equal Iceland
-select Silver where Nation equal Kuwait
-select Silver where Nation equal Philippines
-select Gold where Nation equal England
-select Gold where Nation equal Iceland
-select Gold where Nation equal Kuwait
-select Gold where Nation equal Philippines
-select Apps where Position equal TE
-select Apps where Position equal QB
-select Apps where Position equal Forward
-select Apps where Position equal Midfielder
-select Goals where Position equal TE
-select Goals where Position equal QB
-select Goals where Position equal Forward
-select Goals where Position equal Midfielder
-select Apps where Name equal Colin_McKay
-select Apps where Name equal David_James
-select Apps where Name equal George_Richardson
-select Apps where Name equal Tony_Coton
-select Goals where Name equal Colin_McKay
-select Goals where Name equal David_James
-select Goals where Name equal George_Richardson
-select Goals where Name equal Tony_Coton
-select Total_no._of_seats_in_Assembly where State equal Manipur
-select Total_no._of_seats_in_Assembly where State equal West_Bengal
-select Total_no._of_seats_in_Assembly where State equal Himachal_Pradesh
-select Total_no._of_seats_in_Assembly where State equal Meghalaya
-select No._of_candidates where State equal Manipur
-select No._of_candidates where State equal West_Bengal
-select No._of_candidates where State equal Himachal_Pradesh
-select No._of_candidates where State equal Meghalaya
-select No._of_elected where State equal Manipur
-select No._of_elected where State equal West_Bengal
-select No._of_elected where State equal Himachal_Pradesh
-select No._of_elected where State equal Meghalaya
-select Prices where County equal Dublin
-select Prices where County equal Meath
-select Prices where County equal Kildare
-select Prices where County equal Louth
-select Wins where County equal Dublin
-select Wins where County equal Meath
-select Wins where County equal Kildare
-select Wins where County equal Louth
-select Areas where County equal Dublin
-select Areas where County equal Meath
-select Areas where County equal Kildare
-select Areas where County equal Louth
-select Prices where Team equal Estonia
-select Prices where Team equal Cuba
-select Prices where Team equal Greece
-select Prices where Team equal Ukraine
-select Wins where Team equal Estonia
-select Wins where Team equal Cuba
-select Wins where Team equal Greece
-select Wins where Team equal Ukraine
-select Areas where Team equal Estonia
-select Areas where Team equal Cuba
-select Areas where Team equal Greece
-select Areas where Team equal Ukraine
-select Innings where Player equal John_Felmley
-select Innings where Player equal Bill_Roe
-select Innings where Player equal Gordon_Otto
-select Innings where Player equal Clyde_Alwood
-select Runs where Player equal John_Felmley
-select Runs where Player equal Bill_Roe
-select Runs where Player equal Gordon_Otto
-select Runs where Player equal Clyde_Alwood
-select Matches where Player equal John_Felmley
-select Matches where Player equal Bill_Roe
-select Matches where Player equal Gordon_Otto
-select Matches where Player equal Clyde_Alwood
-select Field_Goals where Player equal John_Felmley
-select Field_Goals where Player equal Bill_Roe
-select Field_Goals where Player equal Gordon_Otto
-select Field_Goals where Player equal Clyde_Alwood
-select Free_Throws where Player equal John_Felmley
-select Free_Throws where Player equal Bill_Roe
-select Free_Throws where Player equal Gordon_Otto
-select Free_Throws where Player equal Clyde_Alwood
-select Points where Player equal John_Felmley
-select Points where Player equal Bill_Roe
-select Points where Player equal Gordon_Otto
-select Points where Player equal Clyde_Alwood
-select Games_Played where Player equal John_Felmley
-select Games_Played where Player equal Bill_Roe
-select Games_Played where Player equal Gordon_Otto
-select Games_Played where Player equal Clyde_Alwood
-select 100s where Player equal John_Felmley
-select 100s where Player equal Bill_Roe
-select 100s where Player equal Gordon_Otto
-select 100s where Player equal Clyde_Alwood
-select 50s where Player equal John_Felmley
-select 50s where Player equal Bill_Roe
-select 50s where Player equal Gordon_Otto
-select 50s where Player equal Clyde_Alwood
-select U.S._Open where Country equal Jamaica
-select U.S._Open where Country equal Indonesia
-select U.S._Open where Country equal Morocco
-select U.S._Open where Country equal Croatia
-select Masters where Country equal Jamaica
-select Masters where Country equal Indonesia
-select Masters where Country equal Morocco
-select Masters where Country equal Croatia
-select The_Open where Country equal Jamaica
-select The_Open where Country equal Indonesia
-select The_Open where Country equal Morocco
-select The_Open where Country equal Croatia
-select PGA where Country equal Jamaica
-select PGA where Country equal Indonesia
-select PGA where Country equal Morocco
-select PGA where Country equal Croatia
-select Total_Apps where Position equal QB
-select Total_Apps where Position equal S
-select Total_Apps where Position equal CB
-select Total_Apps where Position equal Midfielder
-select FA_Cup_Apps where Position equal QB
-select FA_Cup_Apps where Position equal S
-select FA_Cup_Apps where Position equal CB
-select FA_Cup_Apps where Position equal Midfielder
-select Total_Goals where Position equal QB
-select Total_Goals where Position equal S
-select Total_Goals where Position equal CB
-select Total_Goals where Position equal Midfielder
-select FA_Cup_Goals where Position equal QB
-select FA_Cup_Goals where Position equal S
-select FA_Cup_Goals where Position equal CB
-select FA_Cup_Goals where Position equal Midfielder
-select League_Apps where Position equal QB
-select League_Apps where Position equal S
-select League_Apps where Position equal CB
-select League_Apps where Position equal Midfielder
-select League_Goals where Position equal QB
-select League_Goals where Position equal S
-select League_Goals where Position equal CB
-select League_Goals where Position equal Midfielder
-select Total_Apps where Name equal Billy_H._Smith
-select Total_Apps where Name equal Sam_Wadsworth
-select Total_Apps where Name equal Luther_Blissett
-select Total_Apps where Name equal George_Richardson
-select FA_Cup_Apps where Name equal Billy_H._Smith
-select FA_Cup_Apps where Name equal Sam_Wadsworth
-select FA_Cup_Apps where Name equal Luther_Blissett
-select FA_Cup_Apps where Name equal George_Richardson
-select Total_Goals where Name equal Billy_H._Smith
-select Total_Goals where Name equal Sam_Wadsworth
-select Total_Goals where Name equal Luther_Blissett
-select Total_Goals where Name equal George_Richardson
-select FA_Cup_Goals where Name equal Billy_H._Smith
-select FA_Cup_Goals where Name equal Sam_Wadsworth
-select FA_Cup_Goals where Name equal Luther_Blissett
-select FA_Cup_Goals where Name equal George_Richardson
-select League_Apps where Name equal Billy_H._Smith
-select League_Apps where Name equal Sam_Wadsworth
-select League_Apps where Name equal Luther_Blissett
-select League_Apps where Name equal George_Richardson
-select League_Goals where Name equal Billy_H._Smith
-select League_Goals where Name equal Sam_Wadsworth
-select League_Goals where Name equal Luther_Blissett
-select League_Goals where Name equal George_Richardson
-select Total_Apps where Nation equal Israel
-select Total_Apps where Nation equal Algeria
-select Total_Apps where Nation equal Philippines
-select Total_Apps where Nation equal Pakistan
-select FA_Cup_Apps where Nation equal Israel
-select FA_Cup_Apps where Nation equal Algeria
-select FA_Cup_Apps where Nation equal Philippines
-select FA_Cup_Apps where Nation equal Pakistan
-select Total_Goals where Nation equal Israel
-select Total_Goals where Nation equal Algeria
-select Total_Goals where Nation equal Philippines
-select Total_Goals where Nation equal Pakistan
-select FA_Cup_Goals where Nation equal Israel
-select FA_Cup_Goals where Nation equal Algeria
-select FA_Cup_Goals where Nation equal Philippines
-select FA_Cup_Goals where Nation equal Pakistan
-select League_Apps where Nation equal Israel
-select League_Apps where Nation equal Algeria
-select League_Apps where Nation equal Philippines
-select League_Apps where Nation equal Pakistan
-select League_Goals where Nation equal Israel
-select League_Goals where Nation equal Algeria
-select League_Goals where Nation equal Philippines
-select League_Goals where Nation equal Pakistan
-select Bronze where Nation equal Argentina
-select Bronze where Nation equal Egypt
-select Bronze where Nation equal Great_Britain
-select Bronze where Nation equal Finland
-select Silver where Nation equal Argentina
-select Silver where Nation equal Egypt
-select Silver where Nation equal Great_Britain
-select Silver where Nation equal Finland
-select Gold where Nation equal Argentina
-select Gold where Nation equal Egypt
-select Gold where Nation equal Great_Britain
-select Gold where Nation equal Finland
-select U.S._Open where Country equal Kazakhstan
-select U.S._Open where Country equal Canada
-select U.S._Open where Country equal Nigeria
-select U.S._Open where Country equal Taiwan
-select Masters where Country equal Kazakhstan
-select Masters where Country equal Canada
-select Masters where Country equal Nigeria
-select Masters where Country equal Taiwan
-select The_Open where Country equal Kazakhstan
-select The_Open where Country equal Canada
-select The_Open where Country equal Nigeria
-select The_Open where Country equal Taiwan
-select PGA where Country equal Kazakhstan
-select PGA where Country equal Canada
-select PGA where Country equal Nigeria
-select PGA where Country equal Taiwan
-select Bronze where Nation equal Nepal
-select Bronze where Nation equal Belgium
-select Bronze where Nation equal UK
-select Bronze where Nation equal Armenia
-select Silver where Nation equal Nepal
-select Silver where Nation equal Belgium
-select Silver where Nation equal UK
-select Silver where Nation equal Armenia
-select Gold where Nation equal Nepal
-select Gold where Nation equal Belgium
-select Gold where Nation equal UK
-select Gold where Nation equal Armenia
-select Apps where Position equal QB
-select Apps where Position equal Goalkeeper
-select Apps where Position equal Defender
-select Apps where Position equal DE
-select Goals where Position equal QB
-select Goals where Position equal Goalkeeper
-select Goals where Position equal Defender
-select Goals where Position equal DE
-select Apps where Name equal Frank_Mann
-select Apps where Name equal James_Wood
-select Apps where Name equal Nigel_Gibbs
-select Apps where Name equal Charlie_Slade
-select Goals where Name equal Frank_Mann
-select Goals where Name equal James_Wood
-select Goals where Name equal Nigel_Gibbs
-select Goals where Name equal Charlie_Slade
-select Total_no._of_seats_in_Assembly where State equal California
-select Total_no._of_seats_in_Assembly where State equal Louisiana
-select Total_no._of_seats_in_Assembly where State equal Manipur
-select Total_no._of_seats_in_Assembly where State equal Gujarat
-select No._of_candidates where State equal California
-select No._of_candidates where State equal Louisiana
-select No._of_candidates where State equal Manipur
-select No._of_candidates where State equal Gujarat
-select No._of_elected where State equal California
-select No._of_elected where State equal Louisiana
-select No._of_elected where State equal Manipur
-select No._of_elected where State equal Gujarat
-select Prices where County equal Laois
-select Prices where County equal Dublin
-select Prices where County equal Kildare
-select Prices where County equal Louth
-select Wins where County equal Laois
-select Wins where County equal Dublin
-select Wins where County equal Kildare
-select Wins where County equal Louth
-select Areas where County equal Laois
-select Areas where County equal Dublin
-select Areas where County equal Kildare
-select Areas where County equal Louth
-select Prices where Team equal Saudi_Arabia
-select Prices where Team equal Bahamas
-select Prices where Team equal Algeria
-select Prices where Team equal France
-select Wins where Team equal Saudi_Arabia
-select Wins where Team equal Bahamas
-select Wins where Team equal Algeria
-select Wins where Team equal France
-select Areas where Team equal Saudi_Arabia
-select Areas where Team equal Bahamas
-select Areas where Team equal Algeria
-select Areas where Team equal France
-select Innings where Player equal John_Felmley
-select Innings where Player equal Ted_Tyler
-select Innings where Player equal Albert_Clapp
-select Innings where Player equal Herbie_Hewett
-select Runs where Player equal John_Felmley
-select Runs where Player equal Ted_Tyler
-select Runs where Player equal Albert_Clapp
-select Runs where Player equal Herbie_Hewett
-select Matches where Player equal John_Felmley
-select Matches where Player equal Ted_Tyler
-select Matches where Player equal Albert_Clapp
-select Matches where Player equal Herbie_Hewett
-select Field_Goals where Player equal John_Felmley
-select Field_Goals where Player equal Ted_Tyler
-select Field_Goals where Player equal Albert_Clapp
-select Field_Goals where Player equal Herbie_Hewett
-select Free_Throws where Player equal John_Felmley
-select Free_Throws where Player equal Ted_Tyler
-select Free_Throws where Player equal Albert_Clapp
-select Free_Throws where Player equal Herbie_Hewett
-select Points where Player equal John_Felmley
-select Points where Player equal Ted_Tyler
-select Points where Player equal Albert_Clapp
-select Points where Player equal Herbie_Hewett
-select Games_Played where Player equal John_Felmley
-select Games_Played where Player equal Ted_Tyler
-select Games_Played where Player equal Albert_Clapp
-select Games_Played where Player equal Herbie_Hewett
-select 100s where Player equal John_Felmley
-select 100s where Player equal Ted_Tyler
-select 100s where Player equal Albert_Clapp
-select 100s where Player equal Herbie_Hewett
-select 50s where Player equal John_Felmley
-select 50s where Player equal Ted_Tyler
-select 50s where Player equal Albert_Clapp
-select 50s where Player equal Herbie_Hewett
-select U.S._Open where Country equal New_Zealand
-select U.S._Open where Country equal Uzbekistan
-select U.S._Open where Country equal Chile
-select U.S._Open where Country equal Estonia
-select Masters where Country equal New_Zealand
-select Masters where Country equal Uzbekistan
-select Masters where Country equal Chile
-select Masters where Country equal Estonia
-select The_Open where Country equal New_Zealand
-select The_Open where Country equal Uzbekistan
-select The_Open where Country equal Chile
-select The_Open where Country equal Estonia
-select PGA where Country equal New_Zealand
-select PGA where Country equal Uzbekistan
-select PGA where Country equal Chile
-select PGA where Country equal Estonia
-select Total_Apps where Position equal QB
-select Total_Apps where Position equal Goalkeeper
+select 50s where Player equal Ray_Woods
+select U.S._Open where Country equal United_States
+select U.S._Open where Country equal Russia
+select U.S._Open where Country equal Malaysia
+select Masters where Country equal United_States
+select Masters where Country equal Russia
+select Masters where Country equal Malaysia
+select The_Open where Country equal United_States
+select The_Open where Country equal Russia
+select The_Open where Country equal Malaysia
+select PGA where Country equal United_States
+select PGA where Country equal Russia
+select PGA where Country equal Malaysia
 select Total_Apps where Position equal Forward
-select Total_Apps where Position equal S
-select FA_Cup_Apps where Position equal QB
-select FA_Cup_Apps where Position equal Goalkeeper
+select Total_Apps where Position equal QB
+select Total_Apps where Position equal CB
 select FA_Cup_Apps where Position equal Forward
-select FA_Cup_Apps where Position equal S
-select Total_Goals where Position equal QB
-select Total_Goals where Position equal Goalkeeper
+select FA_Cup_Apps where Position equal QB
+select FA_Cup_Apps where Position equal CB
 select Total_Goals where Position equal Forward
-select Total_Goals where Position equal S
-select FA_Cup_Goals where Position equal QB
-select FA_Cup_Goals where Position equal Goalkeeper
+select Total_Goals where Position equal QB
+select Total_Goals where Position equal CB
 select FA_Cup_Goals where Position equal Forward
-select FA_Cup_Goals where Position equal S
-select League_Apps where Position equal QB
-select League_Apps where Position equal Goalkeeper
+select FA_Cup_Goals where Position equal QB
+select FA_Cup_Goals where Position equal CB
 select League_Apps where Position equal Forward
-select League_Apps where Position equal S
-select League_Goals where Position equal QB
-select League_Goals where Position equal Goalkeeper
+select League_Apps where Position equal QB
+select League_Apps where Position equal CB
 select League_Goals where Position equal Forward
-select League_Goals where Position equal S
-select Total_Apps where Name equal Harry_Brough
+select League_Goals where Position equal QB
+select League_Goals where Position equal CB
 select Total_Apps where Name equal Tony_Coton
 select Total_Apps where Name equal James_Wood
-select Total_Apps where Name equal Ted_Davis
-select FA_Cup_Apps where Name equal Harry_Brough
+select Total_Apps where Name equal Ernie_Islip
 select FA_Cup_Apps where Name equal Tony_Coton
 select FA_Cup_Apps where Name equal James_Wood
-select FA_Cup_Apps where Name equal Ted_Davis
-select Total_Goals where Name equal Harry_Brough
+select FA_Cup_Apps where Name equal Ernie_Islip
 select Total_Goals where Name equal Tony_Coton
 select Total_Goals where Name equal James_Wood
-select Total_Goals where Name equal Ted_Davis
-select FA_Cup_Goals where Name equal Harry_Brough
+select Total_Goals where Name equal Ernie_Islip
 select FA_Cup_Goals where Name equal Tony_Coton
 select FA_Cup_Goals where Name equal James_Wood
-select FA_Cup_Goals where Name equal Ted_Davis
-select League_Apps where Name equal Harry_Brough
+select FA_Cup_Goals where Name equal Ernie_Islip
 select League_Apps where Name equal Tony_Coton
 select League_Apps where Name equal James_Wood
-select League_Apps where Name equal Ted_Davis
-select League_Goals where Name equal Harry_Brough
+select League_Apps where Name equal Ernie_Islip
 select League_Goals where Name equal Tony_Coton
 select League_Goals where Name equal James_Wood
-select League_Goals where Name equal Ted_Davis
-select Total_Apps where Nation equal Italy
-select Total_Apps where Nation equal Armenia
-select Total_Apps where Nation equal Kuwait
-select Total_Apps where Nation equal West_Germany
-select FA_Cup_Apps where Nation equal Italy
-select FA_Cup_Apps where Nation equal Armenia
-select FA_Cup_Apps where Nation equal Kuwait
-select FA_Cup_Apps where Nation equal West_Germany
-select Total_Goals where Nation equal Italy
-select Total_Goals where Nation equal Armenia
-select Total_Goals where Nation equal Kuwait
-select Total_Goals where Nation equal West_Germany
-select FA_Cup_Goals where Nation equal Italy
-select FA_Cup_Goals where Nation equal Armenia
-select FA_Cup_Goals where Nation equal Kuwait
-select FA_Cup_Goals where Nation equal West_Germany
-select League_Apps where Nation equal Italy
-select League_Apps where Nation equal Armenia
-select League_Apps where Nation equal Kuwait
-select League_Apps where Nation equal West_Germany
-select League_Goals where Nation equal Italy
-select League_Goals where Nation equal Armenia
-select League_Goals where Nation equal Kuwait
-select League_Goals where Nation equal West_Germany
-select Nation where Bronze equal 73
-select Nation where Bronze equal 34
-select Nation where Bronze equal 16
-select Nation where Bronze equal 18
-select Nation where Silver equal 55
-select Nation where Silver equal 74
-select Nation where Silver equal 32
-select Nation where Silver equal 44
-select Nation where Gold equal 19
-select Nation where Gold equal 95
-select Nation where Gold equal 17
-select Nation where Gold equal 78
-select Rank where Nation equal Latvia
-select Rank where Nation equal Sweden
-select Rank where Nation equal South_Korea
-select Rank where Nation equal United_States
-select Bronze where Nation equal Philippines
-select Bronze where Nation equal Latvia
-select Bronze where Nation equal Jamaica
+select League_Goals where Name equal Ernie_Islip
+select Total_Apps where Nation equal Iceland
+select Total_Apps where Nation equal Ireland
+select Total_Apps where Nation equal Kazakhstan
+select FA_Cup_Apps where Nation equal Iceland
+select FA_Cup_Apps where Nation equal Ireland
+select FA_Cup_Apps where Nation equal Kazakhstan
+select Total_Goals where Nation equal Iceland
+select Total_Goals where Nation equal Ireland
+select Total_Goals where Nation equal Kazakhstan
+select FA_Cup_Goals where Nation equal Iceland
+select FA_Cup_Goals where Nation equal Ireland
+select FA_Cup_Goals where Nation equal Kazakhstan
+select League_Apps where Nation equal Iceland
+select League_Apps where Nation equal Ireland
+select League_Apps where Nation equal Kazakhstan
+select League_Goals where Nation equal Iceland
+select League_Goals where Nation equal Ireland
+select League_Goals where Nation equal Kazakhstan
+select U.S._Open where Country equal Yugoslavia
+select U.S._Open where Country equal Wales
+select U.S._Open where Country equal Singapore
+select Masters where Country equal Yugoslavia
+select Masters where Country equal Wales
+select Masters where Country equal Singapore
+select The_Open where Country equal Yugoslavia
+select The_Open where Country equal Wales
+select The_Open where Country equal Singapore
+select PGA where Country equal Yugoslavia
+select PGA where Country equal Wales
+select PGA where Country equal Singapore
+select Nation where Bronze equal 46
+select Nation where Bronze equal 41
+select Nation where Bronze equal 90
+select Nation where Silver equal 75
+select Nation where Silver equal 93
+select Nation where Silver equal 67
+select Nation where Gold equal 14
+select Nation where Gold equal 11
+select Nation where Gold equal 41
 select Bronze where Nation equal Russia
-select Silver where Nation equal Philippines
-select Silver where Nation equal Latvia
-select Silver where Nation equal Jamaica
+select Bronze where Nation equal HK
+select Bronze where Nation equal West_Germany
 select Silver where Nation equal Russia
-select Gold where Nation equal Philippines
-select Gold where Nation equal Latvia
-select Gold where Nation equal Jamaica
+select Silver where Nation equal HK
+select Silver where Nation equal West_Germany
 select Gold where Nation equal Russia
+select Gold where Nation equal HK
+select Gold where Nation equal West_Germany
+select Apps where Position equal QB
+select Apps where Position equal TE
+select Apps where Position equal Goalkeeper
+select Goals where Position equal QB
+select Goals where Position equal TE
+select Goals where Position equal Goalkeeper
+select Apps where Name equal Robert_Page
+select Apps where Name equal Frank_Mann
+select Apps where Name equal Billy_H._Smith
+select Goals where Name equal Robert_Page
+select Goals where Name equal Frank_Mann
+select Goals where Name equal Billy_H._Smith
+select Total_no._of_seats_in_Assembly where State equal Uttar_Pradesh
+select Total_no._of_seats_in_Assembly where State equal Mizoram
+select Total_no._of_seats_in_Assembly where State equal Maharashtra
+select No._of_candidates where State equal Uttar_Pradesh
+select No._of_candidates where State equal Mizoram
+select No._of_candidates where State equal Maharashtra
+select No._of_elected where State equal Uttar_Pradesh
+select No._of_elected where State equal Mizoram
+select No._of_elected where State equal Maharashtra
+select Prices where County equal Laois
+select Prices where County equal Dublin
+select Prices where County equal Meath
+select Wins where County equal Laois
+select Wins where County equal Dublin
+select Wins where County equal Meath
+select Areas where County equal Laois
+select Areas where County equal Dublin
+select Areas where County equal Meath
+select Prices where Team equal Czech
+select Prices where Team equal Mexico
+select Prices where Team equal United_States
+select Wins where Team equal Czech
+select Wins where Team equal Mexico
+select Wins where Team equal United_States
+select Areas where Team equal Czech
+select Areas where Team equal Mexico
+select Areas where Team equal United_States
+select Innings where Player equal George_Halas
+select Innings where Player equal Ernest_McKay
+select Innings where Player equal Gordon_Otto
+select Runs where Player equal George_Halas
+select Runs where Player equal Ernest_McKay
+select Runs where Player equal Gordon_Otto
+select Matches where Player equal George_Halas
+select Matches where Player equal Ernest_McKay
+select Matches where Player equal Gordon_Otto
+select Field_Goals where Player equal George_Halas
+select Field_Goals where Player equal Ernest_McKay
+select Field_Goals where Player equal Gordon_Otto
+select Free_Throws where Player equal George_Halas
+select Free_Throws where Player equal Ernest_McKay
+select Free_Throws where Player equal Gordon_Otto
+select Points where Player equal George_Halas
+select Points where Player equal Ernest_McKay
+select Points where Player equal Gordon_Otto
+select Games_Played where Player equal George_Halas
+select Games_Played where Player equal Ernest_McKay
+select Games_Played where Player equal Gordon_Otto
+select 100s where Player equal George_Halas
+select 100s where Player equal Ernest_McKay
+select 100s where Player equal Gordon_Otto
+select 50s where Player equal George_Halas
+select 50s where Player equal Ernest_McKay
+select 50s where Player equal Gordon_Otto
+select U.S._Open where Country equal Nigeria
+select U.S._Open where Country equal Taiwan
+select U.S._Open where Country equal Philippines
+select Masters where Country equal Nigeria
+select Masters where Country equal Taiwan
+select Masters where Country equal Philippines
+select The_Open where Country equal Nigeria
+select The_Open where Country equal Taiwan
+select The_Open where Country equal Philippines
+select PGA where Country equal Nigeria
+select PGA where Country equal Taiwan
+select PGA where Country equal Philippines
+select Total_Apps where Position equal TE
+select Total_Apps where Position equal CB
+select Total_Apps where Position equal Midfielder
+select FA_Cup_Apps where Position equal TE
+select FA_Cup_Apps where Position equal CB
+select FA_Cup_Apps where Position equal Midfielder
+select Total_Goals where Position equal TE
+select Total_Goals where Position equal CB
+select Total_Goals where Position equal Midfielder
+select FA_Cup_Goals where Position equal TE
+select FA_Cup_Goals where Position equal CB
+select FA_Cup_Goals where Position equal Midfielder
+select League_Apps where Position equal TE
+select League_Apps where Position equal CB
+select League_Apps where Position equal Midfielder
+select League_Goals where Position equal TE
+select League_Goals where Position equal CB
+select League_Goals where Position equal Midfielder
+select Total_Apps where Name equal Harry_Brough
+select Total_Apps where Name equal Charlie_Slade
+select Total_Apps where Name equal Frank_Mann
+select FA_Cup_Apps where Name equal Harry_Brough
+select FA_Cup_Apps where Name equal Charlie_Slade
+select FA_Cup_Apps where Name equal Frank_Mann
+select Total_Goals where Name equal Harry_Brough
+select Total_Goals where Name equal Charlie_Slade
+select Total_Goals where Name equal Frank_Mann
+select FA_Cup_Goals where Name equal Harry_Brough
+select FA_Cup_Goals where Name equal Charlie_Slade
+select FA_Cup_Goals where Name equal Frank_Mann
+select League_Apps where Name equal Harry_Brough
+select League_Apps where Name equal Charlie_Slade
+select League_Apps where Name equal Frank_Mann
+select League_Goals where Name equal Harry_Brough
+select League_Goals where Name equal Charlie_Slade
+select League_Goals where Name equal Frank_Mann
+select Total_Apps where Nation equal Ivory_Coast
+select Total_Apps where Nation equal Estonia
+select Total_Apps where Nation equal Saudi_Arabia
+select FA_Cup_Apps where Nation equal Ivory_Coast
+select FA_Cup_Apps where Nation equal Estonia
+select FA_Cup_Apps where Nation equal Saudi_Arabia
+select Total_Goals where Nation equal Ivory_Coast
+select Total_Goals where Nation equal Estonia
+select Total_Goals where Nation equal Saudi_Arabia
+select FA_Cup_Goals where Nation equal Ivory_Coast
+select FA_Cup_Goals where Nation equal Estonia
+select FA_Cup_Goals where Nation equal Saudi_Arabia
+select League_Apps where Nation equal Ivory_Coast
+select League_Apps where Nation equal Estonia
+select League_Apps where Nation equal Saudi_Arabia
+select League_Goals where Nation equal Ivory_Coast
+select League_Goals where Nation equal Estonia
+select League_Goals where Nation equal Saudi_Arabia
+select Bronze where Nation equal Liechtenstein
+select Bronze where Nation equal Algeria
+select Bronze where Nation equal Yugoslavia
+select Silver where Nation equal Liechtenstein
+select Silver where Nation equal Algeria
+select Silver where Nation equal Yugoslavia
+select Gold where Nation equal Liechtenstein
+select Gold where Nation equal Algeria
+select Gold where Nation equal Yugoslavia
+select U.S._Open where Country equal Romania
+select U.S._Open where Country equal Thailand
+select U.S._Open where Country equal Denmark
+select Masters where Country equal Romania
+select Masters where Country equal Thailand
+select Masters where Country equal Denmark
+select The_Open where Country equal Romania
+select The_Open where Country equal Thailand
+select The_Open where Country equal Denmark
+select PGA where Country equal Romania
+select PGA where Country equal Thailand
+select PGA where Country equal Denmark
+select Bronze where Nation equal England
+select Bronze where Nation equal Cyprus
+select Bronze where Nation equal Canada
+select Silver where Nation equal England
+select Silver where Nation equal Cyprus
+select Silver where Nation equal Canada
+select Gold where Nation equal England
+select Gold where Nation equal Cyprus
+select Gold where Nation equal Canada
+select Apps where Position equal S
+select Apps where Position equal DE
+select Apps where Position equal QB
+select Goals where Position equal S
+select Goals where Position equal DE
+select Goals where Position equal QB
+select Apps where Name equal Charlie_Slade
+select Apps where Name equal Tommy_Mooney
+select Apps where Name equal Jack_Swann
+select Goals where Name equal Charlie_Slade
+select Goals where Name equal Tommy_Mooney
+select Goals where Name equal Jack_Swann
+select Total_no._of_seats_in_Assembly where State equal Haryana
+select Total_no._of_seats_in_Assembly where State equal Florida
+select Total_no._of_seats_in_Assembly where State equal Meghalaya
+select No._of_candidates where State equal Haryana
+select No._of_candidates where State equal Florida
+select No._of_candidates where State equal Meghalaya
+select No._of_elected where State equal Haryana
+select No._of_elected where State equal Florida
+select No._of_elected where State equal Meghalaya
+select Prices where County equal Louth
+select Prices where County equal Dublin
+select Prices where County equal Kildare
+select Wins where County equal Louth
+select Wins where County equal Dublin
+select Wins where County equal Kildare
+select Areas where County equal Louth
+select Areas where County equal Dublin
+select Areas where County equal Kildare
+select Prices where Team equal Egypt
+select Prices where Team equal Fingal_Ravens
+select Prices where Team equal Singapore
+select Wins where Team equal Egypt
+select Wins where Team equal Fingal_Ravens
+select Wins where Team equal Singapore
+select Areas where Team equal Egypt
+select Areas where Team equal Fingal_Ravens
+select Areas where Team equal Singapore
+select Innings where Player equal George_Nichols
+select Innings where Player equal Herbie_Hewett
+select Innings where Player equal George_Halas
+select Runs where Player equal George_Nichols
+select Runs where Player equal Herbie_Hewett
+select Runs where Player equal George_Halas
+select Matches where Player equal George_Nichols
+select Matches where Player equal Herbie_Hewett
+select Matches where Player equal George_Halas
+select Field_Goals where Player equal George_Nichols
+select Field_Goals where Player equal Herbie_Hewett
+select Field_Goals where Player equal George_Halas
+select Free_Throws where Player equal George_Nichols
+select Free_Throws where Player equal Herbie_Hewett
+select Free_Throws where Player equal George_Halas
+select Points where Player equal George_Nichols
+select Points where Player equal Herbie_Hewett
+select Points where Player equal George_Halas
+select Games_Played where Player equal George_Nichols
+select Games_Played where Player equal Herbie_Hewett
+select Games_Played where Player equal George_Halas
+select 100s where Player equal George_Nichols
+select 100s where Player equal Herbie_Hewett
+select 100s where Player equal George_Halas
+select 50s where Player equal George_Nichols
+select 50s where Player equal Herbie_Hewett
+select 50s where Player equal George_Halas
+select U.S._Open where Country equal Uzbekistan
+select U.S._Open where Country equal Belgium
+select U.S._Open where Country equal Brazil
+select Masters where Country equal Uzbekistan
+select Masters where Country equal Belgium
+select Masters where Country equal Brazil
+select The_Open where Country equal Uzbekistan
+select The_Open where Country equal Belgium
+select The_Open where Country equal Brazil
+select PGA where Country equal Uzbekistan
+select PGA where Country equal Belgium
+select PGA where Country equal Brazil
+select Total_Apps where Position equal Forward
+select Total_Apps where Position equal TE
+select Total_Apps where Position equal Midfielder
+select FA_Cup_Apps where Position equal Forward
+select FA_Cup_Apps where Position equal TE
+select FA_Cup_Apps where Position equal Midfielder
+select Total_Goals where Position equal Forward
+select Total_Goals where Position equal TE
+select Total_Goals where Position equal Midfielder
+select FA_Cup_Goals where Position equal Forward
+select FA_Cup_Goals where Position equal TE
+select FA_Cup_Goals where Position equal Midfielder
+select League_Apps where Position equal Forward
+select League_Apps where Position equal TE
+select League_Apps where Position equal Midfielder
+select League_Goals where Position equal Forward
+select League_Goals where Position equal TE
+select League_Goals where Position equal Midfielder
+select Total_Apps where Name equal Charlie_Slade
+select Total_Apps where Name equal Robert_Page
+select Total_Apps where Name equal Stan_Pearson
+select FA_Cup_Apps where Name equal Charlie_Slade
+select FA_Cup_Apps where Name equal Robert_Page
+select FA_Cup_Apps where Name equal Stan_Pearson
+select Total_Goals where Name equal Charlie_Slade
+select Total_Goals where Name equal Robert_Page
+select Total_Goals where Name equal Stan_Pearson
+select FA_Cup_Goals where Name equal Charlie_Slade
+select FA_Cup_Goals where Name equal Robert_Page
+select FA_Cup_Goals where Name equal Stan_Pearson
+select League_Apps where Name equal Charlie_Slade
+select League_Apps where Name equal Robert_Page
+select League_Apps where Name equal Stan_Pearson
+select League_Goals where Name equal Charlie_Slade
+select League_Goals where Name equal Robert_Page
+select League_Goals where Name equal Stan_Pearson
+select Total_Apps where Nation equal Great_Britain
+select Total_Apps where Nation equal Hungary
+select Total_Apps where Nation equal Germany
+select FA_Cup_Apps where Nation equal Great_Britain
+select FA_Cup_Apps where Nation equal Hungary
+select FA_Cup_Apps where Nation equal Germany
+select Total_Goals where Nation equal Great_Britain
+select Total_Goals where Nation equal Hungary
+select Total_Goals where Nation equal Germany
+select FA_Cup_Goals where Nation equal Great_Britain
+select FA_Cup_Goals where Nation equal Hungary
+select FA_Cup_Goals where Nation equal Germany
+select League_Apps where Nation equal Great_Britain
+select League_Apps where Nation equal Hungary
+select League_Apps where Nation equal Germany
+select League_Goals where Nation equal Great_Britain
+select League_Goals where Nation equal Hungary
+select League_Goals where Nation equal Germany
+select Nation where Bronze equal 17
+select Nation where Bronze equal 15
+select Nation where Bronze equal 83
+select Nation where Silver equal 5
+select Nation where Silver equal 84
+select Nation where Silver equal 43
+select Nation where Gold equal 58
+select Nation where Gold equal 31
+select Nation where Gold equal 55
+select Rank where Nation equal Japan
+select Rank where Nation equal Iceland
+select Rank where Nation equal Malaysia
+select Bronze where Nation equal England
+select Bronze where Nation equal Australia
+select Bronze where Nation equal Jamaica
+select Silver where Nation equal England
+select Silver where Nation equal Australia
+select Silver where Nation equal Jamaica
+select Gold where Nation equal England
+select Gold where Nation equal Australia
+select Gold where Nation equal Jamaica
 select Nation where Bronze equal <value>:1
 select Nation where Silver equal <value>:1
 select Nation where Gold equal <value>:1
-select Bronze where Nation equal Armenia
-select Bronze where Nation equal Moldova
-select Bronze where Nation equal Austria
-select Bronze where Nation equal Indonesia
-select Silver where Nation equal Armenia
-select Silver where Nation equal Moldova
-select Silver where Nation equal Austria
-select Silver where Nation equal Indonesia
-select Gold where Nation equal Armenia
-select Gold where Nation equal Moldova
-select Gold where Nation equal Austria
-select Gold where Nation equal Indonesia
-select Player where Innings less 73
+select Bronze where Nation equal Chile
+select Bronze where Nation equal Italy
+select Bronze where Nation equal Czech_Republic
+select Silver where Nation equal Chile
+select Silver where Nation equal Italy
+select Silver where Nation equal Czech_Republic
+select Gold where Nation equal Chile
+select Gold where Nation equal Italy
+select Gold where Nation equal Czech_Republic
 select Player where Innings less 78
-select Player where Innings less 79
-select Player where Innings less 94
-select Player where Runs less 34
-select Player where Runs less 66
-select Player where Runs less 75
-select Player where Runs less 79
-select Player where Matches less 10
-select Player where Matches less 66
-select Player where Matches less 62
-select Player where Matches less 25
-select Player where Field_Goals less 56
-select Player where Field_Goals less 50
-select Player where Field_Goals less 40
-select Player where Field_Goals less 27
-select Player where Free_Throws less 18
-select Player where Free_Throws less 71
-select Player where Free_Throws less 43
-select Player where Free_Throws less 18
-select Player where Points less 28
-select Player where Points less 52
-select Player where Points less 27
-select Player where Points less 1
-select Player where Games_Played less 57
-select Player where Games_Played less 31
-select Player where Games_Played less 9
-select Player where Games_Played less 66
-select Player where 100s less 9
-select Player where 100s less 80
-select Player where 100s less 35
-select Player where 100s less 77
-select Player where 50s less 97
-select Player where 50s less 28
-select Player where 50s less 27
-select Player where 50s less 59
-select Nation where Bronze less 17
-select Nation where Bronze less 50
-select Nation where Bronze less 43
-select Nation where Bronze less 4
+select Player where Innings less 13
+select Player where Innings less 77
+select Player where Runs less 21
+select Player where Runs less 51
+select Player where Runs less 84
+select Player where Matches less 39
+select Player where Matches less 90
+select Player where Matches less 70
+select Player where Field_Goals less 37
+select Player where Field_Goals less 6
+select Player where Field_Goals less 84
+select Player where Free_Throws less 28
+select Player where Free_Throws less 22
+select Player where Free_Throws less 83
+select Player where Points less 64
+select Player where Points less 67
+select Player where Points less 20
+select Player where Games_Played less 8
+select Player where Games_Played less 72
+select Player where Games_Played less 33
+select Player where 100s less 14
+select Player where 100s less 34
+select Player where 100s less 68
+select Player where 50s less 52
+select Player where 50s less 71
+select Player where 50s less 37
+select Nation where Bronze less 94
+select Nation where Bronze less 49
+select Nation where Bronze less 5
+select Nation where Silver less 45
+select Nation where Silver less 88
+select Nation where Silver less 79
+select Nation where Gold less 54
+select Nation where Gold less 67
+select Nation where Gold less 30
+select Nation where Bronze less 69
+select Nation where Bronze less 82
+select Nation where Bronze less 94
+select Nation where Silver less 89
 select Nation where Silver less 28
-select Nation where Silver less 58
-select Nation where Silver less 43
-select Nation where Silver less 67
-select Nation where Gold less 93
-select Nation where Gold less 85
-select Nation where Gold less 17
-select Nation where Gold less 82
-select Nation where Bronze less 25
-select Nation where Bronze less 77
-select Nation where Bronze less 99
-select Nation where Bronze less 95
-select Nation where Silver less 71
-select Nation where Silver less 91
-select Nation where Silver less 12
-select Nation where Silver less 82
-select Nation where Gold less 15
-select Nation where Gold less 73
-select Nation where Gold less 77
-select Nation where Gold less 47
-select Nation where Bronze less 71
-select Nation where Bronze less 75
-select Nation where Bronze less 76
-select Nation where Bronze less 79
-select Nation where Silver less 26
-select Nation where Silver less 99
-select Nation where Silver less 27
-select Nation where Silver less 22
-select Nation where Gold less 32
-select Nation where Gold less 78
-select Nation where Gold less 14
-select Nation where Gold less 32
-select Position where Apps less 2
-select Position where Apps less 9
+select Nation where Silver less 48
+select Nation where Gold less 95
+select Nation where Gold less 83
+select Nation where Gold less 99
+select Nation where Bronze less 49
+select Nation where Bronze less 98
+select Nation where Bronze less 24
+select Nation where Silver less 13
+select Nation where Silver less 35
+select Nation where Silver less 20
+select Nation where Gold less 91
+select Nation where Gold less 84
+select Nation where Gold less 19
 select Position where Apps less 24
-select Position where Apps less 51
-select Name where Apps less 2
-select Name where Apps less 9
+select Position where Apps less 59
+select Position where Apps less 30
 select Name where Apps less 24
-select Name where Apps less 51
-select Position where Goals less 52
-select Position where Goals less 62
-select Position where Goals less 50
-select Position where Goals less 1
-select Name where Goals less 52
-select Name where Goals less 62
-select Name where Goals less 50
-select Name where Goals less 1
-select State where Total_no._of_seats_in_Assembly less 88
-select State where Total_no._of_seats_in_Assembly less 51
+select Name where Apps less 59
+select Name where Apps less 30
+select Position where Goals less 27
+select Position where Goals less 14
+select Position where Goals less 84
+select Name where Goals less 27
+select Name where Goals less 14
+select Name where Goals less 84
+select State where Total_no._of_seats_in_Assembly less 40
+select State where Total_no._of_seats_in_Assembly less 18
 select State where Total_no._of_seats_in_Assembly less 24
-select State where Total_no._of_seats_in_Assembly less 95
-select State where No._of_candidates less 98
-select State where No._of_candidates less 65
+select State where No._of_candidates less 77
 select State where No._of_candidates less 20
-select State where No._of_candidates less 74
+select State where No._of_candidates less 12
+select State where No._of_elected less 95
 select State where No._of_elected less 4
-select State where No._of_elected less 39
-select State where No._of_elected less 31
-select State where No._of_elected less 65
-select County where Prices less 26
-select County where Prices less 81
-select County where Prices less 18
+select State where No._of_elected less 50
+select County where Prices less 91
+select County where Prices less 35
+select County where Prices less 2
+select Team where Prices less 91
+select Team where Prices less 35
+select Team where Prices less 2
+select County where Wins less 63
+select County where Wins less 72
+select County where Wins less 15
+select Team where Wins less 63
+select Team where Wins less 72
+select Team where Wins less 15
+select County where Areas less 72
+select County where Areas less 26
+select County where Areas less 80
+select Team where Areas less 72
+select Team where Areas less 26
+select Team where Areas less 80
+select Player where Innings less 94
+select Player where Innings less 82
+select Player where Innings less 14
+select Player where Runs less 15
+select Player where Runs less 45
+select Player where Runs less 85
+select Player where Matches less 25
+select Player where Matches less 72
+select Player where Matches less 57
+select Player where Field_Goals less 20
+select Player where Field_Goals less 58
+select Player where Field_Goals less 56
+select Player where Free_Throws less 83
+select Player where Free_Throws less 17
+select Player where Free_Throws less 57
+select Player where Points less 50
+select Player where Points less 8
+select Player where Points less 26
+select Player where Games_Played less 59
+select Player where Games_Played less 95
+select Player where Games_Played less 98
+select Player where 100s less 18
+select Player where 100s less 5
+select Player where 100s less 29
+select Player where 50s less 51
+select Player where 50s less 97
+select Player where 50s less 50
+select Country where U.S._Open less 68
+select Country where U.S._Open less 71
+select Country where U.S._Open less 48
+select Country where Masters less 8
+select Country where Masters less 7
+select Country where Masters less 39
+select Country where The_Open less 93
+select Country where The_Open less 63
+select Country where The_Open less 69
+select Country where PGA less 55
+select Country where PGA less 13
+select Country where PGA less 80
+select Position where Total_Apps less 47
+select Position where Total_Apps less 22
+select Position where Total_Apps less 12
+select Name where Total_Apps less 47
+select Name where Total_Apps less 22
+select Name where Total_Apps less 12
+select Nation where Total_Apps less 47
+select Nation where Total_Apps less 22
+select Nation where Total_Apps less 12
+select Position where FA_Cup_Apps less 95
+select Position where FA_Cup_Apps less 7
+select Position where FA_Cup_Apps less 8
+select Name where FA_Cup_Apps less 95
+select Name where FA_Cup_Apps less 7
+select Name where FA_Cup_Apps less 8
+select Nation where FA_Cup_Apps less 95
+select Nation where FA_Cup_Apps less 7
+select Nation where FA_Cup_Apps less 8
+select Position where Total_Goals less 77
+select Position where Total_Goals less 98
+select Position where Total_Goals less 85
+select Name where Total_Goals less 77
+select Name where Total_Goals less 98
+select Name where Total_Goals less 85
+select Nation where Total_Goals less 77
+select Nation where Total_Goals less 98
+select Nation where Total_Goals less 85
+select Position where FA_Cup_Goals less 2
+select Position where FA_Cup_Goals less 90
+select Position where FA_Cup_Goals less 24
+select Name where FA_Cup_Goals less 2
+select Name where FA_Cup_Goals less 90
+select Name where FA_Cup_Goals less 24
+select Nation where FA_Cup_Goals less 2
+select Nation where FA_Cup_Goals less 90
+select Nation where FA_Cup_Goals less 24
+select Position where League_Apps less 1
+select Position where League_Apps less 62
+select Position where League_Apps less 26
+select Name where League_Apps less 1
+select Name where League_Apps less 62
+select Name where League_Apps less 26
+select Nation where League_Apps less 1
+select Nation where League_Apps less 62
+select Nation where League_Apps less 26
+select Position where League_Goals less 57
+select Position where League_Goals less 7
+select Position where League_Goals less 45
+select Name where League_Goals less 57
+select Name where League_Goals less 7
+select Name where League_Goals less 45
+select Nation where League_Goals less 57
+select Nation where League_Goals less 7
+select Nation where League_Goals less 45
+select Nation where Bronze less Philippines
+select Nation where Bronze less Spain
+select Nation where Bronze less UK
+select Nation where Silver less Philippines
+select Nation where Silver less Spain
+select Nation where Silver less UK
+select Nation where Gold less Philippines
+select Nation where Gold less Spain
+select Nation where Gold less UK
+select Nation where Bronze less 10
+select Nation where Bronze less 37
+select Nation where Bronze less 43
+select Nation where Silver less 55
+select Nation where Silver less 10
+select Nation where Silver less 54
+select Nation where Gold less 22
+select Nation where Gold less 38
+select Nation where Gold less 28
+select Position where Apps less 40
+select Position where Apps less 2
+select Position where Apps less 27
+select Name where Apps less 40
+select Name where Apps less 2
+select Name where Apps less 27
+select Position where Goals less 82
+select Position where Goals less 7
+select Position where Goals less 48
+select Name where Goals less 82
+select Name where Goals less 7
+select Name where Goals less 48
+select State where Total_no._of_seats_in_Assembly less 93
+select State where Total_no._of_seats_in_Assembly less 38
+select State where Total_no._of_seats_in_Assembly less 34
+select State where No._of_candidates less 43
+select State where No._of_candidates less 2
+select State where No._of_candidates less 51
+select State where No._of_elected less 25
+select State where No._of_elected less 46
+select State where No._of_elected less 56
+select County where Prices less 35
 select County where Prices less 13
-select Team where Prices less 26
-select Team where Prices less 81
-select Team where Prices less 18
+select County where Prices less 57
+select Team where Prices less 35
 select Team where Prices less 13
+select Team where Prices less 57
+select County where Wins less 17
+select County where Wins less 44
 select County where Wins less 98
-select County where Wins less 11
-select County where Wins less 5
-select County where Wins less 85
+select Team where Wins less 17
+select Team where Wins less 44
 select Team where Wins less 98
-select Team where Wins less 11
-select Team where Wins less 5
-select Team where Wins less 85
-select County where Areas less 28
-select County where Areas less 86
-select County where Areas less 15
-select County where Areas less 34
-select Team where Areas less 28
-select Team where Areas less 86
-select Team where Areas less 15
-select Team where Areas less 34
-select Player where Innings less 75
-select Player where Innings less 65
-select Player where Innings less 72
-select Player where Innings less 20
-select Player where Runs less 29
-select Player where Runs less 19
-select Player where Runs less 2
-select Player where Runs less 88
+select County where Areas less 47
+select County where Areas less 35
+select County where Areas less 51
+select Team where Areas less 47
+select Team where Areas less 35
+select Team where Areas less 51
+select Player where Innings less 29
+select Player where Innings less 34
+select Player where Innings less 37
+select Player where Runs less 94
+select Player where Runs less 47
+select Player where Runs less 22
 select Player where Matches less 89
-select Player where Matches less 67
-select Player where Matches less 14
-select Player where Matches less 43
+select Player where Matches less 68
+select Player where Matches less 39
+select Player where Field_Goals less 71
 select Player where Field_Goals less 21
 select Player where Field_Goals less 16
-select Player where Field_Goals less 57
-select Player where Field_Goals less 84
-select Player where Free_Throws less 96
-select Player where Free_Throws less 57
-select Player where Free_Throws less 31
-select Player where Free_Throws less 9
-select Player where Points less 16
-select Player where Points less 36
-select Player where Points less 7
-select Player where Points less 29
-select Player where Games_Played less 35
-select Player where Games_Played less 5
-select Player where Games_Played less 68
-select Player where Games_Played less 87
-select Player where 100s less 41
-select Player where 100s less 63
-select Player where 100s less 31
-select Player where 100s less 91
-select Player where 50s less 34
-select Player where 50s less 80
-select Player where 50s less 1
-select Player where 50s less 6
-select Country where U.S._Open less 31
-select Country where U.S._Open less 87
-select Country where U.S._Open less 15
-select Country where U.S._Open less 76
-select Country where Masters less 41
-select Country where Masters less 62
-select Country where Masters less 61
-select Country where Masters less 61
-select Country where The_Open less 56
-select Country where The_Open less 87
-select Country where The_Open less 60
-select Country where The_Open less 43
-select Country where PGA less 31
-select Country where PGA less 88
-select Country where PGA less 42
-select Country where PGA less 67
-select Position where Total_Apps less 35
-select Position where Total_Apps less 20
-select Position where Total_Apps less 40
-select Position where Total_Apps less 35
-select Name where Total_Apps less 35
-select Name where Total_Apps less 20
-select Name where Total_Apps less 40
-select Name where Total_Apps less 35
-select Nation where Total_Apps less 35
-select Nation where Total_Apps less 20
-select Nation where Total_Apps less 40
-select Nation where Total_Apps less 35
-select Position where FA_Cup_Apps less 54
-select Position where FA_Cup_Apps less 34
-select Position where FA_Cup_Apps less 24
-select Position where FA_Cup_Apps less 62
-select Name where FA_Cup_Apps less 54
-select Name where FA_Cup_Apps less 34
-select Name where FA_Cup_Apps less 24
-select Name where FA_Cup_Apps less 62
-select Nation where FA_Cup_Apps less 54
-select Nation where FA_Cup_Apps less 34
-select Nation where FA_Cup_Apps less 24
-select Nation where FA_Cup_Apps less 62
-select Position where Total_Goals less 54
-select Position where Total_Goals less 75
-select Position where Total_Goals less 5
-select Position where Total_Goals less 55
-select Name where Total_Goals less 54
-select Name where Total_Goals less 75
-select Name where Total_Goals less 5
-select Name where Total_Goals less 55
-select Nation where Total_Goals less 54
-select Nation where Total_Goals less 75
-select Nation where Total_Goals less 5
-select Nation where Total_Goals less 55
-select Position where FA_Cup_Goals less 13
-select Position where FA_Cup_Goals less 33
-select Position where FA_Cup_Goals less 47
-select Position where FA_Cup_Goals less 89
-select Name where FA_Cup_Goals less 13
-select Name where FA_Cup_Goals less 33
-select Name where FA_Cup_Goals less 47
-select Name where FA_Cup_Goals less 89
-select Nation where FA_Cup_Goals less 13
-select Nation where FA_Cup_Goals less 33
-select Nation where FA_Cup_Goals less 47
-select Nation where FA_Cup_Goals less 89
-select Position where League_Apps less 18
-select Position where League_Apps less 56
-select Position where League_Apps less 43
-select Position where League_Apps less 94
-select Name where League_Apps less 18
-select Name where League_Apps less 56
-select Name where League_Apps less 43
-select Name where League_Apps less 94
-select Nation where League_Apps less 18
-select Nation where League_Apps less 56
-select Nation where League_Apps less 43
-select Nation where League_Apps less 94
-select Position where League_Goals less 17
-select Position where League_Goals less 63
-select Position where League_Goals less 62
-select Position where League_Goals less 56
-select Name where League_Goals less 17
-select Name where League_Goals less 63
-select Name where League_Goals less 62
-select Name where League_Goals less 56
-select Nation where League_Goals less 17
-select Nation where League_Goals less 63
-select Nation where League_Goals less 62
-select Nation where League_Goals less 56
-select Nation where Bronze less Taiwan
-select Nation where Bronze less Czech_Republic
-select Nation where Bronze less Morocco
-select Nation where Bronze less Ireland
-select Nation where Silver less Taiwan
-select Nation where Silver less Czech_Republic
-select Nation where Silver less Morocco
-select Nation where Silver less Ireland
-select Nation where Gold less Taiwan
-select Nation where Gold less Czech_Republic
-select Nation where Gold less Morocco
-select Nation where Gold less Ireland
-select Nation where Bronze less 40
-select Nation where Bronze less 21
-select Nation where Bronze less 38
-select Nation where Bronze less 53
-select Nation where Silver less 50
-select Nation where Silver less 29
-select Nation where Silver less 13
-select Nation where Silver less 31
-select Nation where Gold less 45
-select Nation where Gold less 7
-select Nation where Gold less 72
-select Nation where Gold less 57
-select Position where Apps less 46
-select Position where Apps less 87
-select Position where Apps less 4
-select Position where Apps less 17
-select Name where Apps less 46
-select Name where Apps less 87
-select Name where Apps less 4
-select Name where Apps less 17
-select Position where Goals less 78
-select Position where Goals less 78
-select Position where Goals less 62
-select Position where Goals less 50
-select Name where Goals less 78
-select Name where Goals less 78
-select Name where Goals less 62
-select Name where Goals less 50
-select State where Total_no._of_seats_in_Assembly less 61
-select State where Total_no._of_seats_in_Assembly less 25
-select State where Total_no._of_seats_in_Assembly less 93
-select State where Total_no._of_seats_in_Assembly less 12
-select State where No._of_candidates less 75
-select State where No._of_candidates less 37
-select State where No._of_candidates less 79
-select State where No._of_candidates less 50
-select State where No._of_elected less 95
-select State where No._of_elected less 34
-select State where No._of_elected less 80
-select State where No._of_elected less 47
-select County where Prices less 10
-select County where Prices less 76
-select County where Prices less 16
-select County where Prices less 36
-select Team where Prices less 10
-select Team where Prices less 76
-select Team where Prices less 16
-select Team where Prices less 36
-select County where Wins less 44
-select County where Wins less 77
-select County where Wins less 26
-select County where Wins less 45
-select Team where Wins less 44
-select Team where Wins less 77
-select Team where Wins less 26
-select Team where Wins less 45
-select County where Areas less 41
-select County where Areas less 5
-select County where Areas less 73
-select County where Areas less 74
-select Team where Areas less 41
-select Team where Areas less 5
-select Team where Areas less 73
-select Team where Areas less 74
-select Player where Innings less 7
-select Player where Innings less 44
-select Player where Innings less 48
-select Player where Innings less 63
-select Player where Runs less 51
-select Player where Runs less 74
-select Player where Runs less 97
-select Player where Runs less 70
-select Player where Matches less 17
-select Player where Matches less 97
-select Player where Matches less 10
-select Player where Matches less 77
-select Player where Field_Goals less 50
-select Player where Field_Goals less 90
-select Player where Field_Goals less 56
-select Player where Field_Goals less 82
-select Player where Free_Throws less 6
-select Player where Free_Throws less 92
-select Player where Free_Throws less 32
+select Player where Free_Throws less 84
+select Player where Free_Throws less 71
 select Player where Free_Throws less 85
-select Player where Points less 19
-select Player where Points less 47
-select Player where Points less 14
-select Player where Points less 51
-select Player where Games_Played less 88
-select Player where Games_Played less 91
-select Player where Games_Played less 36
-select Player where Games_Played less 36
-select Player where 100s less 6
-select Player where 100s less 70
-select Player where 100s less 44
+select Player where Points less 64
+select Player where Points less 75
+select Player where Points less 57
+select Player where Games_Played less 99
+select Player where Games_Played less 73
+select Player where Games_Played less 66
+select Player where 100s less 40
+select Player where 100s less 47
 select Player where 100s less 48
-select Player where 50s less 5
-select Player where 50s less 70
-select Player where 50s less 35
-select Player where 50s less 35
-select Country where U.S._Open less 67
-select Country where U.S._Open less 80
-select Country where U.S._Open less 55
-select Country where U.S._Open less 57
-select Country where Masters less 14
-select Country where Masters less 11
-select Country where Masters less 38
-select Country where Masters less 97
-select Country where The_Open less 64
-select Country where The_Open less 1
-select Country where The_Open less 48
-select Country where The_Open less 59
-select Country where PGA less 72
-select Country where PGA less 23
-select Country where PGA less 59
-select Country where PGA less 40
-select Position where Total_Apps less 93
-select Position where Total_Apps less 57
-select Position where Total_Apps less 97
-select Position where Total_Apps less 59
-select Name where Total_Apps less 93
-select Name where Total_Apps less 57
-select Name where Total_Apps less 97
-select Name where Total_Apps less 59
-select Nation where Total_Apps less 93
-select Nation where Total_Apps less 57
-select Nation where Total_Apps less 97
-select Nation where Total_Apps less 59
-select Position where FA_Cup_Apps less 93
-select Position where FA_Cup_Apps less 37
-select Position where FA_Cup_Apps less 38
-select Position where FA_Cup_Apps less 87
-select Name where FA_Cup_Apps less 93
-select Name where FA_Cup_Apps less 37
-select Name where FA_Cup_Apps less 38
-select Name where FA_Cup_Apps less 87
-select Nation where FA_Cup_Apps less 93
-select Nation where FA_Cup_Apps less 37
-select Nation where FA_Cup_Apps less 38
-select Nation where FA_Cup_Apps less 87
-select Position where Total_Goals less 75
-select Position where Total_Goals less 93
-select Position where Total_Goals less 45
-select Position where Total_Goals less 91
-select Name where Total_Goals less 75
-select Name where Total_Goals less 93
-select Name where Total_Goals less 45
-select Name where Total_Goals less 91
-select Nation where Total_Goals less 75
-select Nation where Total_Goals less 93
-select Nation where Total_Goals less 45
-select Nation where Total_Goals less 91
-select Position where FA_Cup_Goals less 26
-select Position where FA_Cup_Goals less 34
-select Position where FA_Cup_Goals less 77
-select Position where FA_Cup_Goals less 73
-select Name where FA_Cup_Goals less 26
-select Name where FA_Cup_Goals less 34
-select Name where FA_Cup_Goals less 77
-select Name where FA_Cup_Goals less 73
-select Nation where FA_Cup_Goals less 26
-select Nation where FA_Cup_Goals less 34
-select Nation where FA_Cup_Goals less 77
-select Nation where FA_Cup_Goals less 73
-select Position where League_Apps less 21
-select Position where League_Apps less 84
-select Position where League_Apps less 64
-select Position where League_Apps less 57
-select Name where League_Apps less 21
-select Name where League_Apps less 84
-select Name where League_Apps less 64
-select Name where League_Apps less 57
-select Nation where League_Apps less 21
-select Nation where League_Apps less 84
-select Nation where League_Apps less 64
-select Nation where League_Apps less 57
-select Position where League_Goals less 59
-select Position where League_Goals less 83
-select Position where League_Goals less 61
+select Player where 50s less 31
+select Player where 50s less 81
+select Player where 50s less 86
+select Country where U.S._Open less 11
+select Country where U.S._Open less 32
+select Country where U.S._Open less 7
+select Country where Masters less 26
+select Country where Masters less 6
+select Country where Masters less 9
+select Country where The_Open less 63
+select Country where The_Open less 89
+select Country where The_Open less 15
+select Country where PGA less 9
+select Country where PGA less 5
+select Country where PGA less 13
+select Position where Total_Apps less 12
+select Position where Total_Apps less 84
+select Position where Total_Apps less 13
+select Name where Total_Apps less 12
+select Name where Total_Apps less 84
+select Name where Total_Apps less 13
+select Nation where Total_Apps less 12
+select Nation where Total_Apps less 84
+select Nation where Total_Apps less 13
+select Position where FA_Cup_Apps less 36
+select Position where FA_Cup_Apps less 95
+select Position where FA_Cup_Apps less 59
+select Name where FA_Cup_Apps less 36
+select Name where FA_Cup_Apps less 95
+select Name where FA_Cup_Apps less 59
+select Nation where FA_Cup_Apps less 36
+select Nation where FA_Cup_Apps less 95
+select Nation where FA_Cup_Apps less 59
+select Position where Total_Goals less 16
+select Position where Total_Goals less 53
+select Position where Total_Goals less 35
+select Name where Total_Goals less 16
+select Name where Total_Goals less 53
+select Name where Total_Goals less 35
+select Nation where Total_Goals less 16
+select Nation where Total_Goals less 53
+select Nation where Total_Goals less 35
+select Position where FA_Cup_Goals less 76
+select Position where FA_Cup_Goals less 81
+select Position where FA_Cup_Goals less 97
+select Name where FA_Cup_Goals less 76
+select Name where FA_Cup_Goals less 81
+select Name where FA_Cup_Goals less 97
+select Nation where FA_Cup_Goals less 76
+select Nation where FA_Cup_Goals less 81
+select Nation where FA_Cup_Goals less 97
+select Position where League_Apps less 88
+select Position where League_Apps less 76
+select Position where League_Apps less 85
+select Name where League_Apps less 88
+select Name where League_Apps less 76
+select Name where League_Apps less 85
+select Nation where League_Apps less 88
+select Nation where League_Apps less 76
+select Nation where League_Apps less 85
+select Position where League_Goals less 81
+select Position where League_Goals less 75
 select Position where League_Goals less 25
-select Name where League_Goals less 59
-select Name where League_Goals less 83
-select Name where League_Goals less 61
+select Name where League_Goals less 81
+select Name where League_Goals less 75
 select Name where League_Goals less 25
-select Nation where League_Goals less 59
-select Nation where League_Goals less 83
-select Nation where League_Goals less 61
+select Nation where League_Goals less 81
+select Nation where League_Goals less 75
 select Nation where League_Goals less 25
-select Player where Innings greater 53
+select Player where Innings greater 15
+select Player where Innings greater 35
 select Player where Innings greater 79
-select Player where Innings greater 96
-select Player where Innings greater 29
-select Player where Runs greater 91
-select Player where Runs greater 50
-select Player where Runs greater 6
-select Player where Runs greater 98
-select Player where Matches greater 45
-select Player where Matches greater 63
-select Player where Matches greater 10
-select Player where Matches greater 20
-select Player where Field_Goals greater 53
-select Player where Field_Goals greater 77
-select Player where Field_Goals greater 20
-select Player where Field_Goals greater 14
-select Player where Free_Throws greater 52
-select Player where Free_Throws greater 41
-select Player where Free_Throws greater 84
-select Player where Free_Throws greater 67
-select Player where Points greater 36
-select Player where Points greater 49
-select Player where Points greater 82
-select Player where Points greater 57
-select Player where Games_Played greater 40
-select Player where Games_Played greater 79
-select Player where Games_Played greater 55
-select Player where Games_Played greater 15
-select Player where 100s greater 18
-select Player where 100s greater 33
-select Player where 100s greater 48
-select Player where 100s greater 81
-select Player where 50s greater 18
-select Player where 50s greater 44
-select Player where 50s greater 12
-select Player where 50s greater 93
-select Nation where Bronze greater 74
-select Nation where Bronze greater 59
-select Nation where Bronze greater 58
-select Nation where Bronze greater 72
-select Nation where Silver greater 39
-select Nation where Silver greater 63
-select Nation where Silver greater 17
-select Nation where Silver greater 80
-select Nation where Gold greater 19
-select Nation where Gold greater 95
-select Nation where Gold greater 36
-select Nation where Gold greater 61
-select Nation where Bronze greater 75
-select Nation where Bronze greater 12
-select Nation where Bronze greater 79
-select Nation where Bronze greater 15
-select Nation where Silver greater 32
-select Nation where Silver greater 57
-select Nation where Silver greater 49
-select Nation where Silver greater 61
-select Nation where Gold greater 47
-select Nation where Gold greater 21
-select Nation where Gold greater 11
-select Nation where Gold greater 15
-select Nation where Bronze greater 53
-select Nation where Bronze greater 58
-select Nation where Bronze greater 75
-select Nation where Bronze greater 20
-select Nation where Silver greater 85
-select Nation where Silver greater 58
-select Nation where Silver greater 86
-select Nation where Silver greater 21
-select Nation where Gold greater 49
-select Nation where Gold greater 67
-select Nation where Gold greater 57
-select Nation where Gold greater 32
-select Position where Apps greater 73
-select Position where Apps greater 40
-select Position where Apps greater 45
-select Position where Apps greater 54
-select Name where Apps greater 73
-select Name where Apps greater 40
-select Name where Apps greater 45
-select Name where Apps greater 54
-select Position where Goals greater 82
-select Position where Goals greater 50
-select Position where Goals greater 24
-select Position where Goals greater 54
-select Name where Goals greater 82
-select Name where Goals greater 50
-select Name where Goals greater 24
-select Name where Goals greater 54
-select State where Total_no._of_seats_in_Assembly greater 68
-select State where Total_no._of_seats_in_Assembly greater 97
-select State where Total_no._of_seats_in_Assembly greater 93
-select State where Total_no._of_seats_in_Assembly greater 35
-select State where No._of_candidates greater 70
-select State where No._of_candidates greater 74
-select State where No._of_candidates greater 35
-select State where No._of_candidates greater 99
-select State where No._of_elected greater 38
-select State where No._of_elected greater 50
-select State where No._of_elected greater 90
-select State where No._of_elected greater 76
-select County where Prices greater 70
-select County where Prices greater 66
-select County where Prices greater 49
-select County where Prices greater 65
-select Team where Prices greater 70
-select Team where Prices greater 66
-select Team where Prices greater 49
-select Team where Prices greater 65
-select County where Wins greater 11
-select County where Wins greater 66
-select County where Wins greater 46
-select County where Wins greater 11
-select Team where Wins greater 11
-select Team where Wins greater 66
-select Team where Wins greater 46
-select Team where Wins greater 11
-select County where Areas greater 11
-select County where Areas greater 76
-select County where Areas greater 43
-select County where Areas greater 51
-select Team where Areas greater 11
-select Team where Areas greater 76
-select Team where Areas greater 43
-select Team where Areas greater 51
-select Player where Innings greater 13
-select Player where Innings greater 72
-select Player where Innings greater 50
-select Player where Innings greater 89
-select Player where Runs greater 16
-select Player where Runs greater 41
-select Player where Runs greater 63
 select Player where Runs greater 95
-select Player where Matches greater 3
-select Player where Matches greater 37
-select Player where Matches greater 56
-select Player where Matches greater 3
-select Player where Field_Goals greater 61
-select Player where Field_Goals greater 33
-select Player where Field_Goals greater 59
-select Player where Field_Goals greater 25
-select Player where Free_Throws greater 12
-select Player where Free_Throws greater 76
-select Player where Free_Throws greater 34
-select Player where Free_Throws greater 87
-select Player where Points greater 27
-select Player where Points greater 11
-select Player where Points greater 67
-select Player where Points greater 66
-select Player where Games_Played greater 3
-select Player where Games_Played greater 54
-select Player where Games_Played greater 15
-select Player where Games_Played greater 1
-select Player where 100s greater 57
-select Player where 100s greater 24
-select Player where 100s greater 60
-select Player where 100s greater 34
-select Player where 50s greater 19
-select Player where 50s greater 99
-select Player where 50s greater 51
-select Player where 50s greater 90
-select Country where U.S._Open greater 45
-select Country where U.S._Open greater 52
-select Country where U.S._Open greater 96
-select Country where U.S._Open greater 75
-select Country where Masters greater 16
-select Country where Masters greater 82
-select Country where Masters greater 23
-select Country where Masters greater 47
-select Country where The_Open greater 50
-select Country where The_Open greater 53
-select Country where The_Open greater 72
-select Country where The_Open greater 79
-select Country where PGA greater 42
-select Country where PGA greater 7
-select Country where PGA greater 73
-select Country where PGA greater 77
-select Position where Total_Apps greater 45
-select Position where Total_Apps greater 73
-select Position where Total_Apps greater 48
-select Position where Total_Apps greater 37
-select Name where Total_Apps greater 45
-select Name where Total_Apps greater 73
-select Name where Total_Apps greater 48
-select Name where Total_Apps greater 37
-select Nation where Total_Apps greater 45
-select Nation where Total_Apps greater 73
-select Nation where Total_Apps greater 48
-select Nation where Total_Apps greater 37
-select Position where FA_Cup_Apps greater 22
-select Position where FA_Cup_Apps greater 83
-select Position where FA_Cup_Apps greater 86
-select Position where FA_Cup_Apps greater 86
-select Name where FA_Cup_Apps greater 22
-select Name where FA_Cup_Apps greater 83
-select Name where FA_Cup_Apps greater 86
-select Name where FA_Cup_Apps greater 86
-select Nation where FA_Cup_Apps greater 22
-select Nation where FA_Cup_Apps greater 83
-select Nation where FA_Cup_Apps greater 86
-select Nation where FA_Cup_Apps greater 86
-select Position where Total_Goals greater 5
-select Position where Total_Goals greater 60
-select Position where Total_Goals greater 83
-select Position where Total_Goals greater 11
-select Name where Total_Goals greater 5
-select Name where Total_Goals greater 60
-select Name where Total_Goals greater 83
-select Name where Total_Goals greater 11
-select Nation where Total_Goals greater 5
-select Nation where Total_Goals greater 60
-select Nation where Total_Goals greater 83
-select Nation where Total_Goals greater 11
-select Position where FA_Cup_Goals greater 91
-select Position where FA_Cup_Goals greater 21
-select Position where FA_Cup_Goals greater 57
-select Position where FA_Cup_Goals greater 19
-select Name where FA_Cup_Goals greater 91
-select Name where FA_Cup_Goals greater 21
-select Name where FA_Cup_Goals greater 57
-select Name where FA_Cup_Goals greater 19
-select Nation where FA_Cup_Goals greater 91
-select Nation where FA_Cup_Goals greater 21
-select Nation where FA_Cup_Goals greater 57
-select Nation where FA_Cup_Goals greater 19
-select Position where League_Apps greater 75
-select Position where League_Apps greater 82
-select Position where League_Apps greater 95
-select Position where League_Apps greater 42
-select Name where League_Apps greater 75
-select Name where League_Apps greater 82
-select Name where League_Apps greater 95
-select Name where League_Apps greater 42
-select Nation where League_Apps greater 75
-select Nation where League_Apps greater 82
-select Nation where League_Apps greater 95
-select Nation where League_Apps greater 42
-select Position where League_Goals greater 55
-select Position where League_Goals greater 29
-select Position where League_Goals greater 38
-select Position where League_Goals greater 64
-select Name where League_Goals greater 55
-select Name where League_Goals greater 29
-select Name where League_Goals greater 38
-select Name where League_Goals greater 64
-select Nation where League_Goals greater 55
-select Nation where League_Goals greater 29
-select Nation where League_Goals greater 38
-select Nation where League_Goals greater 64
-select Nation where Bronze greater Sweden
-select Nation where Bronze greater Iran
-select Nation where Bronze greater Taiwan
-select Nation where Bronze greater Greece
-select Nation where Silver greater Sweden
-select Nation where Silver greater Iran
-select Nation where Silver greater Taiwan
-select Nation where Silver greater Greece
-select Nation where Gold greater Sweden
-select Nation where Gold greater Iran
-select Nation where Gold greater Taiwan
-select Nation where Gold greater Greece
-select Nation where Bronze greater 98
-select Nation where Bronze greater 65
-select Nation where Bronze greater 17
-select Nation where Bronze greater 97
-select Nation where Silver greater 85
-select Nation where Silver greater 18
-select Nation where Silver greater 53
-select Nation where Silver greater 21
-select Nation where Gold greater 19
-select Nation where Gold greater 54
-select Nation where Gold greater 5
-select Nation where Gold greater 31
-select Position where Apps greater 20
-select Position where Apps greater 33
-select Position where Apps greater 34
-select Position where Apps greater 66
-select Name where Apps greater 20
-select Name where Apps greater 33
-select Name where Apps greater 34
-select Name where Apps greater 66
-select Position where Goals greater 62
-select Position where Goals greater 8
-select Position where Goals greater 5
-select Position where Goals greater 61
-select Name where Goals greater 62
-select Name where Goals greater 8
-select Name where Goals greater 5
-select Name where Goals greater 61
-select State where Total_no._of_seats_in_Assembly greater 49
-select State where Total_no._of_seats_in_Assembly greater 77
-select State where Total_no._of_seats_in_Assembly greater 1
-select State where Total_no._of_seats_in_Assembly greater 13
-select State where No._of_candidates greater 64
-select State where No._of_candidates greater 12
-select State where No._of_candidates greater 50
-select State where No._of_candidates greater 62
-select State where No._of_elected greater 38
-select State where No._of_elected greater 1
-select State where No._of_elected greater 6
-select State where No._of_elected greater 32
-select County where Prices greater 27
-select County where Prices greater 95
-select County where Prices greater 8
-select County where Prices greater 57
-select Team where Prices greater 27
-select Team where Prices greater 95
-select Team where Prices greater 8
-select Team where Prices greater 57
-select County where Wins greater 39
-select County where Wins greater 53
-select County where Wins greater 96
-select County where Wins greater 42
-select Team where Wins greater 39
-select Team where Wins greater 53
-select Team where Wins greater 96
-select Team where Wins greater 42
-select County where Areas greater 43
-select County where Areas greater 67
-select County where Areas greater 44
-select County where Areas greater 66
-select Team where Areas greater 43
-select Team where Areas greater 67
-select Team where Areas greater 44
-select Team where Areas greater 66
-select Player where Innings greater 88
-select Player where Innings greater 82
-select Player where Innings greater 74
-select Player where Innings greater 73
-select Player where Runs greater 30
-select Player where Runs greater 98
-select Player where Runs greater 64
-select Player where Runs greater 92
-select Player where Matches greater 99
+select Player where Runs greater 6
+select Player where Runs greater 37
+select Player where Matches greater 67
 select Player where Matches greater 60
-select Player where Matches greater 49
-select Player where Matches greater 29
-select Player where Field_Goals greater 1
-select Player where Field_Goals greater 76
-select Player where Field_Goals greater 97
-select Player where Field_Goals greater 45
-select Player where Free_Throws greater 64
-select Player where Free_Throws greater 37
-select Player where Free_Throws greater 69
-select Player where Free_Throws greater 71
-select Player where Points greater 34
-select Player where Points greater 20
-select Player where Points greater 59
-select Player where Points greater 16
-select Player where Games_Played greater 24
-select Player where Games_Played greater 81
-select Player where Games_Played greater 75
-select Player where Games_Played greater 7
-select Player where 100s greater 53
-select Player where 100s greater 26
-select Player where 100s greater 68
-select Player where 100s greater 9
-select Player where 50s greater 78
-select Player where 50s greater 58
-select Player where 50s greater 58
-select Player where 50s greater 84
-select Country where U.S._Open greater 52
-select Country where U.S._Open greater 3
-select Country where U.S._Open greater 35
-select Country where U.S._Open greater 60
-select Country where Masters greater 73
-select Country where Masters greater 31
-select Country where Masters greater 92
-select Country where Masters greater 56
+select Player where Matches greater 27
+select Player where Field_Goals greater 21
+select Player where Field_Goals greater 81
+select Player where Field_Goals greater 60
+select Player where Free_Throws greater 8
+select Player where Free_Throws greater 55
+select Player where Free_Throws greater 67
+select Player where Points greater 52
+select Player where Points greater 15
+select Player where Points greater 6
+select Player where Games_Played greater 58
+select Player where Games_Played greater 74
+select Player where Games_Played greater 39
+select Player where 100s greater 70
+select Player where 100s greater 45
+select Player where 100s greater 54
+select Player where 50s greater 62
+select Player where 50s greater 75
+select Player where 50s greater 51
+select Nation where Bronze greater 18
+select Nation where Bronze greater 93
+select Nation where Bronze greater 56
+select Nation where Silver greater 66
+select Nation where Silver greater 99
+select Nation where Silver greater 28
+select Nation where Gold greater 64
+select Nation where Gold greater 53
+select Nation where Gold greater 27
+select Nation where Bronze greater 29
+select Nation where Bronze greater 55
+select Nation where Bronze greater 69
+select Nation where Silver greater 52
+select Nation where Silver greater 24
+select Nation where Silver greater 30
+select Nation where Gold greater 3
+select Nation where Gold greater 5
+select Nation where Gold greater 39
+select Nation where Bronze greater 15
+select Nation where Bronze greater 72
+select Nation where Bronze greater 81
+select Nation where Silver greater 64
+select Nation where Silver greater 21
+select Nation where Silver greater 30
+select Nation where Gold greater 5
+select Nation where Gold greater 77
+select Nation where Gold greater 47
+select Position where Apps greater 30
+select Position where Apps greater 96
+select Position where Apps greater 55
+select Name where Apps greater 30
+select Name where Apps greater 96
+select Name where Apps greater 55
+select Position where Goals greater 22
+select Position where Goals greater 44
+select Position where Goals greater 26
+select Name where Goals greater 22
+select Name where Goals greater 44
+select Name where Goals greater 26
+select State where Total_no._of_seats_in_Assembly greater 18
+select State where Total_no._of_seats_in_Assembly greater 37
+select State where Total_no._of_seats_in_Assembly greater 5
+select State where No._of_candidates greater 72
+select State where No._of_candidates greater 8
+select State where No._of_candidates greater 32
+select State where No._of_elected greater 57
+select State where No._of_elected greater 51
+select State where No._of_elected greater 19
+select County where Prices greater 82
+select County where Prices greater 6
+select County where Prices greater 10
+select Team where Prices greater 82
+select Team where Prices greater 6
+select Team where Prices greater 10
+select County where Wins greater 39
+select County where Wins greater 51
+select County where Wins greater 64
+select Team where Wins greater 39
+select Team where Wins greater 51
+select Team where Wins greater 64
+select County where Areas greater 82
+select County where Areas greater 31
+select County where Areas greater 14
+select Team where Areas greater 82
+select Team where Areas greater 31
+select Team where Areas greater 14
+select Player where Innings greater 85
+select Player where Innings greater 72
+select Player where Innings greater 97
+select Player where Runs greater 4
+select Player where Runs greater 26
+select Player where Runs greater 61
+select Player where Matches greater 97
+select Player where Matches greater 41
+select Player where Matches greater 10
+select Player where Field_Goals greater 80
+select Player where Field_Goals greater 33
+select Player where Field_Goals greater 4
+select Player where Free_Throws greater 31
+select Player where Free_Throws greater 41
+select Player where Free_Throws greater 74
+select Player where Points greater 86
+select Player where Points greater 82
+select Player where Points greater 87
+select Player where Games_Played greater 12
+select Player where Games_Played greater 83
+select Player where Games_Played greater 59
+select Player where 100s greater 69
+select Player where 100s greater 15
+select Player where 100s greater 84
+select Player where 50s greater 44
+select Player where 50s greater 61
+select Player where 50s greater 21
+select Country where U.S._Open greater 68
+select Country where U.S._Open greater 61
+select Country where U.S._Open greater 13
+select Country where Masters greater 52
+select Country where Masters greater 96
+select Country where Masters greater 68
 select Country where The_Open greater 54
-select Country where The_Open greater 63
 select Country where The_Open greater 84
-select Country where The_Open greater 42
-select Country where PGA greater 59
-select Country where PGA greater 4
-select Country where PGA greater 35
-select Country where PGA greater 30
-select Position where Total_Apps greater 5
-select Position where Total_Apps greater 39
-select Position where Total_Apps greater 25
-select Position where Total_Apps greater 33
-select Name where Total_Apps greater 5
-select Name where Total_Apps greater 39
-select Name where Total_Apps greater 25
-select Name where Total_Apps greater 33
-select Nation where Total_Apps greater 5
-select Nation where Total_Apps greater 39
-select Nation where Total_Apps greater 25
-select Nation where Total_Apps greater 33
-select Position where FA_Cup_Apps greater 37
-select Position where FA_Cup_Apps greater 26
-select Position where FA_Cup_Apps greater 95
-select Position where FA_Cup_Apps greater 66
-select Name where FA_Cup_Apps greater 37
-select Name where FA_Cup_Apps greater 26
-select Name where FA_Cup_Apps greater 95
-select Name where FA_Cup_Apps greater 66
-select Nation where FA_Cup_Apps greater 37
-select Nation where FA_Cup_Apps greater 26
-select Nation where FA_Cup_Apps greater 95
-select Nation where FA_Cup_Apps greater 66
-select Position where Total_Goals greater 36
-select Position where Total_Goals greater 34
-select Position where Total_Goals greater 49
-select Position where Total_Goals greater 4
-select Name where Total_Goals greater 36
-select Name where Total_Goals greater 34
-select Name where Total_Goals greater 49
-select Name where Total_Goals greater 4
-select Nation where Total_Goals greater 36
-select Nation where Total_Goals greater 34
-select Nation where Total_Goals greater 49
-select Nation where Total_Goals greater 4
-select Position where FA_Cup_Goals greater 12
-select Position where FA_Cup_Goals greater 54
-select Position where FA_Cup_Goals greater 58
-select Position where FA_Cup_Goals greater 32
-select Name where FA_Cup_Goals greater 12
-select Name where FA_Cup_Goals greater 54
-select Name where FA_Cup_Goals greater 58
-select Name where FA_Cup_Goals greater 32
-select Nation where FA_Cup_Goals greater 12
-select Nation where FA_Cup_Goals greater 54
-select Nation where FA_Cup_Goals greater 58
-select Nation where FA_Cup_Goals greater 32
-select Position where League_Apps greater 43
-select Position where League_Apps greater 58
-select Position where League_Apps greater 79
+select Country where The_Open greater 62
+select Country where PGA greater 13
+select Country where PGA greater 18
+select Country where PGA greater 63
+select Position where Total_Apps greater 58
+select Position where Total_Apps greater 12
+select Position where Total_Apps greater 44
+select Name where Total_Apps greater 58
+select Name where Total_Apps greater 12
+select Name where Total_Apps greater 44
+select Nation where Total_Apps greater 58
+select Nation where Total_Apps greater 12
+select Nation where Total_Apps greater 44
+select Position where FA_Cup_Apps greater 19
+select Position where FA_Cup_Apps greater 13
+select Position where FA_Cup_Apps greater 5
+select Name where FA_Cup_Apps greater 19
+select Name where FA_Cup_Apps greater 13
+select Name where FA_Cup_Apps greater 5
+select Nation where FA_Cup_Apps greater 19
+select Nation where FA_Cup_Apps greater 13
+select Nation where FA_Cup_Apps greater 5
+select Position where Total_Goals greater 55
+select Position where Total_Goals greater 80
+select Position where Total_Goals greater 91
+select Name where Total_Goals greater 55
+select Name where Total_Goals greater 80
+select Name where Total_Goals greater 91
+select Nation where Total_Goals greater 55
+select Nation where Total_Goals greater 80
+select Nation where Total_Goals greater 91
+select Position where FA_Cup_Goals greater 24
+select Position where FA_Cup_Goals greater 9
+select Position where FA_Cup_Goals greater 50
+select Name where FA_Cup_Goals greater 24
+select Name where FA_Cup_Goals greater 9
+select Name where FA_Cup_Goals greater 50
+select Nation where FA_Cup_Goals greater 24
+select Nation where FA_Cup_Goals greater 9
+select Nation where FA_Cup_Goals greater 50
+select Position where League_Apps greater 38
+select Position where League_Apps greater 70
+select Position where League_Apps greater 25
+select Name where League_Apps greater 38
+select Name where League_Apps greater 70
+select Name where League_Apps greater 25
+select Nation where League_Apps greater 38
+select Nation where League_Apps greater 70
+select Nation where League_Apps greater 25
+select Position where League_Goals greater 87
+select Position where League_Goals greater 41
+select Position where League_Goals greater 82
+select Name where League_Goals greater 87
+select Name where League_Goals greater 41
+select Name where League_Goals greater 82
+select Nation where League_Goals greater 87
+select Nation where League_Goals greater 41
+select Nation where League_Goals greater 82
+select Nation where Bronze greater Israel
+select Nation where Bronze greater Romania
+select Nation where Bronze greater Argentina
+select Nation where Silver greater Israel
+select Nation where Silver greater Romania
+select Nation where Silver greater Argentina
+select Nation where Gold greater Israel
+select Nation where Gold greater Romania
+select Nation where Gold greater Argentina
+select Nation where Bronze greater 92
+select Nation where Bronze greater 51
+select Nation where Bronze greater 20
+select Nation where Silver greater 67
+select Nation where Silver greater 6
+select Nation where Silver greater 11
+select Nation where Gold greater 2
+select Nation where Gold greater 11
+select Nation where Gold greater 60
+select Position where Apps greater 75
+select Position where Apps greater 13
+select Position where Apps greater 34
+select Name where Apps greater 75
+select Name where Apps greater 13
+select Name where Apps greater 34
+select Position where Goals greater 80
+select Position where Goals greater 53
+select Position where Goals greater 51
+select Name where Goals greater 80
+select Name where Goals greater 53
+select Name where Goals greater 51
+select State where Total_no._of_seats_in_Assembly greater 12
+select State where Total_no._of_seats_in_Assembly greater 33
+select State where Total_no._of_seats_in_Assembly greater 41
+select State where No._of_candidates greater 83
+select State where No._of_candidates greater 22
+select State where No._of_candidates greater 38
+select State where No._of_elected greater 77
+select State where No._of_elected greater 70
+select State where No._of_elected greater 66
+select County where Prices greater 58
+select County where Prices greater 41
+select County where Prices greater 82
+select Team where Prices greater 58
+select Team where Prices greater 41
+select Team where Prices greater 82
+select County where Wins greater 6
+select County where Wins greater 99
+select County where Wins greater 95
+select Team where Wins greater 6
+select Team where Wins greater 99
+select Team where Wins greater 95
+select County where Areas greater 79
+select County where Areas greater 63
+select County where Areas greater 2
+select Team where Areas greater 79
+select Team where Areas greater 63
+select Team where Areas greater 2
+select Player where Innings greater 10
+select Player where Innings greater 79
+select Player where Innings greater 45
+select Player where Runs greater 97
+select Player where Runs greater 25
+select Player where Runs greater 92
+select Player where Matches greater 93
+select Player where Matches greater 63
+select Player where Matches greater 64
+select Player where Field_Goals greater 71
+select Player where Field_Goals greater 57
+select Player where Field_Goals greater 74
+select Player where Free_Throws greater 3
+select Player where Free_Throws greater 10
+select Player where Free_Throws greater 37
+select Player where Points greater 88
+select Player where Points greater 9
+select Player where Points greater 8
+select Player where Games_Played greater 7
+select Player where Games_Played greater 27
+select Player where Games_Played greater 22
+select Player where 100s greater 96
+select Player where 100s greater 29
+select Player where 100s greater 85
+select Player where 50s greater 94
+select Player where 50s greater 99
+select Player where 50s greater 61
+select Country where U.S._Open greater 49
+select Country where U.S._Open greater 65
+select Country where U.S._Open greater 29
+select Country where Masters greater 75
+select Country where Masters greater 27
+select Country where Masters greater 20
+select Country where The_Open greater 61
+select Country where The_Open greater 21
+select Country where The_Open greater 54
+select Country where PGA greater 53
+select Country where PGA greater 92
+select Country where PGA greater 98
+select Position where Total_Apps greater 44
+select Position where Total_Apps greater 40
+select Position where Total_Apps greater 88
+select Name where Total_Apps greater 44
+select Name where Total_Apps greater 40
+select Name where Total_Apps greater 88
+select Nation where Total_Apps greater 44
+select Nation where Total_Apps greater 40
+select Nation where Total_Apps greater 88
+select Position where FA_Cup_Apps greater 52
+select Position where FA_Cup_Apps greater 18
+select Position where FA_Cup_Apps greater 54
+select Name where FA_Cup_Apps greater 52
+select Name where FA_Cup_Apps greater 18
+select Name where FA_Cup_Apps greater 54
+select Nation where FA_Cup_Apps greater 52
+select Nation where FA_Cup_Apps greater 18
+select Nation where FA_Cup_Apps greater 54
+select Position where Total_Goals greater 92
+select Position where Total_Goals greater 27
+select Position where Total_Goals greater 22
+select Name where Total_Goals greater 92
+select Name where Total_Goals greater 27
+select Name where Total_Goals greater 22
+select Nation where Total_Goals greater 92
+select Nation where Total_Goals greater 27
+select Nation where Total_Goals greater 22
+select Position where FA_Cup_Goals greater 2
+select Position where FA_Cup_Goals greater 78
+select Position where FA_Cup_Goals greater 52
+select Name where FA_Cup_Goals greater 2
+select Name where FA_Cup_Goals greater 78
+select Name where FA_Cup_Goals greater 52
+select Nation where FA_Cup_Goals greater 2
+select Nation where FA_Cup_Goals greater 78
+select Nation where FA_Cup_Goals greater 52
 select Position where League_Apps greater 67
-select Name where League_Apps greater 43
-select Name where League_Apps greater 58
-select Name where League_Apps greater 79
+select Position where League_Apps greater 15
+select Position where League_Apps greater 56
 select Name where League_Apps greater 67
-select Nation where League_Apps greater 43
-select Nation where League_Apps greater 58
-select Nation where League_Apps greater 79
+select Name where League_Apps greater 15
+select Name where League_Apps greater 56
 select Nation where League_Apps greater 67
-select Position where League_Goals greater 93
-select Position where League_Goals greater 58
-select Position where League_Goals greater 22
-select Position where League_Goals greater 44
-select Name where League_Goals greater 93
-select Name where League_Goals greater 58
-select Name where League_Goals greater 22
-select Name where League_Goals greater 44
-select Nation where League_Goals greater 93
-select Nation where League_Goals greater 58
-select Nation where League_Goals greater 22
-select Nation where League_Goals greater 44
+select Nation where League_Apps greater 15
+select Nation where League_Apps greater 56
+select Position where League_Goals greater 2
+select Position where League_Goals greater 83
+select Position where League_Goals greater 25
+select Name where League_Goals greater 2
+select Name where League_Goals greater 83
+select Name where League_Goals greater 25
+select Nation where League_Goals greater 2
+select Nation where League_Goals greater 83
+select Nation where League_Goals greater 25

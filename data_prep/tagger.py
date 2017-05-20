@@ -596,7 +596,7 @@ def sentTagging_tree(parser, query, fields, logic=None):
     
     ### construct dictionaries ###
     config = tu.Config()
-    field2vecField, field2vecValue = fromWordtoVecList(schema)
+    #field2vecField, field2vecValue = fromWordtoVecList(schema)
     field_dict, value_dict = buildDictionary(schema)
     # print "value_dict:"
     # print value_dict

@@ -20,7 +20,7 @@ class Config(object):
     word_dim = 100
     vocabulary_path = parentdir + '/data/vocab1000.from'
     glove_path = os.path.dirname(parentdir) + '/glove.6B/glove.6B.100d.txt'
-    max_vocabulary_size = 50000
+    max_vocabulary_size = 5000
 
     embedding_matrix, vocab, word_vector = scratch.generateEmbedMatrix(vocabulary_path, max_vocabulary_size, glove_path)
     # all keys for word_vector are in lowercase
