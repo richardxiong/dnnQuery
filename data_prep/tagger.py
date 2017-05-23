@@ -602,7 +602,7 @@ def sentTagging_tree(parser, query, fields, logic=None):
     # print value_dict
     
     filter_words = [',','the','a','an','for','of','in','on','with','than','and',\
-    'is','are','do','does','did','has','have','had','what','how','many','get'] #,'number'
+    'is','are','do','does','did','has','have','had','what','how','many','get','same','as'] #,'number'
     
     ### TAG WITH <field> & <value>
     for i in range(len(words)):

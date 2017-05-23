@@ -25,13 +25,14 @@ class Config(object):
     embedding_matrix, vocab, word_vector = scratch.generateEmbedMatrix(vocabulary_path, max_vocabulary_size, glove_path)
     # all keys for word_vector are in lowercase
 
-    schema_collect = [['Nation','Rank','Gold','Silver','Bronze','Total'],
+    # for data augmentation
+    schema_collect = [['Nation','Rank','Gold','Silver','Bronze'], #,'Total'
                       ['Name','Year_inducted','Position','Apps','Goals'],
                       ['State','Year_of_Election','No._of_candidates','No._of_elected','Total_no._of_seats_in_Assembly'],
                       ['Team','Years_won','County','Wins','Areas','Prices'], 
-                      ['Player','Matches','Innings','Runs','Average','100s','50s','Games_Played','Field_Goals','Free_Throws','Points'], 
-                      ['Country','Masters','U.S._Open','The_Open','PGA','Total'],
-                      ['Nation','Name','Position','League_Apps','League_Goals','FA_Cup_Apps','FA_Cup_Goals','Total_Apps','Total_Goals'], 
+                      ['Player','Matches','Innings','Runs','100s','50s','Games_Played','Field_Goals','Free_Throws','Points'], #Average
+                      ['Country','Masters','U.S._Open','The_Open','PGA'], #,'Total'
+                      ['Nation','Name','Position','League_Apps','League_Goals','FA_Cup_Apps','FA_Cup_Goals','Total_Apps','Total_Goals'], #
                       ['Swara','Position','Short_name','Notation','Mnemonic'], 
                       ['Year','1st_Venue','2nd_Venue','3rd_Venue','4th_Venue','5th_Venue','6th_Venue'], 
                       ['Menteri_Besar','Took_office','Left_office','Party'], 
@@ -113,9 +114,9 @@ class Config(object):
                      'value_range': ['Wicklow','Kildare','Laois','Dublin','Meath','Louth'], 
                      'query_word': ['county','counties','who']},
       'Years': {'value_type':'date',
-						'query_word': ['years','year','time','times','when','latest']}, #'above', 'below','after','before','previous','next'
+						'query_word': ['years','year','time','times','when']}, #'above','latest', 'below','after','before','previous','next'
 			'Years_won': {'value_type':'date',
-            'query_word': ['years','year','time','times','when','latest']}, #'above', 'below','after','before','previous','next'
+            'query_word': ['years','year','time','times','when']}, #'above','latest', 'below','after','before','previous','next'
       'Wins': {'value_type':'int',
 						'query_word': []},
 			'Areas': {'value_type':'int',
@@ -214,7 +215,7 @@ class Config(object):
 						'value_range':['Goalkeeper','Defender','Midfielder','Forward','CB','DE','TE','S','QB'],
 						'query_word': ['position']},
 			'Year_inducted': {'value_type':'date',
-						'query_word': ['year','years','time','times','when','latest']}, #'above', 'below','after','before','previous','next'
+						'query_word': ['year','years','time','times','when']}, #'above','latest', 'below','after','before','previous','next'
 			'Apps': {'value_type':'int',
 						'query_word': ['appearance','appearances']},
 			'Discipline': {'value_type':'string',
@@ -251,15 +252,15 @@ class Config(object):
             'Uttar_Pradesh','Odisha','Andhra_Pradesh','Haryana'],
 						'query_word': ['state','county']},
 			'No._of_elected': {'value_type':'int',
-						'query_word': ['elected']},
+						'query_word': ['elected','number_of_elected']},
 			'No._of_candidates': {'value_type':'int',
-						'query_word': ['candidate', 'candidates']},
+						'query_word': ['candidate', 'candidates', 'number_of_candidates']},
 			'Total_no._of_seats_in_Assembly': {'value_type':'int',
-						'query_word': ['seat', 'seats']},
+						'query_word': ['seat', 'seats','number_of_seats']},
 			'Year_of_Election': {'value_type':'date',
-						'query_word': ['year','years','time','times','when','latest']}, #'above', 'below','after','before','previous','next'
+						'query_word': ['year','years','time','times','when']}, #'above','latest', 'below','after','before','previous','next'
 			'Year': {'value_type':'date',
-						'query_word': ['year','years','time','times','when','latest']}, #'above', 'below','after','before','previous','next'
+						'query_word': ['year','years','time','times','when']}, #'above','latest', 'below','after','before','previous','next'
 			'1st_Venue': {'value_type': 'string', 
                        'value_range': ['Mexico_City','Changzhou','Sheffield','Veracruz','Doha','Beijing','Dubai','Nanjing',
                        'Havana','Cambridge','San_Jose','Boston','Nassau','Detroit','Hangzhou','Indianapolis','Shanghai','Austin',
@@ -278,15 +279,21 @@ class Config(object):
                        'Edinburgh','London'], 
                        'query_word': ['city', '3rd_venue']}, 
       '4th_Venue': {'value_type': 'string', 
-                       'value_range': ['NA','Tijuana','Guanajuato','Moscow','Sydney','Los_Angeles','Tokyo','Sheffield',
+                       'value_range': ['Tijuana','Guanajuato','Moscow','Sydney','Los_Angeles','Tokyo','Sheffield',
                        'Shanghai','Beijing','Austin','Seattle','Veracruz','Boston','Washington','Cambridge','Havana',
                        'Nassau','Indianapolis','Changzhou','Mexico_City','Caracas','Dubai','Hangzhou','Chicago'], 
                        'query_word': ['city', '4th_venue']}, 
       '5th_Venue': {'value_type': 'string', 
-                       'value_range': ['NA','Guadalajara','Windsor'], 
+                       'value_range': ['Tijuana','Guanajuato','Moscow','Sydney','Los_Angeles','Tokyo','Sheffield',
+                       'Shanghai','Beijing','Austin','Seattle','Veracruz','Boston','Washington','Cambridge','Havana',
+                       'Nassau','Indianapolis','Changzhou','Mexico_City','Caracas','Dubai','Hangzhou','Chicago',
+                       'Guadalajara','Windsor'], 
                        'query_word': ['5th_venue']}, #'city', 
       '6th_Venue': {'value_type': 'string', 
-                       'value_range': ['NA','Guadalajara','Monterrey'], 
+                       'value_range': ['Guadalajara','Tijuana','Guanajuato','Moscow','Sydney','Los_Angeles','Tokyo','Sheffield',
+                       'Shanghai','Beijing','Austin','Seattle','Veracruz','Boston','Washington','Cambridge','Havana',
+                       'Nassau','Indianapolis','Changzhou','Mexico_City','Caracas','Dubai','Hangzhou','Chicago',
+                       'Monterrey'], 
                        'query_word': [ '6th_venue']}, #'city',
 	 #       'host_city':{'value_type': 'string', 
    #                     'value_range': ['Amsterdam', 'Antwerp', 'Athens', 'Atlanta', 'Bangkok', 'Barcelona', 'Beijing', 'Berlin',
