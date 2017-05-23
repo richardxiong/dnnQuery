@@ -141,7 +141,6 @@ diff Areas where Team equal Greystones and where Team equal Crettyard
 select 3rd_Venue where Year equal 2011
 select Gold where Nation equal Czech_Republic
 select Name argmin Apps where Goals greater 166
-diff Bronze argmax Bronze and argmin Bronze
 diff Areas where Team equal Dundalk_Gael and where Team equal Fingal_Ravens
 diff Gold where Nation equal Brazil and where Nation equal India
 sum The_Open where Country equal Spain and where Country equal Australia
@@ -1769,7 +1768,6 @@ avg Bronze where Bronze greater 0
 select Nation where Bronze less 6 and Total greater 4
 select Nation where Bronze equal 90
 select Player argmin Matches where 50s greater 400 and Average less 7
-diff Year argmax Year and argmin Year
 select Team prev Team equal Ballyroan_Abbey
 select Player argmax Games_Played where Average less 20
 select Nation argmax Gold
@@ -2139,7 +2137,6 @@ diff Innings where Player equal Albert_Clapp and where Player equal John_Challen
 select Nation next Nation equal Nepal
 diff Gold where Nation equal India and where Nation equal Romania
 select Matches where Player equal John_Felmley
-diff Gold argmax Gold and argmin Gold
 diff Years_won where Team equal Maynooth and where Team equal Dundalk_Gael
 select Nation where Total greater 32 and Bronze less 28
 select 4th_Venue where Year equal 2001
@@ -3489,7 +3486,6 @@ select Rank where Gold equal 81 and Silver equal 1
 select State argmin No._of_candidates where Year_of_Election equal 2003
 select Player argmax Matches where 50s greater 39 and Points less 30
 select Silver where Nation equal Mexico
-diff Silver argmax Silver and argmin Silver
 select Nation where Bronze greater 9 and Silver less 8
 diff Average where Player equal George_Nichols and where Player equal Bill_Roe
 select Goals where Name equal Ian_Bolton
