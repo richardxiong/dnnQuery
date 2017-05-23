@@ -95,9 +95,9 @@ select team prev team equal wolfe_tones
 
 nested questions
 
-#### length = 9
+#### length = 10
 
-utterance_nested_query_select = 'select {arg1} 'where {query1_project_field} {query2_comp} 
+utterance_nested_query_select = 'select {arg1} 'where {query1_project_field} {query2_comp} {query1_project_field}
 					'where {query1_comp_field} {query1_comp} {query1_comp_val} '
                                         
 
@@ -106,10 +106,10 @@ examples:
 
 2. nation to earn the same number of silver medals as uruguay
 
-#### length = 11
+#### length = 12
 
 utterance_nested_query_superlative = 'select {arg1} arg {max_min} {arg2}' \
-					'where {query1_project_field} {query2_comp} 
+					'where {query1_project_field} {query2_comp} {query1_project_field}
 					'where {query1_comp_field} {query1_comp} {query1_comp_val} '
                                         
 
