@@ -27,12 +27,12 @@ class Config(object):
 
     # for data augmentation
     schema_collect = [['Nation','Rank','Gold','Silver','Bronze'], #,'Total'
-                      ['Name','Year_inducted','Position','Apps','Goals'],
+                      ['Name','Year_inducted','Apps','Goals'], #'Position',
                       ['State','Year_of_Election','No._of_candidates','No._of_elected','Total_no._of_seats_in_Assembly'],
                       ['Team','Years_won','County','Wins','Areas','Prices'], 
-                      ['Player','Matches','Innings','Runs','100s','50s','Games_Played','Field_Goals','Free_Throws','Points'], #Average
+                      ['Player','Matches','Innings','50s','Games_Played','Field_Goals'], #'Runs','Free_Throws','Points','100s',Average
                       ['Country','Masters','U.S._Open','The_Open','PGA'], #,'Total'
-                      ['Nation','Name','Position','League_Apps','League_Goals','FA_Cup_Apps','FA_Cup_Goals','Total_Apps','Total_Goals'], #
+                      ['Nation','Name','League_Apps','League_Goals','FA_Cup_Apps','FA_Cup_Goals','Total_Apps','Total_Goals'], #'Position',
                       ['Swara','Position','Short_name','Notation','Mnemonic'], 
                       ['Year','1st_Venue','2nd_Venue','3rd_Venue','4th_Venue','5th_Venue','6th_Venue'], 
                       ['Menteri_Besar','Took_office','Left_office','Party'], 
@@ -210,7 +210,7 @@ class Config(object):
             'Billy_E._Smith','Billy_H._Smith','Clem_Stephenson','Jack_Swann','Sam_Wadsworth','Billy_Watson','Tom_Wilson',
             'James_Wood','Tommy_Mooney','Duncan_Welbourne','Luther_Blissett','John_McClelland','David_James','Ross_Jenkins',
             'Nigel_Gibbs','Les_Taylor','Tony_Coton','Ian_Bolton','Robert_Page','Ted_Davis'],
-						'query_word': ['name','who']},
+						'query_word': ['name','who','player']},
 			'Position': {'value_type':'string',
 						'value_range':['Goalkeeper','Defender','Midfielder','Forward','CB','DE','TE','S','QB'],
 						'query_word': ['position']},
@@ -250,7 +250,7 @@ class Config(object):
             'Chhattisgarh','Tamil_Nadu','Jammu_and_Kashmir','Karnataka','Mizoram','Kerala','Gujarat','Rajasthan','Uttarakhand',
             'Maharashtra','Madhya_Pradesh','West_Bengal','Meghalaya','Tripura','Delhi','Goa','Punjab','Puducherry',
             'Uttar_Pradesh','Odisha','Andhra_Pradesh','Haryana'],
-						'query_word': ['state','county']},
+						'query_word': ['state','county','who']},
 			'No._of_elected': {'value_type':'int',
 						'query_word': ['elected','number_of_elected']},
 			'No._of_candidates': {'value_type':'int',

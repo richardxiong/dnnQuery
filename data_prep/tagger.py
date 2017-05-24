@@ -631,7 +631,8 @@ def sentTagging_tree(parser, query, fields, logic=None):
                     # find ordinal field
                     the_one = schema[j]
             if the_one == None:
-                tag[i] = '<value>:<order>'
+                continue
+                #tag[i] = '<value>:<order>'
             else: 
                 tag[i] = '<value>:' + the_one
     
