@@ -27,12 +27,12 @@ class Config(object):
 
     # for data augmentation
     schema_collect = [['Nation','Rank','Gold','Silver','Bronze'], #,'Total'
-                      ['Name','Year_inducted','Apps','Goals'], #'Position',
+                      ['Name','Year_inducted','Position','Apps','Goals'], #
                       ['State','Year_of_Election','No._of_candidates','No._of_elected','Total_no._of_seats_in_Assembly'],
                       ['Team','Years_won','County','Wins','Areas','Prices'], 
-                      ['Player','Matches','Innings','50s','Games_Played','Field_Goals'], #'Runs','Free_Throws','Points','100s',Average
+                      ['Player','Matches','Innings','50s','Games_Played','Average','Runs','Free_Throws','Points','100s','Field_Goals'], #
                       ['Country','Masters','U.S._Open','The_Open','PGA'], #,'Total'
-                      ['Nation','Name','League_Apps','League_Goals','FA_Cup_Apps','FA_Cup_Goals','Total_Apps','Total_Goals'], #'Position',
+                      ['Nation','Position','League_Apps','League_Goals','FA_Cup_Apps','FA_Cup_Goals','Total_Apps','Total_Goals'], #'Name',
                       ['Swara','Position','Short_name','Notation','Mnemonic'], 
                       ['Year','1st_Venue','2nd_Venue','3rd_Venue','4th_Venue','5th_Venue','6th_Venue'], 
                       ['Menteri_Besar','Took_office','Left_office','Party'], 
