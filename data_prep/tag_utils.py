@@ -331,5 +331,185 @@ class Config(object):
    #                      'India', 'Liechtenstein', 'US', 'Czech', 'Austria', 'Yugoslavia', 'Saudi_Arabia', 'UK',
    #                      'Greece', 'Japan', 'Taiwan','Scotland','Mongolia','England','Kazakhstan','Nepal'], 
    #                   'query_word': ['country','nation','countries','nations']}
+      
       }
 
+    geoschema_collect = [['Nation','Rank','Gold','Silver','Bronze'], #,'Total'
+                      ['Name','Year_inducted','Position','Apps','Goals'], #
+                      ['State','Year_of_Election','No._of_candidates','No._of_elected','Total_no._of_seats_in_Assembly'],
+                      ['Team','Years_won','County','Wins','Areas','Prices'], 
+                      ['Player','Matches','Innings','50s','Games_Played','Average','Runs','Free_Throws','Points','100s','Field_Goals'], #
+                      ['Country','Masters','U.S._Open','The_Open','PGA'], #,'Total'
+                      ['Nation','Position','League_Apps','League_Goals','FA_Cup_Apps','FA_Cup_Goals','Total_Apps','Total_Goals'], #'Name',
+                      ['Swara','Position','Short_name','Notation','Mnemonic'], 
+                      ['Year','1st_Venue','2nd_Venue','3rd_Venue','4th_Venue','5th_Venue','6th_Venue'], 
+                      ['Menteri_Besar','Took_office','Left_office','Party'], 
+                      ['Discipline','Amanda','Bernie','Javine_H','Julia','Michelle']  # special
+                      ]
+    
+    
+    geo880_dict = {'highest_elevation': {'query_word': ['highest_elevation'], 'value_type': 'int', 'value_range': []}, 
+                'lowest_elevation': {'query_word': ['lowest_elevation','elevation'], 'value_type': 'int', 'value_range': []}, 
+                'height': {'query_word': ['height'], 'value_type': 'int', 'value_range': []}, 
+                'abbreviation': {'query_word': ['abbreviation'], 'value_type': 'string', 
+                                 'value_range': ['al', 'ak', 'az', 'ar', 'ca', 'co', 'ct', 'de', "'dc", 'fl',\
+                                                 'ga', 'hi', 'id', 'il', 'in', 'ia', 'ks', 'ky', 'la', 'me', \
+                                                 'md', 'ma', 'mi', 'mn', 'ms', 'mo', 'mt', 'ne', 'nv', 'nh', \
+                                                 'nj', 'nm', 'ny', 'nc', 'nd', 'oh', 'ok', 'or', 'pa', 'ri', \
+                                                 'sc', 'sd', 'tn', 'tx', 'ut', 'vt', 'va', 'wa', 'wv', 'wi', 'wy']}, 
+                'population_density': {'query_word': ['population_density','density'], 'value_type': 'int', 'value_range': []}, 
+                'state_number': {'query_word': ['state_number'], 'value_type': 'int', 'value_range': []}, 
+                #'major_cities': {'query_word': ['major_cities'], 'value_type': 'list', 'value_range': []}, 
+                'border_state': {'query_word': ['border','borders','bordering','surround','surrounding','neighbor','neighboring'], 
+                          'value_type': 'string', 
+                          'value_range': ['alabama', 'alaska', 'arizona', 'arkansas', 'california', 'colorado', \
+                                          'connecticut', 'delaware', 'florida', 'district_of_columbia', 'georgia', \
+                                          'hawaii', 'idaho', 'illinois', 'indiana', 'iowa', 'kansas', 'kentucky', \
+                                          'louisiana', 'maine', 'maryland', 'massachusetts', 'michigan', 'minnesota', \
+                                          'mississippi', 'missouri', 'montana', 'nebraska', 'nevada', 'ohio', \
+                                          'new_hampshire', 'new_jersey', 'new_mexico', 'new_york', 'north_carolina', \
+                                          'north_dakota', 'oklahoma', 'oregon', 'pennsylvania', 'tennessee', \
+                                          'rhode_island', 'south_carolina', 'south_dakota', 'texas', 'utah', 'vermont', \
+                                          'virginia', 'washington', 'wisconsin', 'west_virginia', 'wyoming']}, 
+                #'border': {'query_word': ['border','bordering','surround','surrounding','neighbor','neighboring'], 
+                #           'value_type': 'list', 'value_range': []}, 
+                #'states_in': {'query_word': ['states_in'], 'value_type': 'list', 'value_range': []}, 
+                'mountain': {'query_word': ['mountain'], 'value_type': 'string', 
+                             'value_range': ['mckinley', 'foraker', 'st._elias', 'bona', 'blackburn', 'kennedy', \
+                                             'sanford', 'vancouver', 'south_buttress', 'churchill', 'fairweather', \
+                                             'hubbard', 'bear', 'hunter', 'east_buttress', 'alverstone', 'whitney', \
+                                             'browne_tower', 'elbert', 'massive', 'harvard', 'rainier', 'williamson', \
+                                             'bianca', 'uncompahgre', 'la_plata', 'crestone', 'lincoln', 'grays', \
+                                             'antero', 'torreys', 'castle', 'quandary', 'evans', 'longs', 'wilson', \
+                                             'white', 'shavano', 'north_palisade', 'belford', 'princeton', 'yale', \
+                                             'crestone_needle', 'bross', 'wrangell', 'kit_carson', 'shasta', 'sill', \
+                                             'maroon', 'el_diente']}, 
+                'area': {'query_word': ['area','large','largest','small','smallest','biggest'], 'value_type': 'int', 'value_range': []}, 
+                'state': {'query_word': ['state','where','states'], 'value_type': 'string', 
+                          'value_range': ['alabama', 'alaska', 'arizona', 'arkansas', 'california', 'colorado', \
+                                          'connecticut', 'delaware', 'florida', 'district_of_columbia', 'georgia', \
+                                          'hawaii', 'idaho', 'illinois', 'indiana', 'iowa', 'kansas', 'kentucky', \
+                                          'louisiana', 'maine', 'maryland', 'massachusetts', 'michigan', 'minnesota', \
+                                          'mississippi', 'missouri', 'montana', 'nebraska', 'nevada', 'ohio', \
+                                          'new_hampshire', 'new_jersey', 'new_mexico', 'new_york', 'north_carolina', \
+                                          'north_dakota', 'oklahoma', 'oregon', 'pennsylvania', 'tennessee', \
+                                          'rhode_island', 'south_carolina', 'south_dakota', 'texas', 'utah', 'vermont', \
+                                          'virginia', 'washington', 'wisconsin', 'west_virginia', 'wyoming']}, 
+                'highest_point': {'query_word': ['highest_point','peak'], 'value_type': 'string', 
+                                  'value_range': ['centerville', 'cheaha_mountain', 'mount_mckinley', 'humphreys_peak', \
+                                                  'magazine_mountain', 'mount_whitney', 'mount_elbert', 'mount_frissell', \
+                                                  'tenleytown', 'gannett_peak', 'walton_county', 'brasstown_bald', \
+                                                  'mauna_kea', 'borah_peak', 'charles_mound', 'franklin_township', \
+                                                  'ocheyedan_mound', 'mount_sunflower', 'black_mountain', 'driskill_mountain', \
+                                                  'mount_katahdin', 'backbone_mountain', 'mount_greylock', 'mount_curwood', \
+                                                  'eagle_mountain', 'woodall_mountain', 'taum_sauk_mountain', 'granite_peak', \
+                                                  'johnson_township', 'boundary_peak', 'mount_washington', 'high_point', \
+                                                  'wheeler_peak', 'mount_marcy', 'mount_mitchell', 'white_butte', \
+                                                  'campbell_hill', 'black_mesa', 'mount_hood', 'mount_davis', 'jerimoth_hill', \
+                                                  'sassafras_mountain', 'harney_peak', 'clingmans_dome', 'guadalupe_peak', \
+                                                  'kings_peak', 'mount_mansfield', 'mount_rogers', 'mount_rainier', \
+                                                  'spruce_knob', 'timms_hill']}, 
+                'capital': {'query_word': ['capital'], 'value_type': 'string', 
+                            'value_range': ['montgomery', 'juneau', 'phoenix', 'sacramento', 'little_rock', 'denver', \
+                                            'hartford', 'dover', 'washington', 'tallahassee', 'atlanta', 'honolulu', \
+                                            'boise', 'springfield', 'indianapolis', 'topeka', 'des_moines', 'frankfort', \
+                                            'augusta', 'baton_rouge', 'annapolis', 'boston', 'lansing', 'jackson', \
+                                            'st._paul', 'helena', 'jefferson_city', 'lincoln', 'concord', 'carson_city', \
+                                            'trenton', 'albany', 'santa_fe', 'raleigh', 'bismarck', 'columbus', 'salem', \
+                                            'oklahoma_city', 'harrisburg', 'providence', 'columbia', 'pierre', 'nashville', \
+                                            'austin', 'montpelier', 'salt_lake_city', 'richmond', 'olympia', 'charleston', \
+                                            'madison', 'cheyenne']}, 
+                'lowest_point': {'query_word': ['lowest_point'], 'value_type': 'string', 
+                                 'value_range': ['sea_level','belle_fourche_river', 'ouachita_river', 'death_valley', 'arkansas_river', \
+                                                 'long_island_sound', 'snake_river', 'verdigris_river', 'new_orleans', \
+                                                 'lake_erie', 'lake_superior', 'st._francis_river', 'kootenai_river', \
+                                                 'southeast_corner', 'colorado_river', 'red_bluff_reservoir', \
+                                                 'red_river', 'ohio_river', 'little_river', 'delaware_river', \
+                                                 'big_stone_lake', 'mississippi_river', 'gulf_of_mexico', 'beaver_dam_creek', \
+                                                 'lake_champlain', 'atlantic_ocean', 'pacific_ocean', 'potomac_river', 'lake_michigan']}, 
+                'major_lake': {'query_word': ['major_lake','major_lakes'], 'value_type': 'string', 
+                         'value_range': ['detroit','boston','chicago','new_york','san_francisco']}, 
+                'lake': {'query_word': ['lake'], 'value_type': 'string', 
+                         'value_range': ['superior', 'huron', 'michigan', 'erie', 'ontario', 'iliamna', 'great_salt_lake', \
+                                         'lake_of_the_woods', 'okeechobee', 'pontchartrain', 'becharof', 'red', 'champlain', \
+                                         'st._clair', 'rainy', 'teshekpuk', 'salton_sea', 'naknek', 'winnebago', 'flathead', \
+                                         'mille_lacs', 'tahoe']}, 
+                'major_city': {'query_word': ['major_city','major_cities'], 'value_type': 'string', 
+                         'value_range': ['detroit','boston','chicago','new_york','san_francisco']}, 
+                #'mountains': {'query_word': ['mountains'], 'value_type': 'list', 'value_range': []}, 
+                'city': {'query_word': ['city'], 'value_type': 'string', 
+                         'value_range': ['birmingham', 'mobile', 'montgomery', 'huntsville', 'tuscaloosa', 'anchorage', \
+                                         'phoenix', 'tucson', 'mesa', 'tempe', 'glendale', 'scottsdale', 'oakland', \
+                                         'little_rock', 'fort_smith', 'north_little_rock', 'los_angeles', 'san_diego', \
+                                         'san_francisco', 'san_jose', 'long_beach', 'sacramento', 'anaheim', 'fresno', \
+                                         'riverside', 'santa_ana', 'stockton', 'huntington_beach', 'glendale', 'fremont', \
+                                         'torrance', 'pasadena', 'garden_grove', 'san_bernardino', 'oxnard', 'east_los_angeles', \
+                                         'modesto', 'sunnyvale', 'bakersfield', 'concord', 'berkeley', 'fullerton', \
+                                         'inglewood', 'hayward', 'pomona', 'orange', 'ontario', 'norwalk', 'santa_monica', \
+                                         'santa_clara', 'citrus_heights', 'burbank', 'downey', 'chula_vista', 'santa_rosa', \
+                                         'compton', 'costa_mesa', 'carson', 'salinas', 'vallejo', 'west_covina', 'oceanside', \
+                                         'el_monte', 'daly_city', 'thousand_oaks', 'san_mateo', 'simi_valley', 'richmond', \
+                                         'lakewood', 'ventura', 'santa_barbara', 'el_cajon', 'westminster', 'whittier', \
+                                         'alhambra', 'south_gate', 'alameda', 'buena_park', 'san_leandro', 'escondido', \
+                                         'newport_beach', 'irvine', 'fairfield', 'mountain_view', 'denver', 'redondo_beach', \
+                                         'scotts_valley', 'aurora', 'colorado_springs', 'lakewood', 'pueblo', 'arvada', \
+                                         'boulder', 'bridgeport', 'fort_collins', 'hartford', 'waterbury', 'new_haven', \
+                                         'stamford', 'norwalk', 'danbury', 'new_britain', 'west_hartford', 'greenwich', \
+                                         'bristol', 'meriden', 'wilmington', 'washington', 'jacksonville', 'miami', 'tampa', \
+                                         'orlando', 'st._petersburg', 'fort_lauderdale', 'hollywood', 'clearwater', 'miami_beach', \
+                                         'tallahassee', 'gainesville', 'kendall', 'largo', 'west_palm_beach', 'pensacola', \
+                                         'atlanta', 'columbus', 'savannah', 'macon', 'albany', 'honolulu', 'ewa', 'koolaupoko', \
+                                         'boise', 'chicago', 'rockford', 'peoria', 'springfield', 'decatur', 'aurora', 'joliet', \
+                                         'evanston', 'waukegan', 'elgin', 'arlington_heights', 'cicero', 'skokie', 'oak_lawn', \
+                                         'champaign', 'indianapolis', 'gary', 'fort_wayne', 'evansville', 'hammond', 'south_bend', \
+                                         'muncie', 'anderson', 'davenport', 'terre_haute', 'des_moines', 'cedar_rapids', 'waterloo', \
+                                         'sioux_city', 'dubuque', 'wichita', 'topeka', 'louisville', 'overland_park', 'lexington', \
+                                         'shreveport', 'new_orleans', 'baton_rouge', 'metairie', 'lafayette', 'kenner', 'lake_charles', \
+                                         'monroe', 'portland', 'baltimore', 'dundalk', 'silver_spring', 'bethesda', 'boston', \
+                                         'worcester', 'springfield', 'cambridge', 'new_bedford', 'brockton', 'lowell', 'fall_river', \
+                                         'quincy', 'newton', 'lynn', 'somerville', 'framingham', 'lawrence', 'waltham', 'medford', \
+                                         'detroit', 'warren', 'grand_rapids', 'flint', 'lansing', 'livonia', 'sterling_heights', \
+                                         'ann_arbor', 'dearborn', 'westland', 'kalamazoo', 'taylor', 'saginaw', 'pontiac', 'southfield', \
+                                         'st._clair_shores', 'clinton', 'troy', 'royal_oak', 'dearborn_heights', 'waterford', \
+                                         'wyoming', 'redford', 'minneapolis', 'farmington_hills', 'duluth', 'st._paul', 'bloomington', \
+                                         'rochester', 'jackson', 'springfield', 'st._louis', 'kansas_city', 'kansas_city', \
+                                         'independence', 'columbia', 'st._joseph', 'billings', 'omaha', 'great_falls', 'lincoln', \
+                                         'reno', 'las_vegas', 'manchester', 'nashua', 'newark', 'paterson', 'jersey_city', \
+                                         'elizabeth', 'trenton', 'woodbridge', 'camden', 'clifton', 'east_orange', 'edison', \
+                                         'bayonne', 'cherry_hill', 'middletown', 'irvington', 'albuquerque', 'buffalo', \
+                                         'rochester', 'yonkers', 'syracuse', 'albany', 'cheektowaga', 'utica', 'schenectady', \
+                                         'niagara_falls', 'new_rochelle', 'irondequoit', 'mount_vernon', 'levittown', 'charlotte', \
+                                         'greensboro', 'raleigh', 'winston-salem', 'durham', 'fayetteville', 'high_point', 'fargo', \
+                                         'cleveland', 'columbus', 'cincinnati', 'toledo', 'akron', 'dayton', 'youngstown', 'canton', \
+                                         'parma', 'lorain', 'springfield', 'hamilton', 'lakewood', 'kettering', 'euclid', 'elyria', \
+                                         'tulsa', 'oklahoma_city', 'lawton', 'norman', 'portland', 'eugene', 'salem', 'philadelphia', \
+                                         'pittsburgh', 'erie', 'allentown', 'scranton', 'reading', 'upper_darby', 'bethlehem', \
+                                         'abingdon', 'lower_merion', 'altoona', 'bristol_township', 'penn_hills', 'providence', \
+                                         'warwick', 'cranston', 'pawtucket', 'columbia', 'charleston', 'greenville', 'north_charleston', \
+                                         'memphis', 'sioux_falls', 'nashville', 'knoxville', 'chattanooga', 'houston', 'dallas', \
+                                         'austin', 'san_antonio', 'el_paso', 'fort_worth', 'lubbock', 'corpus_christi', 'arlington', \
+                                         'amarillo', 'garland', 'beaumont', 'pasadena', 'irving', 'waco', 'abilene', 'laredo', \
+                                         'wichita_falls', 'odessa', 'brownsville', 'richardson', 'san_angelo', 'plano', 'midland', \
+                                         'grand_prairie', 'tyler', 'mesquite', 'mcallen', 'longview', 'provo', 'port_arthur', \
+                                         'salt_lake_city', 'ogden', 'west_valley', 'norfolk', 'richmond', 'virginia_beach', 'arlington', \
+                                         'hampton', 'newport_news', 'chesapeake', 'portsmouth', 'alexandria', 'roanoke', 'lynchburg', \
+                                         'seattle', 'spokane', 'tacoma', 'bellevue', 'charleston', 'huntington', 'milwaukee', \
+                                         'madison', 'racine', 'green_bay', 'kenosha', 'appleton', 'west_allis', 'casper','washington_dc',\
+                                         'new_york_city']}, 
+                'country': {'query_word': ['us', 'united_states', 'usa'], 'value_type': 'string', 
+                            'value_range': ['usa']}, 
+                #'states_through': {'query_word': ['states_through'], 'value_type': 'list', 'value_range': []}, 
+                #'lakes': {'query_word': ['lakes'], 'value_type': 'list', 'value_range': []}, 
+                #'rivers': {'query_word': ['rivers'], 'value_type': 'list', 'value_range': []}, 
+                'population': {'query_word': ['population','populous','people'], 'value_type': 'int', 'value_range': []}, 
+                'length': {'query_word': ['length','longest','long'], 'value_type': 'int', 'value_range': []}, 
+                'major_river': {'query_word': ['major_river','major_rivers'], 'value_type': 'string', 
+                          'value_range': ['mississippi', 'missouri', 'arkansas', 'rio_grande', 'columbia', 'hudson', 'colorado']},
+                'river': {'query_word': ['river','rivers','runs','run','through'], 'value_type': 'string', 
+                          'value_range': ['mississippi', 'missouri', 'colorado', 'ohio', 'red', 'arkansas', 'canadian', 'connecticut', \
+                                          'delaware', 'snake', 'little_missouri', 'chattahoochee', 'cimarron', 'green', 'potomac', \
+                                          'north_platte', 'republican', 'tennessee', 'rio_grande', 'san_juan', 'wabash', 'yellowstone', \
+                                          'allegheny', 'bighorn', 'cheyenne', 'columbia', 'clark_fork', 'cumberland', 'dakota', 'gila', \
+                                          'hudson', 'neosho', 'niobrara', 'ouachita', 'pearl', 'pecos', 'powder', 'roanoke', 'rock', \
+                                          'tombigbee', 'smoky_hill', 'south_platte', 'st._francis', 'washita', 'white', 'wateree_catawba']}
+               }
