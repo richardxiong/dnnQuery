@@ -1,0 +1,880 @@
+city state
+highest_point state border_state
+river
+river
+capital state
+highest_point state
+state lowest_elevation
+state country
+city state
+city country
+city state
+city state
+lake state
+area state
+length river country
+river state
+state border_state
+area state
+area state
+area state
+area state
+area state
+area city state
+highest_elevation state
+highest_point
+highest_point
+highest_elevation
+highest_elevation state
+highest_elevation area state
+highest_elevation state
+highest_elevation state
+highest_elevation state
+highest_elevation state
+area state
+area state
+area city state
+length river
+length river
+length river
+length river state
+length river country
+length state
+length river
+length river
+length river
+length river
+length river
+length river
+length river country
+area city state
+capital state
+city state
+city state
+city country
+city country
+city country
+city country
+city state
+city country
+city country
+area city country
+state
+city
+state
+river
+city
+major_city state
+major_city state
+major_city state border_state
+major_city state border_state
+major_city state
+major_city
+major_city state
+major_river state
+population state
+population state
+population state
+population city
+population city
+population city state
+population state
+population city
+population city
+population state
+population city
+population city
+population state
+population city state
+population state
+population state
+population state
+population state
+population state
+population state
+population city
+population city
+population state
+population city state
+population state
+population area city state
+population capital state
+population capital state
+population area state border_state
+population state area population_density
+population country
+population state
+population state
+population city
+population state
+population state
+state
+river
+river
+river
+river state
+river
+river state
+river state
+river state highest_elevation
+river state area population
+river state
+river state
+river country
+river state capital
+river state
+river
+river length
+river state
+river state
+river state border_state
+country
+state country
+state country
+state major_river
+state
+state country
+state country
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state capital
+state border_state
+state border_state
+state border_state area
+state border_state river
+state border_state
+state border_state area population
+state river
+state border_state
+state border_state
+state border_state
+state river
+state river
+state river
+state river
+state river
+state country
+state city
+state city
+state highest_elevation area capital city
+state city
+state city
+state major_river
+state river country
+population state
+highest_point
+highest_elevation state
+state highest_point
+state highest_elevation country
+state city
+border_state state
+state
+lake country
+river
+capital country
+length river country
+major_lake state
+major_river state
+river
+state border_state
+city
+population city
+state border_state
+state river lowest_elevation
+population city
+population city
+river state
+capital state
+state city
+major_city state
+major_lake country
+state area
+state border_state
+city state
+river state length
+river state
+river state
+river state
+major_river state
+area river state
+capital city state border_state
+capital city state
+capital state border_state
+capital state border_state
+city state
+city state river
+city state highest_elevation
+highest_point state
+highest_point state border_state
+lake state border_state
+area city state border_state
+major_city state
+major_city state
+major_city state
+major_city state
+major_city state
+major_city state
+major_city state
+major_city
+major_city state
+major_city state
+major_city state
+major_city state
+major_city state river
+major_city state
+major_city area state
+major_city area state country
+major_city state
+major_city state river major_river
+major_city country
+major_city state
+major_city state
+major_city state
+major_city country
+major_city country
+major_lake country
+major_river state
+major_river country
+major_city state
+border_state state
+population_density state country
+population state
+population major_city state
+population state river
+population state river
+population state river
+population state river
+population state border_state
+population major_city state
+population state river
+population state river
+population state river
+population state river
+river state
+river state
+river state
+river state
+state
+state border_state population
+state river
+state river length
+population state
+capital area population
+capital area country
+city state
+city state
+city highest_elevation state
+city highest_elevation population state
+city area population
+city population
+city population
+city highest_elevation population_density country
+capital state
+capital state lowest_elevation
+area capital
+state
+area state
+area state
+area state
+area state
+area state
+area state
+area state
+area state
+area state
+area city
+area state
+area state
+area state
+area state
+area state capital
+area state population_density
+area state
+area state
+area state
+population state country
+population state
+population country
+area city state river
+area capital city country
+area city state
+area city state
+area city state
+area city state
+area city state
+area city state
+area city state
+area city state
+area city country
+area city country
+area city country
+area city
+area river state
+area state
+area state country
+area state country
+capital city area state
+capital state
+capital state
+capital state
+capital state
+capital state
+capital state
+capital state
+capital state
+capital state
+capital state
+capital state
+capital state
+capital state
+capital state
+capital state
+capital state
+capital state
+capital state city
+capital state
+capital state
+capital state
+capital area state
+capital area state
+capital state
+capital state border_state
+capital state border_state
+capital state highest_elevation
+capital state highest_elevation
+capital state area population
+capital state area population_density
+capital state length river
+capital state
+capital state
+capital state
+capital
+city area population state
+city area population
+area state
+population state
+population_density state
+population_density state
+lowest_elevation lowest_point
+lowest_elevation highest_point country
+height highest_point
+height highest_elevation mountain state
+height highest_elevation country
+highest_point state
+highest_elevation state
+highest_elevation state
+highest_elevation state
+highest_elevation country
+highest_elevation mountain state
+highest_elevation mountain state
+highest_elevation mountain country
+highest_elevation mountain country
+highest_point state
+highest_point state
+highest_point state lowest_point
+highest_point state
+highest_point state
+highest_point state
+highest_point state
+highest_point state
+highest_point state
+highest_point state
+highest_point state
+highest_point state
+highest_point state border_state
+highest_point state
+highest_point country
+highest_point area state
+highest_point state capital
+highest_point state capital
+highest_point state capital
+highest_point state river
+highest_point state area population
+highest_point state border_state
+highest_point country
+highest_point country
+highest_point country
+highest_point state
+highest_point state
+highest_point state area
+highest_point state area population_density
+highest_point country
+area capital
+area capital city country
+area city state border_state
+area city state
+area city state
+area city state
+area city population state
+area city state
+area city state
+area city state river
+area city state border_state
+area city state
+area city state country
+area city state
+area city state
+area state river
+area river state
+area state
+area state border_state
+area state border_state
+area state capital population
+area state country
+area state country
+area state border_state
+area state border_state
+area state border_state highest_elevation population
+area state border_state lowest_elevation country
+area state river
+population state
+length lowest_point
+length lowest_point state
+length river country
+length river state
+length lowest_point
+length river state
+length river state
+length river state
+length river state
+length river
+length river state
+length river
+length river state
+length river state
+length river
+length river state
+length river state
+length river state
+length river area state
+length river area state
+length river state highest_elevation
+length river state major_city
+length river state border_state
+length river country
+length river country
+length river state
+length river state border_state
+length river
+length river state border_state
+length river state border_state
+lowest_elevation state
+lowest_point state
+lowest_point state
+lowest_point state
+lowest_point state
+lowest_point state
+lowest_point state
+lowest_point state
+lowest_point state
+lowest_point state
+lowest_point state
+lowest_point country
+lowest_point country
+lowest_point state
+lowest_point state river
+lowest_point state
+lowest_point state area
+lowest_point country
+major_city state
+lowest_elevation city
+state country
+capital country
+state border_state
+population city
+population city state
+population city
+population state
+population state country
+population state river
+state lowest_elevation
+border_state state
+population_density state capital
+population_density state
+population_density state
+population_density state
+population_density area state
+population_density area state
+population_density state area
+population_density state area population
+population_density state
+population city
+population state
+population state
+population city
+population city
+population city
+population city state
+population city state
+population city
+population state
+population city
+population city
+population city state
+population state
+population city
+population state
+population state
+population state
+population state
+population state
+population state
+population state
+population state
+population city state
+population state
+population city state
+population state
+population city
+population city
+population city
+population city state
+population state
+population city state
+population city state
+population city state
+population state
+population capital area state
+population capital area state river
+population capital area state
+population area city state
+population area state
+population area state border_state
+population major_city state
+population area state
+population state border_state
+population state highest_elevation population_density
+population state area
+population city
+population state
+population state
+population state
+river
+river
+river state
+river state
+river state
+river state
+river country
+river country
+river country
+state
+state
+state
+capital state
+area state country
+area city state
+area city state
+area city state
+area city state
+area city country
+area city country
+area city
+area city state country
+area state border_state
+area state border_state
+area state
+area state country
+area state border_state
+area state border_state
+area state river
+area state river length
+state highest_point
+state highest_elevation country
+state area
+state area population_density country
+state area population_density
+state lowest_elevation
+state lowest_elevation population
+state lowest_elevation population_density
+state area
+mountain
+mountain country
+area country
+length river country
+population state border_state
+length state
+major_city state
+major_river river state
+mountain state
+river state
+river state
+river state
+river length country
+river state
+river state
+river state city
+river state
+river state
+river state border_state
+river state
+river state
+river state
+river state border_state
+river state
+river state
+river state
+river
+river
+river
+river state border_state
+river state border_state area population
+river area state
+river state area population
+river state
+river city state
+river
+river state
+river state
+river state
+river state lowest_elevation country
+river state border_state capital
+river state
+river state border_state
+state border_state area population
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state area population
+state highest_elevation country
+state highest_elevation river
+state highest_elevation
+state river
+state capital
+state city
+state city area population
+state city population
+state population_density
+state highest_elevation
+state highest_elevation population
+state highest_elevation population_density
+state area
+state area capital
+state area city
+state area population
+state area population_density
+state area population
+state population_density
+state length river
+state lowest_elevation population_density
+state city
+state major_city
+state major_river river
+state population
+state river
+state river
+state river
+state area
+state area capital
+state area population
+state area population_density
+state area population
+state population_density
+state city
+state capital
+state city
+state capital
+state city
+state city
+state city
+state city
+state area
+state area population
+state river
+state border_state highest_elevation population
+state border_state area
+state river area population
+state
+state
+state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state area population
+state border_state river
+state border_state river
+state border_state river
+state border_state
+state border_state major_river
+state border_state river
+state border_state population
+state border_state
+state border_state city
+state border_state major_city
+state border_state area
+state border_state city
+state border_state
+state capital
+state mountain major_river
+state river
+state river
+state river
+state river
+state river
+state river
+state river
+state river
+state river
+state capital highest_elevation
+state city
+state city
+state city
+state city
+state city
+state city
+state city
+state border_state
+state river
+state river
+state city
+state highest_point
+state city country
+state border_state
+state border_state
+city area population state
+area city
+state mountain
+state city
+state city
+state city
+state city
+state city
+state city
+state
+state highest_point
+state highest_point
+state
+state city
+state city
+state city
+state city
+state city
+state city
+state river
+state highest_elevation mountain country
+state highest_point
+state highest_point
+state lowest_point
+state lowest_point country
+state lowest_elevation
+state city
+state area city
+capital state border_state
+capital major_city
+city area population state
+population_density state area river country
+highest_elevation highest_point state
+length river country
+lowest_point state river
+river
+area state
+state border_state area population
+river state
+river state
+river state
+river state
+river state
+river state
+river country
+river state
+river state border_state
+river state border_state capital
+river state city
+river state area city country
+river state lowest_elevation country
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state capital area population
+state river
+state area population
+state population_density
+state population
+state highest_elevation
+state highest_elevation highest_point country
+state highest_elevation
+state highest_elevation population_density
+state area city
+state area population_density
+state population_density
+state length river
+state lowest_elevation
+state lowest_elevation border_state
+state lowest_elevation population_density
+state major_city
+state major_river
+state major_river river
+state population
+state population
+state river
+state river
+state river
+state area border_state
+state area population
+state area population_density
+state population_density
+state city
+state highest_point
+state city
+state area city
+state area
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state
+state border_state river
+state border_state
+state border_state length river country
+state border_state river
+state border_state area
+state capital city area
+state river
+state border_state
+state river
+state river
+state length river
+state length river
+state river
+state river
+state river
+state river
+state major_city city
+state river
+state city
+state highest_elevation
+state highest_elevation
+state area river country
+city highest_elevation population_density
