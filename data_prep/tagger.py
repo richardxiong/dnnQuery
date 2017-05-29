@@ -1250,14 +1250,14 @@ def main1():
         and .ficorr, .vacorr
     '''
     parser = stanford.StanfordParser(model_path='/Users/richard_xiong/Documents/DeepLearningMaster/deep_parser/englishPCFG.ser.gz')
-    f_ta = open(parentdir + '/data/rand_train.ta', 'w')
-    f_lox = open(parentdir + '/data/rand_train.lox', 'w')
-    f_qux = open(parentdir + '/data/rand_train.qux', 'w')
-    f_ficorr = open(parentdir + '/evaluation/rand_train.ficorr', 'w')
-    f_vacorr = open(parentdir + '/evaluation/rand_train.vacorr', 'w')
-    with open(parentdir + '/data/rand_train.fi') as f_fi:
-        with open(parentdir + '/data/rand_train.qu') as f_qu:
-            with open(parentdir + '/data/rand_train.lo') as f_lo:
+    f_ta = open(parentdir + '/data/rand_test.ta', 'w')
+    f_lox = open(parentdir + '/data/rand_test.lox', 'w')
+    f_qux = open(parentdir + '/data/rand_test.qux', 'w')
+    f_ficorr = open(parentdir + '/evaluation/rand_test.ficorr', 'w')
+    f_vacorr = open(parentdir + '/evaluation/rand_test.vacorr', 'w')
+    with open(parentdir + '/data/rand_test.fi') as f_fi:
+        with open(parentdir + '/data/rand_test.qu') as f_qu:
+            with open(parentdir + '/data/rand_test.lo') as f_lo:
                 schema, query, logic = f_fi.readline(), f_qu.readline(), f_lo.readline()
                 idx = 0
                 while schema and query and logic:
