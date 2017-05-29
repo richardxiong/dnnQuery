@@ -171,7 +171,7 @@ select <field>:0 where mountain equal <value>:1
 select <field>:0 argmax <field>:1
 select <field>:0 where <field>:0 equal <value>:1
 count <field>:1 where <field>:0 equal <value>:0
-select states
+select <field>:0
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where state equal <value>:0
 select <field>:0 where <field>:1 equal <value>:1
@@ -186,7 +186,7 @@ count <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:2 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
-select rivers where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:1 where <field>:0 equal <value>:0
 select <field>:0 where where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -210,7 +210,7 @@ select <field>:0 where <field>:1 argmax <field>:2
 select <field>:0
 select <field>:0 where <field>:2 equal <value>:2
 select <field>:0 where <field>:2 equal <value>:2
-select <field>:1 argmax <field>:0 where states equal to <field>:2 where <field>:3 argmax <field>:0
+select <field>:1 argmax <field>:0 where <field>:2 equal to <field>:2 where <field>:3 argmax <field>:0
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -435,7 +435,7 @@ select <field>:0 where river equal colorado
 select <field>:0 where river equal colorado where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 argmax <field>:0 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 argmax <field>:0 where <field>:2 equal <value>:2
-select <field>:0 where river equal <value>:1
+select <field>:0 where river equal mississippi
 select <field>:0 where <field>:1 argmax count <field>:2
 select <field>:0 where <field>:1 argmax count <field>:2
 select <field>:0 where <field>:1 argmax count <field>:2
@@ -639,7 +639,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax count <field>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin count <field>:1
-*what <field>:0 borders the least states excluding <value>:0 and excluding <value>:0
+select <field>:0 argmin count <field>:1 where <field>:1 neq <value>:0 and <field>:1 neq <value>:0
 select <field>:0 argmax count <field>:1
 select <field>:0 where <field>:1 argmin <field>:3
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
@@ -858,7 +858,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:3 argmax <field>:2 where <field>:4 equal <value>:4
-select <field>:0 where <field>:2 equal <value>:2 <field>:2
+select <field>:0 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 argmin <field>:2
 select <field>:0 where <field>:2 argmax <field>:3
 select <field>:0 where <field>:1 equal <value>:1

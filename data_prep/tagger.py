@@ -877,7 +877,18 @@ def sentTagging_tree880(parser, query, fields, logic=None):
     ### prepare query, schema, and initialize tag with <nan> ###
     query = query.lower()
     words = basic_tokenizer(query)
-    schema = fields.split()
+    #0528 newly added
+    if logic is not None:
+        schema = []
+        tokens = logic.split()
+        for i in range(len(tokens)):
+            if tokens[i] not in fields.split():
+                continue
+            else:
+                if tokens[i] not in schema:
+                    schema.append(tokens[i])
+    else:
+        schema = fields.split()
     tag = ["<nan>" for x in words]
     
     ### construct dictionaries ###
@@ -954,7 +965,10 @@ def sentTagging_tree880(parser, query, fields, logic=None):
       
     #tag_sentence = ' '.join(tag)
     tag2 = ["<nan>" for x in tag]
-    field_corr = []
+    if logic is not None:
+        field_corr = [x for x in schema]  #0528 newly added
+    else:
+        field_corr = []
     value_corr = []
     num_field_position = []
     num_value_position = []
@@ -985,6 +999,7 @@ def sentTagging_tree880(parser, query, fields, logic=None):
                 if len(refers) > 1:   #multiple fields, did not add into
                     continue
                 str_field_position.append((i, idx))
+    
     moderation = set()  #0526 newly added
     for i in range(len(tag2)):
         if tag[i] == "<nan>":
@@ -1102,10 +1117,12 @@ def sentTagging_tree880(parser, query, fields, logic=None):
         if tag2[i] == '<nan>':
             continue
         newquery[i] = tag2[i]
-
     newquery_sentence = ' '.join(newquery)
+    
+    # further change the logical forms to new_logical forms
     if logic is not None:
-        tokens = logic.split()
+        #0528 newly added
+        #tokens = logic.split()
         newlogic = ['<nan>' for x in tokens]
         for i in range(len(tokens)):
             if tokens[i] in field_corr:
@@ -1121,7 +1138,6 @@ def sentTagging_tree880(parser, query, fields, logic=None):
         newlogic_sentence = ' '.join(newlogic)
     else:
         newlogic_sentence = None
-    # further change the logical forms to new_logical forms
     return tag2_sentence, field_corr_sentence, value_corr_sentence, newquery_sentence, newlogic_sentence
 
 
