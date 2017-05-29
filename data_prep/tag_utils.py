@@ -27,12 +27,12 @@ class Config(object):
 
     # for data augmentation
     schema_collect = [['Nation','Rank','Gold','Silver','Bronze'], #,'Total'
-                      ['Name','Year_inducted','Position','Apps','Goals'], #
+                      ['Name','Year_inducted','Apps','Goals'], #'Position',
                       ['State','Year_of_Election','No._of_candidates','No._of_elected','Total_no._of_seats_in_Assembly'],
                       ['Team','Years_won','County','Wins','Areas','Prices'], 
-                      ['Player','Matches','Innings','50s','Games_Played','Average','Runs','Free_Throws','Points','100s','Field_Goals'], #
+                      ['Player','Matches','Innings','50s','Games_Played','Runs','Free_Throws','Points','100s','Field_Goals'], #'Average',
                       ['Country','Masters','U.S._Open','The_Open','PGA'], #,'Total'
-                      ['Nation','Position','League_Apps','League_Goals','FA_Cup_Apps','FA_Cup_Goals','Total_Apps','Total_Goals'], #'Name',
+                      ['Nation','Name','League_Apps','League_Goals','FA_Cup_Apps','FA_Cup_Goals','Total_Apps','Total_Goals'], #'Position',
                       ['Swara','Position','Short_name','Notation','Mnemonic'], 
                       ['Year','1st_Venue','2nd_Venue','3rd_Venue','4th_Venue','5th_Venue','6th_Venue'], 
                       ['Menteri_Besar','Took_office','Left_office','Party'], 
@@ -217,7 +217,7 @@ class Config(object):
 			'Year_inducted': {'value_type':'date',
 						'query_word': ['year','years','time','times','when']}, #'above','latest', 'below','after','before','previous','next'
 			'Apps': {'value_type':'int',
-						'query_word': ['appearance','appearances']},
+						'query_word': ['appearance','appearances','apps']},
 			'Discipline': {'value_type':'string',
             'value_range': ['Hurdles', 'Cycling', 'Swimming', 'Curling', 'Archery', 'Hammer','Whitewater_Kayak'],
             'query_word': ['discipline']},
@@ -337,7 +337,7 @@ class Config(object):
     
     geo880_dict = {'highest_elevation': {'query_word': ['highest_elevation','highest'], 'value_type': 'int', 'value_range': []}, 
                 'lowest_elevation': {'query_word': ['lowest_elevation','elevation','elevations','lowest'], 'value_type': 'int', 'value_range': []}, 
-                'height': {'query_word': ['height'], 'value_type': 'int', 'value_range': []}, 
+                'height': {'query_word': ['height','high','highest'], 'value_type': 'int', 'value_range': []}, 
                 'population_density': {'query_word': ['population_density','density'], 'value_type': 'int', 'value_range': []}, 
                 #'major_cities': {'query_word': ['major_cities'], 'value_type': 'list', 'value_range': []}, 
                 'border_state': {'query_word': ['border','borders','bordering','surround','surrounding','neighbor','neighboring',
@@ -366,7 +366,7 @@ class Config(object):
                                              'crestone_needle', 'bross', 'wrangell', 'kit_carson', 'shasta', 'sill', \
                                              'maroon', 'el_diente']}, 
                 'area': {'query_word': ['area','large','largest','big','small','smallest','biggest'], 'value_type': 'int', 'value_range': []}, 
-                'state': {'query_word': ['state','where','states'], 'value_type': 'string', 
+                'state': {'query_word': ['state','where','states','in','through'], 'value_type': 'string', 
                           'value_range': ['alabama', 'alaska', 'arizona', 'arkansas', 'california', 'colorado', \
                                           'connecticut', 'delaware', 'florida', 'district_of_columbia', 'georgia', \
                                           'hawaii', 'idaho', 'illinois', 'indiana', 'iowa', 'kansas', 'kentucky', \
@@ -415,7 +415,7 @@ class Config(object):
                                          'lake_of_the_woods', 'okeechobee', 'pontchartrain', 'becharof', 'red', 'champlain', \
                                          'st._clair', 'rainy', 'teshekpuk', 'salton_sea', 'naknek', 'winnebago', 'flathead', \
                                          'mille_lacs', 'tahoe']}, 
-                'major_city': {'query_word': ['major_city','major_cities'], 'value_type': 'string', 
+                'major_city': {'query_word': ['major_city','major_cities','big_cities'], 'value_type': 'string', 
                          'value_range': ['detroit','boston','chicago','new_york','san_francisco']}, 
                 #'mountains': {'query_word': ['mountains'], 'value_type': 'list', 'value_range': []}, 
                 'city': {'query_word': ['city','cities'], 'value_type': 'string', 
@@ -478,15 +478,16 @@ class Config(object):
                                          'madison', 'racine', 'green_bay', 'kenosha', 'appleton', 'west_allis', 'casper','washington_dc',\
                                          'new_york_city']}, 
                 'country': {'query_word': [], 'value_type': 'string', 
-                            'value_range': ['us', 'united_states', 'usa']}, 
+                            'value_range': ['us', 'united_states', 'usa','america']}, 
                 #'states_through': {'query_word': ['states_through'], 'value_type': 'list', 'value_range': []}, 
                 #'lakes': {'query_word': ['lakes'], 'value_type': 'list', 'value_range': []}, 
                 #'rivers': {'query_word': ['rivers'], 'value_type': 'list', 'value_range': []}, 
-                'population': {'query_word': ['population','populous','people'], 'value_type': 'int', 'value_range': []}, 
-                'length': {'query_word': ['length','longest','long','longer'], 'value_type': 'int', 'value_range': []}, 
+                'population': {'query_word': ['population','populous','people','citizens','residents','inhabitants'], 
+                                'value_type': 'int', 'value_range': []}, 
+                'length': {'query_word': ['length','longest','long','longer','shortest','short'], 'value_type': 'int', 'value_range': []}, 
                 'major_river': {'query_word': ['major_river','major_rivers'], 'value_type': 'string', 
                           'value_range': ['mississippi', 'missouri', 'arkansas', 'rio_grande', 'columbia', 'hudson', 'colorado']},
-                'river': {'query_word': ['river','rivers','runs','run','through','go','goes','traverse','traverses'], 
+                'river': {'query_word': ['river','rivers','runs','run','go','goes','traverse','traverses'], 
                           'value_type': 'string', 
                           'value_range': ['mississippi', 'missouri', 'colorado', 'ohio', 'red', 'arkansas', 'canadian', 'connecticut', \
                                           'delaware', 'snake', 'little_missouri', 'chattahoochee', 'cimarron', 'green', 'potomac', \

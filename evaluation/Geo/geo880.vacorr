@@ -1,7 +1,7 @@
 <nan> virginia
-<nan> <nan> mississippi
-arkansas
-colorado
+<nan> mississippi
+<nan> arkansas
+<nan> colorado
 <nan> texas
 <nan> oregon
 alabama <nan>
@@ -20,11 +20,11 @@ alabama <nan>
 <nan> new_mexico
 <nan> north_dakota
 <nan> texas
-<nan> <nan> new_york
 <nan> <nan>
-guadalupe_peak
-mount_mckinley
 <nan>
+<nan> guadalupe_peak
+<nan> mckinley
+<nan> america
 <nan> montana
 <nan> <nan> <nan>
 <nan> alabama
@@ -37,8 +37,8 @@ mount_mckinley
 <nan> rio_grande
 <nan> colorado
 <nan> delaware
-<nan> <nan> california
-<nan> <nan> usa
+<nan> california
+<nan> usa
 <nan> mississippi
 <nan> mississippi
 <nan> mississippi
@@ -46,8 +46,8 @@ mount_mckinley
 <nan> north_platte
 <nan> ohio
 <nan> rio_grande
-<nan> <nan> usa
-<nan> <nan> pennsylvania
+<nan> usa
+<nan> pennsylvania
 <nan> rhode_island
 <nan> louisiana
 <nan> montana
@@ -58,16 +58,16 @@ mount_mckinley
 <nan> texas
 <nan> usa
 austin usa
-<nan> <nan> usa
-alabama
-boulder
-california
-colorado
-montgomery
+<nan> <nan> <nan> usa
+<nan> alabama
+<nan> <nan>
+<nan> california
+colorado <nan>
+<nan> <nan>
 <nan> arizona
 <nan> florida
-<nan> <nan> nebraska
-<nan> <nan> utah
+<nan> nebraska
+<nan> utah
 <nan> texas
 <nan>
 <nan> oregon
@@ -90,7 +90,7 @@ montgomery
 <nan> montana
 <nan> new_hampshire
 <nan> new_mexico
-<nan> new_york
+<nan> new_york_city
 <nan> rhode_island
 <nan> riverside
 <nan> san_francisco
@@ -101,34 +101,34 @@ montgomery
 <nan> <nan> georgia
 <nan> <nan> texas
 <nan> <nan> <nan> wyoming
-<nan> <nan> <nan> <nan>
+<nan> <nan> <nan>
 <nan> united_states
 <nan> washington
 <nan> washington
 <nan> austin
 <nan> utah
 <nan> utah
-texas
+<nan> texas
 colorado
-colorado
-colorado
+<nan> colorado
+<nan> colorado
 <nan> iowa
-missouri
+<nan> missouri
 <nan> new_york
 <nan> <nan>
 <nan> <nan> <nan>
-<nan> <nan> <nan> <nan>
+<nan> <nan> <nan>
 <nan> idaho
 <nan> texas
 <nan> us
 <nan> <nan> albany
 <nan> alaska
-colorado
+colorado <nan>
 red <nan>
 <nan> washington
 <nan> texas
-<nan> <nan> colorado
-us
+<nan> colorado
+<nan> us
 <nan> united_states
 <nan> usa
 <nan> <nan>
@@ -144,13 +144,13 @@ us
 <nan> tennessee
 <nan> texas
 <nan> <nan> <nan>
-<nan> <nan> mississippi
+<nan> mississippi
 <nan> <nan>
-<nan> <nan> <nan> <nan>
+<nan> <nan> <nan>
 <nan> <nan>
-<nan> iowa
-<nan> missouri
-<nan> tennessee
+iowa <nan>
+missouri <nan>
+tennessee <nan>
 <nan> colorado
 <nan> colorado
 <nan> mississippi
@@ -159,57 +159,57 @@ us
 <nan> usa
 <nan> rochester
 <nan> springfield
-<nan> <nan> <nan> <nan> <nan>
+<nan> <nan> <nan> <nan>
 <nan> austin
 <nan> springfield
 <nan> <nan>
-<nan> <nan> us
+<nan> <nan> <nan> us
 <nan> texas
-mount_mckinley
+<nan> mckinley
 <nan> montana
-<nan> mount_mckinley
-<nan> <nan> usa
+<nan> mckinley
+<nan> <nan>
 <nan> rochester
-iowa <nan>
+<nan> iowa
 <nan>
 <nan> us
-colorado
+<nan> colorado
 <nan> usa
 <nan> <nan> us
 <nan> michigan
 <nan> florida
-arkansas
+<nan> arkansas
 <nan> <nan>
-boulder
+<nan> boulder
 <nan> boulder
 <nan> iowa
-<nan> mississippi <nan>
+<nan> <nan> mississippi
 <nan> boulder
 <nan> boulder
 <nan> new_york
-sacramento <nan>
+<nan> sacramento
 <nan> san_antonio
 <nan> colorado
 <nan> us
 <nan> <nan>
 <nan> iowa
 <nan> texas
-<nan> texas <nan>
-<nan> mississippi
+texas <nan> <nan>
 mississippi <nan>
+<nan> mississippi
 <nan> texas
 <nan> texas
 <nan> <nan> texas
-<nan> <nan> <nan> texas
-<nan> <nan> texas
-<nan> <nan> missouri
-<nan> <nan> texas
+<nan> texas
+<nan> texas
+<nan> missouri
+<nan> texas
 <nan> california
-<nan> <nan> mississippi
+<nan> mississippi
 <nan> <nan> <nan>
-<nan> <nan>
-<nan> <nan> mississippi
-<nan> <nan> texas
+<nan>
+<nan> mississippi
+<nan> texas
 <nan> <nan> <nan> <nan>
 <nan> alabama
 <nan> alaska
@@ -218,17 +218,17 @@ mississippi <nan>
 <nan> kansas
 <nan> missouri
 <nan> new_mexico
-new_york
+<nan> new_york
 <nan> north_carolina
 <nan> ohio
 <nan> oklahoma
 <nan> rhode_island
-<nan> <nan> mississippi
+<nan> mississippi
 <nan> texas
 <nan> <nan> <nan>
 <nan> <nan> <nan> us
 <nan> california
-<nan> virginia <nan> <nan>
+<nan> <nan> virginia
 <nan> usa
 <nan> vermont
 <nan> wyoming
@@ -239,20 +239,20 @@ new_york
 <nan> ohio
 <nan> us
 <nan> illinois
-michigan <nan>
-<nan> <nan> us
+<nan> michigan
+<nan>
 <nan> mississippi
 <nan> <nan> montana
-<nan> <nan> mississippi
-<nan> <nan> mississippi
-<nan> <nan> mississippi
-<nan> <nan> mississippi
+<nan> mississippi
+<nan> mississippi
+<nan> mississippi
+<nan> mississippi
+<nan> texas
 <nan> <nan> texas
-<nan> <nan> texas
-<nan> <nan> mississippi
-<nan> <nan> mississippi
-<nan> <nan> mississippi
-<nan> <nan> mississippi
+<nan> mississippi
+<nan> mississippi
+<nan> mississippi
+<nan> mississippi
 <nan> alaska
 <nan> indiana
 <nan> texas
@@ -262,22 +262,22 @@ michigan <nan>
 <nan> potomac
 <nan> <nan> <nan>
 <nan> missouri
-<nan> <nan> <nan>
+<nan> <nan>
 <nan> <nan> us
 <nan> pennsylvania
 <nan> california
 <nan> <nan> texas
-<nan> <nan> <nan> texas
-<nan> <nan> <nan>
+<nan> <nan> texas
 <nan> <nan>
 <nan> <nan>
-<nan> <nan> <nan> united_states
+<nan> <nan>
+<nan> <nan> united_states
 <nan> iowa
 <nan> <nan> <nan>
 <nan> <nan>
-california
+california <nan>
 <nan> alaska
-<nan> <nan>
+
 <nan> california
 <nan> florida
 <nan> idaho
@@ -290,16 +290,16 @@ california
 <nan> texas
 <nan> <nan>
 <nan> <nan>
-<nan> <nan> albany
+<nan> albany
 <nan> <nan> <nan>
-<nan> <nan>
+<nan>
 <nan> texas
 <nan> wisconsin
-<nan> <nan> us
+<nan> us
 <nan> pennsylvania
 <nan> us
-<nan> <nan> <nan> <nan>
-<nan> <nan> <nan> us
+<nan> <nan> <nan>
+<nan> <nan> us
 <nan> <nan> arizona
 <nan> <nan> georgia
 <nan> <nan> kansas
@@ -311,12 +311,12 @@ california
 <nan> <nan> us
 <nan> <nan> usa
 <nan> <nan> usa
-<nan> wyoming
+<nan> <nan> wyoming
 <nan> <nan> illinois
 <nan> <nan>
 <nan> <nan> us
 <nan> <nan> usa
-<nan> <nan> <nan> <nan>
+<nan> <nan> <nan>
 <nan> california
 <nan> colorado
 <nan> georgia
@@ -334,7 +334,7 @@ california
 <nan> north_dakota
 <nan> ohio
 <nan> pennsylvania
-<nan> <nan> durham
+<nan> durham
 <nan> texas
 <nan> alabama
 <nan> florida
@@ -342,27 +342,27 @@ california
 <nan> <nan> <nan>
 <nan> texas
 <nan> <nan> <nan>
-<nan> <nan> texas
+<nan> texas <nan>
 <nan> <nan> <nan>
 <nan> <nan> <nan>
-<nan> <nan> <nan> <nan>
-<nan> <nan> <nan> <nan>
-<nan> <nan> <nan> <nan>
-<nan> <nan>
+<nan> <nan> <nan>
+<nan> <nan> <nan>
+<nan> <nan> <nan>
+<nan> <nan> <nan>
 <nan> utah
 <nan> vermont
-washington
-<nan> <nan> <nan> texas
-<nan> <nan> <nan>
-50 <nan>
-50 <nan>
+washington <nan>
+<nan> <nan> texas
+<nan> <nan>
+50
+50
 <nan> texas
 <nan> new_york
 <nan> death_valley
 <nan> <nan> usa
-<nan> mount_mckinley
-<nan> <nan> <nan> texas
-<nan> <nan> usa
+<nan> mckinley
+<nan> <nan> texas
+<nan> usa
 <nan> wyoming
 <nan> new_mexico
 <nan> south_carolina
@@ -374,7 +374,7 @@ washington
 <nan> <nan> us
 <nan> colorado
 <nan> delaware
-<nan> <nan> <nan>
+<nan> <nan>
 <nan> florida
 <nan> iowa
 <nan> kansas
@@ -384,35 +384,35 @@ washington
 <nan> new_mexico
 <nan> ohio
 <nan> rhode_island
-<nan> <nan> georgia
+<nan> georgia
 <nan> texas
 <nan> <nan>
 <nan> <nan> <nan>
-<nan> <nan> austin
-<nan> <nan> des_moines
-<nan> <nan> des_moines
+<nan> austin
+<nan> des_moines
+<nan> des_moines
 <nan> <nan> <nan>
-<nan> <nan> <nan> <nan>
-<nan> <nan> colorado
+<nan> <nan> <nan>
+<nan> colorado
 <nan> united_states
 <nan> us
 <nan> usa
 <nan> virginia
 <nan> wyoming
 <nan> <nan> <nan>
-<nan> <nan> <nan> <nan>
+<nan> <nan> <nan>
 <nan> usa
 <nan> <nan>
-<nan> <nan> <nan> usa
-<nan> <nan> <nan> texas
+<nan> <nan> usa
+<nan> <nan> texas
 <nan> <nan> alabama
 <nan> <nan> california
 <nan> <nan> michigan
-<nan> <nan> <nan> minnesota
+<nan> <nan> minnesota
 <nan> <nan> missouri
 <nan> <nan> rhode_island
 <nan> <nan> <nan> mississippi
-<nan> <nan> <nan> california
+<nan> <nan> california
 <nan> <nan> texas
 <nan> <nan> <nan> usa
 <nan> <nan> wisconsin
@@ -422,45 +422,45 @@ washington
 <nan> <nan>
 <nan> <nan> arkansas
 <nan> <nan> texas
-<nan> <nan> <nan> <nan>
+<nan> <nan>
 <nan> <nan> us
 <nan> <nan> usa
 <nan> <nan> california
 <nan> <nan> texas
-<nan> <nan> <nan> <nan> <nan>
-<nan> <nan> <nan> <nan> usa
+<nan> <nan> <nan> <nan>
+<nan> <nan> <nan> <nan>
 <nan> <nan> mississippi
 <nan> <nan>
-<nan> colorado_river
-<nan> colorado_river texas
+<nan> colorado
+<nan> colorado texas
 <nan> <nan> usa
 <nan> <nan> texas
-<nan> mississippi_river
+<nan> mississippi
 <nan> <nan> <nan>
 <nan> <nan> <nan>
 <nan> <nan> <nan>
 <nan> <nan> <nan>
 <nan> <nan>
 <nan> <nan> new_york
-<nan> <nan>
+<nan> <nan> america
 <nan> <nan> california
 <nan> <nan> florida
-<nan> mississippi
+<nan> <nan> mississippi
 <nan> <nan> new_york
 <nan> <nan> pennsylvania
 <nan> <nan> texas
 <nan> <nan> <nan> <nan>
 <nan> <nan> <nan> <nan>
 <nan> <nan> <nan> <nan>
-<nan> <nan> <nan> <nan>
-<nan> <nan> <nan> nebraska
+<nan> <nan> <nan>
+<nan> <nan> nebraska
 <nan> <nan> united_states
 <nan> <nan> us
 <nan> <nan> texas
-<nan> <nan> <nan> indiana
-<nan> colorado
-<nan> <nan> <nan> <nan>
-<nan> <nan> <nan> tennessee
+<nan> <nan> indiana
+<nan> <nan> colorado
+<nan> <nan> <nan>
+<nan> <nan> tennessee
 <nan> pennsylvania
 <nan> arkansas
 <nan> california
@@ -475,37 +475,37 @@ washington
 <nan> united_states
 <nan> usa
 <nan> wisconsin
-colorado_river <nan> <nan>
+<nan> colorado
 <nan> colorado
 <nan> <nan> <nan>
 <nan> us
 <nan> montana
 <nan> san_francisco
-<nan> usa
-<nan> usa
-<nan> oklahoma
+<nan> <nan> usa
+<nan> <nan> usa
+<nan> <nan> oklahoma
 <nan> <nan>
 <nan> <nan> texas
-<nan> wyoming
+<nan> <nan> wyoming
 <nan> <nan>
 <nan> <nan> us
 <nan> <nan> mississippi
 <nan> <nan>
-kentucky <nan>
-<nan> <nan> austin
+kentucky
+<nan> austin
 <nan> maine
 <nan> south_dakota
 <nan> texas
 <nan> <nan> <nan>
 <nan> <nan> <nan>
 <nan> <nan> <nan>
-<nan> <nan> <nan> <nan>
+<nan> <nan> <nan>
 <nan> wyoming
 <nan> boston
 <nan> alaska
 <nan> arizona
 <nan> atlanta
-<nan> atlanta
+<nan> atlanta <nan>
 <nan> austin
 <nan> austin texas
 <nan> boston massachusetts
@@ -524,14 +524,14 @@ kentucky <nan>
 <nan> montana
 <nan> new_mexico
 <nan> new_york
-<nan> <nan> new_york
+<nan> <nan>
 <nan> oregon
 <nan> portland maine
 <nan> rhode_island
 <nan> sacramento
 <nan> san_antonio
 <nan> seattle
-<nan> seattle washington
+<nan> seattle;washington <nan>
 <nan> south_dakota
 <nan> springfield missouri
 <nan> springfield south_dakota
@@ -546,25 +546,25 @@ kentucky <nan>
 <nan> <nan> wisconsin
 <nan> <nan> <nan>
 <nan> <nan> <nan>
-<nan> <nan> <nan> <nan>
+<nan> <nan> <nan>
 <nan> <nan> <nan>
 <nan> tucson
 <nan> utah
 <nan> washington
-<nan> washington
-ohio
-<nan>
-<nan> alaska
-<nan> iowa
-<nan> nebraska
+<nan> washington_dc
+ohio <nan>
+<nan> <nan>
+<nan> <nan> alaska
+<nan> <nan> iowa
+<nan> <nan> nebraska
+<nan> <nan> texas
+<nan> <nan> united_states
+<nan> <nan> us
+<nan> <nan> usa
+<nan> california
+<nan> florida
 <nan> texas
-<nan> united_states
-<nan> us
-<nan> usa
-california
-florida
-texas
-<nan> texas
+<nan> <nan> texas
 <nan> <nan> usa
 <nan> <nan> alaska
 <nan> <nan> arkansas
@@ -572,33 +572,33 @@ texas
 <nan> <nan> <nan>
 <nan> <nan> us
 <nan> <nan> usa
-<nan> washington
+<nan> <nan> washington
 <nan> <nan> <nan> us
 <nan> <nan> ohio
 <nan> <nan> wyoming
 <nan> <nan>
 <nan> <nan> usa
 <nan> <nan> texas
-<nan> <nan> <nan>
+<nan> <nan>
 <nan> <nan> mississippi
 <nan> <nan> <nan> <nan>
 <nan> <nan>
 <nan> <nan> united_states
 <nan> <nan>
-<nan> <nan> <nan> usa
-<nan> <nan> <nan>
+<nan> <nan> usa
 <nan> <nan>
-<nan> <nan> <nan>
-<nan> <nan> <nan>
 <nan> <nan>
-<nan>
-<nan> united_states
+<nan> <nan>
+<nan> <nan>
+<nan> <nan>
+<nan> <nan> america
+<nan> <nan> united_states
 <nan> usa
 <nan> <nan> usa
-<nan> <nan> texas
+<nan> texas
 <nan> mississippi
 <nan> pennsylvania
-<nan> <nan> illinois
+<nan> illinois
 <nan> alaska
 <nan> kansas
 <nan> texas
@@ -613,20 +613,20 @@ texas
 <nan> nevada
 <nan> new_mexico
 <nan> oregon
-<nan> <nan> texas
+<nan> texas
 <nan> texas
 <nan> utah
 <nan> texas
-tennessee
-colorado
-missouri
-<nan> <nan> alabama
-<nan> <nan> <nan> <nan> <nan>
+<nan> tennessee
+colorado <nan>
+<nan> missouri
+<nan> alabama
 <nan> <nan> <nan>
-<nan> <nan> <nan> <nan>
+<nan> <nan> <nan>
+<nan> <nan> <nan>
 <nan> arizona
 <nan> austin texas
-colorado
+<nan> colorado
 <nan> louisiana
 <nan> maine
 <nan> new_york
@@ -634,37 +634,21 @@ colorado
 <nan> <nan> <nan> atlanta
 <nan> west_virginia
 <nan> <nan> <nan>
-<nan> nevada <nan> <nan>
+<nan> <nan> nevada
 <nan> michigan
 <nan> <nan>
 <nan> new_york
 <nan> <nan>
 alaska;hawaii <nan>
 <nan> <nan>
-<nan> <nan> <nan> <nan>
+<nan> <nan> <nan>
 <nan> <nan> us
 <nan> <nan> colorado
 <nan> <nan>
 <nan> <nan>
 <nan> salem
 <nan> flint
-<nan> <nan> <nan> <nan>
 <nan> <nan> <nan>
-<nan> <nan>
-<nan> <nan>
-<nan> <nan> <nan>
-<nan> <nan> <nan>
-<nan> <nan>
-<nan> <nan> <nan>
-<nan> <nan> <nan>
-<nan> <nan> <nan>
-<nan> <nan> <nan>
-<nan> <nan> <nan>
-<nan> <nan>
-<nan> <nan> <nan>
-<nan> <nan> <nan>
-<nan> <nan>
-<nan> <nan>
 <nan> <nan> <nan>
 <nan> <nan>
 <nan> <nan>
@@ -673,8 +657,24 @@ alaska;hawaii <nan>
 <nan> <nan>
 <nan> <nan> <nan>
 <nan> <nan> <nan>
+<nan> <nan>
+<nan> <nan>
+<nan> <nan>
+<nan> <nan>
 <nan> <nan> <nan>
+<nan> <nan>
+<nan> <nan>
+<nan> <nan>
+<nan> <nan>
+<nan> <nan>
+<nan> <nan>
+<nan> <nan>
 <nan> <nan> <nan>
+<nan> <nan>
+<nan> <nan> <nan>
+<nan> <nan>
+<nan> <nan>
+<nan> <nan>
 <nan> <nan>
 <nan> austin
 <nan> austin
@@ -685,14 +685,14 @@ alaska;hawaii <nan>
 <nan> miami
 <nan> pittsburgh
 <nan> <nan>
-<nan> <nan> <nan>
 <nan> <nan>
-<nan> texas <nan> <nan>
-<nan> texas <nan>
-<nan> mississippi <nan> <nan>
-arizona
-texas
-mississippi
+<nan> <nan>
+<nan> <nan> texas
+<nan> <nan> texas
+<nan> <nan> mississippi
+arizona <nan>
+texas <nan>
+mississippi <nan>
 <nan> alaska
 <nan> arkansas
 <nan> delaware
@@ -712,13 +712,13 @@ mississippi
 <nan> mississippi
 <nan> florida
 <nan> texas
-<nan> <nan> <nan> <nan>
+<nan> <nan> <nan>
 <nan> <nan> <nan>
 <nan> <nan> ohio
 <nan> <nan> mississippi
 <nan> texas
 <nan> texas <nan>
-<nan> <nan> mississippi
+<nan> mississippi
 <nan> <nan> <nan>
 <nan> <nan>
 <nan> <nan> <nan>
@@ -727,7 +727,7 @@ mississippi
 <nan> <nan> <nan>
 <nan> wisconsin
 <nan> dover
-<nan> <nan> <nan>
+<nan> <nan>
 <nan> colorado
 <nan> delaware
 <nan> mississippi
@@ -736,7 +736,7 @@ mississippi
 <nan> missouri
 <nan> ohio
 <nan> ohio
-<nan> <nan>
+<nan> <nan> <nan>
 <nan> <nan> <nan>
 <nan> austin
 <nan> austin
@@ -753,7 +753,7 @@ colorado <nan>
 <nan> springfield united_states
 <nan> maine
 <nan> kentucky
-<nan> <nan> <nan> texas
+<nan> <nan> texas
 <nan> <nan>
 <nan> <nan>
 <nan> austin
@@ -762,10 +762,10 @@ colorado <nan>
 <nan> fort_wayne
 <nan> houston
 <nan> indianapolis
-massachusetts
-<nan> mount_whitney
-<nan> mount_whitney
-new_hampshire
+massachusetts <nan>
+<nan> <nan>
+<nan> <nan>
+new_hampshire <nan>
 <nan> new_orleans
 <nan> portland
 <nan> san_diego
@@ -774,23 +774,23 @@ new_hampshire
 <nan> springfield
 <nan> chattahoochee
 <nan> <nan> <nan> united_states
-hawaii <nan>
-montana <nan>
-maryland <nan>
-<nan> <nan> us
-iowa <nan>
-new_mexico <nan>
-<nan> <nan> <nan>
-<nan> <nan> texas
+<nan> hawaii
+<nan> montana
+<nan> maryland
+<nan> us
+<nan> iowa
+<nan> <nan> new_mexico
 <nan> <nan>
-<nan> <nan> <nan> california
-<nan> <nan> <nan> <nan> united_states
-<nan> <nan> alaska
+<nan> texas
+<nan> <nan>
+<nan> <nan> california
+<nan> <nan> <nan> united_states
+<nan> alaska
 <nan> <nan> usa
-<nan> <nan> mississippi
-<nan>
+<nan> mississippi
 <nan> <nan>
-<nan> pennsylvania <nan> <nan>
+<nan> <nan>
+<nan> <nan> pennsylvania
 <nan> <nan>
 <nan> <nan>
 <nan> <nan>
@@ -799,46 +799,46 @@ new_mexico <nan>
 <nan> texas
 <nan> usa
 <nan> alaska
-<nan> <nan> new_mexico
+<nan> new_mexico
 <nan> <nan> <nan> austin
 <nan> <nan> <nan>
-<nan> <nan> <nan> <nan> us
+<nan> <nan> <nan> us
 <nan> <nan> <nan> usa
 <nan> kentucky
 <nan> florida
 <nan> hawaii
 <nan> <nan>
 <nan> <nan>
-<nan> <nan> <nan> <nan>
-<nan> <nan>
 <nan> <nan> <nan>
 <nan> <nan>
 <nan> <nan>
 <nan> <nan>
-<nan> <nan> <nan> <nan>
+<nan> <nan>
+<nan> <nan>
+<nan> <nan>
+<nan> <nan>
 <nan> <nan>
 <nan> <nan> <nan>
-<nan> <nan> <nan>
-<nan> <nan> <nan>
+<nan> <nan>
 <nan> <nan>
 <nan> <nan> <nan>
-<nan> <nan>
+<nan>
 <nan> <nan> idaho
-<nan> <nan> <nan>
 <nan> <nan>
 <nan> <nan>
-<nan> <nan> <nan>
+<nan> <nan>
+<nan> <nan>
 <nan> <nan>
 <nan> <nan>
 <nan> <nan>
 <nan> <nan>
 <nan> red
 <nan> <nan> texas
-<nan> <nan> <nan>
-<nan> <nan> <nan>
+<nan> <nan>
+<nan> <nan>
 <nan> <nan>
 <nan> kalamazoo
-<nan> mount_mckinley
+<nan> mckinley
 <nan> denver
 <nan> <nan> <nan>
 <nan> <nan>
@@ -857,10 +857,10 @@ new_mexico <nan>
 <nan> south_dakota
 <nan> <nan> mississippi
 <nan> texas
-<nan> <nan> <nan> <nan> usa
-<nan> <nan> missouri
+<nan> <nan> <nan> usa
+<nan> missouri
 <nan> <nan> <nan>
-<nan> <nan> <nan> <nan>
+<nan> <nan> <nan>
 <nan> colorado
 <nan> texas
 <nan> chattahoochee
@@ -871,10 +871,10 @@ new_mexico <nan>
 <nan> mississippi
 <nan> missouri
 <nan> missouri
-<nan> <nan> austin
+<nan> <nan>
 <nan> <nan>
 <nan> austin
 colorado <nan>
 texas <nan>
 <nan> <nan> <nan> united_states
-<nan> <nan> <nan>
+<nan> <nan>

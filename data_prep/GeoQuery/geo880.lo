@@ -22,9 +22,9 @@ select area where state equal north_dakota
 select area where state equal texas
 select area where city equal new_york_city
 select highest_elevation argmax highest_elevation
-select height where mountain equal is guadalupe_peak
-select height where mountain equal mount_mckinley
-select highest_elevation where country equal usa
+select highest_elevation where highest_point equal guadalupe_peak
+select height where mountain equal mckinley
+select highest_elevation where country equal america
 select highest_elevation where state equal montana
 select highest_elevation where state argmax area
 select highest_elevation where state equal alabama
@@ -122,8 +122,8 @@ count river where state equal idaho
 count river where state equal texas
 count river where country equal us
 count river where state neq state where capital equal albany
-count river where state equal alaska have
-count river where state equal colorado have
+count river where state equal alaska
+count river where state equal colorado
 count river where length larger length where river equal red
 count river where state equal washington
 count river where state equal texas
@@ -165,11 +165,11 @@ count state where city equal springfield
 count state where major_river neq EMP
 count state where river argmax length where country equal us
 select population where state equal texas
-select height where mountain equal mount_mckinley
+select height where mountain equal mckinley
 select highest_elevation where state equal montana
-select state where mountain equal mount_mckinley
+select state where mountain equal mckinley
 select state argmax highest_elevation
-select state where state equal rochester
+select state where city equal rochester
 count state where border_state equal iowa
 select state
 select lake where country equal us
@@ -358,9 +358,9 @@ sum area
 sum population
 select population_density where state equal texas
 select population_density where state equal new_york
-select lowest_elevation of death_valley
+select lowest_elevation where lowest_point equal death_valley
 select lowest_elevation where highest_point equal highest_point where country equal usa
-select height where mountain equal mount_mckinley
+select height where mountain equal mckinley
 select height where mountain argmax height where state equal texas
 select height argmax height where country equal usa
 select highest_point where state equal wyoming
@@ -442,7 +442,7 @@ select length where river argmax count state
 select length where river argmax count state
 select river argmax length
 select river argmax length where state equal new_york
-select river argmax length where country equal usa
+select river argmax length where country equal america
 select river argmax length where state equal california
 select river argmax length where state equal florida
 select river argmax length where state equal mississippi
@@ -538,7 +538,7 @@ select population where city equal springfield where state equal outh_dakota
 select population where city equal tempe where state equal arizona
 select population where state equal texas
 select population where capital equal capital where state argmax area
-*what is the population of the capital of the largest state through which the mississippi runs
+select population where capital equal capital where state argmax area where river equal mississippi
 select population where capital equal capital where state argmin area
 select population where city argmax area where state argmax area
 select population where state argmax area
@@ -573,7 +573,7 @@ select city argmin area where state argmax area
 select city argmin area where country equal us
 select city argmin area where country equal usa
 select city argmin area where state equal washington
-select city argmin area where state argmin area in the us
+select city argmin area where state argmin area where country equal usa
 select state argmin area where border_state equal ohio
 select state argmin area where border_state equal wyoming
 select state argmin area
@@ -591,7 +591,7 @@ select state argmin lowest_elevation
 select state argmin population
 select state argmin population_density
 select state argmin area
-select mountain argmax height where country equal usa
+select mountain argmax height where country equal america
 select mountain argmax height where country equal united_states
 sum area where country equal usa
 sum length where river equal river where country equal usa
@@ -763,8 +763,8 @@ select state where city equal fort_wayne
 select state where city equal houston
 select state where city equal indianapolis
 select state where city equal massachusetts
-select state where city equal mount_whitney
-select state where city equal mount_whitney
+select state where city equal whitney
+select state where city equal whitney
 select state where city equal new_hampshire
 select state where city equal new_orleans
 select state where city equal portland
@@ -834,11 +834,11 @@ select state argmax count river
 select state argmax count river
 select state where river equal red
 select state argmin area where border_state equal texas
-*which state has the smallest average urban population
+select state argmin average population
 select state argmin population_density
 select state argmin population_density
 select state where city equal kalamazoo
-select state where mountain equal mount_mckinley
+select state where mountain equal mckinley
 select state where city equal denver
 select state where city argmax area
 select state argmin area

@@ -623,17 +623,26 @@ def sentTagging_tree(parser, query, fields, logic=None):
     ### prepare query, schema, and initialize tag with <nan> ###
     query = query.lower()
     words = basic_tokenizer(query)
-    schema = fields.split()
+    #0528 newly added
+    if logic is not None:
+        schema = []
+        tokens = logic.split()
+        for i in range(len(tokens)):
+            if tokens[i] not in fields.split():
+                continue
+            else:
+                if tokens[i] not in schema:
+                    schema.append(tokens[i])
+    else:
+        schema = fields.split()
     tag = ["<nan>" for x in words]
     
     ### construct dictionaries ###
     config = tu.Config()
     #field2vecField, field2vecValue = fromWordtoVecList(schema)
     field_dict, value_dict = buildDictionary(schema)
-    # print "value_dict:"
-    # print value_dict
     
-    filter_words = [',','the','a','an','for','of','in','on','with','than','and',\
+    filter_words = [',','the','a','an','in','for','of','on','through','with','than','and',\
     'is','are','do','does','did','has','have','had','what','how','many','get','same','as'] #,'number'
     
     ### TAG WITH <field> & <value>
@@ -692,7 +701,7 @@ def sentTagging_tree(parser, query, fields, logic=None):
       # 3rd pass find field name according to string similarity (field with numerical values)
         if tag[i] is not "<nan>":
             continue
-        baseline = 0.55
+        baseline = 0.6
         for j in range(len(schema)):
             if strSimilarity(words[i], schema[j].lower()) >= baseline:
                 tag[i] = schema[j]
@@ -702,8 +711,12 @@ def sentTagging_tree(parser, query, fields, logic=None):
       
     #tag_sentence = ' '.join(tag)
     tag2 = ["<nan>" for x in tag]
-    field_corr = []
-    value_corr = []
+    if logic is not None:
+        field_corr = [x for x in schema]  #0528 newly added
+        value_corr = ['<nan>' for x in schema]
+    else:
+        field_corr = []
+        value_corr = []
     num_field_position = []
     num_value_position = []
     str_field_position = []
@@ -730,9 +743,11 @@ def sentTagging_tree(parser, query, fields, logic=None):
             if config.field2word[refers[0]]['value_type'] != 'string':
                 num_field_position.append((i, idx))
             else:
-                if len(refers) > 1:
+                if len(refers) > 1:   #multiple fields, did not add into
                     continue
                 str_field_position.append((i, idx))
+    
+    moderation = set()  #0526 newly added
     for i in range(len(tag2)):
         if tag[i] == "<nan>":
             continue
@@ -759,6 +774,9 @@ def sentTagging_tree(parser, query, fields, logic=None):
                 elif len(reference[1].split(';')) > 1:
                     # Overlapping value range for field with 'string' type (e.g. 1st_venue)
                     str_value_position.append(i)
+                    #0526 newly added
+                    for refer in reference[1].split(';'):
+                        moderation.add(refer)
                     continue
                 field_corr.append(reference[1])
                 value_corr.append(words[i])
@@ -769,7 +787,7 @@ def sentTagging_tree(parser, query, fields, logic=None):
     print num_value_position    #[9]
     print str_field_position    #[(4, 1), (7, 2)]
     print str_value_position    #[9]
-    
+    print moderation
     # (dependency tree LCA) build parse query for str_position and num_position
     if len(num_value_position) > 0:
         parsequery_num = [x for x in words]
@@ -809,6 +827,8 @@ def sentTagging_tree(parser, query, fields, logic=None):
             idx = None
             largest_depth = 0
             for (j,m) in str_field_position:
+                if field_corr[m] not in moderation: #0526 newly added
+                    continue
                 depth = treeLCAdepth(dependency_tree_str[1], i, j)
                 if depth > largest_depth:
                     idx = m
@@ -819,6 +839,21 @@ def sentTagging_tree(parser, query, fields, logic=None):
                     value_corr[idx] = words[i]
                 else:
                     value_corr[idx] += ';'+words[i]
+            else: #0526 newly added
+                #new correspondence found
+                reference = tag[i].split(':')
+                refers = reference[1].split(';')
+                if refers[0] in field_corr:
+                    idx = field_corr.index(refers[0])
+                    if value_corr[idx] is "<nan>":
+                        value_corr[idx] = words[i]
+                    else:
+                        value_corr[idx] += ';'+words[i]
+                else:
+                    field_corr.append(refers[0])
+                    idx = len(field_corr) - 1
+                    value_corr.append(words[i])
+                tag2[i] = '<value>:'+str(idx)
 
     field_corr_sentence = ' '.join(field_corr)
     value_corr_sentence = ' '.join(value_corr)
@@ -829,10 +864,12 @@ def sentTagging_tree(parser, query, fields, logic=None):
         if tag2[i] == '<nan>':
             continue
         newquery[i] = tag2[i]
-
     newquery_sentence = ' '.join(newquery)
+    
+    # further change the logical forms to new_logical forms
     if logic is not None:
-        tokens = logic.split()
+        #0528 newly added
+        #tokens = logic.split()
         newlogic = ['<nan>' for x in tokens]
         for i in range(len(tokens)):
             if tokens[i] in field_corr:
@@ -848,7 +885,6 @@ def sentTagging_tree(parser, query, fields, logic=None):
         newlogic_sentence = ' '.join(newlogic)
     else:
         newlogic_sentence = None
-    # further change the logical forms to new_logical forms
     return tag2_sentence, field_corr_sentence, value_corr_sentence, newquery_sentence, newlogic_sentence
 
 
@@ -896,8 +932,8 @@ def sentTagging_tree880(parser, query, fields, logic=None):
     #field2vecField, field2vecValue = fromWordtoVecList(schema)
     field_dict, value_dict = buildDictionary880(schema)
     
-    filter_words = [',','the','a','an','in','for','of','on','with','than','and',\
-    'is','are','do','does','did','has','have','had','what','how','many','get','same','as'] #,'number'
+    filter_words = [',','the','a','an','for','of','on','with','than','and',\
+    'is','are','do','does','did','has','have','had','what','how','many','get','same','as'] #,'in','through','number'
     
     ### TAG WITH <field> & <value>
     for i in range(len(words)):
@@ -967,9 +1003,10 @@ def sentTagging_tree880(parser, query, fields, logic=None):
     tag2 = ["<nan>" for x in tag]
     if logic is not None:
         field_corr = [x for x in schema]  #0528 newly added
+        value_corr = ['<nan>' for x in schema]
     else:
         field_corr = []
-    value_corr = []
+        value_corr = []
     num_field_position = []
     num_value_position = []
     str_field_position = []
@@ -1299,4 +1336,4 @@ def main880():
 
 #main1()
 #main2()
-main880()
+#main880()
