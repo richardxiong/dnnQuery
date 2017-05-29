@@ -1334,6 +1334,6 @@ def main880():
     f_ficorr.close()
     return
 
-#main1()
+main1()
 #main2()
 #main880()

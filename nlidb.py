@@ -58,7 +58,7 @@ tf.app.flags.DEFINE_integer("batch_size", 128,
 tf.app.flags.DEFINE_integer("size", 1024, "Size of each model layer.")
 tf.app.flags.DEFINE_integer("num_layers", 2, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("from_vocab_size", 1000, "English vocabulary size.")
-tf.app.flags.DEFINE_integer("to_vocab_size", 50, "French vocabulary size.")
+tf.app.flags.DEFINE_integer("to_vocab_size", 100, "French vocabulary size.")
 tf.app.flags.DEFINE_string("data_dir", "./data", "Data directory")
 tf.app.flags.DEFINE_string("train_dir", "./train_2_1024_new", "Training directory.")
 tf.app.flags.DEFINE_string("from_train_data", None, "Training data.")
