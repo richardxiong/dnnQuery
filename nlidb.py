@@ -48,8 +48,8 @@ end of it
 '''
 #==================================================================================
 
-tf.app.flags.DEFINE_float("learning_rate", 0.05 * 0.005, "Learning rate.")
-tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.9,
+tf.app.flags.DEFINE_float("learning_rate", 0.05 * 0.01, "Learning rate.")
+tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.96,
                           "Learning rate decays by this much.")
 tf.app.flags.DEFINE_float("max_gradient_norm", 5.0,
                           "Clip gradients to this norm.")
@@ -94,7 +94,7 @@ FLAGS = tf.app.flags.FLAGS
 # 1. no field / tagging model
 #_buckets = [(10, 8), (15, 12), (19, 16), (23, 21)] #less pad then previous
 
-_buckets = [(11, 8), (16, 12), (19, 14)]  # new logical forms
+_buckets = [(11, 8), (15, 12), (19, 14)]  # new logical forms
 
 def read_data(source_path, target_path, tag_path, max_size=None):
   """Read data from source and target files and put into buckets.
