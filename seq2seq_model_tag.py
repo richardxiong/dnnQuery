@@ -85,7 +85,7 @@ class Seq2SeqModel(object):
       dtype: the data type to use to store internal variables.
     """
     self.from_vocab_path = './data/vocab1000.from'
-    self.to_vocab_path = './data/vocab50.to'
+    self.to_vocab_path = './data/vocab100.to'
     self.glove_path = '../glove.6B/glove.6B.100d.txt'
     self.source_vocab_size = source_vocab_size
     self.target_vocab_size = target_vocab_size
@@ -137,7 +137,7 @@ class Seq2SeqModel(object):
 
     # Add pretrained embedding
     embedding_matrix_from, _, _ = scratch.generateEmbedMatrix(self.from_vocab_path, 500000, self.glove_path)
-    embedding_matrix_to, _, _ = scratch.generateEmbedMatrix(self.to_vocab_path, 500000)
+    embedding_matrix_to, _, _ = scratch.generateEmbedMatrix(self.to_vocab_path, 500000, self.glove_path)
     # The seq2seq function: we use embedding for the input and attention.
     def seq2seq_f(encoder_inputs, tag_inputs, decoder_inputs, do_decode):
       ## ADD EMbedding: encoder_input, decoder_input... ###
