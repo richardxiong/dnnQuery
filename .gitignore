@@ -1,6 +1,6 @@
-.ipynb_checkpoints
+*.ipynb_checkpoints
 
-.pyc
+*.pyc
 
 **/.ipynb_checkpoints/*.ipynb
 
