@@ -143,8 +143,8 @@ class Seq2SeqModel(object):
       ## ADD EMbedding: encoder_input, decoder_input... ###
       
       #return ls.embedding_attention_seq2seq_pretrain3_tag( #####  
-      #return ls.embedding_attention_seq2seq_pretrain2_tag( #####  
-      return ls.embedding_attention_seq2seq_pretrain2_X(self.batch_size,  
+      return ls.embedding_attention_seq2seq_pretrain2_tag( #####  
+      #return ls.embedding_attention_seq2seq_pretrain2_X(self.batch_size,  
           encoder_inputs,
           tag_inputs,
           decoder_inputs,
