@@ -1,5 +1,7 @@
 .ipynb_checkpoints
 
+.pyc
+
 **/.ipynb_checkpoints/*.ipynb
 
 data_prep/.ipynb_checkpoints/
