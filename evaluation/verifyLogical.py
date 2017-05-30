@@ -47,7 +47,8 @@ with open(train_output) as infile:
             correct += 1
         else:
             print "wrong examples: %d" %(index + 1)
-            print line0
+            print truth[index]
+            print line.lower()
         index += 1
 print "train accuracy: " + str(correct * 1.0 / len(truth))
 
@@ -69,7 +70,8 @@ with open(dev_output) as infile:
             correct += 1
         else:
             print "wrong examples: %d" %(index + 1)
-            print line0
+            print truth[index]
+            print line.lower()
         index += 1
 print "dev accuracy: " + str(correct * 1.0 / len(truth))
 
@@ -91,6 +93,7 @@ with open(test_output) as infile:
             correct += 1
         else:
             print "wrong examples: %d" %(index + 1)
-            print line0
+            print truth[index]
+            print line.lower()
         index += 1
 print "test accuracy: " + str(correct * 1.0 / len(truth))
