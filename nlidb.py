@@ -253,28 +253,30 @@ def train():
         step_time, loss = 0.0, 0.0
         # Run evals on development set and print their perplexity.
         ### Open a txt file recording the last hidden state
-        filename = "last_hidden_state-"+str(model.global_step.eval())+".txt"
-        lasthidden_path = os.path.join("./PCA-visual/", filename)
-        f_lh = open(lasthidden_path, 'w')
+        # filename = "last_hidden_state-"+str(model.global_step.eval())+".txt"
+        # lasthidden_path = os.path.join("./PCA-visual/", filename)
+        # f_lh = open(lasthidden_path, 'w')
         for bucket_id in xrange(len(_buckets)):
           if len(dev_set[bucket_id]) == 0:
             print("  eval: empty bucket %d" % (bucket_id))
             continue
           encoder_inputs, tag_inputs, decoder_inputs, target_weights = model.get_batch(
               dev_set, bucket_id)
-          _, eval_loss, _, eval_lasthidden = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs, ###
+          # _, eval_loss, _, eval_lasthidden = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs, ###
+          #                              target_weights, bucket_id, True)
+          _, eval_loss, _, _ = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs, ###
                                        target_weights, bucket_id, True)
           eval_ppx = math.exp(float(eval_loss)) if eval_loss < 300 else float(
               "inf")
           print("  eval: bucket %d perplexity %.2f" % (bucket_id, eval_ppx))
           ### Print hidden state to file
           #print("   bucket %d has %d samples" % (bucket_id, len(eval_lasthidden)))
-          for j in range(FLAGS.batch_size):
-            for i in range(FLAGS.num_layers): # all the layer of encoders are outputed
-              words = [str(num) for num in eval_lasthidden[i][j]]
-              f_lh.write(','.join(words))
-            f_lh.write('\n')
-        f_lh.close()
+        #   for j in range(FLAGS.batch_size):
+        #     for i in range(FLAGS.num_layers): # all the layer of encoders are outputed
+        #       words = [str(num) for num in eval_lasthidden[i][j]]
+        #       f_lh.write(','.join(words))
+        #     f_lh.write('\n')
+        # f_lh.close()
         sys.stdout.flush()
 
 
@@ -367,6 +369,7 @@ def decode():
             logicalTemp_train.write(str(resultLogical) + '\n')
             q_index += 1
             sentence, tag_sen = trainQuestions.readline(), trainTags.readline()
+    
     print('=== dev dataset ===')
     with open(devQuestionFile,'r') as devQuestions:
       with open(devTagFile, 'r') as devTags: 
@@ -410,6 +413,7 @@ def decode():
             logicalTemp_dev.write(str(resultLogical) + '\n')
             q_index += 1
             sentence, tag_sen = devQuestions.readline(), devTags.readline()
+    
     print('=== test dataset ===')        
     with open(testQuestionFile,'r') as testQuestions:
       with open(testTagFile, 'r') as testTags: 
@@ -436,9 +440,19 @@ def decode():
             # Get a 1-element batch to feed the sentence to the model.
             encoder_inputs, tag_inputs, decoder_inputs, target_weights = model.get_batch(
                 {bucket_id: [(token_ids, tag_ids, [])]}, bucket_id)
-            # Get output logits for the sentence.
-            _, _, output_logits, _ = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs,
+            
+            # Get output logits for the sentence and CONFUSION matrix. # 0531 newly added
+            filename = "confusion_matrix.txt"
+            confusion_path = os.path.join("./PCA-visual/", filename)
+            f_con = open(confusion_path, 'a+')
+            _, _, output_logits, confusion_matrix = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs,
                                              target_weights, bucket_id, True)
+            f_con.write('*** example: '+str(q_index)+' ***\n')
+            for i in range(confusion_matrix.shape[1]):
+              words = [str(x) for x in confusion_matrix[0][i]]
+              f_con.write(','.join(words) + '\n')
+            f_con.close()
+        
             # This is a greedy decoder - outputs are just argmaxes of output_logits.
             outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
             # If there is an EOS symbol in outputs, cut them at that point.
