@@ -91,7 +91,7 @@ with open(train_output) as infile:
         else:
             # compare line with all possible forms, and choose the most similar one
             dists = np.ones(len(loTemp))
-            for j in len(loTemp):
+            for j in range(len(loTemp)):
                 dists[j] = strSimilarity(line, loTemp[j])
             newline = loTemp[np.argmax(dists)]
             if newline == truth[index]:
@@ -122,7 +122,7 @@ with open(dev_output) as infile:
         else:
             # compare line with all possible forms, and choose the most similar one
             dists = np.ones(len(loTemp))
-            for j in len(loTemp):
+            for j in range(len(loTemp)):
                 dists[j] = strSimilarity(line, loTemp[j])
             newline = loTemp[np.argmax(dists)]
             if newline == truth[index]:
@@ -153,7 +153,7 @@ with open(test_output) as infile:
         else:
             # compare line with all possible forms, and choose the most similar one
             dists = np.ones(len(loTemp))
-            for j in len(loTemp):
+            for j in range(len(loTemp)):
                 dists[j] = strSimilarity(line, loTemp[j])
             newline = loTemp[np.argmax(dists)]
             if newline == truth[index]:
