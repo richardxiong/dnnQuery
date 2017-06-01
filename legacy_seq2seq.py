@@ -1791,7 +1791,7 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
         embedding_matrix_to, output_projection, True) if feed_previous else None
   
     if isinstance(feed_previous, bool):
-      outputs, state, confusion_matrix = attention_decoder(
+      outputs, state, confusion_matrix = attention_decoder_confusion(
           decoder_inputs_embed,
           encoder_state,
           attention_states,
@@ -1808,7 +1808,7 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
       reuse = None if feed_previous_bool else True
       with variable_scope.variable_scope(
         variable_scope.get_variable_scope(), reuse=reuse) as scope:
-        outputs, state, confusion_matrix = attention_decoder(
+        outputs, state, confusion_matrix = attention_decoder_confusion(
             decoder_inputs_embed,
             encoder_state,
             attention_states,
