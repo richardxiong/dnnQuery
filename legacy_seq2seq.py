@@ -866,12 +866,12 @@ def attention_decoder_confusion(decoder_inputs,
             variable_scope.get_variable_scope(), reuse=True):
           # 0531 newly modified/added
           attns, acon_step = attention(state)
-          acon_step = np.reshape(acon_step, [acon_step.shape[0], acon_step.shape[1], 1])
+          #acon_step = np.reshape(acon_step, [acon_step.shape[0], acon_step.shape[1], 1])
           confusion_matrix.append(acon_step)
       else:
         # 0531 newly modified/added
         attns, acon_step = attention(state)
-        acon_step = np.reshape(acon_step, [acon_step.shape[0], acon_step.shape[1], 1])
+        #acon_step = np.reshape(acon_step, [acon_step.shape[0], acon_step.shape[1], 1])
         confusion_matrix.append(acon_step)
       
       with variable_scope.variable_scope("AttnOutputProjection"):
@@ -880,7 +880,8 @@ def attention_decoder_confusion(decoder_inputs,
         prev = output
       outputs.append(output)
     # 0531 newly added
-    confusion_matrix = np.concatenate(confusion_matrix, axis=2)
+    # confusion_matrix = np.concatenate(confusion_matrix, axis=2)
+    confusion_matrix = tf.stack(confusion_matrix, axis=2)
 
   return outputs, state, confusion_matrix
 
