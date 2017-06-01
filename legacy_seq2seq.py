@@ -866,7 +866,7 @@ def attention_decoder_confusion(decoder_inputs,
             variable_scope.get_variable_scope(), reuse=True):
           # 0531 newly modified/added
           attns, acon_step = attention(state)
-          confusion_matrix.append(array_ops.reshape(acon_step, [-1, attn_length, 1])) = attention(state)
+          confusion_matrix.append(array_ops.reshape(acon_step, [-1, attn_length, 1]))
       else:
         # 0531 newly modified/added
         attns, acon_step = attention(state)
