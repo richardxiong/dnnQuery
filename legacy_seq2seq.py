@@ -878,7 +878,7 @@ def attention_decoder_confusion(decoder_inputs,
         prev = output
       outputs.append(output)
     # 0531 newly added
-    confusion_matrix = np..concatenate(confusion_matrix, axis=2)
+    confusion_matrix = np.concatenate(confusion_matrix, axis=2)
 
   return outputs, state, confusion_matrix
 
