@@ -169,7 +169,7 @@ if __name__ == "__main__":
 	print "Run Y = tsne.tsne(X, no_dims, perplexity) to perform t-SNE on your dataset."
 	print "Running example on natual language queries..."
 	#X = Math.loadtxt("mnist2500_X.txt");
-	X = Math.loadtxt("./last_hidden_state-3300.txt", delimiter=',')
+	X = Math.loadtxt("./last_hidden_state-7600.txt", delimiter=',')
 	#labels = Math.loadtxt("mnist2500_labels.txt");
 	Y = tsne(X, 3, 50, 20.0)
 	#Plot.scatter(Y[:,0], Y[:,1], 20, labels);

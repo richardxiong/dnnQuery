@@ -13,7 +13,7 @@ We use natural language as an intermediate representation to transfer knowledge 
 Domain adaptation protocol. We will use the following protocol: (1) train a paraphrase model using the data of the source domain, (2) use the learned parameters to initialize a model in the target domain, and (3) fine-tune the model using the training data of the target domain.
 
 3. 1702
-Herzig and Be- rant (2017) have explored another direction of se- mantic parsing with multiple domains, where they use all the domains to train a single semantic parser, and attach a domain-specific encoding to the training data of each domain to help the se- mantic parser differentiate between domains. 
+Herzig and Berant (2017) have explored another direction of semantic parsing with multiple domains, where they use all the domains to train a single semantic parser, and attach a domain-specific encoding to the training data of each domain to help the semantic parser differentiate between domains. 
 
 
 ******************************
