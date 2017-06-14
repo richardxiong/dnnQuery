@@ -1,0 +1,250 @@
+select river where border_state equal new_mexico
+select highest_point where state equal montana
+select state argmax population where border_state equal oklahoma
+select state where river equal mississippi
+select river argmax length
+select length where river equal mississippi
+select state argmin population_density
+select area where state equal wisconsin
+select lowest_point where state argmax area
+select river argmax length where state equal mississippi
+select state where border_state equal montana
+select state where border_state equal new_jersey
+select state where river argmax length
+select river where state equal arkansas
+select state where highest_elevation greater highest_elevation where state equal colorado
+select population where capital equal capital where state equal texas
+select length where river equal delaware
+select city argmin area where country equal usa
+select state where border_state equal georgia
+select state argmin area
+select length where river equal mississippi
+select state where border_state equal delaware
+select river argmin length where country equal usa
+select state where city equal plano
+count river where state equal colorado
+select city argmax area where state equal georgia
+select state where border_state equal hawaii
+select capital where state argmax highest_elevation
+select state argmax population
+select capital where state equal maine
+select state where border_state equal florida
+select state argmax highest_elevation
+select river where border_state equal state where capital equal atlanta
+select city argmax area where state equal oregon
+select lowest_point where country equal us
+select state where border_state equal hawaii
+select major_city where state equal ohio
+select population where city equal springfield where state equal missouri
+select population where state equal california
+select highest_point where state equal montana
+select major_city where state equal alaska
+select major_city where state equal kansas
+select state argmax highest_elevation
+select state where border_state equal florida
+select state where river equal ohio
+select city argmax population where state equal minnesota
+count river where state equal idaho
+select highest_elevation where state equal montana
+select lowest_point where state equal california
+select capital where state equal georgia
+select area where state equal texas
+select highest_point where state equal nevada
+select population where city equal minneapolis and state equal minnesota
+select area where state equal maine
+select lowest_point where state equal oregon
+select state where city equal flint
+select state argmax area
+count state where river equal colorado
+select area where state equal south_carolina
+select state argmax highest_elevation
+select area where state equal alaska
+select population where state equal california
+select city argmax area where state equal wyoming
+select state where border_state equal south_dakota
+select state argmax population_density
+select population where state equal utah
+select population where state equal rhode_island
+select population where city equal new_york_city
+select state where border_state equal texas
+select population where city equal seattle where state equal washington
+select highest_point where state equal colorado
+select area where city argmax area where state equal alaska
+select river argmax length where country equal us
+count state where river equal mississippi
+select highest_point where border_state equal mississippi
+select highest_point where country equal usa
+select river argmax length where state equal washington
+select population where state equal illinois
+select state argmax count border_state
+select river where state equal alaska
+select city argmax population
+select state where river equal mississippi
+select capital where state equal washington
+select city argmin area where country equal us
+select major_city where state equal texas
+select state argmax population_density
+select state argmax highest_elevation where country equal us
+select state where river equal delaware
+select state where city argmax area
+select population where state equal alabama
+select highest_point where border_state equal georgia
+select river where state equal utah
+select area where state argmax area
+select river where state equal texas
+select population_density where state equal wyoming
+select capital where state equalnew_jersey
+select lowest_point where state equal nebraska
+select major_river where state equal illinois
+select capital where state equal new_hampshire
+select lowest_point where state equal massachusetts
+select city argmax area where border_state equal california
+select state where border_state equal indiana
+select lowest_point where state equal iowa
+select area where country equal us
+select highest_point where state equal rhode_island
+select major_city where state equal rhode_island
+select state where border_state equal arkansas
+select lowest_point where country equal us
+select river where state equal new_york
+select population_density where state equal maine
+select lowest_point where state equal california
+select highest_point where country equal us
+select length where river equal colorado
+select length where river equal north_platte
+select area where state equal texas
+select state where border_state equal colorado
+select lowest_point where state equal louisiana
+select population where city equal dallas
+select population where city equal tempe where state equal arizona
+count river where state equal washington
+select river argmin length where country equal us
+select major_city where state equal texas
+select population where city equal kalamazoo
+count river where state equal alaska
+select river where state equal colorado
+select length where river equal colorado
+select state argmin population
+select state where border_state equal rhode_island
+count river where state equal colorado
+sum population where border_state equal texas
+select length where river equal mississippi
+select population where state equal oregon
+count city where country equal us
+select area where state equal alaska
+select population where city equal spokane and state equal washington
+sum population
+select state where capital equal salem
+select highest_elevation where country equal america
+select city argmax area where country equal us
+select city argmin area where state equal alaska
+select length argmin length where country equal usa
+select state where city equal dallas
+select river argmax area where state equal illinois
+select capital where state equal iowa
+select highest_point where state equal iowa
+select population_density where state equal texas
+select river argmax length where state equal florida
+select population where state equal hawaii
+select city argmin area where state equal washington
+select major_city where state equal oklahoma
+select state where city equal des_moines
+select highest_point where country equal usa
+select state where border_state equal michigan
+select state where border_state equal new_hampshire
+select lowest_point where country equal united_states
+select length where river equal rio_grande
+select major_city where state equal ohio
+select capital where state equal north_dakota
+select city argmax area where state equal rhode_island
+select population where capital equal capital where state argmin area
+select state argmax population
+select city argmax area where state equal wisconsin
+select population where major_city equal major_city where state equal wisconsin
+select city where state equal virginia
+select state where city equal austin
+select state where capital equal columbus
+select city argmin population
+select state where river equal missouri
+select river argmax length where country equal united_states
+count city where state equal montana
+select highest_elevation where state equal new_mexico
+select length where river equal missouri
+select capital argmax population where country equal us
+select population where state equal south_dakota
+select population where city equal new_york_city
+select population where city equal san_antonio
+select major_city where state equal california
+select state argmax population_density
+select river argmax count state
+select state where river equal missouri
+select state argmax highest_elevation
+select city argmax area where state equal arizona
+select lowest_point where state equal texas
+select state where city equal denver
+select lowest_point where state equal arkansas
+select city argmax area where state equal texas
+select city argmax area where country equal usa
+select state where city argmax area
+count river where state equal new_york
+select lowest_point where state equal texas
+select state where border_state equal kentucky
+select state argmax count border_state
+count major_city where state equal florida
+select major_city where state equal wyoming
+select highest_point where country equal usa
+select population_density where state argmin area
+select river where state equal colorado
+select capital where state equal vermont
+select population where city equal tucson
+select mountain argmax height where country equal us
+select capital where state equal utah
+select length where river equal ohio
+select river where state neq tennessee
+select highest_point where state equal wyoming
+select state where river equal mississippi
+select state where capital equal dover
+select population where state equal arizona
+select city argmax area
+select city argmax area where state equal louisiana
+select population where city equal austin
+sum area where country equal usa
+select highest_point where state equal kansas
+select state where border_state equal new_york
+select state argmax highest_elevation
+select highest_point where state argmax area
+select population where state equal washington
+select population where state equal hawaii
+select river where state equal new_york
+select population where city equal riverside
+select population where state equal texas
+select state where border_state equal arizona
+select area where state argmin area
+select state where border_state equal kentucky
+select state where border_state equal kentucky
+select capital argmax population
+select state argmin area where country equal usa
+select highest_point where state equal hawaii
+select city argmin area where state equal hawaii
+select population where city equal portland where state equal maine
+select population where river equal mississippi
+select river argmin length
+select population where state equal idaho
+select population where city equal erie where state equal pennsylvania
+count major_river where state equal ohio
+select population where state equal montana
+select state where city equal kalamazoo
+select river where state equal alaska
+select state argmin area
+select state where border_state equal kentucky
+select state argmax population
+select area where state equal idaho
+select river where state equal west_virginia
+select highest_point where capital equal des_moines
+select length where river equal mississippi
+select river argmin length where state equal iowa
+select state where border_state equal ohio
+sum area
+select river argmax length where state equal texas
+select population where city equal boston where state equal massachusetts
+select capital where state argmax population

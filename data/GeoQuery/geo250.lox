@@ -1,0 +1,250 @@
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmin <field>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 argmax <field>:2
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 argmax <field>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+select <field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmin <field>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+count <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 argmax <field>:2
+select <field>:0 argmax <field>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1
+select <field>:0 where <field>:1 equal <field>:2 where <field>:3 equal <value>:3
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1
+count <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal new_york_city
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 argmax <field>:0 where <field>:2 equal <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax count <field>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 argmax <field>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 argmax <field>:0
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equalnew_jersey
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+count <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmin <field>:1
+select <field>:0 where <field>:1 equal <value>:1
+count <field>:0 where <field>:1 equal <value>:1
+sum <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+count <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+sum <field>:0
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
+select <field>:0 argmin <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal usa
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <field>:1 where <field>:2 argmin <field>:3
+select <field>:0 argmax <field>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmin <field>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1
+select <field>:0 argmax count <field>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 argmax <field>:2
+count <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax count <field>:1
+count <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 argmin <field>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 neq <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+sum <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1
+select <field>:0 where <field>:1 argmax <field>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 argmin <field>:0
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1
+select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmin <field>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmin <field>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmax <field>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1
+sum <field>:0
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+select <field>:0 where <field>:1 argmax <field>:2
