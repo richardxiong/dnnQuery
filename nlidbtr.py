@@ -370,6 +370,9 @@ def decode():
             # If there is an EOS symbol in outputs, cut them at that point.
             if data_utils_tag.EOS_ID in outputs:
               outputs = outputs[:outputs.index(data_utils_tag.EOS_ID)]
+            for i in range(len(outputs)):
+              if outputs[i] >= len(rev_fr_vocab):
+                outputs[i] = 3
             # Print out French sentence corresponding to outputs.
             resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
             if FLAGS.enable_table_test:
@@ -414,6 +417,9 @@ def decode():
             # If there is an EOS symbol in outputs, cut them at that point.
             if data_utils_tag.EOS_ID in outputs:
               outputs = outputs[:outputs.index(data_utils_tag.EOS_ID)]
+            for i in range(len(outputs)):
+              if outputs[i] >= len(rev_fr_vocab):
+                outputs[i] = 3
             # Print out French sentence corresponding to outputs.
             resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
             if FLAGS.enable_table_test:
