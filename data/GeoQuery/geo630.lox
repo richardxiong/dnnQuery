@@ -15,7 +15,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 equal new_york_city
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:0
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -38,9 +38,9 @@ count <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:0 equal <value>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 argmax <field>:2 where <field>:3 equal <value>:3
-select <field>:0 where <field>:1 equal boulder
+select <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:0 equal <value>:0
-select <field>:0 where <field>:1 equal montgomery
+select <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
@@ -68,7 +68,7 @@ select <field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 argmin <field>:2 where <field>:3 equal <value>:3
 select <field>:0 where <field>:1 argmax <field>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 equal washington_dc
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -83,7 +83,7 @@ count <field>:0 where <field>:1 argmax <field>:2
 count <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 neq <field>:1 where <field>:2 equal <value>:2
-count <field>:0 where <field>:1 larger <field>:1 where <field>:0 equal <value>:0
+count <field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
 count <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
@@ -94,7 +94,7 @@ count <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 neq EMP
-count <field>:0 where <field>:1 equal <value>:1 and border <value>:1
+count <field>:0 where <field>:1 equal <value>:1 and where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <value>:1
 count <field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
@@ -161,7 +161,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 argmax <field>:2
 select <field>:0
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 argmax <field>:1 where <field>:2 equal to <field>:2 where <field>:3 argmax <field>:1
+select <field>:0 argmax <field>:1 where <field>:2 equal <field>:2 where <field>:3 argmax <field>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -177,7 +177,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 equal usa
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -213,7 +213,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 argmax <field>:2
 select <field>:0 argmax <field>:1
 select <field>:0 where <field>:1 equal <value>:1
-sum areas
+sum area
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -225,9 +225,9 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 argmin <field>:2
 select <field>:0
 select <field>:0 where <field>:1 equal <value>:1
-average <field>:0 where <field>:1 equal <value>:1
-average <field>:0 where <field>:1 equal <value>:1
-average <field>:0 where <field>:1 equal <value>:1
+avg <field>:0 where <field>:1 equal <value>:1
+avg <field>:0 where <field>:1 equal <value>:1
+avg <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 neq EMP
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
@@ -262,7 +262,7 @@ select <field>:0 where <field>:1 argmax <field>:2
 select <field>:0 where <field>:1 argmax <field>:2
 select <field>:0 where <field>:1 argmax <field>:2
 select <field>:0 where <field>:1 argmax <field>:2
-select <field>:0 argmax <field>:1 where <field>:2 equa <value>:2
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -278,8 +278,8 @@ select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 equal sea_level
-select <field>:0 where <field>:1 equalflorida
+select <field>:0 where <field>:1 equal <value>:1
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
@@ -297,7 +297,7 @@ select <field>:0 argmax <field>:1
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
-select <field>:0 argmax <field>:1 where <field>:2 equalcalifornia
+select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:1 where <field>:2 argmin <field>:1 where <field>:3 equal <value>:3
@@ -354,7 +354,7 @@ select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmin <field>:1
-count border_states where <field>:0 equal <value>:0
+count border_state where <field>:0 equal <value>:0
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 argmax <field>:2
@@ -378,7 +378,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal outh_dakota
+select <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <field>:1 where <field>:2 argmax <field>:3
 select <field>:0 where <field>:1 equal <field>:1 where <field>:2 argmax <field>:3 where <field>:4 equal <value>:4
 select <field>:0 where <field>:1 argmax <field>:2 where <field>:3 argmax <field>:2
@@ -506,11 +506,11 @@ select <field>:0 where <field>:1 equal <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <field>:0 where <field>:1 equal <field>:0 where <field>:1 <value>:1
 select <field>:0 where <field>:1 equal <field>:0 where <field>:1 equal <field>:0 where <field>:1 equal <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 equal <field>:0 where <field>:1 argmax <field>:2
-select <field>:0 where <field>:1 equal <field>:0 where <field>:2 equal mississsippi
+select <field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 equal <value>:1 and where major <field>:2
+select <field>:0 where <field>:1 equal <value>:1 and where <field>:2 neq EMP
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 argmax <field>:2
 select <field>:0 where <field>:1 argmax count <field>:1
@@ -536,7 +536,7 @@ select <field>:0 where <field>:1 equal EMP
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 neq EMP
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 greater highest elevation where <field>:0 equal <value>:0
+select <field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
 select <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmax <field>:1 where <field>:2 equal <value>:2
@@ -588,7 +588,7 @@ select <field>:0 argmax <field>:1
 select <field>:0 argmax <field>:1
 select <field>:0 argmax <field>:1
 select <field>:0 argmin <field>:1
-select <field>:0 argmin_elevation
+select <field>:0 argmin <field>:1
 select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
 select <field>:0 argmin <field>:1
 select <field>:0 argmax count <field>:1
@@ -600,7 +600,7 @@ select <field>:0 argmax count <field>:1
 select <field>:0 argmax count <field>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 argmin <field>:1 where <field>:2 equal <value>:2
-select <field>:0 argmin average <field>:1
+select <field>:0 argmin avg <field>:1
 select <field>:0 argmin <field>:1
 select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 argmax <field>:2
@@ -623,7 +623,7 @@ select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 argmax <field>:2
 select <field>:0 where <field>:1 argmax <field>:2
 select <field>:0 where <field>:1 equal <value>:1
-select <field>:0 where <field>:1 equal austin
+select <field>:0 where <field>:1 equal <value>:1
 select <field>:0 where <field>:1 neq EMP
 select <field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
 select <field>:0 where <field>:1 argmax <field>:2 where <field>:3 equal <value>:3
