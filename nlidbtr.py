@@ -311,22 +311,22 @@ def decode():
     # trainTagFile = FLAGS.data_dir + '/rand_train.ta'   # For tagging model, Hongyu
     # devQuestionFile = FLAGS.data_dir + '/rand_dev.qu'
     # devTagFile = FLAGS.data_dir + '/rand_dev.ta'   # For tagging model, Hongyu
-    testQuestionFile = FLAGS.data_dir + '/geo630.qu'
-    testTagFile = FLAGS.data_dir + '/geo630.ta'   # For tagging model, Hongyu
+    testQuestionFile = FLAGS.data_dir + '/except_socialnetwork_test.qu'
+    testTagFile = FLAGS.data_dir + '/except_socialnetwork_test.ta'   # For tagging model, Hongyu
 
     #0530 newly added
-    geoQuestionFile = FLAGS.data_dir + '/geo250.qu'
-    geoTagFile = FLAGS.data_dir + '/geo250.ta'   # For tagging model, Hongyu
-    logicalTemp_geo = open(FLAGS.test_dir + '/logicalTemp_250.out', 'w')
+    geoQuestionFile = FLAGS.data_dir + '/except_socialnetwork_train.qu'
+    geoTagFile = FLAGS.data_dir + '/except_socialnetwork_train.ta'   # For tagging model, Hongyu
+    logicalTemp_geo = open(FLAGS.test_dir + '/except_socialnetwork_train.out', 'w')
     
     # logicalTemp_train = open(FLAGS.test_dir + '/logicalTemp_train.out', 'w')
     # logicalTemp_dev = open(FLAGS.test_dir + '/logicalTemp_dev.out', 'w')
-    logicalTemp_test = open(FLAGS.test_dir + '/logicalTemp_630.out', 'w')
+    logicalTemp_test = open(FLAGS.test_dir + '/except_socialnetwork_test.out', 'w')
 
     ### evaluating tagging model, Hongyu
     
     print('======= start testing =======')
-    print('=== training dataset ===')        
+    print('=== testing dataset ===')        
     with open(testQuestionFile,'r') as testQuestions:
       with open(testTagFile, 'r') as testTags: 
         q_index = 0
@@ -383,7 +383,7 @@ def decode():
             q_index += 1
             sentence, tag_sen = testQuestions.readline(), testTags.readline()
 
-    print('=== geo dataset ===')
+    print('=== train dataset ===')
     with open(geoQuestionFile,'r') as geoQuestions:
       with open(geoTagFile, 'r') as geoTags: 
         q_index = 0
@@ -393,7 +393,7 @@ def decode():
               print("  reading data line %d" % q_index)
               sys.stdout.flush()
             qid = 'qID_' + str(q_index)
-            print('geoing question: ', qid)
+            print('testing question: ', qid)
             # Get token-ids for the input sentence.
             token_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(sentence), en_vocab)
             tag_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(tag_sen), fr_vocab)

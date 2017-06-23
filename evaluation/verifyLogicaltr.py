@@ -25,19 +25,21 @@ def strSimilarity(word1, word2):
 '''
 input files
 '''
-truth_path = "../data/GeoQuery"
-output_path = "../evaluation/GeoQuery"
+subset = socialnetwork
+
+truth_path = "../data/Overnight/except_%s" % subset
+output_path = "../evaluation/Overnight/except_%s" % subset
 
 
 # train_truth = truth_path + "/rand_train.lox"
 # train_output = output_path + "/logicalTemp_train.out"
 # dev_truth = truth_path + "/rand_dev.lox"
 # dev_output = output_path + "/logicalTemp_dev.out"
-test_truth = truth_path + "/geo250.lox"
-test_output = output_path + "/logicalTemp_250.out"
+test_truth = truth_path + "/except_%s_test.lox" % subset
+test_output = output_path + "/except_%s_test.out" % subset
 
-geo_truth = truth_path + "/geo630.lox"
-geo_output = output_path + "/logicalTemp_630.out"
+geo_truth = truth_path + "/except_%s_train.lox" % subset
+geo_output = output_path + "/except_%s_train.out" % subset
 
 # train_truth = truth_path + "/rand_train.lo"
 # train_output = output_path + "/forms_train.lo"
@@ -166,7 +168,7 @@ with open(test_output) as infile:
             #     print truth[index]
             #     print line.lower()
         index += 1
-print "630 accuracy: " + str(correct * 1.0 / len(truth))
+print "test accuracy: " + str(correct * 1.0 / len(truth))
 
 correct = 0
 truth = []
@@ -200,4 +202,4 @@ with open(geo_output) as infile:
             #     print truth[index]
             #     print line.lower()
         index += 1
-print "250 accuracy: " + str(correct * 1.0 / len(truth))
+print "train accuracy: " + str(correct * 1.0 / len(truth))
