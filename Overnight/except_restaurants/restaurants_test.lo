@@ -1,0 +1,332 @@
+restaurant where delivery equal true and kids equal true
+restaurant where outdoor_seating equal true and reservations equal true
+restaurant where credit_cards equal true and meal equal lunch
+restaurant where star_rating equal 3 and waiter_service equal true
+restaurant where outdoor_seating equal true
+restaurant where star_rating greater 3 or star_rating greater 5
+cuisine where restaurant equal restaurant where meal equal lunch
+restaurant where price_rating equal 2 and outdoor_seating equal true
+restaurant where price_rating equal 2 and waiter_service equal true
+restaurant where meal equal lunch
+restaurant where kids equal true and price_rating equal 2
+restaurant where reservations equal true and delivery equal true
+restaurant where star_rating equal 3 and groups equal true
+restaurant where waiter_service equal true and meal equal lunch
+restaurant argmax count meal
+cuisine where equal cuisine where restaurant equal thai_cafe
+restaurant where outdoor_seating equal true and waiter_service equal true
+restaurant where price_rating equal 2 and takeout equal true
+restaurant where cuisine equal thai and price_rating equal 2
+restaurant where price_rating equal 2 and delivery equal true
+restaurant where star_rating equal 3 and takeout equal true
+meal where restaurant where meal equal lunch
+restaurant where star_rating ng star_rating where restaurant equal thai_cafe
+restaurant where takeout equal true and star_rating equal 3
+restaurant where groups equal true and kids equal true
+restaurant where cuisine equal thai and takeout equal true
+restaurant where cuisine equal thai and waiter_service equal true
+restaurant where credit_cards equal true and cuisine equal thai
+restaurant where neighborhood equal midtown_west and kids equal true
+count cuisine
+meal where restaurant where groups equal true
+cuisine where restaurant equal restaurant where outdoor_seating equal true
+restaurant where waiter_service equal true and meal equal lunch
+restaurant where count cuisine less two
+restaurant where outdoor_seating equal true and outdoor_seating equal true
+restaurant where kids equal true and meal equal lunch
+price_rating 2 or price_rating 3
+restaurant where price_rating less 2 or price_rating less 3
+restaurant where kids equal true and neighborhood equal midtown_west
+restaurant where cuisine equal thai and credit_cards equal true
+restaurant where meal equal lunch or meal equal dinner
+neighborhood where restaurant equal restaurant where reservations equal true
+restaurant where cuisine equal thai
+restaurant where waiter_service equal true and star_rating equal 3
+restaurant where neighborhood equal midtown_west and credit_cards equal true
+restaurant where waiter_service equal true and kids equal true
+restaurant where count meal ng two
+restaurant where delivery equal true and kids equal true
+neighborhood where restaurant equal restaurant where takeout equal true
+restaurant where count meal ng two
+meal where count restaurant equal two
+cuisine where restaurant equal thai_cafe
+restaurant where delivery equal true and credit_cards equal true
+restaurant where meal equal lunch and reservations equal true
+restaurant where outdoor_seating equal true and meal equal lunch
+restaurant where delivery equal true and groups equal true
+restaurant where price_rating less price_rating where restaurant equal thai_cafe
+restaurant where neighborhood equal neighborhood where restaurant equal thai_cafe
+restaurant where reservations equal true and delivery equal true
+neighborhood neq neighborhood where restaurant equal thai_cafe
+restaurant where neighborhood equal midtown_west and neighborhood equal midtown_west
+meal where restaurant where waiter_service equal true
+avg star_rating
+restaurant where waiter_service equal true and reservations equal true
+restaurant where outdoor_seating equal true and neighborhood equal midtown_west
+restaurant where count meal less two
+neighborhood argmax count restaurant
+restaurant where delivery equal true and groups equal true
+cuisine where restaurant equal restaurant where price_rating equal 2
+restaurant where neighborhood equal midtown_west and star_rating equal 3
+restaurant where takeout equal true and neighborhood equal midtown_west
+neighborhood where restaurant equal restaurant where star_rating equal 3
+restaurant where groups equal true and outdoor_seating equal true
+restaurant where meal equal lunch and groups equal true
+restaurant where waiter_service equal true and groups equal true
+restaurant argmax count neighborhood
+restaurant where reservations equal true and waiter_service equal true
+restaurant where star_rating neq 3
+price_rating 2 or price_rating 3
+restaurant where neighborhood equal midtown_west
+restaurant where credit_cards equal true and neighborhood equal midtown_west
+restaurant where credit_cards equal true and reservations equal true
+restaurant where star_rating greater 3
+neighborhood where restaurant equal restaurant where delivery equal true
+meal where count restaurant nl two
+restaurant where groups equal true and kids equal true
+restaurant where neighborhood equal midtown_west and reservations equal true
+restaurant where waiter_service equal true and takeout equal true
+restaurant where credit_cards equal true and delivery equal true
+cuisine where restaurant equal restaurant where kids equal true
+restaurant where kids equal true and star_rating equal 3
+restaurant where reservations equal true and cuisine equal thai
+restaurant where waiter_service equal true and cuisine equal thai
+meal where restaurant where kids equal true
+restaurant where groups equal true and neighborhood equal midtown_west
+restaurant where star_rating equal 3 and neighborhood equal midtown_west
+restaurant where groups equal true and credit_cards equal true
+restaurant where credit_cards equal true and neighborhood equal midtown_west
+restaurant where star_rating equal 3
+restaurant where neighborhood equal midtown_west and kids equal true
+restaurant where groups equal true and groups equal true
+restaurant where neighborhood equal midtown_west and meal equal lunch
+restaurant where outdoor_seating equal true and star_rating equal 3
+cuisine where restaurant equal restaurant where outdoor_seating equal true
+cuisine where count restaurant greater two
+restaurant where credit_cards equal true and kids equal true
+avg price_rating
+cuisine where count restaurant nl two
+neighborhood where restaurant equal restaurant where waiter_service equal true
+restaurant where cuisine equal thai and groups equal true
+restaurant where neighborhood equal midtown_west and reservations equal true
+restaurant where price_rating equal 2 and outdoor_seating equal true
+neighborhood where restaurant equal restaurant where delivery equal true
+cuisine where restaurant equal restaurant where reservations equal true
+restaurant where reservations equal true and delivery equal true
+cuisine where restaurant equal restaurant where kids equal true
+restaurant where count meal equal two
+restaurant where meal equal lunch or meal equal dinner
+cuisine where restaurant equal restaurant where kids equal true
+cuisine where restaurant equal restaurant where waiter_service equal true
+restaurant where kids equal true and takeout equal true
+neighborhood where count restaurant equal two
+restaurant argmax star_rating
+cuisine argmax count restaurant
+restaurant where credit_cards equal true and delivery equal true
+cuisine where count restaurant nl two
+restaurant where neighborhood equal neighborhood where restaurant equal thai_cafe
+restaurant where price_rating equal 2 and reservations equal true
+restaurant where cuisine equal thai and neighborhood equal midtown_west
+neighborhood where restaurant equal restaurant where credit_cards equal true
+restaurant where waiter_service equal true and delivery equal true
+meal where restaurant equal thai_cafe 
+restaurant where cuisine equal cuisine where restaurant equal thai_cafe
+meal argmax count restaurant
+restaurant where outdoor_seating equal true and reservations equal true
+restaurant where star_rating ng star_rating where restaurant equal thai_cafe
+restaurant argmin price_rating
+restaurant where credit_cards equal true and star_rating equal 3
+neighborhood where restaurant equal restaurant where credit_cards equal true
+meal where restaurant where neighborhood equal midtown_west
+restaurant where delivery equal true and neighborhood equal midtown_west
+restaurant where price_rating equal 2 and neighborhood equal midtown_west
+restaurant where price_rating equal 2 and outdoor_seating equal true
+star_rating where restaurant equal thai_cafe
+cuisine argmin count restaurant
+restaurant argmin count meal
+restaurant where price_rating equal 2
+restaurant where takeout equal true and star_rating equal 3
+restaurant where meal equal lunch and price_rating equal 2
+restaurant where price_rating less 2
+restaurant where delivery equal true and takeout equal true
+neighborhood where count restaurant greater two
+restaurant where outdoor_seating equal true and waiter_service equal true
+neighborhood where count restaurant nl two
+cuisine where count restaurant nl two
+restaurant where price_rating equal 2 and kids equal true
+restaurant where neighborhood equal midtown_west and waiter_service equal true
+restaurant where takeout equal true and price_rating equal 2
+restaurant where reservations equal true and delivery equal true
+restaurant where price_rating equal 2 and neighborhood equal midtown_west
+restaurant where count cuisine nl two
+meal where restaurant where star_rating equal 3
+price_rating where restaurant equal thai_cafe
+restaurant where cuisine equal thai and groups equal true
+restaurant where outdoor_seating equal true and kids equal true
+restaurant where outdoor_seating equal true and price_rating equal 2
+restaurant where star_rating equal 3 and credit_cards equal true
+restaurant where star_rating equal 3 or star_rating equal 5
+restaurant where price_rating greater 2
+restaurant where star_rating equal 3 and credit_cards equal true
+restaurant where count cuisine equal two
+price_rating 2 or price_rating 3
+restaurant where star_rating equal 3 and takeout equal true
+restaurant where credit_cards equal true and waiter_service equal true
+restaurant where price_rating ng 2
+restaurant where reservations equal true and neighborhood equal midtown_west
+neighborhood where restaurant equal restaurant where waiter_service equal true
+neighborhood where restaurant equal thai_cafe or where restaurant pizzeria_juno
+restaurant where cuisine equal thai and waiter_service equal true
+cuisine where restaurant equal restaurant where kids equal true
+restaurant where cuisine equal thai and outdoor_seating equal true
+restaurant where meal equal meal where restaurant equal thai_cafe
+restaurant where waiter_service equal true and outdoor_seating equal true
+restaurant where meal equal lunch
+restaurant where count meal ng two
+restaurant argmax star_rating
+neighborhood where restaurant equal restaurant where waiter_service equal true
+restaurant where neighborhood neq midtown_west
+restaurant where credit_cards equal true and waiter_service equal true
+restaurant where reservations equal true and star_rating equal 3
+restaurant where reservations equal true and reservations equal true
+restaurant where price_rating greater price_rating where restaurant equal thai_cafe
+cuisine where restaurant equal thai_cafe or restaurant equal pizzeria_juno
+restaurant where neighborhood equal midtown_west or neighborhood equal chelsea
+neighborhood where restaurant equal restaurant where kids equal true
+neighborhood where restaurant equal restaurant where credit_cards equal true
+restaurant where delivery equal true and outdoor_seating equal true
+restaurant where reservations equal true and star_rating equal 3
+neighborhood argmax count restaurant
+restaurant where kids equal true and neighborhood equal midtown_west
+restaurant where takeout equal true and cuisine equal thai
+meal where restaurant where reservations equal true
+meal where restaurant equal thai_cafe
+restaurant where neighborhood equal midtown_west and kids equal true
+restaurant where star_rating equal 3 and neighborhood equal midtown_west
+restaurant where price_rating equal 2 and meal equal lunch
+restaurant where meal equal lunch and star_rating equal 3
+neighborhood where restaurant equal restaurant where cuisine equal thai
+restaurant where star_rating equal 3 and meal equal lunch
+restaurant where waiter_service equal true and outdoor_seating equal true
+restaurant where meal equal lunch and takeout equal true
+restaurant where meal equal lunch and credit_cards equal true
+cuisine where equal cuisine where restaurant equal thai_cafe
+restaurant where meal equal lunch and neighborhood equal midtown_west
+meal equal lunch or meal equal dinner
+restaurant where credit_cards equal true and meal equal lunch
+cuisine where restaurant equal restaurant where delivery equal true
+restaurant where price_rating ng 2
+cuisine where restaurant equal restaurant where outdoor_seating equal true
+restaurant where groups equal true and outdoor_seating equal true
+restaurant where kids equal true and kids equal true
+restaurant where price_rating nl 2 or price_rating nl 3
+restaurant where kids equal true
+restaurant argmin star_rating
+neighborhood where count restaurant less two
+restaurant where meal equal lunch and outdoor_seating equal true
+restaurant where reservations equal true and price_rating equal 2
+restaurant where takeout equal true and kids equal true
+restaurant where reservations equal true and neighborhood equal midtown_west
+restaurant where delivery equal true and cuisine equal thai
+restaurant where star_rating less 3
+restaurant where delivery equal true and neighborhood equal midtown_west
+restaurant where credit_cards equal true
+restaurant where takeout equal true
+restaurant where count meal greater two
+restaurant where reservations equal true and reservations equal true
+neighborhood where restaurant equal restaurant where groups equal true
+restaurant where waiter_service equal true and price_rating equal 2
+neighborhood where restaurant equal restaurant where outdoor_seating equal true
+restaurant where takeout equal true and price_rating equal 2
+restaurant where star_rating less 3 or star_rating less 5
+restaurant where delivery equal true
+restaurant where price_rating ng 2 or price_rating ng 3
+meal argmin count restaurant
+restaurant where count neighborhood ng two
+restaurant where takeout equal true and reservations equal true
+restaurant where kids equal true and outdoor_seating equal true
+restaurant where star_rating less 3
+neighborhood neq neighborhood where restaurant equal thai_cafe
+cuisine where count restaurant less two
+restaurant argmin star_rating
+restaurant where neighborhood equal midtown_west and waiter_service equal true
+restaurant where price_rating equal 2 and price_rating equal 2
+meal where restaurant where cuisine equal thai
+restaurant where waiter_service equal true and groups equal true
+restaurant where waiter_service equal true and price_rating equal 2
+restaurant where delivery equal true and waiter_service equal true
+neighborhood equal midtown_west or neighborhood equal chelsea
+meal where restaurant where credit_cards equal true
+restaurant where price_rating equal 2 and meal equal lunch
+restaurant where cuisine equal cuisine where restaurant equal thai_cafe
+restaurant where delivery equal true
+restaurant where meal equal lunch and waiter_service equal true
+restaurant where kids equal true and reservations equal true
+neighborhood where restaurant equal restaurant where waiter_service equal true
+restaurant where meal equal lunch and outdoor_seating equal true
+restaurant where meal equal lunch and outdoor_seating equal true
+restaurant argmin price_rating
+restaurant where kids equal true and outdoor_seating equal true
+restaurant where count meal nl two
+restaurant where kids equal true and kids equal true
+restaurant where waiter_service equal true and delivery equal true
+restaurant where outdoor_seating equal true and delivery equal true
+cuisine where restaurant equal restaurant where takeout equal true
+restaurant where price_rating greater price_rating where restaurant equal thai_cafe
+restaurant where waiter_service equal true and cuisine equal thai
+restaurant where star_rating equal 3 and takeout equal true
+restaurant where outdoor_seating equal true and groups equal true
+restaurant where credit_cards equal true and neighborhood equal midtown_west
+restaurant where star_rating nl star_rating where restaurant equal thai_cafe
+restaurant where price_rating less 2 or price_rating less 3
+restaurant argmin count meal
+restaurant where takeout equal true and delivery equal true
+restaurant argmin count cuisine
+restaurant where star_rating neq 3
+restaurant where credit_cards equal true and price_rating equal 2
+meal argmin count restaurant
+cuisine argmin count restaurant
+meal where restaurant where delivery equal true
+count cuisine
+cuisine equal thai or cuisine equal italian
+restaurant where cuisine equal thai
+neighborhood where restaurant equal restaurant where star_rating equal 3
+meal where count restaurant nl two
+restaurant where price_rating less 2
+restaurant where meal equal lunch and price_rating equal 2
+restaurant where delivery equal true and takeout equal true
+cuisine where count restaurant nl two
+neighborhood where count restaurant less two
+restaurant where groups equal true and neighborhood equal midtown_west
+restaurant argmin count cuisine
+restaurant where delivery equal true and waiter_service equal true
+restaurant where neighborhood equal midtown_west and meal equal lunch
+restaurant where meal equal lunch and waiter_service equal true
+restaurant where star_rating equal 3 and outdoor_seating equal true
+restaurant where star_rating equal 3 and star_rating equal 3
+cuisine where equal cuisine where count restaurant ng two
+restaurant where price_rating equal 2 and star_rating equal 3
+restaurant where count neighborhood equal two
+count star_rating
+restaurant where takeout equal true and outdoor_seating equal true
+meal where count restaurant ng two
+restaurant where waiter_service equal true and reservations equal true
+restaurant where kids equal true and waiter_service equal true
+star_rating equal 3 or star_rating equal 5
+restaurant where price_rating equal 2 and groups equal true
+restaurant where groups equal true and price_rating equal 2
+count meal
+restaurant where groups equal true and groups equal true
+restaurant where star_rating greater star_rating where restaurant equal thai_cafe
+restaurant where reservations equal true and outdoor_seating equal true
+restaurant equal thai_cafe or restaurant equal pizzeria_juno
+restaurant where cuisine neq thai
+restaurant where reservations equal true and outdoor_seating equal true
+restaurant where neighborhood equal midtown_west and cuisine equal thai
+restaurant where star_rating greater star_rating where restaurant equal thai_cafe
+meal equal lunch or meal equal dinner
+cuisine where restaurant equal restaurant where kids equal true
+restaurant where star_rating equal 3 and credit_cards equal true
+neighborhood where restaurant equal restaurant where reservations equal true
+restaurant where price_rating equal 2 and groups equal true
+restaurant where star_rating neq 3

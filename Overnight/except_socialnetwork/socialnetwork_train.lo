@@ -1,0 +1,3535 @@
+person where end_date greater start_date where person equal alice
+person where end_date ng end_date where person equal alice
+employer where person equal alice where start_date equal 2004
+birthplace where height equal 180
+person where birthdate nl start_date where person equal alice
+person where relationship_status equal single and birthdate equal 2004
+person where end_date less birthdate where person equal alice
+friends where end_date less 2004
+person where birthdate less birthdate where person equal alice
+person where start_date equal start_date where person equal alice
+person where end_date nl start_date where person equal alice
+end_date where person equal alice
+friends where start_date nl 2004
+gender where end_date nl 2004
+birthplace where start_date greater 2004
+person where end_date less start_date where person equal alice
+employer equal mckinsey or employer equal google
+birthplace where count person nl two
+friends where start_date less 2004
+gender where start_date neq 2004
+start_date where university equal brown_university
+birthplace where start_date greater 2004
+person where height equal 180 and gender equal gender where person equal alice
+person where friends equal alice and relationship_status equal single
+person where start_date less 2004
+friends where end_date ng 2004
+person where end_date ng end_date where person equal alice
+birthplace where end_date ng 2004
+person where birthplace equal birthplace where person equal alice
+person where count employer less two
+person where birthplace equal birthplace where person equal alice
+person where count gender greater two
+person where friends equal alice
+person where end_date nl 2004
+birthplace where end_date nl 2004
+person where online is true
+gender where count person ng two
+person where height equal 180 and gender equal male
+person where start_date equal start_date where person equal alice
+friends where start_date ng 2004
+friends where job_title neq software_engineer
+birthplace where end_date neq 2004
+person where friends equal alice and gender equal male
+person where start_date greater 2004 or start_date greater 2010
+person where end_date less 2004
+relationship_status where end_date greater 2004
+birthplace where end_date greater 2004
+person where end_date greater start_date where person equal alice
+gender argmax count person
+birthplace where height equal 180
+person where end_date ng birthdate where person equal alice
+gender where start_date neq 2004
+start_date where person equal alice
+person where start_date nl end_date where person equal alice
+person where start_date less end_date where person equal alice
+relationship_status where end_state ng 2004
+person where height equal 180 and end_date equal 2004
+person where start_date nl birthdate where person equal alice
+person where start_date nl end_date where person equal alice
+person where start_date greater start_date where person equal alice
+friends where start_date ng 2004
+relationship_status where start_date ng 2004
+gender where end_date nl 2004
+person where end_date ng end_date where person equal alice
+relationship_status where end_date less 2004
+person where start_date neq 2004
+friends where birthdate equal 2004
+person argmax count friends 
+person where birthdate nl end_date where person equal alice
+person where online equal true and friends equal alice
+person argmin start_date
+person where online equal true and gender equal male
+person where end_date less 2004 or end_date less 2010
+person where friends equal alice and birthdate equal 2004
+relationship_status equal single
+person argmin count relationship_status
+person where start_date equal end_date where person equal alice
+relationship_status where online equal true
+person where start_date equal birthdate where person equal alice
+friends where start_date less 2004
+person where birthdate equal 2004 and online equal true
+relationship_status where end_date nl 2004
+person where height equal 180 and field_of_study equal computer_science
+person where height equal 180 and university equal brown_university
+birthplace where start_date nl 2004
+gender where university neq brown_university
+field_of_study where person equal alice where end_date equal 2004
+person where start_date equal start_date where person equal alice
+person where birthdate greater end_date where person equal alice
+friends where start_date nl 2004
+person where start_date less end_date where person equal alice
+friends where start_date ng 2004
+person where end_date greater 2004 or end_date greater 2010
+person where end_date greater start_date where person equal alice
+start_date where person equal alice where end_date equal 2004
+gender where online is true
+person where end_date greater start_date where person equal alice
+birthplace where field_of_study neq computer_science
+person where start_date ng start_date where person equal alice
+person where start_date ng end_date where person equal alice
+person where birthdate less 2004
+person where start_date ng 2004 or start_date ng 2010
+person where start_date less end_date where person equal alice
+person where end_date ng end_date where person equal alice
+person where end_date greater 2004 or end_date greater 2010
+birthplace where end_date greater 2004
+birthplace where end_date less 2004
+person where end_date less start_date where person equal alice
+relationship_status where employer neq mckinsey
+person argmax count job_title
+birthplace where field_of_study neq computer_science
+gender where count person nl two
+person where start_date nl 2004 or start_date nl 2010
+person where relationship_status equal relationship_status where person equal alice
+person where height equal 180 and gender equal male
+person where employer neq mckinsey
+person where end_date less 2004
+friends where end_date nl 2004
+person where end_date greater 2004
+gender where university neq brown_university
+friends where end_date ng 2004
+person where friends equal alice
+person where height equal 180 and birthdate equal 2004
+person where end_date equal start_date where person equal alice
+friends where end_date nl 2004
+friends where start_date nl 2004
+relationship_status where end_date greater 2004
+person where end_date ng start_date where person equal alice
+person where count university ng two
+person where height equal 180 and friends equal alice
+person where friends equal alice and height equal 180 
+relationship_status where start_date nl 2004
+gender where start_date greater 2004
+person where start_date ng end_date where person equal alice
+relationship_status where start_date nl 2004
+birthplace where height equal 180
+person where end_date nl start_date where person equal alice
+person where end_date ng end_date where person equal alice
+person where birthdate ng 2004
+relationship_status where start_date ng 2004
+person where end_date ng start_date where person equal alice
+gender where start_date ng 2004
+person where end_date less birthdate where person equal alice
+person where end_date nl start_date where person equal alice
+friends where start_date neq 2004
+university where height equal 180 
+person where end_date greater end_date where person equal alice
+person where end_date ng start_date where person equal alice
+person where end_date nl end_date where person equal alice
+person where start_date less end_date where person equal alice
+person where university equal brown_university or university equal ucla
+person argmin start_date
+person where start_date ng start_date where person equal alice
+birthplace where job_title neq software_engineer
+birthplace where end_date neq 2004
+gender where start_date nl 2004
+person where end_date equal end_date where person equal alice
+person where start_date equal end_date where person equal alice
+person where end_date equal birthdate where person equal alice
+person where friends equal alice and birthplace equal new_york 
+friends where friends equal alice
+person where start_date equal birthdate where person equal alice
+friends where end_date neq 2004
+relationship_status where start_date less 2004
+birthplace where start_date ng 2004
+friends where end_date greater 2004
+person where height equal 180 and birthdate equal 2004
+person where friends equal alice and relationship_status equal single
+person where birthdate less birthdate where person equal alice
+person where start_date equal 2004 or start_date equal 2010
+birthplace where friends equal alice
+person where start_date equal end_date where person equal alice
+relationship_status where end_date nl 2004
+relationship_status where end_date nl 2004
+person where end_date nl 2004 or end_date nl 2010
+field_of_study where height equal 180 
+person where friends equal alice or friends equal bob
+person where end_date ng end_date where person equal alice
+person where birthdate less start_date where person equal alice
+person where job_title neq software_engineer
+person where birthplace equal new_york and friends equal alice
+person where friends neq alice
+friends where start_date less 2004
+person where height equal 180 and field_of_study equal computer_science
+gender where height equal 180
+person where end_date nl start_date where person equal alice
+birthplace where friends equal alice
+birthplace where start_date ng 2004
+person where end_date less start_date where person equal alice
+person where university neq brown_university
+person where end_date ng 2004
+friends where start_date nl 2004
+person where birthplace equal birthplace where person equal alice
+person where end_date nl 2004 or end_date nl 2010
+person where start_date less end_date where person equal alice
+birthplace where relationship_status equal single
+person where end_date nl start_date where person equal alice
+birthplace where end_date greater 2004
+person where friends equal alice and gender equal male
+person where end_date less end_date where person equal alice
+relationship_status where start_date greater 2004
+birthplace where count person less two
+relationship_status where start_date nl 2004
+person where count gender nl two
+person where end_date less 2004
+relationship_status where start_date greater 2004
+person where height equal 180 and field_of_study equal computer_science
+person where friends equal alice and height equal 180 
+person where end_date greater start_date where person equal alice
+count birthplace
+friends where start_date neq 2004
+person where end_date ng end_date where person equal alice
+person where end_date greater start_date where person equal alice
+person where start_date greater 2004 or start_date greater 2010
+person where start_date ng 2004 or start_date ng 2010
+person where start_date greater end_date where person equal alice
+person where elationship_status equal single and friends equal alice
+relationship_status where start_date neq 2004
+birthplace where start_date greater 2004
+person argmin end_date
+person where friends equal alice and birthplace equal new_york 
+friends where start_date less 2004
+gender where start_date less 2004
+person where birthplace equal birthplace where person equal alice
+person where count field_of_study less two
+person where birthdate less end_date where person equal alice
+relationship_status where field_of_study neq computer_science
+person where end_date ng birthdate where person equal alice
+friends where end_date nl 2004
+person where start_date less end_date where person equal alice
+person where relationship_status equal single and friends equal alice
+friends where end_date neq 2004
+person where start_date greater 2004
+person where birthplace equal birthplace where person equal alice
+birthplace where university neq brown_university
+person where friends equal alice and online is true
+person where end_date ng end_date where person equal alice
+friends where start_date greater 2004
+friends where end_date ng 2004
+person where end_date equal 2004 or end_date equal 2010
+person where start_date neq 2004
+friends where start_date less 2004
+birthplace where end_date less 2004
+person where count relationship_status equal two
+person where start_date ng end_date where person equal alice
+birthplace where end_date neq 2004
+start_date where person equal alice where employer equal mckinsey
+university where person equal alice where field_of_study equal computer_science
+relationship_status where end_date nl 2004
+birthplace where start_date nl 2004
+person argmax end_date
+person where employer equal employer where person equal alice
+person where count university ng two
+end_date where person equal alice where end_date equal 2004
+person argmin start_date
+birthplace where employer neq mckinsey
+birthplace argmin count person
+person where employer neq mckinsey
+gender where person equal alice or person equal bob
+gender where end_date less 2004
+person where gender equal male and birthdate equal 2004
+person where friends equal alice and gender equal male
+person where start_date equal end_date where person equal alice
+person argmin count friends
+person where end_date nl start_date where person equal alice
+person where start_date neq 2004
+person where birthdate greater end_date where person equal alice
+gender where count person ng two
+friends where relationship_status equal single
+person where start_date nl birthdate where person equal alice
+relationship_status where end_date neq 2004
+person where end_date less start_date where person equal alice
+person where field_of_study equal field_of_study where person equal alice
+friends where start_date nl 2004
+friends where start_date less 2004
+person where friends neq alice
+gender where start_date ng 2004
+friends where end_state ng 2004
+person where end_date greater start_date where person equal alice
+gender where start_date ng 2004
+person where height equal 180 and relationship_status equal single
+person where birthdate equal 2004 and relationship_status equal single
+person where start_date ng start_date where person equal alice
+university where height equal 180 
+employer equal mckinsey or employer equal google
+person where end_date greater 2004
+person where end_date ng start_date where person equal alice
+relationship_status argmax count person
+gender where start_date greater 2004
+friends where start_date ng 2004
+person where start_date less end_date where person equal alice
+person where birthdate equal start_date where person equal alice
+birthplace where start_date nl 2004
+friends where university neq brown_university
+relationship_status where end_state ng 2004
+person where birthdate greater 2004
+friends where start_date greater 2004
+person where count gender greater two
+employer where person equal alice where employer equal mckinsey
+person where end_date equal end_date where person equal alice
+relationship_status where start_date less 2004
+friends where university neq brown_university
+friends where end_state ng 2004
+friends where start_date neq 2004
+person where end_date greater end_date where person equal alice
+gender where university neq brown_university
+gender where count person less two
+relationship_status where university neq brown_university
+gender where start_date neq 2004
+person where start_date ng end_date where person equal alice
+relationship_status equal single or relationship_status equal married
+end_date where person equal alice where employer equal mckinsey
+person where count gender equal two
+end_date where person equal alice where end_date equal 2004
+friends where start_date neq 2004
+person where end_date greater start_date where person equal alice
+gender where job_title neq software_engineer
+start_date where person equal alice
+person where height less height where person equal alice
+relationship_status where start_date less 2004
+count job_title
+person where university neq brown_university
+person where employer neq mckinsey
+person where start_date ng end_date where person equal alice
+person where birthdate nl end_date where person equal alice
+person where count friends less two
+person where end_date equal end_date where person equal alice
+person where start_date greater start_date where person equal alice
+person where start_date less end_date where person equal alice
+person where birthdate equal start_date where person equal alice
+birthplace where end_date greater 2004
+friends where end_date less 2004
+birthplace where end_date less 2004
+person where height equal 180
+person where start_date equal 2004 or start_date equal 2010
+person where start_date greater start_date where person equal alice
+person where end_date ng 2004
+relationship_status where start_date greater 2004
+person where end_date nl 2004
+height where person equal alice
+person where start_date ng end_date where person equal alice
+person where friends equal alice and height equal 180 
+person where end_date ng 2004
+person where start_date nl start_date where person equal alice
+birthplace where start_date nl 2004
+person where count field_of_study ng two
+friends where start_date ng 2004
+relationship_status where count person nl two
+person where end_date ng 2004 or end_date ng 2010
+person where birthdate equal 2004 and relationship_status equal single
+person where count field_of_study less two
+birthplace where birthplace equal new_york
+friends where start_date less 2004
+person where end_date nl 2004
+gender where start_date neq 2004
+friends where job_title neq software_engineer
+friends where online is true
+person where birthdate equal 2004 or birthdate equal 2010
+gender where field_of_study neq computer_science
+person where start_date less birthdate where person equal alice
+person where birthdate less birthdate where person equal alice
+person where birthdate less 2004
+person where end_date less end_date where person equal alice
+relationship_status where birthplace equal new_york
+friends where start_date less 2004
+gender where end_date less 2004
+friends where start_date neq 2004
+person argmin start_date
+person where count field_of_study ng two
+person where university neq brown_university
+friends where online is true
+person where gender equal male and online equal true
+friends where start_date greater 2004
+person where end_date less end_date where person equal alice
+relationship_status where start_date neq 2004
+person where friends equal alice and online is true
+birthplace where end_date less 2004
+person argmin count field_of_study
+person where birthdate less 2004
+person where end_date greater end_date where person equal alice
+person where employer equal employer where person equal alice
+person where employer neq mckinsey
+person where gender equal male and birthdate equal 2004
+person where start_date equal start_date where person equal alice
+friends where start_date nl 2004
+birthplace where online equal true
+person where count friends less two
+relationship_status where job_title neq software_engineer
+person where friends equal alice and relationship_status equal single
+person where height equal 180 and employer equal mckinsey
+person where height equal 180 and where job_title equal software_engineer
+person where end_date greater start_date where person equal alice
+person where online equal true and friends equal alice
+person where field_of_study equal computer_science or field_of_study equal history
+person where end_date greater end_date where person equal alice
+person argmin end_date
+relationship_status where end_date nl 2004
+friends where start_date nl 2004
+gender where count person less two
+person where count job_title ng two
+avg height
+gender where end_date neq 2004
+person argmax start_date
+person where end_date less start_date where person equal alice
+person where start_date nl 2004
+person where start_date less end_date where person equal alice
+birthplace where start_date nl 2004
+person where start_date less 2004
+relationship_status where job_title neq software_engineer
+person where birthplace neq new_york
+friends where height equal 180 
+person where end_date nl start_date where person equal alice
+birthplace where start_date ng 2004
+person where start_date less birthdate where person equal alice
+person where birthdate equal 2004 and relationship_status equal single
+person where start_date greater start_date where person equal alice
+person where end_date greater start_date where person equal alice
+person where count birthplace ng two
+person where birthplace equal new_york and friends equal alice
+person where job_title software_engineer equal or job_title equal program_manager
+gender where count person equal two
+person where count employer ng two
+person where relationship_status equal single and friends equal alice
+person where end_date nl birthdate where person equal alice
+gender where end_date neq 2004
+relationship_status where job_title neq software_engineer
+person where count job_title less two
+relationship_status where end_date nl 2004
+friends where online equal true
+person where friends equal alice
+relationship_status where end_state ng 2004
+friends where end_date less 2004
+birthplace where start_date neq 2004
+person where birthplace equal new_york and birthdate equal 2004
+person where birthdate equal 2004
+relationship_status where height equal 180
+person where count field_of_study ng two
+person where count friends less two
+person where start_date ng start_date where person equal alice
+person where end_date ng birthdate where person equal alice
+relationship_status argmax count person
+count gender
+person where job_title software_engineer equal or job_title equal program_manager
+birthplace where start_date neq 2004
+person where end_date equal end_date where person equal alice
+person where start_date nl start_date where person equal alice
+person where end_date less start_date where person equal alice
+friends where end_date nl 2004
+person where job_title software_engineer equal or job_title equal program_manager
+person where end_date nl 2004 or end_date nl 2010
+gender where end_date ng 2004
+person where end_date nl end_date where person equal alice
+person argmax end_date
+person equal alice or person equal bob
+person where end_date nl end_date where person equal alice
+person where online equal true and birthplace equal new_york 
+person where start_date less end_date where person equal alice
+person where end_date equal start_date where person equal alice
+person argmin count field_of_study
+person where start_date greater 2004
+person where start_date equal end_date where person equal alice
+person where end_date neq 2004
+relationship_status where end_state ng 2004
+gender equal male
+person where start_date less end_date where person equal alice
+person where start_date nl start_date where person equal alice
+relationship_status where end_date less 2004
+friends where job_title neq software_engineer
+person where end_date greater end_date where person equal alice
+count person
+gender where count person equal two
+friends where start_date neq 2004
+person where birthdate less 2004 or birthdate less 2010
+person where friends equal alice and online is true
+birthplace where end_date neq 2004
+person where start_date ng 2004
+relationship_status where end_date less 2004
+gender where end_date neq 2004
+person where start_date equal start_date where person equal alice
+relationship_status where start_date less 2004
+person where birthplace equal new_york or birthplace equal beijing
+relationship_status argmin count person
+birthplace where online equal true
+person where end_date equal start_date where person equal alice
+gender where end_date less 2004
+relationship_status where start_date ng 2004
+person where gender equal male and friends equal alice
+person where start_date less start_date where person equal alice
+relationship_status equal single or relationship_status equal married
+person where job_title equal job_title where person equal alice
+person where start_date nl start_date where person equal alice
+person where end_date ng birthdate where person equal alice
+friends where end_date nl 2004
+birthplace where end_date less 2004
+person where count job_title ng two
+person where start_date equal end_date where person equal alice
+person argmin count employer
+friends where end_date less 2004
+person where end_date ng start_date where person equal alice
+person where relationship_status equal single and gender equal male
+friends where employer neq mckinsey
+person where start_date nl birthdate where person equal alice
+person where end_date equal start_date where person equal alice
+person where relationship_status equal single
+person where end_date nl 2004
+gender where start_date less 2004
+person where end_date less birthdate where person equal alice
+gender where start_date ng 2004
+person where height equal 180 and university equal brown_university
+start_date where person equal alice where end_date equal 2004
+gender where employer neq mckinsey
+gender where friends equal alice
+person where end_date greater birthdate where person equal alice
+person where birthdate equal birthdate where height equal 180
+person argmin start_date
+person where friends equal alice and birthdate equal 2004
+employer where height equal 180
+person where start_date nl start_date where person equal alice
+friends where job_title neq software_engineer
+person where field_of_study equal computer_science or field_of_study equal history
+friends where field_of_study neq computer_science
+person where gender equal gender where height equal 180
+person where start_date nl 2004
+person where start_date nl start_date where person equal alice
+person where height greater 180 or height greater 200
+person where birthplace equal new_york and online equal true
+person where end_date greater 2004 or end_date greater 2010
+person where start_date nl 2004
+friends where start_date greater 2004
+person where start_date nl start_date where person equal alice
+friends where end_date greater 2004
+gender where person equal alice or person equal bob
+friends where start_date nl 2004
+person where start_date neq 2004
+gender where count person less two
+university where height equal 180 
+relationship_status where person equal alice or person equal bob
+person where end_date equal 2004 or end_date equal 2010
+person where end_date neq 2004
+relationship_status where start_date neq 2004
+person where end_date greater birthdate where person equal alice
+count employer
+person where count employer less two
+person where start_date nl 2004
+person where birthdate equal birthdate where height equal 180
+relationship_status where start_date greater 2004
+person where start_date greater start_date where person equal alice
+gender where person equal alice
+birthplace where start_date greater 2004
+friends where friends equal alice
+person where count birthplace equal two
+person where birthplace equal birthplace where person equal alice
+person where end_date equal end_date where person equal alice
+gender where start_date neq 2004
+university where height equal 180 
+relationship_status where field_of_study neq computer_science
+person where end_date less start_date where person equal alice
+friends where birthplace equal new_york
+birthplace where job_title neq software_engineer
+end_date where person equal alice where university equal brown_university
+person argmin count job_title
+person where end_date less start_date where person equal alice
+person argmin start_date
+person where employer equal employer where person equal alice
+person where friends equal alice and birthdate equal 2004
+gender argmin count person
+person where height equal 180 and relationship_status equal relationship_status where person equal alice
+birthplace where start_date ng 2004
+gender where end_date neq 2004
+friends where field_of_study neq computer_science
+person where end_date greater start_date where person equal alice
+job_title where person equal alice where job_title equal software_engineer
+relationship_status where online equal true
+gender where end_date ng 2004
+person where height equal 180 and gender equal gender where person equal alice
+relationship_status where count person ng two
+person where end_date nl end_date where person equal alice
+person where end_date equal end_date where person equal alice
+friends where start_date nl 2004
+person argmax start_date
+person where online equal true and friends equal alice
+person where height equal 180 and relationship_status equal single
+person where start_date less 2004 or start_date less 2010
+person where online equal true and birthplace equal new_york 
+person where start_date less 2004 or start_date less 2010
+friends where start_date ng 2004
+person argmax count gender
+person where end_date less 2004 or end_date less 2010
+person where start_date less birthdate where person equal alice
+person argmin end_date
+person where start_date greater end_date where person equal alice
+person where friends neq alice
+person where end_date ng 2004 or end_date ng 2010
+person where end_date nl end_date where person equal alice
+gender where end_date nl 2004
+person where start_date equal start_date where person equal alice
+count height
+person argmin count friends
+person where start_date ng 2004 or start_date ng 2010
+friends where end_date nl 2004
+person where height nl 180
+birthplace where job_title neq software_engineer
+person where birthdate equal birthdate where person equal alice
+friends where online equal true
+person where start_date equal birthdate where person equal alice
+university where person equal alice where end_date equal 2004
+relationship_status argmin count person
+friends where start_date nl 2004
+person where count friends greater two
+person where end_date ng end_date where person equal alice
+friends where start_date neq 2004
+gender where field_of_study neq computer_science
+gender where end_date neq 2004
+person argmin end_date
+person where end_date greater start_date where person equal alice
+person where height equal 180 and start_date equal 2004
+person where start_date nl birthdate where person equal alice
+job_title where height equal 180
+person where end_date equal start_date where person equal alice
+person where end_date nl 2004 or end_date nl 2010
+person where start_date less 2004 where start_date less 2010
+friends where end_date neq 2004
+person where friends equal alice and height equal 180 
+person where height equal 180 and end_date equal 2004
+person where height equal 180
+person where start_date equal 2004 or start_date equal 2010
+friends where start_date nl 2004
+gender where start_date less 2004
+person where end_date nl end_date where person equal alice
+gender where field_of_study neq computer_science
+relationship_status where start_date greater 2004
+person where end_date equal 2004 or end_date equal 2010
+friends where height equal 180 
+person where end_date greater 2004 or end_date greater 2010
+person where end_date ng 2004
+relationship_status where start_date less 2004
+person where start_date ng birthdate where person equal alice
+person where count field_of_study less two
+person where birthplace equal new_york and friends equal alice
+friends where birthplace equal new_york
+friends where person equal alice
+person where end_date nl end_date where person equal alice
+person where birthdate ng end_date where person equal alice
+person where start_date nl 2004
+gender where start_date less 2004
+person where end_date equal birthdate where person equal alice
+gender where start_date ng 2004
+relationship_status where end_date less 2004
+person where height equal 180
+person where start_date greater end_date where person equal alice
+person where start_date greater end_date where person equal alice
+person where end_date neq 2004
+person where height equal 180 and where job_title equal software_engineer
+person where end_date ng birthdate where person equal alice
+person where end_date nl birthdate where person equal alice
+friends where end_date nl 2004
+person where end_date less end_date where person equal alice
+friends where start_date nl 2004
+count birthplace
+friends where start_date ng 2004
+person argmax count friends 
+person where end_date equal birthdate where person equal alice
+person argmax count friends
+person where end_date equal birthdate where person equal alice
+person where start_date ng start_date where person equal alice
+person where height equal 180 and start_date equal 2004
+friends where end_date neq 2004
+friends where start_date ng 2004
+person where count friends ng two
+friends where gender is male 
+person where count person ng two
+relationship_status where end_date nl 2004
+person where start_date ng start_date where person equal alice
+person where end_date less 2004
+person where start_date less start_date where person equal alice
+relationship_status where count person less two
+person where start_date greater 2004 or start_date greater 2010
+start_date where person equal alice where field_of_study equal computer_science
+person where start_date equal end_date where person equal alice
+person where end_date less end_date where person equal alice
+gender where count person ng two
+friends where start_date neq 2004
+person where friends equal alice and birthplace equal new_york
+person where start_date less start_date where person equal alice
+person where friends equal alice
+count person
+person where height equal 180 and relationship_status equal relationship_status where person equal alice
+person where start_date greater start_date where person equal alice
+person where gender equal male or gender equal female
+friends where start_date ng 2004
+person argmin count field_of_study
+person where start_date nl 2004
+person where height equal 180 and birthplace equal new_york 
+person where height equal 180 and relationship_status equal relationship_status where person equal alice
+friends where start_date greater 2004
+person where end_date equal birthdate where person equal alice
+friends where start_date nl 2004
+relationship_status where end_date greater 2004
+person where start_date nl end_date where person equal alice
+relationship_status where end_date greater 2004
+friends where start_date less 2004
+person where height equal 180
+birthplace where start_date less 2004
+gender where start_date neq 2004
+person where height equal 180 and start_date equal 2004
+person where start_date equal end_date where person equal alice
+job_title where height equal 180
+person where birthdate ng start_date where person equal alice
+gender where person equal alice
+friends where end_date nl 2004
+person where relationship_status equal relationship_status where person equal alice
+end_date where person equal alice where job_title equal software_engineer
+person where height equal 180 and birthdate equal birthdate where person equal alice
+friends where online equal true
+person where count friends equal two
+birthplace where start_date greater 2004
+birthplace argmin count person
+person where relationship_status equal relationship_status where height equal 180
+gender argmax count person
+relationship_status where job_title neq software_engineer
+birthplace where end_date ng 2004
+gender where count person greater two
+person where start_date less 2004 or start_date less 2010
+person argmin count employer
+person where start_date nl 2004 or start_date nl 2010
+person where height equal 180 and birthplace equal new_york 
+person where height greater 180 or height greater 200
+birthplace where end_date neq 2004
+gender where end_date neq 2004
+person argmax birthdate
+person where birthplace equal new_york and friends equal alice
+person where end_date less start_date where person equal alice
+person where start_date ng 2004 or start_date ng 2010
+birthplace where gender equal male
+friends where end_date nl 2004
+birthplace where count person nl two
+person where height equal 180 and friends equal alice
+friends where end_date ng 2004
+person where birthdate equal 2004 and birthplace equal new_york
+friends where end_date nl 2004
+person where height equal 180 and start_date equal 2004
+person where start_date nl birthdate where person equal alice
+person where height equal 180
+person argmin count employer
+relationship_status where field_of_study neq computer_science
+person where end_date equal end_date where person equal alice
+person where end_date less start_date where person equal alice
+person where start_date equal birthdate where person equal alice
+gender where end_date greater 2004
+friends where start_date neq 2004
+gender where friends equal alice
+person where start_date equal end_date where person equal alice
+relationship_status where employer neq mckinsey
+person where count employer ng two
+person where relationship_status equal single and birthplace equal new_york
+person where birthdate less start_date where person equal alice
+person where height equal 180 and relationship_status equal relationship_status where person equal alice
+person where birthdate less end_date where person equal alice
+birthplace where end_date ng 2004
+person where end_date less end_date where person equal alice
+relationship_status where end_date ng 2004
+relationship_status where count person equal two
+person where count person ng two
+person where count university less two
+person where count gender less two
+person where height less 180 or height less 200
+person where end_date ng 2004 or end_date ng 2010
+relationship_status where count person less two
+birthplace where count person equal two
+end_date where persone equal alice where start_date equal 2004
+friends where end_date nl 2004
+end_date where field_of_study equal computer_science
+person where friends equal alice and gender equal male
+person where friends equal alice
+friends where end_date less 2004
+person where end_date nl start_date where person equal alice
+end_date where person equal alice where end_date equal 2004
+person where end_date ng birthdate where person equal alice
+person where start_date greater 2004
+friends where start_date ng 2004
+person where start_date neq 2004
+person where birthdate nl start_date where person equal alice
+person where birthdate nl end_date where person equal alice
+person argmin start_date
+person argmin count friends
+friends where end_date ng 2004
+person where birthdate equal 2004 and friends equal alice
+person where birthdate equal birthdate where person equal alice
+birthplace where count person ng two
+person where height equal 180 and end_date equal 2004
+person where end_date greater 2004
+friends where start_date ng 2004
+person where start_date greater end_date where person equal alice
+friends where university neq brown_university
+person where end_date less 2004 or end_date less 2010
+friends where relationship_status equal single
+friends where end_date greater 2004
+friends where start_date greater 2004
+person where end_date ng end_date where person equal alice
+person where height equal 180 and online equal true
+person where start_date less end_date where person equal alice
+person where birthdate equal start_date and friends equal alice
+person where count friends ng two
+count person
+person where end_date greater 2004
+person where height equal 180 and friends equal alice
+person where end_date greater start_date where person equal alice
+person where end_date less 2004 or end_date less 2010
+birthplace where friends equal alice
+person where friends equal alice or friends equal bob
+friends where end_date neq 2004
+person where start_date greater 2004
+person where person equal alice where job_title equal software_engineer
+person where end_date greater 2004 or end_date greater 2010
+gender where start_date greater 2004
+gender where end_date ng 2004
+relationship_status where start_date less 2004
+gender where end_date greater 2004
+relationship_status where friends equal alice
+relationship_status where start_date ng 2004
+person where end_date greater end_date where person equal alice
+person where birthdate ng end_date where person equal alice
+height equal 180 or height equal 200
+person where online equal true and height equal 180
+height equal 180 or height equal 200
+relationship_status where gender is male
+person where start_date less 2004 where start_date less 2010
+person where end_date less 2004
+count relationship_status
+person where birthplace equal new_york and relationship_status equal single
+person where height equal 180 and birthdate equal 2004
+person where friends equal alice and height equal 180
+person where end_date greater start_date where person equal alice
+person where count friends equal two
+birthplace where start_date greater 2004
+gender where start_date nl 2004
+person where start_date equal start_date where person equal alice
+friends where birthplace equal new_york
+person where start_date nl end_date where person equal alice
+birthplace where end_date ng 2004
+person where birthdate equal 2004 and height equal 180
+friends where start_date less 2004
+person where start_date greater birthdate where person equal alice
+relationship_status where birthdate equal 2004
+birthplace where height equal 180
+friends where start_date nl 2004
+person where start_date ng end_date where person equal alice
+person argmax count friends
+birthplace where end_date neq 2004
+person where friends equal alice and relationship_status equal single
+person where end_date less birthdate where person equal alice
+person where birthdate greater end_date where person equal alice
+person where university equal university where person equal alice
+person argmin count birthplace
+start_date where person equal alice where start_date equal 2004
+relationship_status where birthdate equal 2004
+friends where end_date nl 2004
+person where end_date nl start_date where person equal alice
+relationship_status where start_date greater 2004
+person where end_date greater start_date where person equal alice
+person where count gender equal two
+person where end_date equal end_date where person equal alice
+person where end_date greater 2004
+person where start_date less end_date where person equal alice
+end_date where person equal alice where end_date equal 2004
+person where birthplace equal new_york and height equal 180 
+friends where start_date greater 2004
+person where end_date greater birthdate where person equal alice
+person where start_date greater end_date where person equal alice
+field_of_study where person equal alice where field_of_study equal computer_science
+person where end_date less start_date where person equal alice
+person where count relationship_status less than two
+person where birthdate equal 2004
+gender where friends equal alice
+friends where end_date nl 2004
+person where start_date equal start_date where person equal alice
+friends where end_state ng 2004
+friends where gender is male 
+person where start_date less start_date where person equal alice
+person where start_date nl 2004 or start_date nl 2010
+friends where end_date ng 2004
+person where start_date nl end_date where person equal alice
+end_date where person equal alice where job_title equal software_engineer
+relationship_status where count person less two
+friends where end_date neq 2004
+birthplace where employer neq mckinsey
+friends where birthdate equal 2004
+friends where end_date neq 2004
+person where friends equal alice or friends equal bob
+birthplace where start_date ng 2004
+person argmax count university
+person where job_title software_engineer equal or job_title equal program_manager
+person where height equal 180 and birthplace equal birthplace where person equal alice
+person where start_date equal birthdate where person equal alice
+person where count university less two
+person where end_date less start_date where person equal alice
+person argmax count field_of_study
+person where height less 180 or height less 200
+gender where start_date greater 2004
+person argmax count relationship_status
+person where elationship_status equal single and friends equal alice
+person where end_date greater start_date where person equal alice
+person where start_date nl end_date where person equal alice
+person argmax height
+birthplace where count person equal two
+job_title where person equal alice where job_title equal software_engineer
+birthplace where count person ng two
+relationship_status where end_date ng 2004
+person where online equal true and gender equal male
+person where birthdate equal 2004 and height equal 180
+person where start_date ng start_date where person equal alice
+person where end_date greater birthdate where person equal alice
+person where gender equal male and height equal 180
+person argmax end_date
+birthplace where height equal 180
+person where online equal true and gender equal male
+friends where start_date nl 2004
+person where count friends equal two
+person where end_date greater end_date where person equal alice
+person where count gender nl two
+person equal alice or person equal bob
+birthplace where start_date greater 2004
+friends where start_date ng 2004
+person where start_date less start_date where person equal alice
+person where start_date nl birthdate where person equal alice
+person where field_of_study equal field_of_study where person equal alice
+person where birthdate equal birthdate where person equal alice
+person where end_date neq 2004
+person where height equal 180 and birthplace equal birthplace where person equal alice
+birthplace where end_date ng 2004
+person where gender equal male and birthplace equal new_york
+friends where start_date less 2004
+person where start_date less start_date where person equal alice
+relationship_status where friends equal alice
+friends where friends equal alice
+person where count friends nl twp
+friends where birthdate equal 2004
+person where end_date equal start_date where person equal alice
+field_of_study where person equal alice
+person where birthplace equal birthplace where person equal alice
+birthplace where start_date ng 2004
+person where birthplace equal birthplace where person equal alice
+gender where count person equal two
+friends where start_date greater 2004
+person where end_date ng birthdate where person equal alice
+person where birthdate greater birthdate where person equal alice
+friends where field_of_study neq computer_science
+person where start_date less start_date where person equal alice
+gender where end_date greater 2004
+friends where gender is male 
+person where end_date greater start_date where person equal alice
+person where start_date ng end_date where person equal alice
+employer where height equal 180
+relationship_status argmax count person
+person where end_date nl start_date where person equal alice
+person where height equal 180 
+person where count relationship_status equal two
+friends where end_date neq 2004
+person where start_date greater start_date where person equal alice
+person where end_date less birthdate where person equal alice
+gender where start_date greater 2004
+person where job_title neq software_engineer
+job_title equal software_engineer or job_title equal program_manager
+person where start_date less 2004
+person where start_date greater start_date where person equal alice
+person where start_date greater birthdate where person equal alice
+gender where relationship_status equal single
+start_date where person equal alice where end_date equal 2004
+friends where start_date greater 2004
+friends where field_of_study neq computer_science
+person where birthdate greater start_date where person equal alice
+person where height less height where person equal alice
+person where gender equal male and friends equal alice
+gender where end_date ng 2004
+person where field_of_study equal computer_science or field_of_study equal history
+relationship_status where job_title neq software_engineer
+friends where start_date neq 2004
+count height
+relationship_status where start_date ng 2004
+person where start_date ng birthdate where person equal alice
+friends where end_date neq 2004
+university where person equal alice where end_date equal 2004
+relationship_status where job_title neq software_engineer
+gender where start_date neq 2004
+relationship_status where start_date less 2004
+birthplace where start_date neq 2004
+person where height equal 180 and university equal brown_university
+friends where end_date nl 2004
+person where count birthplace greater two
+person where birthplace equal new_york and friends equal alice
+person argmax end_state
+person where end_date greater 2004
+person where birthdate equal birthdate where person equal alice
+person where relationship_status equal relationship_status where height equal 180
+person where height equal 180 and end_date equal 2004
+relationship_status where height equal 180
+person where end_date less end_date where person equal alice
+person where relationship_status equal single or relationship_status equal married
+person where friends neq alice
+employer where person equal alice where employer equal mckinsey
+person argmax birthdate
+person where end_date greater start_date where person equal alice
+person where friends equal alice and relationship_status equal single
+person where start_date less 2004
+friends where person equal alice
+person where end_date ng start_date where person equal alice
+person where end_date ng end_date where person equal alice
+friends where relationship_status equal single
+person where start_date greater birthdate where person equal alice
+birthplace where start_date less 2004
+relationship_status where count person ng two
+person where friends equal alice and gender equal male
+gender where end_date less 2004
+person where height equal 180 and relationship_status equal single
+friends where online equal true
+person argmax count employer
+university equal brown_university or university equal ucla
+person where end_date ng 2004 or end_date ng 2010
+person where end_date nl end_date where person equal alice
+birthplace where height equal 180
+person where end_date less end_date where person equal alice
+person where start_date less start_date where person equal alice
+relationship_status where end_date nl 2004
+person where end_date ng end_date where person equal alice
+person where start_date greater start_date where person equal alice
+friends where start_date nl 2004
+birthplace where start_date less 2004
+person argmax count field_of_study
+person where start_date nl 2004 or start_date nl 2010
+person where friends neq alice
+person where start_date less start_date where person equal alice
+person argmin end_date
+person where start_date greater 2004
+employer where height equal 180
+person where start_date ng end_date where person equal alice
+person where end_date greater start_date where person equal alice
+person where start_date greater start_date where person equal alice
+person where end_date nl end_date where person equal alice
+gender where count person less two
+person where relationship_status equal single and birthplace equal new_york
+person where height equal 180 and start_date equal 2004
+person where end_date greater birthdate where person equal alice
+person argmax count university
+person where online equal true and height equal 180
+person where start_date ng birthdate where person equal alice
+person where start_date nl end_date where person equal alice
+birthplace where friends equal alice
+person where birthplace equal new_york and friends equal alice
+person where end_date greater birthdate where person equal alice
+gender where birthdate equal 2004
+person argmin count job_title
+person where height nl 180
+person where gender equal male and friends equal alice
+person where height equal 180 and end_date equal 2004
+person where end_date equal start_date where person equal alice
+person where end_date less end_date where person equal alice
+person where start_date greater 2004 or start_date greater 2010
+birthplace where end_date neq 2004
+friends where end_date greater 2004
+person where friends equal alice and height equal 180 
+friends where end_date neq 2004
+birthplace where job_title neq software_engineer
+relationship_status where birthplace equal new_york
+person where birthdate less start_date where person equal alice
+birthplace where employer neq mckinsey
+relationship_status where end_state ng 2004
+person where count birthplace nl two
+person where end_date greater end_date where person equal alice
+person where online equal true and birthplace equal new_york 
+person where person equal alice where job_title equal software_engineer
+friends where end_date ng 2004
+person argmin count employer
+person where height equal 180
+friends where start_date ng 2004
+person where field_of_study equal computer_science or field_of_study equal history
+friends where end_date greater 2004
+person where end_date ng end_date where person equal alice
+person where end_date greater end_date where person equal alice
+friends where job_title neq software_engineer
+person where start_date nl start_date where person equal alice
+person where university neq brown_university
+person where online equal true and friends equal alice
+person where start_date nl end_date where person equal alice
+person where online equal true and relationship_status equal single
+relationship_status where university neq brown_university
+person argmax count field_of_study
+friends where end_date ng 2004
+person where friends equal alice and birthplace equal new_york 
+friends where gender is male 
+friends where start_date greater 2004
+person where start_date greater birthdate where person equal alice
+relationship_status where university neq brown_university
+person where height equal 180 and relationship_status equal single
+person where start_date less 2004
+friends where end_date nl 2004
+gender where end_date ng 2004
+person where start_date equal birthdate where person equal alice
+relationship_status where start_date less 2004
+person where start_date ng start_date where person equal alice
+person argmin end_date
+avg height
+person where start_date ng 2004 or start_date ng 2010
+person where start_date greater birthdate where person equal alice
+gender where start_date nl 2004
+relationship_status where end_state ng 2004
+friends where field_of_study neq computer_science
+person where end_date less end_date where person equal alice
+person where height equal 180 and end_date equal 2004
+count field_of_study
+person where height equal 180 and height equal height where person equal alice
+gender where end_date nl 2004
+person where start_date equal end_date where person equal alice
+person where end_date less 2004
+person argmax count friends 
+person where start_date equal 2004 or start_date equal 2010
+person where field_of_study equal field_of_study where person equal alice
+person where birthdate ng end_date where person equal alice
+person where count field_of_study ng two
+person where end_date less 2004
+person where friends equal alice and birthplace equal new_york
+person where end_date nl birthdate where person equal alice
+start_date where person equal alice where end_date equal 2004
+person where start_date ng end_date where person equal alice
+person where start_date ng start_date where person equal alice
+relationship_status where person equal alice or person equal bob
+person where start_date nl end_date where person equal alice
+friends where start_date nl 2004
+friends where end_date ng 2004
+relationship_status where end_date less 2004
+friends where birthplace equal new_york
+friends where end_date greater 2004
+friends where end_state ng 2004
+relationship_status where end_date neq 2004
+person where end_date equal birthdate where person equal alice
+job_title where height equal 180
+person where start_date nl birthdate where person equal alice
+person where start_date equal end_date where person equal alice
+person where height equal 180 and birthdate equal birthdate where person equal alice
+person where start_date nl 2004
+relationship_status where start_date nl 2004
+person where end_date ng 2004 or end_date ng 2010
+start_date where person equal alice where employer equal mckinsey
+person argmin count job_title
+person where end_date greater start_date where person equal alice
+person where start_date less start_date where person equal alice
+person where end_date less 2004
+person where count friends greater two
+gender where start_date greater 2004
+birthplace where person equal alice
+person where end_date less start_date where person equal alice
+person where count employer ng two
+person where end_date ng 2004
+relationship_status argmin count person
+person where gender equal male and relationship_status equal single
+person where start_date nl end_date where person equal alice
+birthplace where start_date ng 2004
+relationship_status where start_date ng 2004
+person where start_date less 2004 or start_date less 2010
+employer equal mckinsey or employer equal google
+birthplace where end_date less 2004
+person where count relationship_status greater two
+employer where height equal 180
+person where start_date ng 2004
+person where end_date equal end_date where person equal alice
+friends where university neq brown_university
+person where height equal 180 and birthplace equal birthplace where person equal alice
+person where friends equal alice and birthplace equal new_york
+person where end_date ng end_date where person equal alice
+person where end_date nl end_date where person equal alice
+person where birthdate ng birthdate where person equal alice
+person where birthdate equal end_date where person equal alice
+gender where count person equal two
+person where end_date ng end_date where person equal alice
+gender where university neq brown_university
+person where start_date equal start_date where person equal alice
+friends where field_of_study neq computer_science
+birthplace where field_of_study neq computer_science
+person where birthdate equal 2004 or birthdate equal 2010
+friends where friends equal alice
+person where start_date less end_date where person equal alice
+person where start_date greater 2004
+end_date where person equal alice where end_date equal 2004
+gender where end_date less 2004
+person where end_date ng 2004
+person where start_date greater end_date where person equal alice
+relationship_status where count person less two
+person where end_date ng 2004 or end_date ng 2010
+friends where end_date less 2004
+person where end_date nl 2004
+person where start_date nl birthdate where person equal alice
+person argmax start_date
+gender where end_date greater 2004
+person where height equal 180 and start_date equal 2004
+gender where friends equal alice
+friends where start_date ng 2004
+person where height equal 180 and birthplace equal birthplace where person equal alice
+person where start_date greater start_date where person equal alice
+person where start_date ng end_date where person equal alice
+start_date where person equal alice
+person argmax end_state
+friends where end_date less 2004
+person where friends equal alice and birthdate equal 2004
+person argmin end_date
+person where start_date less 2004 where start_date less 2010
+person where job_title equal job_title where person equal alice
+birthplace where person equal alice or person equal bob
+job_title where height equal 180
+birthplace where end_date greater 2004
+birthplace where end_date nl 2004
+person where end_date ng end_date where person equal alice
+gender where end_date neq 2004
+person where birthdate equal start_date and friends equal alice
+person where start_date less birthdate where person equal alice
+person where count gender less two
+friends where start_date ng 2004
+person argmax end_date
+gender where start_date nl 2004
+person where height equal 180 and start_date equal 2004
+person where start_date nl birthdate where person equal alice
+person where height equal 180 and birthdate equal 2004
+person where birthplace equal birthplace where person equal alice
+person where start_date less end_date where person equal alice
+friends where start_date less 2004
+relationship_status where height equal 180
+person where count relationship_status less than two
+person where university neq brown_university
+birthplace where university neq brown_university
+birthplace where end_date greater 2004
+person where end_date greater birthdate where person equal alice
+person where end_date less start_date where person equal alice
+person where end_date equal birthdate where person equal alice
+person where end_date nl 2004
+relationship_status where end_date nl 2004
+person where count birthplace greater two
+gender where end_date less 2004
+person argmax height
+person where start_date greater end_date where person equal alice
+friends where start_date nl 2004
+relationship_status where start_date nl 2004
+person where start_date less 2004
+person where height equal 180
+person argmax end_date
+person where birthdate less end_date where person equal alice
+person where end_date equal end_date where person equal alice
+person argmax start_date
+person where start_date greater start_date where person equal alice
+person where end_date nl end_date where person equal alice
+friends where start_date less 2004
+person where end_date nl 2004
+field_of_study where height equal 180 
+person where count job_title less two
+person where start_date nl 2004 or start_date nl 2010
+person where height equal 180 and gender equal gender where person equal alice
+end_date where person equal alice where job_title equal software_engineer
+job_title where end_date equal 2004
+friends where start_date greater 2004
+person where start_date ng start_date where person equal alice
+person where end_date equal end_date where person equal alice
+person where height equal 180 and online equal true
+person where count friends ng two
+person where birthplace equal new_york and friends equal alice
+person where gender equal male or gender equal female
+person where friends equal alice and birthdate equal 2004
+friends where employer neq mckinsey
+person where start_date nl end_date where person equal alice
+gender where start_date greater 2004
+person where friends equal alice and birthdate equal 2004
+friends where end_date greater 2004
+person where start_date equal end_date where person equal alice
+friends where end_date greater 2004
+gender where end_date ng 2004
+gender where end_date neq 2004
+person where gender equal male and height equal 180
+birthplace where end_date ng 2004
+person where birthplace equal new_york
+gender where end_date nl 2004
+person where height equal 180 and friends equal alice
+person where start_date less 2004
+friends where end_date less 2004
+friends where end_date greater 2004
+field_of_study where height equal 180 
+birthplace where end_date less 2004
+person where start_date nl 2004
+relationship_status where start_date greater 2004
+person where start_date nl 2004
+field_of_study where person equal alice where university equal brown_university
+gender where end_date ng 2004
+person where end_date greater start_date where person equal alice
+person where count gender nl two
+person where start_date nl end_date where person equal alice
+person where end_date ng end_date where person equal alice
+person where end_date ng end_date where person equal alice
+person argmin count job_title
+person where end_date ng end_date where person equal alice
+friends where end_date less 2004
+person where start_date less end_date where person equal alice
+person where end_date less birthdate where person equal alice
+person argmax start_date
+person where end_date equal end_date where person equal alice
+friends where job_title neq software_engineer
+person where height nl 180
+person where height equal 180 and university equal brown_university
+friends where start_date nl 2004
+person where start_date ng birthdate where person equal alice
+friends where height equal 180 
+person where start_date less start_date where person equal alice
+birthplace where count person greater two
+person argmax count gender
+person where start_date equal end_date where person equal alice
+person where end_date less start_date where person equal alice
+person where elationship_status equal single and friends equal alice
+friends where end_date ng 2004
+person where start_date equal end_date where person equal alice
+person where birthdate equal end_date where person equal alice
+field_of_study where person equal alice where end_date equal 2004
+employer where height equal 180
+person where start_date nl end_date where person equal alice
+person where gender neq male
+relationship_status where end_date ng 2004
+gender where person equal alice
+person where end_date less start_date where person equal alice
+person where gender equal male or gender equal female
+person where height greater height where person equal alice
+gender where start_date nl 2004
+person where gender equal male and online equal true
+person where end_date less end_date where person equal alice
+person where birthplace equal birthplace where person equal alice
+person where end_date nl 2004 or end_date nl 2010
+person argmin count relationship_status
+person where height equal 180 and birthplace equal new_york 
+person where height equal 180 
+person where end_date ng start_date where person equal alice
+relationship_status equal single
+person where start_date equal start_date where person equal alice
+person where start_date ng end_date where person equal alice
+start_date where person equal alice
+friends where gender is male 
+person where count employer ng two
+person where end_date less birthdate where person equal alice
+relationship_status where end_date greater 2004
+gender where job_title neq software_engineer
+person where end_date greater birthdate where person equal alice
+person where end_date less start_date where person equal alice
+gender where count person equal two
+person where birthdate ng end_date where person equal alice
+friends where height equal 180 
+person where birthplace neq new_york
+person where birthplace equal birthplace where person equal alice
+birthplace where start_date neq 2004
+friends where employer neq mckinsey
+gender where end_date neq 2004
+relationship_status where count person less two
+person where birthdate greater end_date where person equal alice
+person where birthdate nl 2004
+friends where start_date greater 2004
+person where birthdate equal 2004 and friends equal alice
+friends where start_date ng 2004
+person where gender equal male and birthdate equal 2004
+person where start_date neq 2004
+person where count gender greater two
+person where start_date ng start_date where person equal alice
+person where end_date neq 2004
+gender where start_date neq 2004
+field_of_study where person equal alice
+friends where end_date greater 2004
+person where end_date ng birthdate where person equal alice
+friends where height equal 180 
+person where field_of_study equal field_of_study where person equal alice
+friends where end_date neq 2004
+gender where person equal alice or person equal bob
+gender where end_date greater 2004
+person where end_date less end_date where person equal alice
+person where start_date nl 2004 or start_date nl 2010
+person where count gender ng two
+friends where end_date neq 2004
+birthplace where relationship_status equal single
+person where friends equal alice
+birthplace where person equal alice
+relationship_status where start_date ng 2004
+person where birthdate equal 2004 and online equal true
+start_date where person equal alice where employer equal mckinsey
+relationship_status where start_date nl 2004
+gender where count person equal two
+friends where end_date nl 2004
+person where end_date equal start_date where person equal alice
+person where start_date less start_date where person equal alice
+employer where person equal alice where end_date equal 2004
+person where start_date equal 2004 or start_date equal 2010
+job_title where person equal alice
+university where person equal alice where field_of_study equal computer_science
+relationship_status where start_date greater 2004
+person where end_date greater birthdate where person equal alice
+friends where end_date neq 2004
+person argmin start_date
+person argmin count field_of_study
+person where birthdate ng 2004
+birthplace where start_date neq 2004
+birthplace where job_title neq software_engineer
+person where end_date ng birthdate where person equal alice
+birthplace where end_date greater 2004
+person where end_date ng end_date where person equal alice
+person where end_date equal start_date where person equal alice
+person where height equal 180 and field_of_study equal computer_science
+person where start_date ng 2004 or start_date ng 2010
+person where end_date greater 2004
+person where birthdate equal 2004
+birthplace where start_date nl 2004
+friends where employer neq mckinsey
+person where start_date nl 2004 or start_date nl 2010
+person where end_date equal start_date where person equal alice
+person where count field_of_study less two
+person where end_date less start_date where person equal alice
+person where start_date nl end_date where person equal alice
+person where end_date greater start_date where person equal alice
+person where gender equal gender where height equal 180
+birthplace where start_date greater 2004
+start_date where university equal brown_university
+person argmax count university
+person where university equal university where person equal alice
+person where end_date ng start_date where person equal alice
+person where start_date equal birthdate where person equal alice
+person where end_date nl start_date where person equal alice
+job_title where height equal 180
+person where job_title neq software_engineer
+friends where start_date neq 2004
+friends where gender equal male
+relationship_status where birthdate equal 2004
+university where person equal alice
+person where height ng height where person equal alice
+person where start_date greater 2004 or start_date greater 2010
+person where end_date greater end_date where person equal alice
+person where start_date nl start_date where person equal alice
+person where count employer ng two
+job_title where person equal alice
+person where end_date equal end_date where person equal alice
+relationship_status where gender is male
+person where online is true
+person where start_date nl start_date where person equal alice
+person where end_date neq 2004
+person where end_date equal start_date where person equal alice
+person argmin count job_title
+person where end_date ng start_date where person equal alice
+person where start_date equal 2004 or start_date equal 2010
+person where start_date less end_date where person equal alice
+person where end_date less start_date where person equal alice
+person where start_date greater 2004 or start_date greater 2010
+birthplace where end_date less 2004
+person where friends equal alice or friends equal bob
+person where job_title equal job_title where person equal alice
+friends where start_date less 2004
+friends where height equal 180 
+person where count friends greater two
+relationship_status where friends equal alice
+relationship_status where start_date neq 2004
+start_date where person equal alice where start_date equal 2004
+person where start_date less 2004 or start_date less 2010
+relationship_status where start_date less 2004
+person where friends equal alice and online is true
+person where relationship_status neq single
+gender where end_date less 2004
+relationship_status where start_date greater 2004
+person where university equal brown_university or university equal ucla
+person where count job_title ng two
+person where height equal 180 and gender equal gender where person equal alice
+person where birthdate greater birthdate where person equal alice
+friends where job_title neq software_engineer
+friends where end_date greater 2004
+gender neq gender where person equal alice
+job_title where end_date equal 2004
+person where online is true
+person where end_date equal start_date where person equal alice
+person where count relationship_status nl two
+person argmax end_state
+birthplace where friends equal alice
+friends where birthdate equal 2004
+friends where person equal alice
+relationship_status where start_date neq 2004
+person where end_date less start_date where person equal alice
+friends where start_date greater 2004
+person where friends equal alice and birthplace equal new_york 
+person where count gender equal two
+person where end_date neq 2004
+person where gender equal gender where height equal 180
+person where end_date nl birthdate where person equal alice
+friends where end_date ng 2004
+person where start_date ng 2004 or start_date ng 2010
+gender where end_date greater 2004
+person where count birthplace equal two
+person where count relationship_status ng two
+person where online equal true and friends equal alice
+person where count relationship_status equal two
+field_of_study where person equal alice where field_of_study equal computer_science
+friends where start_date ng 2004
+person where height equal 180 and start_date equal 2004
+friends where job_title neq software_engineer
+person where online equal true and height equal 180
+person where start_date nl 2004
+count university
+person where count birthplace equal two
+person where end_date less 2004
+person where start_date equal start_date where person equal alice
+gender where start_date greater 2004
+person where end_date nl 2004
+person where end_date neq 2004
+relationship_status where count person ng two
+gender where person equal alice
+person where end_date ng start_date where person equal alice
+person where start_date nl start_date where person equal alice
+person where online equal true and friends equal alice
+friends where university neq brown_university
+friends where end_date nl 2004
+person where height equal 180 and end_date equal 2004
+person where start_date equal end_date where person equal alice
+birthplace where count person equal two
+person argmin count job_title
+birthplace where gender equal male
+person where start_date nl birthdate where person equal alice
+friends where friends equal alice
+person where start_date greater 2004 or start_date greater 2010
+person where birthdate greater 2004
+birthplace where end_date ng 2004
+start_date where person equal alice where employer equal mckinsey
+person where start_date greater birthdate where person equal alice
+person where birthdate equal end_date where person equal alice
+person where gender equal gender where height equal 180
+person where birthplace equal birthplace where person equal alice
+person where start_date neq 2004
+person where height equal 180 and height equal height where person equal alice
+person where start_date less 2004
+person where end_date equal start_date where person equal alice
+person where height equal 180 and online equal true
+field_of_study where person equal alice where university equal brown_university
+friends where end_date ng 2004
+person where start_date less 2004
+relationship_status where end_date greater 2004
+person where count university ng two
+birthplace where start_date greater 2004
+person where birthdate greater start_date where person equal alice
+birthplace where relationship_status equal single
+person where birthplace equal new_york
+person where count friends greater two
+person where start_date nl 2004
+person where start_date equal 2004 or start_date equal 2010
+relationship_status neq relationship_status where person equal alice
+person where end_date equal start_date where person equal alice
+friends where end_state ng 2004
+person argmin end_date
+relationship_status where gender is male
+avg height
+person where friends equal alice and gender equal male
+person where gender equal male and friends equal alice
+person where end_date nl start_date where person equal alice
+birthplace where end_date neq 2004
+start_date where person equal alice where end_date equal 2004
+person where end_date less birthdate where person equal alice
+person where start_date less end_date where person equal alice
+person where count birthplace equal two
+person where end_date greater start_date where person equal alice
+friends where start_date less 2004
+gender where birthdate equal 2004
+birthplace where employer neq mckinsey
+person where end_date nl end_date where person equal alice
+person argmin count job_title
+birthplace where start_date less 2004
+friends where job_title neq software_engineer
+birthplace where person equal alice or person equal bob
+person where end_date less birthdate where person equal alice
+start_date where person equal alice
+relationship_status where end_date less 2004
+gender where end_date ng 2004
+relationship_status where start_date neq 2004
+person where start_date less start_date where person equal alice
+friends where friends equal alice
+gender where start_date ng 2004
+person argmin count field_of_study
+friends where start_date ng 2004
+friends where start_date greater 2004
+person where start_date less start_date where person equal alice
+gender where start_date ng 2004
+friends where employer neq mckinsey
+person where birthplace equal new_york and relationship_status equal single
+friends where job_title neq software_engineer
+birthplace where friends equal alice
+person where end_date less birthdate where person equal alice
+friends where end_date greater 2004
+person where friends equal alice and birthdate equal 2004
+relationship_status where person equal alice
+person where birthdate nl 2004
+person where field_of_study equal field_of_study where person equal alice
+person argmin end_date
+gender argmax count birthplace
+person where birthdate equal 2004 and height equal 180
+person where birthdate equal 2004 and height equal 180
+person where start_date nl end_date where person equal alice
+person where end_date nl birthdate where person equal alice
+person where birthdate ng start_date where person equal alice
+gender where end_date ng 2004
+person where end_date nl 2004 or end_date nl 2010
+person where end_date nl birthdate where person equal alice
+person where end_date ng birthdate where person equal alice
+friends where start_date greater 2004
+person where end_date ng end_date where person equal alice
+friends where employer neq mckinsey
+person where height equal 180 and friends equal alice
+person where height equal 180 and birthdate equal 2004
+person where end_date less birthdate where person equal alice
+person where relationship_status is single
+person where birthplace equal birthplace where person equal alice
+friends where start_date ng 2004
+person where end_date equal end_date where person equal alice
+person where height equal 180 and birthdate equal birthdate where person equal alice
+friends where start_date greater 2004
+person where start_date nl end_date where person equal alice
+person where end_date nl start_date where person equal alice
+friends where end_date greater 2004
+birthplace where start_date nl 2004
+person argmin birthdate
+person where field_of_study equal field_of_study where person equal alice
+university where height equal 180 
+person where end_date greater 2004
+person where birthdate greater start_date where person equal alice
+relationship_status where friends equal alice
+person where count gender nl two
+person where relationship_status equal single and gender equal male
+birthplace where start_date greater 2004
+person where start_date nl start_date where person equal alice
+person where start_date greater start_date where person equal alice
+friends where person equal alice
+person where birthdate equal 2004 and friends equal alice
+friends where online equal true
+person where end_date nl end_date where person equal alice
+birthplace where person equal alice
+person where start_date nl start_date where person equal alice
+person where start_date ng 2004
+person where end_date equal start_date where person equal alice
+person where university equal brown_university or university equal ucla
+person argmin start_date
+birthplace where end_date nl 2004
+person argmax start_date
+person where birthplace neq new_york
+person where end_date greater start_date where person equal alice
+person where university neq brown_university
+end_date where field_of_study equal computer_science
+person where end_date ng end_date where person equal alice
+birthplace where friends equal alice
+university where person equal alice
+friends where start_date ng 2004
+birthplace where start_date less 2004
+person where start_date greater 2004
+person where count relationship_status ng two
+university where person equal alice where end_date equal 2004
+person argmin end_date
+field_of_study where person equal alice where end_date equal 2004
+person argmin end_date
+avg height
+relationship_status where end_date ng 2004
+person where birthdate less end_date where person equal alice
+relationship_status where start_date nl 2004
+friends where start_date nl 2004
+person argmax end_state
+university where person equal alice
+person where start_date equal start_date where person equal alice
+birthplace where start_date greater 2004
+person where start_date greater start_date where person equal alice
+person where start_date equal start_date where person equal alice
+person where end_date less end_date where person equal alice
+gender where count person nl two
+person where start_date equal end_date where person equal alice
+birthplace where end_date less 2004
+birthplace where end_date nl 2004
+person where end_date ng start_date where person equal alice
+person where end_date ng start_date where person equal alice
+person where gender equal male and height equal 180
+person where start_date equal 2004 or start_date equal 2010
+count gender
+friends where start_date ng 2004
+gender where university neq brown_university
+person where end_date less start_date where person equal alice
+friends where end_date less 2004
+friends where end_date nl 2004
+person where height equal 180 and start_date equal 2004
+birthplace where start_date less 2004
+person where start_date nl end_date where person equal alice
+person where start_date greater start_date where person equal alice
+person where start_date neq 2004
+relationship_status where start_date neq 2004
+birthplace where end_date nl 2004
+person where start_date greater 2004 or start_date greater 2010
+friends where start_date less 2004
+person where height less 180
+person where height equal 180 and start_date equal 2004
+person where height greater 180
+person where count birthplace ng two
+person where field_of_study equal field_of_study where person equal alice
+person where start_date less start_date where person equal alice
+person where start_date less start_date where person equal alice
+person where start_date ng 2004 or start_date ng 2010
+person argmin height
+person where end_date less start_date where person equal alice
+person where gender equal male and birthplace equal new_york
+gender where end_date nl 2004
+person where end_date nl birthdate where person equal alice
+friends where end_date nl 2004
+friends where end_date neq 2004
+birthplace where start_date neq 2004
+birthplace where count person equal two
+friends where job_title neq software_engineer
+person where count field_of_study ng two
+employer equal mckinsey or employer equal google
+person where end_date greater end_date where person equal alice
+person where start_date equal end_date where person equal alice
+person where start_date nl 2004 or start_date nl 2010
+person where end_date equal end_date where person equal alice
+friends where start_date neq 2004
+person where end_date neq 2004
+person argmax count job_title
+person where start_date equal start_date where person equal alice
+friends where university neq brown_university
+person where start_date ng 2004
+person where height equal 180 and online equal true
+friends where start_date less 2004
+person where height equal 180 and online equal true
+person where birthplace equal new_york
+person where height equal 180 and height equal height where person equal alice
+person where friends equal alice and online is true
+person where gender equal male and height equal 180
+field_of_study where person equal alice
+count birthplace
+person where birthdate equal end_date where person equal alice
+person where friends equal alice and height equal 180
+friends where end_date nl 2004
+person where birthplace equal new_york and online equal true
+person argmin start_date
+gender where start_date less 2004
+birthplace where count person equal two
+person where height equal 180 and gender equal gender where person equal alice
+person where end_date nl start_date where person equal alice
+person argmin birthdate
+person argmin start_date
+relationship_status where end_date nl 2004
+person where end_date less 2004
+friends where university neq brown_university
+person where height equal 180 and height equal height where person equal alice
+person where friends neq alice
+person where end_date less 2004 or end_date less 2010
+person where start_date less start_date where person equal alice
+person where end_date nl start_date where person equal alice
+person where end_date neq 2004
+birthplace where end_date less 2004
+person where start_date nl end_date where person equal alice
+person where count friends equal two
+person where start_date equal start_date where person equal alice
+gender where birthplace equal new_york
+employer equal mckinsey or employer equal google
+person where count relationship_status less than two
+person where relationship_status equal single and birthdate equal 2004
+relationship_status where end_date greater 2004
+job_title where person equal alice where employer equal mckinsey
+person where end_date less start_date where person equal alice
+friends where start_date greater 2004
+person argmin count relationship_status
+person where end_date greater end_date where person equal alice
+start_date where person equal alice where end_date equal 2004
+person where start_date ng end_date where person equal alice
+gender where end_date nl 2004
+relationship_status where field_of_study neq computer_science
+gender where end_date greater 2004
+friends where end_date less 2004
+person where height equal 180 and birthplace equal birthplace where person equal alice
+person where end_date nl birthdate where person equal alice
+friends where start_date less 2004
+relationship_status where start_date greater 2004
+person where start_date equal birthdate where person equal alice
+person where start_date greater 2004
+person where start_date neq 2004
+gender where start_date nl 2004
+birthplace where end_date neq 2004
+person argmax end_date
+person where count gender less two
+person where online equal true and friends equal alice
+person where count friends greater two
+person where end_date equal start_date where person equal alice
+person where count relationship_status nl two
+relationship_status where start_date less 2004
+friends where job_title neq software_engineer
+person where birthdate equal 2004 and friends equal alice
+friends where start_date ng 2004
+friends where end_date neq 2004
+person where end_date less 2004 or end_date less 2010
+start_date where person equal alice where end_date equal 2004
+friends where start_date nl 2004
+gender where start_date ng 2004
+person where birthdate less end_date where person equal alice
+person where end_date ng 2004
+person argmax count job_title
+relationship_status where start_date ng 2004
+person where friends equal alice and online is true
+relationship_status where birthdate equal 2004
+person where count job_title ng two
+gender where employer neq mckinsey
+person argmax end_state
+person where birthdate ng start_date where person equal alice
+gender where start_date less 2004
+person where relationship_status equal relationship_status where height equal 180
+person where start_date ng birthdate where person equal alice
+person argmax start_date
+person where end_date equal end_date where person equal alice
+friends where end_date nl 2004
+friends where end_date neq 2004
+friends where end_state ng 2004
+person where height equal 180 and field_of_study equal computer_science
+person where birthdate less start_date where person equal alice
+person where end_date equal end_date where person equal alice
+person where end_date less 2004 or end_date less 2010
+person where end_date less 2004
+gender where end_date less 2004
+person where start_date equal start_date where person equal alice
+person where friends equal alice and online is true
+friends where end_date ng 2004
+person where end_date equal start_date where person equal alice
+person where count birthdate less two
+person where start_date equal start_date where person equal alice
+person where employer neq mckinsey
+person where end_date greater end_date where person equal alice
+person where end_date nl end_date where person equal alice
+person where birthplace equal new_york
+person where start_date less 2004
+person where end_date less end_date where person equal alice
+person where height nl height where person equal alice
+person where start_date equal start_date where person equal alice
+birthplace where employer neq mckinsey
+person where end_date less end_date where person equal alice
+friends where birthdate equal 2004
+person where start_date greater end_date where person equal alice
+friends where end_date neq 2004
+birthplace where job_title neq software_engineer
+count birthplace
+person where start_date less 2004 or start_date less 2010
+friends where start_date ng 2004
+person where start_date ng 2004
+person where start_date nl start_date where person equal alice
+relationship_status neq relationship_status where person equal alice
+person where end_date greater end_date where person equal alice
+person where end_date less end_date where person equal alice
+person argmin count friends
+friends where end_date neq 2004
+person where job_title equal job_title where person equal alice
+relationship_status where count person equal two
+person where end_date less start_date where person equal alice
+person where birthdate ng 2004
+friends where end_date neq 2004
+person argmax count employer
+person where end_date equal birthdate where person equal alice
+person where end_date greater 2004
+person argmax start_date
+gender where person equal alice
+person where friends equal alice
+relationship_status where end_date neq 2004
+person where field_of_study neq computer_science
+gender where start_date neq 2004
+person where start_date equal end_date where person equal alice
+relationship_status where start_date neq 2004
+birthplace where start_date neq 2004
+person where start_date greater 2004
+person where friends equal alice and online is true
+employer where height equal 180
+gender where start_date ng 2004
+friends where relationship_status equal single
+person where height equal 180 and birthdate equal birthdate where person equal alice
+person where end_date ng birthdate where person equal alice
+person where birthplace equal new_york and gender equal male
+relationship_status where end_date greater 2004
+person where count university less two
+relationship_status where person equal alice or person equal bob
+field_of_study where person equal alice where university equal brown_university
+person where birthdate equal 2004 and height equal 180
+friends where end_date nl 2004
+person where birthdate equal birthdate where height equal 180
+relationship_status where start_date less 2004
+gender equal male or gender equal female
+person where friends equal alice or friends equal bob
+gender where job_title neq software_engineer
+person where friends equal alice and relationship_status equal single
+person where start_date ng start_date where person equal alice
+gender where end_date ng 2004
+person argmin count job_title
+person argmin height
+person where height ng 180 or height ng 200
+person where count relationship_status ng two
+person where height equal 180 and end_date equal 2004
+university where person equal alice where university equal brown_university
+friends where friends equal alice
+person where relationship_status is single
+birthplace where start_date less 2004
+birthplace where count person less two
+job_title where height equal 180
+person where birthdate neq 2004
+person where end_date greater end_date where person equal alice
+friends where start_date less 2004
+person where height equal 180 and online equal true
+person where start_date less end_date where person equal alice
+person where count job_title less two
+person where count gender equal two
+person where birthdate equal birthdate where height equal 180
+birthplace where start_date ng 2004
+person where height equal 180 and end_date equal 2004
+gender where start_date nl 2004
+end_date where person equal alice
+friends where field_of_study neq computer_science
+person where count birthplace nl two
+person where end_date equal start_date where person equal alice
+relationship_status where start_date neq 2004
+person where end_date nl start_date where person equal alice
+person where start_date ng end_date where person equal alice
+person where start_date equal birthdate where person equal alice
+person where online is true
+person where end_date nl birthdate where person equal alice
+person where university equal university where person equal alice
+person where start_date ng end_date where person equal alice
+relationship_status where count person ng two
+person where end_date equal birthdate where person equal alice
+birthplace where end_date less 2004
+friends where job_title neq software_engineer
+person where start_date ng start_date where person equal alice
+friends where birthdate equal 2004
+birthdate where person equal alice
+person where count job_title ng two
+relationship_status where end_date greater 2004
+person where start_date greater 2004
+person where online equal true and height equal 180
+person where height equal 180 and where job_title equal software_engineer
+friends where end_date ng 2004
+gender where relationship_status equal single
+person where end_date less 2004
+person where start_date greater end_date where person equal alice
+relationship_status where count person greater two
+birthplace where job_title neq software_engineer
+person where count friends ng two
+gender where field_of_study neq computer_science
+person where height neq 180
+relationship_status where start_date nl 2004
+person where online equal true and relationship_status equal single
+end_date where person equal alice where employer equal mckinsey
+friends where relationship_status equal single
+birthplace where gender equal male
+person where university equal brown_university or university equal ucla
+person where end_date ng start_date where person equal alice
+person where end_date ng 2004
+person where count friends greater two
+person where height equal 180 and height equal height where person equal alice
+person where end_date less start_date where person equal alice
+gender argmin count person
+person where count birthplace ng two
+friends where start_date neq 2004
+person where end_date nl start_date where person equal alice
+birthplace where start_date ng 2004
+person where gender equal male and friends equal alice
+person where count friends nl twp
+person where start_date ng 2004 or start_date ng 2010
+person where start_date ng 2004
+birthplace where start_date neq 2004
+birthplace where start_date ng 2004
+friends where height equal 180 
+person where end_date ng start_date where person equal alice
+person where end_date greater 2004 or end_date greater 2010
+person where end_date nl birthdate where person equal alice
+person where start_date less birthdate where person equal alice
+person where birthplace equal new_york or birthplace equal beijing
+gender where university neq brown_university
+person where end_date equal end_date where person equal alice
+person where count relationship_status equal two
+birthplace where start_date ng 2004
+employer where person equal alice where end_date equal 2004
+relationship_status where count person greater two
+person where height nl height where person equal alice
+relationship_status where count person equal two
+person where birthdate equal end_date where person equal alice
+friends where end_date greater 2004
+person where start_date less end_date where person equal alice
+friends where field_of_study neq computer_science
+friends where height equal 180 
+relationship_status where start_date nl 2004
+person where height equal 180 and birthplace equal birthplace where person equal alice
+birthplace where friends equal alice
+friends where end_date nl 2004
+birthplace neq birthplace where person equal alice
+person where start_date greater 2004
+person where start_date nl start_date where person equal alice
+person where end_date greater 2004 or end_date greater 2010
+person where end_date equal start_date where person equal alice
+person where friends equal alice and birthplace equal new_york
+person where start_date nl 2004 or start_date nl 2010
+person where online is true
+person argmin end_date
+birthplace where start_date less 2004
+gender where start_date nl 2004
+relationship_status where start_date nl 2004
+person where count friends equal two
+friends where start_date nl 2004
+birthplace where university neq brown_university
+person where gender equal male and friends equal alice
+birthplace argmax count person
+person where job_title equal job_title where person equal alice
+person where job_title neq software_engineer
+job_title where person equal alice where employer equal mckinsey
+person where end_date nl start_date where person equal alice
+end_date where person equal alice 
+birthplace where count person less two
+job_title where end_date equal 2004
+person where birthdate equal birthdate where height equal 180
+friends where field_of_study neq computer_science
+friends where start_date ng 2004
+person where height nl height where person equal alice
+person where end_date ng end_date where person equal alice
+person where birthdate nl start_date where person equal alice
+birthplace where count person ng two
+person where relationship_status equal relationship_status where height equal 180
+person where end_date equal start_date where person equal alice
+person where start_date equal start_date where person equal alice
+person where height equal 180 and online equal true
+friends where start_date neq 2004
+relationship_status where end_date neq 2004
+person where employer neq mckinsey
+birthdate equal 2004 or birthdate equal 2010
+person argmax count employer
+person where count friends less two
+person where end_date ng end_date where person equal alice
+friends where start_date ng 2004
+person where start_date greater birthdate where person equal alice
+person argmax start_date
+person where birthdate equal 2004 and birthplace equal new_york
+person where height equal 180 and where job_title equal software_engineer
+person where friends neq alice
+person where end_date less birthdate where person equal alice
+person where start_date less start_date where person equal alice
+friends where start_date ng 2004
+gender where end_date neq 2004
+relationship_status where end_date greater 2004
+person where friends equal alice and height equal 180
+friends where end_date nl 2004
+person where start_date ng end_date where person equal alice
+birthplace argmax count person
+person where field_of_study neq computer_science
+person where birthplace equal new_york and online equal true
+relationship_status where start_date greater 2004
+person where field_of_study equal computer_science or field_of_study equal history
+person where end_date nl start_date where person equal alice
+person where count friends less two
+count employer
+person where end_date ng 2004
+relationship_status where field_of_study neq computer_science
+person where friends equal alice or friends equal bob
+person where end_date ng birthdate where person equal alice
+gender where field_of_study neq computer_science
+person where end_date equal 2004 or end_date equal 2010
+birthplace where end_date neq 2004
+person where end_date nl end_date where person equal alice
+relationship_status where birthplace equal new_york
+person where end_date less end_date where person equal alice
+friends where start_date greater 2004
+person where friends equal alice and height equal 180
+gender where start_date neq 2004
+person where count employer less two
+end_date where field_of_study equal computer_science
+gender where end_date ng 2004
+person where job_title neq software_engineer
+person where end_date equal end_date where person equal alice
+relationship_status where count person nl two
+person where birthdate equal end_date where person equal alice
+birthplace where start_date nl 2004
+person where start_date less start_date where person equal alice
+gender where end_date greater 2004
+person where end_date nl end_date where person equal alice
+gender where friends equal alice
+person where birthplace equal new_york or birthplace equal beijing
+relationship_status where end_date less 2004
+university where person equal alice where end_date equal 2004
+person where friends equal alice and height equal 180
+person where start_date less end_date where person equal alice
+person where end_date greater start_date where person equal alice
+relationship_status where end_date neq 2004
+birthplace where start_date greater 2004
+person where start_date ng start_date where person equal alice
+person argmin start_date
+birthplace where field_of_study neq computer_science
+birthplace where end_date less 2004
+birthplace where university neq brown_university
+person where birthdate equal start_date where person equal alice
+birthplace where end_date greater 2004
+person where count friends equal two
+person where end_date equal birthdate where person equal alice
+friends where birthplace equal new_york
+start_date where person equal alice where employer equal mckinsey
+relationship_status where university neq brown_university
+person where job_title equal job_title where person equal alice
+person where birthdate equal start_date where person equal alice
+friends where start_date neq 2004
+friends where online is true
+person where birthplace neq new_york
+person where relationship_status equal single or relationship_status equal married
+friends where birthplace equal new_york
+person where gender equal male and friends equal alice
+person argmin count employer
+person where count job_title ng two
+relationship_status where start_date less 2004
+person where end_date nl end_date where person equal alice
+employer equal mckinsey or employer equal google
+person where end_date neq 2004
+person where friends equal alice and birthplace equal new_york 
+person where start_date greater end_date where person equal alice
+person argmin start_date
+person where height equal 180 and end_date equal 2004
+person where start_date nl start_date where person equal alice
+person where university neq brown_university
+person where end_date greater end_date where person equal alice
+person where end_date less birthdate where person equal alice
+person where height ng 180 or height ng 200
+person where start_date equal end_date where person equal alice
+count field_of_study
+birthplace where start_date less 2004
+birthplace where start_date less 2004
+person where job_title software_engineer equal or job_title equal program_manager
+person where start_date greater end_date where person equal alice
+person where person equal alice where job_title equal software_engineer
+person argmax start_date
+person where start_date equal start_date where person equal alice
+relationship_status where friends equal alice
+person where end_date equal start_date where person equal alice
+friends where start_date ng 2004
+person where start_date greater end_date where person equal alice
+friends where university neq brown_university
+birthplace where start_date less 2004
+person where end_date nl birthdate where person equal alice
+person where start_date greater start_date where person equal alice
+start_date where person equal alice
+friends where end_date less 2004
+friends where birthdate equal 2004
+person where end_date equal end_date where person equal alice
+person where start_date nl 2004
+person where university equal brown_university or university equal ucla
+gender where height equal 180
+person where start_date equal birthdate where person equal alice
+birthplace equal new_york or birthplace equal beijing
+person where end_date less start_date where person equal alice
+person where height equal 180 and height equal height where person equal alice
+person where start_date ng end_date where person equal alice
+job_title where person equal alice
+person where start_date nl end_date where person equal alice
+birthplace neq birthplace where person equal alice
+person where end_date equal start_date where person equal alice
+person where birthdate equal birthdate where height equal 180
+person where start_date greater end_date where person equal alice
+friends where employer neq mckinsey
+person where start_date neq 2004
+gender where start_date nl 2004
+relationship_status where count person nl two
+count relationship_status
+person where height equal 180 and employer equal mckinsey
+job_title where person equal alice where employer equal mckinsey
+friends where birthplace equal new_york
+person where end_date ng 2004
+person where start_date equal 2004 or start_date equal 2010
+birthplace where start_date neq 2004
+friends where height equal 180 
+birthplace where start_date nl 2004
+person argmin count employer
+birthplace where employer neq mckinsey
+gender argmax count person
+person where start_date ng end_date where person equal alice
+friends where end_date less 2004
+person where start_date less end_date where person equal alice
+person where height equal 180 and where job_title equal software_engineer
+person where gender equal gender where height equal 180
+person where height less 180
+birthplace where start_date ng 2004
+friends where online equal true
+person where friends equal alice
+gender where start_date less 2004
+friends where start_date ng 2004
+person where end_date greater start_date where person equal alice
+relationship_status where count person nl two
+person where end_date ng 2004 or end_date ng 2010
+person where count employer ng two
+person where start_date equal start_date where person equal alice
+gender where start_date neq 2004
+person where start_date equal start_date where person equal alice
+person where start_date equal start_date where person equal alice
+birthplace where gender equal male
+person where start_date greater start_date where person equal alice
+friends where end_date less 2004
+birthplace where count person equal two
+person where relationship_status equal single and birthplace equal new_york
+person where birthdate less birthdate where person equal alice
+person where birthdate nl start_date where person equal alice
+friends where end_date neq 2004
+person where count university less two
+start_date where person equal alice where end_date equal 2004
+person where end_date nl start_date where person equal alice
+person where end_date ng start_date where person equal alice
+person where start_date greater end_date where person equal alice
+gender where end_date greater 2004
+friends where relationship_status equal single
+person where field_of_study equal computer_science or field_of_study equal history
+relationship_status where count person equal two
+gender where start_date neq 2004
+gender where end_date nl 2004
+person where height equal 180 and employer equal mckinsey
+birthplace where start_date ng 2004
+relationship_status where start_date greater 2004
+person where birthdate nl end_date where person equal alice
+person where start_date ng 2004
+person where count relationship_status greater two
+person where end_date greater end_date where person equal alice
+university where person equal alice where field_of_study equal computer_science
+person where end_date nl end_date where person equal alice
+person where friends equal alice
+person where height ng height where person equal alice
+person where end_date nl end_date where person equal alice
+person where start_date greater 2004
+birthplace where start_date less 2004
+job_title equal software_engineer or job_title equal program_manager
+person argmin count gender
+friends where start_date nl 2004
+person where count field_of_study less two
+friends where birthdate equal 2004
+friends where employer neq mckinsey
+person where birthdate equal 2004
+person where end_date ng 2004
+person where count job_title less two
+person where relationship_status equal relationship_status where person equal alice
+friends where start_date greater 2004
+person where start_date nl birthdate where person equal alice
+relationship_status where height equal 180
+person where start_date equal 2004 or start_date equal 2010
+person where birthdate equal 2004
+person where end_date greater start_date where person equal alice
+birthplace where start_date neq 2004
+friends where start_date greater 2004
+birthplace where start_date neq 2004
+person where university equal brown_university or university equal ucla
+person where height equal 180 and birthdate equal birthdate where person equal alice
+person where end_date nl birthdate where person equal alice
+person where start_date less 2004
+person where end_date greater start_date where person equal alice
+gender where end_date neq 2004
+person where count job_title less two
+person where end_date less end_date where person equal alice
+friends where employer neq mckinsey
+person where university equal university where person equal alice
+person argmax count relationship_status
+birthplace where end_date nl 2004
+person where start_date neq 2004
+person where end_date greater birthdate where person equal alice
+person where end_date equal start_date where person equal alice
+person where job_title neq software_engineer
+person where start_date less 2004
+gender where end_date nl 2004
+person where start_date equal end_date where person equal alice
+person where start_date equal start_date where person equal alice
+relationship_status where start_date less 2004
+person argmax count friends
+gender where end_date ng 2004
+end_date where person equal alice where university equal brown_university
+birthplace where start_date nl 2004
+person where end_date less birthdate where person equal alice
+person argmax count job_title
+person where start_date ng start_date where person equal alice
+friends where birthplace equal new_york
+gender where count person greater two
+person where start_date nl end_date where person equal alice
+person where start_date equal birthdate where person equal alice
+person where start_date less end_date where person equal alice
+person where start_date nl birthdate where person equal alice
+relationship_status where end_date greater 2004
+gender where end_date nl 2004
+person where start_date less 2004
+relationship_status where online equal true
+person where count field_of_study less two
+start_date where person equal alice where start_date equal 2004
+person where count gender greater two
+person where friends equal alice and height equal 180 
+person where start_date nl end_date where person equal alice
+person where field_of_study equal computer_science or field_of_study equal history
+relationship_status where end_date greater 2004
+person where end_date ng start_date where person equal alice
+relationship_status neq relationship_status where person equal alice
+person where birthdate equal 2004 and height equal 180
+person where end_date greater end_date where person equal alice
+person where gender equal male and friends equal alice
+friends where end_date nl 2004
+relationship_status where university neq brown_university
+friends where employer neq mckinsey
+friends where start_date nl 2004
+birthplace where start_date ng 2004
+gender where start_date nl 2004
+employer where person equal alice where end_date equal 2004
+person where end_date less start_date where person equal alice
+person where relationship_status equal relationship_status where person equal alice
+person where height equal 180 and end_date equal 2004
+gender where job_title neq software_engineer
+relationship_status neq relationship_status where person equal alice
+friends where start_date neq 2004
+person where birthplace equal new_york and height equal 180 
+person where start_date ng start_date where person equal alice
+friends where start_date nl 2004
+person where university equal university where person equal alice
+person where start_date greater 2004
+person where height equal 180 and field_of_study equal computer_science
+birthplace where field_of_study neq computer_science
+job_title equal software_engineer or job_title equal program_manager
+friends where end_date greater 2004
+person where end_date greater birthdate where person equal alice
+person where end_date greater 2004 or end_date greater 2010
+gender where start_date ng 2004
+person where start_date ng birthdate where person equal alice
+person argmin end_date
+person where start_date less start_date where person equal alice
+person where end_date less 2004
+person where gender neq male
+person where birthdate ng birthdate where person equal alice
+person where start_date less start_date where person equal alice
+person argmax start_date
+person where start_date nl end_date where person equal alice
+person where start_date nl start_date where person equal alice
+start_date where person equal alice where field_of_study equal computer_science
+friends where field_of_study neq computer_science
+person where birthdate equal 2004 and friends equal alice
+person where start_date equal start_date where person equal alice
+person where friends equal alice and height equal 180
+friends where job_title neq software_engineer
+person where birthdate equal 2004 and height equal 180
+relationship_status where start_date greater 2004
+person where end_date equal 2004 or end_date equal 2010
+friends where end_date less 2004
+friends where end_date less 2004
+person where birthdate less 2004 or birthdate less 2010
+height equal 180 or height equal 200
+person where start_date neq 2004
+person where end_date greater 2004 or end_date greater 2010
+relationship_status where field_of_study neq computer_science
+person where height less 180
+person where count relationship_status equal two
+person where birthdate ng end_date where person equal alice
+person where start_date equal end_date where person equal alice
+person where count relationship_status less than two
+gender where online is true
+person where elationship_status equal single and friends equal alice
+person argmin birthdate
+person where birthplace equal new_york and height equal 180 
+person where end_date nl end_date where person equal alice
+friends where end_date nl 2004
+person where height equal 180 and birthplace equal new_york 
+person argmin count field_of_study
+person where friends equal alice and online is true
+person argmin count field_of_study
+person where end_date equal birthdate where person equal alice
+person where relationship_status equal single and friends equal alice
+person where end_date less birthdate where person equal alice
+person where end_date neq 2004
+friends where end_date less 2004
+person where friends equal alice
+person where start_date greater 2004 or start_date greater 2010
+person where start_date equal end_date where person equal alice
+friends where birthplace equal new_york
+end_date where person equal alice where employer equal mckinsey
+birthplace where person equal alice
+friends where job_title neq software_engineer
+job_title where person equal alice
+gender where start_date neq 2004
+friends where university neq brown_university
+person where birthdate less start_date where person equal alice
+person where start_date less end_date where person equal alice
+person where height equal 180 and friends equal alice
+gender where end_date less 2004
+person argmax count field_of_study
+person where count relationship_status nl two
+person where height equal 180 and end_date equal 2004
+relationship_status where start_date neq 2004
+person where count birthplace equal two
+person where end_date nl end_date where person equal alice
+person where gender equal male and relationship_status equal single
+person where count job_title ng two
+person where count job_title ng two
+friends where relationship_status equal single
+relationship_status where start_date greater 2004
+person where count gender less two
+birthplace where person equal alice
+gender where person equal alice or person equal bob
+gender where field_of_study neq computer_science
+person where online equal true and friends equal alice
+friends where start_date nl 2004
+person where end_date ng 2004
+friends where online is true
+person where start_date equal birthdate where person equal alice
+person where birthdate equal birthdate where height equal 180
+gender where start_date ng 2004
+person where height ng height where person equal alice
+friends where friends equal alice
+friends where university neq brown_university
+person argmin count relationship_status
+person where start_date nl 2004
+relationship_status where start_date neq 2004
+birthplace where end_date ng 2004
+person where end_date nl 2004 or end_date nl 2010
+relationship_status where end_date neq 2004
+birthplace where person equal alice
+friends where end_date greater 2004
+person where start_date greater start_date where person equal alice
+birthplace where start_date greater 2004
+person argmin count university 
+relationship_status where height equal 180
+person argmin height
+friends where end_date ng 2004
+friends where end_date ng 2004
+person where birthdate equal 2004 and birthplace equal new_york
+person where end_date less 2004 or end_date less 2010
+gender where height equal 180
+person where end_date nl 2004 or end_date nl 2010
+person where start_date nl start_date where person equal alice
+relationship_status where start_date nl 2004
+person where birthdate ng end_date where person equal alice
+person argmax count employer
+person where end_date equal end_date where person equal alice
+person where relationship_status equal single and birthdate equal 2004
+person where start_date neq 2004
+person where start_date greater birthdate where person equal alice
+friends where gender equal male
+person where start_date nl 2004
+friends where start_date nl 2004
+job_title where person equal alice where employer equal mckinsey
+gender where birthplace equal new_york
+friends where online equal true
+friends where online is true
+university where person equal alice
+friends where start_date less 2004
+person where height neq 180
+friends where start_date nl 2004
+person where count birthplace nl two
+person argmax start_date
+person where height ng height where person equal alice
+person where height equal height where person equal alice
+person argmin count friends
+person where birthplace equal new_york and friends equal alice
+person where start_date ng start_date where person equal alice
+person where count gender ng two
+person where start_date less start_date where person equal alice
+person where start_date nl start_date where person equal alice
+person where end_date less end_date where person equal alice
+relationship_status where height equal 180
+friends where end_date nl 2004
+person where end_date less birthdate where person equal alice
+person where start_date equal 2004 or start_date equal 2010
+person where birthdate equal 2004 and gender equal male
+friends where end_date greater 2004
+person where start_date nl 2004
+person where end_date less end_date where person equal alice
+person argmin end_date
+person where start_date nl 2004 or start_date nl 2010
+person where start_date less 2004
+person where friends equal alice or friends equal bob
+relationship_status where start_date greater 2004
+relationship_status where start_date nl 2004
+person where height equal 180 and friends equal alice
+person where birthdate greater start_date where person equal alice
+person where start_date less start_date where person equal alice
+relationship_status where start_date neq 2004
+person where height equal 180 and end_date equal 2004
+person argmax birthdate
+person where start_date less start_date where person equal alice
+person where birthplace equal new_york or birthplace equal beijing
+person where start_date less birthdate where person equal alice
+friends where start_date greater 2004
+person where job_title neq software_engineer
+person where end_date nl start_date where person equal alice
+friends where end_date less 2004
+person where relationship_status equal single and online equal true
+friends where end_date ng 2004
+person where end_date greater start_date where person equal alice
+relationship_status where end_date nl 2004
+birthplace where end_date ng 2004
+friends where start_date greater 2004
+gender where start_date less 2004
+person where birthdate ng start_date where person equal alice
+person where field_of_study neq computer_science
+gender where end_date greater 2004
+person where start_date less 2004
+person where start_date greater end_date where person equal alice
+relationship_status where start_date ng 2004
+person where end_date less end_date where person equal alice
+end_date where person equal alice where end_date equal 2004
+birthplace where end_date nl 2004
+end_date where persone equal alice where start_date equal 2004
+birthplace where start_date ng 2004
+person where height equal 180 and birthdate equal 2004
+person where start_date equal start_date where person equal alice
+person where count friends nl two
+person where relationship_status neq single
+birthplace where count person greater two
+person where job_title equal job_title where person equal alice
+gender where friends equal alice
+friends where employer neq mckinsey
+person where birthplace equal new_york and relationship_status equal single
+person where end_date equal birthdate where person equal alice
+person where start_date less birthdate where person equal alice
+person where birthdate ng start_date where person equal alice
+relationship_status where employer neq mckinsey
+birthplace where end_date ng 2004
+person where height equal 180 and gender equal male
+friends where start_date neq 2004
+friends where end_date ng 2004
+person argmax count job_title
+person where start_date equal end_date where person equal alice
+friends where start_date neq 2004
+person where online equal true and gender equal male
+person where job_title neq software_engineer
+person where start_date nl 2004
+person where start_date less start_date where person equal alice
+person where end_date ng start_date where person equal alice
+university where height equal 180 
+friends where height equal 180 
+start_date where person equal alice where job_title equal software_engineer
+person where end_date greater 2004
+person where end_date less start_date where person equal alice
+person where end_date ng 2004 or end_date ng 2010
+friends where end_date nl 2004
+friends where end_date neq 2004
+height where person equal alice
+person where end_date less 2004 or end_date less 2010
+person where start_date equal start_date where person equal alice
+person where start_date less end_date where person equal alice
+friends where start_date ng 2004
+person where start_date greater end_date where person equal alice
+person where height equal 180 and employer equal mckinsey
+person where height equal 180 and field_of_study equal computer_science
+gender where end_date nl 2004
+person where end_date greater end_date where person equal alice
+person where start_date less 2004 where start_date less 2010
+birthplace where start_date less 2004
+person where start_date nl start_date where person equal alice
+relationship_status where start_date less 2004
+person where start_date greater start_date where person equal alice
+person where height equal 180 and employer equal mckinsey
+gender where end_date nl 2004
+start_date where person equal alice where job_title equal software_engineer
+person where start_date greater end_date where person equal alice
+person where height greater 180 or height greater 200
+person where count friends nl twp
+person where field_of_study equal field_of_study where person equal alice
+person where university neq brown_university
+relationship_status where end_date neq 2004
+gender where end_date neq 2004
+person where end_date equal start_date where person equal alice
+person where start_date nl start_date where person equal alice
+person where end_date nl birthdate where person equal alice
+person where count gender greater two
+person where end_date less 2004 or end_date less 2010
+birthplace where start_date neq 2004
+person where start_date equal birthdate where person equal alice
+friends where start_date neq 2004
+person where end_date ng 2004
+birthplace where friends equal alice
+person where online equal true and relationship_status equal single
+person where end_date less birthdate where person equal alice
+birthplace where person equal alice or person equal bob
+friends where start_date greater 2004
+birthplace where employer neq mckinsey
+person where end_date nl birthdate where person equal alice
+birthdate where person equal alice
+person where relationship_status equal single and birthdate equal 2004
+friends where start_date neq 2004
+person where end_date ng end_date where person equal alice
+person where start_date ng end_date where person equal alice
+person where height equal 180 and field_of_study equal computer_science
+person where field_of_study neq computer_science
+count gender
+friends where end_date ng 2004
+person where online equal true and birthplace equal new_york 
+friends where online equal true
+job_title where person equal alice where start_date equal 2004
+person where start_date less 2004
+friends where end_date neq 2004
+friends where gender is male 
+gender where count person ng two
+person where start_date ng end_date where person equal alice
+gender where start_date less 2004
+friends where end_date neq 2004
+relationship_status where height equal 180
+person where end_date greater 2004
+gender where start_date greater 2004
+end_date where field_of_study equal computer_science
+person where end_date nl end_date where person equal alice
+person where relationship_status equal single and gender equal male
+person where start_date ng start_date where person equal alice
+person where start_date nl start_date where person equal alice
+person where end_date ng end_date where person equal alice
+person where height less height where person equal alice
+person where start_date ng start_date where person equal alice
+person where gender equal gender where person equal alice
+person where end_date nl start_date where person equal alice
+person where height equal 180 and employer equal mckinsey
+person where end_date ng start_date where person equal alice
+person where start_date nl start_date where person equal alice
+person where university neq brown_university
+person where start_date less 2004
+relationship_status where friends equal alice
+person where start_date greater birthdate where person equal alice
+relationship_status where start_date less 2004
+person where end_date equal start_date where person equal alice
+person where end_date nl end_date where person equal alice
+person where start_date equal birthdate where person equal alice
+friends where start_date nl 2004
+friends where end_date neq 2004
+birthplace where end_date less 2004
+person where start_date equal birthdate where person equal alice
+person where end_date ng start_date where person equal alice
+person where gender equal gender where person equal alice
+person where birthdate greater start_date where person equal alice
+relationship_status where end_date less 2004
+person where birthdate equal 2004 and online equal true
+person where end_date ng start_date where person equal alice
+person where start_date greater start_date where person equal alice
+birthplace where height equal 180
+person where end_date nl end_date where person equal alice
+friends where end_date ng 2004
+person where relationship_status equal single and online equal true
+person where birthdate equal 2004 and birthplace equal new_york
+person where birthdate equal start_date where person equal alice
+person where end_date ng 2004
+person where start_date equal birthdate where person equal alice
+person where start_date greater 2004
+person where start_date less 2004 where start_date less 2010
+person where height equal 180 and birthdate equal 2004
+person where start_date nl end_date where person equal alice
+friends where friends equal alice
+person where birthdate less 2004 or birthdate less 2010
+friends where end_date less 2004
+person where count person ng two
+person argmin start_date
+birthplace where end_date neq 2004
+birthplace where employer neq mckinsey
+relationship_status where end_date nl 2004
+person where start_date nl end_date where person equal alice
+birthplace where end_date ng 2004
+person where end_date greater 2004
+field_of_study equal computer_science or field_of_study equal history
+person where end_date nl 2004
+person where relationship_status equal single and friends equal alice
+gender where online is true
+relationship_status where end_date neq 2004
+person where height equal 180 and relationship_status equal relationship_status where person equal alice
+person where relationship_status equal single and birthplace equal new_york
+person where friends equal alice
+person where start_date less end_date where person equal alice
+person where start_date equal birthdate where person equal alice
+birthplace where start_date ng 2004
+person where start_date ng start_date where person equal alice
+birthplace argmax count person
+friends where end_date nl 2004
+person where count employer ng two
+person where start_date less birthdate where person equal alice
+person where employer equal employer where person equal alice
+person where count field_of_study less two
+person where start_date ng end_date where person equal alice
+birthplace where end_date greater 2004
+friends where university neq brown_university
+gender where person equal alice or person equal bob
+person where start_date less 2004
+person where height equal 180 and birthdate equal birthdate where person equal alice
+friends where start_date neq 2004
+person where end_date equal start_date where person equal alice
+person where start_date equal end_date where person equal alice
+person where end_date equal 2004 or end_date equal 2010
+person where birthdate equal birthdate where height equal 180
+count job_title
+person where start_date less 2004 where start_date less 2010
+birthplace where person equal alice
+person where height nl height where person equal alice
+person where start_date ng end_date where person equal alice
+person where end_date ng start_date where person equal alice
+person where start_date less end_date where person equal alice
+gender equal male or gender equal female
+person where start_date ng 2004
+person argmin count university 
+person where start_date less end_date where person equal alice
+person where height equal 180 and birthdate equal 2004
+person where job_title software_engineer equal or job_title equal program_manager
+relationship_status where end_date neq 2004
+person where end_date greater birthdate where person equal alice
+start_date where person equal alice where start_date equal 2004
+person argmax start_date
+person where gender equal male and friends equal alice
+relationship_status where field_of_study neq computer_science
+relationship_status where count person less two
+friends where end_date less 2004
+university equal brown_university or university equal ucla
+person where height equal 180 and where job_title equal software_engineer
+person where start_date greater birthdate where person equal alice
+friends where job_title neq software_engineer
+person where end_date nl end_date where person equal alice
+person where height ng 180
+gender where relationship_status equal single
+person where end_date ng end_date where person equal alice
+person argmin count university 
+person where birthdate greater 2004 or birthdate greater 2010
+person where birthdate equal 2004 and height equal 180
+person where start_date ng end_date where person equal alice
+relationship_status argmax count person
+gender where start_date less 2004
+person where relationship_status equal single and friends equal alice
+friends where start_date greater 2004
+birthplace where start_date less 2004
+person where start_date greater end_date where person equal alice
+friends where height equal 180 
+friends where start_date greater 2004
+person where field_of_study equal computer_science or field_of_study equal history
+person where end_date ng start_date where person equal alice
+person where end_date ng end_date where person equal alice
+person where birthdate equal birthdate where height equal 180
+person where friends equal alice and relationship_status equal single
+person where count relationship_status nl two
+gender where start_date greater 2004
+person where count employer less two
+person where start_date equal start_date where person equal alice
+field_of_study where person equal alice
+person argmin end_date
+relationship_status where employer neq mckinsey
+person where end_date equal end_date where person equal alice
+friends where start_date less 2004
+person where count employer less two
+person where birthplace equal new_york and birthdate equal 2004
+birthplace where start_date neq 2004
+count field_of_study
+person where start_date greater end_date where person equal alice
+friends where field_of_study neq computer_science
+person where job_title equal job_title where person equal alice
+field_of_study where person equal alice where end_date equal 2004
+start_date where person equal alice where field_of_study equal computer_science
+person where job_title neq software_engineer
+gender where count person greater two
+friends where start_date neq 2004
+person where friends equal alice
+person where gender neq male
+employer where height equal 180
+person where relationship_status equal single and birthdate equal 2004
+person where relationship_status equal single and online equal true
+friends where start_date neq 2004
+person where start_date nl 2004
+gender where count person less two
+person where height equal 180 
+person argmax start_date
+person where relationship_status equal single and height equal 180 
+birthplace where university neq brown_university
+person where relationship_status equal single and gender equal male
+person where end_date ng end_date where person equal alice
+friends where person equal alice
+person where start_date nl birthdate where person equal alice
+person where end_date greater 2004 or end_date greater 2010
+person where birthplace equal new_york and gender equal male
+person where end_date nl 2004
+relationship_status where university neq brown_university
+relationship_status where start_date neq 2004
+person where end_date less start_date where person equal alice
+person where friends equal alice and height equal 180
+person where end_date greater end_date where person equal alice
+person where birthplace equal new_york and friends equal alice
+person where start_date neq 2004
+relationship_status where end_date nl 2004
+person where birthdate equal start_date and friends equal alice
+person where height nl 180
+job_title where person equal alice
+person where start_date greater birthdate where person equal alice
+person where start_date nl start_date where person equal alice
+person where start_date ng 2004 or start_date ng 2010
+person where count friends less two
+person where job_title equal job_title where person equal alice
+person where birthdate equal 2004 or birthdate equal 2010
+person where end_date less 2004
+person where count university ng two
+person where end_date greater 2004 or end_date greater 2010
+gender argmax count person
+relationship_status where start_date ng 2004
+person where friends neq alice
+end_date where person equal alice where university equal brown_university
+person where height ng 180 or height ng 200
+gender where start_date ng 2004
+person where height ng 180
+person where start_date greater end_date where person equal alice
+person where relationship_status equal relationship_status where height equal 180
+person where count field_of_study less two
+person where birthdate ng 2004
+person where friends equal alice or friends equal bob
+person where birthdate ng 2004 or birthdate ng 2010
+friends where friends equal alice
+person where birthdate equal birthdate where height equal 180
+person where end_date equal start_date where person equal alice
+person where end_date less start_date where person equal alice
+person where relationship_status equal single and height equal 180 
+birthplace where end_date nl 2004
+friends where start_date neq 2004
+person where end_date equal start_date where person equal alice
+person where height ng 180
+gender where employer neq mckinsey
+person where start_date less 2004
+person where height equal 180 and friends equal alice
+person where end_date equal 2004 or end_date equal 2010
+person where end_date equal start_date where person equal alice
+person where field_of_study neq computer_science
+university where person equal alice where university equal brown_university
+person where start_date greater end_date where person equal alice
+gender where job_title neq software_engineer
+person where start_date greater end_date where person equal alice
+birthplace where end_date neq 2004
+relationship_status where height equal 180
+relationship_status where start_date nl 2004
+person where start_date nl end_date where person equal alice
+person where height equal 180 and start_date equal 2004
+person where start_date nl end_date where person equal alice
+person where friends equal alice
+person where count gender greater two
+person where start_date nl start_date where person equal alice
+gender where start_date neq 2004
+person where end_date ng end_date where person equal alice
+person where end_date less end_date where person equal alice
+person where end_date less start_date where person equal alice
+end_date where person equal alice where university equal brown_university
+person where end_date greater 2004
+person where start_date ng start_date where person equal alice
+friends where end_date less 2004
+person where start_date equal end_date where person equal alice
+person where end_date greater start_date where person equal alice
+relationship_status where end_state ng 2004
+relationship_status where job_title neq software_engineer
+person where count gender greater two
+birthplace where end_date nl 2004
+person where end_date nl birthdate where person equal alice
+friends where start_date greater 2004
+person where height equal 180 and field_of_study equal computer_science
+person where gender equal male or gender equal female
+person where end_date nl end_date where person equal alice
+birthplace where birthdate equal 2004
+person where end_date ng birthdate where person equal alice
+relationship_status where online equal true
+person where end_date less 2004 or end_date less 2010
+person where end_date greater start_date where person equal alice
+person argmax count employer
+person where birthdate equal birthdate where person equal alice
+relationship_status where end_date nl 2004
+person where birthplace equal new_york and birthdate equal 2004
+birthplace where end_date less 2004
+person where end_date equal end_date where person equal alice
+employer equal mckinsey or employer equal google
+friends where field_of_study neq computer_science
+friends where start_date greater 2004
+person where friends equal alice or friends equal bob
+start_date where person equal alice where field_of_study equal computer_science
+person where count gender nl two
+gender argmin count person
+person where gender equal male and friends equal alice
+person where start_date nl birthdate where person equal alice
+friends where start_date ng 2004
+relationship_status where count person ng two
+friends where end_state ng 2004
+gender where end_date greater 2004
+person where end_date nl start_date where person equal alice
+person where count job_title less two
+relationship_status where start_date neq 2004
+person where university equal university where person equal alice
+friends where relationship_status equal single
+person where end_date nl start_date where person equal alice
+person where start_date ng 2004 or start_date ng 2010
+person where end_date nl start_date where person equal alice
+person where friends equal alice and online is true
+person where end_date nl end_date where person equal alice
+start_date where person equal alice where field_of_study equal computer_science
+gender where start_date less 2004
+person where end_date neq 2004
+person where height neq 180
+friends where start_date nl 2004
+relationship_status where count person less two
+person where end_date greater 2004 or end_date greater 2010
+person where height equal 180 and where job_title equal software_engineer
+end_date where person equal alice where job_title equal software_engineer
+person where gender equal male and friends equal alice
+person where end_date ng end_date where person equal alice
+relationship_status where gender is male
+friends where start_date nl 2004
+person argmin start_date
+person where count friends less two
+gender where start_date nl 2004
+person where friends equal alice and gender equal male
+person where online equal true and friends equal alice
+person where birthdate equal birthdate where person equal alice
+person where height equal 180 and friends equal alice
+gender where employer neq mckinsey
+person where start_date greater end_date where person equal alice
+relationship_status where count person equal two
+person where count gender equal two
+person argmax height
+person where birthdate less start_date where person equal alice
+relationship_status where start_date ng 2004
+person where height equal 180
+person where count job_title less two
+friends where end_date neq 2004
+friends where start_date neq 2004
+person where end_date ng birthdate where person equal alice
+person where birthdate greater end_date where person equal alice
+person where count field_of_study ng two
+relationship_status where end_date nl 2004
+person where height equal 180 and relationship_status equal relationship_status where person equal alice
+person where height equal 180 
+person where height equal 180 and employer equal mckinsey
+person where count relationship_status greater two
+person where online equal true and friends equal alice
+person where count field_of_study ng two
+person where count relationship_status greater two
+friends where birthdate equal 2004
+person where birthdate ng birthdate where person equal alice
+person where start_date equal start_date where person equal alice
+person where end_date equal birthdate where person equal alice
+person where end_date equal 2004 or end_date equal 2010
+friends where start_date ng 2004
+person where start_date greater end_date where person equal alice
+relationship_status where job_title neq software_engineer
+person where start_date nl birthdate where person equal alice
+person where end_date greater 2004
+birthplace where start_date neq 2004
+person where start_date greater start_date where person equal alice
+person where start_date nl birthdate where person equal alice
+friends where start_date ng 2004
+birthplace neq birthplace where person equal alice
+person where start_date greater start_date where person equal alice
+person where height equal 180 and start_date equal 2004
+start_date where person equal alice where job_title equal software_engineer
+person where count relationship_status equal two
+gender where end_date greater 2004
+person where elationship_status equal single and friends equal alice
+relationship_status where person equal alice
+person where start_date ng 2004 or start_date ng 2010
+gender where start_date nl 2004
+person where start_date ng 2004 or start_date ng 2010
+person where birthdate nl 2004 or birthdate nl 2010
+birthplace where start_date greater 2004
+person argmax count employer
+person where start_date ng 2004
+person where friends equal alice and relationship_status equal single
+friends where end_date ng 2004
+person where start_date greater 2004 or start_date greater 2010
+employer equal mckinsey or employer equal google
+person where friends equal alice and relationship_status equal single
+relationship_status where count person equal two
+birthplace where birthdate equal 2004
+friends where job_title neq software_engineer
+relationship_status neq relationship_status where person equal alice
+gender where start_date nl 2004
+person where birthdate equal start_date and friends equal alice
+friends where end_date neq 2004
+person where online equal true and height equal 180
+person where start_date less start_date where person equal alice
+gender where start_date neq 2004
+friends where end_date neq 2004
+friends where start_date less 2004
+friends where start_date neq 2004
+end_date where person equal alice where employer equal mckinsey
+person where birthplace equal new_york and height equal 180 
+friends where start_date neq 2004
+relationship_status where field_of_study neq computer_science
+employer where person equal alice where end_date equal 2004
+friends where gender is male 
+birthplace where field_of_study neq computer_science
+person where birthdate equal 2004 and height equal 180
+person where height equal 180 and relationship_status equal relationship_status where person equal alice
+job_title where person equal alice where start_date equal 2004
+person where height equal 180 and start_date equal 2004
+birthplace where job_title neq software_engineer
+person where start_date equal birthdate where person equal alice
+birthplace where end_date greater 2004
+end_date where person equal alice where employer equal mckinsey
+person argmin count field_of_study
+person where birthdate equal 2004 and gender equal male
+person where count friends ng two
+count university
+end_date where person equal alice 
+person where start_date ng end_date where person equal alice
+birthplace where end_date nl 2004
+person where end_date equal start_date where person equal alice
+gender where end_date neq 2004
+gender where field_of_study neq computer_science
+relationship_status where start_date less 2004
+person where end_date ng start_date where person equal alice
+person where end_date equal 2004 or end_date equal 2010
+birthplace where count person less two
+person where start_date less birthdate where person equal alice
+person where employer equal employer where person equal alice
+person where start_date nl start_date where person equal alice
+birthplace where end_date greater 2004
+person where end_date less end_date where person equal alice
+person where start_date ng 2004
+person where start_date greater 2004
+person argmin count employer
+person where height equal 180 and end_date equal 2004
+gender where start_date neq 2004
+person where birthdate equal 2004 and friends equal alice
+person where end_date nl end_date where person equal alice
+relationship_status where end_date neq 2004
+gender where start_date greater 2004
+gender where end_date nl 2004
+person argmin start_date
+person where height equal 180 and height equal height where person equal alice
+person argmin start_date
+birthplace where end_date greater 2004
+friends where start_date neq 2004
+person where start_date less end_date where person equal alice
+friends where start_date nl 2004
+friends where end_date ng 2004
+person where height equal 180 and university equal brown_university
+gender where start_date less 2004
+birthplace where count person ng two
+friends where birthdate equal 2004
+person where height equal 180 and end_date equal 2004
+person where friends equal alice and birthdate equal 2004
+friends where end_date neq 2004
+person where gender equal male and height equal 180
+person where count field_of_study less two
+person where start_date less start_date where person equal alice
+person where count birthplace equal two
+person where start_date greater start_date where person equal alice
+person where end_date greater 2004 or end_date greater 2010
+person where end_date less 2004
+birthplace where end_date greater 2004
+person where start_date ng start_date where person equal alice
+person where start_date less end_date where person equal alice
+relationship_status where count person ng two
+person where start_date nl start_date where person equal alice
+friends where start_date less 2004
+person where end_date greater end_date where person equal alice
+person where birthdate nl end_date where person equal alice
+person where friends neq alice
+end_date where person equal alice 
+person where count university ng two
+person where end_date nl end_date where person equal alice
+person argmax start_date
+person where end_date nl 2004
+person where start_date greater 2004 or start_date greater 2010
+person where end_date ng start_date where person equal alice
+person argmin count friends
+person where friends equal alice and relationship_status equal single
+person where online equal true and relationship_status equal single
+person where end_date ng 2004 or end_date ng 2010
+birthplace where end_date nl 2004
+person where end_date neq 2004
+person where start_date ng start_date where person equal alice
+friends where start_date greater 2004
+person where birthdate equal birthdate where height equal 180
+person argmin birthdate
+person where end_date less 2004 or end_date less 2010
+person argmax end_state
+person where friends equal alice
+person where start_date greater start_date where person equal alice
+person argmax count job_title
+person where friends equal alice and online is true
+person where end_date greater start_date where person equal alice
+friends where height equal 180 
+person where end_date nl start_date where person equal alice
+count university
+person where relationship_status equal single and online equal true
+gender where university neq brown_university
+university where height equal 180 
+job_title where height equal 180
+person where height equal 180 and start_date equal 2004
+relationship_status where start_date nl 2004
+friends where start_date ng 2004
+person where birthdate equal 2004
+gender where end_date neq 2004
+friends where start_date neq 2004
+relationship_status where start_date less 2004
+person where start_date ng start_date where person equal alice
+person where start_date ng start_date where person equal alice
+gender where end_date less 2004
+birthplace where end_date nl 2004
+person where count university ng two
+person where end_date nl start_date where person equal alice
+gender where end_date ng 2004
+person argmin start_date
+friends where end_date ng 2004
+person where start_date neq 2004
+person argmin count relationship_status
+field_of_study where person equal alice where university equal brown_university
+person where friends equal alice and gender equal male
+person where start_date nl start_date where person equal alice
+birthplace where count person less two
+person argmax end_date
+gender where end_date neq 2004
+birthplace where employer neq mckinsey
+person where end_date nl 2004
+person where start_date less 2004
+person where start_date nl end_date where person equal alice
+person where field_of_study neq computer_science
+person where friends neq alice
+person where height equal 180 and employer equal mckinsey
+person where end_date less start_date where person equal alice
+friends where university neq brown_university
+birthplace equal new_york or birthplace equal beijing
+gender where field_of_study neq computer_science
+gender where end_date neq 2004
+person where height ng height where person equal alice
+person where birthdate greater end_date where person equal alice
+birthplace where end_date neq 2004
+relationship_status where start_date ng 2004
+birthplace where end_date neq 2004
+friends where start_date nl 2004
+friends where job_title neq software_engineer
+friends where start_date neq 2004
+birthplace where count person ng two
+friends where end_date less 2004
+person where start_date greater end_date where person equal alice
+person where birthdate greater birthdate where person equal alice
+birthplace where start_date neq 2004
+relationship_status where count person greater two
+person where end_date nl birthdate where person equal alice
+friends where end_date neq 2004
+gender where start_date ng 2004
+person where relationship_status equal single or relationship_status equal married
+person where height equal 180 and birthplace equal new_york 
+person where count university ng two
+person where gender equal male and friends equal alice
+person where start_date equal end_date where person equal alice
+person where start_date ng end_date where person equal alice
+person where birthdate neq 2004
+friends where start_date greater 2004
+friends where employer neq mckinsey
+person where friends equal alice and birthplace equal new_york
+birthplace neq birthplace where person equal alice
+relationship_status where end_date neq 2004
+person where start_date ng 2004
+count field_of_study
+person where start_date nl 2004
+birthplace where end_date greater 2004
+friends where relationship_status equal single
+person where count friends greater two
+birthplace where end_date nl 2004
+person where birthplace equal new_york and height equal 180 
+person where relationship_status equal single and height equal 180 
+person where start_date ng start_date where person equal alice
+university where person equal alice where field_of_study equal computer_science
+person where end_date greater 2004
+person where end_date nl end_date where person equal alice
+relationship_status where person equal alice
+friends where end_date nl 2004
+person where birthdate less start_date where person equal alice
+relationship_status where job_title neq software_engineer
+person where friends equal alice and birthdate equal 2004
+person where birthdate less 2004
+friends where end_date neq 2004
+gender where end_date greater 2004
+birthplace where start_date greater 2004
+person where start_date greater end_date where person equal alice
+person where birthdate ng end_date where person equal alice
+gender where field_of_study neq computer_science
+person where birthdate nl 2004 or birthdate nl 2010
+person where count birthplace equal two
+friends where start_date ng 2004
+gender where university neq brown_university
+friends where end_date nl 2004
+job_title where height equal 180
+person where online equal true and height equal 180
+person where end_date greater end_date where person equal alice
+relationship_status where end_date ng 2004
+field_of_study where height equal 180 
+person where birthdate greater start_date where person equal alice
+person where start_date ng 2004
+end_date where persone equal alice where start_date equal 2004
+birthplace where end_date ng 2004
+count university
+person where count birthplace nl two
+person where start_date less 2004
+gender where start_date greater 2004
+person where online equal true and friends equal alice
+gender where start_date greater 2004
+birthplace where end_date nl 2004
+person where birthdate ng end_date where person equal alice
+person where end_date less 2004 or end_date less 2010
+relationship_status where height equal 180
+person argmin count university 
+relationship_status where start_date less 2004
+person where end_date neq 2004
+person where height equal 180 and friends equal alice
+employer where person equal alice where employer equal mckinsey
+person where birthdate equal birthdate where person equal alice
+person where start_date equal start_date where person equal alice
+person where end_date greater start_date where person equal alice
+person where start_date ng 2004
+friends where birthplace equal new_york
+person where start_date less birthdate where person equal alice
+friends where end_date neq 2004
+person where university equal brown_university or university equal ucla
+relationship_status where end_date greater 2004
+person where end_date greater birthdate where person equal alice
+person where online equal true and birthplace equal new_york 
+gender where friends equal alice
+person argmin end_date
+person where height equal 180 and birthdate equal 2004
+person where start_date ng start_date where person equal alice
+job_title where end_date equal 2004
+relationship_status where start_date nl 2004
+gender argmin count person
+person where height equal 180 and university equal brown_university
+birthplace where field_of_study neq computer_science
+person where birthdate nl end_date where person equal alice
+gender where start_date less 2004
+person where end_date equal birthdate where person equal alice
+person where start_date nl end_date where person equal alice
+person where end_date less start_date where person equal alice
+person where end_date ng 2004 or end_date ng 2010
+relationship_status where start_date neq 2004
+end_date where person equal alice where end_date equal 2004
+person where count relationship_status nl two
+person where end_date equal start_date where person equal alice
+person where start_date neq 2004
+person where start_date ng start_date where person equal alice
+person where field_of_study equal field_of_study where person equal alice
+person where start_date greater start_date where person equal alice
+birthplace where start_date less 2004
+person where end_date ng start_date where person equal alice
+count gender
+person where count relationship_status ng two
+person where relationship_status neq single
+relationship_status where start_date nl 2004
+friends where start_date nl 2004
+start_date where person equal alice where job_title equal software_engineer
+birthplace where end_date greater 2004
+person where birthplace equal new_york and height equal 180 
+person where friends equal alice and online is true
+person where end_date nl 2004
+person where birthdate equal end_date where person equal alice
+person where start_date less start_date where person equal alice
+person where friends equal alice and relationship_status equal single
+person where employer equal employer where person equal alice
+person where end_date greater start_date where person equal alice
+person where height equal 180 or height equal 200
+birthplace where start_date neq 2004
+person where start_date greater 2004
+person argmax count relationship_status
+person where start_date nl birthdate where person equal alice
+job_title where person equal alice where start_date equal 2004
+birthplace where start_date neq 2004
+person where birthdate neq 2004
+person where birthdate ng 2004 or birthdate ng 2010
+gender where start_date neq 2004
+person where start_date less end_date where person equal alice
+relationship_status where birthplace equal new_york
+person where birthdate greater end_date where person equal alice
+person where start_date less start_date where person equal alice
+person where height greater 180
+birthplace where end_date neq 2004
+person where end_date nl end_date where person equal alice
+person where height less 180 or height less 200
+person where height equal 180 and end_date equal 2004
+relationship_status where end_state ng 2004
+friends where end_date neq 2004
+person where birthdate greater start_date where person equal alice
+person where end_date greater end_date where person equal alice
+friends where gender equal male
+relationship_status where end_date nl 2004
+person where online equal true and gender equal male
+person where end_date ng start_date where person equal alice
+person where start_date less 2004 or start_date less 2010
+friends where field_of_study neq computer_science
+person where end_date nl 2004
+person where field_of_study equal field_of_study where person equal alice
+friends where end_state ng 2004
+person where end_date less end_date where person equal alice
+person where height equal 180 and birthplace equal birthplace where person equal alice
+person where start_date nl start_date where person equal alice
+friends where start_date nl 2004
+gender argmin count person
+person where start_date greater end_date where person equal alice
+person where start_date nl start_date where person equal alice
+person where end_date equal end_date where person equal alice
+gender where birthplace equal new_york
+person where end_date ng 2004
+person argmax end_date
+person where height equal 180 and start_date equal 2004
+friends where birthdate equal 2004
+person where end_date equal 2004 or end_date equal 2010
+start_date where university equal brown_university
+gender where online is true
+friends where start_date greater 2004
+relationship_status where university neq brown_university
+person where height equal 180 and start_date equal 2004
+birthplace where start_date nl 2004
+relationship_status where start_date less 2004
+birthplace where friends equal alice
+person where start_date equal end_date where person equal alice
+gender where start_date ng 2004
+person where height nl 180 or height nl 200
+person where elationship_status equal single and friends equal alice
+gender where employer neq mckinsey
+relationship_status where end_date nl 2004
+person where height equal 180 and birthplace equal new_york 
+person where start_date nl birthdate where person equal alice
+person where start_date greater 2004 or start_date greater 2010
+person where end_date equal end_date where person equal alice
+person where start_date greater 2004 or start_date greater 2010
+person where height equal 180 and start_date equal 2004
+person where start_date neq 2004
+person where start_date equal 2004 or start_date equal 2010
+friends where end_date ng 2004
+friends where friends equal alice
+person where gender equal male and birthdate equal 2004
+person where end_date less start_date where person equal alice
+birthplace argmax count person
+person where end_date equal end_date where person equal alice
+friends where gender equal male
+person where start_date equal end_date where person equal alice
+relationship_status where start_date nl 2004
+relationship_status where start_date ng 2004
+person argmax count employer
+birthplace where end_date ng 2004
+friends where friends equal alice
+birthplace where university neq brown_university
+person where start_date greater birthdate where person equal alice
+end_date where person equal alice where end_date equal 2004
+person where friends equal alice and birthdate equal 2004
+friends where start_date less 2004
+person where count employer less two
+field_of_study where person equal alice
+person where start_date less birthdate where person equal alice
+person where birthdate greater start_date where person equal alice
+person where end_date less 2004
+person where end_date neq 2004
+birthplace argmin count person
+person where birthdate greater 2004 or birthdate greater 2010
+birthplace where field_of_study neq computer_science
+person where height equal 180 and where job_title equal software_engineer
+person where birthdate equal 2004
+university equal brown_university or university equal ucla
+person where end_date ng end_date where person equal alice
+gender where birthdate equal 2004
+gender where start_date neq 2004
+relationship_status where end_state ng 2004
+friends where end_date ng 2004
+friends where birthdate equal 2004
+person where start_date nl 2004 or start_date nl 2010
+birthplace where start_date nl 2004
+birthplace where start_date neq 2004
+person where start_date nl birthdate where person equal alice
+person where start_date less 2004
+person where start_date less 2004 or start_date less 2010
+person argmin start_date
+friends where end_date neq 2004
+gender where start_date nl 2004
+person where start_date less end_date where person equal alice
+person where employer neq mckinsey
+relationship_status where start_date neq 2004
+person where start_date equal 2004 or start_date equal 2010
+person where start_date less birthdate where person equal alice
+university where person equal alice
+person where end_date neq 2004
+person where end_date greater end_date where person equal alice
+person where height equal 180 and gender equal male
+person where start_date equal 2004 or start_date equal 2010
+birthdate where person equal alice
+person where start_date ng start_date where person equal alice
+height where person equal alice
+birthplace where end_date ng 2004
+person where end_date nl 2004
+person where online equal true and height equal 180
+person argmax count field_of_study
+person where count birthplace greater two
+person where start_date nl end_date where person equal alice
+birthplace where start_date greater 2004
+person where end_date equal end_date where person equal alice
+gender where end_date ng 2004
+university where height equal 180 
+person where end_date equal start_date where person equal alice
+friends where start_date ng 2004
+person where friends equal alice and relationship_status equal single
+person where end_date nl start_date where person equal alice
+friends where start_date less 2004
+person where end_date equal start_date where person equal alice
+birthplace where start_date greater 2004
+gender where birthdate equal 2004
+person where height equal 180 and friends equal alice
+end_date where person equal alice where job_title equal software_engineer
+friends where start_date neq 2004
+field_of_study where person equal alice where field_of_study equal computer_science
+gender where start_date ng 2004
+person where start_date equal 2004 or start_date equal 2010
+person where end_date nl 2004
+person where start_date less 2004
+end_date where person equal alice 
+person where end_date equal end_date where person equal alice
+birthplace where end_date ng 2004
+relationship_status where end_date neq 2004
+person where birthdate equal start_date and friends equal alice
+person argmin count university 
+person where height equal 180 or height equal 200
+person where birthplace equal new_york
+friends where start_date neq 2004
+person where start_date greater birthdate where person equal alice
+person where end_date ng 2004 or end_date ng 2010
+birthplace where start_date nl 2004
+relationship_status where field_of_study neq computer_science
+birthplace where start_date neq 2004
+friends where job_title neq software_engineer
+person where start_date ng end_date where person equal alice
+person where start_date greater end_date where person equal alice
+person where end_date ng birthdate where person equal alice
+job_title equal software_engineer or job_title equal program_manager
+person where start_date less start_date where person equal alice
+relationship_status where count person ng two
+person where end_date greater 2004
+relationship_status where end_date neq 2004
+relationship_status argmin count person
+gender where friends equal alice
+person where count field_of_study ng two
+gender where end_date less 2004
+person where height less 180
+person argmax start_date
+end_date where persone equal alice where start_date equal 2004
+relationship_status where end_date greater 2004
+person where start_date ng 2004
+person where birthdate equal 2004 and relationship_status equal single
+field_of_study where person equal alice where university equal brown_university
+friends where end_date greater 2004
+person argmax count field_of_study
+person where start_date nl birthdate where person equal alice
+person where friends neq alice
+gender where height equal 180
+friends where employer neq mckinsey
+person where height ng 180
+start_date where person equal alice where start_date equal 2004
+person where count employer ng two
+birthplace where end_date less 2004
+person where height equal 180 and where job_title equal software_engineer
+person where online equal true and friends equal alice
+relationship_status where employer neq mckinsey
+person where height equal 180 and gender equal male
+person where end_date greater 2004
+person where end_date ng start_date where person equal alice
+person where start_date nl start_date where person equal alice
+relationship_status where end_date ng 2004
+person where birthdate equal 2004 and gender equal male
+person where height equal 180 and gender equal gender where person equal alice
+gender where end_date nl 2004
+employer equal mckinsey or employer equal google
+relationship_status equal single
+person argmax start_date
+gender where start_date nl 2004
+person where end_date ng 2004 or end_date ng 2010
+person where friends equal alice and birthplace equal new_york
+person where end_date nl start_date where person equal alice
+person where height equal 180 and birthplace equal new_york 
+person where birthdate less 2004
+person where count friends less two
+person where height equal 180 and where job_title equal software_engineer
+relationship_status where end_date less 2004
+birthplace where start_date less 2004
+person where height equal 180 
+person where end_date greater end_date where person equal alice
+person where birthdate equal birthdate where height equal 180
+person where end_date less start_date where person equal alice
+person where end_date greater end_date where person equal alice
+person where birthdate nl 2004
+friends where university neq brown_university
+person where birthdate equal 2004 and gender equal male
+person where relationship_status equal single and height equal 180 
+person where birthdate greater birthdate where person equal alice
+person where end_date nl 2004 or end_date nl 2010
+friends where end_date nl 2004
+person where end_date ng start_date where person equal alice
+friends where friends equal alice
+person where start_date ng end_date where person equal alice
+end_date where person equal alice
+person where end_date ng birthdate where person equal alice
+person where birthdate nl start_date where person equal alice
+person where end_date neq 2004
+person where start_date less start_date where person equal alice
+birthplace where end_date nl 2004
+person where relationship_status equal relationship_status where height equal 180
+start_date where university equal brown_university
+person where end_date less 2004
+person where height equal 180 and university equal brown_university
+person where end_date nl start_date where person equal alice
+friends where end_date greater 2004
+person where start_date nl start_date where person equal alice
+person where birthdate ng birthdate where person equal alice
+job_title where person equal alice where start_date equal 2004
+relationship_status where friends equal alice
+person where end_date ng birthdate where person equal alice
+gender where count person ng two
+person where end_date ng end_date where person equal alice
+relationship_status where start_date ng 2004
+person where start_date equal start_date where person equal alice
+person argmax height
+person where height equal 180 and gender equal gender where person equal alice
+person where end_date less start_date where person equal alice
+birthplace where height equal 180
+person where count relationship_status greater two
+person where height equal 180 and field_of_study equal computer_science
+person where height less 180 or height less 200
+birthplace where start_date less 2004
+birthplace where employer neq mckinsey
+person where end_date less start_date where person equal alice
+job_title where end_date equal 2004
+birthplace where person equal alice or person equal bob
+gender where job_title neq software_engineer
+person where start_date nl start_date where person equal alice
+person where start_date nl end_date where person equal alice
+person where start_date greater end_date where person equal alice
+end_date where person equal alice
+birthplace where count person less two
+person where height equal 180 and birthplace equal birthplace where person equal alice
+friends where start_date less 2004
+person where end_date ng start_date where person equal alice
+avg height
+person where birthplace equal new_york and gender equal male
+friends where start_date ng 2004
+person where end_date greater 2004 or end_date greater 2010
+birthplace where online equal true
+gender where employer neq mckinsey
+person where height equal 180 and gender equal gender where person equal alice
+friends where start_date neq 2004
+person where start_date nl end_date where person equal alice
+friends where end_date ng 2004
+person where height equal 180 and university equal brown_university
+person where start_date greater birthdate where person equal alice
+person where relationship_status equal relationship_status where person equal alice
+relationship_status where university neq brown_university
+person where height equal 180
+person where friends equal alice and gender equal male
+friends where relationship_status equal single
+friends where start_date neq 2004
+person where count friends nl two
+friends where end_date less 2004

@@ -1,0 +1,283 @@
+<field>:0 that <field>:1 later than the <value>:0 <field>:0
+what <field>:0 is the <value>:1 <field>:1
+<field>:0 is the <value>:1
+show me all <field>:0 in <value>:1 that <value>:2 is <field>:2
+show me the <field>:0 <field>:1 latest in the day
+show me all <field>:0 not ending at <value>:1
+show me all <field>:0 with at least two <field>:1 <field>:1
+show me all <field>:0 lasting for <value>:1 <field>:1
+<field>:0 that <field>:1 before <value>:1 or before <value>:1
+which <field>:0 dont <field>:1 at <value>:1
+what <field>:0 <field>:1 before the <field>:2 of <value>:0
+show me <field>:0 after <value>:1
+what <field>:0 has the earliest <field>:1
+show me all <field>:0 <value>:1 <field>:1 <field>:1 at the <value>:2
+show me all <field>:0 ending no later than <value>:1
+<field>:1 <field>:0 on <value>:2
+show me all <field>:0 that <field>:1 no later than the time the <value>:0 <field>:0 <field>:1
+how <field>:0 is the <value>:1 <field>:1
+show me all <value>:2 <field>:2 <field>:2 <field>:0 that <field>:1 at <value>:1
+show me all <field>:0 not beginning at <value>:1
+which <field>:0 <field>:1 <field>:3 <value>:0 is scheduled to <field>:2
+show me all <field>:0 which have had at least two <field>:1
+show me <field>:0 that take <value>:1 <field>:1
+what <field>:0 had the fewest <field>:1 show up
+what time does the weekly stand up <field>:0
+what <field>:0 <field>:2 at <value>:2 and <value>:1 is <field>:1
+show me average meeting <field>:0
+<field>:0 <field>:0 <value>:2 <field>:1
+show me all <field>:0 with either <value>:1 or <value>:1 <field>:1
+show me <field>:0 that have two <field>:1
+show me all <field>:0 ending at the same time or earlier than the <value>:0 <field>:2
+show me all <field>:0 that have two <field>:1
+show me all <field>:0 of <field>:1 on <value>:2
+<field>:0 which <field>:1 at <value>:1
+what <field>:1 <field>:0 has a <field>:2 at <value>:2
+show me all <value>:1 <field>:1 <field>:0 on <value>:2
+find all meetings which begin on <value>:0 or <value>:0
+which <field>:0 <field>:1 earliest
+show me all <field>:0 ending after <value>:1 or <value>:1
+what <field>:0 <field>:1 at most at <value>:1
+<field>:0 features the largest number of <field>:1
+what <field>:0 have a <field>:1 of <value>:1 or <value>:1
+<field>:0 at <value>:2 <field>:1 by <value>:1
+show me the <field>:0 of all <value>:1 <field>:1
+what <field>:0 has an <field>:1 the same as <value>:0
+what <field>:0 <field>:1 at the same time as the weekly roundup <field>:0
+<field>:0 in which <value>:1 is <field>:1 which <field>:2 at <value>:2
+show me all <field>:0 scheduled to be less than <value>:1 <field>:1 or less than <value>:1 <field>:1
+which <field>:0 is scheduled on the earliest <field>:1
+<field>:0 held <field>:1 than <value>:1
+show me <field>:0 that take <value>:1 <field>:1 and are with <value>:2
+what <field>:0 is <field>:0 weekly_startup
+<field>:0 <field>:1 before <value>:1 or <value>:1
+what <field>:0 no <field>:1 than that of weekly_startup
+what <field>:0 is longer than <value>:0
+what <field>:0 has a after <value>:1 or 3
+show me all <field>:0 which <field>:1 after the <value>:0 <field>:2
+what is the <field>:0 for the weekly stand up <field>:1
+how <field>:0 is the meeting
+<field>:0 that <field>:1 after the weekly_startup <field>:0 <field>:2
+<field>:0 that are <field>:2 by <value>:2 and are <value>:1 <field>:1 <field>:1
+who is at the <value>:1 or <value>:1
+which <field>:0 <field>:1 at <value>:1
+<field>:0 that <field>:1 at <value>:2 and <field>:2 at <value>:2
+<field>:0 which is on <value>:1 or <value>:1
+show me the <field>:0 <field>:0 the most <field>:1
+<field>:1 <field>:0 at <value>:2
+what <field>:0 <field>:1 the earliest
+<field>:0 that do not house the <value>:1 <field>:1
+show me <field>:1 <field>:0 that <field>:2 at <value>:2
+what is the <field>:0 of weekly_startup
+show me all <field>:0 that take place by <value>:1
+where is the <value>:1
+show me all <field>:0 lasting <value>:1 <field>:1 beginning at <value>:2
+<field>:0 that <field>:1 at <value>:1
+show me the <field>:0 of the <value>:1 <field>:1
+<field>:0 which <field>:1 at or after the <field>:1 of <value>:0
+<field>:0 that are not held at <value>:1
+what <field>:0 has an <field>:1 no greater than the <field>:1 of weekly_startup
+<field>:0 that <field>:1 at <value>:1
+<field>:0 that <field>:1 before the <value>:0 <field>:0 <field>:2
+<field>:0 that <field>:1 at the same as the <value>:0 <field>:0
+show me all <field>:0 labeled as <field>:2 that <field>:1 at <value>:1
+show me all <field>:0 ending later than the <value>:0
+<field>:0 that <field>:1 sooner than <value>:0 <field>:1
+show me all <field>:0 happening before <value>:1 or <value>:1
+is the meeting at <value>:0 or <value>:0
+<field>:0 which has minimum two <field>:1
+show me the <field>:0 of all <field>:1 beginning at <value>:2
+<field>:0 who <field>:0 <value>:1
+<field>:0 longer than <value>:1 or <value>:1 <field>:1
+show me <field>:0 at fewer than two <field>:1
+select all <field>:1 <field>:0
+what <field>:0 <field>:1 before <value>:1 or <value>:1
+show me all <field>:0 that <field>:1 at the time the <value>:0 <field>:0 <field>:2
+what <field>:0 has the same <field>:1 as <value>:0
+what <field>:0 have the same <field>:1 as the week startup <field>:0
+<field>:0 held before <value>:1
+show me all <field>:0 of <field>:1 beginning at <value>:2
+<field>:0 on <value>:1 that <field>:2 at <value>:2
+show me all <field>:0 which <field>:1 at the same time or earlier than the <value>:0 <field>:2
+what <field>:0 <field>:1 at <value>:1
+what <field>:0 <field>:1 at least at <value>:1
+how <field>:0 is the <value>:1 <field>:1
+what is the <field>:0 that take place immediately before the <value>:0
+what is the <field>:0 that more than two <field>:1 will be held at
+show me the <field>:0 of all <field>:1 on <value>:2
+show me all <field>:0 of <field>:1 <value>:2 <field>:2 <field>:2
+show me <field>:0 which do not <field>:1 at <value>:1
+<field>:0 <field>:1 by <field>:1 that <field>:1 the <value>:0 <field>:0
+what <field>:0 take place on <value>:2 in <value>:1
+what <field>:0 is the same <field>:1 as that of weekly_startup
+what <field>:0 is not <field>:0 the <value>:1 <field>:1
+<field>:0 at <value>:1 that <field>:2 at <value>:2
+<field>:0 held on the same day as or after the <value>:0 <field>:0
+show me all <field>:0 happening on the same day or before the <value>:0
+show me all <field>:0 <field>:1 by either <value>:1 or <value>:1
+what <field>:0 <field>:1 at least at <value>:1 or <value>:1
+find me a <field>:0 shorter than <value>:1 <field>:1
+what <field>:0 is most <field>:1
+weekly_startup <field>:0
+show me all <field>:0 that <field>:1 at <value>:1
+show me <field>:0 that <field>:1 before the <value>:0 <field>:2
+<field>:0 shares <field>:1 with <value>:0
+show me <field>:0 at <value>:1 with <value>:2
+<field>:0 that do not <field>:1 at <value>:1
+what <field>:0 <field>:1 at <value>:1 on january second
+<field>:0 that do not <field>:0 the <value>:1 <field>:1
+<field>:0 that are <value>:1 <field>:1 or longer or an <field>:1 or longer
+<field>:0 on <value>:2 at <value>:1
+show me <field>:0 before <value>:1
+show me the <field>:0 with the least number of different <field>:1
+show me <field>:0 of all <field>:1 which are marked as <field>:2
+show me all <field>:0 <field>:1 by <field>:1 who have also <field>:1 the <value>:0 <field>:0
+<field>:0 <field>:0 <field>:1 that <field>:2 at <value>:2
+show me who is <field>:0 <value>:2 <field>:2 <field>:1
+what <field>:0 has the least number of <field>:1
+show me all <field>:0 marked <field>:1
+<field>:0 <field>:1 by two or fewer <field>:1
+what <field>:0 had someone who went to <value>:0
+show me who is not at the <value>:1
+show me all <field>:0 beginning and ending at <value>:1
+<field>:1 <field>:0 <field>:2 by <value>:2
+<field>:0 that <field>:1 earlier than the <value>:0 <field>:0
+what <field>:0 is being held at the <value>:1
+what <value>:2 <field>:2 <field>:0 has <value>:1 <field>:1
+show me the <field>:1 <field>:0
+show me all <field>:0 which do not host the <value>:1
+what is an <field>:1 <field>:0
+show me all <field>:0 which <field>:2 at <value>:1 and <field>:1 at <value>:2
+show me all meetings scheduled to be <value>:0 <field>:0 or <value>:0 <field>:0 <field>:0
+<value>:1 <field>:1 <field>:0 at <value>:2
+<field>:0 <field>:0 <field>:1 that <value>:0 <field>:0
+show me the <field>:0 for all <field>:1 on <value>:2
+show me everyone who <field>:0 <field>:1 also <field>:0 by <value>:0
+who is the <field>:0 <field>:0 the weekly stand up <field>:1
+what <field>:0 has a <field>:1 greater than weekly_startup
+what <field>:0 is an <field>:0 of more than two <field>:1
+<field>:0 before <value>:1
+show me any <field>:0 <value>:2 has <field>:2 on <value>:1
+what <field>:0 has an <field>:1 earlier than weekly_startup
+show me <field>:0 that will <field>:1 before <value>:0 <field>:2
+what <field>:0 on <value>:2 <field>:1 at <value>:1
+what <field>:2 <field>:0 are <field>:1 by <value>:1
+<field>:0 that are the same <field>:1 as the <value>:0 <field>:0
+<field>:0 <field>:1 after <value>:1
+<field>:0 that <field>:1 after the <value>:0 <field>:0 <field>:1
+what <field>:0 has the shortest time
+<field>:0 that <field>:2 later than <field>:2 of <value>:0
+show me all <field>:0 that have at most two <field>:1
+what <field>:2 <field>:0 <field>:1 at <value>:1
+<value>:1 <field>:0
+what <field>:0 has an <field>:1 of at least <value>:1
+what <field>:0 was shorter than <value>:1 <field>:1
+what <field>:2 <field>:0 is <field>:1 at <value>:1
+what <field>:0 has an <field>:1 smaller than <value>:0
+show me all <field>:0 who have <field>:0 more than two <field>:1
+<field>:0 on or before <value>:1
+what <field>:0 has more than two <field>:1
+<field>:0 held in the most <field>:1
+<field>:0 at <value>:2 that <field>:1 a <value>:1
+<value>:2 <field>:2 <field>:0 with <value>:1 as <field>:1
+what <field>:0 <field>:1 at the <value>:0 average <field>:1
+show <field>:0 that <field>:1 no earlier than the weekly_startup <field>:0
+show me all <field>:0 <value>:2 is <field>:2 which are <value>:1 <field>:1 <field>:1
+show me all <field>:0 which <field>:1 at the same time the <value>:0 <field>:2
+what <field>:0 has a <field>:1 at the <field>:2 of <value>:0
+<field>:0 of <field>:2 <field>:1
+show me <field>:0 <field>:1 at <value>:1 or <value>:1
+what <field>:0 <field>:1 before <value>:0 <field>:2
+show me all <field>:0 <value>:1 <field>:1 <field>:1
+<field>:0 that house at least two <field>:1
+show me <field>:0 not on <value>:1
+<field>:0 <field>:1 after <field>:1 of <value>:0
+show me the <field>:0 of all <field>:1 <field>:2 by <value>:2
+show me all <field>:0 on <value>:2 which <field>:1 at <value>:1
+show me all <field>:0 at the <value>:2 ending at <value>:1
+<value>:1 <field>:1 <field>:1 <field>:2 <field>:0
+what <field>:0 has <value>:1 <field>:1 and <field>:2 at <value>:2
+<field>:1 <field>:0 that <field>:2 at <value>:2
+how many <field>:0 are there
+<value>:1 <field>:0
+what <field>:0 is the <field>:1 who has <value>:2 <field>:2
+show me any <field>:0 that <value>:1 has not <field>:1
+how <field>:0 does the average meeting last
+show me all <field>:0 on <value>:1
+<field>:0 is <field>:0 of <value>:1 or <value>:1
+<field>:0 that are <value>:1 <field>:1 or longer
+<field>:2 <field>:0 that <field>:1 at <value>:1
+show me all <field>:0 on <value>:1 ending at <value>:2
+<field>:0 that are shorter than <value>:1 <field>:1 or shorter than <value>:1 <field>:1
+<field>:0 that <field>:1 at <value>:1 or <value>:1
+<field>:0 does not <field>:1 at <value>:1
+<field>:0 <field>:1 later than <value>:1
+show me all <field>:0 at least <value>:1 <field>:1 <field>:1
+show me <field>:0 happening after <value>:1
+what <field>:0 has the smallest <field>:1
+show me all <field>:0 ending at <value>:2 that <value>:1 is <field>:1
+<field>:1 <field>:0 at <value>:2
+show me all <field>:0 in <value>:2 that <field>:1 at <value>:1
+<field>:0 that are shorter than <value>:1 <field>:1
+show me all <field>:0 marked as <field>:1
+show me all <field>:0 on <value>:1 beginning at <value>:2
+show me all <field>:0 which has no more than two <field>:1
+who will be <field>:0 <field>:2 <field>:1
+<field>:0 that <field>:1 at the same time as or before the <value>:0 <field>:0 <field>:1
+show me all <field>:0 of <field>:1 marked <field>:2
+show me all <field>:0 no longer than the <value>:0
+what <field>:0 <field>:1 <field>:3 <value>:0 <field>:2
+show me all meetings between <value>:0 and <value>:0
+show me the <field>:0 <value>:2 will <field>:2 which <field>:1 at <value>:1
+show me all <field>:0 beginning at <value>:1 at latest
+which <field>:0 has the earliest <field>:1
+what <field>:1 <field>:0 <field>:2 at <value>:2
+<field>:0 that <field>:1 at or after <value>:1
+which <field>:0 hosts the most <field>:1
+show me all <field>:0 that <field>:1 no earlier than <field>:3 the <value>:0 <field>:0 <field>:2
+show me all <field>:0 happening on or after the <field>:1 of the <value>:0
+show me all <field>:0 that <field>:1 later than <value>:1
+show me the <field>:0 that <field>:2 at <value>:2 on <value>:1
+is this meeting <value>:0 <field>:0 <field>:0 or an <field>:0 <field>:0
+show me all <field>:0 <value>:2 has <field>:2 which <field>:1 at <value>:1
+<field>:0 held before the <value>:0 <field>:0
+<field>:0 ending at <value>:2 that are <value>:1 <field>:1 <field>:1
+show me all <field>:0 happening after the <value>:0
+<field>:0 <field>:1 no later than <field>:2 of <value>:0
+show me any <field>:0 <field>:1 at <value>:1 or <value>:1
+what <field>:0 is <value>:1 <field>:1 or longer
+<value>:2 <field>:2 <field>:0 that <field>:1 at <value>:1
+<field>:0 no longer than duration of <value>:0
+show me all <field>:0 with <field>:1 that either less or more than <value>:1 <field>:1
+show me the <field>:0 which <field>:1 no later than the <value>:0 <field>:1
+<field>:0 does the <value>:1 <field>:1 <field>:0
+what <field>:0 has an earlier <field>:1 than <value>:1
+show me all <field>:0 beginning earlier than the <value>:0
+show me all <field>:0 that <value>:1 is not <field>:1
+<field>:0 who <field>:0 the <field>:1 that <field>:2 at <value>:2
+<field>:0 <field>:1 by two <field>:1
+what <field>:0 is an <field>:0 of at least two <field>:1
+what is the <field>:0 of the <field>:1 that <value>:2 is <field>:2
+show me all <field>:0 in <value>:1 or <value>:1
+<field>:0 whose <field>:1 is after <field>:2 of <value>:0
+show <field>:0 that <field>:1 at <value>:1 in <value>:2
+what <field>:0 has the latest <field>:1
+what <field>:0 is <field>:2 at <value>:2 and <value>:1 will be <field>:1
+what is the shortest <field>:0
+show me any <field>:0 which <field>:1 at <value>:1
+<field>:0 that are the same <field>:1 or shorter than the <value>:0 <field>:0
+show me <field>:0 that have the same <field>:1 as weekly_startup
+show me all <field>:0 <value>:1 <field>:1 <field>:1 which are marked as <field>:2
+what is the <field>:0 that the most number of <field>:1 will be held
+what <field>:0 has two <field>:1
+show me <field>:0 <field>:1 before <value>:1
+show me all <field>:0 which <field>:1 later than <value>:1
+who has <field>:0 the least number of <field>:1
+show me all <field>:0 <field>:1 by <field>:1 who have also <field>:1 the <value>:0
+<field>:0 that <field>:0 <field>:1 at <value>:2
+<field>:0 held before <value>:1 or <value>:1
+two <field>:1 are at the <field>:0
+show me any <field>:0 that are either the <value>:0 or <value>:0
+what is the <field>:0 of the <field>:1 with least number of attendees
+<field>:0 occurs on <field>:1 <field>:1 than <value>:0
+show all <field>:0 that <field>:1 ealier than <value>:1

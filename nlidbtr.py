@@ -57,9 +57,9 @@ tf.app.flags.DEFINE_integer("batch_size", 128,
                             "Batch size to use during training.")
 tf.app.flags.DEFINE_integer("size", 1024, "Size of each model layer.")
 tf.app.flags.DEFINE_integer("num_layers", 3, "Number of layers in the model.")
-tf.app.flags.DEFINE_integer("from_vocab_size", 1000, "English vocabulary size.")
-tf.app.flags.DEFINE_integer("to_vocab_size", 100, "French vocabulary size.")
-tf.app.flags.DEFINE_string("data_dir", "./data/GeoQuery", "Data directory")
+tf.app.flags.DEFINE_integer("from_vocab_size", 1500, "English vocabulary size.")
+tf.app.flags.DEFINE_integer("to_vocab_size", 150, "French vocabulary size.")
+tf.app.flags.DEFINE_string("data_dir", "./Overnight/execute", "Data directory")
 tf.app.flags.DEFINE_string("train_dir", "./transfer_3_1024_new", "Training directory.")
 tf.app.flags.DEFINE_string("from_train_data", None, "Training data.")
 tf.app.flags.DEFINE_string("to_train_data", None, "Training data.")
@@ -77,7 +77,7 @@ tf.app.flags.DEFINE_boolean("use_fp16", False,
                             "Train using fp16 instead of fp32.")
 
 # added by Kaifeng, can be changed
-tf.app.flags.DEFINE_string("test_dir", "./evaluation/GeoQuery", "Test directory")
+tf.app.flags.DEFINE_string("test_dir", "./evaluation/Overnight", "Test directory")
 #tf.app.flags.DEFINE_integer('max_num_steps', 10000, 'the maximum number of steps.')
 # no need to change this line if not using real table to test
 tf.app.flags.DEFINE_boolean("enable_table_test", False, "Whether use a true table to test")

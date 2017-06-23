@@ -1,0 +1,189 @@
+neighborhood where count housing_unit greater two 
+housing_unit where posting_date equal jan_2nd and dogs equal true
+housing_unit where monthly_rent nl monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where monthly_rent nl 1500 or monthly_rent nl 2000
+housing_unit where monthly_rent equal 1500 and monthly_rent equal 1500
+housing_unit where size ng 800 or size ng 1000
+housing_unit where cats equal true and dogs equal true
+housing_unit where posting_date equal jan_2nd and neighborhood equal midtown_west
+housing_type argmin count housing_unit
+housing_unit where size equal 800 and size equal 800
+housing_unit where count housing_type ng two
+housing_unit where private_room equal true and dogs equal true
+housing_unit where monthly_rent equal 1500 and private_room equal true
+avg monthly_rent
+housing_unit where monthly_rent nl monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where monthly_rent equal 1500 and private_room equal true
+housing_unit where count housing_type greater two
+housing_unit where size less 800 or size less 1000
+housing_unit argmax monthly_rent
+housing_unit where size less size where housing_unit equal 123_sesame_street
+housing_unit where posting_date equal jan_2nd and private_bath equal true
+housing_unit where monthly_rent less monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where size greater size where housing_unit equal 123_sesame_street
+housing_type where housing_unit equal 123_sesame_street or housing_unit equal 900_mission_avenue
+housing_unit where size equal 800 and private_bath equal true
+housing_unit where posting_date equal jan_2nd and size equal 800
+neighborhood where housing_unit equal housing_unit where cats equal true
+housing_unit where monthly_rent less 1500 or monthly_rent less 2000
+housing_unit where private_room equal true
+housing_unit where size less size where housing_unit equal 123_sesame_street
+housing_unit where count neighborhood nl two
+housing_unit argmin count housing_type
+housing_unit where housing_type equal apartment and private_room equal true
+housing_unit where monthly_rent equal 1500 and housing_type equal apartment
+count size
+housing_unit where size equal 800 and monthly_rent equal 1500
+housing_unit argmin monthly_rent
+count housing_unit
+housing_unit where dogs equal true and monthly_rent equal 1500
+neighborhood where count housing_unit equal two
+housing_type where housing_unit equal housing_unit where monthly_rent equal 1500
+housing_type where housing_unit equal housing_unit where size equal 800
+housing_unit where posting_date equal jan_2nd and cats equal true
+housing_type neq housing_type where housing_unit equal 123_sesame_street
+housing_unit where dogs equal true and posting_date equal jan_2nd
+housing_unit where size less 800 or size less 1000
+housing_unit where size nl 800
+housing_unit where dogs equal true and neighborhood equal midtown_west
+housing_unit where monthly_rent equal 1500
+housing_unit where private_room equal true and cats equal true
+housing_unit where private_bath equal true and private_bath equal true
+housing_unit where neighborhood equal neighborhood where housing_unit equal 123_sesame_street
+housing_unit where neighborhood equal midtown_west and neighborhood equal midtown_west
+housing_unit where posting_date equal jan_2nd and monthly_rent equal 1500
+housing_type where housing_unit equal housing_unit where neighborhood equal midtown_west
+housing_unit where private_bath equal true and posting_date equal jan_2nd
+neighborhood where housing_unit equal housing_unit where housing_type equal apartment
+housing_type where housing_unit equal housing_unit where monthly_rent equal 1500
+housing_type argmin count housing_unit
+housing_unit argmin count neighborhood
+housing_unit where neighborhood equal midtown_west and housing_type equal apartment
+housing_unit where size equal 800 and posting_date equal jan_2nd
+housing_unit where cats equal true and private_room equal true
+neighborhood neq neighborhood where housing_unit equal 123_sesame_street
+housing_unit where dogs equal true and private_room equal true
+neighborhood where housing_unit equal housing_unit where posting_date equal jan_2nd
+housing_unit where neighborhood equal midtown_west and monthly_rent equal 1500
+posting_date where housing_unit equal 123_sesame_street
+housing_unit where neighborhood equal midtown_west or neighborhood equal chelsea
+housing_unit where size equal 800 and private_room equal true
+housing_unit where monthly_rent equal 1500 and neighborhood equal midtown_west
+housing_unit where housing_type equal housing_type where housing_unit equal 123_sesame_street
+housing_unit where dogs equal true and size equal 800
+neighborhood where count housing_unit less two
+housing_unit where dogs equal true and housing_type equal apartment
+housing_unit where neighborhood equal midtown_west and monthly_rent equal 1500
+monthly_rent equal 1500 or monthly_rent equal 2000
+housing_type argmax count housing_unit
+housing_unit where private_room equal true and housing_type equal apartment
+neighborhood where housing_unit equal housing_unit where housing_type equal apartment
+housing_unit where monthly_rent equal 1500 and private_bath equal true
+housing_unit where count housing_type equal two
+neighborhood where count housing_unit nl two 
+housing_unit where posting_date equal jan_2nd and equal monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where private_bath equal true and private_room equal true
+housing_unit argmin count housing_type
+housing_unit argmax posting_date
+housing_unit where size greater 800
+neighborhood where housing_unit equal housing_unit where monthly_rent equal 1500
+housing_unit where cats equal true and posting_date equal jan_2nd
+housing_type where count housing_unit ng two 
+housing_unit where size equal 800
+housing_unit where monthly_rent equal 1500 or monthly_rent equal 2000
+housing_type where housing_unit equal housing_unit where monthly_rent equal 1500
+neighborhood where housing_unit equal housing_unit where private_bath equal true
+housing_unit where monthly_rent equal 1500 and posting_date equal jan_2nd
+neighborhood equal midtown_west or neighborhood equal chelsea
+housing_unit where private_bath equal true and private_bath equal true
+housing_type where count housing_unit greater two
+housing_unit where private_bath equal true and private_room equal true
+housing_unit where housing_type equal apartment and monthly_rent equal 1500
+housing_unit where size equal 800 and cats equal true
+housing_unit where monthly_rent ng monthly_rent where housing_unit equal 123_sesame_street
+avg monthly_rent
+neighborhood where count housing_unit equal two
+housing_unit where monthly_rent less 1500 or monthly_rent less 2000
+housing_unit where housing_type equal housing_unit where posting_date equal jan_2nd
+housing_unit where private_bath equal true
+housing_unit where monthly_rent equal 1500 and cats equal true
+housing_unit where monthly_rent greater monthly_rent where housing_unit equal 123_sesame_street
+housing_unit argmax size
+housing_unit where dogs equal true and size equal 800
+avg monthly_rent
+housing_unit where neighborhood equal midtown_west and neighborhood equal midtown_west
+housing_unit where private_bath equal true and cats equal true
+housing_unit where posting_date greater posting_date where housing_unit equal 123_sesame_street
+housing_unit where housing_type neq apartment
+housing_unit where neighborhood equal midtown_west and size equal 800
+avg size 
+housing_unit where size equal 800 and cats equal true
+housing_unit where dogs equal true and private_bath equal true
+neighborhood where count housing_unit ng two
+housing_unit equal 123_sesame_street or housing_unit equal 900_mission_avenue
+housing_type where housing_unit equal housing_unit where dogs equal true
+housing_unit where size ng size where housing_unit equal 123_sesame_street
+housing_unit where dogs equal true and private_room equal true
+housing_unit where count housing_type ng two
+housing_unit where monthly_rent equal 1500 and dogs equal true
+neighborhood where housing_unit equal housing_unit where dogs equal true
+housing_unit where housing_type equal apartment and size equal 800
+neighborhood where housing_unit equal 123_sesame_street or housing_unit equal 900_mission_avenue
+housing_unit where monthly_rent equal 1500 and monthly_rent equal 1500
+housing_unit where posting_date equal jan_2nd and equal monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where housing_type equal apartment and cats equal true
+neighborhood where housing_unit equal housing_unit where private_room equal true
+housing_unit where dogs equal true
+housing_unit where size greater 800
+housing_unit where size neq 800
+housing_unit argmax monthly_rent
+housing_unit where monthly_rent ng 1500 or monthly_rent ng 2000
+housing_unit where size greater 800
+housing_unit argmin posting_date
+housing_unit where housing_type equal apartment or housing_type equal condo
+neighborhood where housing_unit equal housing_unit where size equal 800
+neighborhood neq neighborhood where housing_unit equal 123_sesame_street
+housing_unit where posting_date greater posting_date where housing_unit equal 123_sesame_street
+housing_unit argmin size
+housing_unit where posting_date nl posting_date where housing_unit equal 123_sesame_street
+housing_unit where cats equal true and size equal 800
+housing_unit where neighborhood equal midtown_west
+housing_unit argmin count neighborhood
+housing_unit where posting_date equal jan_2nd and monthly_rent equal 1500
+count monthly_rent 
+neighborhood where housing_unit equal 123_sesame_street or housing_unit equal 900_mission_avenue
+housing_unit where monthly_rent equal monthly_rent where housing_unit equal 123_sesame_street
+neighborhood where count housing_unit ng two
+housing_unit where size nl 800 or size nl 1000
+neighborhood where count housing_unit equal two
+housing_type argmin count housing_unit
+housing_unit where posting_date equal jan_2nd or posting_date equal feb_3rd
+neighborhood where housing_unit equal housing_unit where housing_type equal apartment
+housing_unit where neighborhood equal neighborhood where housing_unit equal 123_sesame_street
+housing_unit where monthly_rent less monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where monthly_rent equal 1500
+housing_unit where monthly_rent equal 1500 and posting_date equal jan_2nd
+housing_unit where monthly_rent greater 1500
+neighborhood where housing_unit equal housing_unit where monthly_rent equal 1500
+count housing_unit
+housing_unit where cats equal true and dogs equal true
+housing_unit where posting_date neq jan_2nd
+housing_unit where monthly_rent neq 1500
+housing_unit where posting_date ng jan_2nd or posting_date ng feb_3rd
+housing_unit where size neq 800
+housing_unit where count neighborhood greater two
+housing_unit where cats equal true and posting_date equal jan_2nd
+housing_type where count housing_unit nl two
+housing_unit where size nl size where housing_unit equal 123_sesame_street
+housing_unit where size equal 800 and posting_date equal jan_2nd
+housing_unit where cats equal true and monthly_rent equal 1500
+neighborhood where housing_unit equal 123_sesame_street
+housing_unit where size less 800 or size less 1000
+housing_unit where posting_date equal posting_date where housing_unit equal 123_sesame_street
+housing_unit where housing_type equal apartment and monthly_rent equal 1500
+housing_unit where private_bath equal true and private_room equal true
+housing_unit where housing_type equal apartment and cats equal true
+housing_unit where neighborhood equal midtown_west and private_bath equal true
+neighborhood argmin count housing_unit
+housing_unit argmin count neighborhood
+count size

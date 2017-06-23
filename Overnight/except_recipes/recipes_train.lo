@@ -1,0 +1,864 @@
+meal where count recipe ng two
+recipe where preparation_time nl cooking_time where recipe equal rice_pudding
+recipe where count meal equal two
+ingredient where count recipe ng two
+recipe where count meal nl two
+ingredient where count recipe equal two
+count ingredient
+recipe where meal equal lunch
+recipe where preparation_time less cooking_time where recipe equal rice_pudding
+count recipe
+recipe where posting_date nl posting_date where recipe equal rice_pudding
+recipe where count meal greater two
+cuisine where recipe equal rice_pudding
+recipe where preparation_time equal preparation_time where recipe equal rice_pudding
+recipe argmax count meal
+recipe where posting_date equal 2004 and meal equal lunch
+recipe where meal equal lunch and ingredient equal milk
+recipe argmin count cuisine
+ingredient where count recipe equal two
+meal where recipe equal rice_pudding
+recipe where cooking_time nl preparation_time where recipe equal rice_pudding
+ingredient where count recipe equal two
+recipe where posting_date neq 2004
+recipe argmax count meal
+recipe where count cuisine less two
+ingredient where recipe equal recipe where ingredient equal milk
+recipe where count ingredient nl two
+ingredient where count recipe equal two
+recipe where count meal less two
+recipe where cooking_time greater cooking_time where recipe equal rice_pudding
+ingredient argmin count recipe
+recipe where posting_date equal 2004
+ingredient neq ingredient where recipe equal rice_pudding 
+recipe argmax count ingredient
+meal argmax count recipe
+cooking_time where recipe equal rice_pudding
+recipe where meal neq lunch
+meal where recipe equal recipe where ingredient equal milk
+ingredient where recipe equal rice_pudding 
+recipe where preparation_time equal cooking_time where recipe equal rice_pudding
+recipe where cooking_time greater preparation_time where recipe equal rice_pudding
+recipe where posting_date equal 2004 and meal equal lunch
+ingredient where recipe equal recipe where posting_date equal 2004
+recipe argmin count ingredient
+recipe where cooking_time equal cooking_time where recipe equal rice_pudding
+recipe argmax count ingredient
+recipe where preparation_time equal cooking_time where recipe equal rice_pudding
+recipe where meal equal lunch or meal equal dinner
+ingredient where count recipe ng two
+recipe where meal equal lunch
+recipe where count cuisine greater two
+recipe where cooking_time less preparation_time where recipe equal rice_pudding
+recipe where meal equal lunch and ingredient equal milk
+recipe where posting_date ng posting_date where recipe equal rice_pudding
+ingredient where recipe equal rice_pudding 
+count cooking_time
+recipe where posting_date neq 2004
+ingredient equal milk or ingredient equal spinach
+recipe argmax count ingredient
+cuisine where recipe equal rice_pudding
+recipe where count meal ng two
+recipe argmin count meal
+recipe where count ingredient less two
+meal where recipe equal rice_pudding or recipe equal quiche
+preparation_time where recipe equal rice_pudding
+ingredient argmax count recipe
+avg preparation_time
+recipe argmax cooking_time
+avg preparation_time
+recipe where posting_date ng 2004 or posting_date ng 2010
+ingredient where count recipe less two
+recipe argmin posting_date
+recipe where count ingredient greater two
+recipe where posting_date equal 2004 and ingredient equal milk
+meal where count recipe nl two
+ingredient argmin count recipe
+ingredient where recipe equal rice_pudding or recipe equal quiche
+recipe where meal equal lunch or meal equal dinner
+recipe where cooking_time greater cooking_time where recipe equal rice_pudding
+recipe where cooking_time ng preparation_time where recipe equal rice_pudding
+recipe where count cuisine greater two
+meal where recipe neq rice_pudding
+ingredient equal milk or ingredient equal spinach
+cooking_time where recipe equal rice_pudding
+recipe where count ingredient less two
+recipe argmax preparation_time
+recipe where count cuisine greater two
+preparation_time where recipe equal rice_pudding
+recipe where posting_date greater 2004 or posting_date greater 2010
+ingredient where recipe equal recipe where posting_date equal 2004
+meal where count recipe less two
+meal argmin count recipe
+preparation_time where recipe equal rice_pudding
+ingredient argmin count recipe
+recipe where cooking_time less preparation_time where recipe equal rice_pudding
+avg cooking_time
+recipe where posting_date less 2004 or posting_date less 2010
+ingredient neq ingredient where recipe equal rice_pudding 
+recipe where posting_date neq 2004
+recipe where posting_date ng posting_date where recipe equal rice_pudding
+recipe where posting_date nl 2004
+recipe where posting_date less posting_date where recipe equal rice_pudding
+recipe argmax posting_date
+preparation_time where recipe equal rice_pudding
+count cooking_time
+recipe argmin posting_date
+cuisine where recipe equal rice_pudding
+ingredient where recipe equal recipe where meal equal lunch
+recipe where ingredient neq milk
+recipe where ingredient equal ingredient where recipe equal rice_pudding
+ingredient where count recipe nl two
+recipe where posting_date ng 2004
+count recipe
+avg cooking_time
+posting_date where recipe equal rice_pudding
+recipe where ingredient equal milk or ingredient equal spinach
+recipe argmin count meal
+meal where count recipe greater two
+recipe where preparation_time less cooking_time where recipe equal rice_pudding
+count cooking_time
+count ingredient
+recipe where ingredient equal milk and meal equal lunch
+recipe where preparation_time ng preparation_time where recipe equal rice_pudding
+ingredient where recipe equal recipe where posting_date equal 2004
+recipe where posting_date ng 2004 or posting_date ng 2010
+recipe where posting_date equal 2004
+meal where recipe equal recipe where ingredient equal milk
+recipe where meal equal lunch
+recipe where cooking_time nl cooking_time where recipe equal rice_pudding
+recipe where preparation_time less preparation_time where recipe equal rice_pudding
+avg preparation_time
+recipe where posting_date neq 2004
+recipe where count meal greater two
+meal where count recipe less two
+recipe where ingredient equal milk
+recipe argmax cooking_time
+recipe where ingredient equal milk or ingredient equal spinach
+recipe where preparation_time less preparation_time where recipe equal rice_pudding
+recipe where preparation_time ng preparation_time where recipe equal rice_pudding
+recipe where count cuisine nl two
+recipe where ingredient equal milk
+recipe where count ingredient less two
+count preparation_time
+recipe argmin count meal
+meal where recipe equal rice_pudding
+meal where count recipe equal two
+recipe where cooking_time equal preparation_time where recipe equal rice_pudding
+recipe where count meal less two
+recipe where preparation_time greater cooking_time where recipe equal rice_pudding
+preparation_time where recipe equal rice_pudding
+recipe argmin count cuisine
+recipe where ingredient equal milk or ingredient equal spinach
+recipe where cuisine equal cuisine where recipe equal rice_pudding
+recipe where preparation_time nl preparation_time where recipe equal rice_pudding
+recipe where preparation_time ng cooking_time where recipe equal rice_pudding
+ingredient where recipe equal rice_pudding or recipe equal quiche
+ingredient where count recipe nl two
+recipe where posting_date less 2004 or posting_date less 2010
+recipe where cooking_time greater preparation_time where recipe equal rice_pudding
+recipe where count meal equal two
+recipe where cooking_time ng cooking_time where recipe equal rice_pudding
+count cooking_time
+recipe argmax count ingredient
+recipe where posting_date less posting_date where recipe equal rice_pudding
+recipe where posting_date greater posting_date where recipe equal rice_pudding
+recipe where posting_date equal 2004
+recipe where ingredient equal milk and meal equal lunch
+recipe where count cuisine nl two
+recipe where count cuisine equal two
+recipe where posting_date equal posting_date where recipe equal rice_pudding
+meal equal lunch or meal equal dinner
+recipe where posting_date nl 2004
+ingredient where recipe equal recipe where posting_date equal 2004
+posting_date equal 2004 or posting_date equal 2010
+ingredient argmax count recipe
+recipe where count meal ng two
+meal argmin count recipe
+recipe where count cuisine equal two
+meal where recipe equal recipe where meal equal lunch
+recipe where preparation_time equal preparation_time where recipe equal rice_pudding
+recipe where count ingredient less two
+recipe where posting_date equal 2004 and ingredient equal milk
+ingredient neq ingredient where recipe equal rice_pudding 
+recipe where posting_date equal 2004 and meal equal lunch
+recipe where cooking_time nl cooking_time where recipe equal rice_pudding
+recipe argmin count meal
+recipe where preparation_time less preparation_time where recipe equal rice_pudding
+recipe where cooking_time equal cooking_time where recipe equal rice_pudding
+recipe argmin count cuisine
+recipe argmax count cuisine
+avg cooking_time
+recipe where preparation_time equal preparation_time where recipe equal rice_pudding
+recipe where posting_date nl posting_date where recipe equal rice_pudding
+recipe argmin count meal
+recipe where count cuisine nl two
+recipe where posting_date nl 2004 or posting_date nl 2010
+recipe where count ingredient less two
+recipe where cooking_time greater cooking_time where recipe equal rice_pudding
+recipe where count cuisine ng two
+recipe argmin count ingredient
+posting_date where recipe equal rice_pudding
+recipe where cooking_time greater cooking_time where recipe equal rice_pudding
+ingredient where count recipe nl two
+recipe where cooking_time nl preparation_time where recipe equal rice_pudding
+recipe where count meal equal two
+recipe where preparation_time less cooking_time where recipe equal rice_pudding
+recipe where posting_date ng 2004
+recipe argmin count cuisine
+ingredient where count recipe equal two
+recipe where posting_date equal 2004 and ingredient equal milk
+recipe where posting_date equal 2004 and meal equal lunch
+ingredient where count recipe equal two
+meal where count recipe ng two
+meal where recipe neq rice_pudding
+ingredient where count recipe less two
+ingredient where recipe equal rice_pudding
+ingredient where recipe equal rice_pudding
+recipe argmin posting_date
+avg cooking_time
+recipe where count ingredient nl two
+recipe where preparation_time less cooking_time where recipe equal rice_pudding
+meal where count recipe nl two
+recipe where count cuisine greater two
+cooking_time where recipe equal rice_pudding
+count recipe
+avg preparation_time
+ingredient argmin count recipe
+meal where count recipe nl two
+recipe where ingredient neq milk
+meal where count recipe greater two
+recipe where count meal less two
+recipe where posting_date equal 2004
+cuisine where recipe equal rice_pudding
+recipe where count cuisine ng two
+recipe where posting_date greater 2004 or posting_date greater 2010
+meal where count recipe equal two
+recipe where posting_date ng 2004
+recipe where posting_date greater 2004
+recipe where cooking_time nl preparation_time where recipe equal rice_pudding
+recipe argmin cooking_time
+ingredient equal milk or ingredient equal spinach
+recipe where cuisine equal cuisine where recipe equal rice_pudding
+ingredient where count recipe less two
+recipe where posting_date greater 2004 or posting_date greater 2010
+ingredient where count recipe nl two
+recipe where cooking_time nl cooking_time where recipe equal rice_pudding
+recipe argmax cooking_time
+recipe where preparation_time greater preparation_time where recipe equal rice_pudding
+recipe where ingredient equal milk
+recipe where posting_date equal 2004 and meal equal lunch
+recipe where cooking_time ng cooking_time where recipe equal rice_pudding
+recipe where count ingredient ng two
+meal where recipe equal rice_pudding or recipe equal quiche
+recipe where posting_date ng posting_date where recipe equal rice_pudding
+recipe where preparation_time equal cooking_time where recipe equal rice_pudding
+recipe where count meal less two
+recipe where ingredient equal ingredient where recipe equal rice_pudding
+recipe where ingredient equal milk
+recipe where cooking_time nl cooking_time where recipe equal rice_pudding
+ingredient where recipe equal recipe where meal equal lunch
+meal where recipe equal rice_pudding
+recipe where meal equal lunch or meal equal dinner
+recipe where count ingredient ng two
+count recipe
+recipe where count ingredient equal two
+ingredient where recipe equal recipe where ingredient equal milk
+recipe where preparation_time ng cooking_time where recipe equal rice_pudding
+recipe where count ingredient ng two
+recipe where ingredient equal milk and posting_date equal 2004
+recipe where meal equal lunch or meal equal dinner
+ingredient argmax count recipe
+recipe where cooking_time equal cooking_time where recipe equal rice_pudding
+recipe where posting_date equal 2004 or posting_date equal 2010
+recipe where preparation_time greater cooking_time where recipe equal rice_pudding
+recipe where preparation_time ng cooking_time where recipe equal rice_pudding
+recipe where ingredient equal milk and meal equal lunch
+meal where count recipe equal two
+recipe where ingredient equal milk
+recipe argmax count meal
+cooking_time where recipe equal rice_pudding
+recipe where posting_date equal 2004 or posting_date equal 2010
+meal where count recipe less two
+recipe argmin count ingredient
+recipe where posting_date ng posting_date where recipe equal rice_pudding
+meal where recipe equal recipe where posting_date equal 2004
+recipe where meal equal lunch and posting_date equal 2004
+recipe where posting_date nl 2004
+recipe where preparation_time equal preparation_time where recipe equal rice_pudding
+meal where count recipe ng two
+recipe where posting_date equal 2004 and ingredient equal milk
+recipe where count ingredient greater two
+recipe where count meal less two
+ingredient where recipe equal recipe where ingredient equal milk
+recipe where count cuisine equal two
+ingredient where recipe equal recipe where posting_date equal 2004
+posting_date where recipe equal rice_pudding
+recipe where count ingredient nl two
+recipe where cooking_time nl preparation_time where recipe equal rice_pudding
+recipe where preparation_time greater cooking_time where recipe equal rice_pudding
+meal where recipe equal recipe where meal equal lunch
+recipe where ingredient equal milk
+ingredient where recipe equal recipe where meal equal lunch
+count recipe
+recipe argmax cooking_time
+recipe argmax count cuisine
+recipe where preparation_time equal cooking_time where recipe equal rice_pudding
+meal where recipe equal rice_pudding
+meal where recipe equal rice_pudding or recipe equal quiche
+recipe where cooking_time equal cooking_time where recipe equal rice_pudding
+recipe where count meal greater two
+recipe where cuisine equal cuisine where recipe equal rice_pudding
+ingredient where recipe equal rice_pudding 
+recipe where ingredient equal milk or ingredient equal spinach
+recipe where meal equal lunch and posting_date equal 2004
+recipe argmin posting_date
+recipe where posting_date less posting_date where recipe equal rice_pudding
+recipe where posting_date less posting_date where recipe equal rice_pudding
+meal where count recipe equal two
+count preparation_time
+recipe where cooking_time greater cooking_time where recipe equal rice_pudding
+recipe where posting_date greater posting_date where recipe equal rice_pudding
+recipe argmax posting_date
+recipe where preparation_time equal cooking_time where recipe equal rice_pudding
+recipe where preparation_time nl preparation_time where recipe equal rice_pudding
+recipe equal rice_pudding or recipe equal quiche
+recipe argmax count meal
+ingredient neq ingredient where recipe equal rice_pudding 
+recipe where cooking_time nl cooking_time where recipe equal rice_pudding
+recipe where posting_date greater 2004 or posting_date greater 2010
+recipe where count cuisine equal two
+recipe where preparation_time ng preparation_time where recipe equal rice_pudding
+recipe where ingredient equal milk
+recipe where cooking_time ng cooking_time where recipe equal rice_pudding
+ingredient argmax count recipe
+meal where recipe neq rice_pudding
+ingredient where count recipe equal two
+recipe where ingredient equal ingredient where recipe equal rice_pudding
+recipe where posting_date equal 2004
+ingredient where recipe equal rice_pudding
+recipe argmax posting_date
+recipe where meal equal meal where recipe equal rice_pudding
+recipe where cooking_time equal preparation_time where recipe equal rice_pudding
+recipe where count cuisine equal two
+recipe where count cuisine nl two
+cooking_time where recipe equal rice_pudding
+ingredient argmin count recipe
+recipe where preparation_time nl cooking_time where recipe equal rice_pudding
+recipe where count ingredient greater two
+recipe where posting_date equal posting_date where recipe equal rice_pudding
+count preparation_time
+ingredient where count recipe greater two
+ingredient where count recipe ng two
+recipe where count cuisine greater two
+recipe where cooking_time greater preparation_time where recipe equal rice_pudding
+recipe where ingredient equal milk and meal equal lunch
+meal where recipe neq rice_pudding
+recipe where cooking_time less cooking_time where recipe equal rice_pudding
+recipe argmax preparation_time
+recipe argmin posting_date
+recipe where count meal greater two
+recipe where posting_date equal 2004 and meal equal lunch
+ingredient where recipe equal recipe where ingredient equal milk
+recipe where posting_date less 2004
+ingredient where count recipe less two
+ingredient where recipe equal rice_pudding or recipe equal quiche
+ingredient where recipe equal recipe where posting_date equal 2004
+count meal
+avg preparation_time
+recipe where posting_date less posting_date where recipe equal rice_pudding
+recipe where posting_date equal 2004
+recipe where meal equal lunch
+recipe where posting_date equal 2004
+recipe where meal equal lunch and ingredient equal milk
+count cooking_time
+recipe where meal equal lunch or meal equal dinner
+meal where recipe equal recipe where posting_date equal 2004
+recipe argmin preparation_time
+recipe where posting_date ng 2004
+meal argmax count recipe
+recipe where count cuisine nl two
+ingredient argmin count recipe
+cuisine where recipe equal rice_pudding
+recipe where count ingredient equal two
+ingredient where count recipe equal two
+recipe where cooking_time ng cooking_time where recipe equal rice_pudding
+recipe where posting_date equal 2004 and ingredient equal milk
+recipe argmin count cuisine
+ingredient where count recipe less two
+recipe argmax count ingredient
+recipe equal rice_pudding or recipe equal quiche
+recipe argmin preparation_time
+recipe where count ingredient nl two
+meal where count recipe greater two
+recipe argmax count ingredient
+recipe where posting_date equal 2004
+recipe where preparation_time less preparation_time where recipe equal rice_pudding
+recipe where preparation_time equal preparation_time where recipe equal rice_pudding
+recipe argmax preparation_time
+meal where recipe equal recipe where ingredient equal milk
+meal where count recipe nl two
+recipe where meal equal lunch and posting_date equal 2004
+recipe where posting_date neq 2004
+recipe where posting_date less 2004
+recipe argmin count ingredient
+recipe where preparation_time nl preparation_time where recipe equal rice_pudding
+recipe where ingredient neq milk
+recipe where preparation_time nl cooking_time where recipe equal rice_pudding
+meal argmax count recipe
+meal where recipe equal recipe where meal equal lunch
+count preparation_time
+recipe argmax count meal
+recipe where preparation_time nl cooking_time where recipe equal rice_pudding
+ingredient where count recipe nl two
+avg preparation_time
+recipe where posting_date ng 2004
+recipe where meal neq lunch
+recipe where posting_date less posting_date where recipe equal rice_pudding
+recipe where posting_date nl 2004 or posting_date nl 2010
+recipe where count ingredient equal two
+recipe where count ingredient greater two
+recipe where count meal ng two
+recipe where cooking_time greater preparation_time where recipe equal rice_pudding
+recipe where preparation_time less preparation_time where recipe equal rice_pudding
+recipe where ingredient neq milk
+recipe argmin count ingredient
+recipe where count meal less two
+recipe where preparation_time greater preparation_time where recipe equal rice_pudding
+recipe where meal equal lunch and ingredient equal milk
+recipe where meal equal lunch
+recipe argmax count ingredient
+recipe equal rice_pudding or recipe equal quiche
+recipe where count meal nl two
+recipe where posting_date equal 2004 and ingredient equal milk
+ingredient where recipe equal recipe where posting_date equal 2004
+count meal
+recipe where count cuisine nl two
+recipe argmin cooking_time
+recipe where preparation_time equal preparation_time where recipe equal rice_pudding
+recipe where cooking_time greater preparation_time where recipe equal rice_pudding
+recipe where cooking_time nl cooking_time where recipe equal rice_pudding
+recipe where count ingredient greater two
+recipe where preparation_time ng preparation_time where recipe equal rice_pudding
+recipe where count cuisine ng two
+recipe where cooking_time less preparation_time where recipe equal rice_pudding
+recipe where posting_date less posting_date where recipe equal rice_pudding
+recipe where posting_date ng 2004 or posting_date ng 2010
+posting_date where recipe equal rice_pudding
+recipe where posting_date greater posting_date where recipe equal rice_pudding
+recipe argmin count cuisine
+cuisine where recipe equal rice_pudding
+recipe where ingredient neq milk
+recipe where cooking_time greater preparation_time where recipe equal rice_pudding
+recipe where posting_date equal 2004 and meal equal lunch
+avg preparation_time
+recipe where meal equal meal where recipe equal rice_pudding
+recipe where posting_date equal 2004 or posting_date equal 2010
+recipe where count ingredient less two
+meal where count recipe equal two
+meal where recipe neq rice_pudding
+recipe where preparation_time greater cooking_time where recipe equal rice_pudding
+recipe argmin preparation_time
+cooking_time where recipe equal rice_pudding
+ingredient where count recipe greater two
+ingredient argmin count recipe
+ingredient where count recipe nl two
+count cooking_time
+recipe where count cuisine equal two
+recipe where cooking_time equal cooking_time where recipe equal rice_pudding
+recipe where meal neq lunch
+recipe where posting_date less 2004 or posting_date less 2010
+meal where recipe equal rice_pudding or recipe equal quiche
+recipe where meal equal lunch or meal equal dinner
+recipe where cooking_time greater cooking_time where recipe equal rice_pudding
+recipe where meal equal meal where recipe equal rice_pudding
+ingredient neq ingredient where recipe equal rice_pudding 
+recipe where count ingredient ng two
+recipe where posting_date less 2004 or posting_date less 2010
+avg cooking_time
+recipe where cooking_time ng preparation_time where recipe equal rice_pudding
+recipe argmin cooking_time
+count ingredient
+recipe where cooking_time equal cooking_time where recipe equal rice_pudding
+meal where recipe equal rice_pudding
+ingredient argmax count recipe
+recipe where cooking_time less cooking_time where recipe equal rice_pudding
+recipe where ingredient equal milk and posting_date equal 2004
+recipe where preparation_time less cooking_time where recipe equal rice_pudding
+recipe where count cuisine ng two
+recipe argmin cooking_time
+ingredient where recipe equal rice_pudding 
+cooking_time where recipe equal rice_pudding
+recipe where posting_date ng posting_date where recipe equal rice_pudding
+cuisine where recipe equal rice_pudding
+meal where recipe equal rice_pudding
+recipe where ingredient neq milk
+ingredient where count recipe greater two
+recipe where posting_date equal 2004 or posting_date equal 2010
+recipe where count ingredient equal two
+recipe where posting_date greater 2004 or posting_date greater 2010
+recipe where meal neq lunch
+cooking_time where recipe equal rice_pudding
+recipe where cooking_time greater cooking_time where recipe equal rice_pudding
+recipe argmin cooking_time
+recipe where count cuisine greater two
+recipe where meal equal lunch and ingredient equal milk
+recipe argmax count cuisine
+recipe where count ingredient nl two
+ingredient argmax count recipe
+posting_date where recipe equal rice_pudding
+recipe argmin count cuisine
+meal where recipe equal recipe where posting_date equal 2004
+recipe where cooking_time less cooking_time where recipe equal rice_pudding
+ingredient where count recipe nl two
+recipe where ingredient neq milk
+count preparation_time
+recipe argmax preparation_time
+count preparation_time
+recipe argmin posting_date
+meal where recipe equal recipe where meal equal lunch
+recipe where cooking_time less preparation_time where recipe equal rice_pudding
+meal argmax count recipe
+recipe argmin cooking_time
+recipe where preparation_time greater preparation_time where recipe equal rice_pudding
+posting_date where recipe equal rice_pudding
+meal where count recipe nl two
+ingredient where recipe equal recipe where meal equal lunch
+count preparation_time
+recipe where meal equal lunch
+recipe where posting_date equal 2004
+recipe where posting_date ng posting_date where recipe equal rice_pudding
+recipe where count ingredient greater two
+recipe argmin preparation_time
+count meal
+recipe where posting_date nl posting_date where recipe equal rice_pudding
+ingredient argmax count recipe
+recipe where cooking_time ng cooking_time where recipe equal rice_pudding
+recipe where ingredient equal ingredient where recipe equal rice_pudding
+ingredient where count recipe ng two
+recipe where cooking_time equal preparation_time where recipe equal rice_pudding
+count preparation_time
+recipe where ingredient equal ingredient where recipe equal rice_pudding
+ingredient equal milk or ingredient equal spinach
+meal where count recipe less two
+recipe argmin count ingredient
+recipe where cooking_time less preparation_time where recipe equal rice_pudding
+recipe where posting_date greater 2004 or posting_date greater 2010
+recipe argmax preparation_time
+recipe argmax cooking_time
+recipe where cuisine equal cuisine where recipe equal rice_pudding
+recipe where ingredient neq milk
+recipe where cooking_time equal preparation_time where recipe equal rice_pudding
+recipe where count cuisine nl two
+ingredient where count recipe greater two
+recipe where count ingredient greater two
+recipe where posting_date greater 2004
+recipe where count meal ng two
+recipe where posting_date less 2004 or posting_date less 2010
+ingredient where recipe equal recipe where meal equal lunch
+recipe where cooking_time equal preparation_time where recipe equal rice_pudding
+recipe where posting_date nl 2004 or posting_date nl 2010
+meal argmin count recipe
+recipe argmax posting_date
+recipe where preparation_time greater preparation_time where recipe equal rice_pudding
+recipe where posting_date equal 2004 and ingredient equal milk
+recipe where posting_date equal 2004
+recipe where posting_date ng posting_date where recipe equal rice_pudding
+ingredient where recipe equal recipe where ingredient equal milk
+ingredient where count recipe greater two
+recipe where posting_date ng 2004 or posting_date ng 2010
+recipe where count ingredient nl two
+ingredient neq ingredient where recipe equal rice_pudding 
+avg cooking_time
+recipe where posting_date nl 2004 or posting_date nl 2010
+recipe where count meal nl two
+ingredient where recipe equal recipe where posting_date equal 2004
+ingredient neq ingredient where recipe equal rice_pudding 
+recipe where cuisine equal cuisine where recipe equal rice_pudding
+recipe where posting_date nl posting_date where recipe equal rice_pudding
+recipe where ingredient equal milk and posting_date equal 2004
+meal where recipe equal recipe where ingredient equal milk
+recipe where preparation_time ng preparation_time where recipe equal rice_pudding
+recipe where posting_date equal posting_date where recipe equal rice_pudding
+recipe where count meal ng two
+recipe where posting_date nl 2004 or posting_date nl 2010
+recipe where posting_date greater 2004
+recipe where cuisine equal cuisine where recipe equal rice_pudding
+cuisine where recipe equal rice_pudding
+ingredient where count recipe less two
+recipe where posting_date greater 2004
+recipe where posting_date ng posting_date where recipe equal rice_pudding
+recipe where posting_date ng 2004
+meal where recipe equal recipe where posting_date equal 2004
+recipe where preparation_time ng cooking_time where recipe equal rice_pudding
+meal argmin count recipe
+count ingredient
+recipe where preparation_time less cooking_time where recipe equal rice_pudding
+recipe where posting_date less posting_date where recipe equal rice_pudding
+posting_date where recipe equal rice_pudding
+recipe argmin count meal
+recipe where count meal less two
+recipe where cooking_time equal cooking_time where recipe equal rice_pudding
+recipe where ingredient equal milk and posting_date equal 2004
+recipe argmin cooking_time
+meal where recipe equal recipe where ingredient equal milk
+recipe argmin preparation_time
+recipe where meal equal lunch and posting_date equal 2004
+recipe where ingredient equal milk and meal equal lunch
+meal where recipe equal rice_pudding
+recipe where preparation_time nl preparation_time where recipe equal rice_pudding
+ingredient where recipe equal recipe where ingredient equal milk
+recipe where posting_date ng 2004 or posting_date ng 2010
+recipe where count meal nl two
+ingredient where count recipe greater two
+recipe where cooking_time ng preparation_time where recipe equal rice_pudding
+meal where count recipe ng two
+recipe where count cuisine ng two
+recipe where count ingredient ng two
+recipe where preparation_time greater preparation_time where recipe equal rice_pudding
+meal where recipe equal recipe where posting_date equal 2004
+recipe where preparation_time equal cooking_time where recipe equal rice_pudding
+recipe where posting_date greater 2004 or posting_date greater 2010
+recipe where preparation_time equal preparation_time where recipe equal rice_pudding
+recipe where ingredient equal milk and posting_date equal 2004
+recipe where posting_date nl 2004 or posting_date nl 2010
+recipe equal rice_pudding or recipe equal quiche
+recipe where count cuisine nl two
+recipe where preparation_time less cooking_time where recipe equal rice_pudding
+recipe where preparation_time nl preparation_time where recipe equal rice_pudding
+ingredient where recipe equal recipe where ingredient equal milk
+recipe argmax count cuisine
+recipe argmax preparation_time
+recipe where meal equal lunch
+meal where count recipe greater two
+recipe where count cuisine ng two
+recipe where count ingredient equal two
+recipe where posting_date greater 2004 or posting_date greater 2010
+ingredient where count recipe ng two
+meal where recipe equal recipe where posting_date equal 2004
+recipe where preparation_time less cooking_time where recipe equal rice_pudding
+recipe where ingredient equal milk
+recipe where meal equal lunch and posting_date equal 2004
+recipe where preparation_time nl preparation_time where recipe equal rice_pudding
+recipe argmax posting_date
+recipe where posting_date ng 2004
+count ingredient
+recipe argmin preparation_time
+recipe where ingredient equal milk or ingredient equal spinach
+ingredient argmax count recipe
+recipe where cooking_time less cooking_time where recipe equal rice_pudding
+meal argmax count recipe
+meal where count recipe nl two
+recipe where count meal greater two
+recipe where posting_date less 2004
+recipe where meal equal lunch or meal equal dinner
+ingredient where recipe equal recipe where meal equal lunch
+recipe where posting_date ng 2004
+recipe where cooking_time nl cooking_time where recipe equal rice_pudding
+recipe where posting_date less 2004 or posting_date less 2010
+recipe argmax count ingredient
+recipe where count ingredient greater two
+recipe where count ingredient ng two
+recipe where count ingredient ng two
+recipe where posting_date nl posting_date where recipe equal rice_pudding
+recipe where count cuisine less two
+recipe where posting_date equal posting_date where recipe equal rice_pudding
+ingredient where count recipe equal two
+recipe where count cuisine less two
+recipe where cooking_time less preparation_time where recipe equal rice_pudding
+recipe where count meal nl two
+recipe where preparation_time ng cooking_time where recipe equal rice_pudding
+recipe where cooking_time greater preparation_time where recipe equal rice_pudding
+recipe where preparation_time equal cooking_time where recipe equal rice_pudding
+recipe argmax count cuisine
+ingredient where recipe equal rice_pudding or recipe equal quiche
+ingredient where recipe equal recipe where posting_date equal 2004
+recipe argmax cooking_time
+recipe where cooking_time less cooking_time where recipe equal rice_pudding
+recipe where cooking_time ng preparation_time where recipe equal rice_pudding
+ingredient where recipe equal recipe where meal equal lunch
+count meal
+recipe where cooking_time less preparation_time where recipe equal rice_pudding
+recipe where cooking_time less cooking_time where recipe equal rice_pudding
+ingredient where recipe equal recipe where posting_date equal 2004
+recipe where meal equal lunch and ingredient equal milk
+recipe where preparation_time nl preparation_time where recipe equal rice_pudding
+meal argmin count recipe
+recipe where posting_date ng 2004 or posting_date ng 2010
+meal where recipe equal rice_pudding or recipe equal quiche
+recipe where cuisine equal cuisine where recipe equal rice_pudding
+meal equal lunch or meal equal dinner
+recipe where count meal equal two
+meal where recipe equal rice_pudding or recipe equal quiche
+recipe argmin count cuisine
+recipe where ingredient equal milk and posting_date equal 2004
+ingredient where recipe equal rice_pudding
+recipe argmin posting_date
+recipe where count meal nl two
+recipe where posting_date ng posting_date where recipe equal rice_pudding
+recipe where cooking_time equal preparation_time where recipe equal rice_pudding
+recipe where preparation_time greater preparation_time where recipe equal rice_pudding
+recipe where preparation_time ng preparation_time where recipe equal rice_pudding
+recipe where count meal less two
+recipe where preparation_time ng cooking_time where recipe equal rice_pudding
+recipe where posting_date equal 2004
+recipe where posting_date equal 2004 and ingredient equal milk
+recipe where meal neq lunch
+count recipe
+recipe argmax count cuisine
+recipe where cooking_time ng cooking_time where recipe equal rice_pudding
+meal argmin count recipe
+recipe where meal equal lunch and ingredient equal milk
+recipe where meal equal lunch
+recipe where count ingredient ng two
+recipe argmin count ingredient
+recipe where ingredient equal milk and posting_date equal 2004
+cuisine where recipe equal rice_pudding
+recipe where cooking_time nl preparation_time where recipe equal rice_pudding
+meal where count recipe greater two
+recipe where meal equal lunch
+recipe where posting_date less posting_date where recipe equal rice_pudding
+recipe where count cuisine less two
+recipe where count cuisine less two
+ingredient neq ingredient where recipe equal rice_pudding 
+recipe where count cuisine ng two
+recipe where count meal ng two
+recipe where posting_date less posting_date where recipe equal rice_pudding
+recipe argmax count meal
+recipe where preparation_time nl cooking_time where recipe equal rice_pudding
+recipe where meal equal lunch and ingredient equal milk
+recipe where preparation_time nl preparation_time where recipe equal rice_pudding
+recipe where meal equal meal where recipe equal rice_pudding
+recipe where posting_date greater 2004
+meal argmin count recipe
+meal where count recipe less two
+recipe where meal equal lunch and posting_date equal 2004
+recipe where posting_date equal posting_date where recipe equal rice_pudding
+recipe where meal equal lunch and posting_date equal 2004
+recipe where posting_date equal posting_date where recipe equal rice_pudding
+ingredient where count recipe nl two
+recipe where ingredient equal milk
+recipe where posting_date less 2004
+recipe where preparation_time ng preparation_time where recipe equal rice_pudding
+count ingredient
+meal where recipe equal rice_pudding
+recipe where ingredient equal milk
+ingredient argmax count recipe
+recipe where preparation_time greater cooking_time where recipe equal rice_pudding
+avg cooking_time
+recipe where preparation_time ng preparation_time where recipe equal rice_pudding
+recipe where posting_date nl posting_date where recipe equal rice_pudding
+recipe where preparation_time ng cooking_time where recipe equal rice_pudding
+posting_date where recipe equal rice_pudding
+recipe where posting_date less 2004
+count cooking_time
+recipe where preparation_time less preparation_time where recipe equal rice_pudding
+recipe where cooking_time ng cooking_time where recipe equal rice_pudding
+recipe argmin count meal
+recipe where ingredient equal milk
+recipe where ingredient equal ingredient where recipe equal rice_pudding
+recipe where posting_date nl 2004
+recipe argmax posting_date
+recipe where meal equal lunch and posting_date equal 2004
+recipe where posting_date less 2004
+recipe where posting_date greater posting_date where recipe equal rice_pudding
+ingredient where count recipe less two
+recipe where count ingredient equal two
+meal where count recipe ng two
+recipe argmin count meal
+recipe where posting_date less 2004
+recipe where posting_date ng 2004
+count ingredient
+recipe argmin count cuisine
+ingredient where recipe equal rice_pudding or recipe equal quiche
+recipe where meal neq lunch
+recipe argmax count cuisine
+recipe where meal equal lunch
+recipe where posting_date neq 2004
+recipe where ingredient equal milk and posting_date equal 2004
+meal where count recipe less two
+recipe where cooking_time equal cooking_time where recipe equal rice_pudding
+recipe where count ingredient less two
+recipe where posting_date equal 2004 or posting_date equal 2010
+recipe argmin count ingredient
+recipe argmin count ingredient
+meal where count recipe equal two
+recipe argmin posting_date
+recipe where count meal ng two
+ingredient where recipe equal rice_pudding or recipe equal quiche
+recipe where cooking_time ng cooking_time where recipe equal rice_pudding
+recipe where preparation_time nl cooking_time where recipe equal rice_pudding
+ingredient neq ingredient where recipe equal rice_pudding 
+ingredient where recipe equal rice_pudding 
+meal where count recipe greater two
+recipe where count meal equal two
+ingredient where recipe equal rice_pudding 
+recipe where ingredient equal milk
+meal where recipe neq rice_pudding
+recipe where cooking_time greater preparation_time where recipe equal rice_pudding
+ingredient where recipe equal rice_pudding or recipe equal quiche
+count recipe
+recipe where posting_date nl posting_date where recipe equal rice_pudding
+recipe where cooking_time nl cooking_time where recipe equal rice_pudding
+recipe where posting_date less 2004 or posting_date less 2010
+recipe where meal equal lunch
+recipe where count ingredient less two
+recipe where count ingredient equal two
+ingredient where recipe equal recipe where meal equal lunch
+recipe where count ingredient nl two
+recipe where ingredient equal milk or ingredient equal spinach
+meal equal lunch or meal equal dinner
+ingredient equal milk or ingredient equal spinach
+count recipe
+meal where count recipe less two
+recipe where cooking_time nl preparation_time where recipe equal rice_pudding
+meal where recipe equal rice_pudding
+recipe where meal neq lunch
+recipe where posting_date nl posting_date where recipe equal rice_pudding
+recipe argmin preparation_time
+recipe where cooking_time less preparation_time where recipe equal rice_pudding
+recipe where posting_date equal 2004
+recipe where cuisine equal cuisine where recipe equal rice_pudding
+meal where recipe equal recipe where posting_date equal 2004
+recipe where count meal equal two
+recipe argmax preparation_time
+recipe argmax count meal
+recipe where cooking_time less preparation_time where recipe equal rice_pudding
+recipe where posting_date neq 2004
+recipe argmax count meal
+recipe where meal neq lunch
+recipe where preparation_time ng preparation_time where recipe equal rice_pudding
+meal where count recipe ng two
+recipe where count cuisine less two
+recipe where count cuisine ng two
+recipe where count ingredient greater two
+recipe where count ingredient less two
+recipe where ingredient equal milk or ingredient equal spinach
+ingredient argmax count recipe
+meal where recipe equal recipe where posting_date equal 2004
+recipe where cooking_time greater preparation_time where recipe equal rice_pudding
+meal where count recipe greater two
+meal where count recipe nl two
+ingredient where count recipe greater two
+recipe where meal equal meal where recipe equal rice_pudding
+recipe where cooking_time nl cooking_time where recipe equal rice_pudding
+recipe argmax posting_date
+recipe where count ingredient nl two
+recipe where count meal equal two
+recipe argmax posting_date
+recipe where posting_date greater 2004 or posting_date greater 2010
+recipe where preparation_time equal preparation_time where recipe equal rice_pudding
+meal equal lunch or meal equal dinner
+preparation_time where recipe equal rice_pudding
+count cooking_time
+ingredient where recipe equal rice_pudding or recipe equal quiche
+recipe where posting_date greater 2004
+meal where count recipe less two
+posting_date where recipe equal rice_pudding
+recipe where posting_date nl 2004
+recipe where count meal nl two
+recipe where posting_date equal 2004
+recipe where count cuisine ng two
+recipe where count ingredient ng two
+recipe where count ingredient nl two
+recipe where posting_date neq 2004

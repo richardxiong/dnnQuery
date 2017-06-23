@@ -1,0 +1,19 @@
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 3pm
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng jan_2nd or <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng one
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 argmax <field>:1

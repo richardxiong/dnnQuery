@@ -1,0 +1,3535 @@
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal brown_university
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal single
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 is true
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal male
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where end_state ng 2004
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal 180 and <field>:2 equal brown_university
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 is true
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal male
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal alice
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal brown_university or <field>:1 equal ucla
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:0 or <field>:1 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl 2010
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:0 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+count <field>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng 2004 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where elationship_status equal single and <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal single and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 is true
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal alice
+<field>:0 where count <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 neq mckinsey
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where end_state ng 2004
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where end_state ng 2004
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where end_state ng 2004
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+count <field>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal single
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 is true
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmin <field>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 is true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 is true
+<field>:0 where <field>:1 less <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal true
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where count <field>:1 ng two
+avg <field>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal single
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 <value>:1 equal or <field>:1 equal <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where end_state ng 2004
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+count <field>:0
+<field>:0 where <field>:1 <value>:1 equal or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 <value>:1 equal or <field>:1 equal program_manager
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where end_state ng 2004
+<field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+count <field>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 is true
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less 2004
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal alice
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal brown_university
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq mckinsey
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl 2004
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater 180 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+count <field>:0
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal brown_university
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:0 and <field>:2 equal <value>:2
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 ng 2004
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal single
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+count <field>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 2010
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal software_engineer
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+count <field>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 is <value>:1
+<field>:0 where count <field>:0 ng two
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+count <field>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal male or <field>:1 equal female
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 200
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where count <field>:0 ng two
+<field>:0 where count <field>:1 less two
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 less 180 or <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where count <field>:1 equal two
+<field>:0 where persone equal alice where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 less 2004 or <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 and <field>:3 equal <value>:3
+<field>:0 where count <field>:1 ng two
+count <field>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:0 equal <value>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater 2004 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 equal <value>:0 or <field>:0 equal 200
+<field>:0 where <field>:1 is <value>:1
+<field>:0 where <field>:1 less <value>:1 where <field>:1 less 2010
+<field>:0 where <field>:1 less <value>:1
+count <field>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl 2004
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal alice where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less than two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where end_state ng 2004
+<field>:0 where <field>:1 is male
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 <value>:1 equal or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where elationship_status equal single and <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal male
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal male and <field>:2 equal <value>:2
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal male
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 nl two
+<field>:0 equal alice or <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 nl twp
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq computer_science
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 is <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 equal software_engineer or <field>:0 equal program_manager
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+count <field>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal brown_university
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 argmax end_state
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal mckinsey
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true
+<field>:0 argmax count <field>:1
+<field>:0 equal brown_university or <field>:0 equal ucla
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl 2010
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal male and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal new_york
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where end_state ng 2004
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:0 equal <value>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq brown_university
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 is male
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal single
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+avg <field>:0
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng 2010
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where end_state ng 2004
+<field>:0 where <field>:1 neq computer_science
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+count <field>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where end_state ng 2004
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal mckinsey
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal single
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmax end_state
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 less <value>:1 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:2 and <field>:3 equal <value>:3
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 less than two
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 less <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal brown_university
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal brown_university
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 greater two
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where elationship_status equal single and <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq male
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal male and <field>:2 equal true
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 is male
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq mckinsey
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal male and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater 2004
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmin <field>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl 2010
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal brown_university
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal male
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 2010
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 is <value>:1
+<field>:0 where <field>:1 is true
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less 2004 or <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 is true
+<field>:0 where <field>:1 neq single
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal brown_university or <field>:1 equal ucla
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal alice
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 is true
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 nl two
+<field>:0 argmax end_state
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng 2004 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+count <field>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 2010
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal brown_university
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where count <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where end_state ng 2004
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 is male
+avg <field>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal male
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less 2004
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater 2004
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl 2010
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 is <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal brown_university or <field>:1 equal ucla
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng 2004
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 argmin <field>:1
+avg <field>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 argmax end_state
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+count <field>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where count <field>:1 ng two
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal alice
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 is true
+<field>:0 where <field>:1 equal male and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+count <field>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal new_york and <field>:2 equal true
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less 2010
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less than two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:0
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng 2004
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 is true
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmax end_state
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where end_state ng 2004
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less 2004 or <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 is true
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq software_engineer
+count <field>:0
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 is true
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal male
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where count <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal brown_university
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 equal male or <field>:0 equal female
+<field>:0 where <field>:1 equal <value>:0 or <field>:1 equal <value>:0
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 ng 180 or <field>:1 ng <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal brown_university
+<field>:0 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 is <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less two
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng 2004
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 is true
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal software_engineer
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal male
+<field>:0 where <field>:1 equal brown_university or <field>:1 equal ucla
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 nl twp
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 2010
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq computer_science
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater 2004 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 is true
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 neq 2004
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl 2004
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less two
+count <field>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:0 or <field>:1 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 is true
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 argmin count <field>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng 180 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+count <field>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 software_engineer equal or <field>:1 equal program_manager
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0 where <field>:1 equal <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal brown_university or <field>:1 equal ucla
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal alice
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl 2004
+<field>:0 where count <field>:1 nl two
+count <field>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal software_engineer
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal male
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal mckinsey
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater 2004
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal brown_university or <field>:1 equal ucla
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal brown_university
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal true
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal 2004
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl 2004
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 equal software_engineer or <field>:0 equal program_manager
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less than two
+<field>:0 where <field>:1 is true
+<field>:0 where elationship_status equal single and <field>:1 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 is true
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 2010
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal male and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 ng two
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng 2004
+<field>:0 where <field>:1 is true
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 is true
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 nl two
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal male
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal single and <field>:2 equal true
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less 2004
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where persone equal alice where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal male
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less 2004 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 200
+<field>:0 where count <field>:1 nl twp
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less 2010
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+count <field>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 is <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal 2004
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less 2010
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where count <field>:0 ng two
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq mckinsey
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 is true
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal alice
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+count <field>:0
+<field>:0 where <field>:1 less <value>:1 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 software_engineer equal or <field>:1 equal program_manager
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 less <value>:1
+<field>:0 equal brown_university or <field>:0 equal ucla
+<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng 180
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 neq mckinsey
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+count <field>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal single and <field>:2 equal true
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal male
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater 2004 or <field>:1 greater 2010
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:2 and <field>:3 equal <value>:3
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng 2004 or <field>:1 ng <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 less 2004
+<field>:0 where count <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal brown_university
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng 200
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal single and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal alice where <field>:0 equal brown_university
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl 2004
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal brown_university
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where end_state ng 2004
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal 180 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 equal mckinsey or <field>:0 equal google
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where end_state ng 2004
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 is true
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 is male
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 argmin <field>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 where count <field>:1 equal two
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal true and <field>:2 equal alice
+<field>:0 where count <field>:1 ng two
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where elationship_status equal single and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng 2004 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl 2004 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:2 and <field>:3 equal <value>:3
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq computer_science
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 is male
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal mckinsey
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 ng two
+count <field>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng 2004
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal 180 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng 2004
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal brown_university
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal 180
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 argmax end_state
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 is true
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+count <field>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal brown_university
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less two
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal male and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng 2004
+count <field>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq software_engineer
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where persone equal alice where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+count <field>:0
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal brown_university or <field>:1 equal ucla
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal brown_university
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+count <field>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 is true
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal alice
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal new_york
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less 200
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where end_state ng 2004
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal male
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where end_state ng 2004
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal brown_university
+<field>:0 where <field>:1 is true
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng 2004
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl 200
+<field>:0 where elationship_status equal single and <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 2010
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal male and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng 2004
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 equal brown_university or <field>:0 equal ucla
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where end_state ng 2004
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less 2004 or <field>:1 less <value>:1
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 argmax count <field>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:2 and <field>:3 equal <value>:3
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where persone equal alice where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal brown_university
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng 180
+<field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal male
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal alice
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal software_engineer
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl 2004
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal male
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl 2010
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal brown_university
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal brown_university
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal alice
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+avg <field>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 2010
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal brown_university
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq brown_university
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal male
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 less <value>:1

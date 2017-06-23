@@ -5,3 +5,11 @@
 **/.ipynb_checkpoints/*.ipynb
 
 data_prep/.ipynb_checkpoints/
+
+*.pptx
+
+*.pptx
+
+*.docx
+
+*.pdf
