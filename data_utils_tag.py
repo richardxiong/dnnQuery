@@ -290,8 +290,8 @@ def prepare_wmt_data(data_dir, en_vocabulary_size, fr_vocabulary_size, tokenizer
   # train_path = os.path.join(data_dir, "rand_train")
   # dev_path = os.path.join(data_dir, "rand_dev")
 
-  train_path = os.path.join(data_dir, "all_train")
-  dev_path = os.path.join(data_dir, "all_test")
+  train_path = os.path.join(data_dir, "except_socialnetwork_train")
+  dev_path = os.path.join(data_dir, "except_socialnetwork_test")
 
   from_train_path = train_path + ".qu"
   to_train_path = train_path + ".lox"   # we have a new logical form, 04/20/2017
