@@ -1,0 +1,752 @@
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 less 1500 or <field>:1 less <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal midtown_west
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal 123_sesame_street
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 argmax count <field>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 equal apartment and <field>:2 equal true
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal 1500 and <field>:2 equal apartment
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 nl jan_2nd or <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 1000
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+count <field>:0
+<field>:0 argmin count <field>:1
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:2 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater 1500 or <field>:1 greater 2000
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:1
+<field>:0 where <field>:1 equal apartment and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+count <field>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal 1500
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal apartment and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:1 where <field>:0 equal 123_sesame_street
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal apartment
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where count <field>:1 nl two
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal 1500
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl 1500 or <field>:1 nl 2000
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal apartment
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal apartment or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
+count <field>:0
+<field>:0 where <field>:1 equal <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq 1500
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where count <field>:1 less two
+<field>:0 where count <field>:1 less two
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+count <field>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal 123_sesame_street
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal midtown_west
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 argmin count <field>:1
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal apartment
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal apartment and <field>:1 equal apartment
+<field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal apartment and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+avg <field>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+<field>:0 where count <field>:1 less two
+<field>:0 where count <field>:1 ng two
+count <field>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal 123_sesame_street
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal apartment
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+avg <field>:0
+<field>:0 where <field>:1 less 1500
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal apartment and <field>:1 equal apartment
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal 123_sesame_street
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 argmax count <field>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal apartment
+<field>:0 where count <field>:1 ng two
+count <field>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal midtown_west and <field>:1 equal midtown_west
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 equal <value>:0 or <field>:0 equal condo
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+count <field>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 ng two
+avg <field>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:2 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:2 and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal apartment and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 equal midtown_west or <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal midtown_west
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal apartment or <field>:1 equal condo
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal 1500 or <field>:1 equal 2000
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal 123_sesame_street
+<field>:0 where count <field>:1 nl two
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal apartment and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+count <field>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 equal 1500 or <field>:0 equal 2000
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq apartment
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater 1500
+<field>:0 argmax count <field>:1
+<field>:0 where <field>:1 equal apartment
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng 1500 or <field>:1 ng 2000
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+avg <field>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 equal midtown_west
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+count <field>:0
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less feb_3rd
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+count <field>:0
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 equal <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal apartment and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng 1500
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:2 and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1
+count <field>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal apartment
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal apartment and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+count <field>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:2 and <field>:2 equal true
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal apartment
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal apartment
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <value>:1 and equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 greater 1500
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+count <field>:0
+<field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 argmax count <field>:1
+<field>:0 equal apartment or <field>:0 equal condo
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal apartment
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where count <field>:1 greater two
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+avg <field>:0
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 nl two
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:2 and <field>:2 equal true
+<field>:0 argmin count <field>:1
+<field>:0 where count <field>:1 nl two
+<field>:0 where count <field>:1 less two
+avg <field>:0
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl 1500
+count <field>:0
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal apartment and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <field>:0 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
+<field>:0 where <field>:1 ng 800 or <field>:1 ng <value>:1
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal apartment and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 argmin <field>:1
+<field>:0 where <field>:1 equal apartment and <field>:2 equal 1500
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal true
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 equal apartment and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal 800
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 equal apartment
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal feb_3rd
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal apartment
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal apartment and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal apartment and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:2 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where count <field>:1 equal two
+<field>:0 argmax <field>:1
+<field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
