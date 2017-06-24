@@ -18,7 +18,7 @@ people who work at <value>:0 or <value>:0
 which <field>:0 were at least two <field>:1 <field>:0 in
 find me the <field>:0 of the employee who <field>:1 before <value>:1
 <field>:0 of employee whose <field>:1 is not <value>:1
-when did alice join at <field>:1
+when did alice join at <value>:1
 find the <field>:0 <field>:0 of students who have a <field>:1 later than <value>:1
 find <field>:0 with a <field>:1 of <value>:1 <field>:1 who are the same <field>:2 as <value>:0
 <value>:1 <field>:1 who are singles
@@ -81,9 +81,9 @@ which people are <field>:0 with employees who strated before <value>:1
 the <field>:0 <field>:2 who is <field>:1 in <value>:1
 what is the employees <field>:0 who <field>:1 in <value>:1
 all <value>:1 <field>:1 <field>:1 <field>:0 who studied <value>:2
-<field>:0 who went to <field>:2 and are single
+<field>:0 who went to <value>:2 and are single
 find <field>:0 of students starting in <value>:1 and later
-find me the <field>:0 of students who did not attend <field>:1
+find me the <field>:0 of students who did not attend <value>:1
 what did <value>:1 study when she graduated in <value>:2
 <field>:0 who <field>:1 on the same date as <value>:0
 <field>:0 who has a <field>:1 before <value>:0 graduates
@@ -117,7 +117,7 @@ which men are <value>:1 <field>:1 <field>:1
 <field>:0 that <field>:1 working before <value>:1
 which people are <field>:0 with students who graduated no earlier than <value>:1
 which <field>:0 graduate after <value>:1
-<field>:0 of student whose <field>:1 of not <field>:1
+<field>:0 of student whose <field>:1 of not <value>:1
 find employees <field>:0 with a <field>:1 day in <value>:1 or before
 which <field>:0 that <value>:1 is <field>:1 with are <field>:1 with <value>:1
 what <field>:0 <field>:2 in <value>:2 is <value>:1 <field>:1 <field>:1
@@ -126,7 +126,7 @@ what <field>:0 completed school the same year <value>:0 <field>:2
 who is <field>:0 with the employee who <field>:1 no later than <value>:1
 find the <field>:0 of employees whom have an <field>:1 that is bigger than <value>:1
 <field>:0 that <field>:1 school on or before the day <value>:0 <field>:2 school
-which <field>:0 has at least <value>:1 <field>:1 to go to
+which <field>:0 has at least 2 <field>:1 to go to
 <field>:2 of <value>:2 who are <value>:1 <field>:1 <field>:1
 which <field>:0 are <field>:1 with <value>:1 and is <value>:2 <field>:2 <field>:2
 what is the <field>:0 of people that <field>:1 working in or after <value>:1
@@ -148,7 +148,7 @@ what is the <field>:0 of a person whose <field>:1 is <value>:1 <field>:1
 <field>:0 who <field>:2 school on the same day as or before alive <field>:2
 <field>:0 whose <field>:1 is on <value>:0 <field>:1 or later
 <field>:0 that <field>:1 school before <value>:0 <field>:2
-which <field>:0 go to <field>:1 or ucla
+which <field>:0 go to <value>:1 or <value>:1
 who was the <field>:1 <field>:0 to <field>:1 working
 <field>:0 whose <field>:1 is no later than <value>:0
 in what <field>:0 was the employee who is not a <value>:1 <field>:0
@@ -177,7 +177,7 @@ find the <field>:0 of all persons with a <field>:1 of <value>:1 <field>:1
 <field>:0 that are <field>:1 with either <value>:0 or <value>:0
 a <field>:0 who <field>:1 on the day <value>:0 did or before
 <field>:0 who was <field>:1 before <value>:0 <field>:2
-what <field>:0 who are not software_engineers
+what <field>:0 who are not <value>:1
 what <field>:0 have a <field>:1 of <value>:1 who are also <field>:2 with <value>:2
 <field>:0 who is not <field>:1 with <value>:0
 find people with <field>:0 that <field>:1 school before <value>:1
@@ -187,7 +187,7 @@ what <field>:0 is the person who <value>:1 <field>:1 <field>:1
 <field>:0 of <value>:1 <field>:1
 name the <field>:0 <field>:0 an employee was <field>:0 who <field>:1 no later than <value>:1
 <field>:0 whose <field>:1 is before <value>:0 <field>:2
-a <field>:0 that doesnt attend <field>:1
+a <field>:0 that doesnt attend <value>:1
 <field>:0 finishing before or in <value>:1
 what students have a <field>:1 that is <value>:1 or later and who are their <field>:0
 <field>:0 <field>:1 in the same <field>:1 as <value>:0
@@ -214,7 +214,7 @@ which <field>:0 graduated no later than <value>:0 <field>:1 day of work
 which <field>:0 strated after <value>:1 or <value>:1
 <field>:0 who <field>:1 working in or before <value>:1
 <field>:0 who <field>:1 working after <value>:0 <field>:2 her job
-name a single <field>:0 who is <field>:1 with <value>:1
+name a <value>:1 <field>:0 who is <field>:2 with <value>:2
 what is the <field>:0 of students who did not <field>:1 in <value>:1
 find the birth <field>:0 of employees with a <field>:1 later than <value>:1
 which <field>:0 <field>:1 first
@@ -232,7 +232,7 @@ find singlestatus <field>:0 who are <value>:2 <field>:2
 people who are <field>:0 with student that didnt <field>:1 in <value>:1
 <field>:0 that <field>:1 working after <value>:1
 which <field>:0 were <field>:1 in the same place as <value>:0
-what is the <field>:0 of students who are not <field>:1 students
+what is the <field>:0 of students who are not <value>:1 students
 find <value>:1 <field>:1 who is <field>:2
 <field>:0 who <field>:1 as late as <value>:0
 person who is a <field>:0 of an employee that has worked since <value>:1
@@ -250,7 +250,7 @@ what is the <field>:0 of an employee who <field>:1 in <value>:1 or later
 what is the <field>:0 <field>:0 of student that was enrolled by <value>:1
 which <field>:0 <field>:1 recently
 <field>:0 who share a workplace with alive
-what <field>:0 are part of <value>:1 <field>:1
+what <field>:0 are part of two <field>:1
 find me all <field>:1 named <value>:1 who <field>:0 during <value>:0
 what <field>:0 have the earliest <field>:1
 find <field>:0 of nonmckinsey <field>:1
@@ -291,7 +291,7 @@ who is the employee whose <field>:1 was at least <value>:1 <field>:0 with
 find <field>:0 with a <field>:1 earlier than the <field>:2 of <field>:0 <value>:0
 <field>:0 who were <field>:1 the same day <value>:0 <field>:2 school
 find the birth <field>:0 of students who have a <field>:1 in <value>:1 or greater
-who is a person whose <field>:1 is not <field>:1 <field>:0 with
+who is a person whose <field>:1 is not <value>:1 <field>:0 with
 whats the <field>:0 of employees who started work before 2004
 <field>:0 who were <field>:1 after <value>:1
 find employees <field>:0 with last day after <value>:1
@@ -299,13 +299,13 @@ who has over two <field>:1
 is <value>:1 <field>:0 by <value>:0
 find <field>:0 whose <field>:1 is the same as that of <field>:0 <value>:0
 what are the <field>:0 of students who <field>:1 school before <value>:1
-students <field>:0 whose <field>:1 is not <field>:1
+students <field>:0 whose <field>:1 is not <value>:1
 which <field>:0 stopped working in 2004
 people who are <field>:0 with someone that did not <field>:1 in <value>:1
 what <field>:0 have an <field>:1 that is later than that of <field>:0 <value>:0
-<field>:0 of a student not attending <field>:1
+<field>:0 of a student not attending <value>:1
 <field>:0 that has less than two <field>:1
-<field>:0 of students who are not studying at <field>:1
+<field>:0 of students who are not studying at <value>:1
 <field>:0 of student whose <field>:1 is not <value>:1
 <field>:0 with <field>:1 not after <field>:2 of <field>:0 <value>:0
 is the person <value>:0 or <value>:0
@@ -314,12 +314,12 @@ find everybody who has two <field>:1
 what is the <value>:1 <value>:0 <field>:0
 who are people who are employees with a <field>:1 not of <value>:1 <field>:0 with
 what <field>:0 have a <field>:1 that is after the <field>:2 of <field>:0 <value>:0
-<field>:0 of employees that do not work as software_engineers
+<field>:0 of employees that do not work as <value>:1
 when did <value>:1 <field>:0 as an <field>:1
 who is shorter than <value>:0
 what is the <field>:0 of people that <field>:1 school before <value>:1
 how many <field>:0 are there
-which <field>:0 is not from <field>:1
+which <field>:0 is not from <value>:1
 who works for someone other than <value>:1
 <field>:0 who <field>:1 before or on <value>:0 <field>:2 day
 who was <field>:1 on or after <value>:0 <field>:2 day of school
@@ -367,7 +367,7 @@ who are <field>:0 with connection who <field>:1 school before <value>:1
 which employees <field>:1 is not <value>:1
 <field>:0 starting the soonest
 find <field>:0 who have no more than two <field>:1
-<field>:0 that study or studied anywhere but <field>:1
+<field>:0 that study or studied anywhere but <value>:1
 whose <field>:0 is <field>:1
 any <value>:1 who is <field>:2
 what person is <field>:0 with the employee that was <field>:1 before <value>:1
@@ -385,7 +385,7 @@ find me all <field>:0 that <field>:1 on the same day as <value>:0
 what people are <field>:0 with students that have a <field>:1 of <value>:1 or later
 what are the <field>:0 of people <field>:1
 what <field>:0 has less than two <field>:1
-<field>:0 of nonsoftware_engineers
+<field>:0 of nonsoftware_engineer
 who is <value>:1 <field>:1 with that also have <field>:2 of <value>:2
 <field>:0 who work at <value>:2 and are <value>:1 <field>:1 <field>:1
 which <value>:2 is <value>:1 <field>:1 <field>:1
@@ -465,7 +465,7 @@ find people who are <value>:0
 find <field>:0 starting before <value>:0 <field>:2 day
 <field>:0 whose <field>:1 is not before <field>:1 of <field>:0 <value>:0
 what is the <field>:0 of students with an <field>:1 earlier than <value>:1
-people who are <field>:0 with employees that are not software_engineers
+people who are <field>:0 with employees that are not <value>:1
 what <field>:0 have an <field>:1 that is greater than that of <field>:0 <value>:0
 what is number of a <field>:0
 what is the identifying <field>:0 of the transgendered <field>:1
@@ -506,9 +506,9 @@ which <field>:0 <field>:1 day is no earlier than <value>:1
 what is the <field>:0 of people that <field>:1 school before <value>:1
 <field>:0 whose <field>:1 is before the <field>:2 of <value>:0
 what <field>:0 are the people that <field>:1 school in or before <value>:1
-find <field>:0 who are <value>:1 <field>:1 <field>:1 and attend <field>:2
+find <field>:0 who are <value>:1 <field>:1 <field>:1 and attend <value>:2
 <field>:0 of <value>:1 employment which <field>:2 in <value>:2
-locate the <field>:0 of <field>:1 whom are not <field>:1 by mickinsey
+locate the <field>:0 of <field>:1 whom are not <field>:1 by <value>:1
 <field>:0 of <value>:1 <field>:1
 find <field>:0 whose <field>:1 day is after <value>:0 <field>:2
 what is the <field>:1 of <field>:0 who are <value>:2 <field>:2 <field>:2
@@ -556,8 +556,8 @@ what <field>:0 do those that are <value>:1 <field>:1 <field>:1 go to
 find <field>:0 of students not studying <value>:1 <field>:1
 <field>:0 whose <field>:1 is before <field>:2 of <field>:0 <value>:0
 who is <field>:0 with the person from <value>:1
-<field>:0 were the working people that are not software_engineers <field>:0
-what is the <field>:0 date of <value>:1 who is a <field>:1 of <field>:2
+<field>:0 were the working people that are not <value>:1 <field>:0
+what is the <field>:0 date of <value>:1 who is a <field>:1 of <value>:2
 working <field>:0 with the least <field>:1
 <field>:0 who completed education before <value>:0 joined work
 find <field>:0 who <field>:1 <field>:1
@@ -650,7 +650,7 @@ name someone who is <value>:1 <field>:1 <field>:1
 what <field>:0 has a <field>:1 later than the <field>:2 of <value>:0
 <field>:0 that <field>:1 work after <value>:0 <field>:2 school
 <field>:0 that didnt finish in <value>:1
-<field>:0 who are <value>:1 <field>:1 <field>:1 and are software_engineers
+<field>:0 who are <value>:1 <field>:1 <field>:1 and are <value>:2
 <field>:0 who graduated before <value>:0 <field>:2
 <field>:0 who did not <field>:1 working before <value>:0 was <field>:2
 who is <field>:0 with an employee whos <field>:1 is <value>:1
@@ -761,7 +761,7 @@ a <field>:0 who <field>:1 before <field>:0 <value>:0 did
 whats the <field>:0 of the student leaving his job by <value>:1
 what is the status of the two peoples <field>:0
 who has maximum two friends
-who studied at only <value>:1 <field>:1
+who studied at only one <field>:1
 find <field>:0 with less than two <field>:1
 find someone shorter than <value>:1 <field>:1
 find <field>:0 with <field>:1 in <value>:1 or <value>:1
@@ -791,7 +791,7 @@ what <field>:0 who <field>:2 in <value>:2 is <value>:1 <field>:1 <field>:1
 what <field>:0 have an <field>:1 later than <value>:1
 who is the student whose <field>:1 was at least <value>:1 <field>:0 with
 <field>:0 that <field>:1 working after <value>:0 <field>:2 working
-which person is <field>:0 with someone who goes to somewhere besides <field>:1
+which person is <field>:0 with someone who goes to somewhere besides <value>:1
 find <field>:0 whose <field>:1 day was before <value>:1
 find me <field>:0 of <value>:1 people
 person who is <field>:0 with someone whose <field>:1 is after <value>:1
@@ -892,13 +892,13 @@ what is the students <field>:0 <field>:0 who <field>:1 at the most in <value>:1
 <field>:0 who is a <value>:1 or <value>:1
 a <value>:1 <field>:1 <field>:1 <field>:0 <field>:2 in same place as <value>:0
 <field>:0 who joined study on the day <value>:0 was <field>:2
-someone who has studied at less than <value>:1 <field>:1
+someone who has studied at less than two <field>:1
 <field>:0 that <field>:1 working before <value>:0 <field>:2 school
 find <field>:0 with the most <field>:1
 what <field>:0 <field>:1 is shorter than <value>:1 to <value>:1 <field>:1
 what are <field>:0 of students starting after <value>:1
 who has the most <field>:1
-find single <field>:0 who are <field>:1 with <value>:1
+find <value>:1 <field>:0 who are <field>:2 with <value>:2
 <field>:0 that <field>:1 working after <value>:0 <field>:2 school
 which <field>:0 <field>:1 the day <value>:0 <field>:2 her job
 find the <field>:1 <field>:0
@@ -960,7 +960,7 @@ find students <field>:0 with <field>:1 days other than <value>:1
 an <field>:0 who <field>:1 before <value>:0 was <field>:2
 what is the <field>:0 of people that <field>:1 school after <value>:1
 which <field>:0 dont have the <field>:1 <value>:1
-people that are software_engineers or program_managers
+people that are <value>:0 or <value>:0
 <field>:0 who joined before <value>:1
 name the <field>:0 who was born after <value>:0
 which <field>:0 <field>:1 after <value>:0 <field>:2
@@ -984,7 +984,7 @@ what is the <field>:0 of employees whose <field>:1 is not <value>:1
 what is the <field>:0 of working people that did not <field>:1 in <value>:1
 <field>:0 of employee whose end_date is before <value>:1
 find the birth <field>:0 for students whom have a <field>:1 other than <value>:1
-which <field>:0 are <value>:1 <field>:1 at <field>:2
+which <field>:0 are <value>:1 <field>:1 at <value>:2
 <field>:0 of student whose <field>:1 is not before <value>:1
 find <field>:0 that have more than two <field>:1
 name a <field>:2 of <value>:2 who was <field>:1 in <value>:1
@@ -1076,7 +1076,7 @@ who is studying <value>:1 or <value>:1
 who is <field>:0 with someone who graduated after <value>:1
 find <field>:0 with <field>:1 day same as or before <value>:0
 <field>:0 that <field>:1 working after <value>:0 did
-people who have <field>:0 who are not software_engineers
+people who have <field>:0 who are not <value>:1
 find <field>:0 starting on <value>:0 <field>:1 day or later
 which <field>:0 goes to another <field>:1 besides brown
 which of <value>:2 <field>:2 is <field>:1
@@ -1089,7 +1089,7 @@ who are people who are students with an <field>:1 no greater than <value>:1 <fie
 find all males who have <field>:0
 who is <field>:0 with the student that <field>:1 after <value>:1
 <field>:0 who joined after <value>:0 was <field>:2
-whats the <field>:0 of all students except those from <field>:1
+whats the <field>:0 of all students except those from <value>:1
 which singles are <value>:1 <field>:1 <field>:1
 <field>:0 who joined before <value>:1
 find the <field>:0 of employees that <field>:1 in <value>:1 or later
@@ -1162,7 +1162,7 @@ someone with multiple <field>:1
 who is the <field>:0 of the person whose <field>:1 is <value>:1 <field>:1
 <field>:0 who <field>:1 in <value>:1 or before
 <field>:0 that <field>:1 working when <value>:0 <field>:1 school
-who is <field>:0 with someone who didnt go to <field>:1
+who is <field>:0 with someone who didnt go to <value>:1
 who is <value>:1 <field>:1 and from the same place as <value>:0
 who is <value>:1 <field>:1 that is from <value>:2
 which <field>:0 <field>:1 no later than <value>:0
@@ -1171,7 +1171,7 @@ which <field>:0 has the <field>:1 of <value>:0
 find <field>:0 <field>:1 after <value>:0 <field>:2 day of work
 what <field>:0 are the two <field>:1
 find <field>:0 with <field>:1 day before or the same as <value>:0
-whats the <field>:0 of the student that did not attend <field>:1
+whats the <field>:0 of the student that did not attend <value>:1
 find <field>:0 who have a <field>:1 that is the same as <field>:0 <value>:0
 find students <field>:0 not studying <value>:1 <field>:1
 birth <field>:0 of student whose <field>:1 is not <value>:1
@@ -1223,8 +1223,8 @@ name a <field>:0 <value>:1 <field>:1 <field>:1 who was <field>:2 in <value>:2
 people who are <field>:0 with students who <field>:1 before <value>:1
 what is the <field>:0 of the person that is <value>:1 <field>:1 <field>:1
 <field>:1 history of a <field>:0
-<field>:0 who studied in <field>:1 other than <field>:1
-birth <field>:0 of student whose <field>:1 is not <field>:1
+<field>:0 who studied in <field>:1 other than <value>:1
+birth <field>:0 of student whose <field>:1 is not <value>:1
 find the birth <field>:0 of students with an <field>:1 later than <value>:1
 an <field>:0 who <field>:1 after <value>:0 was <field>:2
 <field>:0 whose <field>:1 is before <field>:2 of <field>:0 <value>:0
@@ -1283,7 +1283,7 @@ what is the <field>:0 of employees whose <field>:1 day was before <value>:1
 find <field>:0 whose <field>:1 is <value>:1 or later
 <field>:0 of employees starting after <value>:1
 <field>:0 who did not <field>:1 school before <value>:1
-what is <value>:1 studying at <field>:2
+what is <value>:1 studying at <value>:2
 find the <field>:0 of students whose <field>:1 is no later than <value>:1
 <field>:0 that <field>:1 working after <value>:0 <field>:2 working
 transgendered <field>:0
@@ -1297,9 +1297,9 @@ find <field>:0 starting before <value>:0 <field>:2 day at work
 what <field>:0 have an <field>:1 that is before the <field>:2 of <value>:0
 what <field>:0 has the latest <field>:1
 <field>:0 who <field>:1 working at the same time as <value>:0
-people with <field>:0 who are not software_engineers
+people with <field>:0 who are not <value>:1
 <field>:0 who are <value>:1 <field>:1 or <field>:1
-which <field>:0 from <field>:2 is <value>:1 <field>:1 <field>:1
+which <field>:0 from <value>:2 is <value>:1 <field>:1 <field>:1
 who is <field>:0 with the employee starting in <value>:1
 which <field>:0 <field>:1 no later than <value>:0 <field>:2
 what people are <field>:0 with a person whose <field>:1 is <value>:1 <field>:1
@@ -1308,7 +1308,7 @@ what <field>:0 were more than two <field>:1 in my social network <field>:0 in
 which <field>:0 claims the most <field>:1
 <field>:0 who joined study on the day <value>:0 completed
 <field>:0 that <field>:1 working before <value>:0 <field>:1 school
-<value>:1 <field>:1 who are single
+<value>:2 <field>:2 who are <value>:1
 find people who are <field>:0 with employees who have an <field>:1 no later than <value>:1
 <field>:0 starting when <value>:0 finishes
 find <field>:0 <field>:1 the same day <value>:0 <field>:2 school
@@ -1395,7 +1395,7 @@ which <field>:0 <field>:1 earliest
 who is studying the most things
 what <field>:0 has a <field>:1 no later than <value>:1
 what <field>:0 is the <field>:0 of an employee who did not <field>:1 in <value>:1
-<field>:0 were employees who are not software_engineers <field>:0
+<field>:0 were employees who are not <value>:1 <field>:0
 <field>:0 who <field>:1 before <field>:2 of <value>:0
 <field>:0 were the people that finished school after <value>:1 <field>:0
 locate <field>:0 who have an <field>:1 that is no greater than <field>:0 <value>:0
@@ -1414,14 +1414,14 @@ an <field>:0 that <field>:1 before <value>:0
 <field>:0 who finish after <value>:0 starts
 <field>:0 with same <field>:1 as that of <field>:0 <value>:2 <field>:2 <field>:2
 what are the <field>:0 of employees starting after <value>:1
-when did alice <field>:0 attending <field>:1
+when did alice <field>:0 attending <value>:1
 find <field>:0 who attended the most <field>:1
 which is the <field>:1 <value>:0 studied
 find <field>:0 with <field>:1 days on or before <value>:0 <field>:2 day
 what <field>:0 has a <field>:1 that is the <field>:2 of <value>:0
 which <field>:0 graduate no sooner than <value>:0 <field>:2 work day
 what is the <field>:0 of people who have a <field>:1 of <value>:1 <field>:1
-<field>:0 other than software_engineers
+<field>:0 other than <value>:1
 who is <field>:0 with an employee who <field>:1 is not <value>:1
 what person is <field>:0 with males
 what <field>:0 are claimed by people <field>:1 in <value>:1
@@ -1459,7 +1459,7 @@ who is <field>:2 and <field>:1 with <value>:1
 <field>:0 who are in a <field>:1
 what was the <field>:0 of employees who <field>:1 before <value>:1
 whats the <field>:0 of the employee starting after <value>:1
-<field>:0 that is enrolled in brown or ucla <field>:1
+<field>:0 that is enrolled in brown or <value>:1 <field>:1
 <field>:0 with not more than two <field>:1
 find the <field>:0 that is <value>:1 <field>:1 <field>:1 and is also <value>:2
 <field>:0 who were <field>:1 after <value>:0
@@ -1492,7 +1492,7 @@ find <field>:0 with two <field>:1
 <value>:1 <field>:0 is <value>:0
 name a <field>:0 of the student who <field>:1 no later than <value>:1
 who <field>:2 in <value>:2 and is <value>:1 <field>:1 <field>:1
-people that are <field>:0 with employees other than software_engineers
+people that are <field>:0 with employees other than <value>:1
 find <field>:0 who are <field>:1 with a <field>:2 of <value>:2 <field>:2
 <field>:0 that <field>:1 working in or after <value>:1
 <field>:0 number
@@ -1507,7 +1507,7 @@ whats the <field>:0 of two <field>:1
 <field>:0 who finished working when <value>:0 <field>:2 or before
 find <field>:0 with a <field>:1 of <field>:0 <value>:0 or greater
 <value>:2 <field>:2 who is <field>:1
-who is <field>:0 with a student who does not attend <field>:1
+who is <field>:0 with a student who does not attend <value>:1
 who is the <field>:0 of the student who <field>:1 in or after <value>:1
 find <field>:0 with a <field>:1 of <value>:1 and an <field>:2 of <value>:2
 <field>:0 who <field>:1 when <value>:0 <field>:2 her job
@@ -1529,11 +1529,11 @@ who is the same <field>:1 as <value>:0 at <value>:1 <field>:1
 find me friends of <field>:0 who joined their jobs before <value>:1
 <field>:0 whose <field>:1 is same as <field>:2 of <field>:0 <value>:0
 who is <field>:2 that is <value>:1 <field>:1 <field>:1
-what is the <field>:0 of <field>:1 <value>:1 whose <field>:2 is <field>:2
+what is the <field>:0 of <field>:1 <value>:1 whose <field>:2 is <value>:2
 who is <field>:0 with the person is <field>:1 no later than <value>:1
 <field>:0 who <field>:1 before <value>:1
 what is the <field>:0 of people that <field>:1 working after <value>:1
-<field>:0 with not more than <value>:1 <field>:1
+<field>:0 with not more than two <field>:1
 the <field>:0 of a student starting after <value>:1
 <field>:0 <field>:1 after <value>:0 <field>:2 working
 what <field>:0 were people who are <value>:1 <field>:0 in
@@ -1633,13 +1633,13 @@ who is <field>:0 in a <field>:0 that <value>:1 was <field>:0 in
 what <field>:0 has a <field>:1 close to the <field>:1 of <value>:0
 <field>:0 who <field>:1 not after <value>:1
 <field>:0 whose <field>:1 is on the date <field>:0 <value>:0 <field>:2
-<field>:0 at brown or ucla
+<field>:0 at brown or <value>:1
 which <field>:0 has the earliest <field>:1
 find me the birth <field>:0 of all students whoes <field>:1 is <value>:1 or later
 who is the newest <field>:0
 <field>:0 not <field>:1 in <value>:1
 find the <field>:0 who who <field>:1 after <value>:0 <field>:2
-which <field>:0 do not attend <field>:1
+which <field>:0 do not attend <value>:1
 when did alice graduate after studying <value>:1
 find <field>:0 who have an <field>:1 that is no greater than <field>:0 <value>:0
 <field>:0 was <value>:1 <field>:1 <field>:0
@@ -1674,7 +1674,7 @@ find <field>:0 who are <value>:1 and <value>:2 <field>:2 <field>:2
 what <field>:0 have a <field>:1 that is either <value>:1 or <value>:1
 what is the total number of <field>:0
 who is <field>:0 with a student who <field>:1 before <value>:1
-what is the <field>:0 of students who do not go to <field>:1
+what is the <field>:0 of students who do not go to <value>:1
 <field>:0 who <field>:1 before <value>:0 graduated
 what people are <field>:0 with employees who have an <field>:1 before <value>:1
 find <field>:0 of students whose <field>:1 day is <value>:1 or later
@@ -1704,7 +1704,7 @@ which people are <field>:0 with students graduating in <value>:1 or later
 what employee has an <field>:1 before <value>:1
 what is the <field>:0 of people who did not <field>:1 in <value>:1
 what <field>:0 has at least two <field>:1 in it
-<field>:0 of employees who are not software_engineers
+<field>:0 of employees who are not <value>:1
 <field>:0 who have no more than two <field>:1
 either <value>:0 or <value>:0
 which <field>:0 <field>:1 school after <value>:0 <field>:1 her job
@@ -1715,7 +1715,7 @@ what <field>:0 have a <field>:1 the same as <value>:0 <field>:2
 <field>:0 not finishing in <value>:1
 what worker has the most <field>:1
 which <field>:0 <field>:1 the same day <value>:0 did
-find me <field>:0 of people studying somewhere other than <field>:1
+find me <field>:0 of people studying somewhere other than <value>:1
 <field>:0 that <field>:1 working in or before <value>:1
 <field>:0 who is <field>:1 then <value>:1 <field>:1 <field>:2
 which people are <field>:0 with students who strated before <value>:1
@@ -1833,7 +1833,7 @@ find <field>:0 with <field>:1 day before <value>:0
 people that have a <field>:0 <field>:1 in <value>:1
 <field>:0 whose <field>:1 is after <field>:2 of <field>:0 <value>:0
 find <field>:0 of people who didnt lose employment in <value>:1
-<field>:0 of birth for all non software_engineers
+<field>:0 of birth for all non <value>:1
 what is the number of the <field>:0
 <field>:0 who <field>:1 before <value>:1 or <value>:1
 what employees have a <field>:1 later than <value>:1 and who are they <field>:0 with
@@ -1870,16 +1870,16 @@ who is <value>:1 <field>:1 <field>:1 and has the same <field>:2 as <value>:0
 <field>:0 who <field>:1 before <value>:0 <field>:2
 males who were <field>:1 in <value>:1
 <field>:0 of employee whose <field>:1 is after <value>:1
-<field>:0 with less than <value>:1 <field>:1
+<field>:0 with less than two <field>:1
 what is the <field>:0 of <value>:1 and <value>:1
-what did <value>:1 study at <field>:2
+what did <value>:1 study at <value>:2
 which <field>:0 are <value>:2 <field>:2 <field>:2 and have a <field>:1 of <value>:1
 who is <field>:0 with a person who didnt <field>:1 working in <value>:1
 where are <field>:0 <field>:1 who are <value>:2 <field>:2 in <field>:2
 find the <field>:0 of employees with an end_date earlier than <value>:1
 what is the <field>:0
 <field>:0 that are <field>:1 with <value>:0 or <value>:0
-<field>:0 of employees who arent software_engineers
+<field>:0 of employees who arent <value>:1
 find <value>:2 <field>:1 of <value>:1
 what <field>:0 have a <field>:1 that is no greater than <field>:0 <value>:0
 what is the <field>:0 of employees whose <field>:1 day was no later than <value>:1
@@ -1888,7 +1888,7 @@ shortest <field>:0
 <field>:0 shorter than <value>:1 <field>:1
 <field>:0 who has been in less then 3 <field>:1
 find <field>:0 who are <value>:1 <field>:1 <field>:1 with <field>:2 day in <value>:2
-is <value>:1 going to <field>:0
+is <value>:1 going to <value>:0
 who are some of <value>:0 <field>:0 connections
 <field>:0 who are <value>:1
 <field>:0 of students <field>:0 before <value>:1
@@ -1928,13 +1928,13 @@ what <field>:0 have two or fewer <field>:1
 whats the <field>:0 of employee who <field>:1 their job after <value>:1
 what <field>:0 <field>:1 work after <value>:1
 name the <field>:0 with a <field>:2 of <value>:2 <field>:2 who is <field>:1
-find <field>:0 called software_engineers who are <value>:1 <field>:1 <field>:1
+find <field>:0 called <value>:2 who are <value>:1 <field>:1 <field>:1
 <field>:0 of student whose <field>:1 is not after <value>:1
 what is the <field>:0 of the <value>:1 people
 who graduated before <value>:1
 <field>:0 that <field>:1 school after <value>:0 <field>:2 school
 find <field>:1 with a <field>:0 that more than two <field>:1 have
-birth places of employees other than software_engineers
+birth places of employees other than <value>:1
 <field>:0 that have two or less <field>:1
 whats the <field>:0 of the students who are not studying <value>:1
 who is not <value>:1 <field>:1 <field>:1
@@ -1943,7 +1943,7 @@ presently <field>:1 <field>:0 whose <field>:2 is <value>:2
 when did <value>:1 <field>:0 working for <value>:2
 name the <value>:1 persons <field>:0
 find <field>:0 of males
-who goes to <field>:1 or ucla
+who goes to <value>:1 or <value>:1
 <field>:0 who completed their studies before <value>:0 joined
 what <field>:0 have an <field>:1 that is no later than <value>:1
 find <field>:0 who are <field>:1 with no more than two <field>:0
@@ -1997,7 +1997,7 @@ what <field>:0 are people that <field>:1 school in or after <value>:1
 what is the the <field>:0 of the employee who <field>:1 in <value>:1
 what <field>:0 has two <field>:1
 <field>:0 of students starting in or after <value>:1
-<field>:0 of students who are not studying at <field>:1
+<field>:0 of students who are not studying at <value>:1
 <field>:0 who are <field>:2 with <value>:0 and <value>:1
 what <field>:0 were most <field>:1 <field>:0
 <field>:0 with the same <field>:1 as <value>:0
@@ -2084,14 +2084,14 @@ birth <field>:0 of employee whose <field>:1 is after <value>:1
 what <field>:0 hast the earliest <field>:1
 <field>:0 of people who studied in <field>:1 other than <value>:1
 what is the birth <field>:0 of students whose <field>:1 is less than <value>:1
-find <field>:0 of students not attending <field>:1
+find <field>:0 of students not attending <value>:1
 <field>:0 who are <field>:1 the same day <value>:0 <field>:2 her job
 what is the <field>:0 of the employee who <field>:1 after <value>:1
 <field>:0 with only two <field>:1
 find the <field>:0 who graduated on <value>:0 <field>:2
 any <field>:0 of anyone <field>:1 in <value>:1
 when did <value>:1 <field>:0 working for <value>:2
-<field>:0 of students that dont go to <field>:1
+<field>:0 of students that dont go to <value>:1
 how many <field>:0 share <value>:0 <field>:1
 who was <field>:1 on <value>:0 <field>:2 day of school
 find <field>:0 of students with <field>:1 other than <value>:1
@@ -2111,7 +2111,7 @@ who is <value>:1 <field>:1 <field>:2 in <value>:2
 which <field>:0 <field>:1 earliest
 <field>:0 who are <value>:1 <field>:1 <field>:1 and <field>:2 their job in <value>:2
 <field>:0 whose <field>:1 is not before <field>:1 of <field>:0 <value>:0
-which <field>:0 does not attend <field>:1
+which <field>:0 does not attend <value>:1
 which <field>:0 <field>:1 no greater than <value>:0
 an <field>:0 ending before <value>:0 was <field>:2
 what <field>:0 is <value>:1 <field>:1 or shorter
@@ -2119,7 +2119,7 @@ find <field>:0 who have a <field>:1 equal to <field>:0 <value>:0 <field>:2
 either number of <field>:0
 <field>:0 of students who <field>:1 before <value>:1
 birth <field>:0 of all students who <field>:1 earlier than <value>:1
-<field>:0 who are software_engineers or program_managers
+<field>:0 who are <value>:1 or <value>:1
 <field>:0 that <field>:1 school after <value>:0 <field>:2 working
 who <field>:0 <value>:0 as a <value>:1
 find <field>:0 that have the latest <field>:1
@@ -2128,7 +2128,7 @@ find <field>:0 who have a <field>:1 the same as <field>:0 <value>:0
 <field>:0 who <field>:1 school the day <value>:0 <field>:2 working
 who is <field>:0 with the employee who <field>:1 later than <value>:1
 what <field>:0 has a <field>:1 later than the <field>:2 of <value>:0
-people who are <field>:0 with students not attending <field>:1
+people who are <field>:0 with students not attending <value>:1
 <field>:0 of people joined studies before <value>:1
 what <field>:0 started on or after <value>:0 <field>:2
 which <field>:0 <field>:1 after <value>:0
@@ -2137,7 +2137,7 @@ which people are <field>:0 with employees whose <field>:1 day was before <value>
 who is <field>:0 with someone whos <field>:1 is <value>:1
 <field>:0 finishing with <value>:0
 <field>:0 starting in or after <value>:1
-find <field>:0 whose <field>:1 is either <field>:1 or ucla
+find <field>:0 whose <field>:1 is either <value>:1 or <value>:1
 who is the same <field>:0 as the <value>:1 <field>:1 person
 <field>:0 starting on <value>:0 <field>:2
 either <value>:0 or <value>:0
@@ -2169,7 +2169,7 @@ the <field>:0 of someone not <field>:1 by <value>:1
 <field>:0 who joined before <value>:0 <field>:2 the job
 who has <field>:0 whos <field>:1 is before <value>:1
 which <field>:0 <field>:1 before <value>:0 <field>:2 day
-software_engineers whose <field>:1 is <value>:1 <field>:1
+<value>:2 whose <field>:1 is <value>:1 <field>:1
 find the <field>:1 of <field>:0 <value>:2 <field>:2 <field>:2
 <field>:0 whose <field>:1 is <value>:1 <field>:1 or more
 <field>:0 of employees who <field>:1 working in <value>:1 or earlier
@@ -2193,7 +2193,7 @@ who is <value>:1 from <value>:2
 who is younger than <value>:0
 <field>:0 who were <field>:1 on or after <value>:0 <field>:2 day of work
 find people who are <field>:0 with empoyees whose <field>:1 day was not in <value>:1
-<field>:0 of only <value>:1 <field>:1
+<field>:0 of only one <field>:1
 when did <value>:1 <field>:0 the job that she <field>:2 in <value>:2
 <field>:0 that <field>:1 working when <value>:0 <field>:2 school or after
 <field>:0 whose <field>:1 is not after <field>:2 of <field>:0 <value>:0
@@ -2237,7 +2237,7 @@ find me <field>:0 who were no longer employed after <value>:0 <field>:2
 show me which <field>:0 the people starting before or after <value>:1 were <field>:0 in
 who is <field>:0 with a student who <field>:1
 <field>:0 of students not starting in <value>:1
-name the <field>:0 of <field>:1
+name the <field>:0 of <value>:1
 find <field>:0 who share the same <field>:2 as <value>:0 and are <value>:1 <field>:1 <field>:1
 what <field>:0 had an <field>:1 that is later than the <field>:2 of <value>:0
 <field>:0 that <field>:1 working before <value>:1
@@ -2260,7 +2260,7 @@ what <field>:0 has a <field>:1 that is the same as <value>:0
 <field>:0 of employees whose <field>:1 is before <value>:1
 <field>:0 that have the most <field>:1
 what <field>:0 are the people that finished school in or before <value>:1
-when did <value>:1 graduate from <field>:2
+when did <value>:1 graduate from <value>:2
 what is the <field>:0 of the student who <field>:1 in <value>:1
 find <field>:0 with an <field>:1 that is less than <value>:0 <field>:2
 <field>:0 that has the most <field>:1
@@ -2288,7 +2288,7 @@ what <field>:0 are not claimed by <value>:1
 <field>:0 ending after <value>:0 <field>:1
 find me one of <value>:2 <value>:1 <field>:2
 who is <field>:0 with an employee from at least <value>:1
-what is the <field>:0 of the student who did not attend <field>:1
+what is the <field>:0 of the student who did not attend <value>:1
 who are the <field>:0 of those not <field>:1 by <value>:1
 fine me <field>:0 of people who joined their jobs after <value>:1
 <field>:0 of employees starting in or before <value>:1
@@ -2307,7 +2307,7 @@ which <field>:0 go to the same <field>:1 as <value>:0
 <field>:0 who <field>:1 after <value>:1
 who studying <value>:2 is <value>:1 <field>:1 <field>:1
 who is the <field>:0 of students not majoring in <value>:1
-people who are software_engineers or project managers
+people who are <value>:0 or project managers
 who is <field>:0 with the person who <field>:1 working after <value>:1
 <field>:0 that <field>:1 school after <value>:0 was <field>:2
 which <field>:0 <field>:1 after <value>:1 or after <value>:1
@@ -2344,7 +2344,7 @@ find me 2 <field>:0 in a <field>:1
 <field>:0 who <field>:1 school when <value>:0 <field>:2 her job
 <field>:0 who hasnt been in 3 <field>:1
 find people of the same <field>:0 as the person <field>:1
-<field>:0 who are single and <field>:1 with <value>:0
+<field>:0 who are <value>:1 and <field>:2 with <value>:0
 who is the oldest <field>:0 in my network
 what <field>:0 have a <field>:1 of <value>:1 and a <field>:2 of <value>:2 <field>:2
 <field>:0 finishing contemporaneous to or after <value>:0
@@ -2364,10 +2364,10 @@ find <field>:0 with <field>:1 after <value>:1
 people who have <field>:0 that were <field>:1 in <value>:1
 when did <value>:1 <field>:0 job at <value>:2
 <value>:1 <field>:0
-find all <field>:0 that are not software_engineers
+find all <field>:0 that are not <value>:1
 what is the <field>:0 of <value>:1
 what is the <field>:0 of employees who did not <field>:1 in <value>:1
-find <field>:0 of students not attending <field>:1
+find <field>:0 of students not attending <value>:1
 <field>:0 that were <field>:1 before <value>:0 <field>:2 school
 find <field>:0 who have a <field>:1 earlier than the <field>:2 of the <field>:0 <value>:0
 name a <field>:0 <value>:1 <field>:1 <field>:1 who is <field>:2 with <value>:2
@@ -2396,7 +2396,7 @@ what is the <field>:1 of a <field>:0 whose <field>:2 is <value>:2 <field>:2
 what is the <field>:0 of employees who <field>:1 no later than <value>:1
 find <field>:0 who are not bigger than <value>:0 in <field>:1
 a <field>:0 of <value>:0 <field>:0
-name a <field>:0 of a student who did not study at <field>:1
+name a <field>:0 of a student who did not study at <value>:1
 who has the least number of <field>:1
 <field>:0 whose <field>:1 is minimum <value>:1
 what is the <field>:0 for students with a <field>:1 not equal to <value>:1
@@ -2470,7 +2470,7 @@ who was <field>:1 most recently
 <field>:0 <field>:1 in <value>:1 or <value>:1
 <field>:0 that <field>:1 school before <value>:0 was <field>:2
 find employees <field>:0 with <field>:1 after <value>:1
-working <field>:0 that are not software_engineers
+working <field>:0 that are not <value>:1
 which <field>:0 finished the same time <value>:0 <field>:2
 find the <field>:0 of employees with an <field>:1 no later than <value>:1
 find me all the <field>:2 singles
@@ -2546,7 +2546,7 @@ what is <value>:1 <field>:0 day as a <value>:2
 find a <field>:0 who is <field>:1 than <value>:1 <field>:1
 who has minimum two <field>:1
 <field>:0 who are studying the same <field>:1 as <value>:0
-find <field>:0 who are not part of <field>:1
+find <field>:0 who are not part of <value>:1
 find <field>:0 for employees who dont have an <field>:1 of <value>:1
 find the <field>:0 of employees who have an <field>:1 that is not <value>:1
 <field>:0 that <field>:1 working when <value>:0 <field>:2 working
@@ -2637,7 +2637,7 @@ who has <field>:0 with an <field>:1 that is before <value>:1
 <field>:0 with two or less friends
 <field>:0 who <field>:1 joined his study
 birth <field>:0 of student whose <field>:1 is not <value>:1
-what are the birth <field>:0 of <field>:1 who are not <field>:1 by mickinsey
+what are the birth <field>:0 of <field>:1 who are not <field>:1 by <value>:1
 what are the <field>:0 of people who <field>:1 their job in or after <value>:1
 <field>:0 who enrolled on or after the date on which <value>:0 completed her studies
 birth places of employees who <field>:1 in <value>:1 or before
@@ -2662,7 +2662,7 @@ which <field>:0 has the same boss as <value>:0
 which <field>:0 have fewer than 2 majors
 <field>:0 that <field>:1 school on or before the day <value>:0 <field>:2 working
 birth place of people who completed education after <value>:1
-what person has a <field>:0 who is a student at a <field>:1 other than <field>:1
+what person has a <field>:0 who is a student at a <field>:1 other than <value>:1
 which <field>:0 are <value>:1 and <value>:1
 find <field>:0 who have a <field>:1 earlier than <value>:1
 find <field>:0 with <value>:0 <field>:2 who are <value>:1 <field>:1 <field>:1
@@ -2683,7 +2683,7 @@ is this person <value>:0 or <value>:0
 who studied at the least number of <field>:1
 <field>:0 who <field>:1 on <value>:0 <field>:2 day
 <field>:0 <field>:2 in <value>:2 and who are <value>:1 <field>:1 <field>:1
-what <field>:0 are either software_engineers or program_managers
+what <field>:0 are either <value>:1 or <value>:1
 find <field>:0 for students who have an <field>:1 that is not <value>:1
 <field>:0 who <field>:1 after <value>:0 <field>:2
 what day did <value>:1 <field>:0 her job in <value>:0
@@ -2692,10 +2692,10 @@ find <field>:0 with a <field>:1 of <value>:1 whom <value>:2 is <field>:2 with
 what is the <field>:0 of people studying anything but <value>:1
 <field>:0 of only one <field>:1
 people who are <field>:0 with those who completed studies before <value>:1
-either <field>:0 or ucla
+either <value>:0 or <value>:0
 find the <field>:0 that is <value>:1 <field>:1 <field>:1 and is a <value>:2
 <field>:0 who <field>:1 after <value>:0
-people with <field>:0 who have jobs but not software_engineers
+people with <field>:0 who have jobs but not <value>:1
 which <field>:0 <field>:1 day was no earlier than <value>:0 first day
 who is shorter than 181cm
 find the <field>:0 of people who are <value>:1
@@ -2723,7 +2723,7 @@ an <field>:1 with at least two <field>:0
 which <field>:0 <field>:1 on the same day as <field>:0 <value>:0
 what was <value>:1 <field>:0
 which <field>:0 has the earliest start_date
-find the realtionship status of <field>:1 who are not <field>:1 by mickinsey
+find the realtionship status of <field>:1 who are not <field>:1 by <value>:1
 which <field>:0 <field>:1 at the same time the <field>:0 <value>:0 did
 find the <field>:0 of people who joined their studies before <value>:1
 <field>:0 with fewer than two <field>:1
@@ -2775,12 +2775,12 @@ which <field>:0 have less than two <field>:1
 find <field>:0 with same <field>:1 as <value>:0
 <field>:0 <field>:1 in <value>:1 or <value>:1
 <field>:0 who <field>:1 school in <value>:1 or earlier
-a <field>:0 with <value>:1 or less <field>:1
+a <field>:0 with two or less <field>:1
 find <field>:0 whose <field>:1 is either greater than <value>:1 or <value>:1
 what is the most common <field>:0
 whats the <field>:0 of student who was born in at most <value>:1
 which <field>:0 are <value>:1 not <field>:1 with
-find me all <field>:0 of all <field>:1 named <value>:1 who studied at <field>:2
+find me all <field>:0 of all <field>:1 named <value>:1 who studied at <value>:2
 find <field>:0 whos <field>:1 is in between <value>:1 cm200cm
 find the <field>:0 of employees who <field>:1 is no later than <value>:1
 what <field>:0 has a <field>:1 of at the most <value>:1 <field>:1
@@ -2805,9 +2805,9 @@ who is a <field>:0 whose <field>:1 is <value>:1 <field>:1 and thats <field>:2 wi
 which <field>:0 graduated in <value>:1 or <value>:1
 <field>:0 that graduate on the same day <value>:0 starts her new job
 <field>:0 not studying <value>:1
-find <field>:1 from <field>:0
+find <field>:1 from <value>:0
 <field>:0 who <field>:1 school after <value>:0 <field>:2 her job
-<field>:0 of employees other than software_engineers
+<field>:0 of employees other than <value>:1
 <field>:0 whose <field>:1 is after <field>:2 of <field>:0 <value>:0
 <field>:0 were students that did not finish in <value>:1 <field>:0
 what is the status of the <value>:1 <field>:1 <field>:1 persons <field>:0
@@ -2822,14 +2822,14 @@ what is the <field>:0 of the students that did not <field>:1 in <value>:1
 what <field>:0 has an <field>:1 no later than the <field>:1 of <value>:0
 <field>:0 who graduated before <value>:0 <field>:1 her job
 <field>:0 whose <field>:1 is before <field>:2 ate of <field>:0 <value>:0
-when did <value>:1 <field>:0 attending <field>:2
+when did <value>:1 <field>:0 attending <value>:2
 <field>:0 who <field>:1 their job after <value>:1
 find <field>:0 with <field>:1 on or before <value>:0
 find employees <field>:0 with <field>:1 date of work before <value>:1
 which <field>:0 <field>:1 school the same day <value>:0 graduated
 <field>:0 whose <field>:1 is after <field>:2 of <field>:0 <value>:0
 <field>:0 of employee whose end_date is not after 2004
-whats the <field>:0 of employees who are not software_engineers
+whats the <field>:0 of employees who are not <value>:1
 whos got more than 2 <field>:1 down
 <field>:0 were people that <field>:1 working in or after <value>:1 <field>:0
 <field>:0 finishing on or after <value>:0 <field>:2
@@ -2848,7 +2848,7 @@ find <field>:0 with same birth date as <value>:0 or later
 find all <field>:0 who <field>:3 in <value>:1 in <value>:2
 <field>:0 of employees whose <field>:1 is before <value>:1
 find <field>:0 with the same <field>:1 day as <value>:0
-what <field>:0 have mickinsey as their <field>:0
+what <field>:0 have <value>:0 as their <field>:0
 find me the student whose <field>:1 is not <value>:1
 find <field>:0 of student who <field>:1 later than <value>:1
 <field>:1 of <value>:1 or <value>:1
@@ -2933,7 +2933,7 @@ which <value>:1 <field>:1 <field>:1 <field>:0 <field>:2 in <value>:2
 when did <value>:1 <field>:0 working as a <value>:2
 someone with two <field>:1
 <field>:0 of student whose <field>:1 is after <value>:1
-find <value>:1 singlestatus <field>:1
+find <value>:2 singlestatus <field>:2
 what is the status of <value>:1 <field>:0
 what <field>:0 had a <field>:1 of <value>:1 or <value>:1
 what is the <field>:0 of employees sho <field>:1 before <value>:1
@@ -2949,7 +2949,7 @@ find <field>:0 with a <field>:1 after either <value>:1 or <value>:1
 find <value>:1 <field>:1 who are <value>:2
 what is the <field>:0 of the two <field>:1
 what is the <field>:0 of the person <field>:2 in <value>:1
-<field>:0 of people whose <field>:1 is not software_engineers
+<field>:0 of people whose <field>:1 is not <value>:1
 <field>:0 that is not similar to <value>:1
 whats the <field>:0 of students who <field>:1 school after <value>:1
 which <field>:0 have a <field>:1 of <value>:2 and are <field>:3 with <value>:3
@@ -3012,7 +3012,7 @@ who is <field>:0 with an employee who <field>:1 in a year other than <value>:1
 find <field>:0 with a <field>:1 that is earlier than that of fellow <field>:0 <value>:0
 people that are <field>:0 with someone that <field>:1 school in or after <value>:1
 find the people who are <field>:0 with people who <field>:1 their job before <value>:1
-find <field>:0 with a <field>:1 of <value>:1 <field>:1 that go to <field>:2
+find <field>:0 with a <field>:1 of <value>:1 <field>:1 that go to <value>:2
 what <field>:0 are the students who stated before <value>:1
 which <field>:0 is the <field>:0 of two or less <field>:1
 a <field>:0 of someone <field>:1 in <value>:1
@@ -3036,7 +3036,7 @@ which <field>:0 <field>:1 earlier than <value>:0 <field>:2
 <field>:0 <field>:1 on or after the day <value>:0 <field>:2 working
 find me all <field>:0 who are not <field>:1 with <value>:1
 what was <value>:1 <field>:0 day of work
-<field>:0 that studied at at most <value>:1 <field>:1
+<field>:0 that studied at at most two <field>:1
 what <field>:0 has an <field>:1 that is at least the <field>:1 for the <field>:0 <value>:0
 <field>:0 that <field>:1 working most recently
 <field>:0 whose <field>:1 is <value>:1 or earlier
@@ -3063,7 +3063,7 @@ find <field>:0 of people who are <value>:1 <field>:1 <field>:1
 what <field>:0 have an <field>:1 that is <field>:0 <value>:0 <field>:2 or later
 find phone number of <field>:0
 <field>:0 who are <value>:1 that are currently <field>:2
-what are <field>:0 of students not attending <field>:1
+what are <field>:0 of students not attending <value>:1
 which <field>:0 does the person who is <value>:1 <field>:1 attend
 <field>:0 of all people who are <value>:1 <field>:1 <field>:1
 find <field>:0 who are <value>:1 <field>:1 <field>:1 with <value>:2 <field>:2
@@ -3077,14 +3077,14 @@ find <field>:0 with <field>:1 before or on <value>:0 <field>:1
 <field>:0 starting before or with <value>:0
 what is the <field>:0 of students with an <field>:1 ealier than <value>:1
 what <field>:0 is the <field>:0 of a student who graduated <value>:1 or after
-find <field>:0 who attended <value>:1 or <value>:1 <field>:1
+find <field>:0 who attended one or two <field>:1
 find <field>:0 who have an <field>:1 that is equal or later to that of <field>:0 <value>:0
 what is the <field>:0 of students with <field>:1 day in <value>:1 or before
 who <field>:1 <field>:1
 what people are <field>:0 with students whom have an <field>:1 that is no greater than <value>:1
 what <field>:0 have a <field>:1 that is anything but <value>:1
 who has minimum number of <field>:1
-what <field>:0 is <value>:1 studying in <field>:2
+what <field>:0 is <value>:1 studying in <value>:2
 <value>:2 <field>:1 of <value>:1
 what <field>:0 had a <field>:1 no earlier than <value>:0
 what is the <field>:0 that is the <field>:0 of at least two <field>:1
@@ -3121,7 +3121,7 @@ which people are <field>:0 with students who didnt graduate in <value>:1
 what is the <field>:0 of employees whose <field>:1 is no later than <value>:1
 which <field>:0 are <value>:1 or <value>:1
 which <field>:0 <field>:2 in <value>:2 is <value>:1 <field>:1 <field>:1
-<field>:0 that has studied at no more than <value>:1 <field>:1
+<field>:0 that has studied at no more than 2 <field>:1
 which men is <value>:2 <field>:2 with
 find <field>:0 who <field>:1 on <field>:0 <value>:0 <field>:2 day
 <field>:0 who <field>:1 before <value>:0 <field>:2 school
@@ -3147,7 +3147,7 @@ what <field>:0 did <value>:1 study <value>:2 at
 who has similar <field>:0 that of <value>:1
 who is the <field>:0 of a person whose <field>:1 is at least <value>:1
 who was <field>:1 on a date before <value>:0 <field>:2
-<field>:0 of employees who dont work as software_engineers
+<field>:0 of employees who dont work as <value>:1
 who was <field>:2 in <value>:2 who is <field>:1 with <value>:1
 what <field>:0 has a <field>:1 earlier than <value>:1
 people who are <field>:0 who employees who didnt <field>:1 in <value>:1
@@ -3159,7 +3159,7 @@ who has a <field>:1 at the <field>:2 of <value>:0 employment
 <field>:0 <field>:1 between <value>:1 and <value>:1
 what <field>:0 have two <field>:1
 find employees <field>:0 who <field>:1 in <value>:1 or before
-what is the <field>:0 of students not attending <field>:1
+what is the <field>:0 of students not attending <value>:1
 people who are <field>:0 with employees who <field>:1 their job in or after <value>:1
 <field>:0 of people that are <value>:1 <field>:1 <field>:1
 <field>:0 who are <value>:2 <field>:2 <field>:2 and are currently <field>:1
@@ -3192,7 +3192,7 @@ find <field>:0 with a <field>:1 no later than <value>:1
 who is now <field>:0 with the person who was <field>:1 in <value>:1
 what <field>:0 <field>:1 before <value>:0 was <field>:2
 people who have student <field>:0 who did not graduate in <value>:1
-<field>:0 whose <field>:1 is either <field>:1 or ucla
+<field>:0 whose <field>:1 is either <value>:1 or <value>:1
 <field>:0 of student whose <field>:1 is after <value>:1
 <field>:0 who finish after <value>:0 <field>:2
 find <field>:0 who are currently <field>:1 and <field>:2 in <value>:2
@@ -3203,7 +3203,7 @@ all <value>:1 <field>:1 <field>:1 <field>:0 <field>:2 in <value>:2
 what is <field>:0 of employee alice whose <field>:1 is <value>:1
 the <field>:0 of an employee is <value>:1 with a <field>:1 of atleast <value>:1
 what <field>:0 represents the least number of <field>:1
-<value>:1 <field>:1 <field>:1 <field>:2 <field>:0
+<value>:1 <field>:1 <field>:1 <value>:2 <field>:0
 what <field>:0 is the <field>:0 of a student that is not studying <value>:1
 who was <field>:1 on or after <value>:0 <field>:2 day of employment
 the <field>:0 of a student who <field>:1 before <value>:1
@@ -3282,10 +3282,10 @@ which <field>:0 has the largest <field>:1
 all <value>:1 <field>:1 <field>:1 <field>:0 who joined in <value>:2
 find <field>:0 of people <field>:1 is <value>:1
 <field>:0 who finish in <value>:1 or <value>:1
-when did alice <field>:0 attending <field>:1
+when did alice <field>:0 attending <value>:1
 find the <field>:0 of everyone currently <field>:1
 what student has a <field>:1 after <value>:1
-<field>:0 of student who is not student of <field>:1
+<field>:0 of student who is not student of <value>:1
 who <field>:2 in <value>:2 and is <value>:1 <field>:1 <field>:1
 find the birth <field>:0 of all employees who have a <field>:1 that is <value>:1 or later
 <field>:0 of employees who quit their job before <value>:1
@@ -3293,7 +3293,7 @@ what is the birth <field>:0 of people who are <field>:1 with <value>:1
 <field>:0 who <field>:1 in <value>:0 <field>:2
 <field>:0 of people who <field>:1 their study before <value>:1
 whose <field>:1 is at least <value>:1 <field>:1
-who is single and is <field>:1 with <value>:1
+who is <value>:1 and is <field>:2 with <value>:2
 what is the <field>:0 of an <field>:1 who does not have <value>:1 as an <field>:1
 what is the <field>:0 of student who <field>:1 in <value>:1
 what <field>:0 have a <field>:1 of <value>:1 <field>:1 and a birth <field>:2 of <value>:2
@@ -3333,7 +3333,7 @@ what <field>:0 has the least births
 <field>:0 of employees who dont study <value>:1
 which <field>:0 <value>:1 <field>:1 <field>:1 is a <value>:2
 find all <field>:0 who were <field>:1 in <value>:1
-people that studied at <field>:0 or ucla
+people that studied at <value>:0 or <value>:0
 find <field>:0 with <field>:1 day before or same as <value>:0
 what <field>:0 are the people <field>:1 in <value>:1
 what is the <field>:0 of employee who <field>:1 in year other than <value>:1
@@ -3421,7 +3421,7 @@ what is the <field>:0 date of employee alice who <field>:1 in <value>:1
 what is <field>:0 of employee whose <field>:1 day was after <value>:1
 which <field>:0 <field>:1 no later than <value>:1
 <field>:0 who were <field>:1 in <value>:1 and are <value>:2
-what does <value>:1 study at <field>:2
+what does <value>:1 study at <value>:2
 find people that are <field>:0 with students who have <field>:1 after <value>:1
 which <field>:0 have the most majors
 <field>:0 whose end_date is not after birth date of <value>:0
@@ -3453,7 +3453,7 @@ who is <field>:1 with <value>:1 and was <field>:2 in <value>:2
 <field>:0 <field>:2 in <value>:2 that are <value>:1 <field>:1 <field>:1
 <field>:0 <field>:1 before <value>:1
 who has less than two <field>:1
-all <value>:1 <field>:1 <field>:1 software_engineers
+all <value>:1 <field>:1 <field>:1 <value>:2
 what is the <field>:0 of a student whose <field>:1 is earlier than <value>:1
 what are the students <field>:0 who <field>:1 before <value>:1
 which peolpe are exactly <value>:1 <field>:1 <field>:1
@@ -3462,7 +3462,7 @@ what is the <field>:1 of the <field>:0 who is <value>:2 <field>:2
 <field>:0 whose <field>:1 date was before the day <value>:0 <field>:2
 who is the <field>:0 leaving the company after <value>:0 <field>:1
 who was <field>:1 after <value>:1
-which of my <field>:0 is at some school other than <field>:1
+which of my <field>:0 is at some school other than <value>:1
 find me males <field>:1 in <value>:1
 <field>:0 <value>:2 <field>:2 <field>:2 who are <value>:1
 find me all <field>:0 who are older than <value>:0
@@ -3478,9 +3478,9 @@ what <field>:0 has an <field>:1 that is not in <value>:1
 find <field>:0 who have a <field>:1 earlier than that of <field>:0 <value>:0
 find the birth <field>:0 of employees who have an <field>:1 of <value>:1 or later
 find <field>:0 having a <field>:1 with <field>:0 who are <value>:2 <field>:2 <field>:2
-what is alice <field>:0 at <field>:1
+what is alice <field>:0 at <value>:1
 what <field>:0 have an <field>:1 before <value>:1
-<value>:1 <field>:1 <field>:1 <field>:0 studied in <field>:2
+<value>:1 <field>:1 <field>:1 <field>:0 studied in <value>:2
 <field>:0 finishing contemporaneous to or before <value>:0 starts
 find the <field>:0 of students whose <field>:1 is later than <value>:1
 ppeople who joined studies after <value>:0 joined the job
@@ -3523,7 +3523,7 @@ name a <field>:0 of the same <field>:2 as <value>:0 who is <value>:1 <field>:1 <
 people who were not <field>:0 before <value>:1
 <field>:0 who <field>:1 working on or after the day <value>:0 <field>:2 school
 connection to someone who will have graduated before <value>:1
-who is <value>:1 <field>:1 <field>:1 and goes to <field>:2
+who is <value>:1 <field>:1 <field>:1 and goes to <value>:2
 find <field>:0 starting after <value>:0 <field>:2
 which <field>:0 has a <field>:1 the same as <value>:0
 what is the <field>:0 of students who are not at brown

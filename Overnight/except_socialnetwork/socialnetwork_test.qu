@@ -26,7 +26,7 @@ an employee who left the company before alice began with it
 who started school when alice started working
 find people who are friends with students whom are not part of brown_university
 what was alice last day of going to brown_university
-people who are friends with employees that are not named mickinsey
+people who are friends with employees that are not named mckinsey
 who has at least two relationship_status
 find the city of birth for the employee who quit before 2004
 students who started school before alice started her job
@@ -57,7 +57,7 @@ relationship_statuses of students who began school after 2004
 find me all students who attended either brown_university or ucla
 where is alice born
 person who has the least friends
-find all males who are 180 cm tall
+find all male who are 180 cm tall
 what is the birthplace of students who graduated before 2002
 what gender has two or fewer people
 who is a student whose end_date is at least alice birthday
@@ -263,7 +263,7 @@ students that will start before 2004
 find student who attended the fewest universities
 employee starting before or when alice ends
 which student had started working after alice quitted
-find friends of males
+find friends of male
 who are the friends of person who is 180 cm tall
 employees who began working by the time alice started working
 student whose start_date is before birth date of alice
@@ -411,7 +411,7 @@ which employee quit before alice quit her job
 people that started working when alice stopped working or before
 what employees have an end_date that is no later than that of student alice
 which one of alice friends was born in new_york
-find me an employees city of birth excluding any software_engineers
+find me an employees city of birth excluding any software_engineer
 people who birthdates are after 2004
 people that started school after alice
 find a person whom is friends with students whose field_of_study is not computer_science
@@ -439,7 +439,7 @@ people who have more than two friends
 find friends that are friends with alice
 find people with two or more relationship_statuses
 an employer with the least employees
-who is younger than or same as alic
+who is younger than or same as alice
 friends of alice in similar relationships
 birthplace of students who started before 2004
 find cities that more than two people were born in
@@ -500,7 +500,7 @@ people that are friends with someone that stopped working in or before 2004
 people that finished school on or after the day alice started working
 which students started after 2004 or 2010
 what person has at least two friends
-males that are currently online
+male that are currently online
 people that started school after 2004
 genders of students finishing before 2004
 what students have an end_date before 2004 and who are their friends
@@ -532,11 +532,11 @@ friends of students finishing before 2004
 student who has minimum number of universities
 person who completed the education latest
 an employee that starts during or before 2004
-what employees are not employed by mickinsey
+what employees are not employed by mckinsey
 what person is friends with the person who was born in new_york
 who employs alice as a software_engineer
 people with the same relationship_status as alice and are also 180 cm tall
-employees who are software_engineers or program_managers
+employees who are software_engineer or program_manager
 what is the job_title of those who are 180 cm tall
 what city is the birthplace of no more than two people
 who was born on the day alice finished school
@@ -545,7 +545,7 @@ find students finishing after 2004
 find people who went to brown_university or ucla
 people who are shorter than 180 cm
 connections of friends who started dating before 2004
-which employees are working jobs other than softwhere engineer
+which employees are working jobs other than software_engineer
 people with two genders or less
 what is thre relationships_status of employees whose last day was before 2004
 which student started earlier than alice end_date
@@ -593,7 +593,7 @@ person with two or more birthplaces
 student not studying fewer than two fields_of_study
 what employees have the greatest amount of job_titles
 find all people who were born in 2004
-a student that started between 2001 and 2010
+a student that started between 2004 and 2010
 cities where alice friends were born
 people born in the most cities
 find the people who joined studies before alice joined work
@@ -638,7 +638,7 @@ which employee started on the same date as alice
 people born on or before the day alice started her job
 find the employee that has less than two job_titles
 persons whose height is 180 cm or higher
-what is the relationship_status of working people that are not software_engineers
+what is the relationship_status of working people that are not software_engineer
 whom are people with a relationship_status of single friends with
 find employees who have a start_date that is no greater than that of employee alice
 what is the gender of students who strated no earlier than 2004
@@ -757,7 +757,7 @@ which women are 180 cm tall
 alice 6 foot tall friend
 people that stopped working when alice was born or after
 which employees had their last day no later than alice graduation
-what gender are the working people that are not software_engineers
+what gender are the working people that are not software_engineer
 what people are friend with students who have a start_date later than 2004
 which student that does not stufy computer_science was born in this city
 people who have joined before alice quits her job
@@ -845,7 +845,7 @@ find people who are 180 cm tall and single
 student whose university of is same as that of student alice
 what is the relationship_status of employees whose last day was after 2004
 city of birth for people employed since 2004
-which students are software_engineers or program_managers
+which students are software_engineer or program_manager
 who is employer of alice
 find the birthplaces of people born in 2004
 people who started in 2004 and are 180 cm tall
@@ -859,7 +859,7 @@ which employee ended in 2004 or 2010
 which employee quit school before alice started
 find a person who is 180 cm or taller
 find employee who works with alice
-people who joined their studies before 2011
+people who joined their studies before 2010
 employee whose start_date is after start_date of student alice
 relationship_status of students who started no earlier than 2004
 friend of alice with birthdate in 2004

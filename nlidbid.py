@@ -252,11 +252,6 @@ def train():
           checkpoint_path = os.path.abspath(os.path.join(os.getcwd(), checkpoint_path))
         model.saver.save(sess, checkpoint_path, global_step=model.global_step)
         step_time, loss = 0.0, 0.0
-        # Run evals on development set and print their perplexity.
-        ### Open a txt file recording the last hidden state
-        # filename = "last_hidden_state-"+str(model.global_step.eval())+".txt"
-        # lasthidden_path = os.path.join("./PCA-visual/", filename)
-        # f_lh = open(lasthidden_path, 'w')
         for bucket_id in xrange(len(_buckets)):
           if len(dev_set[bucket_id]) == 0:
             print("  eval: empty bucket %d" % (bucket_id))
@@ -270,14 +265,6 @@ def train():
           eval_ppx = math.exp(float(eval_loss)) if eval_loss < 300 else float(
               "inf")
           print("  eval: bucket %d perplexity %.4f" % (bucket_id, eval_ppx))
-          ### Print hidden state to file
-          #print("   bucket %d has %d samples" % (bucket_id, len(eval_lasthidden)))
-        #   for j in range(FLAGS.batch_size):
-        #     for i in range(FLAGS.num_layers): # all the layer of encoders are outputed
-        #       words = [str(num) for num in eval_lasthidden[i][j]]
-        #       f_lh.write(','.join(words))
-        #     f_lh.write('\n')
-        # f_lh.close()
         sys.stdout.flush()
 
 
@@ -377,7 +364,7 @@ def decode():
                 prev = tf.compat.as_str(rev_fr_vocab[output])
                 resultLogical.append(prev)
               else: # i>0
-                if prev in ['equal','less','greater','neq','nl','ng']:
+                if str(prev) in ['equal','less','greater','neq','nl','ng']:
                   # Constraint 2: after 'equal' should be 'value'
                   output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
                 pre_idx = output
@@ -387,7 +374,8 @@ def decode():
                   output = data_utils_tag.UNK_ID
                 prev = tf.compat.as_str(rev_fr_vocab[output])
                 resultLogical.append(prev)
-
+            if str(resultLogical[-1]) in ['equal','less','greater','neq','nl','ng']:
+              resultLogical.append(resultLogical[-2])
             # outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
             # # If there is an EOS symbol in outputs, cut them at that point.
             # if data_utils_tag.EOS_ID in outputs:
@@ -454,7 +442,7 @@ def decode():
                 prev = tf.compat.as_str(rev_fr_vocab[output])
                 resultLogical.append(prev)
               else: # i>0
-                if prev in ['equal','less','greater','neq','nl','ng']:
+                if str(prev) in ['equal','less','greater','neq','nl','ng']:
                   # Constraint 2: after 'equal' should be 'value'
                   output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
                 pre_idx = output
@@ -464,7 +452,8 @@ def decode():
                   output = data_utils_tag.UNK_ID
                 prev = tf.compat.as_str(rev_fr_vocab[output])
                 resultLogical.append(prev)
-
+            if str(resultLogical[-1]) in ['equal','less','greater','neq','nl','ng']:
+              resultLogical.append(resultLogical[-2])
             # outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
             # # If there is an EOS symbol in outputs, cut them at that point.
             # if data_utils_tag.EOS_ID in outputs:
