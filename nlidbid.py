@@ -60,7 +60,7 @@ tf.app.flags.DEFINE_integer("num_layers", 3, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("from_vocab_size", 1500, "English vocabulary size.")
 tf.app.flags.DEFINE_integer("to_vocab_size", 150, "French vocabulary size.")
 tf.app.flags.DEFINE_string("data_dir", "./Overnight/except_socialnetwork", "Data directory")
-tf.app.flags.DEFINE_string("train_dir", "./on_social", "Training directory.")
+tf.app.flags.DEFINE_string("train_dir", "./in_social", "Training directory.")
 tf.app.flags.DEFINE_string("from_train_data", None, "Training data.")
 tf.app.flags.DEFINE_string("to_train_data", None, "Training data.")
 tf.app.flags.DEFINE_string("from_dev_data", None, "Training data.")
@@ -311,17 +311,17 @@ def decode():
     # trainTagFile = FLAGS.data_dir + '/rand_train.ta'   # For tagging model, Hongyu
     # devQuestionFile = FLAGS.data_dir + '/rand_dev.qu'
     # devTagFile = FLAGS.data_dir + '/rand_dev.ta'   # For tagging model, Hongyu
-    testQuestionFile = FLAGS.data_dir + '/except_socialnetwork_test.qu'
-    testTagFile = FLAGS.data_dir + '/except_socialnetwork_test.ta'   # For tagging model, Hongyu
+    testQuestionFile = FLAGS.data_dir + '/socialnetwork_test.qu'
+    testTagFile = FLAGS.data_dir + '/socialnetwork_test.ta'   # For tagging model, Hongyu
 
     #0530 newly added
-    geoQuestionFile = FLAGS.data_dir + '/except_socialnetwork_train.qu'
-    geoTagFile = FLAGS.data_dir + '/except_socialnetwork_train.ta'   # For tagging model, Hongyu
-    logicalTemp_geo = open(FLAGS.test_dir + '/except_socialnetwork_train.out', 'w')
+    geoQuestionFile = FLAGS.data_dir + '/socialnetwork_train.qu'
+    geoTagFile = FLAGS.data_dir + '/socialnetwork_train.ta'   # For tagging model, Hongyu
+    logicalTemp_geo = open(FLAGS.test_dir + '/socialnetwork_train.out', 'w')
     
     # logicalTemp_train = open(FLAGS.test_dir + '/logicalTemp_train.out', 'w')
     # logicalTemp_dev = open(FLAGS.test_dir + '/logicalTemp_dev.out', 'w')
-    logicalTemp_test = open(FLAGS.test_dir + '/except_socialnetwork_test.out', 'w')
+    logicalTemp_test = open(FLAGS.test_dir + '/socialnetwork_test.out', 'w')
 
     ### evaluating tagging model, Hongyu
     
