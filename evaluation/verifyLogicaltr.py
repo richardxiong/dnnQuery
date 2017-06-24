@@ -27,7 +27,7 @@ input files
 '''
 subset = 'socialnetwork'
 
-truth_path = "../data/Overnight/except_%s" % subset
+truth_path = "../Overnight/except_%s" % subset
 output_path = "../evaluation/Overnight/except_%s" % subset
 
 
