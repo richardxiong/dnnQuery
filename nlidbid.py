@@ -378,7 +378,7 @@ def decode():
               else: # i>0
                 if prev in ['equal','less','greater','neq','nl','ng']:
                   # Constraint 2: after 'equal' should be 'value'
-                  output = int(np.argmax(output_logits[i][:,10:15], axis=1)) + 10
+                  output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
                 pre_idx = output
                 if output == data_utils_tag.EOS_ID:
                   break
@@ -415,7 +415,7 @@ def decode():
               print("  reading data line %d" % q_index)
               sys.stdout.flush()
             qid = 'qID_' + str(q_index)
-            print('testing question: ', qid)
+            print('training question: ', qid)
             # Get token-ids for the input sentence.
             token_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(sentence), en_vocab)
             tag_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(tag_sen), fr_vocab)
@@ -455,7 +455,7 @@ def decode():
               else: # i>0
                 if prev in ['equal','less','greater','neq','nl','ng']:
                   # Constraint 2: after 'equal' should be 'value'
-                  output = int(np.argmax(output_logits[i][:,10:15], axis=1)) + 10
+                  output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
                 pre_idx = output
                 if output == data_utils_tag.EOS_ID:
                   break
