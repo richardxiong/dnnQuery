@@ -354,9 +354,9 @@ def decode():
                 {bucket_id: [(token_ids, tag_ids, [])]}, bucket_id)
             
             # Get output logits for the sentence and CONFUSION matrix. # 0531 newly added
-            filename = "confusion_matrix.txt"
-            confusion_path = os.path.join("./PCA-visual/", filename)
-            f_con = open(confusion_path, 'a+')
+            # filename = "confusion_matrix.txt"
+            # confusion_path = os.path.join("./PCA-visual/", filename)
+            # f_con = open(confusion_path, 'a+')
             _, _, output_logits, confusion_matrix = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs,
                                              target_weights, bucket_id, True)
             # f_con.write('*** example: '+str(q_index)+' ***\n')
