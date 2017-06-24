@@ -359,22 +359,52 @@ def decode():
             f_con = open(confusion_path, 'a+')
             _, _, output_logits, confusion_matrix = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs,
                                              target_weights, bucket_id, True)
-            f_con.write('*** example: '+str(q_index)+' ***\n')
-            for i in range(confusion_matrix.shape[1]):
-              words = [str(x) for x in confusion_matrix[0][i]]
-              f_con.write(','.join(words) + '\n')
-            f_con.close()
-        
-            # This is a greedy decoder - outputs are just argmaxes of output_logits.
-            outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
-            # If there is an EOS symbol in outputs, cut them at that point.
-            if data_utils_tag.EOS_ID in outputs:
-              outputs = outputs[:outputs.index(data_utils_tag.EOS_ID)]
-            for i in range(len(outputs)):
-              if outputs[i] >= len(rev_fr_vocab):
-                outputs[i] = 3
+            # f_con.write('*** example: '+str(q_index)+' ***\n')
+            # for i in range(confusion_matrix.shape[1]):
+            #   words = [str(x) for x in confusion_matrix[0][i]]
+            #   f_con.write(','.join(words) + '\n')
+            # f_con.close()
+            
+            # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
+            resultLogical = []
+            total_len = 0
+            for i in range(len(decoder_inputs)):
+              if decoder_inputs[i][0] == 0:
+                total_len = i
+                break
+            for i in range(len(output_logits)):
+              output = int(np.argmax(output_logits[i], axis=1))
+              # Constraint 1: advancd ending
+              if i < (total_len-1) and output == data_utils_tag.EOS_ID:
+                output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1))
+              if i == 0:
+                prev_idx = output
+                if output >= len(rev_fr_vocab):
+                  output = data_utils_tag.UNK_ID
+                prev = tf.compat.as_str(rev_fr_vocab[output])
+                resultLogical.append(prev)
+              else: # i>0
+                if prev in ['equal','less','greater','neq','nl','ng']:
+                  # Constraint 2: after 'equal' should be 'value'
+                  output = int(np.argmax(output_logits[i][:,10:15], axis=1))
+                pre_idx = output
+                if output == data_utils_tag.EOS_ID:
+                  break
+                if output >= len(rev_fr_vocab):
+                  output = data_utils_tag.UNK_ID
+                prev = tf.compat.as_str(rev_fr_vocab[output])
+                resultLogical.append(prev)
+
+            # outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
+            # # If there is an EOS symbol in outputs, cut them at that point.
+            # if data_utils_tag.EOS_ID in outputs:
+            #   outputs = outputs[:outputs.index(data_utils_tag.EOS_ID)]
+            # for i in range(len(outputs)):
+            #   if outputs[i] >= len(rev_fr_vocab):
+            #     outputs[i] = data_utils_tag.UNK_ID
             # Print out French sentence corresponding to outputs.
-            resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
+            resultLogical = " ".join(resultLogical)
+            #resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
             if FLAGS.enable_table_test:
                 resultAnswer = logicalParser(tables[qid], resultLogical)
                 answerOutput.write(str(resultAnswer) + '\n')
@@ -412,16 +442,46 @@ def decode():
             # Get output logits for the sentence.
             _, _, output_logits, _ = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs,
                                              target_weights, bucket_id, True)
-            # This is a greedy decoder - outputs are just argmaxes of output_logits.
-            outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
-            # If there is an EOS symbol in outputs, cut them at that point.
-            if data_utils_tag.EOS_ID in outputs:
-              outputs = outputs[:outputs.index(data_utils_tag.EOS_ID)]
-            for i in range(len(outputs)):
-              if outputs[i] >= len(rev_fr_vocab):
-                outputs[i] = 3
+            # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
+            resultLogical = []
+            total_len = 0
+            for i in range(len(decoder_inputs)):
+              if decoder_inputs[i][0] == 0:
+                total_len = i
+                break
+            for i in range(len(output_logits)):
+              output = int(np.argmax(output_logits[i], axis=1))
+              # Constraint 1: advancd ending
+              if i < (total_len-1) and output == data_utils_tag.EOS_ID:
+                output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1))
+              if i == 0:
+                prev_idx = output
+                if output >= len(rev_fr_vocab):
+                  output = data_utils_tag.UNK_ID
+                prev = tf.compat.as_str(rev_fr_vocab[output])
+                resultLogical.append(prev)
+              else: # i>0
+                if prev in ['equal','less','greater','neq','nl','ng']:
+                  # Constraint 2: after 'equal' should be 'value'
+                  output = int(np.argmax(output_logits[i][:,10:15], axis=1))
+                pre_idx = output
+                if output == data_utils_tag.EOS_ID:
+                  break
+                if output >= len(rev_fr_vocab):
+                  output = data_utils_tag.UNK_ID
+                prev = tf.compat.as_str(rev_fr_vocab[output])
+                resultLogical.append(prev)
+
+            # outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
+            # # If there is an EOS symbol in outputs, cut them at that point.
+            # if data_utils_tag.EOS_ID in outputs:
+            #   outputs = outputs[:outputs.index(data_utils_tag.EOS_ID)]
+            # for i in range(len(outputs)):
+            #   if outputs[i] >= len(rev_fr_vocab):
+            #     outputs[i] = data_utils_tag.UNK_ID
             # Print out French sentence corresponding to outputs.
-            resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
+            resultLogical = " ".join(resultLogical)
+            #resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
             if FLAGS.enable_table_test:
                 resultAnswer = logicalParser(tables[qid], resultLogical)
                 answerOutput.write(str(resultAnswer) + '\n')
