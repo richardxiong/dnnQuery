@@ -354,16 +354,8 @@ def decode():
                 {bucket_id: [(token_ids, tag_ids, [])]}, bucket_id)
             
             # Get output logits for the sentence and CONFUSION matrix. # 0531 newly added
-            # filename = "confusion_matrix.txt"
-            # confusion_path = os.path.join("./PCA-visual/", filename)
-            # f_con = open(confusion_path, 'a+')
             _, _, output_logits, confusion_matrix = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs,
                                              target_weights, bucket_id, True)
-            # f_con.write('*** example: '+str(q_index)+' ***\n')
-            # for i in range(confusion_matrix.shape[1]):
-            #   words = [str(x) for x in confusion_matrix[0][i]]
-            #   f_con.write(','.join(words) + '\n')
-            # f_con.close()
             
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
             resultLogical = []
@@ -376,7 +368,7 @@ def decode():
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
               if i < (total_len-1) and output == data_utils_tag.EOS_ID:
-                output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1))
+                output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
               if i == 0:
                 prev_idx = output
                 if output >= len(rev_fr_vocab):
@@ -386,7 +378,7 @@ def decode():
               else: # i>0
                 if prev in ['equal','less','greater','neq','nl','ng']:
                   # Constraint 2: after 'equal' should be 'value'
-                  output = int(np.argmax(output_logits[i][:,10:15], axis=1))
+                  output = int(np.argmax(output_logits[i][:,10:15], axis=1)) + 10
                 pre_idx = output
                 if output == data_utils_tag.EOS_ID:
                   break
@@ -453,7 +445,7 @@ def decode():
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
               if i < (total_len-1) and output == data_utils_tag.EOS_ID:
-                output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1))
+                output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1))+data_utils_tag.EOS_ID+1
               if i == 0:
                 prev_idx = output
                 if output >= len(rev_fr_vocab):
@@ -463,7 +455,7 @@ def decode():
               else: # i>0
                 if prev in ['equal','less','greater','neq','nl','ng']:
                   # Constraint 2: after 'equal' should be 'value'
-                  output = int(np.argmax(output_logits[i][:,10:15], axis=1))
+                  output = int(np.argmax(output_logits[i][:,10:15], axis=1)) + 10
                 pre_idx = output
                 if output == data_utils_tag.EOS_ID:
                   break
