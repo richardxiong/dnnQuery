@@ -349,8 +349,8 @@ def decode():
             resultLogical = []
             total_len = 0
             for i in range(len(decoder_inputs)):
-              if decoder_inputs[i][0] == 0:
-                total_len = i
+              total_len += 1
+              if int(decoder_inputs[i]) == 0:  
                 break
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
@@ -427,8 +427,8 @@ def decode():
             resultLogical = []
             total_len = 0
             for i in range(len(decoder_inputs)):
-              if decoder_inputs[i][0] == 0:
-                total_len = i
+              total_len += 1
+              if int(decoder_inputs[i]) == 0:  
                 break
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
