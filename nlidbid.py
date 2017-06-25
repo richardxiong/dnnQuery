@@ -352,6 +352,7 @@ def decode():
               total_len += 1
               if int(decoder_inputs[i]) == 0:  
                 break
+            print(total_len) 
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
