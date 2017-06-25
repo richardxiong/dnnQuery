@@ -27,6 +27,7 @@ import logging
 import numpy as np
 from six.moves import xrange  # pylint: disable=redefined-builtin
 import tensorflow as tf
+from tensorflow.python.platform import gfile
 
 import data_utils_tag
 import scratch
@@ -316,8 +317,8 @@ def decode():
     
     print('======= start testing =======')
     print('=== testing dataset ===')        
-    with open(testQuestionFile,'r') as testQuestions, open(testLogicFile, 'r') as testLogics:
-      with open(testTagFile, 'r') as testTags: 
+    with gfile.GFile(testQuestionFile, mode='rb') as testQuestions, gfile.GFile(testLogicFile, mode='rb') as testLogics:
+      with gfile.GFile(testTagFile, mode='rb') as testTags: 
         q_index = 0
         sentence, tag_sen, logic_sen = testQuestions.readline(), testTags.readline(), testLogics.readline()
         while sentence and tag_sen and logic_sen:
@@ -349,13 +350,13 @@ def decode():
             
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
             resultLogical = []
-            # print("ori logic: %d" % len(logic_sen.split()))
-            # print("ids: %d" % len(logic_ids))
+            print("ori logic: %d" % len(logic_sen.split()))
+            print("ids: %d" % len(logic_ids))
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
-              # if i < len(logic_ids) and output == data_utils_tag.EOS_ID:
-              #   output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
+              if i < len(logic_ids)-1 and output == data_utils_tag.EOS_ID:
+                output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
               if i == 0:
                 prev_idx = output
                 if output >= len(rev_fr_vocab):
@@ -394,8 +395,8 @@ def decode():
             sentence, tag_sen = testQuestions.readline(), testTags.readline()
 
     print('=== train dataset ===')
-    with open(geoQuestionFile,'r') as geoQuestions, open(geoLogicFile,'r') as geoLogics:
-      with open(geoTagFile, 'r') as geoTags: 
+    with gfile.GFile(geoQuestionFile, mode='rb') as geoQuestions, gfile.GFile(geoLogicFile, mode='rb') as geoLogics:
+      with gfile.GFile(geoTagFile, mode='rb') as geoTags: 
         q_index = 0
         sentence, tag_sen, logic_sen = geoQuestions.readline(), geoTags.readline(), geoLogics.readline()
         while sentence and tag_sen:
