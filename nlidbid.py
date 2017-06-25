@@ -349,11 +349,7 @@ def decode():
             
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
             resultLogical = []
-            # total_len = 0
-            # for i in range(len(decoder_inputs)):
-            #   total_len += 1
-            #   if int(decoder_inputs[i]) == 0:  
-            #     break
+            print len(logic_ids)
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
@@ -371,10 +367,6 @@ def decode():
                   output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
                 if output == data_utils_tag.EOS_ID:
                   break
-                  # if i <= 6 and notice_complex: 
-                  #   output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
-                  # else:
-                  #   break
                 pre_idx = output
                 if output >= len(rev_fr_vocab):
                   output = data_utils_tag.UNK_ID
@@ -432,11 +424,6 @@ def decode():
                                              target_weights, bucket_id, True)
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
             resultLogical = []
-            # total_len = len(logic_ids) + 1 #0
-            # for i in range(len(decoder_inputs)):
-            #   total_len += 1
-            #   if int(decoder_inputs[i]) == 0:  
-            #     break
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
@@ -454,10 +441,6 @@ def decode():
                   output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
                 if output == data_utils_tag.EOS_ID:
                   break
-                  # if i <= 6 and notice_complex: 
-                  #   output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
-                  # else:
-                  #   break
                 pre_idx = output
                 if output >= len(rev_fr_vocab):
                   output = data_utils_tag.UNK_ID
