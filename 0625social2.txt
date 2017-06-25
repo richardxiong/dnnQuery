@@ -225,9 +225,6 @@ wrong examples: 204
 wrong examples: 206
 <field>:0 where <field>:1 neq <value>:1
 <field>:0 where <field>:1 nl <value>:1
-wrong examples: 207
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 209
 <field>:0 where count <field>:1 less two
 <field>:0 where <field>:1 equal <value>:1
@@ -453,9 +450,6 @@ wrong examples: 385
 wrong examples: 388
 <field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
-wrong examples: 393
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 396
 <field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
@@ -648,9 +642,6 @@ wrong examples: 531
 wrong examples: 537
 <field>:0 where <field>:0 equal <value>:0 where <field>:1 equal <value>:1
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 538
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 539
 <field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
 <field>:0 where <field>:1 equal <value>:1
@@ -719,9 +710,6 @@ wrong examples: 599
 <field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
 wrong examples: 601
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
-<field>:0 where <field>:1 equal <value>:1
-wrong examples: 606
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 608
 <field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
@@ -831,9 +819,6 @@ wrong examples: 682
 wrong examples: 684
 <field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
-wrong examples: 686
-<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 687
 <field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
 <field>:0 where <field>:1 equal <value>:1
@@ -848,9 +833,6 @@ wrong examples: 691
 <field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
 wrong examples: 693
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
-<field>:0 where <field>:1 equal <value>:1
-wrong examples: 694
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 695
 count <field>:0
@@ -893,7 +875,7 @@ wrong examples: 735
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 741
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 wrong examples: 742
 <field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
@@ -1095,7 +1077,7 @@ wrong examples: 882
 wrong examples: 883
 <field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 greater <value>:1
-test accuracy: 0.587104072398
+test accuracy: 0.593891402715
 wrong examples: 3
 <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
@@ -1108,9 +1090,6 @@ wrong examples: 11
 wrong examples: 16
 <field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 less <value>:1
-wrong examples: 23
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 24
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal single
 <field>:0 where <field>:1 equal <value>:1
@@ -1423,9 +1402,6 @@ wrong examples: 389
 wrong examples: 390
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 391
-<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 wrong examples: 392
 <field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 greater <value>:1
@@ -1576,17 +1552,11 @@ wrong examples: 564
 wrong examples: 565
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 567
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 571
 <field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
 wrong examples: 572
 <field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
-wrong examples: 575
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 577
 <field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
@@ -1684,9 +1654,6 @@ wrong examples: 643
 wrong examples: 650
 <field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 greater <value>:1
-wrong examples: 653
-<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 657
 <field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 less <value>:1
@@ -1711,9 +1678,6 @@ wrong examples: 678
 wrong examples: 683
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 687
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 688
 <field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 greater <value>:1
@@ -1723,9 +1687,6 @@ wrong examples: 689
 wrong examples: 693
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 694
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 696
 <field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 equal <field>:2
@@ -1734,9 +1695,6 @@ wrong examples: 705
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 712
 <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
-<field>:0 where <field>:1 equal <value>:1
-wrong examples: 713
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 718
 <field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
@@ -1770,9 +1728,6 @@ wrong examples: 741
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 755
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
-<field>:0 where <field>:1 equal <value>:1
-wrong examples: 757
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 766
 <field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
@@ -1906,9 +1861,6 @@ wrong examples: 889
 wrong examples: 892
 <field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 893
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 898
 <field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
 <field>:0 where <field>:1 less <value>:1
@@ -1930,9 +1882,6 @@ wrong examples: 913
 wrong examples: 916
 <field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal true
-wrong examples: 929
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 931
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
@@ -2122,9 +2071,6 @@ wrong examples: 1107
 wrong examples: 1108
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 1110
-<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 1112
 <field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 equal <value>:1
@@ -2152,9 +2098,6 @@ wrong examples: 1126
 wrong examples: 1136
 <field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
-wrong examples: 1138
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 1141
 <field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
 <field>:0 where <field>:1 ng <value>:1
@@ -2173,9 +2116,6 @@ wrong examples: 1155
 wrong examples: 1158
 <field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
 <field>:0 where <field>:1 less <value>:1
-wrong examples: 1166
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 1167
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
@@ -2202,9 +2142,6 @@ wrong examples: 1187
 <field>:0 where <field>:1 ng <value>:1
 wrong examples: 1193
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
-<field>:0 where <field>:1 equal <value>:1
-wrong examples: 1196
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 1197
 <field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
@@ -2248,9 +2185,6 @@ wrong examples: 1246
 wrong examples: 1252
 <field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
 <field>:0 where <field>:1 nl <value>:1
-wrong examples: 1253
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 1254
 <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
@@ -2434,9 +2368,6 @@ wrong examples: 1459
 wrong examples: 1462
 <field>:0 where <field>:1 equal brown_university or <field>:1 equal <value>:1
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 1464
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 1465
 <field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 greater <value>:1
@@ -2499,9 +2430,6 @@ wrong examples: 1525
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 1526
 <field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
-wrong examples: 1528
-<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 1531
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
@@ -2571,9 +2499,6 @@ wrong examples: 1605
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 1608
 <field>:0 where <field>:1 equal <field>:1 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
-wrong examples: 1611
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 1614
 <field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
@@ -2659,9 +2584,6 @@ wrong examples: 1720
 wrong examples: 1722
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 1724
-<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 1725
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
 <field>:0 where <field>:1 equal <value>:1
@@ -2674,18 +2596,12 @@ wrong examples: 1730
 wrong examples: 1732
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 1736
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 1737
 <field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 nl <value>:1
 wrong examples: 1742
 <field>:0 where <field>:1 neq brown_university
 <field>:0 where <field>:1 neq <value>:1
-wrong examples: 1743
-<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 1745
 <field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
 <field>:0 where <field>:1 less <value>:1
@@ -2716,9 +2632,6 @@ wrong examples: 1763
 wrong examples: 1764
 <field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 ng <value>:1
-wrong examples: 1769
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 1780
 <field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal true
@@ -2785,9 +2698,6 @@ wrong examples: 1853
 wrong examples: 1865
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 1869
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 1871
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
@@ -2845,9 +2755,6 @@ wrong examples: 1919
 wrong examples: 1930
 <field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal true
-wrong examples: 1931
-<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 1942
 <field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal true
@@ -2860,9 +2767,6 @@ wrong examples: 1946
 wrong examples: 1947
 <field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 ng <value>:1
-wrong examples: 1950
-<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 1951
 <field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 less <value>:1
@@ -2940,9 +2844,6 @@ wrong examples: 2020
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 2031
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
-<field>:0 where <field>:1 equal <value>:1
-wrong examples: 2032
-<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 2039
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
@@ -3034,9 +2935,6 @@ wrong examples: 2134
 wrong examples: 2140
 <field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 2145
-<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 2146
 <field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
 <field>:0 argmax <field>:1
@@ -3057,9 +2955,6 @@ wrong examples: 2159
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 2162
 <field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
-<field>:0 where <field>:1 equal <value>:1
-wrong examples: 2172
-<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 2182
 <field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
@@ -3099,9 +2994,6 @@ wrong examples: 2234
 <field>:0 where <field>:1 nl <value>:1
 wrong examples: 2240
 <field>:0 where <field>:1 equal <value>:1 or <field>:1 equal ucla
-<field>:0 where <field>:1 equal <value>:1
-wrong examples: 2241
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 2242
 <field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
@@ -3463,9 +3355,6 @@ wrong examples: 2642
 wrong examples: 2647
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 2650
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 2651
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
@@ -3477,9 +3366,6 @@ wrong examples: 2661
 <field>:0 where <field>:1 nl <value>:1
 wrong examples: 2666
 <field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
-<field>:0 where <field>:1 equal <value>:1
-wrong examples: 2668
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 2670
 <field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
@@ -3516,9 +3402,6 @@ wrong examples: 2689
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 2691
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
-<field>:0 where <field>:1 equal <value>:1
-wrong examples: 2696
-<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 2697
 <field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
@@ -3742,9 +3625,6 @@ wrong examples: 2874
 wrong examples: 2880
 <field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
 <field>:0 where <field>:1 nl <value>:1
-wrong examples: 2881
-<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 2882
 <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
@@ -3769,9 +3649,6 @@ wrong examples: 2893
 wrong examples: 2895
 <field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 greater <value>:1
-wrong examples: 2909
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 2911
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
@@ -3838,9 +3715,6 @@ wrong examples: 2967
 wrong examples: 2970
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 2971
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 2972
 <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
@@ -3871,9 +3745,6 @@ wrong examples: 3002
 wrong examples: 3003
 <field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 nl <value>:1
-wrong examples: 3008
-<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 3012
 <field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 less <value>:1
@@ -4114,9 +3985,6 @@ wrong examples: 3264
 wrong examples: 3266
 <field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
 <field>:0 where <field>:1 less <value>:1
-wrong examples: 3272
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 3276
 <field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 greater <value>:1
@@ -4180,9 +4048,6 @@ wrong examples: 3327
 wrong examples: 3332
 <field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
 <field>:0 where <field>:1 greater <value>:1
-wrong examples: 3334
-<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 3337
 <field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 ng <value>:1
@@ -4261,9 +4126,6 @@ wrong examples: 3431
 wrong examples: 3432
 <field>:0 where <field>:1 equal <value>:1 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 3435
-<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 3436
 <field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal true
@@ -4279,9 +4141,6 @@ wrong examples: 3441
 wrong examples: 3443
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 3444
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 3450
 <field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
 <field>:0 where <field>:1 ng <value>:1
@@ -4293,9 +4152,6 @@ wrong examples: 3452
 <field>:0 where <field>:1 nl <value>:1
 wrong examples: 3453
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
-<field>:0 where <field>:1 equal <value>:1
-wrong examples: 3456
-<field>:0 where <field>:1 equal <value>:1 and where <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 3460
 <field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
@@ -4342,9 +4198,6 @@ wrong examples: 3486
 wrong examples: 3488
 <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
-wrong examples: 3496
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 3500
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
@@ -4360,18 +4213,12 @@ wrong examples: 3509
 wrong examples: 3510
 <field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
 <field>:0 where <field>:1 greater <value>:1
-wrong examples: 3513
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 3517
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
 wrong examples: 3519
 <field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
 <field>:0 where <field>:1 nl <value>:1
-wrong examples: 3522
-<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 equal <value>:1
 wrong examples: 3526
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
@@ -4384,4 +4231,4 @@ wrong examples: 3529
 wrong examples: 3531
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
-train accuracy: 0.689957567185
+train accuracy: 0.702687411598
