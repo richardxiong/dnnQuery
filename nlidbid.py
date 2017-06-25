@@ -316,7 +316,7 @@ def decode():
     
     print('======= start testing =======')
     print('=== testing dataset ===')        
-    with open(testQuestionFile,'r'), open(testLogicFile, 'r') as testQuestions, testLogics:
+    with open(testQuestionFile,'r') as testQuestions, open(testLogicFile, 'r') as testLogics:
       with open(testTagFile, 'r') as testTags: 
         q_index = 0
         sentence, tag_sen, logic_sen = testQuestions.readline(), testTags.readline(), testLogics.readline()
@@ -402,7 +402,7 @@ def decode():
             sentence, tag_sen = testQuestions.readline(), testTags.readline()
 
     print('=== train dataset ===')
-    with open(geoQuestionFile,'r'), open(geoLogicFile,'r') as geoQuestions, geoLogics:
+    with open(geoQuestionFile,'r') as geoQuestions, open(geoLogicFile,'r') as geoLogics:
       with open(geoTagFile, 'r') as geoTags: 
         q_index = 0
         sentence, tag_sen, logic_sen = geoQuestions.readline(), geoTags.readline(), geoLogics.readline()
