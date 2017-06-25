@@ -296,29 +296,30 @@ def decode():
             tables = json.load(testTables)
         answerOutput = open(FLAGS.test_dir + '/answer.out', 'w')
 
+    subset = 'socialnetwork'
     # trainQuestionFile = FLAGS.data_dir + '/rand_train.qu'
     # trainTagFile = FLAGS.data_dir + '/rand_train.ta'   # For tagging model, Hongyu
     # devQuestionFile = FLAGS.data_dir + '/rand_dev.qu'
     # devTagFile = FLAGS.data_dir + '/rand_dev.ta'   # For tagging model, Hongyu
-    testQuestionFile = FLAGS.data_dir + '/socialnetwork_test.qu'
-    testTagFile = FLAGS.data_dir + '/socialnetwork_test.ta'   # For tagging model, Hongyu
-    testLogicFile = FLAGS.data_dir + '/socialnetwork_test.lox'   # For tagging model, Hongyu
+    testQuestionFile = FLAGS.data_dir + '/%s_test.qu.ids1500' % subset
+    testTagFile = FLAGS.data_dir + '/%s_test.ta.ids150' % subset  # For tagging model, Hongyu
+    testLogicFile = FLAGS.data_dir + '/%s_test.lox.ids150' % subset  # For tagging model, Hongyu
     #0530 newly added
-    geoQuestionFile = FLAGS.data_dir + '/socialnetwork_train.qu'
-    geoTagFile = FLAGS.data_dir + '/socialnetwork_train.ta'   # For tagging model, Hongyu
-    geoLogicFile = FLAGS.data_dir + '/socialnetwork_train.lox'   # For tagging model, Hongyu
-    logicalTemp_geo = open(FLAGS.test_dir + '/socialnetwork_train.out', 'w')
+    geoQuestionFile = FLAGS.data_dir + '/%s_train.qu.ids1500' % subset
+    geoTagFile = FLAGS.data_dir + '/%s_train.ta.ids150' % subset   # For tagging model, Hongyu
+    geoLogicFile = FLAGS.data_dir + '/%s_train.lox.ids150' % subset   # For tagging model, Hongyu
+    logicalTemp_geo = open(FLAGS.test_dir + '/%s_train.out' % subset, 'w')
     
     # logicalTemp_train = open(FLAGS.test_dir + '/logicalTemp_train.out', 'w')
     # logicalTemp_dev = open(FLAGS.test_dir + '/logicalTemp_dev.out', 'w')
-    logicalTemp_test = open(FLAGS.test_dir + '/socialnetwork_test.out', 'w')
+    logicalTemp_test = open(FLAGS.test_dir + '/%s_test.out' % subset, 'w')
 
     ### evaluating tagging model, Hongyu
     
     print('======= start testing =======')
     print('=== testing dataset ===')        
-    with gfile.GFile(testQuestionFile, mode='rb') as testQuestions, gfile.GFile(testLogicFile, mode='rb') as testLogics:
-      with gfile.GFile(testTagFile, mode='rb') as testTags: 
+    with gfile.GFile(testQuestionFile, mode='r') as testQuestions, gfile.GFile(testLogicFile, mode='r') as testLogics:
+      with gfile.GFile(testTagFile, mode='r') as testTags: 
         q_index = 0
         sentence, tag_sen, logic_sen = testQuestions.readline(), testTags.readline(), testLogics.readline()
         while sentence and tag_sen and logic_sen:
@@ -328,9 +329,12 @@ def decode():
             qid = 'qID_' + str(q_index)
             print('testing question: ', qid)
             # Get token-ids for the input sentence.
-            token_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(sentence), en_vocab)
-            tag_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(tag_sen), fr_vocab)
-            logic_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(logic_sen), fr_vocab)
+            # token_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(sentence), en_vocab)
+            # tag_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(tag_sen), fr_vocab)
+            # logic_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(logic_sen), fr_vocab)
+            token_ids = [int(x) for x in sentence.split()]
+            tag_ids = [int(x) for x in tag_sen.split()]
+            logic_ids = [int(x) for x in logic_sen.split()]
             # Which bucket does it belong to?
             bucket_id = len(_buckets) - 1
             for i, bucket in enumerate(_buckets):
@@ -350,13 +354,12 @@ def decode():
             
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
             resultLogical = []
-            print("ori logic: %d" % len(logic_sen.split()))
             print("ids: %d" % len(logic_ids))
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
-              if i < len(logic_ids)-1 and output == data_utils_tag.EOS_ID:
-                output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
+              # if i < len(logic_ids)-1 and output == data_utils_tag.EOS_ID:
+              #   output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
               if i == 0:
                 prev_idx = output
                 if output >= len(rev_fr_vocab):
@@ -395,8 +398,8 @@ def decode():
             sentence, tag_sen = testQuestions.readline(), testTags.readline()
 
     print('=== train dataset ===')
-    with gfile.GFile(geoQuestionFile, mode='rb') as geoQuestions, gfile.GFile(geoLogicFile, mode='rb') as geoLogics:
-      with gfile.GFile(geoTagFile, mode='rb') as geoTags: 
+    with gfile.GFile(geoQuestionFile, mode='r') as geoQuestions, gfile.GFile(geoLogicFile, mode='r') as geoLogics:
+      with gfile.GFile(geoTagFile, mode='r') as geoTags: 
         q_index = 0
         sentence, tag_sen, logic_sen = geoQuestions.readline(), geoTags.readline(), geoLogics.readline()
         while sentence and tag_sen:
@@ -406,9 +409,12 @@ def decode():
             qid = 'qID_' + str(q_index)
             print('training question: ', qid)
             # Get token-ids for the input sentence.
-            token_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(sentence), en_vocab)
-            tag_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(tag_sen), fr_vocab)
-            logic_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(logic_sen), fr_vocab)
+            # token_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(sentence), en_vocab)
+            # tag_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(tag_sen), fr_vocab)
+            # logic_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(logic_sen), fr_vocab)
+            token_ids = [int(x) for x in sentence.split()]
+            tag_ids = [int(x) for x in tag_sen.split()]
+            logic_ids = [int(x) for x in logic_sen.split()]
             # Which bucket does it belong to?
             bucket_id = len(_buckets) - 1
             for i, bucket in enumerate(_buckets):
@@ -429,8 +435,8 @@ def decode():
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
-              if i < len(logic_ids)-1 and output == data_utils_tag.EOS_ID:
-                output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
+              # if i < len(logic_ids)-1 and output == data_utils_tag.EOS_ID:
+              #   output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
               if i == 0:
                 prev_idx = output
                 if output >= len(rev_fr_vocab):
