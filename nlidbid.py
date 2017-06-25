@@ -301,10 +301,11 @@ def decode():
     # devTagFile = FLAGS.data_dir + '/rand_dev.ta'   # For tagging model, Hongyu
     testQuestionFile = FLAGS.data_dir + '/socialnetwork_test.qu'
     testTagFile = FLAGS.data_dir + '/socialnetwork_test.ta'   # For tagging model, Hongyu
-
+    testLogicFile = FLAGS.data_dir + '/socialnetwork_test.lox'   # For tagging model, Hongyu
     #0530 newly added
     geoQuestionFile = FLAGS.data_dir + '/socialnetwork_train.qu'
     geoTagFile = FLAGS.data_dir + '/socialnetwork_train.ta'   # For tagging model, Hongyu
+    geoLogicFile = FLAGS.data_dir + '/socialnetwork_train.lox'   # For tagging model, Hongyu
     logicalTemp_geo = open(FLAGS.test_dir + '/socialnetwork_train.out', 'w')
     
     # logicalTemp_train = open(FLAGS.test_dir + '/logicalTemp_train.out', 'w')
@@ -315,11 +316,11 @@ def decode():
     
     print('======= start testing =======')
     print('=== testing dataset ===')        
-    with open(testQuestionFile,'r') as testQuestions:
+    with open(testQuestionFile,'r'), open(testLogicFile, 'r') as testQuestions, testLogics:
       with open(testTagFile, 'r') as testTags: 
         q_index = 0
-        sentence, tag_sen = testQuestions.readline(), testTags.readline()
-        while sentence and tag_sen:
+        sentence, tag_sen, logic_sen = testQuestions.readline(), testTags.readline(), testLogics.readline()
+        while sentence and tag_sen and logic_sen:
             if q_index % 200 == 0:
               print("  reading data line %d" % q_index)
               sys.stdout.flush()
@@ -328,10 +329,11 @@ def decode():
             # Get token-ids for the input sentence.
             token_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(sentence), en_vocab)
             tag_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(tag_sen), fr_vocab)
+            logic_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(logic_sen), fr_vocab)
             # Which bucket does it belong to?
             bucket_id = len(_buckets) - 1
             for i, bucket in enumerate(_buckets):
-              if bucket[0] >= len(token_ids):
+              if bucket[0] > len(token_ids) and bucket[1] > len(logic_ids):
                 bucket_id = i
                 break
             else:
@@ -347,17 +349,18 @@ def decode():
             
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
             resultLogical = []
-            total_len = 0
-            for i in range(len(decoder_inputs)):
-              total_len += 1
-              if int(decoder_inputs[i]) == 0:  
-                break
-            print(total_len) 
+            if sentence.find('or') != -1 or sentence.find('and') != -1:
+              notice_complex = True
+            # total_len = 0
+            # for i in range(len(decoder_inputs)):
+            #   total_len += 1
+            #   if int(decoder_inputs[i]) == 0:  
+            #     break
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
-              if i < (total_len-1) and output == data_utils_tag.EOS_ID:
-                output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
+              # if notice_complex and output == data_utils_tag.EOS_ID:
+              #   output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
               if i == 0:
                 prev_idx = output
                 if output >= len(rev_fr_vocab):
@@ -368,9 +371,12 @@ def decode():
                 if str(prev) in ['equal','less','greater','neq','nl','ng']:
                   # Constraint 2: after 'equal' should be 'value'
                   output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
-                pre_idx = output
                 if output == data_utils_tag.EOS_ID:
-                  break
+                  if i <= 6 and notice_complex: 
+                    output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
+                  else:
+                    break
+                pre_idx = output
                 if output >= len(rev_fr_vocab):
                   output = data_utils_tag.UNK_ID
                 prev = tf.compat.as_str(rev_fr_vocab[output])
@@ -396,10 +402,10 @@ def decode():
             sentence, tag_sen = testQuestions.readline(), testTags.readline()
 
     print('=== train dataset ===')
-    with open(geoQuestionFile,'r') as geoQuestions:
+    with open(geoQuestionFile,'r'), open(geoLogicFile,'r') as geoQuestions, geoLogics:
       with open(geoTagFile, 'r') as geoTags: 
         q_index = 0
-        sentence, tag_sen = geoQuestions.readline(), geoTags.readline()
+        sentence, tag_sen, logic_sen = geoQuestions.readline(), geoTags.readline(), geoLogics.readline()
         while sentence and tag_sen:
             if q_index % 200 == 0:
               print("  reading data line %d" % q_index)
@@ -409,10 +415,11 @@ def decode():
             # Get token-ids for the input sentence.
             token_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(sentence), en_vocab)
             tag_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(tag_sen), fr_vocab)
+            logic_ids = data_utils_tag.sentence_to_token_ids(tf.compat.as_bytes(logic_sen), fr_vocab)
             # Which bucket does it belong to?
             bucket_id = len(_buckets) - 1
             for i, bucket in enumerate(_buckets):
-              if bucket[0] >= len(token_ids):
+              if bucket[0] > len(token_ids) and bucket[1] > len(logic_ids):
                 bucket_id = i
                 break
             else:
@@ -426,16 +433,18 @@ def decode():
                                              target_weights, bucket_id, True)
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
             resultLogical = []
-            total_len = 0
-            for i in range(len(decoder_inputs)):
-              total_len += 1
-              if int(decoder_inputs[i]) == 0:  
-                break
+            if sentence.find('or') != -1 or sentence.find('and') != -1:
+              notice_complex = True
+            # total_len = 0
+            # for i in range(len(decoder_inputs)):
+            #   total_len += 1
+            #   if int(decoder_inputs[i]) == 0:  
+            #     break
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
-              if i < (total_len-1) and output == data_utils_tag.EOS_ID:
-                output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1))+data_utils_tag.EOS_ID+1
+              # if notice_complex and output == data_utils_tag.EOS_ID:
+              #   output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
               if i == 0:
                 prev_idx = output
                 if output >= len(rev_fr_vocab):
@@ -446,9 +455,12 @@ def decode():
                 if str(prev) in ['equal','less','greater','neq','nl','ng']:
                   # Constraint 2: after 'equal' should be 'value'
                   output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
-                pre_idx = output
                 if output == data_utils_tag.EOS_ID:
-                  break
+                  if i <= 6 and notice_complex: 
+                    output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
+                  else:
+                    break
+                pre_idx = output
                 if output >= len(rev_fr_vocab):
                   output = data_utils_tag.UNK_ID
                 prev = tf.compat.as_str(rev_fr_vocab[output])
