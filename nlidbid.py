@@ -349,9 +349,6 @@ def decode():
             
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
             resultLogical = []
-            notice_complex = False
-            if sentence.find('or') != -1 or sentence.find('and') != -1:
-              notice_complex = True
             # total_len = 0
             # for i in range(len(decoder_inputs)):
             #   total_len += 1
@@ -360,8 +357,8 @@ def decode():
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
-              # if notice_complex and output == data_utils_tag.EOS_ID:
-              #   output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
+              if i < len(logic_ids) and output == data_utils_tag.EOS_ID:
+                output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
               if i == 0:
                 prev_idx = output
                 if output >= len(rev_fr_vocab):
@@ -373,10 +370,11 @@ def decode():
                   # Constraint 2: after 'equal' should be 'value'
                   output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
                 if output == data_utils_tag.EOS_ID:
-                  if i <= 6 and notice_complex: 
-                    output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
-                  else:
-                    break
+                  break
+                  # if i <= 6 and notice_complex: 
+                  #   output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
+                  # else:
+                  #   break
                 pre_idx = output
                 if output >= len(rev_fr_vocab):
                   output = data_utils_tag.UNK_ID
@@ -434,10 +432,7 @@ def decode():
                                              target_weights, bucket_id, True)
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
             resultLogical = []
-            notice_complex = False
-            if sentence.find('or') != -1 or sentence.find('and') != -1:
-              notice_complex = True
-            # total_len = 0
+            # total_len = len(logic_ids) + 1 #0
             # for i in range(len(decoder_inputs)):
             #   total_len += 1
             #   if int(decoder_inputs[i]) == 0:  
@@ -445,8 +440,8 @@ def decode():
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
-              # if notice_complex and output == data_utils_tag.EOS_ID:
-              #   output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
+              if i < len(logic_ids) and output == data_utils_tag.EOS_ID:
+                output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
               if i == 0:
                 prev_idx = output
                 if output >= len(rev_fr_vocab):
@@ -458,10 +453,11 @@ def decode():
                   # Constraint 2: after 'equal' should be 'value'
                   output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
                 if output == data_utils_tag.EOS_ID:
-                  if i <= 6 and notice_complex: 
-                    output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
-                  else:
-                    break
+                  break
+                  # if i <= 6 and notice_complex: 
+                  #   output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
+                  # else:
+                  #   break
                 pre_idx = output
                 if output >= len(rev_fr_vocab):
                   output = data_utils_tag.UNK_ID
