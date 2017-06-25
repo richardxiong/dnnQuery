@@ -349,7 +349,8 @@ def decode():
             
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
             resultLogical = []
-            print len(logic_ids)
+            print("ori logic: %d" % len(logic_sen.split()))
+            print("ids: %d" % len(logic_ids))
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
