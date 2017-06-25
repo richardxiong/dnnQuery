@@ -396,7 +396,7 @@ def decode():
 
             logicalTemp_test.write(str(resultLogical) + '\n')
             q_index += 1
-            sentence, tag_sen = testQuestions.readline(), testTags.readline()
+            sentence, tag_sen, logic_sen = testQuestions.readline(), testTags.readline(), testLogics.readline()
 
     print('=== train dataset ===')
     with gfile.GFile(geoQuestionFile, mode='r') as geoQuestions, gfile.GFile(geoLogicFile, mode='r') as geoLogics:
@@ -473,7 +473,7 @@ def decode():
 
             logicalTemp_geo.write(str(resultLogical) + '\n')
             q_index += 1
-            sentence, tag_sen = geoQuestions.readline(), geoTags.readline()
+            sentence, tag_sen, logic_sen = geoQuestions.readline(), geoTags.readline(), geoLogics.readline()
     logicalTemp_geo.close()
     # logicalTemp_train.close()
     # logicalTemp_dev.close()
