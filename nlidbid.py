@@ -349,13 +349,13 @@ def decode():
             
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
             resultLogical = []
-            print("ori logic: %d" % len(logic_sen.split()))
-            print("ids: %d" % len(logic_ids))
+            # print("ori logic: %d" % len(logic_sen.split()))
+            # print("ids: %d" % len(logic_ids))
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
-              if i < len(logic_ids) and output == data_utils_tag.EOS_ID:
-                output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
+              # if i < len(logic_ids) and output == data_utils_tag.EOS_ID:
+              #   output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
               if i == 0:
                 prev_idx = output
                 if output >= len(rev_fr_vocab):
@@ -428,8 +428,8 @@ def decode():
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
-              if i < len(logic_ids) and output == data_utils_tag.EOS_ID:
-                output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
+              # if i < len(logic_ids) and output == data_utils_tag.EOS_ID:
+              #   output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
               if i == 0:
                 prev_idx = output
                 if output >= len(rev_fr_vocab):
