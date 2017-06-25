@@ -349,6 +349,7 @@ def decode():
             
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
             resultLogical = []
+            notice_complex = False
             if sentence.find('or') != -1 or sentence.find('and') != -1:
               notice_complex = True
             # total_len = 0
@@ -433,6 +434,7 @@ def decode():
                                              target_weights, bucket_id, True)
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
             resultLogical = []
+            notice_complex = False
             if sentence.find('or') != -1 or sentence.find('and') != -1:
               notice_complex = True
             # total_len = 0
