@@ -1916,7 +1916,7 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
     encoder_cell = copy.deepcopy(cell)
     # dropput
     if not feed_previous:
-      encoder_cell = core_rnn_cell_impl.DropoutWrapper(encoder_cell, 
+      encoder_cell = DropoutWrapper(encoder_cell, #core_rnn_cell_impl.
                                            input_keep_prob=0.7, 
                                            output_keep_prob=0.7,
                                            variational_recurrent=True,
@@ -1981,7 +1981,7 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
     decoder_cell = copy.deepcopy(cell)
     # dropput
     if not feed_previous:
-      decoder_cell = core_rnn_cell_impl.DropoutWrapper(decoder_cell, 
+      decoder_cell = DropoutWrapper(decoder_cell, #core_rnn_cell_impl.
                                            input_keep_prob=0.7, 
                                            output_keep_prob=0.7,
                                            variational_recurrent=True,
