@@ -136,7 +136,7 @@ class Seq2SeqModel(object):
       cell = tf.contrib.rnn.MultiRNNCell([single_cell() for _ in range(num_layers)])
 
     # Add pretrained embedding
-    embedding_matrix_from, _, _ = scratch.generateEmbedMatrix(self.from_vocab_path, 500000) #, self.glove_path
+    embedding_matrix_from, _, _ = scratch.generateEmbedMatrix(self.from_vocab_path, 500000, self.glove_path) #
     embedding_matrix_to, _, _ = scratch.generateEmbedMatrix(self.to_vocab_path, 500000) #, self.glove_path
     # The seq2seq function: we use embedding for the input and attention.
     def seq2seq_f(encoder_inputs, tag_inputs, decoder_inputs, do_decode):
