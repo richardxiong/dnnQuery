@@ -1,4 +1,4 @@
-2-layer, aiming for long dependencies
+2-layer-1024, aiming for long dependencies
 
 wrong examples: 4
 <field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
