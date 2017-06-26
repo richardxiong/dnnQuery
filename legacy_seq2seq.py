@@ -80,7 +80,7 @@ linear = core_rnn_cell_impl._linear  # pylint: disable=protected-access
 
 ###############################################################################
 
-class DropoutWrapper(RNNCell):
+class DropoutWrapper(core_rnn_cell.RNNCell):
   """Operator adding dropout to inputs and outputs of the given cell."""
 
   def __init__(self, cell, input_keep_prob=1.0, output_keep_prob=1.0,
