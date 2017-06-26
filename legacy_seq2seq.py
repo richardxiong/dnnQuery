@@ -1738,7 +1738,7 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
     dtype = scope.dtype
     # Encoder.
     encoder_cell = copy.deepcopy(cell)
-    embedding_matrix_from = tf.Variable(embedding_matrix_from, trainable = True)
+    embedding_matrix_from = tf.Variable(embedding_matrix_from, trainable = False)
     embedding_matrix_to_pre = tf.Variable(embedding_matrix_to, trainable = True)  # decoder vocab vectors could be trained
     # tag part of the variable
     tag_matrix = np.zeros((7, 50), dtype = 'float32')
