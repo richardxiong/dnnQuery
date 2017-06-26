@@ -56,7 +56,7 @@ from __future__ import print_function
 import copy
 import numpy as np
 import tensorflow as tf
-import module_cell as mc
+# import module_cell as mc
 
 # We disable pylint because we need python3 compatibility.
 from six.moves import xrange  # pylint: disable=redefined-builtin
@@ -1740,7 +1740,7 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
     encoder_cell = copy.deepcopy(cell)
     # dropput
     if not feed_previous:
-      encoder_cell = mc.DropoutWrapper(encoder_cell, 
+      encoder_cell = core_rnn_cell_impl.DropoutWrapper(encoder_cell, 
                                            input_keep_prob=0.7, 
                                            output_keep_prob=0.7,
                                            variational_recurrent=True,
@@ -1805,7 +1805,7 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
     decoder_cell = copy.deepcopy(cell)
     # dropput
     if not feed_previous:
-      decoder_cell = mc.DropoutWrapper(decoder_cell, 
+      decoder_cell = core_rnn_cell_impl.DropoutWrapper(decoder_cell, 
                                            input_keep_prob=0.7, 
                                            output_keep_prob=0.7,
                                            variational_recurrent=True,
