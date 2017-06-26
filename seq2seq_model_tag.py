@@ -134,7 +134,7 @@ class Seq2SeqModel(object):
     cell = single_cell()
     if num_layers > 1:
       cell = tf.contrib.rnn.MultiRNNCell([single_cell() for _ in range(num_layers)])
-
+    
     # Add pretrained embedding
     embedding_matrix_from, _, _ = scratch.generateEmbedMatrix(self.from_vocab_path, 500000, self.glove_path) #
     embedding_matrix_to, _, _ = scratch.generateEmbedMatrix(self.to_vocab_path, 500000) #, self.glove_path

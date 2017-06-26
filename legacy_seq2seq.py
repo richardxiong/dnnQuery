@@ -1738,9 +1738,14 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
     dtype = scope.dtype
     # Encoder.
     encoder_cell = copy.deepcopy(cell)
-    # Dropout.
+    # dropput
     if not feed_previous:
-      encoder_cell = core_rnn_cell.DropoutWrapper(encoder_cell, input_keep_prob=0.7, output_keep_prob=0.5)
+      encoder_cell = core_rnn_cell.DropoutWrapper(encoder_cell, 
+                                           input_keep_prob=0.7, 
+                                           output_keep_prob=0.7,
+                                           variational_recurrent=True,
+                                           input_size=embedding_size*2,
+                                           dtype=dtype)
     embedding_matrix_from = tf.Variable(embedding_matrix_from, trainable = True)
     embedding_matrix_to_pre = tf.Variable(embedding_matrix_to, trainable = False)  # decoder vocab vectors could be trained
     # tag part of the variable
@@ -1795,13 +1800,22 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
 
     loop_function = _extract_argmax_and_embed(
         embedding_matrix_to, output_projection, True) if feed_previous else None
-  
+    
+    decoder_cell = copy.deepcopy(cell)
+    # dropput
+    if not feed_previous:
+      decoder_cell = core_rnn_cell.DropoutWrapper(decoder_cell, 
+                                           input_keep_prob=0.7, 
+                                           output_keep_prob=0.7,
+                                           variational_recurrent=True,
+                                           input_size=embedding_size,
+                                           dtype=dtype)
     if isinstance(feed_previous, bool):
       outputs, state, confusion_matrix = attention_decoder_confusion(
           decoder_inputs_embed,
           encoder_state,
           attention_states,
-          cell,
+          decoder_cell,
           output_size=output_size,
           num_heads=num_heads,
           loop_function=loop_function,
@@ -1818,7 +1832,7 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
             decoder_inputs_embed,
             encoder_state,
             attention_states,
-            cell,
+            decoder_cell,
             output_size=output_size,
             num_heads=num_heads,
             loop_function=loop_function,
