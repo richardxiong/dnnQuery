@@ -354,8 +354,6 @@ def decode():
             
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
             resultLogical = []
-            #print("ids: %d" % len(logic_ids))
-            print(logic_ids)
             for i in range(len(output_logits)):
               output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
@@ -371,8 +369,11 @@ def decode():
                 if str(prev) in ['equal','less','greater','neq','nl','ng']:
                   # Constraint 2: after 'equal' should be 'value'
                   output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
-                if output == data_utils_tag.EOS_ID:
-                  break
+                if output == 2: #data_utils_tag.EOS_ID:
+                  if i < len(logic_ids)-1:
+                    output = int(np.argmax(output_logits[i][:,3:], axis=1)) + 3
+                  else:
+                    break
                 pre_idx = output
                 if output >= len(rev_fr_vocab):
                   output = data_utils_tag.UNK_ID
@@ -448,8 +449,11 @@ def decode():
                 if str(prev) in ['equal','less','greater','neq','nl','ng']:
                   # Constraint 2: after 'equal' should be 'value'
                   output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
-                if output == data_utils_tag.EOS_ID:
-                  break
+                if output == 2: #data_utils_tag.EOS_ID:
+                  if i < len(logic_ids)-1:
+                    output = int(np.argmax(output_logits[i][:,3:], axis=1)) + 3
+                  else:
+                    break
                 pre_idx = output
                 if output >= len(rev_fr_vocab):
                   output = data_utils_tag.UNK_ID
