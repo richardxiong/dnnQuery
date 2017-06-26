@@ -1984,8 +1984,8 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
     if not feed_previous:
       decoder_cell = DropoutWrapper(decoder_cell, #core_rnn_cell_impl.
                                            input_keep_prob=0.85, 
-                                           output_keep_prob=0.6,
-                                           state_keep_prob=0.6,
+                                           output_keep_prob=0.7,
+                                           state_keep_prob=0.8,
                                            variational_recurrent=True,
                                            input_size=embedding_size,
                                            dtype=tf.float32
