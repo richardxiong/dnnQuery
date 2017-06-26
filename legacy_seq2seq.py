@@ -1738,6 +1738,9 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
     dtype = scope.dtype
     # Encoder.
     encoder_cell = copy.deepcopy(cell)
+    # Dropout.
+    if not feed_previous:
+      encoder_cell = core_rnn_cell.DropoutWrapper(encoder_cell, output_keep_prob=0.7)
     embedding_matrix_from = tf.Variable(embedding_matrix_from, trainable = True)
     embedding_matrix_to_pre = tf.Variable(embedding_matrix_to, trainable = False)  # decoder vocab vectors could be trained
     # tag part of the variable
