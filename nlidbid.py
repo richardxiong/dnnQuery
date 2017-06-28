@@ -48,7 +48,8 @@ conventions:
 end of it
 '''
 #==================================================================================
-
+subset = 'restaurants'
+    
 tf.app.flags.DEFINE_float("learning_rate", 0.05 * 0.007, "Learning rate.")
 tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.96,
                           "Learning rate decays by this much.")
@@ -60,8 +61,8 @@ tf.app.flags.DEFINE_integer("size", 1024, "Size of each model layer.")
 tf.app.flags.DEFINE_integer("num_layers", 2, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("from_vocab_size", 1500, "English vocabulary size.")
 tf.app.flags.DEFINE_integer("to_vocab_size", 150, "French vocabulary size.")
-tf.app.flags.DEFINE_string("data_dir", "./Overnight/except_socialnetwork", "Data directory")
-tf.app.flags.DEFINE_string("train_dir", "./in_social", "Training directory.")
+tf.app.flags.DEFINE_string("data_dir", "./Overnight/except_%s" % subset, "Data directory")
+tf.app.flags.DEFINE_string("train_dir", "./in_%s" % subset, "Training directory.")
 tf.app.flags.DEFINE_string("from_train_data", None, "Training data.")
 tf.app.flags.DEFINE_string("to_train_data", None, "Training data.")
 tf.app.flags.DEFINE_string("from_dev_data", None, "Training data.")
@@ -296,7 +297,6 @@ def decode():
             tables = json.load(testTables)
         answerOutput = open(FLAGS.test_dir + '/answer.out', 'w')
 
-    subset = 'socialnetwork'
     # trainQuestionFile = FLAGS.data_dir + '/rand_train.qu'
     # trainTagFile = FLAGS.data_dir + '/rand_train.ta'   # For tagging model, Hongyu
     # devQuestionFile = FLAGS.data_dir + '/rand_dev.qu'
