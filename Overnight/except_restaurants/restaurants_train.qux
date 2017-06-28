@@ -3,7 +3,7 @@ what <field>:0 is served by the fewest <field>:1
 list all restaurants that are either <value>:0 or <value>:0
 <field>:0 whose <field>:1 is <value>:1 and that is good for <field>:2
 what <field>:0 a <field>:1 greater than or equal to the <value>:0
-what <field>:0 have <field>:1 that serve outdoors
+what <field>:0 have <field>:1 that serve <field>:2
 what <field>:0 options are there among the <field>:2 <field>:1
 which <value>:2 <field>:2 rated <field>:0 has <field>:1
 the <value>:2 <field>:2 <field>:0 is good for <field>:1
@@ -26,7 +26,7 @@ which <field>:0 does a <value>:1 not serve
 what <field>:0 serves two <field>:1
 how many <field>:0 are there total
 list all <field>:0 that have <field>:1 and <field>:2
-a fairly inexpensive <value>:1 <field>:1 can be purchased at this <field>:0
+a fairly <field>:2 <value>:1 <field>:1 can be purchased at this <field>:0
 <value>:2 <field>:0 rated <value>:1 <field>:1
 which <field>:0 have a <value>:1 <field>:1 and <value>:2 <field>:2 <field>:2
 what <field>:0 is good for <field>:1
@@ -50,7 +50,7 @@ what <field>:0 have <field>:1 and accept <field>:2
 <field>:0 whose <field>:1 is <value>:1 <field>:1 signs and that is good for <field>:2
 <field>:0 with a <field>:1 higher than <value>:1 <field>:1 signs
 what <field>:0 is good for <field>:2 and offers <field>:1
-the <field>:0 that is midtown serves <value>:1 food
+the <field>:0 that is <value>:2 serves <value>:1 food
 what <field>:0 offer <field>:1
 list all <value>:1 <field>:1 rated <value>:2 <field>:0
 what <field>:0 offers <field>:2 and <field>:1
@@ -137,7 +137,7 @@ what <value>:1 <field>:1 rated <field>:0 has a <field>:2 of <value>:2 <field>:2 
 <field>:0 with at least a <value>:1 <field>:1 <field>:1
 what is the <field>:0 of the restaurant
 <field>:0 that is <field>:0 of <field>:1 that is good for <field>:2
-list all <field>:0 that are more expensive than <value>:1 <field>:1 signs
+list all <field>:0 that are more <field>:1 than <value>:1 <field>:1 signs
 what <field>:0 is good for <field>:1 and takes <field>:2
 <field>:0 that take <field>:1 and serve <value>:2
 what <value>:1 <field>:1 <field>:0 <field>:2
@@ -179,7 +179,7 @@ what restaurants have at least <value>:0 or <value>:0 <field>:0
 <field>:0 with <field>:1 and <field>:2 dining areas
 what <field>:0 in <value>:1 has a rating of <value>:2 <field>:2 signs
 what kind of <field>:0 do <field>:1 with <field>:2 serve
-most expensive <field>:0
+most <field>:1 <field>:0
 what <field>:0 has two or less <field>:1
 <field>:0 that serves <value>:1
 <field>:0 whose <field>:1 is <value>:1 <field>:1 and that is good for <field>:2
@@ -202,13 +202,13 @@ find all <value>:0 <field>:1
 find a <field>:0 with a <field>:1 equal or less than the <value>:0
 <field>:0 with <field>:2 that have a <field>:1 of <value>:1
 what is a <value>:2 <field>:2 <field>:0 that is kid friendly
-<field>:0 that are more expensive than <value>:0
+<field>:0 that are more <field>:1 than <value>:0
 <field>:1 that has <field>:2 services
 <value>:2 <field>:2 signed rated <field>:0 for <field>:1
 <field>:0 rated <value>:1 <field>:1
 what <field>:0 is open for <value>:2 and contains <field>:1
 <field>:0 that can be booked in advance which has a <field>:2 of <value>:2 <field>:2 signs
-which <value>:2 <field>:0 has a 2dollarsign rating
+which <value>:2 <field>:0 has a <value>:1 <field>:1 rating
 which <field>:0 offers <field>:1 services
 which <field>:0 have <field>:1 and accept <field>:2
 <field>:0 which has a minimum of <value>:1 <field>:1
@@ -301,7 +301,7 @@ what <field>:0 offers <value>:1 and <field>:2
 cheapest <field>:0
 <field>:0 that takes <field>:1 and whose <field>:2 is <value>:2 <field>:2 signs
 <field>:0 that have <field>:1 and are good for large parties
-which <field>:0 in <value>:2 has a <field>:1
+which <field>:0 in <value>:2 has a <value>:1 <field>:1
 what is a <field>:0 served by a <field>:1 that accommodates <field>:2
 <field>:0 that take <field>:1 and <field>:2
 what <field>:0 options are there among <field>:2 friendly <field>:1
@@ -326,7 +326,7 @@ what is a <field>:0 served by no more than two <field>:1
 <field>:0 whose <field>:1 is at most <field>:1 of <value>:0
 what are some <field>:0 rated at most <value>:1 <field>:1 signs
 which <field>:0 serve <value>:1 and are good for <field>:2
-<value>:1 <field>:0 with <field>:2
+<value>:1 <field>:0 with <value>:2 <field>:2
 what kind of <field>:0 serves the same food as <value>:0
 <field>:0 with <field>:1 and <field>:2
 what <field>:0 is served at a <field>:1 with <field>:2
@@ -354,7 +354,7 @@ find a <value>:1 <field>:0
 what is a <field>:0 served by a <field>:1 that accepts <field>:2
 <field>:0 that has a larger <field>:1 than <value>:0
 <field>:0 in the <field>:2 around <value>:2 that offers <field>:1 services
-name athai <field>:0 or cafe
+name a <value>:1 <field>:0 or cafe
 <value>:2 <field>:2 rated <field>:0 that <field>:1
 what <field>:0 contain the most <field>:1 that have <field>:2
 <field>:0 not in the <value>:1 <field>:1
@@ -434,7 +434,7 @@ what <field>:0 has the least amount of <field>:1
 what is the <field>:0 of <value>:1
 <field>:0 that serves <value>:1 in <value>:2
 <field>:1 is avaiable
-<field>:0 that accept <field>:1 and serve outdoors
+<field>:0 that accept <field>:1 and serve <field>:2
 <value>:2 <field>:0 rated <value>:1 <field>:1 signs
 <field>:0 like that of <value>:1
 <field>:1 that have <field>:2
@@ -461,7 +461,7 @@ find a <field>:0 i can get <field>:1 at that has a <value>:2 <field>:2 <field>:2
 what <field>:0 offers <value>:2 and <field>:1
 <field>:0 with <value>:2 <field>:2 that is <field>:1
 <field>:0 with <value>:1 <field>:1 sign rating
-which <field>:0 is not where that cafe is located
+which <field>:0 is not where <value>:1 is located
 what is a <value>:2 <field>:2 <field>:0 that serves <value>:1
 <field>:0 rated <value>:1 <field>:1 with <field>:2
 <field>:0 in the <field>:1 that contain <value>:0
@@ -558,7 +558,7 @@ what <field>:0 has less than <value>:1 <field>:1
 <field>:0 in <value>:2 that is good for <field>:1
 <field>:0 that offers <value>:2 and best for <field>:1 dining
 <field>:0 whose <field>:1 is <value>:1 and that has <field>:2
-what is the most expensive <field>:0
+what is the most <field>:1 <field>:0
 what is the <field>:0 that does not serve <value>:1
 <field>:0 that has <field>:1 and that has <field>:2
 <field>:0 serving <value>:2 that accept <field>:1
@@ -623,7 +623,7 @@ what <field>:0 has <field>:2 and a <value>:1 <field>:1 <field>:1
 find a <value>:1 or <value>:1 <field>:0
 what <value>:2 <field>:0 offers <field>:1
 what <field>:0 serves <value>:1 and offers <field>:2
-a <value>:1 <field>:0 in the midtown <field>:2
+a <value>:1 <field>:0 in the <value>:2 <field>:2
 <field>:0 whose <field>:1 is <field>:1 of <value>:0
 <field>:0 for <value>:1 rated <value>:2 <field>:2 signs
 <field>:1 <field>:0
@@ -691,7 +691,7 @@ what <field>:0 <field>:2 that serve food good for <field>:1
 <field>:0 location
 <field>:0 at least with a <value>:1 <field>:1 <field>:1
 a <field>:2 friendly <field>:0 that is medium priced
-which 3star <field>:0 has <field>:2 service
+which <value>:1 <field>:1 <field>:0 has <field>:2 service
 what <field>:0 has the most <field>:1 that are good for <field>:2
 what is a <field>:0 served by a <field>:1 that accepts <field>:2
 which <field>:0 have <field>:2 and offer <field>:1
@@ -714,7 +714,7 @@ what <field>:0 is the <value>:1 in
 what <field>:0 does the <field>:1 with <field>:2 have
 <field>:0 that has <field>:1 and whose <field>:2 is <value>:2 <field>:2 signs
 what <field>:0 take <field>:1 and have <field>:2
-what 3star <field>:0 also have <field>:2
+what <value>:1 <field>:1 <field>:0 also have <field>:2
 find a <value>:1 or fewer <field>:1 <field>:0
 <field>:0 open for <value>:2 that take <field>:1
 what <field>:0 offer <field>:2 and <field>:1
@@ -762,7 +762,7 @@ what good <field>:1 <field>:0 serve <value>:2 <field>:2
 which <field>:0 are rated the same or below <value>:0
 what <value>:1 <field>:0 takes <field>:2
 what <field>:0 contains <field>:1 that accept <field>:2
-<field>:0 that are <field>:2 friendly and inexpensive
+<field>:0 that are <field>:2 friendly and <field>:1
 what is the type of <field>:1 of <value>:0
 this <field>:0 has the most amount of <field>:1
 <field>:0 that is <field>:0 of <field>:1 whose <field>:2 is <value>:2 <field>:2 signs
@@ -778,7 +778,7 @@ which <field>:0 is the most highly rated
 in which <field>:0 is <value>:1
 what <field>:0 is not in <value>:1
 what <field>:0 are in <value>:1
-a <field>:0 in west midtown or <value>:1
+a <field>:0 in west <value>:1 or <value>:1
 which <field>:0 have the same <field>:1 as <value>:0
 <field>:0 whose <field>:1 is <value>:1 and that has <field>:2
 <value>:1 <field>:0 with <field>:2
@@ -810,7 +810,7 @@ a <field>:2 <field>:0 with meduim
 what <field>:0 is served by fewer than two <field>:1
 <field>:0 whose <field>:1 is <value>:1 <field>:1 and that takes <field>:2
 <field>:0 that serves <value>:1 and takes <field>:2
-<value>:2 <field>:0 that are inexpensive
+<value>:2 <field>:0 that are <field>:1
 <field>:0 with <field>:1 and <field>:2
 <field>:1 that serve good <field>:0 for <field>:2
 which <field>:0 accepts <field>:1 and offers <field>:2
@@ -828,7 +828,7 @@ what <field>:0 is <field>:1 friendly and takes a <field>:2
 <field>:0 with <field>:1 that offer <field>:2
 <field>:0 that has at least <value>:1 <field>:1
 <field>:0 in the <value>:2 <field>:2 which has <field>:1 facilities
-<field>:0 with <field>:1 that have <field>:2
+<field>:0 with <value>:1 <field>:1 that have <field>:2
 <field>:0 that not serves <value>:1
 which <field>:0 with <value>:1 <field>:1 takes <field>:2
 what <field>:0 are <field>:2 friendly and have <field>:1
@@ -846,7 +846,7 @@ a <field>:0 that is <field>:1 friendly
 whats a <field>:0 thats good for <field>:1 and has <field>:2
 list all <field>:0 in the <field>:1 of <value>:1
 what is a type of <field>:0 of two <field>:1
-<field>:0 with 3stars that take <field>:1
+<field>:0 with <value>:2 <field>:2 that take <field>:1
 which <field>:0 have a <field>:1 of at most <value>:1 or <value>:1 <field>:1 signs
 which <field>:0 is good for a <field>:1 of people and also serves <value>:2
 list <value>:2 <field>:2 <field>:1 by <field>:0
@@ -884,7 +884,7 @@ what are some <value>:1 <field>:1 <field>:0 that serve <value>:2
 which <field>:0 chain is found in the fewest <field>:1
 <field>:0 that is at least <value>:2 <field>:2 and <field>:1 friendly
 <field>:0 whose <field>:1 is <value>:1 <field>:1 signs and that has <field>:2
-<field>:0 which has a <field>:1 of more than 2dollar or <value>:1 <field>:1 signs
+<field>:0 which has a <field>:1 of more than <value>:1 <field>:1 or <value>:1 <field>:1 signs
 what <value>:2 <field>:2 <field>:0 has <field>:1
 what <field>:0 contains <field>:1 that offer <value>:2
 <value>:2 <field>:0 that offers <field>:1
@@ -963,7 +963,7 @@ what <field>:0 has a <field>:1 the same as <value>:0
 which <field>:0 have <field>:2 and are <field>:1 friendly
 what <field>:0 have the most <value>:2 <field>:2 rated <field>:1
 what <field>:0 offer <field>:1 and serves <value>:2
-which <field>:0 is rated the most expensive
+which <field>:0 is rated the most <field>:1
 what <field>:0 takes <field>:1
 <field>:0 with <field>:1 that has a <value>:2 <field>:2 sign rating
 <field>:0 with the most locations in the <field>:1
@@ -1206,7 +1206,7 @@ what kind fo <field>:0 do <value>:1 and <value>:1 serve
 <field>:0 that takes <field>:1 and that takes <field>:2
 <field>:0 that cheaper than <value>:0
 what <field>:0 do <field>:2 taking <field>:1 serve
-what <field>:0 can i eat <value>:1 outdoors at
+what <field>:0 can i eat <value>:1 <field>:2 at
 <field>:0 whose <field>:1 is <value>:1 <field>:1 and that has <field>:2
 affordable <field>:0 with <field>:2
 <field>:0 that are <field>:1 friendly

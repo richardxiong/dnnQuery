@@ -3,7 +3,7 @@
 <field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
 <field>:0 where <field>:1 equal true
-<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 5
+<field>:0 where <field>:1 greater <value>:1
 <field>:0 where <field>:1 equal <field>:1 where <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
@@ -93,7 +93,7 @@ avg <field>:0
 <field>:0 where <field>:1 equal true and <field>:2 equal thai
 <field>:0 where <field>:1 where <field>:2 equal true
 <field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
-<field>:0 where <field>:1 equal 3 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal true and <field>:2 equal true
 <field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1
@@ -215,7 +215,7 @@ avg <field>:0
 <field>:0 equal <value>:0 or <field>:0 equal <value>:0
 <field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
-<field>:0 where <field>:1 ng 2
+<field>:0 where <field>:1 ng <value>:1
 <field>:0 where <field>:1 equal <field>:1 where <field>:2 equal true
 <field>:0 where <field>:1 equal true and <field>:2 equal true
 <field>:0 where <field>:1 equal true and <field>:1 equal true
@@ -278,7 +278,7 @@ avg <field>:0
 <field>:0 where <field>:1 equal true and <field>:2 equal true
 <field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
 <field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
-<field>:0 where <field>:1 less 2 or <field>:1 less 3
+<field>:0 where <field>:1 equal <value>:1
 <field>:0 argmin count <field>:1
 <field>:0 where <field>:1 equal true and <field>:2 equal true
 <field>:0 argmin count <field>:1
@@ -302,7 +302,7 @@ count <field>:0
 <field>:0 where <field>:1 equal true and <field>:2 equal true
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
-<field>:0 where <field>:1 equal 3 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
 <field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
 <field>:0 where equal <field>:0 where count <field>:1 ng two
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
@@ -312,7 +312,7 @@ count <field>:0
 <field>:0 where count <field>:1 ng two
 <field>:0 where <field>:1 equal true and <field>:2 equal true
 <field>:0 where <field>:1 equal true and <field>:2 equal true
-<field>:0 equal 3 or <field>:0 equal 5
+<field>:0 equal 3 or <field>:0 equal <value>:0
 <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
 <field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
 count <field>:0

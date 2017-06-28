@@ -50,7 +50,7 @@ what restaurants have outdoor_seating and accept credit_cards
 restaurant whose price_rating is 2 dollar signs and that is good for kids
 restaurants with a price_rating higher than 3 dollar signs
 what restaurant is good for kids and offers outdoor_seating
-the restaurant that is midtown serves thai food
+the restaurant that is midtown_west serves thai food
 what restaurants offer waiter_service
 list all 3 star rated thai restaurants
 what restaurant offers outdoor_seating and takeout
@@ -208,7 +208,7 @@ restaurant that has delivery services
 restaurants rated 3 stars
 what restaurant is open for lunch and contains outdoor_seating
 hotel that can be booked in advance which has a price_rating of 2 dollar signs
-which thai restaurant has a 2dollarsign rating
+which thai restaurant has a 2 dollarsign rating
 which hotel offers delivery services
 which restaurants have takeout and accept credit_cards
 hotel which has a minimum of 3 star_rating
@@ -301,7 +301,7 @@ restaurant whose price_rating is 2 dollar signs and that takes credit_cards
 cheapest restaurants
 restaurant that takes credit_cards and whose price_rating is 2 dollar signs
 restaurants that have outdoor_seating and are good for large parties
-which restaurant in midtown_west has a 3star_rating
+which restaurant in midtown_west has a 3 star_rating
 what is a meal served by a restaurant that accommodates groups
 restaurants that take credit_cards and reservations
 what cuisine options are there among group friendly restaurants
@@ -326,7 +326,7 @@ what is a meal served by no more than two restaurants
 restaurant whose star_rating is at most star_rating of thai_cafe
 what are some restaurants rated at most 3 dollar signs
 which resturants serve lunch and are good for groups
-thai restaurants with 3star_ratings
+thai restaurants with 3 star_ratings
 what kind of restaurant serves the same food as thai_cafe
 restaurants with waiter_service and outdoor_seating
 what meal is served at a restaurant with outdoor_seating
@@ -354,7 +354,7 @@ restaurants with outdoor_seating that takes reservations
 what is a meal served by a restaurant that accepts reservations
 restaurants that has a larger price_rating than thai_cafe
 restaurant in the  area around midtown_west that offers delivery services
-name athai restaurant or cafe
+name a thai restaurant or cafe
 3 star rated restaurants that deliver
 what neighborhood contain the most restaurants that have waiter_service
 restaurant not in the midtown_west area
@@ -461,7 +461,7 @@ find a restaurant i can get reservations at that has a 2 dollar price_rating
 what restaurant offers lunch and takeout
 restaurants with 2 price_rating that is groupfriendly
 restaurants with 2 dollar sign rating
-which neighborhood is not where that cafe is located
+which neighborhood is not where thai_cafe is located
 what is a 3 star restaurant that serves lunch
 restaurants rated 3 stars with outdoor_seating
 restaurants in the neighborhoods that contain thai_cafe
@@ -623,7 +623,7 @@ what restaurant has takeout and a 2 dollar price_rating
 find a thai or italian restaurant
 what thai restaurant offers delivery
 what restaurant serves lunch and offers takeout
-a thai restaurant in the midtown neighborhood
+a thai restaurant in the midtown_west neighborhood
 restaurant whose price_rating is price_rating of thai_cafe
 restaurant for lunch rated 2 dollar signs
 groupfriendly restaurants
@@ -691,7 +691,7 @@ meal not served by thai_cafe
 restaurants location
 restaurants at least with a 2 dollar price_rating
 a group friendly restaurant that is medium priced
-which 3star restaurant has takeout service
+which 3 star restaurant has takeout service
 what neighborhood has the most restaurants that are good for groups
 what is a meal served by a restaurant that accepts credit_cards
 which restaurants have waiters and offer takeout
@@ -714,7 +714,7 @@ restaurant that delivers and offers outside seating
 what cuisine does the restaurant with reservations have
 restaurant that has outdoor_seating and whose price_rating is 2 dollar signs
 what resturants take credit_cards and have outdoor_seating
-what 3star restaurants also have waiters
+what 3 star restaurants also have waiters
 find a 3 or fewer star restaurant
 restaurants open for lunch that take credit_cards
 what restaurants offer waiter_service and takeout
@@ -778,7 +778,7 @@ which restaurant is the most highly rated
 in which neighborhood is thai_cafe
 what resturant is not in midtown_west
 what restaurants are in midtown_west
-a restaurant in west midtown or chelsea
+a restaurant in west midtown_west or chelsea
 which restaurants have the same star_rating as thai_cafe
 restaurant whose cuisine is thai and that has delivery
 thai restaurant with waiters
@@ -828,7 +828,7 @@ restaurants with a 2 dollar price_rating
 restaurants with waiters that offer takeout
 restaurant that has at least 3 star_rating
 hotel in the midtown_west area which has outdoor_seating facilities
-restaurants with 3star_ratings that have waiters
+restaurants with 3 star_ratings that have waiters
 restaurant that not serves lunch
 which restaurants with 3 stars takes reservations
 what restauarants are kid friendly and have takeout
@@ -846,7 +846,7 @@ a restaurant that is group friendly
 whats a resturant thats good for groups and has waiter_service
 list all restaurants in the neighborhood of midtown_west
 what is a type of cuisine of two restaurants
-restaurants with 3stars that take reservations
+restaurants with 3 stars that take reservations
 which resturants have a price_rating of at most 2 or 3 dollar signs
 which restaurant is good for a group of people and also serves lunch
 list 3 star restaurants by neighborhood
@@ -884,7 +884,7 @@ what are some 3 star restaurants that serve lunch
 which restaurant chain is found in the fewest neighborhoods
 restaurant that is at least 3 stars and kid friendly
 restaurant whose price_rating is 2 dollar signs and that has waiter_service
-hotel which has a price_rating of more than 2dollar or 3 dollar signs
+hotel which has a price_rating of more than 2 dollar or 3 dollar signs
 what 3 star restaurant has delivery
 what neighborhood contains restaurants that offer lunch
 thai restaurant that offers waiter_services

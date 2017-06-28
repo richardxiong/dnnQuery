@@ -7,7 +7,7 @@ neighborhood where restaurant equal restaurant where outdoor_seating equal true
 cuisine where restaurant equal restaurant where kids equal true
 restaurant where outdoor_seating equal true and star_rating equal 3
 restaurant where kids equal true and star_rating equal 3
-restaurant where price_rating ng 2 or price_rating ng 3
+restaurant where price_rating ng 3
 restaurant where neighborhood equal midtown_west and cuisine equal thai
 restaurant where cuisine equal thai and takeout equal true
 restaurant where neighborhood equal midtown_west and delivery equal true
@@ -48,7 +48,7 @@ restaurant where credit_cards equal true and kids equal true
 star_rating where restaurant equal thai_cafe
 restaurant where outdoor_seating equal true and credit_cards equal true
 restaurant where price_rating equal 2 and kids equal true
-restaurant where price_rating greater 2 or price_rating greater 3
+restaurant where price_rating greater 3
 restaurant where outdoor_seating equal true and kids equal true
 restaurant where cuisine equal thai and neighborhood equal midtown_west
 restaurant where waiter_service equal true
@@ -144,7 +144,7 @@ restaurant where star_rating equal 3 and delivery equal true
 restaurant where star_rating equal 3 and waiter_service equal true
 restaurant where groups equal true and delivery equal true
 restaurant argmax count cuisine
-restaurant where not meal equal lunch
+restaurant where meal neq lunch
 restaurant where reservations equal true and meal equal lunch
 restaurant where count meal ng two
 meal where restaurant where groups equal true
@@ -193,7 +193,7 @@ count neighborhood
 restaurant where cuisine equal cuisine where restaurant equal thai_cafe
 restaurant where neighborhood equal midtown_west and cuisine equal thai
 restaurant where kids equal true and takeout equal true
-restaurant where price_rating equal 2 or rice_rating equal 3
+restaurant where price_rating equal 2 or price_rating equal 3
 restaurant where star_rating equal star_rating where restaurant equal thai_cafe
 restaurant where count meal equal two
 cuisine argmax count restaurant
@@ -275,7 +275,7 @@ cuisine where restaurant equal restaurant where reservations equal true
 restaurant where neighborhood equal midtown_west or neighborhood equal chelsea
 restaurant where price_rating equal price_rating where restaurant equal thai_cafe
 restaurant where count cuisine less two
-restaurant where price_rating greater 2 or price_rating greater 3
+restaurant where price_rating greater 3
 restaurant where star_rating equal 3 and delivery equal true
 avg star_rating
 cuisine where restaurant equal restaurant where waiter_service equal true
@@ -324,7 +324,7 @@ cuisine where restaurant equal restaurant where waiter_service equal true
 restaurant argmin star_rating
 meal where count restaurant ng two
 restaurant where star_rating ng star_rating where restaurant equal thai_cafe
-restaurant where price_rating less 2 or price_rating less 3
+restaurant where price_rating less 3
 restaurant where meal equal lunch and groups equal true
 restaurant where cuisine equal thai and star_rating equal 3
 restaurant where meal equal meal where restaurant equal thai_cafe
@@ -367,7 +367,7 @@ cuisine where equal cuisine where count restaurant ng two
 restaurant where reservations equal true and star_rating equal 3
 neighborhood where restaurant equal restaurant where cuisine equal thai
 count meal
-restaurant where price_rating equal 2 or rice_rating equal 3
+restaurant where price_rating equal 2 or price_rating equal 3
 restaurant where price_rating ng 2
 restaurant where waiter_service equal true and kids equal true
 count restaurant
@@ -559,7 +559,7 @@ restaurant where groups equal true and neighborhood equal midtown_west
 restaurant where groups equal true and meal equal lunch
 restaurant where neighborhood equal midtown_west and takeout equal true
 restaurant argmax price_rating
-restaurant where not meal equal lunch
+restaurant where meal neq lunch
 restaurant where takeout equal true and waiter_service equal true
 restaurant where reservations equal true and meal equal lunch
 restaurant where neighborhood equal midtown_west and outdoor_seating equal true
@@ -829,7 +829,7 @@ restaurant where waiter_service equal true and takeout equal true
 restaurant where star_rating nl 3
 restaurant where outdoor_seating equal true and neighborhood equal midtown_west
 restaurant where star_rating equal 3 and waiter_service equal true
-restaurant where not meal equal lunch
+restaurant where meal neq lunch
 restaurant where star_rating equal 3 and reservations equal true
 restaurant where takeout equal true and kids equal true
 neighborhood where restaurant equal restaurant where cuisine equal thai
@@ -872,7 +872,7 @@ restaurant where price_rating equal price_rating where restaurant equal thai_caf
 restaurant where star_rating greater 3
 restaurant where takeout equal true and meal equal lunch
 meal where restaurant where reservations equal true
-restaurant where price_rating equal 2 or rice_rating equal 3
+restaurant where price_rating equal 2 or price_rating equal 3
 count price_rating
 neighborhood where restaurant equal thai_cafe or where restaurant pizzeria_juno
 restaurant where groups equal true and takeout equal true
@@ -884,7 +884,7 @@ restaurant where star_rating equal 3 and meal equal lunch
 restaurant argmin count neighborhood
 restaurant where kids equal true and star_rating equal 3
 restaurant where price_rating equal 2 and waiter_service equal true
-restaurant where price_rating greater 2 or price_rating greater 3
+restaurant where price_rating greater 3
 restaurant where delivery equal true and star_rating equal 3
 neighborhood where restaurant equal restaurant where meal equal lunch
 restaurant where waiter_service equal true and cuisine equal thai
@@ -892,7 +892,7 @@ restaurant argmin count neighborhood
 restaurant where meal equal lunch and credit_cards equal true
 restaurant where delivery equal true and kids equal true
 restaurant where delivery equal true and groups equal true
-restaurant where price_rating equal 2 or rice_rating equal 3
+restaurant where price_rating equal 2 or price_rating equal 3
 restaurant where takeout equal true and reservations equal true
 restaurant where star_rating ng star_rating where restaurant equal thai_cafe
 restaurant where takeout equal true and takeout equal true
@@ -1074,13 +1074,13 @@ restaurant where takeout equal true and outdoor_seating equal true
 restaurant where delivery equal true and reservations equal true
 meal where restaurant where waiter_service equal true
 restaurant where star_rating less 3 or star_rating less 5
-restaurant where not meal equal lunch
+restaurant where meal neq lunch
 neighborhood where restaurant equal thai_cafe or where restaurant pizzeria_juno
 restaurant where groups equal true and credit_cards equal true
 neighborhood where restaurant equal restaurant where reservations equal true
 meal argmin count restaurant
 restaurant where star_rating ng 3 or star_rating ng 5
-restaurant where price_rating equal 2 or rice_rating equal 3
+restaurant where price_rating equal 2 or price_rating equal 3
 neighborhood where restaurant equal restaurant where takeout equal true
 restaurant where meal equal lunch and credit_cards equal true
 restaurant where star_rating nl 3
@@ -1138,7 +1138,7 @@ restaurant where cuisine equal thai and groups equal true
 meal where restaurant where neighborhood equal midtown_west
 restaurant where price_rating equal 2 and meal equal lunch
 cuisine where restaurant equal thai_cafe
-restaurant where not meal equal lunch
+restaurant where meal neq lunch
 neighborhood where count restaurant greater two
 restaurant where price_rating less 2
 neighborhood where count restaurant greater two
@@ -1181,7 +1181,7 @@ restaurant where cuisine equal thai and star_rating equal 3
 restaurant where waiter_service equal true and meal equal lunch
 neighborhood where restaurant equal restaurant where neighborhood equal midtown_west
 cuisine where restaurant equal thai_cafe
-restaurant where price_rating ng 2 or price_rating ng 3
+restaurant where price_rating ng 3
 meal where count restaurant equal two
 restaurant where reservations equal true and outdoor_seating equal true
 restaurant where price_rating equal 2 and kids equal true
@@ -1225,7 +1225,7 @@ restaurant where delivery equal true and credit_cards equal true
 restaurant where neighborhood equal midtown_west
 restaurant where outdoor_seating equal true and price_rating equal 2
 cuisine where count restaurant greater two
-restaurant where price_rating equal 2 or rice_rating equal 3
+restaurant where price_rating equal 2 or price_rating equal 3
 cuisine where restaurant equal thai_cafe
 avg star_rating
 restaurant where groups equal true and waiter_service equal true

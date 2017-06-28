@@ -3,7 +3,7 @@ restaurant where outdoor_seating equal true and reservations equal true
 restaurant where credit_cards equal true and meal equal lunch
 restaurant where star_rating equal 3 and waiter_service equal true
 restaurant where outdoor_seating equal true
-restaurant where star_rating greater 3 or star_rating greater 5
+restaurant where star_rating greater 3
 cuisine where restaurant equal restaurant where meal equal lunch
 restaurant where price_rating equal 2 and outdoor_seating equal true
 restaurant where price_rating equal 2 and waiter_service equal true
@@ -278,7 +278,7 @@ restaurant where star_rating equal 3 and takeout equal true
 restaurant where outdoor_seating equal true and groups equal true
 restaurant where credit_cards equal true and neighborhood equal midtown_west
 restaurant where star_rating nl star_rating where restaurant equal thai_cafe
-restaurant where price_rating less 2 or price_rating less 3
+restaurant where price_rating equal 1
 restaurant argmin count meal
 restaurant where takeout equal true and delivery equal true
 restaurant argmin count cuisine

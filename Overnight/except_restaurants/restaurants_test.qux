@@ -93,7 +93,7 @@ which <value>:2 <field>:2 <field>:0 are good for <field>:1
 what thia <field>:0 have <field>:1
 <field>:1 that serves good <field>:0 for <field>:2
 <field>:0 in the <field>:2 of <value>:2 which is good for <field>:1 dining
-what 3star <field>:0 are located in <value>:2
+what <value>:1 <field>:1 <field>:0 are located in <value>:2
 <field>:0 that has room for <field>:1 and also takes <field>:2
 <field>:0 in <value>:2 that take <field>:1
 a <value>:1 <field>:1 <field>:0
@@ -134,7 +134,7 @@ which <field>:0 has <value>:1 <field>:1
 the most common <field>:1 <field>:0
 <field>:0 that can be booked in advance and has <field>:1 facilities
 <field>:0 with the same or less <field>:1 as the <value>:0
-<field>:0 rated least expensive
+<field>:0 rated least <field>:1
 what <value>:2 <field>:2 rated <field>:0 takes <field>:1
 which <field>:0 <field>:1 takes <field>:2
 <field>:1 in <value>:2 <field>:2
@@ -150,12 +150,12 @@ what <value>:2 <field>:2 <field>:0 has <field>:1
 list all <field>:0 that are cheaper than <value>:1 <field>:1 signs
 <field>:0 that have <field>:1 and <field>:2
 more that three <field>:1 in <field>:0
-<field>:0 that serve outdoors with <field>:2
+<field>:0 that serve <field>:1 with <field>:2
 what <field>:0 have at least two <field>:1
 <field>:1 with food of two cultures
 <field>:0 that are good for <field>:2 and also have a <field>:1 of <value>:1 <field>:1 signs
 what <value>:1 <field>:0 offers <field>:2
-the <field>:0 with <field>:1 food is fairly inexpensive
+the <field>:0 with <field>:1 food is fairly <field>:2
 <field>:0 that can be <field>:1 in advance and that offers <field>:2 services
 which <field>:0 in <value>:2 have a <value>:1 <field>:1 signs <field>:1
 what <field>:0 serves multiple <field>:1
@@ -163,7 +163,7 @@ what <field>:0 serves multiple <field>:1
 what is the <field>:0 of the <value>:1
 <value>:1 <field>:0 for <field>:2
 what is a <field>:2 friendly <field>:0 with an <field>:1 dining area
-what <field>:0 with <value>:2 <field>:2 serve outdoors
+what <field>:0 with <value>:2 <field>:2 serve <field>:1
 <field>:0 that has a <value>:1 <field>:1 and which accepts <field>:2 catds
 <field>:0 with <value>:1 <field>:1 or <value>:1 <field>:1 rating
 <field>:0 whose <field>:1 is larger than <value>:1 <field>:1 signs
@@ -215,7 +215,7 @@ what type of dishes does the <value>:1 offer
 what restaurants serve <value>:0 or <value>:0
 <field>:0 that takes <field>:1 and that serves <value>:2
 what kind of <field>:1 offer <field>:2
-<field>:0 which had a maximum of 2dollar sign <field>:1
+<field>:0 which had a maximum of <value>:1 <field>:1 sign <field>:1
 what is the <field>:0 of <field>:1 that have <field>:2
 which <field>:0 are good places for <field>:1 and offer <field>:2
 <field>:0 that are <field>:1 friendly
@@ -302,7 +302,7 @@ what <field>:0 serve a single type of <field>:1
 what <field>:0 have <field>:2 and <field>:1
 <field>:0 located in <value>:1 that also serve <value>:2
 <field>:0 that have wait service and serve <value>:1
-which <field>:0 has <field>:2 and a <field>:1
+which <field>:0 has <field>:2 and a <value>:1 <field>:1
 <field>:0 that has <value>:1 <field>:1 rating
 what <field>:0 is served at two or less <field>:1
 which <field>:0 have <field>:1 of <value>:1 <field>:1 signs and <field>:2 of <value>:2 <field>:2
