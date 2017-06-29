@@ -381,15 +381,11 @@ def decode():
                 resultLogical.append(prev)
             if str(resultLogical[-1]) in ['equal','less','greater','neq','nl','ng']:
               resultLogical.append(resultLogical[-2])
-            # outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
-            # # If there is an EOS symbol in outputs, cut them at that point.
-            # if data_utils_tag.EOS_ID in outputs:
-            #   outputs = outputs[:outputs.index(data_utils_tag.EOS_ID)]
-            # for i in range(len(outputs)):
-            #   if outputs[i] >= len(rev_fr_vocab):
-            #     outputs[i] = data_utils_tag.UNK_ID
-            # Print out French sentence corresponding to outputs.
+            # Constraint 3, formats
             resultLogical = " ".join(resultLogical)
+            resultLogical = resultLogical.replace('<field>:1 equal <field>:1', '<field>:1')
+            resultLogical = resultLogical.replace('<value>:1 where <field>', '<value>:1 and <field>')
+            resultLogical = resultLogical.replace('and where', 'and')
             #resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
             if FLAGS.enable_table_test:
                 resultAnswer = logicalParser(tables[qid], resultLogical)
@@ -461,15 +457,11 @@ def decode():
                 resultLogical.append(prev)
             if str(resultLogical[-1]) in ['equal','less','greater','neq','nl','ng']:
               resultLogical.append(resultLogical[-2])
-            # outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
-            # # If there is an EOS symbol in outputs, cut them at that point.
-            # if data_utils_tag.EOS_ID in outputs:
-            #   outputs = outputs[:outputs.index(data_utils_tag.EOS_ID)]
-            # for i in range(len(outputs)):
-            #   if outputs[i] >= len(rev_fr_vocab):
-            #     outputs[i] = data_utils_tag.UNK_ID
-            # Print out French sentence corresponding to outputs.
+            # Constraint 3, formats
             resultLogical = " ".join(resultLogical)
+            resultLogical = resultLogical.replace('<field>:1 equal <field>:1', '<field>:1')
+            resultLogical = resultLogical.replace('<value>:1 where <field>', '<value>:1 and <field>')
+            resultLogical = resultLogical.replace('and where', 'and')
             #resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
             if FLAGS.enable_table_test:
                 resultAnswer = logicalParser(tables[qid], resultLogical)
