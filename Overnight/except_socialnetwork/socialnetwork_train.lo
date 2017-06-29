@@ -388,7 +388,7 @@ person where count friends less two
 relationship_status where job_title neq software_engineer
 person where friends equal alice and relationship_status equal single
 person where height equal 180 and employer equal mckinsey
-person where height equal 180 and where job_title equal software_engineer
+person where height equal 180 and job_title equal software_engineer
 person where end_date greater start_date where person equal alice
 person where online equal true and friends equal alice
 person where field_of_study equal computer_science or field_of_study equal history
@@ -650,7 +650,7 @@ person where height equal 180
 person where start_date greater end_date where person equal alice
 person where start_date greater end_date where person equal alice
 person where end_date neq 2004
-person where height equal 180 and where job_title equal software_engineer
+person where height equal 180 and job_title equal software_engineer
 person where end_date ng birthdate where person equal alice
 person where end_date nl birthdate where person equal alice
 friends where end_date nl 2004
@@ -1928,7 +1928,7 @@ person where count job_title ng two
 relationship_status where end_date greater 2004
 person where start_date greater 2004
 person where online equal true and height equal 180
-person where height equal 180 and where job_title equal software_engineer
+person where height equal 180 and job_title equal software_engineer
 friends where end_date ng 2004
 gender where relationship_status equal single
 person where end_date less 2004
@@ -2029,7 +2029,7 @@ friends where start_date ng 2004
 person where start_date greater birthdate where person equal alice
 person argmax start_date
 person where birthdate equal 2004 and birthplace equal new_york
-person where height equal 180 and where job_title equal software_engineer
+person where height equal 180 and job_title equal software_engineer
 person where friends neq alice
 person where end_date less birthdate where person equal alice
 person where start_date less start_date where person equal alice
@@ -2169,7 +2169,7 @@ gender argmax count person
 person where start_date ng end_date where person equal alice
 friends where end_date less 2004
 person where start_date less end_date where person equal alice
-person where height equal 180 and where job_title equal software_engineer
+person where height equal 180 and job_title equal software_engineer
 person where gender equal gender where height equal 180
 person where height less 180
 birthplace where start_date ng 2004
@@ -2693,7 +2693,7 @@ relationship_status where field_of_study neq computer_science
 relationship_status where count person less two
 friends where end_date less 2004
 university equal brown_university or university equal ucla
-person where height equal 180 and where job_title equal software_engineer
+person where height equal 180 and job_title equal software_engineer
 person where start_date greater birthdate where person equal alice
 friends where job_title neq software_engineer
 person where end_date nl end_date where person equal alice
@@ -2878,7 +2878,7 @@ person where height neq 180
 friends where start_date nl 2004
 relationship_status where count person less two
 person where end_date greater 2004 or end_date greater 2010
-person where height equal 180 and where job_title equal software_engineer
+person where height equal 180 and job_title equal software_engineer
 end_date where person equal alice where job_title equal software_engineer
 person where gender equal male and friends equal alice
 person where end_date ng end_date where person equal alice
@@ -3331,7 +3331,7 @@ person where end_date neq 2004
 birthplace argmin count person
 person where birthdate greater 2004 or birthdate greater 2010
 birthplace where field_of_study neq computer_science
-person where height equal 180 and where job_title equal software_engineer
+person where height equal 180 and job_title equal software_engineer
 person where birthdate equal 2004
 university equal brown_university or university equal ucla
 person where end_date ng end_date where person equal alice
@@ -3432,7 +3432,7 @@ person where height ng 180
 start_date where person equal alice where start_date equal 2004
 person where count employer ng two
 birthplace where end_date less 2004
-person where height equal 180 and where job_title equal software_engineer
+person where height equal 180 and job_title equal software_engineer
 person where online equal true and friends equal alice
 relationship_status where employer neq mckinsey
 person where height equal 180 and gender equal male
@@ -3453,7 +3453,7 @@ person where end_date nl start_date where person equal alice
 person where height equal 180 and birthplace equal new_york 
 person where birthdate less 2004
 person where count friends less two
-person where height equal 180 and where job_title equal software_engineer
+person where height equal 180 and job_title equal software_engineer
 relationship_status where end_date less 2004
 birthplace where start_date less 2004
 person where height equal 180 
