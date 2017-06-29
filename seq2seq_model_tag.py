@@ -304,7 +304,7 @@ class Seq2SeqModel(object):
       # Encoder inputs are padded and then reversed.
       encoder_pad = [data_utils_tag.PAD_ID] * (encoder_size - len(encoder_input))
       encoder_inputs.append(list(reversed(encoder_input + encoder_pad)))
-      tag_inputs.append(list(reversed(tag_input + encoder_pad)))
+      tag_inputs.append(list(reversed(tag_input[0:len(encoder_input)] + encoder_pad)))
 
       # Decoder inputs get an extra "GO" symbol, and are padded then.
       decoder_pad_size = decoder_size - len(decoder_input) - 1
