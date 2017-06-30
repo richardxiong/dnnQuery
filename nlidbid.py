@@ -48,7 +48,7 @@ conventions:
 end of it
 '''
 #==================================================================================
-subset = 'housing'
+subset = 'calendar'
     
 tf.app.flags.DEFINE_float("learning_rate", 0.05 * 0.007, "Learning rate.")
 tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.96,
@@ -103,7 +103,9 @@ FLAGS = tf.app.flags.FLAGS
 #_buckets = [(10, 7), (14, 9), (17, 15)]  # publications
 #_buckets = [(10, 7), (14, 10), (16, 13)]  # recipes
 #_buckets = [(10, 7), (13, 9), (16, 11)]  # restaurants
-_buckets = [(10, 7), (13, 9), (16, 11)]  # housing
+#_buckets = [(10, 7), (13, 9), (16, 11)]  # housing
+_buckets = [(10, 7), (13, 9), (16, 11)]  # calendar
+
 
 def read_data(source_path, target_path, tag_path, max_size=None):
   """Read data from source and target files and put into buckets.
