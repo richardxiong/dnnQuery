@@ -393,7 +393,7 @@ def decode():
               resultLogical.append(resultLogical[-2])
             # Constraint 3, formats
             resultLogical = " ".join(resultLogical)
-            resultLogical = resultLogical.replace('<field>:1 equal <field>:1', '<field>:1')
+            #resultLogical = resultLogical.replace('<field>:1 equal <field>:1', '<field>:1')
             resultLogical = resultLogical.replace('<value>:1 where <field>', '<value>:1 and <field>')
             resultLogical = resultLogical.replace('and where', 'and')
             #resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
