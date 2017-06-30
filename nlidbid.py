@@ -48,7 +48,7 @@ conventions:
 end of it
 '''
 #==================================================================================
-subset = 'socialnetwork'
+subset = 'blocks'
     
 tf.app.flags.DEFINE_float("learning_rate", 0.05 * 0.007, "Learning rate.")
 tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.96,

@@ -1,0 +1,2792 @@
+Socialnetwork Indomain
+
+wrong examples: 4
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 8
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 9
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 11
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 16
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1 and <field>:1 less <value>:1
+wrong examples: 19
+<field>:0 argmax count <field>:1
+<field>:0 argmin count <field>:1
+wrong examples: 21
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <field>:0
+wrong examples: 30
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two <field>:0
+wrong examples: 31
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 32
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 34
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 36
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 49
+<field>:0 where count <field>:1 less than two
+<field>:0 where count <field>:1 less two
+wrong examples: 53
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 61
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 62
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 63
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 64
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+wrong examples: 71
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 73
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 75
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 80
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 82
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 83
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 88
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 89
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 ng <field>:1
+wrong examples: 91
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 96
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 105
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 106
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 110
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 111
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 112
+<field>:0 where <field>:1 ng 2004
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 116
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 120
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 121
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 122
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 single <field>:0 equal <field>:0
+wrong examples: 128
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 130
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 131
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 132
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 137
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 142
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 144
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 146
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:2 equal <value>:2
+wrong examples: 147
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 157
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+wrong examples: 160
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 163
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+wrong examples: 165
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0
+wrong examples: 167
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 176
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+wrong examples: 186
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 187
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 190
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 196
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 197
+<field>:0 where <field>:1 equal single
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 205
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 206
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 207
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <value>:2 equal <value>:2
+wrong examples: 209
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 210
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 216
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 220
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 224
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 226
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 231
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+wrong examples: 233
+<field>:0 where count <field>:1 less two
+<field>:0 argmax <field>:1 where <field>:1
+wrong examples: 237
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 245
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 249
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 251
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 253
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal 200
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+wrong examples: 259
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 265
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+wrong examples: 268
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 269
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+wrong examples: 272
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 278
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 295
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 299
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 302
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 307
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 equal <value>:1
+wrong examples: 311
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 313
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 318
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+wrong examples: 319
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 322
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 327
+<field>:0 argmax count <field>:1
+<field>:0 where count <field>:1 greater two
+wrong examples: 330
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 333
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 334
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1 or <field>:1 neq <value>:1
+wrong examples: 335
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 337
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+wrong examples: 338
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 340
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+wrong examples: 344
+<field>:0 where count <field>:1 greater two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 347
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 354
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+wrong examples: 357
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 365
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+wrong examples: 368
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+wrong examples: 372
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 374
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <field>:0
+wrong examples: 380
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin <field>:1 count <field>:0
+wrong examples: 385
+<field>:0 where <field>:1 <value>:1 equal or <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1 or <field>:1 equal <value>:1
+wrong examples: 393
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0 <value>:0 <field>:0 equal <field>:0
+wrong examples: 396
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 398
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <field>:0
+wrong examples: 402
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 404
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 410
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 412
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+wrong examples: 422
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 424
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 425
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 434
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 438
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 439
+<field>:0 where <field>:1 equal people where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 440
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 441
+<field>:0 argmin count <field>:1
+<field>:0 argmin <field>:1
+wrong examples: 451
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 458
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 461
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 463
+<field>:0 where <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+wrong examples: 464
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 466
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+wrong examples: 467
+<field>:0 argmax count <field>:1
+<field>:0 argmin count <field>:1
+wrong examples: 470
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 476
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 479
+<field>:0 where count <field>:1 greater two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 484
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 485
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 486
+<field>:0 neq <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 487
+<field>:0 argmin count <field>:1
+<field>:0 argmin <field>:1
+wrong examples: 488
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 495
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 502
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 507
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 513
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 514
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 516
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 519
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 523
+<field>:0 where <field>:1 equal people where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 530
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+wrong examples: 531
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 532
+<field>:0 argmin count <field>:1
+<field>:0 argmax <field>:1
+wrong examples: 538
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <value>:2 equal <value>:2
+wrong examples: 542
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 546
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 547
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 549
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 552
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 554
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 558
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 568
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 571
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 577
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 578
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 581
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+wrong examples: 587
+<field>:0 where count <field>:1 equal two
+count <field>:0 equal <field>:0 equal <field>:0
+wrong examples: 589
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 590
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 591
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 592
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 or two
+wrong examples: 593
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two 180
+wrong examples: 594
+<field>:0 argmax count <field>:1
+<field>:0 argmin count <field>:1
+wrong examples: 596
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 599
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 606
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 612
+<field>:0 where count <field>:0 ng two
+<field>:0 argmax count <field>:1 two <field>:0
+wrong examples: 613
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 617
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+wrong examples: 618
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+wrong examples: 623
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+wrong examples: 625
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 629
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 631
+<field>:0 argmax <field>:1
+<field>:0 argmin <field>:1
+wrong examples: 636
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 639
+<field>:0 where count <field>:1 less two
+<field>:0 argmax <field>:1 argmin 180
+wrong examples: 640
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl 200
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 646
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+wrong examples: 650
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 equal true
+wrong examples: 651
+<field>:0 where count <field>:1 equal two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 654
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 659
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 661
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 666
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 669
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 670
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 671
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+wrong examples: 680
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 681
+<field>:0 argmax count <field>:1
+<field>:0 argmin <field>:1
+wrong examples: 682
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 684
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 686
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1 two <field>:1
+wrong examples: 688
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+wrong examples: 691
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 694
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <value>:2 equal <value>:2
+wrong examples: 695
+count <field>:0
+<field>:0 argmin count <field>:1
+wrong examples: 697
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 708
+<field>:0 argmax <field>:1
+<field>:0 argmin <field>:1
+wrong examples: 714
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 715
+<field>:0 equal <value>:0
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 719
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 720
+<field>:0 where <field>:1 equal single
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 722
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 728
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 733
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 735
+<field>:0 where <field>:1 equal people where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 736
+<field>:0 where count <field>:1 greater two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 741
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <value>:2 equal <value>:2
+wrong examples: 751
+<field>:0 argmax <field>:1
+<field>:0 argmax count <field>:1
+wrong examples: 752
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 763
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 764
+count <field>:0
+avg <field>:0
+wrong examples: 768
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 769
+<field>:0 where <field>:1 less <value>:1 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+wrong examples: 774
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 775
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 785
+<field>:0 argmin count <field>:1
+<field>:0 argmin <field>:1
+wrong examples: 788
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 792
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 797
+<field>:0 argmin <field>:1
+<field>:0 argmax <field>:1
+wrong examples: 800
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 802
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 809
+<field>:0 where <field>:1 equal <field>:2 and <field>:3 equal <value>:3
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <field>:0
+wrong examples: 814
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 816
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 817
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+wrong examples: 819
+<field>:0 where <field>:1 neq single
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 822
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 823
+<field>:0 where <field>:1 equal people where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 825
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 827
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 833
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 834
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 or <field>:0
+wrong examples: 843
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 847
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 852
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 856
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 858
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+wrong examples: 868
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 874
+<field>:0 argmax count <field>:1
+<field>:0 argmin count <field>:1
+wrong examples: 879
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+test accuracy: 0.722850678733
+wrong examples: 7
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+wrong examples: 9
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 18
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 23
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 24
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal single
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 30
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two 180
+wrong examples: 37
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 51
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 55
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+wrong examples: 56
+<field>:0 where <field>:1 nl 2005
+<field>:0 where <field>:1 nl <field>:1
+wrong examples: 58
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 64
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 69
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+wrong examples: 77
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 or <field>:0 equal <field>:0
+wrong examples: 79
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 89
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 92
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 99
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 100
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+wrong examples: 108
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 112
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 113
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+wrong examples: 124
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 126
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 137
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+wrong examples: 148
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:3 equal <field>:0
+wrong examples: 158
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 162
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 172
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 175
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 177
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 200
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 202
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 or <field>:1
+wrong examples: 204
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 208
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 225
+<field>:0 where count <field>:1 less two
+<field>:0 argmax <field>:1 or 180
+wrong examples: 228
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 231
+<field>:0 where <field>:1 equal single and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+wrong examples: 237
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 244
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 251
+<field>:0 argmax <field>:1
+<field>:0 argmin <field>:1
+wrong examples: 253
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 263
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 265
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+wrong examples: 272
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 292
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 298
+<field>:0 where count <field>:1 greater two
+<field>:0 where count <field>:1 equal two
+wrong examples: 307
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 313
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 325
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 326
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two 180
+wrong examples: 328
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 330
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 341
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 344
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0
+wrong examples: 345
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 346
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 ng <field>:0
+wrong examples: 348
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 350
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal single
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 351
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 less <field>:0
+wrong examples: 360
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 361
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 363
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 369
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 ng two
+wrong examples: 380
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 387
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 392
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+wrong examples: 393
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 395
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 398
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 399
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 or <field>:0
+wrong examples: 400
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax <field>:1 ng <field>:1
+wrong examples: 406
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 412
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 415
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal single
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 416
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 418
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 421
+<field>:0 where count <field>:1 equal two
+count <field>:0 argmin <field>:1 equal <field>:0
+wrong examples: 422
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 427
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 437
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 438
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 argmin <field>:1
+wrong examples: 446
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 447
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 452
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 455
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 461
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 469
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 471
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 473
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 484
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 488
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 491
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 495
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 ng two
+wrong examples: 496
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 503
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 518
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 524
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 530
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 535
+<field>:0 where count <field>:1 less two
+count <field>:0 argmin <field>:0 equal <field>:0
+wrong examples: 541
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 547
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 551
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin <field>:1 or <field>:0
+wrong examples: 562
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+wrong examples: 565
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 567
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:0 equal <field>:0
+wrong examples: 575
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 576
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 579
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 582
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal single
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 588
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+wrong examples: 594
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 605
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 609
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 610
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <field>:0
+wrong examples: 617
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 619
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 621
+<field>:0 where <field>:1 less <value>:1 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+wrong examples: 627
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 629
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 638
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 equal <field>:0
+wrong examples: 642
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 643
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 654
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 655
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 660
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 662
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 664
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 665
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 669
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two <field>:0
+wrong examples: 673
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 679
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 684
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 687
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 694
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:0 equal <field>:0
+wrong examples: 696
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 699
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+wrong examples: 706
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 708
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 713
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 715
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 722
+<field>:0 where count <field>:1 greater two
+<field>:0 argmax <field>:1 count <field>:0
+wrong examples: 725
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 727
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 200
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 730
+<field>:0 argmax <field>:1
+<field>:0 argmin <field>:1
+wrong examples: 736
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 742
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 748
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 752
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 754
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 757
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 <value>:2 <value>:2 equal <value>:2
+wrong examples: 760
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 762
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 763
+<field>:0 where count <field>:0 ng two
+<field>:0 argmin count <field>:1 two <field>:0
+wrong examples: 764
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 argmin 180
+wrong examples: 767
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 769
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 771
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 776
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 782
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 789
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 803
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 807
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+wrong examples: 821
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 822
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 825
+<field>:0 equal <value>:0 or <field>:0 equal 200
+<field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 827
+<field>:0 where <field>:1 less <value>:1 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+wrong examples: 834
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 846
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 858
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 861
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 865
+<field>:0 where <field>:1 equal <field>:0 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 872
+<field>:0 where count <field>:1 less than two
+<field>:0 where count <field>:1 less two two
+wrong examples: 893
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 single <field>:0 equal <field>:0
+wrong examples: 894
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 898
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 equal <value>:1
+wrong examples: 903
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 905
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 918
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 919
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 920
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two <field>:0
+wrong examples: 925
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 929
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:0 equal <field>:0
+wrong examples: 933
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 936
+<field>:0 where count <field>:1 nl twp
+<field>:0 argmin count <field>:1 than two
+wrong examples: 938
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 943
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 946
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 948
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 952
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 955
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 957
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 959
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 965
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 969
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 972
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 980
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 989
+<field>:0 where count <field>:1 greater two
+<field>:0 argmax <field>:1 count <field>:0
+wrong examples: 997
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1001
+<field>:0 argmax <field>:1
+<field>:0 argmin <field>:1
+wrong examples: 1006
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1011
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 1018
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+wrong examples: 1019
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1021
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1025
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1026
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 1029
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 1031
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1035
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1036
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1038
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1044
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 1046
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1055
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1067
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1068
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1078
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1080
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <field>:0
+wrong examples: 1083
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1093
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal single
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 1105
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 1107
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1110
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1 and <field>:2 equal <field>:2
+wrong examples: 1117
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1118
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1134
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1136
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1138
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:0 equal <field>:0
+wrong examples: 1147
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 1151
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 1154
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal single
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 1155
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1161
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 two <field>:0
+wrong examples: 1166
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0 <value>:0 <field>:0 equal <field>:0
+wrong examples: 1169
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1170
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1171
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1172
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 1173
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1185
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1186
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1196
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 1198
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1204
+<field>:0 where <field>:1 less <value>:1 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+wrong examples: 1210
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1212
+<field>:0 where <field>:1 equal <field>:2 and <field>:3 equal <value>:3
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <field>:0
+wrong examples: 1214
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1225
+<field>:0 where count <field>:1 less than two
+<field>:0 where count <field>:1 less two two
+wrong examples: 1231
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1234
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin <field>:1 neq <field>:0
+wrong examples: 1246
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1247
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1249
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 1251
+<field>:0 where count <field>:1 less two
+<field>:0 argmax <field>:1 or 180
+wrong examples: 1253
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 1260
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1269
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <field>:0
+wrong examples: 1289
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 than two
+wrong examples: 1292
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1294
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1306
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1309
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1310
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1314
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1317
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1321
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1323
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1326
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1332
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1335
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1338
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1343
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1352
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1353
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1360
+<field>:0 where count <field>:1 greater two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 1372
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1383
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1385
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1386
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1392
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1399
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1402
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1407
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 1411
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 argmin <field>:1
+wrong examples: 1412
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1413
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1421
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1431
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1433
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 1438
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1440
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1442
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1459
+<field>:0 where <field>:1 neq single
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 1463
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 1464
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:0 equal <field>:0
+wrong examples: 1465
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1471
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1472
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1478
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1484
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1488
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 1489
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two <field>:0
+wrong examples: 1491
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1496
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 1499
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 1503
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 1505
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1517
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1524
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1528
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1 and <field>:2 equal <field>:2
+wrong examples: 1530
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1536
+<field>:0 where count <field>:1 ng two
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 1541
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 1545
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1557
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 1567
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1594
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1595
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1596
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1599
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1611
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 1614
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1623
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1626
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1627
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1631
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1633
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1635
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1650
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1666
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1667
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1671
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1676
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 1683
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1693
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1696
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1697
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+wrong examples: 1706
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1708
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 ng two
+wrong examples: 1710
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1711
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1712
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 1722
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 1724
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true and <field>:3 equal <field>:3
+wrong examples: 1725
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 1729
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1736
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 1737
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1743
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 single <field>:0 equal <field>:0
+wrong examples: 1751
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 1755
+<field>:0 where count <field>:1 less than two
+<field>:0 where count <field>:1 less two two
+wrong examples: 1762
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1769
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 1773
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1779
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1780
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 1781
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 1782
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <field>:0
+wrong examples: 1783
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1791
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 1799
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1802
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1805
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1821
+<field>:0 where count <field>:1 less <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 1824
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1825
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1828
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1829
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1832
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1841
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1843
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1851
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 1853
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1861
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1869
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 1870
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1873
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two 180
+wrong examples: 1888
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+wrong examples: 1889
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 ng two
+wrong examples: 1898
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1902
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1903
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 1910
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1911
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1915
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1917
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1921
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <field>:0
+wrong examples: 1927
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1930
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 1938
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1947
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1950
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 single <field>:0 equal <field>:0
+wrong examples: 1951
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1953
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1958
+<field>:0 where count <field>:1 nl twp
+<field>:0 argmin count <field>:1 or two
+wrong examples: 1966
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1971
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 1974
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 1975
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1976
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 1977
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 1979
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1983
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 <value>:2 <value>:3 equal <value>:3
+wrong examples: 1988
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 1992
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 1998
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 2006
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+wrong examples: 2013
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or 200
+wrong examples: 2014
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2015
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2026
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two 180
+wrong examples: 2035
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2041
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2047
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 2048
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 2057
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0
+wrong examples: 2063
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 or <field>:0
+wrong examples: 2068
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 2069
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2071
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2073
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2083
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2088
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2091
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2096
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2104
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 2106
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0
+wrong examples: 2115
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+wrong examples: 2118
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <field>:0
+wrong examples: 2128
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2145
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 single <field>:0 equal <field>:0
+wrong examples: 2156
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two <field>:0
+wrong examples: 2169
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 2181
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 2182
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 2183
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 2189
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2191
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 2193
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2194
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2196
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 argmin <field>:1
+wrong examples: 2204
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 2210
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2215
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+wrong examples: 2218
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2224
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 argmin <field>:1
+wrong examples: 2229
+<field>:0 where count <field>:1 less two
+<field>:0 argmax <field>:1 argmin 180
+wrong examples: 2236
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 single <field>:0 equal <field>:0
+wrong examples: 2241
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <value>:2 equal <value>:2
+wrong examples: 2242
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2246
+<field>:0 where count <field>:1 less two
+<field>:0 argmax <field>:1 argmax 180
+wrong examples: 2254
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2258
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2267
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2269
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 2271
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2272
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+wrong examples: 2278
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 count <field>:0
+wrong examples: 2304
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2315
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2320
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2342
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 2343
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2344
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2345
+<field>:0 where count <field>:1 less than two
+<field>:0 where count <field>:1 less two two
+wrong examples: 2356
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2376
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 than two
+wrong examples: 2380
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2382
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 2383
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 2386
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 argmin <field>:1
+wrong examples: 2394
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2397
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2419
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2420
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 2421
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2436
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 2438
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 2444
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2445
+<field>:0 where count <field>:1 ng two
+<field>:0 where count <field>:1 equal two
+wrong examples: 2446
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2447
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <field>:0
+wrong examples: 2456
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2469
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2475
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 2476
+<field>:0 where <field>:1 equal single and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+wrong examples: 2478
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2489
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2496
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 2505
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2512
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2537
+<field>:0 where <field>:1 less <value>:1 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+wrong examples: 2539
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <field>:0
+wrong examples: 2546
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 200
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <field>:0
+wrong examples: 2547
+<field>:0 where count <field>:1 nl twp
+<field>:0 argmin count <field>:1 two two
+wrong examples: 2550
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 2552
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2553
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2558
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2571
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2576
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 2577
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 2583
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two <field>:0
+wrong examples: 2584
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2591
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2594
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2595
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2596
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2597
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2602
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2608
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2609
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2610
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2614
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2615
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 2623
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 argmax <field>:0 equal <field>:0
+wrong examples: 2627
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2629
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2631
+<field>:0 where <field>:1 less <value>:1 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+wrong examples: 2635
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 equal <value>:1
+wrong examples: 2637
+<field>:0 where count <field>:0 ng two
+<field>:0 argmin count <field>:1 two 180
+wrong examples: 2642
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2650
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true and <field>:2 equal <field>:2
+wrong examples: 2653
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+wrong examples: 2654
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2660
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2662
+<field>:0 where count <field>:1 less two
+<field>:0 argmax <field>:1 count <field>:0
+wrong examples: 2668
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 2671
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2675
+<field>:0 where <field>:1 less <value>:1 where <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1 and <field>:1 less <value>:1
+wrong examples: 2677
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2678
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2679
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2684
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2693
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 argmin <field>:1
+wrong examples: 2697
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+wrong examples: 2699
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2700
+<field>:0 where <field>:1 ng 180
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 2706
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+wrong examples: 2720
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two <field>:0
+wrong examples: 2722
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 2729
+<field>:0 where count <field>:1 less two
+<field>:0 argmax count <field>:1 two 180
+wrong examples: 2733
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+wrong examples: 2745
+<field>:0 where <field>:1 equal single and <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+wrong examples: 2754
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2764
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <field>:0
+wrong examples: 2772
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+wrong examples: 2774
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two 180
+wrong examples: 2778
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 ng two
+wrong examples: 2784
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng 200
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <field>:0
+wrong examples: 2789
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 or <field>:0
+wrong examples: 2795
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 or <field>:0 equal <field>:0
+wrong examples: 2797
+<field>:0 where <field>:1 equal single and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 2800
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2808
+<field>:0 where <field>:1 equal <field>:0 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2815
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2817
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2819
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 2820
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2823
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2829
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2833
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 two <field>:0
+wrong examples: 2839
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2844
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 2856
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two <field>:0
+wrong examples: 2860
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 2865
+<field>:0 where count <field>:1 less two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 2871
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+wrong examples: 2879
+<field>:0 where count <field>:1 less two
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 2884
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2895
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+wrong examples: 2896
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 2902
+<field>:0 where count <field>:1 less two
+<field>:0 argmax <field>:1 or 180
+wrong examples: 2906
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2907
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 2909
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 2912
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 2914
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin <field>:1 single <field>:0
+wrong examples: 2915
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 two <field>:0
+wrong examples: 2917
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2919
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2921
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 2928
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2936
+<field>:0 where <field>:1 equal single and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 2941
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 2950
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 2954
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 2955
+<field>:0 where <field>:1 equal <field>:2 and <field>:3 equal <value>:3
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <field>:0
+wrong examples: 2957
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 2971
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 2975
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <field>:0
+wrong examples: 2980
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 two two
+wrong examples: 2985
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 2994
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+wrong examples: 2996
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3003
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3008
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0 <value>:0 <field>:0 equal <field>:0
+wrong examples: 3012
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3023
+<field>:0 where count <field>:1 less two
+<field>:0 argmin <field>:1 argmin <field>:0
+wrong examples: 3024
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3025
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 3032
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 3033
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <field>:0
+wrong examples: 3039
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 ng two
+wrong examples: 3053
+<field>:0 where <field>:1 where <field>:2 equal 180
+<field>:0 where <field>:1 where <field>:2 equal <value>:2
+wrong examples: 3061
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3080
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 3096
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+wrong examples: 3110
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 3113
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 3116
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3118
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 3119
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+wrong examples: 3126
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3127
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 3139
+<field>:0 where count <field>:1 greater two
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 3146
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3157
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3159
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 3160
+<field>:0 where count <field>:1 equal two
+<field>:0 where <field>:1 equal true
+wrong examples: 3165
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 3174
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 3190
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3198
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 3202
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+wrong examples: 3208
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3209
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 3210
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3212
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3216
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 3217
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less <field>:2 where <field>:0 equal <value>:0
+wrong examples: 3219
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3225
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 3234
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3243
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3247
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 3251
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3255
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3256
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less 200
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <field>:0
+wrong examples: 3260
+<field>:0 where <field>:1 greater <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3272
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0 <value>:0 <field>:0 equal <field>:0
+wrong examples: 3274
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 3314
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 3315
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 3325
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 3337
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3343
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 3359
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3366
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 3369
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin <field>:1 equal <field>:0
+wrong examples: 3375
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3378
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3379
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 3380
+<field>:0 where <field>:1 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <field>:0
+wrong examples: 3389
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 3410
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3411
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two two
+wrong examples: 3416
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 two 180
+wrong examples: 3427
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3431
+<field>:0 where <field>:1 ng 180
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 3436
+<field>:0 where <field>:1 equal true and <field>:2 equal <value>:2
+<field>:0 where <field>:1 where <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 3440
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3441
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3444
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <value>:2 equal <value>:2
+wrong examples: 3452
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:2 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3455
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 two 180
+wrong examples: 3460
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3463
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3468
+<field>:0 where <field>:1 greater <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3471
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3478
+<field>:0 where <field>:1 less <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3479
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 3484
+<field>:0 where <field>:1 nl <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:2 where <field>:0 equal <value>:0
+wrong examples: 3486
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3492
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3493
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 3496
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 single 200 equal 200
+wrong examples: 3499
+<field>:0 where count <field>:1 greater two
+<field>:0 where count <field>:1 equal two
+wrong examples: 3508
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <field>:0
+wrong examples: 3513
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <field>:2 equal <field>:2
+wrong examples: 3518
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 3522
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2 and <value>:2 equal <value>:2
+wrong examples: 3534
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 two two
+train accuracy: 0.806506364922
+
