@@ -44,7 +44,7 @@ which housing_unit has a monthly_rent of less than 1500 dollars
 show me housing where dogs are allowed
 housing of two types
 apartments with rent between 1500 and 2000
-apartments with a private_bath
+ apartment with a private_bath
 housing_units with 2 neighborhoods
 what apartment costs 1500 dollars
 apartments with the same rent as 123_sesame_street
@@ -64,7 +64,7 @@ find housing_units posted before jan_2nd
 find housings unit posted on other dates except for jan_2nd
 find housing_units that are pet friendly
 housing found in the most neighborhoods
-apartments renting for 1500 a month
+ apartment renting for 1500 a month
 which neighborhoods have housing with a private_bath
 housing that was posted on feb_3rd
 housing_unit that is 800 or 1000 square_feet
@@ -93,7 +93,7 @@ what housing_unit with a private_bath was posted on jan_2nd
 a housing_unit on 123_sesame_street that posted on jan_2nd
 housing that posted on the same day at 123_sesame_street
 housing that is 1500 month with a private_room
-apartments that allow dogs
+apartment that allow dogs
 apartment with private_bath
 what neighborhood was the housing_unit posted on jan_2nd
 looking for housing that is either an apartment or condo
@@ -108,7 +108,7 @@ find housing larger than 123_sesame_street
 what neighborhood has the least amount of housing
 which housing_unit in the midtown_west area has a private_room
 what housing_unit has the same rent as the unit posted on jan_2nd
-find apartments with a private_bath
+find apartment with a private_bath
 apartments in midtown_west with rent at 1500
 which housing_type allows pets
 cheapest housing
@@ -129,7 +129,7 @@ which neighborhood is 123_sesame_street in
 find housing that allows cats
 which housing_unit has the most kind of houses
 housing that allows cats and includes a private_room
-looking for apartments
+looking for apartment
 name neighborhoods with two or more housing_units
 which housing_unit with an area of 800 square_feet has a private_room
 which housing_unit resembles that of 123_sesame_street
@@ -170,7 +170,7 @@ housing_type with less than 2 units
 housing that is the same type as 123_sesame_street that was posted on jan_2nd
 housing_unit that allows cats
 pet friendly housing near midtown_west
-housing apartments in a midtown_west neighborhood
+housing apartment in a midtown_west neighborhood
 housing posted before jan_2nd or feb_3rd
 find cat friendly housing_units with a private_bath
 what neighborhood has housing with a private_room
@@ -179,7 +179,7 @@ a housing_unit in midtown_west that was posted on jan_2nd
 housing_unit that allows dogs and cats
 housing that is the same rent as or cheaper than 123_sesame_street
 what housing_unit posted on jan_2nd is the same kind as 123_sesame_street
-aparartment or condo units
+apartment or condo units
 housing_units with a private_bath in the midtown_west area
 housing with a private_room that posted on jan_2nd
 what neighborhood is the 800 square foot apartment in
@@ -249,7 +249,7 @@ neighborhoods that have 800 square foot housing
 looking for a quiet neighborhood
 housing_units of either 800 square_feet or 1000 square_feet
 housing with 2 surrounding neighborhoods
-find apartments posted on jan_2nd
+find apartment posted on jan_2nd
 which neighborhoods have housing where dogs are allowed
 apartments posted before 123_sesame_street was posted
 pet friendly 800 square_feet housing_unit
@@ -258,9 +258,9 @@ housing_unit in midtown_west and allows dogs
 which housing_unit with an area of 800 square_feet is available fora rent of 1500 dollars per month
 catfriendly apartments with rent at 1500
 housing posted on jan_2nd that allows dogs
-looking for apartments
+looking for apartment
 what size is the housing_unit posted on jan_2nd
-housing apartments with a private_bath
+housing apartment with a private_bath
 which housing has a monthly_rent of 1500 dollars
 find housing_units in the same size of 123_sesame_street
 housing that allows dogs and was posted on jan_2nd
@@ -285,7 +285,7 @@ what housing_unit allowing cats was posted on jan_2nd
 housing_unit with 2 types of housing
 locate housing_units with private_roombath
 smallest available unit
-housing apartments that allows cats
+housing apartment that allows cats
 units posted before jan_2nd
 what housing with a private_room posted jan_2nd
 a neighborhood with at most twohouse units
@@ -305,7 +305,7 @@ find all housing_units posted on jan_2nd
 find housing_units far from midtown_west
 800 foot apartment with a private_room
 housing that is at least 800 square_feet or at least 1000 square_feet
-housing_unit that is an aprtment
+housing_unit that is an apartment
 find housing_units in the same housing_type of 123_sesame_street
 find housing_units with a private_room and has 1500 dollars as monthly_rent
 find housing_units with size lesser than 800 square_feet
@@ -342,7 +342,7 @@ what housing_unit allowing dogs was posted on jan_2nd
 what is the housing_type of 123_sesame_street
 dogfriendly housing that is 800 square_feet
 find 800 square_feet housing_units that are cat friendly
-what is the neighborhood of housing_unit of the apartments
+what is the neighborhood of housing_unit of the apartment
 which housing consists of two units maximum
 what is that housing_unit size
 find 800 square_feet sized housing_units
@@ -395,7 +395,7 @@ dogfriendly apartment
 show me housing which have a private_bathroom and allow cats
 housing that is smaller than 800 square_feet or smaller than 1000 square_feet
 housing that is more than 800 square_feet
-apartments with private_baths
+apartment with private_baths
 which housing_unit resembles 123_sesame_street or 900_mission_avenue
 what is the housing_type of the housing_unit with a private_room
 which housing_unit with an area of 800 square_feet has the facility of a private_room
@@ -407,7 +407,7 @@ what housing_unit with a private_room was posted on jan_2nd
 what housing_unit has two housing_types
 what housing_unit is found in the midtown east neighborhood
 find housing_units posted after 123_sesame_street
-show me apartments and condos
+show me apartment and condo
 a housing_unit with a private_bath that posted on jan_2nd
 pet friendly housing with 1500 dollars as rent
 what housing is the same type as the housing posted on jan_2nd
@@ -472,7 +472,7 @@ which housing_unit has two types minimum
 what is the housing_type of the two housing_units
 apartment that is the same size are 123_sesame_street
 dogfriendly apartment with a private_bathroom
-apartments in the midtown_west neighborhood
+apartment in the midtown_west neighborhood
 find housing_units with just one neighborhood
 housing that was posted on jan_2nd
 show me housing in midtown_west where dogs are welcome
@@ -481,7 +481,7 @@ housing that does not have a higher rent then 123_sesame_street
 housing posted the most recently
 which housing_unit has an apartment kind of house
 what is the date of the 123_sesame_street posting
-seeking apartments between 1500 and 2000
+seeking apartments between 1500 and 2000 month
 find housing between 800 and 1000 square_feet
 which housing_unit is in the area of midtown_west or chelsea
 housing_unit with a private_room and bath
@@ -494,7 +494,7 @@ which housing_unit has apartment kind of houses with an area of 800 square_feet
 what kind of housing was posted on jan_2nd
 800 square foot apartment for 1500 rent
 which housing with a private_room rents for 1500 dollar monthly
-show me housing_units that arent apartments
+show me housing_units that arent apartment
 housing_unit which is an apartment that is dogs friendly
 apartments that have a private_bath
 housing in 123_sesame_street neighborhood that was posted on jan_2nd
@@ -503,7 +503,7 @@ find pet friendly housing_units that charge 1500 dollars as rent
 apartment housing that was posted on jan_2nd
 which housing_unit has a monthly_rent of more than 1000 dollars
 what is the most common housing_type
-housing_units that are apartments
+housing_units that are apartment
 cats allowed in midtown_west
 neighborhoods not near 123_sesame_street
 which housing_unit has a jan_2nd posting
@@ -575,7 +575,7 @@ housing_unit with a private_bath and cost 1500 dollars rent
 housing_type posted jan_2nd
 find housing_types other than 123_sesame_street
 what housing_unit  posted on jan_2nd has a private_room
-apartments with a private_room
+apartment with a private_room
 which apartment kind of housing_units permits cats in it
 find housing_units with private_bath located in the neighborhoods of midtown_west
 housing that is 1500 month or less
@@ -591,14 +591,14 @@ find housing_units in the neighborhoods of midtown_west
 apartments 800 square_feet and above
 neighborhood of 123_sesame_street
 count of different units
-housing apartments that allow dogs
+housing apartment that allow dogs
 housing that costs the same as 123_sesame_street
 which neighborhood has under two housing_units
 how big is 123_sesame_street
 housing_unit posted after jan_2nd or feb_3rd
 find a housing_unit that is in two neighborhoods
 what is the date of 123_sesame_street posting
-apartments that were posted on jan_2nd
+apartment that were posted on jan_2nd
 which housing_unit allows dogs and cats
 what housing_unit in the same neighborhood as 123_sesame_street was posted on jan_2nd
 which housing posted jan_2nd rents for 1500
@@ -617,9 +617,9 @@ which housing_unit is posted lately
 housing that isnt in midtown_west
 housing that allows cats and is 1500 a month
 which housing_unit was not posted on jan_2nd
-list all housing_units that are apartments
+list all housing_units that are apartment
 what housing has been posted lately
-apartments that are catfriendly
+apartment that are catfriendly
 find housing_units with less than or equal to the rent of 123_sesame_street
 list all housing that have the size of 800 or 1000 square_feet
 what are the neighborhoods of 123_sesame_street and 900_mission_avenue
@@ -645,7 +645,7 @@ find housing_units with the least number of neighborhoods
 apartment with a private_bath that also accepts cats
 housing_unit sizes on 123_sesame_street
 neighborhood with the most available housing
-condomonium or flat
+condo or flat
 what is the housing_type that allows cats
 what is the neighborhood of 123_sesame_street
 which housing_unit is available for the least rent
@@ -662,7 +662,7 @@ apartment with a private_bath for rent at 1500
 find housing that has a private_room and bath
 housing that allows cats and includes a private_bath
 which housing_unit is smaller than 800 square_feet or 1000 square_feet by area
-neighborhood with apartments
+neighborhood with apartment
 apartment with rent between 1500 and 2000
 apartments with less than 2 units
 what kind of housing was posted on jan_2nd
@@ -691,7 +691,7 @@ find all housing_units posted on jan_2nd
 housing that is at least 1500 month
 how large is the housing_unit
 list all housing_types that are not the same as those in 123_sesame_street
-show me apartments with a private_room
+show me apartment with a private_room
 what housing_unit in midtown_west was posted on jan_2nd
 find housing_units with rental charges between 1500 to 2000 dollars
 what housing_units are at least 800 or 1000 square_feet
@@ -702,15 +702,15 @@ neighborhoods with dogfriendly apartments
 find housing_units less than 1000  square_feet
 which area has less than two housing_units
 housing_unit that is not 800 square_feet
-apartments at 800 square_feet
+apartment at 800 square_feet
 housing with monthly_rent of 1500 dollars that was posted on jan_2nd
 smallest apartments
-apartments are 1500
+apartment are 1500 dollars
 in which area is 123_sesame_street
 housing that accepts dogs
 what housing has the latest posting_date
 housing that posted after jan_2nd or feb_3rd
-apartments that were posted on jan_2nd
+apartment that were posted on jan_2nd
 apartments with a private_bath that allow dogs
 housing with posting_date of jan_2nd
 800 square foot dogfriendly apartment
@@ -721,22 +721,22 @@ housing that includes two units
 apartments with a private_bathroom that allow cats
 housing that allows dogs that posted on jan_2nd
 housing_unit with a cheaper rent than 123_sesame_street
-apartments that permit cats
+apartment that permit cats
 housing that was posted on jan_2nd
 need a unit with a private_room in the midtown_west area
 housing_unit that allows cats and has a private_bath
 housing posted the same day as 123_sesame_street
 housing posted before jan_2nd
 what housing was posted no earlier than jan_2nd
-find apartments in the neighborhoods of midtown_west
+find apartment in the neighborhoods of midtown_west
 either 800 or 1000 square_feet
 which housing_units are at least 800 square_feet in size
 which housing_unit permits dogs and has the facility of a private_room
-list all apartments in midtown_west
+list all apartment in midtown_west
 housing at least 800 to 1000 square_feet
 neighborhoods with the least housing_units
 how large is 123_sesame_street
-apartments in the midtown_west neighborhood
+apartment in the midtown_west neighborhood
 housing that is 1500 month and 800 square_feet
 catfriendly housing with a private_bath
 exclude apartments from midtown_west

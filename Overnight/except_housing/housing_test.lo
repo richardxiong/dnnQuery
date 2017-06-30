@@ -25,7 +25,7 @@ housing_type where housing_unit equal 123_sesame_street or housing_unit equal 90
 housing_unit where size equal 800 and private_bath equal true
 housing_unit where posting_date equal jan_2nd and size equal 800
 neighborhood where housing_unit equal housing_unit where cats equal true
-housing_unit where monthly_rent less 1500 or monthly_rent less 2000
+housing_unit where monthly_rent less 1500
 housing_unit where private_room equal true
 housing_unit where size less size where housing_unit equal 123_sesame_street
 housing_unit where count neighborhood nl two

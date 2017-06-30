@@ -44,7 +44,7 @@ find <value>:2 <field>:0 <field>:1 in <value>:1
 what is the <field>:0 that needs the minimum number of <field>:1
 what <field>:0 <field>:1 is the same as <value>:0
 which <field>:0 requires the most <field>:1
-<field>:0 <field>:1 in rice_puddings <field>:2
+<field>:0 <field>:1 in <value>:0 <field>:2
 what is a <field>:0 that is good for <value>:1 or <value>:1
 <field>:0 required in less than three <field>:1
 what is a <value>:1 <field>:0
@@ -161,8 +161,8 @@ the <field>:0 is for two <field>:1
 what <field>:0 <field>:1 for equal or less time than <value>:0
 how much time is needed to <field>:0 this dish
 what <field>:0 has the most <field>:1
-what <field>:0 was <field>:1 before rice_puddings <field>:0
-what <field>:0 was <field>:1 after rice_puddings <field>:0
+what <field>:0 was <field>:1 before <value>:0 <field>:0
+what <field>:0 was <field>:1 after <value>:0 <field>:0
 which <field>:0 was <field>:1 in <value>:1
 what <value>:2 <field>:0 requires <value>:1
 what is a <field>:0 found in two or more <field>:1
@@ -176,7 +176,7 @@ show me <field>:0 required for the most <field>:1
 find <field>:0 for two <field>:1
 what <field>:0 has the least <field>:1
 which <field>:0 have two <field>:1
-which <field>:1 is for a lunchtime <field>:0
+which <field>:1 is for a <value>:0 time <field>:0
 <field>:0 that require same time to <field>:1 than <value>:0
 show me <field>:0 with fewer than two <field>:1
 show me <field>:0 <field>:1 in <value>:1 that use <value>:2
@@ -267,7 +267,7 @@ show me <field>:0 required by <field>:1 that require <value>:0
 what <field>:0 <field>:1 is no more than the <field>:2 of <value>:0
 show me <field>:0 that use two <field>:1 or less
 what <field>:0 need <value>:1 and is <field>:2 in <value>:2
-show me <field>:0 for <value>:1 or supper
+show me <field>:0 for <value>:1 or <value>:1
 name the <field>:0 in most <field>:1
 show me <field>:0 that require the <field>:1 of <value>:0
 show me <field>:0 <field>:1 in <value>:1 and <value>:1
@@ -295,7 +295,7 @@ show me <field>:0 with two ingedients
 <field>:0 required by <field>:1 whose <field>:2 is <value>:2
 <field>:0 was the <value>:1 <field>:1 <field>:0
 which <field>:0 require at least two <field>:1
-what <field>:0 have a <field>:1 that is at least as long as rice_puddings <field>:2
+what <field>:0 have a <field>:1 that is at least as long as <value>:0 <field>:2
 which <field>:0 take longer to <field>:2 than <value>:0
 what <field>:0 are <field>:1 for <value>:0 for
 which <field>:0 uses <value>:1 as an <field>:1
@@ -322,7 +322,7 @@ which <field>:0 is <field>:1 after the <field>:1 of <value>:0
 which <field>:0 was <field>:1 most recently
 which <field>:0 has the same <field>:2 of <value>:0
 what <field>:0 <field>:1 is at least that of <value>:0
-<field>:0 for <value>:0 or quice
+<field>:0 for <value>:0 or <value>:0
 which <field>:0 have the most number of <field>:1
 name <field>:0 that is not required for <value>:1
 name the <field>:0 with a <field>:1 with at least the <field>:1 of <value>:0
@@ -403,7 +403,7 @@ show <field>:0 whose <field>:1 is not <value>:1
 find <field>:0 <field>:1 before <value>:1
 show me <field>:0 that have the fewest <field>:1
 what <field>:0 takes at least as long to <field>:1 as <value>:0
-show me milkfree <field>:0
+show me <value>:1 free <field>:0
 show me <field>:0 that have the same or longer <field>:1 as <value>:0
 what is a <field>:0 with the most number of <field>:1
 what <field>:1 is a <field>:1 for <value>:0
@@ -624,7 +624,7 @@ show me <field>:0 requiring <value>:1 <field>:2 in <value>:2
 <field>:0 <field>:1 after <value>:1
 <value>:0 or <value>:0
 show me <field>:0 that follows two or more <field>:1
-show me <field>:0 that whose <field>:1 is shorter than rice_puddings <field>:2
+show me <field>:0 that whose <field>:1 is shorter than <value>:0 <field>:2
 what <field>:0 have the same or longer <field>:1 as <value>:0
 what other <field>:0 do <field>:1 that use <value>:0 require
 what <field>:0 is used in the greatest number of <field>:1
@@ -660,7 +660,7 @@ what <field>:0 requires highest number of <field>:1
 this <field>:0 requires more than two <field>:1
 what <field>:0 require one or two <field>:1
 which <field>:0 require at most two <field>:1
-<field>:0 whose <field>:1 is at least rice_puddings <field>:1
+<field>:0 whose <field>:1 is at least <value>:0 <field>:1
 what <field>:0 can make fewer than two types of <field>:1
 which <field>:0 were <field>:1 at the same time as <value>:0
 what <field>:0 are required in two <field>:1

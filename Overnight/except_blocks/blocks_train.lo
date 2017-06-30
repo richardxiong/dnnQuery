@@ -1,640 +1,640 @@
-block where left equal block_1 and length equal 3
+block where left from block equal block_1 and length equal 3
 block where width equal height where block equal block_1
-block where left equal block_1 and height equal 3
-block argmin count below
-block where width equal width where block equal block_1
-block where length equal 3 and right equal block_1
+block where left from block equal block_1 and height equal 3
+block argmin count below from
+block where width nl width where block equal block_1
+block where length equal 3 and right from block equal block_1
 block where length ng height where block equal block_1
-block where left equal block_1 and width equal 3
+block where left from block equal block_1 and width equal 3
 block where width less length where block equal block_1
 block where height less length where block equal block_1
-block where below equal block where above equal block_1 
-block where shape equal pyramid and left equal block_1
+block where below from block where above to block equal block_1
+block where shape equal pyramid and left to block equal block_1
 block where length less height where block equal block_1
 block where height ng width where block equal block_1
-block where below equal block_1 and left equal block_1
-block where count right equal two 
-block where below equal block where right equal block_1 
+block where below from block equal block_1 and left to block equal block_1
+block where count right from equal two
+block where below from block where right to block equal block_1 
 block where width ng 3
-block where right equal block where length equal 3
+block where right to block where length equal 3
 block where width less height where block equal block_1
 block where width equal 3 or width equal 6
-block where above equal block where height equal 3 
-block equal block_1 or block equal block_2
-block where right equal block where special equal true 
-block where below equal block where length equal 3 
-block where above equal block_1 and shape equal pyramid
+block where above from block where height equal 3
+Mismatch 23: block_1 or block 2
+block where right from block where special equal true 
+block where below from block where length equal 3 
+block where above to block equal block_1 and shape equal pyramid
 block where special equal true and shape equal pyramid
-block where right equal nl two
+block where count right to nl two
 block argmax length
-block where right equal block where height equal 3
-block where left equal block where left equal block_1
-block where below equal block where width equal 3
+block where right from block where height equal 3
+block where left to block where left to block equal block_1
+block where below from block where width equal 3
 block where length greater 3
-block where below equal block where width equal 3
-block where length equal length where block equal block_1
-block where count left greater two
-block where left equal block_1 and right equal block_1
-block where above equal block_1 and right equal block_1
-block where right equal block where left equal block_1
+block where below to block where width equal 3
+block where length where block equal block_1
+block where count left from greater two
+block where left from block equal block_1 and right to block equal block_1
+block where above to block equal block_1 and right from block equal block_1
+block where right to block where left from block equal block_1
 width where block equal block_1
-block where left equal block_1 and right equal block_1
-block where left equal block_1 and length equal 3
-block where height ng 3 or height ng 6 
-block argmax count right
-block where above equal block_1 and width equal 3
-block where above equal block where height equal 3 
-block where below equal block where height equal 3
+block where left to block equal block_1 and right from block equal block_1
+block where left from block equal block_1 and length equal 3
+block where height ng 3 or height ng 6
+block argmax count right from
+block where above from block equal block_1 and width equal 3
+block where above from block where height equal 3
+block where below from block where height equal 3
 block where height less 3
-block where shape equal pyramid and left equal block_1
-block where right equal block_1 or right equal block_2
-block where below equal block where special equal true
-block where right equal block where below equal block_1
+block where shape equal pyramid and left from block equal block_1
+Mismatch 50: block that block_1 or block 2 is right of
+block where below from block where special equal true
+block where right to block where below to block equal block_1
 block where length equal 3
-block where above equal block where height equal 3 
-block where height equal 3 and right equal block_1
+block where above from block where height equal 3
+block where height equal 3 and right to block equal block_1
 block where shape equal pyramid
 block where width equal 3
-block argmax count left
-block where right equal block_1 and below equal block_1
+block argmax count left from
+block where right from block equal block_1 and below to block equal block_1
 block argmax count shape
-block where right equal block_1 and height equal 3
-block where length equal length where block equal block_1
-block where length equal 3 and left equal block_1
-block where left equal block where special equal true
-block where right equal block_1 or right equal block_2
+block where right from block equal block_1 and height equal 3
+block where length where block equal block_1
+block where length equal 3 and left to block equal block_1
+block where left to block where special equal true
+Mismatch 65: block that block_1 or block 2 is right of
 block where shape equal pyramid and shape equal pyramid
-block where above equal block_1 and below equal block_1
+block where above from block equal block_1 and below from block equal block_1
 block where length less length where block equal block_1
-block where count shape nl two
+block where has at least two shape
 Mismatch 70: block that is left of block_1 or block 2
-block where above equal less two
-block where shape equal shape where block equal block_1
-block where left equal block_1 and right equal block_1
-block where above equal block where height equal 3 
-block where left equal block where shape equal pyramid 
-block where height equal height where block equal block_1
-block where left equal block_1 or left equal block_2
+block where count above to less two
+block where shape where block equal block_1
+block where left from block equal block_1 and right from block equal block_1
+block where above from block where height equal 3
+block where left from block where shape equal pyramid
+block where height where block equal block_1
+Mismatch 77: block that is right of block_1 or block 2
 block where height nl width where block equal block_1
 block where width nl length where block equal block_1
-block where above equal block where above equal block_1 
+block where above to block where above to block equal block_1
 block where count color ng two
-block where above neq block_1
-block where count above equal two
-block where count right greater two
+block where above not from block equal block_1
+block where count above from equal two
+block where count right from greater two
 block where width equal length where block equal block_1
-block where count right less two
+block where count right from less two
 color where block equal block_1
-block where above equal block where height equal 3
-block where below equal block where above equal block_1
-block where count below nl two
-block where below equal block_1 and above equal block_1
+block where above to block where height equal 3
+block where below to block where above from block equal block_1
+block where count below to nl two
+block where below from block equal block_1 and below from block equal block_1
 block where width nl 3
-block where left equal block where height equal 3
-block where below equal block where length equal 3
-block where left equal block where right equal block_1
-block where count below greater two
+block where left to block where height equal 3
+block where below to block where length equal 3
+block where left to block where right to block equal block_1
+block where count below to greater two
 block where width nl 3
-block where right equal block where left equal block_1 
+block where right from block where left from block equal block_1
 block where width greater length where block equal block_1
 block where width equal 3 and shape equal pyramid
 block where shape equal pyramid and special equal true
-block where left equal block where below equal block_1
-block where below equal block_1 and above equal block_1
+block where left to block where below to block equal block_1
+block where below from block equal block_1 and above from block equal block_1
 block where width ng 3
-block where above equal block where right equal block_1
-block where right equal block_1 and shape equal pyramid
+block where above from block where right from block equal block_1
+block where right from block equal block_1 and shape equal pyramid
 color where block equal block_1
-block where left equal block where height equal 3
-block where below equal block where height equal 3
-block where not right equal block_1
+block where left to block where height equal 3
+block where below to block where height equal 3
+block where not right to block equal block_1
 block where height nl height where block equal block_1
-block where argmax count below
-block where left equal block_1 and length equal 3
-block where right equal block_1 and above equal block_1 
-block where left equal block where left equal block_1 
+block argmax count below to 
+block where left to block equal block_1 and length equal 3
+block where right from block equal block_1 and above to block equal block_1
+block where left from block where left from block equal block_1 
 shape where block equal block_1
-block where length less 3 or ength less 6
-block argmin count left
+block where length less 3 or length less 6
+block argmin count right to
 block where width equal 3 or width equal 6
 block where width nl height where block equal block_1
-block where below equal block_1 and width equal 3
-block where left equal block_1 and right equal block_1
-block where special equal true and above equal block_1 
-block where below equal block where right equal block_1
+block where below to block equal block_1 and width equal 3
+block where left from block equal block_1 and right from block equal block_1
+block where special equal true and above to block equal block_1
+block where below to block where right to block equal block_1
 block where length equal 3
 block argmin width
-block where special equal true and right equal block_1
-block where count left greater two
-block where right equal block where length equal 3
+block where special equal true and right to block equal block_1
+block where count left to greater two
+block where right to block where length equal 3
 block where length equal width where block equal block_1
-total height where block equal block
-block where count left nl two
-block equal block_1 or block equal block_2
+total height
+block where count left to nl two
+Mismatch 133: block_1 or block 2
 block where length ng 3
-block where special equal true and above equal block_1
-block where not below equal block_1
-block where left neq block_1
+block where special equal true and above from block equal block_1
+block where not below to block equal block_1
+block where not left to block equal block_1
 block argmin length
-block where above equal block_1 and special equal true
-block where right equal block_1 and height equal 3
+block where above from block equal block_1 and special equal true
+block where right to block equal block_1 and height equal 3
 block where width greater 3 or width greater 6
-block where left equal block_1 and below equal block_1
-total height where block equal block
-block where right equal greater two
-block where color equal color where block equal block_1
-block where width less 3 or width less 6 
-block where left equal block where height equal 3
-block where left equal block_1 and right equal block_1
-block where left equal block_1 and special equal true
+block where left to block equal block_1 and below to block equal block_1
+total height
+block where count right to greater two
+block where color where block equal block_1
+block where width less 3 or width less 6
+block where left to block where height equal 3
+block where left to block equal block_1 and left from block equal block_1
+block where left from block equal block_1 and special equal true
 block where width greater length where block equal block_1
-block where right equal block_1 and length equal 3
-block where width less 3 or width less 6 
-block where right equal block_1 and width equal 3
-block where special equal true and below equal block_1
-block where right equal block where height equal 3
-block where left equal block_1 and special equal true
+block where right from block equal block_1 and length equal 3
+block where width less 3 or width less 6
+block where right from block equal block_1 and width equal 3
+block where special equal true and below from block equal block_1
+block where right from block where height equal 3
+block where left to block equal block_1 and special equal true
 block where width ng length where block equal block_1
-block where below equal block where height equal 3
-block where below equal block_1 and length equal 3
-block where count above equal two
-block where left equal block_1
-block where above equal two
-block where right equal less two
+block where below to block where height equal 3
+block where below to block equal block_1 and length equal 3
+block where count above from equal two
+block where left from block equal block_1
+block where count above to equal two
+block where count right to less two
 Mismatch 164: block that block_1 or block 2 is below
-block where left equal block where special equal true 
-block argmax count left
-block where left equal block where above equal block_1
-block where right equal block where right equal block_1
-block where argmax width
-block where count left ng two 
-block where argmin count below
-block where above equal block where width equal 3
-block where height equal 3 or height equal 6 
-block where count below nl two 
-block where right equal block_1 and left equal block_1
+block where left from block where special equal true 
+block argmax count left two
+block where left to block where above from block equal block_1
+block where right to block where right from block equal block_1
+block argmax width
+block where count left to ng two
+block argmin count below to
+block where above to block where width equal 3
+block where height equal 3 or height equal 6
+block where count below from nl two
+block where right to block equal block_1 and left from block equal block_1
 block where length greater 3 or length greater 6
 height where block equal block_1
 block where length less length where block equal block_1
 block where length less height where block equal block_1
-block where below equal block_1 and left equal block_1
-block where count left ng two 
-block argmin count right 
-block where length equal not 3
+block where below from block equal block_1 and left to block equal block_1
+block where count left from ng two
+block argmin count right from
+block where length neq 3
 block where length nl height where block equal block_1
-block where left equal block where special equal true
-block where above equal block_1 and above equal block_1 
-block where height equal height where block equal block_1
+block where left to block where special equal true
+block where above to block equal block_1 and above to block equal block_1
+block where height where block equal block_1
 block where width nl 3
 block argmax height
-block where count left ng two 
-block where count right nl two 
-block where left equal block where special equal true
+block where count left from ng two
+block where count right from nl two
+block where left to block where special equal true
 block where width ng width where block equal block_1
-block where left equal block_1 and above equal block_1 
+block where left from block equal block_1 and above to block equal block_1
 block where height equal width where block equal block_1
-block where width equal 3 and below equal block_1
+block where width equal 3 and below to block equal block_1
 Mismatch 197: block that block_1 or block 2 is left of
-block where below equal block_1 and right equal block_1
-block argmin count left 
-block argmin count left
-block where width equal 3 and above equal block_1
-block where below equal block_1 and left equal block_1
+block where below from block equal block_1 and right from block equal block_1
+block argmin count left from
+block argmin count right to
+block where width equal 3 and above from block equal block_1
+block where below from block equal block_1 and left from block equal block_1
 block where height equal 3 and special equal true
 block where length equal 3
 block where length equal width where block equal block_1
 block where height equal 3 and width equal 3
 block where height greater height where block equal block_1
-block where shape equal pyramid and below equal block_1
-block where above equal block_1 and right equal block_1
-block where right equal block where above equal block_1
+block where shape equal pyramid and below to block equal block_1
+block where above from block equal block_1 and right to block equal block_1
+block where right to block where above from block equal block_1
 block where height ng length where block equal block_1
-block where above equal block_1 and special equal true
-block where below equal block_1 and above equal block_1
-block where right equal block where length equal 3 
+block where above to block equal block_1 and special equal true
+block where below to block equal block_1 and above from block equal block_1
+block where right from block where length equal 3 
 block where length nl 3 or length nl 6
-block where right equal block_1 and special equal true
+block where right to block equal block_1 and special equal true
 block where width nl 3 or width nl 6
-block where above equal ng two
+block where count above to ng two
 block where width ng 3 or width ng 6
-block where above equal the most count block
-block where height equal 3 or height equal 6 
-block where above equal ng two
-block where right equal block where right equal block_1 
-block where count left ng two 
-block where below equal block where length equal 3
+block argmax count above to
+block where height equal 3 or height equal 6
+block where count above to ng two
+block where right from block where right to block equal block_1
+block where count left from ng two
+block where below to block where length equal 3
 block where length equal 3 or length equal 6
 block where length nl height where block equal block_1
-block where right equal block where shape equal pyramid
+block where right to block where shape equal pyramid
 block where width nl 3 or width nl 6
-block where right equal block_1 and above equal block_1
-block where special equal true and above equal block_1
-block where right equal block where below equal block_1
-block where left equal block where left equal block_1
+block where right to block equal block_1 and above from block equal block_1
+block where special equal true and above from block equal block_1
+block where right to block where below from block equal block_1
+block where left to block where left to block equal block_1
 block where width greater height where block equal block_1
-block where height ng 3 or height ng 6 
-block where count above nl two
-block where below equal block where above equal block_1 
-block where count above less two 
-block where height greater 3 or length greater 6
+block where height ng 3 or height ng 6
+block where count above from nl two
+block where below from block where above from block equal block_1
+block where count above from less two
+block where height greater 3 or height greater 6
 block where height ng length where block equal block_1
 block where width nl 3 or width nl 6
 block where special equal true
 block where width equal 3 or width equal 6
 block where length nl length where block equal block_1
-block where right equal block where special equal true
+block where right to block where special equal true
 block where width equal length where block equal block_1
-block where below equal block_1 and length equal 3
-block where above equal block_1 and length equal 3
+block where below to block equal block_1 and length equal 3
+block where above to block equal block_1 and length equal 3
 shape where block equal block_1
 block where length nl width where block equal block_1
-block where left neq block_1
-block where count below greater two
-block where left equal block_1 and width equal 3
-block where left equal block where below equal block_1
-block where count below greater two 
+block where not left to block equal block_1
+block where count below to greater two
+block where left to block equal block_1 and width equal 3
+block where left to block where below from block equal block_1
+block where count below from greater two
 block where width less length where block equal block_1
-block where left equal block where below equal block_1
+block where left from block where below from block equal block_1
 block argmax count color
-block where right equal block where above equal block_1 
+block where right to block where above to block equal block_1
 block where length equal 3 and length equal 3
-block where below equal block where special equal true
-block where below equal block_1 and special equal true
-block where left neq block_1
+block where below to block where special equal true
+block where below from block equal block_1 and special equal true
+block where left not from block equal block_1
 avg height
-block where left equal block_1 and above equal block_1 
-block where above equal block_1 and above equal block_1 
-block where right neq block_1
-block where above equal block_1 and left equal block_1
-block where shape equal pyramid and right equal block_1
+block where left from block equal block_1 and above to block equal block_1
+block where above to block equal block_1 and above to block equal block_1
+block where right not from block equal block_1 
+block where above to block equal block_1 and left from block equal block_1
+block where shape equal pyramid and right to block equal block_1
 block where count color less two
-block where count below equal two
-block where above equal block where width equal 3
-block where count below less two 
-block where above equal block where above equal block_1 
-block where below equal block where right equal block_1 
-block where left equal block_1 and length equal 3
-block where count below ng two
+block where count below to equal two
+block where above to block where width equal 3
+block where count below from less two
+block where above from block where above from block equal block_1
+block where below from block where right from block equal block_1
+block where left from block equal block_1 and length equal 3
+block where count below to ng two
 block where height equal width where block equal block_1
 block where count shape greater two
-block where above equal greater two
-block where below equal block where shape equal pyramid 
+block where count above to greater two
+block where below from block where shape equal pyramid
 block where height nl 3
-block argmax count left
-block where right equal block_1 and width equal 3
+block argmax count left two
+block where right to block equal block_1 and width equal 3
 block argmin length
-block where count below ng two 
-block where above equal block_1 and height equal 3
-block where left equal block where below equal block_1 
+block where count below from ng two
+block where above from block equal block_1 and height equal 3
+block where left from block where below to block equal block_1
 block where height less 3
 Mismatch 290: block that block_1 or block 2 is below
-block where left equal block_1 and below equal block_1
+block where left to block equal block_1 and below to block equal block_1
 block where height nl height where block equal block_1
-block where count color nl two
-block where left equal block_1 and width equal 3
-block where right equal block_1 and right equal block_1
-block where above equal block where length equal 3 
-block where right equal block_1 and below equal block_1
-block where right equal block where shape equal pyramid
-block where count above nl two
-block where above equal block_1 and length equal 3
-block where argmax width
-block where right equal block_1 and below equal block_1
-block where count above ng two
+block where has at least two color
+block where left to block equal block_1 and width equal 3
+block where right to block equal block_1 and right to block equal block_1
+block where above from block where length equal 3
+block where right to block equal block_1 and below from block equal block_1
+block where right to block where shape equal pyramid
+block where count above from nl two
+block where above from block equal block_1 and length equal 3
+block argmax width
+block where right to block equal block_1 and below from block equal block_1
+block where count above from ng two
 block where length less 3
-block where count below ng two
-block where above equal block where right equal block_1
-block where count left greater two
-block where height equal 3 or height equal 6 
+block where count below to ng two
+block where above from block where right from block equal block_1
+block where count left to greater two
+block where height equal 3 or height equal 6
 block where length ng length where block equal block_1
-block where below equal block where above equal block_1 
+block where below to block where above to block equal block_1
 block where height equal 3 and width equal 3
-block where above equal block where below equal block_1 
-block where right equal block_1 and left equal block_1
-block where special equal true and left equal block_1
+block where above from block where below to block equal block_1 
+block where right from block equal block_1 and left from block equal block_1
+block where special equal true and left from block equal block_1
 block where width greater height where block equal block_1
-block argmax count left
-block where right equal block where shape equal pyramid 
+block argmax count left two
+block where right from block where shape equal pyramid 
 block where height nl width where block equal block_1
-block where left equal block where right equal block_1
-block where count below nl two
+block where left to block where right to block equal block_1
+block where count below to nl two
 block where count shape less two
-block where left equal block_1
-block where special equal true and above equal block_1
-block where count right equal two 
-block where left equal block_1 and shape equal pyramid
-block where below equal block where right equal block_1
+block where left to block equal block_1
+block where special equal true and above from block equal block_1
+block where count right from equal two
+block where left to block equal block_1 and shape equal pyramid
+block where below to block where right from block equal block_1
 block where length equal 3 or length equal 6
 block where shape equal pyramid and special equal true
 block where height equal length where block equal block_1
 block where length equal width where block equal block_1
-block where right equal block_1 and left equal block_1
-block where count above less two 
-block where below equal block where shape equal pyramid
+block where right from block equal block_1 and right from block equal block_1
+block where count above from less two
+block where below to block where shape equal pyramid
 block where width equal 3 and shape equal pyramid
-block where left equal block where shape equal pyramid
-block where right equal block_1 and special equal true
-block where left equal block where special equal true 
-block where below equal block where below equal block_1
-block where right equal block_1 and above equal block_1 
+block where left to block where shape equal pyramid
+block where right to block equal block_1 and special equal true
+block where left from block where special equal true 
+block where below to block where below to block equal block_1
+block where right to block equal block_1 and above to block equal block_1
 block where height equal 3 and height equal 3
-block where right equal block where right equal block_1
-block where count above greater two 
-length equal 3 or length equal 6
-block where length equal 3 and above equal block_1 
+block where right to block where right to block equal block_1
+block where count above from greater two
+height equal 3 or height equal 6
+block where length equal 3 and above to block equal block_1
 block where height greater width where block equal block_1
-block where count left nl two 
-block where count below less two 
+block where count left from nl two
+block where count below from less two
 block where length equal 3 and special equal true
-block where right equal block_1 and special equal true
-block where height equal 3 and below equal block_1
-block where height equal 3 and left equal block_1
-block where special equal true and right equal block_1
-block where right equal block where left equal block_1 
+block where right to block equal block_1 and special equal true
+block where height equal 3 and below to block equal block_1
+block where height equal 3 and left to block equal block_1
+block where special equal true and right to block equal block_1
+block where right from block where left to block equal block_1 
 block where width greater width where block equal block_1
-block where right equal block_1 and height equal 3
-block where above equal the most count block
-block where count below less two
+block where right to block equal block_1 and height equal 3
+block argmax count above to
+block where count below to less two
 block where length greater width where block equal block_1
-block where below equal block where width equal 3
-block where below equal block_1 and above equal block_1
-block where height equal not 3
-block where above equal block where below equal block_1 
-block where below equal block where above equal block_1 
+block where below to block where width equal 3
+block where below from block equal block_1 and below from block equal block_1
+block where height neq 3
+block where above from block where below from block equal block_1 
+block where below from block where above to block equal block_1
 block where height equal 3 and length equal 3
-block where left equal block where length equal 3
-block where shape equal pyramid and above equal block_1
-block where right equal block_1 and left equal block_1
-block where below equal block_1
+block where left to block where length equal 3
+block where shape equal pyramid and above from block equal block_1
+block where right from block equal block_1 and left from block equal block_1
+block where below from block equal block_1
 block where height less 3 or height less 6
-block where shape equal pyramid and above equal block_1 
-block where above equal block where height equal 3 
-block where count below greater two 
-block where height greater 3 or length greater 6
+block where shape equal pyramid and above to block equal block_1
+block where above from block where height equal 3
+block where count below from greater two
+block where height greater 3 or height greater 6
 block where length less 3
-block where right equal block_1 and shape equal pyramid
-block where above equal block_1 and below equal block_1 
+block where right to block equal block_1 and shape equal pyramid
+block where above from block equal block_1 and above to block equal block_1
 block where width less 3
-block where right equal block_1 and left equal block_1
-block where left equal block_1
-block where left equal block_1 or left equal block_2
-block where left equal block where above equal block_1 
+block where right to block equal block_1 and left from block equal block_1
+block where left to block equal block_1 and left to block equal block_1
+Mismatch 380: block that is right of block_1 or block 2
+block where left to block where above to block equal block_1
 block where width equal 3 and height equal 3
 block where width greater 3
-block where count right ng two 
-block where right equal block where left equal block_1
+block where count right from ng two
+block where right to block where left from block equal block_1
 block where width nl length where block equal block_1
-block where length equal 3 and right equal block_1
-block where count above ng two
-block where count left greater two
+block where length equal 3 and right to block equal block_1
+block where count above from ng two
+block where count left from greater two
 length where block equal block_1
-block argmin count shape
+block where has the least count shape
 block where width greater 3
 block where special equal true and height equal 3
-block where above equal block where special equal true
-block where below equal block_1 and length equal 3
-block where above equal block where height equal 3
-block argmax count left
-block where left equal block where above equal block_1
+block where above from block where special equal true 
+block where below from block equal block_1 and length equal 3
+block where above to block where height equal 3
+block argmax count left from
+block where left to block where above from block equal block_1
 block where width equal 3
 block where shape equal pyramid and shape equal pyramid
-block where above equal block where below equal block_1
-block where above equal block_1 and left equal block_1
-block where right equal the most count block
-block where height equal 3 and above equal block_1
+block where above to block where below from block equal block_1
+block where above from block equal block_1 and left to block equal block_1
+block argmax count right to
+block where height equal 3 and above from block equal block_1
 block where length ng 3
-block equal block_1 or block equal block_2
-length equal 3 or length equal 6
-block where right equal block_1 and above equal block_1
+Mismatch 406: block_1 or block 2
+height equal 3 or height equal 6
+block where right to block equal block_1 and above from block equal block_1
 block where height ng height where block equal block_1
-block where below equal block_1 and width equal 3
-block where above equal block where below equal block_1 
-block where left equal block where below equal block_1
-block where left equal block_1 and length equal 3
+block where below from block equal block_1 and width equal 3
+block where above from block where below from block equal block_1 
+block where left to block where below from block equal block_1
+block where left to block equal block_1 and length equal 3
 Mismatch 414: block that is below block_1 or block 2
-block where length less 3 or ength less 6
-block where right equal block where special equal true 
-block where right equal block_1 and right equal block_1
+block where length less 3 or length less 6
+block where right from block where special equal true 
+block where right from block equal block_1 and right to block equal block_1
 count block
-block where left equal block_1 and right equal block_1
-block where below equal block where below equal block_1
+block where left from block equal block_1 and right to block equal block_1
+block where below to block where below to block equal block_1
 block where height nl 3
-block where below equal block_1 and above equal block_1
-block where width equal 3 and above equal block_1
-block where left equal block where left equal block_1 
-block where width equal 3 and above equal block_1 
-block where right equal block_1 and length equal 3
-block where below equal block where width equal 3
+block where below to block equal block_1 and above from block equal block_1
+block where width equal 3 and above from block equal block_1
+block where left from block where left from block equal block_1 
+block where width equal 3 and above to block equal block_1
+block where right to block equal block_1 and length equal 3
+block where below to block where width equal 3
 block where height equal 3 and width equal 3
 block where height ng width where block equal block_1
-block where left equal block_1 and above equal block_1
-block where count left ng two 
-block where count right equal two
+block where left from block equal block_1 and above from block equal block_1
+block where count left from ng two
+block where count right to equal two
 block where shape equal pyramid
-block where below equal block where left equal block_1
+block where below to block where left to block equal block_1
 block where width equal length where block equal block_1
-block where below neq block_1
-block where shape equal pyramid and right equal block_1
-block where left equal block where length equal 3
+block where below not from block equal block_1 not 
+block where shape equal pyramid and right to block equal block_1
+block where left to block where length equal 3
 block where width less height where block equal block_1
-block where shape equal pyramid and left equal block_1
-block where below equal block_1 and right equal block_1
+block where shape equal pyramid and left to block equal block_1
+block where below to block equal block_1 and left from block equal block_1
 Mismatch 442: block that is below block_1 or block 2
-block where length equal 3 and right equal block_1
-block where above equal the least count block
-block equal block_1 or block equal block_2
-block where right equal block_1 and left equal block_1
-block where left equal block_1 and right equal block_1
+block where length equal 3 and right from block equal block_1
+block argmin count above to
+Mismatch 445: block_1 or block 2
+block where right from block equal block_1 and left from block equal block_1
+block where left from block equal block_1 and left to block equal block_1
 block where height nl 3
 block argmin length
-block where length equal 3 and below equal block_1
-block where count left less two
-block where length equal 3 and left equal block_1
-block where special equal true and above equal block_1 
+block where length equal 3 and below to block equal block_1
+block where count left to less two
+block where length equal 3 and left to block equal block_1
+block where special equal true and above to block equal block_1
 block where width ng 3 or width ng 6
 block where special equal true and length equal 3
-block where left equal block_1 and below equal block_1
-block where right equal block where below equal block_1
-avg width
-block where special equal true and right equal block_1
-block where right equal block where height equal 3
-block argmin count left 
-block where below equal block_1 and right equal block_1
+block where left to block equal block_1 and below to block equal block_1
+block where right to block where below to block equal block_1
+avg width 
+block where special equal true and right from block equal block_1
+block where right to block where height equal 3
+block argmin count left from
+block where below from block equal block_1 and right to block equal block_1
 block where width nl length where block equal block_1
-block where left equal block_1 and special equal true
-block where above equal block where above equal block_1 
+block where left to block equal block_1 and special equal true
+block where above to block where above to block equal block_1
 block argmin height
-block where above equal block where right equal block_1
-block where special equal true and left equal block_1
+block where above to block where right to block equal block_1
+block where special equal true and left to block equal block_1
 height where block equal block_1
-block where right equal block where shape equal pyramid
-block where left neq block_1
+block where right to block where shape equal pyramid
+block where not left to block equal block_1
 block where width equal 3 or width equal 6
 block where height nl length where block equal block_1
 avg height
 block where count shape equal two
-block where width less 3 or width less 6 
-block where left equal block_1 and above equal block_1
+block where width less 3 or width less 6
+block where left to block equal block_1 and above from block equal block_1
 block where length greater length where block equal block_1
-block where shape equal pyramid and right equal block_1
-block where height equal 3 and right equal block_1
-block where length equal 3 and above equal block_1
-block where left equal block where width equal 3 
+block where shape equal pyramid and right from block equal block_1
+block where height equal 3 and right to block equal block_1
+block where length equal 3 and above from block equal block_1
+block where left from block where width equal 3
 block where width equal length where block equal block_1
-block where below equal block where below equal block_1 
-block where count left greater two
-block where below equal block_1 and above equal block_1 
-block where below equal block where above equal block_1 
+block where below from block where below to block equal block_1 
+block where count left from greater two
+block where below to block equal block_1 and above to block equal block_1
+block where below from block where above from block equal block_1
 block where length less height where block equal block_1
 block where count color ng two
 block where height nl 3 or height nl 6
-block where right equal ng two
+block where count right to ng two
 block where length greater width where block equal block_1
-block where width equal 3 and below equal block_1
+block where width equal 3 and below to block equal block_1
 block where width nl width where block equal block_1
-block where right equal block where left equal block_1
-block where color equal color where block equal block_1
-block where right equal block where below equal block_1
-block argmax count right
-total width where block equal block
+block where right to block where left from block equal block_1
+block where color where block equal block_1
+block where right to block where below from block equal block_1
+block argmax count right from
+total width 
 block where length ng length where block equal block_1
-block where right equal block where below equal block_1
+block where right to block where below to block equal block_1
 block where length ng 3
-block where left equal block where above equal block_1 
-block where left equal block where left equal block_1
+block where left to block where above to block equal block_1
+block where left to block where left from block equal block_1
 block argmax height
 block argmin count color
-block where count right less two
-block where left equal block where shape equal pyramid
-block where above equal block_1 and left equal block_1
+block where count right from less two
+block where left to block where shape equal pyramid
+block where above from block equal block_1 and left from block equal block_1
 height where block equal block_1
 block where special equal true and width equal 3
-block where argmin count below
+block argmin count below to
 Mismatch 513: block that is left of block_1 or block 2
-block where left equal block where shape equal pyramid 
-block where right equal block_1 and height equal 3
-block where width equal width where block equal block_1
-block where right equal block_1 and left equal block_1
-block where above equal greater two
-block where count right equal two
-block where above equal block_1 and below equal block_1
-block where length equal not 3
+block where left from block where shape equal pyramid
+block where right from block equal block_1 and height equal 3
+block where width where block equal block_1
+block where right to block equal block_1 and left to block equal block_1
+block where count above to greater two
+block where count right to equal two
+block where above to block equal block_1 and below from block equal block_1
+block where length neq 3
 block where width equal 3 and special equal true
 block where length equal 3 and length equal 3
-block where left equal block where left equal block_1
-block where count below equal two 
+block where left to block where left to block equal block_1
+block where count below from equal two
 block where width equal 3 and special equal true
-block argmin count left
-block where below equal block_1 and above equal block_1
-block where right equal block_1 and special equal true
-block where above equal block_1 and special equal true
-block where width less 3 or width less 6 
+block argmin count right to
+block where below to block equal block_1 and above from block equal block_1
+block where right to block equal block_1 and special equal true
+block where above to block equal block_1 and special equal true
+block where width less 3 or width less 6
 block where count shape ng two
 block where length greater height where block equal block_1
-block where above equal block where shape equal pyramid
+block where above to block where shape equal pyramid
 block where length ng 3 or length ng 6
-block where right equal ng two
+block where count right to ng two
 block where height ng length where block equal block_1
-block where right equal block_1 and shape equal pyramid
-block where count left equal two
+block where right from block equal block_1 and shape equal pyramid
+block where count left to equal two
 block where shape equal pyramid and width equal 3
-block where above equal block where length equal 3
-block where above equal block_1 and left equal block_1
+block where above to block where length equal 3
+block where above to block equal block_1 and left from block equal block_1
 block where special equal true and length equal 3
-block that is right of block_1 or block 2
+Mismatch 544: block that is right of block_1 or block 2
 count block
-avg width
-block where left equal block_1 and right equal block_1
-block where count right greater two
+avg width 
+block where left to block equal block_1 and left from block equal block_1
+block where count right from greater two
 block where height less width where block equal block_1
-block where below equal block where right equal block_1
+block where below to block where right to block equal block_1
 block where length less length where block equal block_1
-block where count right nl two 
-count length
-block where above equal block_1 or above equal block_2
+block where count right from nl two
+total length
+Mismatch 554: block that block_1 or block 2 is above
 block where length greater width where block equal block_1
-block where below equal block where shape equal pyramid 
-block where above equal block_1 and width equal 3
+block where below from block where shape equal pyramid
+block where above to block equal block_1 and width equal 3
 block where height greater length where block equal block_1
-block where above equal block where length equal 3 
-block argmin count above 
-block where above equal block where special equal true
-block where below equal block where length equal 3
-block where below equal block_1 and width equal 3
+block where above from block where length equal 3
+block argmin count above from
+block where above to block where special equal true
+block where below to block where length equal 3
+block where below from block equal block_1 and width equal 3
 Mismatch 564: block that is above block_1 or block 2
 block where width ng height where block equal block_1
-block where above equal block_1 and length equal 3
+block where above from block equal block_1 and length equal 3
 block where shape equal pyramid and length equal 3
 block where width greater width where block equal block_1
-block where right equal block where below equal block_1 
-block where left equal block_1 and above equal block_1 
-block where count above nl two
+block where right from block where below to block equal block_1
+block where left to block equal block_1 and above to block equal block_1
+block where count above from nl two
 block where width greater length where block equal block_1
-block argmax count left
+block argmax count left from
 block where height less width where block equal block_1
-avg length
-block where above equal block_1 
-block where count left less two 
-block where count below nl two 
-block where count below less two 
-block where below equal block_1 and left equal block_1
-block where above equal less two
+avg length 
+block where above to block equal block_1
+block where count left from less two
+block where count below from nl two
+block where count below from less two
+block where below from block equal block_1 and left to block equal block_1
+block where count above to less two
 block where height equal length where block equal block_1
 block where length nl width where block equal block_1
-block where right equal block_1 and width equal 3
-block where count left nl two 
-block where left equal block where height equal 3
-block where right equal block where below equal block_1 
+block where right to block equal block_1 and width equal 3
+block where count left from nl two
+block where left to block where height equal 3
+block where right from block where below from block equal block_1
 block where width greater height where block equal block_1
-block where height equal height where block equal block_1
-block where above equal block_1 and special equal true
-block where left equal block where above equal block_1
-block where length equal 3 and left equal block_1
-block where not right equal block_1
-block where count left nl two 
+block where height where block equal block_1
+block where above from block equal block_1 and special equal true
+block where left to block where above from block equal block_1
+block where length equal 3 and left from block equal block_1
+block where not right to block equal block_1
+block where count left from nl two
 block where height greater height where block equal block_1
-block where left equal block_1
+block where left to block equal block_1 and left to block equal block_1
 block where height greater 3
-block where right equal block where shape equal pyramid
-block where right equal ng two
+block where right to block where shape equal pyramid
+block where count right to ng two
 shape where block equal block_1
 block where length equal 3 and special equal true
 block where width ng height where block equal block_1
-block where right equal block where above equal block_1
+block where right to block where above from block equal block_1
 block where width nl 3 or width nl 6
 block where shape equal pyramid and shape equal pyramid
-block where count below ng two 
-block where right neq block_1
-block where right equal block_1 and below equal block_1
-block where length equal 3 and right equal block_1
-block where width equal 3 and right equal block_1
+block where count below from ng two
+block where right not from block equal block_1 
+block where right to block equal block_1 and below to block equal block_1
+block where length equal 3 and right to block equal block_1
+block where width equal 3 and right from block equal block_1
 block where length less 3
 block where length less width where block equal block_1
-block where width equal 3 and right equal block_1
+block where width equal 3 and right to block equal block_1
 block where length greater height where block equal block_1
-block where below equal block_1 and shape equal pyramid
+block where below from block equal block_1 and shape equal pyramid
 block where height ng 3
 block where height less height where block equal block_1
-block where width equal 3 and below equal block_1
-avg length
+block where width equal 3 and below to block equal block_1
+avg length 
 block argmin width
-block where below equal block where length equal 3 
-block where right equal block where height equal 3
-block where shape equal pyramid and right equal block_1
-block where above equal block where left equal block_1 
-block where height equal height where block equal block_1
-block where above equal the least count block
-block where above equal block where left equal block_1
+block where below from block where length equal 3 
+block where right to block where height equal 3
+block where shape equal pyramid and right from block equal block_1
+block where above from block where left from block equal block_1
+block where height where block equal block_1
+block argmin count above to
+block where above to block where left from block equal block_1
 block where shape equal pyramid and height equal 3
-block where height ng 3 or height ng 6 
+block where height ng 3 or height ng 6
 block where width ng length where block equal block_1
-block where shape equal shape where block equal block_1
-block where below equal block_1 and above equal block_1 
+block where shape where block equal block_1
+block where below to block equal block_1 and above to block equal block_1
 block where width equal 3 and width equal 3
 block where length nl length where block equal block_1
-block where below equal block_1 and shape equal pyramid
-block where left equal block_1
-block where below equal block_1 and right equal block_1
+block where below to block equal block_1 and shape equal pyramid
+block where left to block equal block_1
+block where below from block equal block_1 and right from block equal block_1
 block argmin height
 length where block equal block_1
 block where count shape ng two
@@ -643,954 +643,954 @@ block where width equal 3 or width equal 6
 block where length equal 3 or length equal 6
 block argmin width
 width where block equal block_1
-block where special equal true and below equal block_1
-block where left equal block_1 and above equal block_1
-block where right equal block where length equal 3
+block where special equal true and below from block equal block_1
+block where left from block equal block_1 and above from block equal block_1
+block where right to block where length equal 3
 block where height greater length where block equal block_1
-block where count right equal two 
-block where left equal block where special equal true 
-block where below equal block where height equal 3
-block where shape equal pyramid or shape equal  cube
-block where above equal block where special equal true
-block where above equal block where above equal block_1 
+block where count right from equal two
+block where left from block where special equal true 
+block where below to block where height equal 3
+block where shape equal pyramid or shape equal cube
+block where above to block where special equal true
+block where above to block where above to block equal block_1
 block where height less 3
-block where above equal block_1 and length equal 3
-block where shape equal pyramid and right equal block_1
+block where above to block equal block_1 and length equal 3
+block where shape equal pyramid and right to block equal block_1
 block argmin height
-block argmax count left
-block where above equal the least count block
-block where above equal block_1 and width equal 3
-block where below equal block where above equal block_1
-block argmax count left
+block argmax count left two
+block argmin count above to
+block where above from block equal block_1 and width equal 3
+block where below to block where below from block equal block_1
+block argmax count left from
 block where count color ng two
-block where count below greater two 
+block where count below from greater two
 block argmin length
-block where right equal block where special equal true
-block where above equal block_1 and above equal block_1 
+block where right to block where special equal true
+block where above to block equal block_1 and above to block equal block_1
 block where count color less two
-block where right equal block_1 and below equal block_1
-block where right equal block_1 and left equal block_1
-block where below equal block where special equal true
+block where right from block equal block_1 and below from block equal block_1
+block where right to block equal block_1 and left to block equal block_1
+block where below from block where special equal true
 block where length nl height where block equal block_1
-block where height equal 3 and left equal block_1
-block where left equal block where below equal block_1
-block where shape equal pyramid or shape equal  cube
+block where height equal 3 and left to block equal block_1
+block where left from block where below from block equal block_1
+block where shape equal pyramid or shape equal cube
 block where count shape ng two
-block where above equal block where left equal block_1
-block where right equal block_1 and shape equal pyramid
+block where above to block where left from block equal block_1
+block where right from block equal block_1 and shape equal pyramid
 block where length nl 3
-block where length equal 3 and left equal block_1
+block where length equal 3 and left from block equal block_1
 block where height ng width where block equal block_1
-block where right equal block where below equal block_1 
+block where right from block where below from block equal block_1
 block where length ng width where block equal block_1
-block where above equal block_1 and right equal block_1
-block where left equal block where right equal block_1
-block where right equal block_1 and below equal block_1
-total width where block equal block
-block where count left nl two 
-block where length equal 3 and above equal block_1
-block where left equal block where below equal block_1 
-block where right equal block_1 and length equal 3
-block where count below less two 
-block where left equal block where left equal block_1
-block where count right ng two 
-block where below equal block where right equal block_1 
-block where below equal block where shape equal pyramid 
-block where count left ng two 
+block where above from block equal block_1 and right from block equal block_1
+block where left to block where right from block equal block_1
+block where right to block equal block_1 and below from block equal block_1
+total width 
+block where count left from nl two
+block where length equal 3 and above from block equal block_1
+block where left from block where below to block equal block_1
+block where right to block equal block_1 and length equal 3
+block where count below from less two
+block where left to block where left to block equal block_1
+block where count right from ng two
+block where below from block where right from block equal block_1
+block where below from block where shape equal pyramid
+block where count left from ng two
 block where height less length where block equal block_1
-block where argmax count below
-block where right equal block where above equal block_1 
-block where above equal less two
-block where right equal the least count block
-block where left neq block_1
-block where above equal block_1 and left equal block_1
-block where below equal block where left equal block_1 
-block where above equal block_1 and below equal block_1
-block where below equal block where right equal block_1
-block where left equal block where shape equal pyramid 
-block where special equal true and left equal block_1
+block argmax count below to 
+block where right from block where above to block equal block_1
+block where count above to less two
+block argmin count right to
+block where left not from block equal block_1
+block where above from block equal block_1 and left from block equal block_1
+block where below from block where left to block equal block_1
+block where above from block equal block_1 and below to block equal block_1
+block where below to block where right to block equal block_1
+block where left from block where shape equal pyramid
+block where special equal true and left to block equal block_1
 block where length ng 3 or length ng 6
-block where right equal block_1 and above equal block_1
-block where height greater 3 or length greater 6
-block argmin count right 
+block where right to block equal block_1 and above from block equal block_1
+block where height greater 3 or height greater 6
+block argmin count right from
 block where count shape less two
-block where count right greater two
+block where count right from greater two
 block where height equal length where block equal block_1
 block where shape equal pyramid
-block where right equal block_1 and shape equal pyramid
-block where count above equal two
-block where right equal block where special equal true
+block where right from block equal block_1 and shape equal pyramid
+block where count above from equal two
+block where right to block where special equal true
 block where count shape equal two
 count block
-block where count above ng two
-block where count below ng two 
+block where count above from ng two
+block where count below from ng two
 color where block equal block_1
-block where below equal block where above equal block_1
-block where shape equal pyramid and right equal block_1
-block where right equal block_1 and length equal 3
-block where above equal block where height equal 3
-block where count right nl two 
-block where width equal 3 and left equal block_1
-block where left equal block where left equal block_1
-block where left equal block_1 and right equal block_1
-block where below equal block_1 and right equal block_1
-block where count left less two 
-count length
-block where right equal block_1 and left equal block_1
-block where below equal block where left equal block_1 
+block where below to block where below from block equal block_1
+block where shape equal pyramid and right to block equal block_1
+block where right from block equal block_1 and length equal 3
+block where above to block where height equal 3
+block where count right from nl two
+block where width equal 3 and left to block equal block_1
+block where left to block where left to block equal block_1
+block where left from block equal block_1 and right from block equal block_1
+block where below to block equal block_1 and right from block equal block_1
+block where count left from less two
+total length
+block where right to block equal block_1 and right from block equal block_1
+block where below from block where left from block equal block_1
 block where length equal 3 and width equal 3
-block where right equal block where width equal 3
-block where left equal block where length equal 3 
+block where right to block where width equal 3
+block where left from block where length equal 3
 block where length less length where block equal block_1
-block where above equal less two
-block where shape equal pyramid or shape equal  cube
+block where count above to less two
+block where shape equal pyramid or shape equal cube
 block where count shape ng two
-block where left equal block where above equal block_1 
-block where above equal block where width equal 3
-block where below equal block_1 and width equal 3
-block where above equal block_1 and height equal 3
-block where above equal block_1 and height equal 3
-block where left equal block where special equal true
-block where below equal block where special equal true
-block where width equal 3 and below equal block_1
+block where left from block where above from block equal block_1
+block where above from block where width equal 3
+block where below to block equal block_1 and width equal 3
+block where above from block equal block_1 and height equal 3
+block where above to block equal block_1 and height equal 3
+block where left to block where special equal true
+block where below to block where special equal true
+block where width equal 3 and below from block equal block_1
 block where height nl length where block equal block_1
 block where width nl height where block equal block_1
-block where special equal true and below equal block_1
-block where below equal block where height equal 3
-block where right equal block_1 and shape equal pyramid
-block argmin count above 
-block where below equal block where left equal block_1 
-block where height equal not 3
-block where left equal block where right equal block_1
-block where special equal true and above equal block_1 
-block where count above nl two
-block where above equal block where below equal block_1
-block where right equal greater two
-block where width equal width where block equal block_1
-block where right equal block_1 and above equal block_1 
-block where below equal block where height equal 3
+block where special equal true and below to block equal block_1
+block where below to block where height equal 3
+block where right to block equal block_1 and shape equal pyramid
+block argmin count above from
+block where below from block where left to block equal block_1
+block where height neq 3
+block where left to block where right to block equal block_1
+block where special equal true and above to block equal block_1
+block where count above from nl two
+block where above to block where below from block equal block_1
+block where count right to greater two
+block where width where block equal block_1
+block where right from block equal block_1 and above to block equal block_1
+block where below from block where height equal 3
 shape equal pyramid or shape equal cube
 block where height nl height where block equal block_1
-block where above equal block_1 and length equal 3
+block where above from block equal block_1 and length equal 3
 block where height greater length where block equal block_1
-block where above equal block where above equal block_1
+block where above from block where above to block equal block_1 
 block where length greater 3 or length greater 6
-block where count below equal two 
-block where count above nl two
-block where left equal block_1 and shape equal pyramid
-block where above equal block where left equal block_1
-block where below equal block where below equal block_1
+block where count below from equal two
+block where count above to nl two
+block where left to block equal block_1 and shape equal pyramid
+block where above to block where left to block equal block_1
+block where below to block where below to block equal block_1
 block where width ng 3 or width ng 6
-block argmax count left
-block where below equal block where length equal 3 
-block where count above ng two
-block where argmin count below
-block equal block_1 or block equal block_2
+block argmax count left from
+block where below from block where length equal 3 
+block where count above from ng two
+block argmin count below to
+Mismatch 788: block_1 or block 2
 block where count shape less two
 block where width greater 3 or width greater 6
-block where width equal 3 and right equal block_1
-block where left equal block where right equal block_1
+block where width equal 3 and right to block equal block_1
+block where left from block where right from block equal block_1
 block where special equal true and width equal 3
 block where width greater width where block equal block_1
-block where right equal block_1 and special equal true
+block where right from block equal block_1 and special equal true
 block where height less width where block equal block_1
-block where width equal width where block equal block_1
-block where right equal nl two
+block where width where block equal block_1
+block where count right to nl two
 block where length ng height where block equal block_1
-block where below equal block_1 and above equal block_1
-block where shape equal pyramid and below equal block_1
-block where left equal block_1 and right equal block_1
-block where below equal block where special equal true
-block where above equal block_1 and below equal block_1
-total width where block equal block
-block where above equal block where right equal block_1
-block where shape equal pyramid and right equal block_1
+block where below to block equal block_1 and above from block equal block_1
+block where shape equal pyramid and below from block equal block_1
+block where left to block equal block_1 and right from block equal block_1
+block where below to block where special equal true
+block where above to block equal block_1 and below from block equal block_1
+total width 
+block where above to block where right to block equal block_1
+block where shape equal pyramid and right to block equal block_1
 block where height equal 3 and shape equal pyramid
 block where length equal 3
 block where special equal true and special equal true
-block where right equal block_1 and above equal block_1
-block where below equal block_1 and special equal true
+block where right to block equal block_1 and above from block equal block_1
+block where below from block equal block_1 and special equal true
 block argmax count shape
-block where above equal block where length equal 3
+block where above to block where length equal 3
 block where shape equal pyramid
 block where length nl 3 or length nl 6
 block where height ng 3
-block where count above less two 
-block where right equal block where shape equal pyramid 
-block where left equal block_1 and below equal block_1
-block where right equal block_1 and width equal 3
-block where above equal block where left equal block_1 
-block where below equal block_1 and right equal block_1
-block where below equal block where left equal block_1
+block where count above from less two
+block where right from block where shape equal pyramid 
+block where left to block equal block_1 and below from block equal block_1
+block where right from block equal block_1 and width equal 3
+block where above from block where left from block equal block_1
+block where below from block equal block_1 and right to block equal block_1
+block where below to block where left to block equal block_1
 block where width equal 3 and length equal 3
-block where above equal block_1 and shape equal pyramid
-block where length equal 3 and left equal block_1
+block where above from block equal block_1 and shape equal pyramid
+block where length equal 3 and left to block equal block_1
 block where special equal true and special equal true
-block where below equal block_1
-block where left equal block where right equal block_1
-block where length equal 3 and right equal block_1
-block where width equal 3 and left equal block_1
+block where below to block equal block_1
+block where left to block where right from block equal block_1
+block where length equal 3 and right to block equal block_1
+block where width equal 3 and left from block equal block_1
 block where height equal 3
-block argmin count left 
+block argmin count left from
 block where width less width where block equal block_1
 block where length equal 3 and height equal 3
-block where width equal 3 and right equal block_1
-block where special equal true and above equal block_1
+block where width equal 3 and right from block equal block_1
+block where special equal true and above from block equal block_1
 block where height nl width where block equal block_1
-length equal 3 or length equal 6
-block where left equal block_1 and right equal block_1
+height equal 3 or height equal 6
+block where left from block equal block_1 and left to block equal block_1
 block where length equal 3 and shape equal pyramid
-block where right equal less two
+block where count right to less two
 height where block equal block_1
-block where above equal block where right equal block_1
-block where shape equal pyramid and left equal block_1
+block where above from block where right to block equal block_1 
+block where shape equal pyramid and left to block equal block_1
 block where length ng length where block equal block_1
 avg height
-block where above equal block where left equal block_1
-block where length equal length where block equal block_1
-block where length less 3 or ength less 6
+block where above to block where left to block equal block_1
+block where length where block equal block_1
+block where length less 3 or length less 6
 block where length greater width where block equal block_1
-block where right equal the least count block
-block where left equal block_1
-block where above equal block_1 and length equal 3
-block where left equal block where left equal block_1
+block argmin count right to
+block where left from block equal block_1
+block where above to block equal block_1 and length equal 3
+block where left from block where left to block equal block_1
 block where height ng 3
-block where count right equal two 
-block where count below nl two
-block where count left less two
-block where left equal block_1
-block where below equal block where left equal block_1 
-block where left equal block_1 and below equal block_1
+block where count right from equal two
+block where count below to nl two
+block where count left to less two
+block where left from block equal block_1
+block where below from block where left from block equal block_1
+block where left from block equal block_1 and below from block equal block_1
 block where height nl width where block equal block_1
 block where count color greater two
 block where width less length where block equal block_1
-block where not right equal block_1
-block where below equal block where right equal block_1 
-block where above equal block_1 and shape equal pyramid
+block where not right to block equal block_1
+block where below from block where right to block equal block_1 
+block where above from block equal block_1 and shape equal pyramid
 block where height less 3 or height less 6
-block where right equal block_1
-block where below equal block where length equal 3 
-block where count below less two 
-block where argmin count below
+block where right to block equal block_1
+block where below from block where length equal 3 
+block where count below from less two
+block argmin count below to
 block where length greater 3 or length greater 6
-block where below equal block_1 and length equal 3
+block where below from block equal block_1 and length equal 3
 block where height greater 3
 block where count shape equal two
-block where width equal 3 and above equal block_1 
+block where width equal 3 and above to block equal block_1
 block where count color equal two
-block where right equal block_1 and left equal block_1
+block where right from block equal block_1 and right from block equal block_1
 block where height equal width where block equal block_1
-block where special equal true and right equal block_1
+block where special equal true and right from block equal block_1
 length where block equal block_1
 color where block equal block_1
-block where length equal not 3
-block argmin count left
-block where right equal block_1 and special equal true
-block where right equal block_1 and right equal block_1
+block where length neq 3
+block argmin count right to
+block where right to block equal block_1 and special equal true
+block where right to block equal block_1 and right to block equal block_1
 block where length equal width where block equal block_1
-block where above equal block where length equal 3
-block where left equal block_1 and length equal 3
+block where above to block where length equal 3
+block where left to block equal block_1 and length equal 3
 block where length equal 3 and shape equal pyramid
-block where count below equal two 
+block where count below from equal two
 block where length greater length where block equal block_1
-block where below equal block_1 and shape equal pyramid
+block where below from block equal block_1 and shape equal pyramid
 block where height nl 3 or height nl 6
-block where right equal block where left equal block_1
-block where right equal block where right equal block_1
+block where right to block where left to block equal block_1
+block where right from block where right from block equal block_1
 block where width less 3
 block where width greater width where block equal block_1
 block where width equal 3 and special equal true
-block where above equal block where above equal block_1 
+block where above to block where above to block equal block_1
 block where height greater 3
-block where above equal block where below equal block_1
-block where right equal block where left equal block_1 
+block where above to block where below to block equal block_1
+block where right from block where left to block equal block_1 
 block where height ng height where block equal block_1
-block where right equal block where width equal 3
-block where count left ng two 
+block where right to block where width equal 3
+block where count left to ng two
 block where height less height where block equal block_1
 block argmin height
 block where length ng width where block equal block_1
-block where right equal block_1 and right equal block_1
-block where length equal length where block equal block_1
-block where height equal 3 and left equal block_1
-block where below equal block where below equal block_1
+block where right to block equal block_1 and right to block equal block_1
+block where length where block equal block_1
+block where height equal 3 and left from block equal block_1
+block where below from block where below from block equal block_1
 block where length less 3
 block where width equal 3 and special equal true
-block where length equal 3 and right equal block_1
-block where left equal block_1 and below equal block_1
-block where below equal block_1 and width equal 3
+block where length equal 3 and right to block equal block_1
+block where left from block equal block_1 and below to block equal block_1
+block where below to block equal block_1 and width equal 3
 block where special equal true and shape equal pyramid
-block where right equal block_1 and below equal block_1
+block where right to block equal block_1 and below from block equal block_1
 block where width less 3
-block where left equal block_1 and below equal block_1
-block where left equal block_1 and height equal 3
-block where not below equal block_1
-block where above equal block_1
-block where above equal block where length equal 3
-block where below equal block where shape equal pyramid
-block where right equal block where above equal block_1
-block where count below nl two
+block where left from block equal block_1 and below from block equal block_1
+block where left to block equal block_1 and height equal 3
+block where not below to block equal block_1
+block where above from block equal block_1
+block where above to block where length equal 3
+block where below to block where shape equal pyramid
+block where right to block where above from block equal block_1
+block where count below to nl two
 block where width equal 3 and shape equal pyramid
-block where above equal block_1 and right equal block_1
-block where count right greater two
-block where height ng 3 or height ng 6 
-block where right equal block where right equal block_1
-block where left equal block_1 and length equal 3
+block where above from block equal block_1 and right from block equal block_1
+block where count right from greater two
+block where height ng 3 or height ng 6
+block where right to block where right to block equal block_1
+block where left from block equal block_1 and length equal 3
 block where special equal true and length equal 3
-block where count above less two 
-block where above equal block_1 and right equal block_1
+block where count above from less two
+block where above to block equal block_1 and right to block equal block_1
 block where shape equal pyramid and special equal true
-block where left equal block_1 and height equal 3
+block where left from block equal block_1 and height equal 3
 block where length greater 3
-block where above equal block_1 and left equal block_1
-block where above equal block where above equal block_1 
-block where height equal 3 and right equal block_1
-block where right equal block where width equal 3 
-block where above equal block_1 and right equal block_1
-block where left equal block where width equal 3 
-block where above equal block_1 and special equal true
-block argmax count below
+block where above to block equal block_1 and left to block equal block_1
+block where above to block where above to block equal block_1
+block where height equal 3 and right from block equal block_1
+block where right from block where width equal 3
+block where above to block equal block_1 and right to block equal block_1
+block where left from block where width equal 3
+block where above from block equal block_1 and special equal true
+block argmax count below from
 block where height greater 3
-block where above equal block where left equal block_1
-block where right equal block_1 and height equal 3
-block where above equal block where shape equal pyramid
-block where below equal block where shape equal pyramid
-block where below equal block where special equal true
+block where above to block where left from block equal block_1
+block where right from block equal block_1 and height equal 3
+block where above to block where shape equal pyramid
+block where below to block where shape equal pyramid
+block where below to block where special equal true
 block where length ng 3 or length ng 6
-block where shape equal pyramid and above equal block_1
+block where shape equal pyramid and above from block equal block_1
 block where length ng 3
-block where left equal block where above equal block_1 
-block where count left ng two 
+block where left to block where above to block equal block_1
+block where count left to ng two
 count block
-block where width equal 3 and below equal block_1
-block where above equal block_1 and left equal block_1
+block where width equal 3 and below from block equal block_1
+block where above from block equal block_1 and left from block equal block_1
 block where height ng width where block equal block_1
 block where height nl 3
-block where left equal block where width equal 3 
-block where special equal true and below equal block_1
-block where left equal block where above equal block_1
-block where below equal block where right equal block_1
+block where left from block where width equal 3
+block where special equal true and below to block equal block_1
+block where left to block where above from block equal block_1
+block where below to block where right to block equal block_1
 block where length equal 3 and width equal 3
 block where count color less two
-block where right equal the least count block
-block where above equal block where length equal 3
+block argmin count right to
+block where above to block where length equal 3
 block where count shape greater two
-block where shape equal pyramid and right equal block_1
+block where shape equal pyramid and right to block equal block_1
 block where height equal length where block equal block_1
-block where below equal block where right equal block_1 
-block where left equal block_1 and below equal block_1
-block where left equal block where length equal 3
-block where left equal block_1 and right equal block_1
-block where length equal 3 and left equal block_1
-block where above equal block_1 and below equal block_1
-block where length equal 3 and below equal block_1
-block where color equal color where block equal block_1
-block where below equal block_1 and shape equal pyramid
+block where below from block where right from block equal block_1
+block where left from block equal block_1 and below from block equal block_1
+block where left to block where length equal 3
+block where left from block equal block_1 and left to block equal block_1
+block where length equal 3 and left to block equal block_1
+block where above to block equal block_1 and below to block equal block_1
+block where length equal 3 and below to block equal block_1
+block where color where block equal block_1
+block where below to block equal block_1 and shape equal pyramid
 Mismatch 989: block that is below block_1 or block 2
-block where right equal block_1 or right equal block_2
+Mismatch 990: block that block_1 or block 2 is right of
 block where count color greater two
-block where right equal block_1 and height equal 3
-block where below equal block where below equal block_1 
-block argmax count below
-block where left equal block_1 and shape equal pyramid
+block where right to block equal block_1 and height equal 3
+block where below from block where below to block equal block_1 
+block argmax count below from
+block where left from block equal block_1 and shape equal pyramid
 block where width nl length where block equal block_1
-block argmax count above block 
+block argmax count above from 
 block where count color greater two
-block where right equal block where right equal block_1 
+block where right from block where right to block equal block_1
 block where count color less two
 block where height equal 3
-block where below equal block where width equal 3
-block where length equal 3 and above equal block_1
+block where below to block where width equal 3
+block where length equal 3 and above from block equal block_1
 block where shape neq pyramid
-block where left equal block_1 and width equal 3
+block where left from block equal block_1 and width equal 3
 block where length nl 3
-block where right equal block_1 and below equal block_1
-block where left equal block_1 and above equal block_1
-block where count right ng two 
+block where right to block equal block_1 and below to block equal block_1
+block where left from block equal block_1 and above from block equal block_1
+block where count right from ng two
 block where height greater 3
 block where length equal width where block equal block_1
 block where height ng height where block equal block_1
-block where width equal 3 and left equal block_1
-block where left equal block where height equal 3 
+block where width equal 3 and left to block equal block_1
+block where left from block where height equal 3 
 block argmax count color
-block where length equal not 3
-block where count color nl two
-block where color equal color where block equal block_1
-block where count right greater two
+block where length neq 3
+block where has at least two color
+block where color where block equal block_1
+block where count right from greater two
 block where count shape ng two
-block where above equal block where right equal block_1
-block where below equal block where length equal 3
-block where height equal 3 and above equal block_1
+block where above to block where right to block equal block_1
+block where below to block where length equal 3
+block where height equal 3 and above from block equal block_1
 block where length greater 3
-block where height equal 3 and right equal block_1
-block where right equal block_1 and above equal block_1
-block where length equal 3 and right equal block_1
+block where height equal 3 and right to block equal block_1
+block where right from block equal block_1 and above from block equal block_1
+block where length equal 3 and right from block equal block_1
 block where count color equal two
-block where right equal block_1 and above equal block_1 
-block where length equal 3 and below equal block_1
-block where below equal block_1 and height equal 3
-block where special equal true and right equal block_1
-block where count right ng two 
-block where above equal block where right equal block_1
+block where right from block equal block_1 and above to block equal block_1
+block where length equal 3 and below from block equal block_1
+block where below to block equal block_1 and height equal 3
+block where special equal true and right from block equal block_1
+block where count right from ng two
+block where above to block where right from block equal block_1
 block where length equal 3 and length equal 3
-block where right equal block where above equal block_1 
+block where right to block where above to block equal block_1
 block where count color equal two
-block where count left nl two
+block where count left to nl two
 Mismatch 1039: block that block_1 or block 2 is left of
-block where right equal block_1 and height equal 3
-block where above equal block where height equal 3
-block where above equal block_1 and left equal block_1
+block where right to block equal block_1 and height equal 3
+block where above to block where height equal 3
+block where above to block equal block_1 and left to block equal block_1
 block argmin height
-block where below equal block where left equal block_1 
-block where right equal block where width equal 3
-block where above equal block where shape equal pyramid 
+block where below from block where left from block equal block_1
+block where right to block where width equal 3
+block where above from block where shape equal pyramid
 block where length nl width where block equal block_1
-block where count left ng two 
-block where above equal block_1 and special equal true
+block where count left from ng two
+block where above to block equal block_1 and special equal true
 block where length nl 3 or length nl 6
 block where length equal 3 or length equal 6
-block where above equal block where width equal 3
-block where below equal block_1 and above equal block_1 
-block where count below less two
+block where above to block where width equal 3
+block where below to block equal block_1 and above to block equal block_1
+block where count below to less two
 block argmin count color
-block where right equal block_1 and height equal 3
-count length
+block where right from block equal block_1 and height equal 3
+total length
 block argmax count shape
-block where height equal 3 and above equal block_1 
-block where below equal block where above equal block_1
-block where left equal block_1 and right equal block_1
-block where right equal block where below equal block_1 
-block where below equal block_1 and length equal 3
-block where height ng 3 or height ng 6 
-block where special equal true and left equal block_1
-block where special equal true and left equal block_1
+block where height equal 3 and above to block equal block_1
+block where below to block where below from block equal block_1
+block where left to block equal block_1 and left from block equal block_1
+block where right from block where below from block equal block_1
+block where below from block equal block_1 and length equal 3
+block where height ng 3 or height ng 6
+block where special equal true and left to block equal block_1
+block where special equal true and left to block equal block_1
 block where width ng 3 or width ng 6
-block where below equal block_1 and above equal block_1
+block where below from block equal block_1 and below to block equal block_1
 block argmax count shape
 block where height nl width where block equal block_1
-block where length less 3 or ength less 6
-block where above equal block where below equal block_1
-block where left equal block where shape equal pyramid 
-block where above equal block_1 and special equal true
-block where above equal the least count block
-block where below equal block where shape equal pyramid
-block where height equal not 3
+block where length less 3 or length less 6
+block where above to block where below to block equal block_1
+block where left from block where shape equal pyramid
+block where above to block equal block_1 and special equal true
+block argmin count above to
+block where below to block where shape equal pyramid
+block where height neq 3
 block where length greater length where block equal block_1
 block where length nl 3
-block where left equal block_1
-block where right equal block_1 and shape equal pyramid
-block where left equal block where right equal block_1
-block where above equal block_1 and left equal block_1
-block where count left nl two 
+block where left from block equal block_1 and left from block equal block_1
+block where right to block equal block_1 and shape equal pyramid
+block where left to block where right to block equal block_1
+block where above from block equal block_1 and left from block equal block_1
+block where count left from nl two
 Mismatch 1085: block that block_1 or block 2 is left of
-block where height equal 3 and above equal block_1 
+block where height equal 3 and above to block equal block_1
 block where length equal 3 or length equal 6
-block where left equal block where width equal 3 
-block where left equal block where special equal true 
+block where left from block where width equal 3
+block where left from block where special equal true 
 block where shape equal pyramid and shape equal pyramid
 block where length less width where block equal block_1
-block where above equal block_1 or above equal block_2
+Mismatch 1092: block that block_1 or block 2 is above
 block where width equal 3 and shape equal pyramid
-count length
-block where above equal block where shape equal pyramid 
-block where right equal block_1 and special equal true
-block where left equal block where below equal block_1
+total length
+block where above from block where shape equal pyramid
+block where right to block equal block_1 and special equal true
+block where left to block where below from block equal block_1
 block where height ng height where block equal block_1
-block where right equal block_1 and left equal block_1
-block where shape equal shape where block equal block_1
-block where above equal block_1 and right equal block_1
-block where count below equal two 
-block where width equal 3 and right equal block_1
+block where right from block equal block_1 and left to block equal block_1
+block where shape where block equal block_1
+block where above from block equal block_1 and right from block equal block_1
+block where count below from equal two
+block where width equal 3 and right to block equal block_1
 block where length less 3
-block where below equal block where above equal block_1 
-block where below equal block_1 and height equal 3
-block where length equal 3 and left equal block_1
+block where below to block where above to block equal block_1
+block where below from block equal block_1 and height equal 3
+block where length equal 3 and left from block equal block_1
 block where length greater 3 or length greater 6
 Mismatch 1109: block that is left of block_1 or block 2
-block where above equal block where shape equal pyramid
+block where above to block where shape equal pyramid
 block where length greater width where block equal block_1
-block argmax count right
-block where left equal block_1
-block where count left greater two
+block argmax count right from
+block where left to block equal block_1
+block where count left from greater two
 block where width equal 3 and height equal 3
 block where shape neq pyramid
-block where right equal greater two
-block where below equal block_1 and height equal 3
+block where count right to greater two
+block where below from block equal block_1 and height equal 3
 count block
 block where count color ng two
-block where count below equal two
-block where right equal the most count block
-block where left equal block where height equal 3
-block where above equal block_1 and length equal 3
-block where right equal block_1 and shape equal pyramid
-block where right equal block where right equal block_1 
-block where above equal block where width equal 3
-block where right equal less two
-block where left equal block where height equal 3 
-block where left equal block_1 and below equal block_1
+block where count below to equal two
+block argmax count right to
+block where left to block where height equal 3
+block where above to block equal block_1 and length equal 3
+block where right to block equal block_1 and shape equal pyramid
+block where right from block where right to block equal block_1
+block where above to block where width equal 3
+block where count right to less two
+block where left from block where height equal 3 
+block where left from block equal block_1 and below to block equal block_1
 block where width ng length where block equal block_1
-block where left equal block_1 and below equal block_1
-block where below equal block_1 and right equal block_1
+block where left to block equal block_1 and below from block equal block_1
+block where below to block equal block_1 and right from block equal block_1
 block where height less 3
-block where length equal 3 and below equal block_1
+block where length equal 3 and below to block equal block_1
 block where length equal 3 and length equal 3
-block where right equal block_1
-block where right equal block where right equal block_1
-block where left equal block_1
+block where right from block equal block_1
+block where right from block where right from block equal block_1
+block where left to block equal block_1
 block where special equal true and shape equal pyramid
 Mismatch 1141: block that is left of block_1 or block 2
-block where below equal block_1 and below equal block_1
-block where height equal not 3
-block where height greater 3 or length greater 6
-total height where block equal block
+block where below to block equal block_1 and below to block equal block_1
+block where height neq 3
+block where height greater 3 or height greater 6
+total height
 block where width ng width where block equal block_1
-block where height equal 3 or height equal 6 
+block where height equal 3 or height equal 6
 block argmin count color
-block where shape equal pyramid or shape equal  cube
-block where right equal block_1 and below equal block_1
-block where count above greater two 
-block where below equal block where above equal block_1
-block where above equal block where below equal block_1
-block where above equal block where above equal block_1
+block where shape equal pyramid or shape equal cube
+block where right from block equal block_1 and below to block equal block_1
+block where count above from greater two
+block where below to block where above from block equal block_1
+block where above to block where below from block equal block_1
+block where above to block where above from block equal block_1
 block where length greater width where block equal block_1
-block where left equal block where length equal 3
-block where below equal block_1 and right equal block_1
-block where count right equal two
-block where right equal block where shape equal pyramid 
+block where left to block where length equal 3
+block where below from block equal block_1 and right to block equal block_1
+block where count right to equal two
+block where right from block where shape equal pyramid 
 block argmax length
-block where above equal block where length equal 3 
+block where above from block where length equal 3
 block where length nl 3 or length nl 6
-block where left equal block where length equal 3 
-block where left neq block_1
-block argmin count below
-block where left equal block_1 and above equal block_1
-block where width less 3 or width less 6 
+block where left from block where length equal 3
+block where not left to block equal block_1
+block argmin count below from
+block where left to block equal block_1 and above from block equal block_1
+block where width less 3 or width less 6
 block where length equal 3 and shape equal pyramid
 block argmin width
 length where block equal block_1
-block where right equal block_1 and shape equal pyramid
+block where right from block equal block_1 and shape equal pyramid
 block where shape neq pyramid
-block where below equal block where width equal 3
-block where right neq block_1
-block argmin count right 
-block where above equal block_1 and width equal 3
+block where below to block where width equal 3
+block where right not from block equal block_1 
+block argmin count right from
+block where above from block equal block_1 and width equal 3
 block where shape equal pyramid
-block where above equal block where above equal block_1
+block where above to block where above from block equal block_1
 block where width less width where block equal block_1
-block where above equal block_1 and left equal block_1
+block where above to block equal block_1 and left to block equal block_1
 block where height equal 3 and shape equal pyramid
-block where length equal 3 and below equal block_1
-block where above equal block where above equal block_1
-block where below equal block where below equal block_1 
+block where length equal 3 and below from block equal block_1
+block where above from block where above to block equal block_1 
+block where below from block where below to block equal block_1 
 block where width equal 3 and length equal 3
 block where width greater 3
-block argmax count above block 
-block where width less 3 or width less 6 
-block where right equal block_1 and special equal true
+block argmax count above from 
+block where width less 3 or width less 6
+block where right from block equal block_1 and special equal true
 block where width greater 3
-block where left equal block_1 and above equal block_1 
-block argmax count below
+block where left from block equal block_1 and above to block equal block_1
+block argmax count below from
 block where height greater length where block equal block_1
-block where below equal block where height equal 3
-block where below equal block_1 and right equal block_1
+block where below from block where height equal 3
+block where below from block equal block_1 and right from block equal block_1
 block where width less height where block equal block_1
-block argmin count shape
-block where right equal block_1 and length equal 3
-block where above equal block_1 and left equal block_1
+block where has the least count shape
+block where right from block equal block_1 and length equal 3
+block where above from block equal block_1 and left to block equal block_1
 block where height equal 3
-block where below equal block_1 and above equal block_1
-block where below equal block_1
-block where above equal block_1 
-block where count below ng two
+block where below to block equal block_1 and below from block equal block_1
+block where below from block equal block_1
+block where above to block equal block_1
+block where count below to ng two
 block where height nl height where block equal block_1
-block where height ng 3 or height ng 6 
+block where height ng 3 or height ng 6
 block where shape equal pyramid and height equal 3
-block where right equal block_1 and special equal true
-block where below equal block where above equal block_1 
-block where count left less two 
-block where right equal block_1 and length equal 3
-block where right equal block where above equal block_1 
-block where below equal block_1 and shape equal pyramid
-block where height equal 3 and below equal block_1
-block where below equal block where below equal block_1
-block where above equal block where special equal true
-block where right equal block_1 and below equal block_1
-block where left equal block_1
+block where right to block equal block_1 and special equal true
+block where below to block where above to block equal block_1
+block where count left from less two
+block where right to block equal block_1 and length equal 3
+block where right from block where above to block equal block_1
+block where below from block equal block_1 and shape equal pyramid
+block where height equal 3 and below to block equal block_1
+block where below from block where below from block equal block_1
+block where above from block where special equal true 
+block where right from block equal block_1 and below from block equal block_1
+block where left from block equal block_1 and left from block equal block_1
 block where height nl length where block equal block_1
-block where left equal block where left equal block_1
+block where left to block where left to block equal block_1
 block where length ng length where block equal block_1
-block where below equal block where right equal block_1 
-block where right equal block_1 and above equal block_1
+block where below from block where right to block equal block_1 
+block where right from block equal block_1 and above from block equal block_1
 block where length equal width where block equal block_1
 block where height less 3 or height less 6
 block where height equal 3 and special equal true
-block where not above equal block_1 
-block where below equal block where special equal true
-block where special equal true and above equal block_1 
-block where below equal block_1 and width equal 3
-block that block_1 or block 2 is right of
+block where not above to block equal block_1
+block where below from block where special equal true
+block where special equal true and above to block equal block_1
+block where below to block equal block_1 and width equal 3
+Mismatch 1231: block that block_1 or block 2 is right of
 block where shape equal pyramid and height equal 3
-block where below equal block_1 and left equal block_1
-block where left equal block where left equal block_1
+block where below from block equal block_1 and left from block equal block_1
+block where left from block where left to block equal block_1
 block where height greater width where block equal block_1
 block argmax count shape
-block where height equal 3 and left equal block_1
+block where height equal 3 and left from block equal block_1
 block argmax height
-block where above equal block where right equal block_1
-block where below equal block_1 and right equal block_1
-block where left equal block_1 and length equal 3
-block where left equal block where below equal block_1 
+block where above from block where right from block equal block_1
+block where below from block equal block_1 and right from block equal block_1
+block where left to block equal block_1 and length equal 3
+block where left from block where below to block equal block_1
 block where length nl 3 or length nl 6
 block where length greater 3
 block where length equal 3 and length equal 3
-block where above equal block where above equal block_1
+block where above from block where above to block equal block_1 
 block where shape equal pyramid and special equal true
-block where right equal block where left equal block_1
+block where right to block where left from block equal block_1
 block where length equal 3 and special equal true
 block where height nl length where block equal block_1
-block where above equal block_1 
-block where right equal ng two
-block where shape equal pyramid and left equal block_1
-block where above equal block_1 and height equal 3
-block where below equal block where above equal block_1 
+block where above to block equal block_1
+block where count right to ng two
+block where shape equal pyramid and left to block equal block_1
+block where above from block equal block_1 and height equal 3
+block where below from block where above from block equal block_1
 block where height nl 3
-total height where block equal block
-block where left equal block_1 or left equal block_2
-block where right equal block_1 and width equal 3
+total height
+Mismatch 1258: block that is right of block_1 or block 2
+block where right to block equal block_1 and width equal 3
 block where width nl height where block equal block_1
-block where below equal block_1 and width equal 3
-block where right equal nl two
+block where below from block equal block_1 and width equal 3
+block where count right to nl two
 width where block equal block_1
-block where shape equal pyramid and below equal block_1
-block where below equal block where right equal block_1
-block where above equal block where length equal 3
-block where above equal block where below equal block_1
-block argmin count right 
-block where count below ng two 
-block where above equal block_1 or above equal block_2
-block where above equal block where special equal true
+block where shape equal pyramid and below to block equal block_1
+block where below to block where right from block equal block_1
+block where above to block where length equal 3
+block where above to block where below from block equal block_1
+block argmin count right from
+block where count below from ng two
+Mismatch 1270: block that block_1 or block 2 is above
+block where above to block where special equal true
 block where length equal 3 and width equal 3
 block where length ng 3
 height where block equal block_1
-block where width equal 3 and below equal block_1
-block where right equal block where special equal true
-block where shape equal shape where block equal block_1
-block where left equal block where width equal 3
+block where width equal 3 and below from block equal block_1
+block where right to block where special equal true
+block where shape where block equal block_1
+block where left to block where width equal 3
 block where length less width where block equal block_1
-block where above equal block where right equal block_1
+block where above from block where right from block equal block_1
 block where height less length where block equal block_1
-block where left equal block_1 and special equal true
-block where below equal block_1 and above equal block_1
-block where height equal 3 or height equal 6 
+block where left from block equal block_1 and special equal true
+block where below from block equal block_1 and above from block equal block_1
+block where height equal 3 or height equal 6
 block where width less height where block equal block_1
-block where left equal block where above equal block_1 
-block where count below less two
-block where right equal block_1 and special equal true
-block where right equal block where below equal block_1 
-block where height equal 3 and left equal block_1
-block where right equal the least count block
-block where below equal block where left equal block_1
-block where height equal 3 and below equal block_1
-block where below equal block_1 and width equal 3
-block where below equal block where left equal block_1
+block where left to block where above to block equal block_1
+block where count below to less two
+block where right to block equal block_1 and special equal true
+block where right from block where below to block equal block_1
+block where height equal 3 and left from block equal block_1
+block argmin count right to
+block where below to block where left from block equal block_1
+block where height equal 3 and below from block equal block_1
+block where below from block equal block_1 and width equal 3
+block where below to block where left to block equal block_1
 block where count color greater two
-block where right equal block where above equal block_1 
-block where height equal 3 and right equal block_1
+block where right from block where above from block equal block_1 
+block where height equal 3 and right from block equal block_1
 block where height less height where block equal block_1
-block where left equal block_1 and right equal block_1
+block where left from block equal block_1 and right from block equal block_1
 block where shape equal pyramid and height equal 3
-block where left equal block_1 and width equal 3
-block where right equal block where above equal block_1 
-block where left equal block_1 and below equal block_1
-block where height equal 3 and left equal block_1
-block where above equal block where left equal block_1 
+block where left to block equal block_1 and width equal 3
+block where right from block where above to block equal block_1
+block where left to block equal block_1 and below from block equal block_1
+block where height equal 3 and left to block equal block_1
+block where above from block where left from block equal block_1
 block where length less width where block equal block_1
-block where above equal block_1 and height equal 3
-block where right equal block_1 and special equal true
-block where height equal 3 and right equal block_1
-block where length equal 3 and above equal block_1 
+block where above to block equal block_1 and height equal 3
+block where right from block equal block_1 and special equal true
+block where height equal 3 and right from block equal block_1
+block where length equal 3 and above to block equal block_1
 block where height ng 3
-block where above equal block where below equal block_1 
-block where special equal true and right equal block_1
+block where above from block where below to block equal block_1 
+block where special equal true and right to block equal block_1
 shape where block equal block_1
 block where width less 3
-block where left equal block where height equal 3 
+block where left from block where height equal 3 
 block where shape equal pyramid and width equal 3
-block where left equal block_1 and height equal 3
+block where left from block equal block_1 and height equal 3
 block where width ng 3
-block where above equal block where left equal block_1
-block where above equal block_1
-block where right equal block where height equal 3
-total width where block equal block
-block where left equal block where special equal true
-block where height equal 3 and below equal block_1
-block argmin count left 
+block where above to block where left from block equal block_1
+block where above from block equal block_1 and above from block equal block_1
+block where right to block where height equal 3
+total width 
+block where left to block where special equal true
+block where height equal 3 and below to block equal block_1
+block argmin count left from
 block where width less height where block equal block_1
-block where left equal block where right equal block_1
+block where left from block where right to block equal block_1 
 block where height equal 3 and special equal true
-block where left equal block where width equal 3
+block where left to block where width equal 3
 block where height ng 3
-block where left equal block where left equal block_1
+block where left to block where left from block equal block_1
 block where height equal 3 and height equal 3
-block where height equal height where block equal block_1
-block where above equal block_1 and length equal 3
-block where count below less two
-block where shape equal pyramid and right equal block_1
-block where left equal block where above equal block_1
-block where shape equal pyramid and above equal block_1 
-block where above equal the most count block
+block where height where block equal block_1
+block where above from block equal block_1 and length equal 3
+block where count below to less two
+block where shape equal pyramid and right to block equal block_1
+block where left to block where above from block equal block_1
+block where shape equal pyramid and above to block equal block_1
+block argmax count above to
 block argmax height
-block where right equal block where right equal block_1
+block where right to block where right to block equal block_1
 block where length ng width where block equal block_1
 block where height greater width where block equal block_1
-block where left equal block where shape equal pyramid 
-block where right equal block where right equal block_1
-block where left equal block_1 and below equal block_1
-block where count left greater two
-block where special equal true and right equal block_1
+block where left from block where shape equal pyramid
+block where right to block where right to block equal block_1
+block where left from block equal block_1 and below to block equal block_1
+block where count left to greater two
+block where special equal true and right to block equal block_1
 block where length ng 3 or length ng 6
 block where shape equal pyramid and width equal 3
-block where right equal block_1 and below equal block_1
-block where count below equal two
+block where right from block equal block_1 and below to block equal block_1
+block where count below to equal two
 block where height less length where block equal block_1
 count block
 block where height ng width where block equal block_1
 width where block equal block_1
-block where above equal block_1 and right equal block_1
-block where left equal block_1 and below equal block_1
-block where count left nl two
+block where above from block equal block_1 and right from block equal block_1
+block where left to block equal block_1 and below from block equal block_1
+block where count left to nl two
 block where width less width where block equal block_1
-block where height equal 3 and below equal block_1
-block where height equal not 3
-block where above equal two
-block where below equal block where left equal block_1
-block where below equal block_1 and right equal block_1
+block where height equal 3 and below to block equal block_1
+block where height neq 3
+block where count above to equal two
+block where below to block where left to block equal block_1
+block where below to block equal block_1 and right to block equal block_1
 height where block equal block_1
 block where special equal true and width equal 3
-block where right equal block where left equal block_1 
-block argmax count right
-block where right equal block_1 and shape equal pyramid
-block where argmax count below
-block where count above equal two
-block where special equal true and above equal block_1 
-block where length equal length where block equal block_1
-block where left equal block where below equal block_1
-block where right equal block_1 and left equal block_1
-block where height equal 3 and left equal block_1
-block where not below equal block_1
-block where below equal block_1 and special equal true
-block argmin count below
-block where right equal block where height equal 3
+block where right from block where left from block equal block_1
+block argmax count right from
+block where right to block equal block_1 and shape equal pyramid
+block argmax count below to 
+block where count above from equal two
+block where special equal true and above to block equal block_1
+block where length where block equal block_1
+block where left to block where below to block equal block_1
+block where right from block equal block_1 and left to block equal block_1
+block where height equal 3 and left from block equal block_1
+block where not below to block equal block_1
+block where below from block equal block_1 and special equal true
+block argmin count below from
+block where right to block where height equal 3
 block where shape neq pyramid
-block where below equal block where left equal block_1
-block where right equal block_1 and below equal block_1
-block where above equal the least count block
-block where left equal block_1 and shape equal pyramid
-block where below equal block where left equal block_1
-block where above equal block where left equal block_1 
+block where below to block where left to block equal block_1
+block where right from block equal block_1 and below from block equal block_1
+block argmin count above to
+block where left to block equal block_1 and shape equal pyramid
+block where below to block where left from block equal block_1
+block where above from block where left to block equal block_1 
 block where width ng 3
-block where right equal ng two
-block where below equal block where shape equal pyramid
-block where right equal block_1 and below equal block_1
-block where above equal block where right equal block_1
-block where length equal not 3
-block argmin count shape
-block where below equal block where left equal block_1 
+block where count right to ng two
+block where below to block where shape equal pyramid
+block where right to block equal block_1 and below from block equal block_1
+block where above from block where right from block equal block_1
+block where length neq 3
+block where has the least count shape
+block where below from block where left to block equal block_1
 block where height equal 3 and height equal 3
-block where count left equal two
-block where width equal 3 and above equal block_1 
-block where above equal block_1 and shape equal pyramid
+block where count left to equal two
+block where width equal 3 and above to block equal block_1
+block where above from block equal block_1 and shape equal pyramid
 avg height
-block where right equal block where length equal 3 
+block where right from block where length equal 3 
 block where width nl 3
-block where below equal block where above equal block_1
+block where below to block where above from block equal block_1
 block where length equal height where block equal block_1
-block where count left less two
-block where right equal the most count block
-block where left equal block_1
-block where length equal not 3
-block where right equal greater two
-block where not above equal block_1 
-block where above equal block where shape equal pyramid
-block where below equal block where right equal block_1
-block where height equal 3 and above equal block_1
+block where count left to less two
+block argmax count right to
+block where left to block equal block_1 and left to block equal block_1
+block where length neq 3
+block where count right to greater two
+block where not above to block equal block_1
+block where above to block where shape equal pyramid
+block where below to block where right from block equal block_1
+block where height equal 3 and above from block equal block_1
 block where shape equal pyramid and length equal 3
-block where count below greater two
-block where special equal true and below equal block_1
-block where above equal block_1 and width equal 3
+block where count below to greater two
+block where special equal true and below from block equal block_1
+block where above to block equal block_1 and width equal 3
 block where count shape greater two
-block where above equal block_1 or above equal block_2
-block where count below ng two 
-block where right equal block_1 or right equal block_2
-block where width equal 3 and left equal block_1
-block where count left equal
+Mismatch 1422: block that block_1 or block 2 is above
+block where count below from ng two
+Mismatch 1424: block that block_1 or block 2 is right of
+block where width equal 3 and left from block equal block_1
+block where count left from equal two
 block argmax height
 block where width less length where block equal block_1
-block where height equal 3 and left equal block_1
-avg width
+block where height equal 3 and left to block equal block_1
+avg width 
 block where width less height where block equal block_1
-block where above equal block where right equal block_1
+block where above to block where right from block equal block_1
 block where shape equal pyramid and width equal 3
 block where height greater height where block equal block_1
-block where special equal true and left equal block_1
+block where special equal true and left from block equal block_1
 block where width equal height where block equal block_1
 block where width ng 3
-block where above equal block_1 and below equal block_1 
+block where above from block equal block_1 and above to block equal block_1
 block where length greater 3
-block where right equal block where right equal block_1
-block where above equal block_1 and below equal block_1
+block where right to block where right from block equal block_1
+block where above to block equal block_1 and below to block equal block_1
 block argmin width
-block where above equal block where above equal block_1
-block where height equal 3 and right equal block_1
+block where above to block where above from block equal block_1
+block where height equal 3 and right from block equal block_1
 block argmax length
 block where width ng width where block equal block_1
-block where left equal block_1 and right equal block_1
-block where count right ng two 
+block where left from block equal block_1 and right to block equal block_1
+block where count right from ng two
 block where count color less two
 Mismatch 1450: block that block_1 or block 2 is below
-block where right equal block_1 and above equal block_1
-block argmin count above 
+block where right to block equal block_1 and above from block equal block_1
+block argmin count above from
 Mismatch 1453: block that block_1 or block 2 is below
-block where below equal block_1 and height equal 3
-block where left neq block_1
-block where count right ng two 
-block where right equal block_1
-block where height equal 3 and above equal block_1 
+block where below from block equal block_1 and height equal 3
+block where left not from block equal block_1
+block where count right from ng two
+block where right to block equal block_1
+block where height equal 3 and above to block equal block_1
 block where height greater height where block equal block_1
-block where below equal block_1 and height equal 3
-block where not above equal block_1 
-block where below equal block_1 and above equal block_1
-block where above neq block_1
+block where below to block equal block_1 and height equal 3
+block where not above to block equal block_1
+block where below from block equal block_1 and below to block equal block_1
+block where above not from block equal block_1
 Mismatch 1464: block that is above block_1 or block 2
-block where right equal block_1 and right equal block_1
-block where below neq block_1
-block where left equal block where length equal 3
+block where right from block equal block_1 and right to block equal block_1
+block where below not from block equal block_1 not 
+block where left to block where length equal 3
 Mismatch 1468: block that is below block_1 or block 2
-block where above equal block_1 and right equal block_1
-block where right equal block where above equal block_1
+block where above from block equal block_1 and right from block equal block_1
+block where right to block where above from block equal block_1
 block where shape neq pyramid
 block where length less 3
-block argmin count left
-block where count right less two
-block where above equal block_1 
+block argmin count right to
+block where count right from less two
+block where above to block equal block_1
 avg height
 shape equal pyramid or shape equal cube
-block where count above ng two
+block where count above from ng two
 block where length greater height where block equal block_1
-block where above equal block where width equal 3
+block where above to block where width equal 3
 block where count shape equal two
 block where width less length where block equal block_1
-block where right equal block_1 and below equal block_1
+block where right from block equal block_1 and below from block equal block_1
 block where height equal width where block equal block_1
 block where length greater length where block equal block_1
-block where left equal block_1 and height equal 3
+block where left from block equal block_1 and height equal 3
 block where length nl height where block equal block_1
 block argmin width
 block where special equal true and length equal 3
-block where left equal block_1 and above equal block_1 
+block where left to block equal block_1 and above to block equal block_1
 avg height
-block where right equal block_1 and height equal 3
+block where right to block equal block_1 and height equal 3
 block where shape equal pyramid and shape equal pyramid
-block where below equal block_1 and above equal block_1
-block where width equal 3 and above equal block_1
+block where below from block equal block_1 and below to block equal block_1
+block where width equal 3 and above from block equal block_1
 block where width nl height where block equal block_1
-block where right equal block where left equal block_1
-block where below equal block_1 and special equal true
+block where right to block where left to block equal block_1
+block where below to block equal block_1 and special equal true
 block where width equal 3 and shape equal pyramid
-block where left equal block where above equal block_1 
-block where right equal block where left equal block_1
-block where below equal block_1 and below equal block_1
-block where right equal block_1
-block where above equal block where height equal 3
+block where left from block where above from block equal block_1
+block where right to block where left to block equal block_1
+block where below to block equal block_1 and below to block equal block_1
+block where right from block equal block_1
+block where above to block where height equal 3
 block where count shape ng two
 block where width less 3
-block where left equal block where below equal block_1
-block where count left equal two
-block where count left less two 
-block where shape equal pyramid and right equal block_1
-block where shape equal pyramid or shape equal  cube
+block where left to block where below from block equal block_1
+block where count left to equal two
+block where count left from less two
+block where shape equal pyramid and right to block equal block_1
+block where shape equal pyramid or shape equal cube
 block where height equal width where block equal block_1
-block where below equal block_1 and above equal block_1 
-block argmin count shape
-block where right equal block where above equal block_1 
-block where above equal ng two
-block where left equal block_1 and right equal block_1
-block where above equal block where width equal 3
+block where below from block equal block_1 and above to block equal block_1
+block where has the least count shape
+block where right to block where above to block equal block_1
+block where count above to ng two
+block where left to block equal block_1 and right to block equal block_1
+block where above to block where width equal 3
 block where length ng width where block equal block_1
 block where length nl width where block equal block_1
 block where length equal height where block equal block_1
 block argmax count color
-block where right equal block where width equal 3 
+block where right from block where width equal 3
 block where length equal 3 and height equal 3
-block where left equal block_1 or left equal block_2
-block where count above greater two 
+Mismatch 1525: block that is right of block_1 or block 2
+block where count above from greater two
 Mismatch 1527: block that is above block_1 or block 2
-block where below equal block where length equal 3
-block where right equal block where below equal block_1
-block where left equal block where height equal 3 
-block where right equal block where left equal block_1
-block where left equal block_1 and above equal block_1
+block where below to block where length equal 3
+block where right to block where below from block equal block_1
+block where left from block where height equal 3 
+block where right to block where left to block equal block_1
+block where left from block equal block_1 and above from block equal block_1
 block where height less width where block equal block_1
-block where count shape nl two
-block where width equal not 3
-block where below equal block_1
+block where has at least two shape
+block where width neq 3
+block where below from block equal block_1
 block where special equal true and height equal 3
-block where count left less two
-block where below equal block where width equal 3
-block where left equal block where width equal 3
-block where below equal block where height equal 3
-block where count left less two
-block where count left nl two
+block where count left to less two
+block where below from block where width equal 3
+block where left to block where width equal 3
+block where below to block where height equal 3
+block where count left to less two
+block where count left to nl two
 block where width nl 3
-block where right equal block_1 and left equal block_1
-block where length equal 3 and below equal block_1
-block where count below ng two
-block where below equal block_1 and special equal true
+block where right to block equal block_1 and right from block equal block_1
+block where length equal 3 and below to block equal block_1
+block where count below to ng two
+block where below to block equal block_1 and special equal true
 block where special equal true and width equal 3
-block where left equal block where shape equal pyramid
-block where below equal block where special equal true
-block where left equal block_1 and above equal block_1
-block where below equal block where left equal block_1
-block where length equal 3 and right equal block_1
-block where width equal not 3
-block where left equal block where below equal block_1
+block where left to block where shape equal pyramid
+block where below to block where special equal true
+block where left to block equal block_1 and above from block equal block_1
+block where below to block where left from block equal block_1
+block where length equal 3 and right from block equal block_1
+block where width neq 3
+block where left to block where below to block equal block_1
 block where width nl height where block equal block_1
-block where right equal less two
-block where count above greater two 
-block where argmin count below
-block where left equal block where below equal block_1
-block where right equal block where length equal 3
+block where count right to less two
+block where count above from greater two
+block argmin count below to
+block where left to block where below to block equal block_1
+block where right to block where length equal 3
 block where width ng length where block equal block_1
 block where shape equal pyramid and special equal true
-block where right equal block where below equal block_1
-block where above equal block_1 and shape equal pyramid
+block where right to block where below from block equal block_1
+block where above to block equal block_1 and shape equal pyramid
 block where height ng 3
-block where height greater 3 or length greater 6
-block where count left ng two 
+block where height greater 3 or height greater 6
+block where count left to ng two
 block where length nl 3
-block where left equal block_1 and right equal block_1
-block where width equal 3 and right equal block_1
+block where left from block equal block_1 and left to block equal block_1
+block where width equal 3 and right to block equal block_1
 Mismatch 1573: block that is left of block_1 or block 2
 block where length ng width where block equal block_1
-block where right equal block where length equal 3
-total width where block equal block
-block where right equal block where left equal block_1
-block where length equal 3 and below equal block_1
+block where right to block where length equal 3
+total width 
+block where right to block where left from block equal block_1
+block where length equal 3 and below from block equal block_1
 width where block equal block_1
-block where width equal width where block equal block_1
-block where above equal block where right equal block_1
-block argmin count above 
+block where width where block equal block_1
+block where above to block where right to block equal block_1
+block argmin count above from
 block where width greater width where block equal block_1
 block where height equal 3 and width equal 3
-block where shape equal shape where block equal block_1
-block where left equal block_1 and shape equal pyramid
+block where shape where block equal block_1
+block where left to block equal block_1 and shape equal pyramid
 block where length greater 3
-block where special equal true and left equal block_1
+block where special equal true and left to block equal block_1
 block where height less 3
-block where not above equal block_1 
+block where not above to block equal block_1
 block where height equal 3
-block argmin count left 
-block where above equal block_1 and shape equal pyramid
+block argmin count left from
+block where above to block equal block_1 and shape equal pyramid
 block where width greater height where block equal block_1
-block where right equal block_1 and width equal 3
-block where right equal block where height equal 3
+block where right to block equal block_1 and width equal 3
+block where right to block where height equal 3

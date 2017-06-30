@@ -44,7 +44,7 @@ ingredients in recipe posted in 2004
 what is the recipe that needs the minimum number of ingredients
 what recipes cooking_time is the same as rice_pudding
 which recipe requires the most ingredients
-recipes prepared in rice_puddings cooking_time
+recipes prepared in rice_pudding cooking_time
 what is a recipe that is good for lunch or dinner
 ingredients required in less than three recipes
 what is a lunch recipe
@@ -161,8 +161,8 @@ the receipe is for two meal
 what recipe cooks for equal or less time than rice_pudding
 how much time is needed to cook this dish
 what recipe has the most ingredients
-what recipe was posted before rice_puddings recipe
-what recipe was posted after rice_puddings recipe
+what recipe was posted before rice_pudding recipe
+what recipe was posted after rice_pudding recipe
 which recipe was posted in 2004
 what lunch recipe requires milk
 what is a recipe found in two or more cuisines
@@ -176,7 +176,7 @@ show me ingredients required for the most recipes
 find recipe for two meals
 what meal has the least recipes
 which recipes have two cuisines
-which recipe is for a lunchtime meal
+which recipe is for a lunch time meal
 recipes that require same time to prepare than rice_pudding
 show me recipes with fewer than two ingredients
 show me recipes posted in 2004 that use milk
@@ -267,7 +267,7 @@ show me ingredients required by recipes that require milk
 what recipes preparation_time is no more than the cooking_time of rice_pudding
 show me recipes that use two ingredients or less
 what recipes need milk and is posted in 2004
-show me recipes for lunch or supper
+show me recipes for lunch or dinner
 name the ingredient in most recipes
 show me recipes that require the cooking_time of rice_pudding
 show me recipes posted in 2004 and 2010
@@ -295,7 +295,7 @@ show me recipes with two ingedients
 ingredient required by recipe whose posting_date is 2004
 when was the rice_pudding recipe posted
 which recipes require at least two ingredients
-what recipes have a cooking_time that is at least as long as rice_puddings preparation_time
+what recipes have a cooking_time that is at least as long as rice_pudding preparation_time
 which recipes take longer to cook than rice_pudding
 what meals are recipes for lunch for
 which recipe uses milk as an ingredient
@@ -322,7 +322,7 @@ which recipe is posted after the posting_date of rice_pudding
 which recipe was posted most recently
 which recipe has the same cooking_time of rice_pudding
 what recipes preparation_time is at least that of rice_pudding
-recipes for rice_pudding or quice
+recipes for rice_pudding or quiche
 which recipes have the most number of meals
 name ingredients that is not required for rice_pudding
 name the recipe with a cooking_time with at least the cooking_time of rice_pudding
@@ -403,7 +403,7 @@ show recipes whose posting_date is not 2004
 find recipes posted before 2004
 show me recipes that have the fewest ingredients
 what recipe takes at least as long to prepare as rice_pudding
-show me milkfree recipes
+show me milk free recipes
 show me recipes that have the same or longer preparation_time as rice_pudding
 what is a meal with the most number of recipes
 what recipe is a recipe for lunch
@@ -624,7 +624,7 @@ show me recipe requiring milk posted in 2004
 recipes posted after 2003
 quiche or rice_pudding
 show me recipes that follows two or more cuisines
-show me recipes that whose preparation_time is shorter than rice_puddings cooking_time
+show me recipes that whose preparation_time is shorter than rice_pudding cooking_time
 what recipes have the same or longer preparation_time as rice_pudding
 what other ingredients do recipes that use milk require
 what recipe is used in the greatest number of cuisines
@@ -660,7 +660,7 @@ what recipe requires highest number of ingredients
 this receipe requires more than two ingredient
 what recipes require one or two ingredients
 which recipes require at most two ingredients
-recipe whose posting_date is at least rice_puddings posting_date
+recipe whose posting_date is at least rice_pudding posting_date
 what recipe can make fewer than two types of cuisine
 which recipes were posted at the same time as rice_pudding
 what ingredients are required in two recipes

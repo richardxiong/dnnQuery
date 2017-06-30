@@ -58,12 +58,12 @@ a <field>:0 which <field>:1 after <value>:1
 what <field>:0 take less time to <field>:1 than <value>:0
 what is the total <field>:0 of the recipe
 what is a <field>:0 for a <field>:1 with <value>:0
-show me <field>:0 with a <field>:1 that is longer than rice_puddings <field>:2
+show me <field>:0 with a <field>:1 that is longer than <value>:0 <field>:2
 what <field>:0 can be prepped in the same time as <value>:0 can be <field>:2
 <field>:0 <field>:1 after posting <value>:0 <field>:0
 which <field>:0 requires the longest <field>:1
 find me all <field>:0 requires <value>:1 or <value>:1
-what <field>:0 <field>:1 is at most that of rice_puddings <field>:2
+what <field>:0 <field>:1 is at most that of <value>:0 <field>:2
 what is the average <field>:0 of this recipe
 what <field>:0 have a common <field>:1 in <value>:0
 <field>:0 with <field>:1 same as <value>:0
@@ -152,7 +152,7 @@ which <field>:0 has the most <field>:1 for it
 show me <field>:0 that require a maximum <field>:1 as <value>:0
 <field>:0 <field>:1 on the same date of posting of <value>:0
 which <field>:0 dont need <value>:1
-what <field>:0 <field>:1 is the same as rice_puddings <field>:2
+what <field>:0 <field>:1 is the same as <value>:0 <field>:2
 <field>:0 that <value>:1 and <value>:1 can be used
 how long does <value>:1 take to <field>:0
 what are <field>:1 of <value>:0

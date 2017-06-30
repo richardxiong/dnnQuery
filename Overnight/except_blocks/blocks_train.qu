@@ -20,7 +20,7 @@ select the block that is to the right of a block with a length of 3 inches
 find a block with a width that is less than the height of block_1
 find me all 3 or 6 inch wide blocks
 3 inch block near top
-locate block_1 or block_2
+locate block one or block 2
 left of special block
 find me the block that has a length of 3 inches
 what pyramid shaped block is above block_1
@@ -33,13 +33,13 @@ select the blocks that are 3 inches wide
 find me all blocks longer than 3 inches
 block that is below block whose width is 3 inches
 find the block with the same length as block_1
-find me all blocks with more than two blocks to the left of it
+find me all blocks with more than 2 blocks to the left of it
 what block is to the right of block_1
 block above and left of block_1
 find the block to the right of the block that is to the left of block_1
 how wide is block_1
 select the blocks to the right and left of block_1
-are there any 3 inch long blocks to the right of block_1
+are there any 3inch long blocks to the right of block_1
 are there any blocks whose height is that of either 3 inches or 6 inches at most
 select the block that is to the furthest left
 select the block that block_1 is above with a width of 3 inches
@@ -51,7 +51,7 @@ left of block 3
 block above special block
 find a block below and to the right of block_1
 find the 3 inch long block
-block below 3 inch block
+block below three inch block
 3 inches tall block at the right of block_1
 find me any pyramid shaped block
 which block is 3 inches wide
@@ -71,19 +71,19 @@ which block is left of block_1 or block_2
 which block is above less than two blocks
 find me all blocks with the same shape as block_1
 block that has block_1 in the right and left
-what block is above a block that is 3 inches in height
+what block is above a block that is three inches in height
 select all blocks that are in the shape of a pyramid
 find the block that is the same height as block_1
-find me a block to the right of either block_1 or block_2
+find me a block to the right of either block_1 or block 2
 block taller or same height as the width of block_1
 select a block that is at least as wide as block_1 is long
 get the second block above block_1
-find me all blocks with at most two colors
+find me all blocks with at most 2 colors
 block which does not have block_1 above
-find me all the blocks with two blocks above it
+find me all the blocks with 2 blocks above it
 block that more than two block is right of
 what block is as wide as block_1 is long
-find me all blocks with less than two blocks to the right of it
+find me all blocks with less than 2 blocks to the right of it
 what color is block_1
 find the block located on top of the block that is 3 inches high
 find me all blocks 2 below block_1
@@ -92,8 +92,8 @@ find me all blocks that block_1 is below
 find blocks wider than 3 inches
 block that is left of block whose height is 3 inches
 what block is below a block that is 3 inches long
-two blocks right of block_1
-find me all blocks underneath at least two blocks
+2 blocks right of block_1
+find me all blocks underneath at least 2 blocks
 find me all blocks at least 3 inches in width
 what block is to the right of block_1 
 block more wider than length of block_1
@@ -125,12 +125,12 @@ select the block below and to the right of block_1
 3 inches long block
 choose the block with the smallest width
 which special block is to the right of block_1
-find me all blocks left of more than two blocks
+find me all blocks left of more than 2 blocks
 choose the block to the right of the 3 inch block
 block whose length is width of block_1
 what is the blocks height
 block to left of two or more blocks
-choose block_1 or block_2
+choose block_1 or block 2
 find me all blocks at most 3 inches long
 what blocks are special and are below block_1
 find me all the blocks not below block_1
@@ -150,7 +150,7 @@ select the special block to the right of block_1
 choose a block that is bigger than block_1
 3 inch block left of block_1
 which block has a width of less than 3 inches
-find a block whose width is 3 inches that block_1 is to the right of
+find a block whose width is three inches that block_1 is to the right of
 find me all special blocks that block_1 is under
 find me all blocks right of 3 inch tall blocks
 find the special block to the left of block_1
@@ -187,14 +187,14 @@ find the block that is on top of block_1
 find me all the blocks as tall as block_1
 select a block that is at least 3 inches wide
 what block has the greatest height
-block within two blocks to the left
-what block has at least two blocks to its right
+block within 2 blocks to the left
+what block has at least 2 blocks to its right
 which block is to the left of the special block
 find me a block with equal or less width than block_1
 block right and up from block_1
 select a block that has the same width and height
 find me all the 3 inch wide blocks below block_1
-find the block that is left of block_1 or block_2
+find the block that is left of block_1 or block 2
 find me all blocks that block_1 is below and right of
 locate the block with the least amount of blocks beside it on the left
 select the block that has the least blocks to the right of it
@@ -211,7 +211,7 @@ find me all blocks right of that block_1 is above
 find me all blocks as high as block_1 is long
 find me all the special blocks above block_1
 find me all blocks below that block_1 is above
-get me a block to the right of a 3 inch block
+get me a block to the right of a 3inch block
 find a block at least 3 inches long
 special block right of block_1
 find a block at least 3 inches wide
@@ -219,7 +219,7 @@ block that is above at most two block
 which block is no wider than 3 or 6 inches
 what block has the most blocks below it
 find me a block that is either 3 or 6 inches tall
-find me all blocks above at most two blocks
+find me all blocks above at most 2 blocks
 2nd block right of block_1
 choose a block that is at most 2 block to the left
 what block is below the 3 inch long block
@@ -233,9 +233,9 @@ find the block that is to the right of the block that block_1 is below
 block that is left of block that is left of block_1
 find a block wider than block_1 is tall
 which block is no higher than 3 or 6 inches
-find me all blocks with at least two blocks above it
+find me all blocks with at least 2 blocks above it
 which block is below the block below block_1
-find me all the blocks with less than two blocks above it
+find me all the blocks with less than 2 blocks above it
 which block is higher than 3 or 6 inches
 what block has height less than or equal to the length of block_1
 find blocks that are at least 3 inches wide or 6 inches wide
@@ -268,7 +268,7 @@ find me all blocks that block_1 is not right of
 what block is above and to the left of block_1 
 pyramid block right of block_1
 select a block with less than two colors
-block below two blocks
+block below 2 blocks
 block above a block which is 3 inches wide
 the blocks under block 2 are smaller
 find me the block that is above the block that is above block_1
@@ -287,11 +287,11 @@ find a block above at most two blocks
 find me all 3 inch tall blocks which block_1 is above
 left of block below block_1
 block whose height is smaller than 3 inches
-find blocks above block_1 or block_2
+find blocks above block_1 or block 2
 find me all blocks left and below block_1
 what block is at least as high as block_1
 blocks of two or more colors
-what block 3 inches in width is left of block_1
+what block three inches in width is left of block_1
 block that is right of block_1 and that is right of block_1
 above block at least 3 inches long
 block above and rigth from block_1
@@ -300,7 +300,7 @@ block above at leat two blocks
 select a block above block one that is 3 inches long
 select the widest block
 what block is to the right and above block_1
-find me all the blocks that is at most below two blocks
+find me all the blocks that is at most below 2 blocks
 find me all blocks shorter than 3 inches
 find a block that is below no more than two blocks
 block that has block_1 at right and below
@@ -318,7 +318,7 @@ find me all blocks right of pyramid blocks
 which block is at least as high as block_1 is wide
 cannot paraphase
 select the blocks below block 2
-find me all blocks with less than two shapes
+find me all blocks with less than 2 shapes
 select the blocks to the left of block_1
 find me all special blocks  below block_1
 select block to the left of two blocks
@@ -339,12 +339,12 @@ block that is below block that is below block_1
 find me the block that is to the right and above block_1
 find a block that is 3 inches tall
 bock right of block that is right of block_1
-find me all the blocks with more than two blocks above it
+find me all the blocks with more than 2 blocks above it
 is there a block with a measurement of 3 inches or 6 inches
 3 inch long block above block_1
 find a block taller than block_1 is wide
 find the block located to the right of at least two other blocks
-find me all blocks with less than two blocks below it
+find me all blocks with less than 2 blocks below it
 find me a special 3 inch long block
 special block to right of block_1
 3 inches high block below block_1
@@ -386,7 +386,7 @@ find me a block that block_1 is to the left of
 find me all blocks as wide or wider than block_1
 choose a 3 inch block to the right of block_1
 find me a block that is below at most two blocks
-choose a block that has more than two blocks to its left
+choose a block that has more than 2 blocks to its left
 what is the length of block_1
 select all blocks which has least number of shape
 which block is wider than 3 inches
@@ -396,7 +396,7 @@ find me the block that block_1 is below and that has a length of 3 inches
 choose a block above a 3 inch block
 find the single block that is located to the right of the largest number of blocks
 block left and below block_1
-locate a 3 inch lwide block
+locate a 3inch lwide block
 which block is shaped like a pyramid
 block two above block_1
 what blocks are to the left and below block_1
@@ -411,13 +411,13 @@ find me all 3 inch wide blocks above block_1
 block two above block_1
 see block above block_1 and get block left of that one
 what 3 inch block is to the left of block_1
-find a block that is beneath either block_1 or block_2
+find a block that is beneath either block_1 or block 2
 which block has a length smaller than 3 or 6 inches
 which is the block to the right of special block
 what block is to the right of block_1
 number of block
 select the block that is on the right side of block_1
-find me all blocks two blocks below block_1
+find me all blocks 2 blocks below block_1
 select the block that is at least 3 inches tall
 select the block that is below block_1
 3 inch block below block_1
@@ -439,17 +439,17 @@ find me all blocks left of 3 inch blocks
 block whose width is smaller than height of block_1
 what block has the shape of a pyramid and is to the left of block_1
 find me all blocks below and to the right of block_1
-block that is below block_1 or block_2
+block that is below block_1 or block 2
 3 inch block left of block_1
 select the block that is above the least number of blocks
-find me either block_1 or block_2
+find me either block_1 or block 2
 find the blocks to the right and left of block_1 
 what block has block_1 at right and left
 find the block that is not less than 3 inches tall
 what block is not longer than any other
 choose the block below block_1 that is 3 inches long
 which block is to the left of less than two blocks
-a 3 inches block at the left of block_1
+a three inches block at the left of block_1
 which special block is above block_1
 find me a block at most 6 inches wide
 find me a 3 inch long special block
@@ -481,12 +481,12 @@ select blocks that have a height of 3 inches and are to the right of block_1
 3 inches long block and that is above block_1
 find the block that is left to the block of 3 inches 
 find me all the blocks with the same width as the length of block_1
-two blocks below block_1
+2 blocks below block_1
 what block is to the right of more than two blocks
 get me a block below and above block_1
 block two below block_1
 find the block that is shorer than block_1
-which block has no more than two colors
+which block has no more than 2 colors
 what block is 3 inches or taller
 find a block that is to the right of two blocks
 find me all the blocks  longer than the width of block_1
@@ -515,14 +515,14 @@ find me all pyramid blocks
 which is the 3 inches tall block at the left of block_1
 select a block with equivalent width to block_1
 block around block_1
-block above more than two blocks
+block above more than 2 blocks
 block to right of two others
 block above block_1
 find a block without a length of 3 inches
 find the 3 inch wide special block
 find me all the 3 inch long blocks
 block left of a block that is left of block_1
-find me all blocks with two blocks below it
+find me all blocks with 2 blocks below it
 which special block is 3 inches wide
 find a block with the least blocks to the left of
 block below block_1
@@ -541,7 +541,7 @@ block whose shape is a pyramid and whose width is 3 inches
 what is the block above that has its length as 3 inches
 find me all blocks above and to the right of block_1
 block that is special and whose length is 3 inches
-which blocks are right of block_1 or block_2
+which blocks are right of blocks 1 or 2
 what is the number of blocks
 what is the average width of the blocks
 left of block_1
@@ -549,9 +549,9 @@ is there a block to the left of more than two blocks
 is there a block shorter in height than block_1 is wide
 which block is below the block to the right of block_1
 find a block that block_1 is longer than
-find me all the blocks that has at least two blocks to the left
+find me all the blocks that has at least 2 blocks to the left
 what is the total length of the blocks
-select the block below block_1 and block_2
+select the block below block_1 and block 2
 what block is longer than block_1 is wide
 block above pyramid block
 find the block that has a width of 3 inches and is above block_1
@@ -560,7 +560,7 @@ select the block that has a length of two inches above another block
 block above least number of blocks
 block that is above block that is special
 find me all blocks below 3 inch long blocks
-find me a block with a width of 3 inches that block_1 is below
+find me a block with a width of three inches that block_1 is below
 which block is above block_1 or block_2
 what blocks width is less than or equal to block_1s height
 3 inch long block below block_1
@@ -574,8 +574,8 @@ select the block at the very right
 find me all blocks shorter than the width of block_1
 what is the average length of the blocks
 find me all blocks above block_1
-find me all blocks with less than two blocks to the left
-find me all blocks with at least two blocks below
+find me all blocks with less than 2 blocks to the left
+find me all blocks with at least 2 blocks below
 find me a block that has less than two blocks below it
 block which has block_1s below and right
 is there a block piled on any other block but only one
@@ -637,7 +637,7 @@ which block is to the left of block_1
 above and left of block_1
 block that has the smallest height
 what is the length of block_1
-find me all the blocks with at most two shapes
+find me all the blocks with at most 2 shapes
 which block is wider than block_1 is long
 which block has a width of either 3 or 6 inches
 select block of length 3 or 6 inches
@@ -647,7 +647,7 @@ find me all special blocks that are below block_1
 find the block that block_1 is to the left of and above
 find me all the blocks right of 3 inch long blocks
 bloch longer than the length of block_1
-find me all blocks with two blocks left of it
+find me all blocks with 2 blocks left of it
 find me all special blocks left of something
 find me all blocks below 3 inch high blocks
 find the block that is shaped like a pyramid or a cube
@@ -663,11 +663,11 @@ is there a block that is on top of the fewest number of other blocks
 what block is below the block that block_1 is below
 block that the most number of block is left of
 find me a block with two or less colors
-what block has more than two blocks below it
+what block has more than 2 blocks below it
 find the block that has the smallest length
 block at the right of a special block
 choose the block above block_1
-find me all blocks with less than two colors
+find me all blocks with less than 2 colors
 find me the block that is above and to the left of block_1
 find me all blocks that is left and right of block_1
 what is the block above special block
@@ -693,7 +693,7 @@ find me all blocks below that block_1 is left of
 what 3 inch block is to the right of block_1
 which block has two blocks below it
 find me all the blocks two blocks left of block_1
-find me all blocks with at most two blocks to the right of it
+find me all blocks with at most 2 blocks to the right of it
 find me all blocks that block_1 is right and below
 get a block above any pyramid block
 block that at most two block is left of
@@ -714,7 +714,7 @@ below and right of block_1
 find the block with a height that does not surpass either 3 or 6 inches
 what block is to the left of the least blocks
 which block has less than two shapes
-find me all blocks with at least two blocks to the right of it
+find me all blocks with at least 2 blocks to the right of it
 find a block with height equal to block_1s length
 block whose shape is a pyramid
 find me the pyramid block that is to the right of block_1
@@ -725,7 +725,7 @@ how many blocks are there
 which block has no more than two blocks above it
 choose a block beneath block 2
 what is the color of block_1
-find me all blocks that is two blocks below block_1
+find me all blocks that is 2 blocks below block_1
 find me all pyramid blocks that is right of block_1
 3 inches long block at the left of block_1
 which block is above the block that is 3 inches high
@@ -752,7 +752,7 @@ locate the block beneath block_1 that also has a width of 3 inches
 select me the block that is above block_1 and has a height of 3 inches
 find me all the blocks left of special blocks
 block below a special block
-what block has a width of 3 inches and that block_1 is below
+what block has a width of three inches and that block_1 is below
 locate the block with a height measurement that equals at minimum the length of block_1
 choose a block that is the same height as block_1
 find all special blocks below block_1
@@ -765,7 +765,7 @@ find me all blocks at block_1
 find me all special blocks above block_1
 find me a block below at least two blocks
 find me all blocks above that block_1 is below
-select the block that is to the right of more than two blocks
+select the block that is to the right of more than 2 blocks
 block whose width is width of block_1
 find me all blocks above which block_1 is right of
 block above 3 inch tall block
@@ -783,7 +783,7 @@ choose block underneath block under block_1
 find me all blocks at least 3 inch wide
 what is the left most block
 find me all 3 inch long blocks
-select the blocks that are under no more than two blocks
+select the blocks that are under no more than 2 blocks
 which block is at the very top
 select block_1 or block_2
 block with one shape
@@ -795,7 +795,7 @@ find a block that is wider than block_1
 special block left of block_1
 which block is shorter than block_1 is high
 block with same width that of block_1
-block to the right of at least two blocks
+block to the right of at least 2 blocks
 find a block with a diameter that does not surpass the height of block_1
 block below block_1
 what pyramid blocks are above block_1
@@ -856,7 +856,7 @@ what 3 inches long block is above block_1
 block to the left of block_1
 what block is 3 or less inches tall
 block that two block is right of
-find me all blocks at least two blocks below
+find me all blocks at least 2 blocks below
 which blocks are left of singleorfewer blocks
 find me all blocks that block_1 is left of
 what block is to the left of and below block_1
@@ -877,7 +877,7 @@ which 3 inches long block is above block_1
 find the block taller than 3 inches
 select the block that has two shapes
 3 inch block above block_1
-find me all blocks with two colors
+find me all blocks with 2 colors
 select the block on the left side of block_1
 select a block with a height of 1 block width
 what is the special block in the left of block_1
@@ -901,7 +901,7 @@ find me all blocks with a width shorter than 3 inches
 find me all the blocks wider than the width of block_1
 the unique 3 inch wide block
 block two spaces above block_1
-block that is taller than 3 inches
+block that is taller than three inches
 there is a block below block_1 and a block above that one find it
 select the block that is on the right side of the block on the left side of block_1
 find the block that has a height that does not surpass the height of block_1
@@ -913,7 +913,7 @@ find me all the blocks at most as long as the width of block_1
 is there a block on the right side of block_1
 find blocks with the length of block_1
 3 inch tall block right from block_1
-two blocks below block_1
+2 blocks below block_1
 which block has a length shorter than 3 inches
 find the special block that is 3 inches
 select the 3 inch long block to the right of block_1
@@ -960,7 +960,7 @@ find a block 6 inches or less long
 pyramid block below block_1
 find me all blocks no bigger than 3 inches
 what block is above block_1
-find me all the blocks that has at most two blocks to the right of it
+find me all the blocks that has at most 2 blocks to the right of it
 what is the number of blocks
 select the block that has a width of 3 inches and is below block_1
 find a block under and to the right of block_1
@@ -987,7 +987,7 @@ find the block underneath block_1 that is 3 inches long
 block with same color as of block_1
 find the pyramid shaped block below block_1
 find me all the blocks below block_1 or block_2
-get a block to the left of block_1 or block_2
+get a block to the left of block_1 or block 2
 multicolor block
 select the block 3 inched high to the right of block_1
 what blocks are below block_1
@@ -1000,7 +1000,7 @@ find me all blocks that is right of block_1
 which block is only a single color
 find the block with 3 inches of height
 which block is below a block that is 3 inches wide
-get a 3 inch long block below block_1
+get a 3inch long block below block_1
 find me all the blocks that is not a pyramid
 what block is to the right of block_1 and has a width of 3 inches
 find the block that is at least 3 inches long
@@ -1014,10 +1014,10 @@ select the 3 inch wide block left of block_1
 select the block that is left of a block that is 3 inches
 choose the most colorful block
 block whose length is not 3 inches
-find me all blocks with at least two colors
+find me all blocks with at least 2 colors
 find a block the same color as block_1
 what block is to left of more than two blocks
-choose a block that is not more than two shapes
+choose a block that is not more than 2 shapes
 which block is above the block to the right of block_1
 block that is below block whose length is 3 inches
 find me all 3 inch tall blocks that block_1 is above
@@ -1035,7 +1035,7 @@ what blocks are above the block that is to the right of block_1
 select all blocks that are 3 inches long
 choose block at right of block over block_1
 select blocks that are two colors
-block left of two blocks
+block left of 2 blocks
 block left of blocks 1 and 2
 find me all 3 inch tall blocks right of block_1
 what block is above the 3 inch high block
@@ -1089,7 +1089,7 @@ select the block whose width is 3 inches
 right of special block
 find me all pyramid shaped blocks
 choose a block that is less thick than block_1
-find me all blocks below block_1 or block_2
+find me all blocks below blocks 1 or 2
 which pyramid shaped block is 3 inches wide
 total length of block
 block above pyramid
@@ -1120,7 +1120,7 @@ what is the number of the block
 block with maximum two colors
 what block is below two blocks 
 block that is at the right of most number of blocks
-which block is to the left of the 3 inch high block
+which block is to the left of the 3inch high block
 3 inch block above block_1
 which pyramid blocks are to the right of block_1
 block two right from block_1
@@ -1138,7 +1138,7 @@ what block is block_1 to the right of
 what block is two blocks to the right of block_1
 choose a block that is left of block_1
 a special block whose shape is pyramid
-what block is to the left of either block_1 or block_2
+what block is to the left of either block_1 or block 2
 find the block that is underneath block_1
 block whose height is not 3 inches
 find me all the blocks taller than 3 inches
@@ -1155,7 +1155,7 @@ find me all blocks over that block_1 is above
 block whose length is larger than width of block_1
 what block is to the left of the 3 inch long block
 name a block with block_1 below and to the right
-find me all blocks two blocks from the right
+find me all blocks 2 blocks from the right
 block left of pyramid
 find the longest block
 block above 3 inches long block
@@ -1183,7 +1183,7 @@ find me all 3 inch long blocks which block_1 is below
 block two above block_1
 find me all blocks 2 below block_1
 find me all 3 inch wide and long blocks
-which blocks exceed 3 inches wide
+which blocks exceed 3inches wide
 what block is below the most blocks
 choose a block between 3 and 6 inches wide
 find me all special blocks left of block_1
@@ -1201,14 +1201,14 @@ find me all 3 inch high blocks
 find me all blocks below block_1 which block_1 is also below
 select the block above block_1
 block that is above block_1
-find me all the blocks below at most two blocks
+find me all the blocks below at most 2 blocks
 find me all blocks at least the same height as block_1
 find me all blocks at most 6 inches high
 which pyramid shaped block is 3 inches high
 find all special blocks to the right of block_1 
 which block is below the block that is above block_1
-choose a block that has less than two blocks to its left
-find the 3 inch long block which is located to the right of block_1
+choose a block that has less than 2 blocks to its left
+find the 3inch long block which is located to the right of block_1
 select the block to the left of the block above block_1
 find me all pyramid blocks that block_1 is below
 block whose height is 3 inches and that is below block_1
@@ -1228,7 +1228,7 @@ find a block that is not above block_1
 find me all special blocks that is below
 what special block is above block_1
 block that is below block_1 and whose width is 3 inches
-block that has block_1 or block_2 at right
+block that has block_1 or block 2 at right
 find me a 3 inch tall pyramid shaped block
 select the blocks below and to the left of block_1
 find the blocks that are to the left of block_1 
@@ -1245,7 +1245,7 @@ block whose length is larger than 3 inches
 find me a 3 inch long block
 block above block_1
 block whose shape is a pyramid and that is special
-two blocks right of block_1
+2 blocks right of block_1
 what special blocks have a length of 3 inches
 which block is at least as high as block_1 is long
 which block is above block_1
@@ -1255,7 +1255,7 @@ what block is above block_1 and has a height of 3 inches
 find the block that block_1 is above and below
 which block is at least 3 inches high
 what is the total height of the blocks
-is there a block to the right of either block_1 or block_2
+is there a block to the right of either block_1 or block 2
 find the block that is right of block_1 and has a width of 3 inches
 which block is at least as wide as block_1 is tall
 3 inch wide block above block_1
@@ -1266,8 +1266,8 @@ which block is below a block that block_1 is to the right of
 block that is above block whose length is 3 inches
 find me the block that is above the block that block_1 is below
 block that the least number of block is right of
-find me all the blocks that have at most two blocks below it
-what block is above block_2 or block_1
+find me all the blocks that have at most 2 blocks below it
+what block is above block 2 or block_1
 find me the block above the special block
 find a block with a length and width of 3 inches each side
 select the blocks less than 3 inches
@@ -1293,7 +1293,7 @@ block below block right of block_1
 3 inch block above block_1
 block that has a width of 3 inches and is below block_1
 find the block located beneath the second block that is located to the left of block_1
-find me all blocks with more than two colors
+find me all blocks with more than 2 colors
 select the block above the right one
 3 inch tall block at the left of block_1
 select a block with height less than block_1
@@ -1340,25 +1340,25 @@ see block below block_1 and choose the one left of it
 select the pyramidshape blocks above block_1
 block above most number of blocks
 which block has the largest height
-which block is two blocks to the right of block_1
+which block is 2 blocks to the right of block_1
 what block has less than or equal length then block_1 has width
 block whose height is larger than width of block_1
 select the pyramid shaped blocks
 the third block to the right
 block right and below block_1
-block left of more than two blocks
+block left of more than 2 blocks
 find the special block to the right of block_1
 block whose length is at most either 3 inches or 6 inches
 find a 3 inch wide pyramid shaped block
 find me the block that block_1 is to the right of
-find me all blocks below two blocks
+find me all blocks below 2 blocks
 find me all the blocks shorter than block_1 is long
 tell me the number of blocks
 find me all blocks at most as tall as block_1
 how wide is block_1
 below and left of block_1
 block left and above block_1
-find me all blocks with at least two blocks to the right
+find me all blocks with at least 2 blocks to the right
 locate the block with a diameter less than that of block_1
 find the 3 inch tall block below block_1
 find me all blocks not 3 inches high
@@ -1389,7 +1389,7 @@ select the pyramid shaped block that is left of block_1
 what block is below the block that block_1 is to the left of
 block above and right from block_1
 choose a block no bigger than 3 inches
-find me all the blocks that has at most two blocks to the left
+find me all the blocks that has at most 2 blocks to the left
 find the block underneath the pyramid shaped block
 block left and above block_1
 left and below of block_1
@@ -1409,7 +1409,7 @@ find me all blocks with at most two blocks to the left
 find the block with the most blocks to the right of
 what blocks are left of block_1
 find all the blocks that are shorter or longer than 3 inches
-find me all blocks that is right of more than two blocks
+find me all blocks that is right of more than 2 blocks
 which block is below block_1
 block that is above block whose shape is a pyramid
 find me all blocks that is below which block_1 is right of
@@ -1417,11 +1417,11 @@ what 3 inch block is below block_1
 find the 3 inch long pyramid shaped block
 block below two or more blocks
 select the special block above block_1
-name a block of 3 inch width above block_1
-find me all blocks with at least two shapes
-block below block_1 and block_2
+name a block of 3inch width above block_1
+find me all blocks with at least 2 shapes
+block below block_1 and block 2
 block that at most two block is below
-find me all blocks right of block_1 or block_2
+find me all blocks right of blocks 1 or 2
 3 inches wide block at the right of block_1
 choose a block to the left of block 2
 block that has the largest height
@@ -1450,12 +1450,12 @@ find the block with only one color
 select the blocks above block_1 and block_2
 select the blocks on the right of and below block_1
 select the block with the least blocks above it
-above block_1 or block_2
+above block_1 or block 2
 which block that is 3 in height has block_1 below it
 select the block that block_1 is not to the left of
-which block has no more than two blocks to its right
+which block has no more than 2 blocks to its right
 select the block to the right of block_1
-what block 3 inches in height is above block_1
+what block three inches in height is above block_1
 is there a block that is taller than block_1
 select the 3 inch tall block below block_1
 find me all blocks not above block_1
@@ -1478,7 +1478,7 @@ a pyramid or a cube
 block above at most two block
 block whose length is larger than height of block_1
 what block is above the 3 inch wide block
-find me all blocks with two shapes
+find me all blocks with 2 shapes
 choose a block that is not as thick as block_1
 block aboe and left of block_1
 which blocks have a height equal to the width of block_1
@@ -1505,7 +1505,7 @@ block that is above block whose height is 3 inches
 which block has at most two shapes
 block whose width is smaller than 3 inches
 what block is to the left of the block that block_1 is below
-find me all blocks left of two blocks
+find me all blocks left of 2 blocks
 choose a block that is to the left of block 2
 what pyramid shaped block is to the right of block_1
 find me all the pyramid or cube blocks
@@ -1520,11 +1520,11 @@ which block is no longer than block_1 is wide
 find me all the blocks at least as long as block_1 is wide
 which block is as long as block_1 is tall
 find the block with the most colors
-what block is to the right of the block that is 3 inches wide
+what block is to the right of the block that is three inches wide
 find the blocks with length and height of 3 inches 
 which block is to the right of block_1 or block_2
 which block has more than two blocks above it
-is there a block piled on top of either block_1 or block_2
+is there a block piled on top of either block_1 or block 2
 choose a block below the 3 inch block
 above block_1 to the left
 what block is left of a 3 inch block
@@ -1570,7 +1570,7 @@ find a block that has at most two blocks to its left
 which block is at least 3 inches long
 find me all blocks that is left of block_1
 select the block which is right to block_1 with 3 inches
-block that is left of block_1 or block_2
+block that is left of block_1 or block 2
 block whose length is at most width of block_1
 what block is to the right of the 3 inch block
 total width of blocks
@@ -1592,5 +1592,5 @@ select the block that block_1 is not below it
 what block is left of the least number of blocks
 pyramid block above block_1
 choose a block that is wider than block_1 is high
-find me a 3 inch wide block to the right of block_1
+find me a 3inch wide block to the right of block_1
 block that is right of block whose height is 3 inches

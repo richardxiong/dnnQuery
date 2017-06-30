@@ -17,7 +17,7 @@ what <field>:0 is priced at <value>:1 <field>:1
 find <field>:0 with <field>:2 near <value>:1
 housing with <field>:2 that was <field>:1 on <value>:1
 which <field>:0 resembles <value>:0 in <field>:1
-apartments with a <field>:2
+<field>:1 with a <field>:2
 housing that is <value>:2 <field>:2 with a <field>:1
 what <field>:0 in the midtown east <field>:2 also allow <field>:1
 <value>:2 <field>:2 <field>:0 that has <field>:1
@@ -43,16 +43,16 @@ housing that is <value>:1 <field>:1 with a <field>:2
 which <field>:0 has a <field>:1 of less than <value>:1 <field>:1
 show me housing where <field>:1 are allowed
 housing of two <field>:0
-apartments with <field>:1 between <value>:1 and <value>:1
-apartments with a <field>:2
+<field>:0 with <field>:1 between <value>:1 and <value>:1
+<value>:1 with a <field>:2
 <field>:0 with 2 <field>:1
 what <value>:1 costs <value>:2 <field>:2
-apartments with the same <field>:1 as <value>:0
+<field>:0 with the same <field>:1 as <value>:0
 which <field>:0 permit <field>:2 and <field>:1
 housing that is at least as expensive as <value>:0
 <field>:2 in <value>:1
 <field>:0 outsizing <value>:0
-apartments in the <value>:1 or <value>:1 <field>:1
+<field>:0 in the <value>:1 or <value>:1 <field>:1
 <field>:0 like <value>:1 or <value>:1
 housing that ranges between <value>:1 and <value>:1 <field>:1
 what <field>:0 are the same <field>:1 as those in <value>:0
@@ -64,7 +64,7 @@ find <field>:0 <field>:1 before <value>:1
 find housings <field>:0 <field>:1 on other dates except for <value>:1
 find <field>:0 that are pet friendly
 housing found in the most <field>:1
-apartments renting for 1500 a month
+<value>:2 renting for 1500 a month
 which <field>:0 have housing with a <field>:2
 housing that was <field>:1 on <value>:1
 <field>:0 that is <value>:1 or <value>:1 <field>:1
@@ -76,7 +76,7 @@ what is the <field>:0 of housing that has a <field>:2
 <field>:0 that have more than two <field>:1
 which <field>:0 has an area of <value>:1 <field>:1
 show me housing which <field>:1 on or before the day <value>:0 did
-apartments with a <field>:1 below <value>:1 a month
+<field>:0 with a <field>:1 below <value>:1 a month
 which <field>:0 around <value>:2 has a <field>:1
 what is the <field>:0 number
 which <field>:0 has the variety of houses
@@ -93,12 +93,12 @@ what <field>:0 with a <field>:2 was <field>:1 on <value>:1
 a <field>:0 on <value>:0 that <field>:1 on <value>:1
 housing that <field>:1 on the same day at <value>:0
 housing that is <value>:1 month with a <field>:1
-apartments that allow <field>:2
+<value>:1 that allow <field>:2
 <value>:2 with <field>:1
 what <field>:0 was the <field>:1 <field>:2 on <value>:2
 looking for housing that is either an <value>:1 or <value>:1
 seeking houses in quiet neighborhoods
-what housing costs <value>:2 <field>:2 and is <value>:1 <field>:1
+what housing <field>:1 <value>:2 <field>:2 and is <value>:1 <field>:1
 how <field>:0 is the housing_unit
 <value>:2 <field>:2 foot <field>:0 with <field>:1 of <value>:1 monthly
 <field>:0 in <value>:1 that allow <field>:2
@@ -108,8 +108,8 @@ find housing <field>:1 than <value>:0
 what <field>:0 has the least amount of housing
 which <field>:0 in the <value>:2 <field>:2 has a <field>:1
 what <field>:0 has the same <field>:1 as the <field>:0 <field>:2 on <value>:2
-find apartments with a <field>:2
-apartments in <value>:2 with <field>:1 at <value>:1
+find <value>:1 with a <field>:2
+<field>:0 in <value>:2 with <field>:1 at <value>:1
 which <field>:0 allows pets
 cheapest housing
 find <field>:0 with <value>:1 <field>:1 to <value>:1 as <field>:1
@@ -118,7 +118,7 @@ find <field>:0 <field>:1 before <value>:0
 housing that is <value>:1 <field>:1 or <field>:1
 <field>:0 in <value>:2 that has <field>:1 of <value>:1
 which <field>:0 is available for a price of less than <value>:1 <field>:1
-apartments with <field>:1 between <value>:1 to <value>:1 <field>:1
+<field>:0 with <field>:1 between <value>:1 to <value>:1 <field>:1
 <field>:0 with the largest <field>:1
 which <field>:0 has a <field>:1
 housing in the <field>:0 of <value>:1 or <value>:1
@@ -129,7 +129,7 @@ which <field>:0 is <value>:1 in
 find housing that allows <field>:2
 which <field>:1 has the most kind of houses
 housing that allows <field>:2 and includes a <field>:1
-looking for apartments
+looking for <value>:0
 name <field>:0 with two or more <field>:1
 which <field>:0 with an area of <value>:2 <field>:2 has a <field>:1
 which <field>:0 resembles that of <value>:0
@@ -157,12 +157,12 @@ what kind of housing is <value>:1
 find <field>:1 of the <field>:0 <value>:0
 <field>:0 that is cheaper than <value>:1 <field>:1
 housing that is at least 1500 month or at least 2000 month
-exclude apartments that are in the same <field>:0 as <value>:1
+exclude <field>:1 that are in the same <field>:0 as <value>:1
 <field>:0 with a <field>:1 and allows <field>:2
 <field>:1 less than <value>:1 <value>:1 <field>:1
-apartments that allow <field>:1
+<field>:0 that allow <field>:1
 <field>:1 housing
-apartments with <field>:1 that is more expensive than <value>:0
+<field>:0 with <field>:1 that is more expensive than <value>:0
 what day did <value>:1 become available
 what are the <field>:0 that do not belong to the <field>:1 around <value>:1
 what <field>:0 <field>:1 on <value>:1 is in <value>:2
@@ -170,20 +170,20 @@ what <field>:0 <field>:1 on <value>:1 is in <value>:2
 housing that is the same <field>:2 as <value>:0 that was <field>:1 on <value>:1
 <field>:0 that allows <field>:1
 pet friendly housing near <value>:1
-housing apartments in a <value>:1 <field>:1
+housing <value>:2 in a <value>:1 <field>:1
 housing <field>:1 before <value>:1 or <value>:1
 find <field>:1 friendly <field>:0 with a <field>:2
 what <field>:0 has housing with a <field>:2
-quiet apartments
+quiet <field>:0
 a <field>:0 in <value>:1 that was <field>:2 on <value>:2
 <field>:0 that allows <field>:1 and <field>:2
 housing that is the same <field>:1 as or cheaper than <value>:0
 what <field>:0 <field>:1 on <value>:1 is the same kind as <value>:0
-aparartment or <value>:1 <field>:0
+<value>:1 or <value>:1 <field>:0
 <field>:0 with a <field>:2 in the <value>:1 <field>:1
 housing with a <field>:1 that <field>:2 on <value>:2
 what <field>:0 is the <value>:2 <field>:2 foot apartment in
-<value>:1 <field>:1 foot apartments
+<value>:1 <field>:1 foot <field>:0
 housing that is not <value>:1 <field>:1
 <value>:2 that was <field>:1 on <value>:1
 <field>:0 near two <field>:1
@@ -198,7 +198,7 @@ what <field>:0 is in the same <field>:1 as the <field>:0 <field>:2 on <value>:2
 which <field>:0 permits <field>:1 and has the facility of a <field>:2
 which housing offers less than two kinds of <field>:0
 <field>:0 with less than two <field>:1
-<field>:0 that has at least 2 apartments
+<field>:0 that has at least 2 <field>:1
 show me housing with <value>:2 <field>:2 of space where <field>:1 are acceptable
 what is the phone number of this <value>:0 complex
 <value>:1 <field>:1 foot <field>:0 with a <field>:2
@@ -210,7 +210,7 @@ housing <field>:1 on or before <value>:1
 what <field>:0 is in the same <field>:2 as 123 sesame st and was <field>:1 on <value>:1
 <field>:0 in west midtown <field>:1 on <value>:1
 a <field>:0 <field>:1 on <value>:1 or <value>:1
-housing that is <value>:1 <field>:1 and <value>:1 month
+housing that is <value>:1 <field>:1 and <value>:1 <field>:1
 what <field>:0 of housing is <value>:1
 what housing has the cheapest <field>:1
 <field>:0 on <value>:1
@@ -230,14 +230,14 @@ which <field>:0 has more than two <field>:1
 housing that was <field>:1 <value>:1 or later
 what <field>:1 is the <field>:0 in that was <field>:2 <value>:2
 <field>:0 near <value>:1
-<field>:1 apartments with a <field>:2
+<field>:1 <field>:0 with a <field>:2
 <field>:0 with <field>:1 of either <value>:1 or <value>:1 <field>:1
 list all housing that is smaller than <value>:1 <field>:1
 housing that was <field>:1 after <value>:1 or <value>:1
 what kind of housing are the two <field>:1
 how <field>:0 a month is the <field>:0 at <value>:1
 which housing is no <field>:1 than <value>:0
-apartments with a <field>:2
+<field>:1 with a <field>:2
 looking for housing that isnt an <value>:1
 rarest <field>:0
 housing found in less than two <field>:1
@@ -249,18 +249,18 @@ what <field>:0 <field>:1 on <value>:1 is the same <field>:2 as <value>:0
 looking for a quiet <field>:0
 housing_units of either <value>:0 <field>:0 or <value>:0 <field>:0
 housing with 2 surrounding <field>:1
-find apartments <field>:1 on <value>:1
+find <value>:2 <field>:1 on <value>:1
 which <field>:0 have housing where <field>:2 are allowed
-apartments <field>:1 before <value>:0 was <field>:1
+<field>:0 <field>:1 before <value>:0 was <field>:1
 pet friendly <value>:1 <field>:1 <field>:0
 housing that is <value>:1 <field>:1 or less
 <field>:0 in <value>:1 and allows <field>:2
-which <field>:0 with an area of <value>:1 <field>:1 is available fora <field>:2 of <value>:2 <field>:2 per month
-<field>:2 apartments with <field>:1 at <value>:1
+which <field>:0 with an area of <value>:1 <field>:1 is available fora <field>:2 of <value>:2 <field>:2 per <field>:1
+<field>:2 <field>:0 with <field>:1 at <value>:1
 housing <field>:2 on <value>:2 that allows <field>:1
-looking for apartments
+looking for <value>:1
 what <field>:1 is the <field>:0 <field>:2 on <value>:2
-housing apartments with a <field>:2
+housing <value>:1 with a <field>:2
 which housing has a <field>:1 of <value>:1 <field>:1
 find <field>:0 in the same <field>:1 of <value>:0
 housing that allows <field>:2 and was <field>:1 on <value>:1
@@ -268,7 +268,7 @@ housing that allows <field>:2 and was <field>:1 on <value>:1
 find <field>:0 <field>:1 before or on the same date as <value>:0
 what is the average find <value>:0 <field>:0 housing_units that allow cats
 housing that <field>:1 for at least <value>:1 per month
-apartments <field>:1 on <value>:1
+<field>:0 <field>:1 on <value>:1
 find me a housing unti that chagres <value>:1 for <field>:1 and has a priiiiiiat bathroom
 which <value>:1 <field>:1 are <value>:2 <field>:2
 which <field>:0 permits <field>:1 inside it
@@ -276,7 +276,7 @@ a <field>:0 with fewer than twohouse <field>:1
 housing with no more than two <field>:1
 how many <field>:0
 how <field>:0 is the <field>:1 at <value>:1
-apartments for <field>:1 below <value>:1
+<field>:0 for <field>:1 below <value>:1
 <field>:1 housing
 which <field>:0 is more expensive than <value>:0
 <field>:0 that are at least the same <field>:1 footage as the <field>:0 on <value>:0
@@ -285,7 +285,7 @@ what <field>:0 allowing <field>:2 was <field>:1 on <value>:1
 <field>:0 with 2 <field>:1 of housing
 locate <field>:0 with <field>:2
 smallest available <field>:0
-housing apartments that allows <field>:1
+housing <value>:2 that allows <field>:1
 <field>:0 <field>:1 before <value>:1
 what housing with a <field>:2 <field>:1 <value>:1
 a <field>:0 with at most twohouse <field>:1
@@ -305,15 +305,15 @@ find all <field>:1 <field>:2 on <value>:2
 find <field>:0 far from <value>:1
 <value>:1 foot apartment with a <field>:1
 housing that is at least <value>:1 <field>:1 or at least <value>:1 <field>:1
-<field>:0 that is an aprtment
+<field>:0 that is an <value>:1
 find <field>:0 in the same <field>:1 of <value>:0
 find <field>:0 with a <field>:1 and has <value>:2 <field>:2 as <field>:2
 find <field>:0 with <field>:1 lesser than <value>:1 <field>:1
-apartments with a cheaper <field>:1 than <value>:0
+<field>:0 with a cheaper <field>:1 than <value>:0
 which <field>:0 is <field>:1 in area by <value>:1 <field>:1 or <value>:1 <field>:1
 find housing for less than <value>:1 <field>:1
 <value>:1 <field>:1 foot apartment with a <field>:2
-apartments that are smaller than <value>:0
+<field>:0 that are smaller than <value>:0
 which is the <field>:0 shared by most nuumber of <field>:1
 housing with the same <field>:1 as <value>:0
 an <value>:2 that was <field>:1 on <value>:1
@@ -342,7 +342,7 @@ what <field>:0 allowing <field>:2 was <field>:1 on <value>:1
 what is the <field>:0 of <value>:1
 <field>:2 housing that is <value>:1 <field>:1
 find <value>:2 <field>:2 <field>:0 that are <field>:1 friendly
-what is the <field>:0 of <field>:1 of the apartments
+what is the <field>:0 of <field>:1 of the <value>:2
 which housing consists of two <field>:1 maximum
 what is that housing_unit <field>:0
 find <value>:1 <field>:1 <field>:1 <field>:0
@@ -350,7 +350,7 @@ which housing <field>:1 <value>:1 at <value>:0
 find an <value>:1 that is <value>:2 <field>:2
 what is the <field>:0 of <value>:1
 <value>:2 <field>:0 with <value>:1 <field>:1 monthly
-<field>:2 apartments with a <field>:1
+<field>:2 <field>:0 with a <field>:1
 list all housing us that are at least <value>:1 or <value>:1 <field>:1
 show only <field>:0 <field>:1 of <value>:2 <field>:2
 where are the most number of <field>:1 found
@@ -376,7 +376,7 @@ which <field>:0 is <field>:1 before the <field>:1 of <value>:0
 building with two or less kinds of unis
 unit of average <field>:0
 what <field>:0 is <value>:1 in
-apartments that are <field>:1 friendly
+<field>:0 that are <field>:1 friendly
 which <field>:0 has the least variety of houses
 <field>:0 that allow <field>:2 and charge <value>:2 <field>:1 monthly
 <value>:2 for <field>:1 at <value>:1
@@ -395,7 +395,7 @@ which housing <field>:2 <value>:2 permits <field>:1
 show me housing which have a <field>:1 and allow <field>:2
 housing that is smaller than <value>:1 <field>:1 or smaller than <value>:1 <field>:1
 housing that is more than <value>:1 <field>:1
-apartments with <field>:2
+<value>:1 with <field>:2
 which <field>:1 resembles <value>:1 or <value>:1
 what is the <field>:0 of the <field>:1 with a <field>:2
 which <field>:0 with an area of <value>:1 <field>:1 has the facility of a <field>:2
@@ -407,14 +407,14 @@ what <field>:0 with a <field>:2 was <field>:1 on <value>:1
 what <field>:0 has two <field>:1
 what <field>:1 is found in the midtown east <field>:0
 find <field>:0 <field>:1 after <value>:0
-show me apartments and condos
+show me <value>:1 and <value>:1
 a <field>:0 with a <field>:1 that <field>:2 on <value>:2
 pet friendly housing with <value>:2 <field>:2 as <field>:2
 what housing is the same <field>:0 as the housing <field>:2 on <value>:2
 want a <field>:0 like <value>:1
 what is the <field>:0 of <value>:1 per month
 which housing <field>:2 <value>:2 permits <field>:1
-apartments in <value>:2 with a <field>:1
+<field>:0 in <value>:2 with a <field>:1
 what is the <field>:0 of the <field>:1 with a <field>:2
 find housing with <field>:1 charges between <value>:1 and <value>:1 <field>:1
 <field>:0 that have a <field>:1
@@ -431,7 +431,7 @@ find <field>:0 that are <field>:1 on the date same as <value>:0 or later
 housing that was <field>:1 on <value>:1 of <value>:0 kind
 what is the <field>:0 at <value>:1
 what is the <field>:0 footage of <value>:1
-apartments with <field>:1 above <value>:1
+<field>:0 with <field>:1 above <value>:1
 housing that is 1500 month or 2000 month
 what are <field>:0 found in the <field>:2 of <value>:2
 apartment between <value>:1 and <value>:1 <field>:1
@@ -450,7 +450,7 @@ housing that has at least two <field>:1
 <field>:0 with a <field>:2 in <value>:1
 <field>:0 that allows <field>:1 and has a <field>:2
 private housing in <value>:2
-apartments with a <field>:1 in <value>:2
+<field>:0 with a <field>:1 in <value>:2
 housing of <value>:1 <field>:1 <field>:2 on <value>:2
 what <field>:0 <field>:2 on <value>:2 <field>:1 is <value>:1 <field>:1
 find housing with a <field>:1 and bath
@@ -472,7 +472,7 @@ which <field>:0 has two <field>:1 minimum
 what is the <field>:0 of the two <field>:1
 apartment that is the same <field>:1 are <value>:0
 <field>:2 apartment with a <field>:1
-apartments in the <value>:2 <field>:2
+<value>:1 in the <value>:2 <field>:2
 find <field>:0 with just one <field>:1
 housing that was <field>:2 on <value>:2
 show me housing in <value>:1 where <field>:2 are welcome
@@ -481,35 +481,35 @@ housing that does not have a higher <field>:1 then <value>:0
 housing <field>:1 the most recently
 which <field>:1 has an <value>:0 kind of house
 what is the date of the <value>:1 posting
-seeking apartments between 1500 and 2000
+seeking apartments between 1500 and 2000 month
 find housing between <value>:1 and <value>:1 <field>:1
 which <field>:0 is in the <field>:1 of <value>:1 or <value>:1
 <field>:0 with a <field>:1 and bath
 <field>:1 of <value>:2 <field>:2
 what <field>:0 is the <field>:1 in that was <field>:2 on <value>:2
-<field>:1 apartments in <value>:2
+<field>:1 <field>:0 in <value>:2
 find <field>:0 with <field>:1 charges greater than <value>:0
 which <field>:0 is <field>:1 on the <field>:1 of <value>:0
 which <field>:0 has <value>:1 kind of houses with an area of <value>:2 <field>:2
 what kind of housing was <field>:2 on <value>:2
 <value>:2 <field>:2 foot apartment for <value>:1 <field>:1
 which housing with a <field>:1 <field>:2 for <value>:2 <field>:2 monthly
-show me <field>:0 that arent apartments
+show me <field>:0 that arent <value>:1
 <field>:0 which is an <value>:2 that is <field>:1 friendly
-apartments that have a <field>:1
+<field>:0 that have a <field>:1
 housing in <value>:0 <field>:2 that was <field>:1 on <value>:1
 find <field>:0 with unique <field>:1
 find pet friendly <field>:0 that charge <value>:1 <field>:1 as <field>:1
 <value>:2 housing that was <field>:1 on <value>:1
 which <field>:0 has a <field>:1 of more than <value>:1 <field>:1
 what is the most common <field>:0
-<field>:0 that are apartments
+<field>:0 that are <value>:1
 <field>:2 allowed in <value>:1
 <field>:0 not near <value>:1
 which <field>:0 has a <value>:1 posting
 find <field>:0 with <field>:1 lesser than that of <value>:0
 what are the <field>:1 in the <field>:0 around <value>:0
-apartments with <field>:1 below <value>:1
+<field>:0 with <field>:1 below <value>:1
 which <field>:0 is in the <field>:1 of <value>:0
 <value>:0 similar to the <value>:0 in <value>:2
 housing that is 1500 month or less or 2000 month or less
@@ -522,7 +522,7 @@ what is the <field>:1 <field>:0
 what <field>:0 allows <field>:1
 <field>:0 where i can find housing with a <field>:2
 housing that is the same <field>:1 or <field>:1 than <value>:0
-<value>:2 <field>:2 foot apartments in <value>:1
+<value>:2 <field>:2 foot <field>:0 in <value>:1
 housing not <field>:1 on <value>:1
 <field>:0 that are <value>:1 <field>:1 and have <field>:2
 housing that was <field>:1 on <value>:1
@@ -543,7 +543,7 @@ find the <field>:0 with the most <field>:1
 <field>:0 with the same <field>:1 as <value>:0
 housing costing more than <value>:1 <field>:1 per month
 housing listed in the fewest <field>:1
-apartments in <value>:1 with a <field>:2 of <value>:2 a month
+<field>:0 in <value>:1 with a <field>:2 of <value>:2 a month
 what is the <field>:0 of this apartment
 housing in more than two <field>:1
 show me housing with <value>:1 <field>:1 of space
@@ -575,30 +575,30 @@ all <field>:0 <field>:1 on <value>:1
 <field>:0 <field>:2 <value>:2
 find <field>:0 other than <value>:1
 what <field>:0 <field>:2 on <value>:2 has a <field>:1
-apartments with a <field>:2
+<value>:1 with a <field>:2
 which <value>:2 kind of <field>:0 permits <field>:1 in it
 find <field>:0 with <field>:1 located in the <field>:2 of <value>:2
 housing that is 1500 month or less
 housing in <value>:1 <field>:1 <field>:2 on <value>:2
-apartments with at least 2 <field>:1
+<field>:1 with at least 2 <field>:1
 which housing <field>:1 after <value>:1
 housing that is beetween <value>:1 and <value>:1 <field>:1
 <value>:1 with a <field>:2
-apartments similar in <field>:1 to <value>:0
+<field>:0 similar in <field>:1 to <value>:0
 <field>:0 that <field>:2 <value>:2 <field>:1 <field>:1 and allows <field>:2
 <field>:2 and <field>:1 friendly housing
 find <field>:0 in the <field>:1 of <value>:1
-apartments <value>:1 <field>:1 and above
+<field>:0 <value>:1 <field>:1 and above
 <field>:0 of <value>:1
 count of different units
-housing apartments that allow <field>:1
+housing <value>:2 that allow <field>:1
 housing that costs the same as <value>:0
 which <field>:0 has under two <field>:1
 how <field>:0 is <value>:1
 <field>:0 <field>:1 after <value>:1 or <value>:1
 find a <field>:0 that is in two <field>:1
 what is the date of <value>:1 posting
-apartments that were <field>:2 on <value>:2
+<value>:1 that were <field>:2 on <value>:2
 which <field>:0 allows <field>:1 and <field>:2
 what <field>:0 in the same <field>:2 as <value>:0 was <field>:1 on <value>:1
 which housing <field>:1 <value>:1 <field>:2 for <value>:2
@@ -617,9 +617,9 @@ which <field>:0 is <field>:1 lately
 housing that isnt in <value>:1
 housing that allows <field>:2 and is <value>:2 a month
 which <field>:0 was not <field>:1 on <value>:1
-list all <field>:0 that are apartments
+list all <field>:0 that are <value>:1
 what housing has been <field>:1 lately
-apartments that are <field>:1
+<value>:2 that are <field>:1
 find <field>:0 with less than or equal to the <field>:1 of <value>:0
 list all housing that have the <field>:0 of <value>:0 or <value>:0 <field>:0
 what are the <field>:0 of <value>:1 and <value>:1
@@ -630,7 +630,7 @@ smallest <field>:0
 find <field>:0 with a <field>:2 and is <field>:1 friendly
 what is the <field>:0 of the apartment that is pet friendly
 housing that is more than 1500 month
-apartments with a <field>:2 in <value>:1
+<field>:0 with a <field>:2 in <value>:1
 show me housing that is the same <field>:0 as at least two others
 <value>:1 or <value>:1
 a <field>:0 with a <field>:2 that <field>:1 on <value>:1
@@ -645,26 +645,26 @@ find <field>:0 with the least number of <field>:1
 apartment with a <field>:2 that also accepts <field>:1
 <field>:0 <field>:1 on <value>:0
 <field>:0 with the most available housing
-condomonium or flat
+<value>:0 or <value>:0
 what is the <field>:0 that allows <field>:2
 what is the <field>:0 of <value>:1
 which <field>:0 is available for the least <field>:1
-apartments that <field>:1 for at least <value>:1
+<field>:0 that <field>:1 for at least <value>:1
 find <field>:0 that satisfies two <field>:1
 which <field>:0 was <field>:1 before <value>:1
 find housing that allows <field>:1 and <field>:2
 what is the <field>:0 of <value>:1 called as
 what <field>:0 was <field>:1 on <value>:1 or <value>:1
 <value>:2 <field>:2 food <field>:0 that have <field>:1
-apartments in the same <field>:1 at <value>:0
+<field>:0 in the same <field>:1 at <value>:0
 housing with a <field>:2 that is <value>:1 <field>:1 total
 apartment with a <field>:1 for <field>:2 at <value>:1
 find housing that has a <field>:2 and bath
 housing that allows <field>:1 and includes a <field>:2
 which <field>:0 is smaller than <value>:1 <field>:1 or <value>:1 <field>:1 by area
-<field>:0 with apartments
+<field>:0 with <value>:2
 apartment with <field>:1 between <value>:1 and <value>:1
-apartments with less than 2 <field>:0
+<field>:0 with less than 2 <field>:0
 what kind of housing was <field>:2 on <value>:2
 <field>:0 of <field>:1 whose <field>:2 is <value>:2 <field>:2
 show <field>:0 for three or more <field>:1
@@ -677,7 +677,7 @@ housing <field>:1 before <value>:1
 what is the average <field>:0 of housing
 where is <value>:0
 what <field>:0 has 2 or more <field>:1
-<field>:2 friendly apartments in <value>:1
+<field>:2 friendly <field>:0 in <value>:1
 <field>:0 with at most two housing
 what kind of housing is <value>:1 and <value>:1
 <value>:2 <field>:2 foot apartment with a <field>:1
@@ -691,55 +691,55 @@ find all <field>:1 <field>:2 on <value>:2
 housing that is at least 1500 month
 how <field>:0 is the housing_unit
 list all <field>:0 that are not the same as those in <value>:1
-show me apartments with a <field>:2
+show me <value>:1 with a <field>:2
 what <field>:0 in <value>:1 was <field>:2 on <value>:2
 find <field>:0 with <field>:1 charges between <value>:1 to <value>:1 <field>:1
 what <field>:0 are at least <value>:1 or <value>:1 <field>:1
 <field>:0 <field>:2 on <value>:2
 <field>:1 with <value>:2 <field>:2
 <field>:1 with <field>:2
-<field>:0 with <field>:2 apartments
+<field>:0 with <field>:2 <field>:1
 find <field>:0 less than <value>:1 <field>:1
 which <field>:1 has less than two <field>:0
 <field>:0 that is not <value>:1 <field>:1
-apartments at <value>:2 <field>:2
+<value>:1 at <value>:2 <field>:2
 housing with <field>:1 of <value>:1 <field>:1 that was <field>:2 on <value>:2
-smallest apartments
-apartments are 1500
+smallest <field>:0
+<value>:1 are <value>:2 <field>:2
 in which <field>:0 is <value>:1
 housing that accepts <field>:1
 what housing has the latest <field>:1
 housing that <field>:1 after <value>:1 or <value>:1
-apartments that were <field>:2 on <value>:2
-apartments with a <field>:2 that allow <field>:1
+<value>:1 that were <field>:2 on <value>:2
+<field>:0 with a <field>:2 that allow <field>:1
 housing with <field>:2 of <value>:2
 <value>:2 <field>:2 foot <field>:1 apartment
 what kind of housing is <value>:1
 which <field>:0 resembles the <field>:1 of <value>:0
 find an 800 sq ft <field>:0 <field>:1 on <value>:1
 housing that includes two <field>:1
-apartments with a <field>:1 that allow <field>:2
+<field>:0 with a <field>:1 that allow <field>:2
 housing that allows <field>:2 that <field>:1 on <value>:1
 <field>:0 with a cheaper <field>:1 than <value>:0
-apartments that permit <field>:1
+<value>:2 that permit <field>:1
 housing that was <field>:1 on <value>:1
 need a <field>:0 with a <field>:1 in the <value>:2 <field>:2
 <field>:0 that allows <field>:1 and has a <field>:2
 housing <field>:1 the same day as <value>:0
 housing <field>:1 before <value>:1
 what housing was <field>:1 no earlier than <value>:1
-find apartments in the <field>:1 of <value>:1
+find <value>:2 in the <field>:1 of <value>:1
 either <value>:0 or <value>:0 <field>:0
 which <field>:0 are at least <value>:1 <field>:1 in <field>:1
 which <field>:0 permits <field>:2 and has the facility of a <field>:1
-list all apartments in <value>:2
+list all <value>:1 in <value>:2
 housing at least <value>:1 to <value>:1 <field>:1
 <field>:0 with the least <field>:1
 how <field>:0 is <value>:1
-apartments in the <value>:2 <field>:2
-housing that is <value>:2 month and <value>:2 <field>:2
+<value>:1 in the <value>:2 <field>:2
+housing that is <value>:2 <field>:2 and <value>:2 <field>:2
 <field>:2 housing with a <field>:1
-exclude apartments from <value>:1
+exclude <field>:0 from <value>:1
 <field>:0 that has two housing
 most expensive places to <field>:1
 housing <field>:2 in a <field>:0 on <value>:2
@@ -748,5 +748,5 @@ find <field>:1 friendly <field>:0 that charge <value>:2 <field>:2 as <field>:2
 housing under <value>:1 <field>:1
 which <field>:0 permits <field>:2 and has a <field>:1
 show me housing in <value>:1 where <field>:2 is <value>:2 <field>:2 a month
-<value>:1 <field>:1 foot apartment with <field>:2 at <value>:2 a month
+<value>:1 <field>:1 foot apartment with <field>:2 at <value>:2 a <field>:1
 which <field>:0 has an area of <value>:1 or <value>:1 <field>:1

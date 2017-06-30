@@ -175,11 +175,11 @@ number_of_steals where player equal kobe_bryant where number_of_rebounds equal 3
 number_of_rebounds where player equal kobe_bryant where position equal point_guard
 player where team equal los_angeles_lakers or team equal cleveland_cavaliers
 position where player equal kobe_bryant where number_of_fouls equal 3
-number_of_assists where player equal kobe_bryant where number_of_steals equal 3
+number_of_assists where player equal kobe_bryant
 player where number_of_blocks nl 3
 player argmax count team
 player where number_of_turnovers ng 3
-number_of_blocks where player equal kobe_bryant where number_of_blocks equal 3
+number_of_blocks where player equal kobe_bryant
 season where player equal kobe_bryant where position equal point_guard
 player where number_of_steals nl number_of_steals where player equal kobe_bryant
 number_of_fouls where player equal kobe_bryant where number_of_assists equal 3

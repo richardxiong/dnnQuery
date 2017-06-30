@@ -58,12 +58,12 @@ a recipe which posted after 2004
 what recipes take less time to cook than rice_pudding
 what is the total prep_time of the recipe
 what is a recipe for a meal with rice_pudding
-show me recipes with a preparation_time that is longer than rice_puddings cooking_time
+show me recipes with a preparation_time that is longer than rice_pudding cooking_time
 what recipe can be prepped in the same time as rice_pudding can be cooked
 recipes posted after posting rice_pudding recipe
 which recipe requires the longest cooking_time
 find me all recipes requires milk or spinach
-what recipes cooking_time is at most that of rice_puddings preparation_time
+what recipes cooking_time is at most that of rice_pudding preparation_time
 what is the average cooking_time of this recipe
 what recipes have a common ingredient in rice_pudding
 recipe with posting_date same as rice_pudding
@@ -152,7 +152,7 @@ which meal has the most recipes for it
 show me recipes that require a maximum cooking_time as rice_pudding
 recipe posted on the same date of posting of rice_pudding
 which recipes dont need milk
-what recipes preparation_time is the same as rice_puddings cooking_time
+what recipes preparation_time is the same as rice_pudding cooking_time
 meal that rice_pudding and quiche can be used
 how long does rice_pudding take to prepare
 what are ingredients of rice_pudding

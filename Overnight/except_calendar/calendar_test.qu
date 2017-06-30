@@ -1,4 +1,4 @@
-which meetings end later than 10am in the morning or three in the afternoon
+which meetings end later than 10am in the morning or 3pm in the afternoon
 important meeting with three hour duration
 meeting that has duration of lesser than three hour
 meetings that start earlier than or at the same time as the weekly_standup meeting
@@ -41,11 +41,11 @@ show me the meeting that has the latest end_time
 who is attending the 10sm meeting
 show me meetings ending after 10am
 show me all meetings attended by alice beginning at 10am
-what meeting has and end_time the same as weekly_startup
+what meeting has and end_time the same as weekly_standup
 show me meetings that take three hours in greenberg_cafe
 which meeting has the fewest attendees
 meeting ends before 10am or 3pm
-meeting which starts at 10am or 300 pm
+meeting which starts at 10am or 3pm
 meetings attended by alice in greenberg_cafe
 show me meetings shorter than three hours
 what location is the three hour meeting
@@ -70,7 +70,7 @@ person attending least number of meetings
 what meeting has the earliest date
 what meeting ends no earlier than 10am
 what meetings occur on the same day as weekly_standup
-what meetings take place in greenbug cafe
+what meetings take place in greenberg_cafe
 what meeting has a length smaller than three hours
 show me the meetings with the most attendees
 what meeting is starting the same time as weekly_standup
@@ -87,7 +87,7 @@ what meetings have a length of three hours and alice is attending
 what meetings are scheduled for a date no earlier than jan_2nd
 locations of meetings that end at 10am
 what meetings end no later then the weekly_standup meeting ends
-what meeting is in either greenberg cage or central_office
+what meeting is in either greenberg_cafe or central_office
 show me all meetings happening at greenberg_cafe or central_office
 what is the average length of all meetings
 who is attending the three hour meeting
@@ -110,7 +110,7 @@ show me all meetings which are either shorter or longer than three hours
 what meeting lasts from one to three hours
 what meeting has alice attending on jan_2nd
 show me all meetings alice has attended marked as important
-meetings that are longer than the weekly_startup meeting
+meetings that are longer than the weekly_standup meeting
 show me the important meetings that last three hours
 what meeting begins latest
 show me all meetings marked important ending at 10am
@@ -142,7 +142,7 @@ what meeting who starts right right after weekly_standup
 show me all meetings that have two or fewer attendees
 what meeting ends before 3pm or 10am
 what meetings have no more than two different locations
-meetings that are longer than three hours or longer than an hour
+meetings that are longer than three hours or longer than one hour
 show me all the meetings that have two or more participants
 show me all meetings beginning at 10am which are three hours long
 meeting with fewest locations
@@ -164,5 +164,5 @@ show me meetings after the weekly_standup day
 location of meetings that start at 10am
 what meeting has length shorter than one to three hours
 what meeting has less than two locations
-what meeting has a date earlier than weekly_startup
+what meeting has a date earlier than weekly_standup
 show me all three hour meetings that alice is attending

@@ -258,7 +258,7 @@ housing_unit where neighborhood equal midtown_west and dogs equal true
 housing_unit where size equal 800 and monthly_rent equal 1500
 housing_unit where monthly_rent equal 1500 and cats equal true
 housing_unit where dogs equal true and posting_date equal jan_2nd
-housing_unit where housing_type equal apartment and housing_type equal apartment
+housing_unit where housing_type equal apartment 
 housing_unit where size equal housing_unit where posting_date equal jan_2nd
 housing_unit where housing_type equal apartment and private_bath equal true
 housing_unit where monthly_rent equal 1500 and monthly_rent equal 1500
@@ -305,7 +305,7 @@ housing_type where housing_unit equal housing_unit where posting_date equal jan_
 housing_unit where neighborhood neq midtown_west
 housing_unit where private_room equal true and size equal 800
 housing_unit where size nl 800 or size nl 1000
-housing_unit where housing_type equal apartment and housing_type equal apartment
+housing_unit where housing_type equal apartment
 housing_unit where housing_type equal housing_type where housing_unit equal 123_sesame_street
 housing_unit where private_room equal true and monthly_rent equal 1500
 housing_unit where size less 800
@@ -554,7 +554,7 @@ housing_type where housing_unit equal housing_unit where dogs equal true
 housing_unit where size equal 800 and neighborhood equal midtown_west
 neighborhood where housing_unit equal housing_unit where cats equal true
 housing_unit argmin monthly_rent
-housing_unit where posting_date less jan_2nd or posting_date less feb_3rd
+housing_unit where posting_date less jan_2nd
 housing_unit where neighborhood equal midtown_west and cats equal true
 neighborhood where housing_unit equal housing_unit where private_bath equal true
 housing_type where housing_unit equal 123_sesame_street
@@ -645,7 +645,7 @@ housing_unit argmin count neighborhood
 housing_unit where cats equal true and private_bath equal true
 housing_unit where size equal size where housing_unit equal 123_sesame_street
 neighborhood argmax count housing_unit
-housing_type equal apartment or housing_type equal condo
+housing_type equal flat or housing_type equal condo
 housing_type where housing_unit equal housing_unit where cats equal true
 neighborhood where housing_unit equal 123_sesame_street
 housing_unit argmin monthly_rent
@@ -722,7 +722,7 @@ housing_unit where private_room equal true and cats equal true
 housing_unit where posting_date equal jan_2nd and dogs equal true
 housing_unit where monthly_rent less monthly_rent where housing_unit equal 123_sesame_street
 housing_unit where cats equal true and housing_type equal apartment
-housing_unit where posting_date equal jan_2nd or posting_date equal feb_3rd
+housing_unit where posting_date equal jan_2nd
 housing_unit where private_room equal true and neighborhood equal midtown_west
 housing_unit where cats equal true and private_bath equal true
 housing_unit where posting_date equal posting_date where housing_unit equal 123_sesame_street
