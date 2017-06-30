@@ -25,7 +25,7 @@ def strSimilarity(word1, word2):
 '''
 input files
 '''
-subset = 'blocks'
+subset = 'basketball'
 
 truth_path = "../Overnight/except_%s" % subset
 output_path = "../evaluation/Overnight/except_%s" % subset
