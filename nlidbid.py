@@ -48,7 +48,7 @@ conventions:
 end of it
 '''
 #==================================================================================
-subset = 'socialnetwork'
+subset = 'recipes'
     
 tf.app.flags.DEFINE_float("learning_rate", 0.05 * 0.007, "Learning rate.")
 tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.96,
@@ -106,8 +106,8 @@ FLAGS = tf.app.flags.FLAGS
 #_buckets = [(10, 7), (13, 9), (16, 11)]  # housing
 #_buckets = [(10, 7), (13, 9), (16, 11)]  # calendar
 #_buckets = [(10, 7), (13, 9), (16, 11), (21, 15)]  # except_calendar
-_buckets = [(10, 7), (15, 10), (18, 12), (21, 15)]  # except_basket
-
+#_buckets = [(10, 7), (15, 10), (18, 12), (21, 15)]  # except_basket
+_buckets = [(10, 7), (14, 10), (16, 13), (21, 15)]  # except_recipes
 
 def read_data(source_path, target_path, tag_path, max_size=None):
   """Read data from source and target files and put into buckets.
