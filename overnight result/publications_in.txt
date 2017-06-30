@@ -1,0 +1,706 @@
+Pub In
+
+wrong examples: 5
+<field>:0 where <field>:1 nto <value>:0
+<field>:0 where <field>:1 _unk <value>:0
+wrong examples: 8
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 to
+wrong examples: 9
+<field>:0 where <field>:1 to <field>:0 where <field>:1 to <field>:0 equal <value>:0
+<field>:0 where <field>:1 to <field>:0 where <field>:1 from <field>:0 equal <value>:0
+wrong examples: 10
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 18
+<field>:0 where count <field>:1 greater two
+<field>:0 argmax count <field>:1 greater two
+wrong examples: 19
+<field>:0 where <field>:1 where <field>:2 to <field>:1 equal <value>:1
+<field>:0 where <field>:1 where <field>:2 from <field>:1 equal <value>:1
+wrong examples: 20
+<field>:0 where <field>:1 to <field>:0 where <field>:2 equal true
+<field>:0 where <field>:1 from <field>:0 where <field>:2 equal true
+wrong examples: 27
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 to
+wrong examples: 31
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 ng two
+wrong examples: 32
+<field>:0 where <field>:1 less 2004 or <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+wrong examples: 37
+<field>:0 where <field>:1 to <field>:0 where <field>:2 equal true
+<field>:0 where <field>:1 equal true and <field>:2 equal true
+wrong examples: 41
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 greater two
+wrong examples: 44
+<field>:0 where <field>:1 nl <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <field>:1 where <field>:0 equal <value>:0
+wrong examples: 45
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 46
+<field>:0 where count <field>:1 greater two
+<field>:0 where count <field>:1 ng two
+wrong examples: 47
+<field>:0 where <field>:1 from <field>:0 where <field>:1 to <field>:0 equal <value>:0
+<field>:0 where <field>:1 from <field>:0 where <field>:1 from <field>:0 equal <value>:0
+wrong examples: 48
+<field>:0 where multivariate_data_analysis
+<field>:0 where count <field>:1 equal two
+wrong examples: 49
+<field>:0 where <field>:1 where <field>:2 from <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal true
+wrong examples: 51
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl 2010
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 52
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:1 to <field>:0 equal <value>:0
+<field>:0 where <field>:1 to <field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:1 equal <value>:0
+wrong examples: 54
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:1 to <field>:0 equal <value>:0
+<field>:0 where <field>:1 to <field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:1 equal <value>:0
+wrong examples: 55
+<field>:0 where <field>:1 to <field>:0 equal multivariate_data_analysis and <field>:2 equal <value>:2
+<field>:0 where <field>:1 from <field>:0 where <field>:2 equal <value>:2 efron
+wrong examples: 57
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin <field>:1 less <field>:1
+wrong examples: 58
+<field>:0 where <field>:1 equal true and <field>:2 from <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal true and <field>:2 to <field>:0 equal <value>:0
+wrong examples: 59
+<field>:0 where <field>:1 where <field>:2 to <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+wrong examples: 60
+<field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+wrong examples: 64
+<field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+wrong examples: 65
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:1 from <field>:0 equal <value>:0
+<field>:0 where <field>:1 to <field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:1 equal <value>:0
+wrong examples: 68
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 to
+wrong examples: 71
+<field>:0 where <field>:1 from <field>:0 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 to <field>:0 where <field>:2 equal <value>:2
+wrong examples: 77
+<field>:0 where <field>:1 where <field>:2 to <field>:1 equal <value>:1
+<field>:0 where <field>:1 where <field>:2 from <field>:1 equal <value>:1
+wrong examples: 78
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 to
+wrong examples: 79
+<field>:0 where <field>:1 to <field>:0 where <field>:1 from <field>:0 equal <value>:0
+<field>:0 where <field>:1 to <field>:0 where <field>:1 to <field>:0 equal <value>:0
+wrong examples: 82
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 83
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 85
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 86
+<field>:0 where count <field>:1 greater two
+<field>:0 argmax count <field>:1 equal two
+wrong examples: 87
+<field>:0 argmax count <field>:1
+<field>:0 argmin count <field>:1
+wrong examples: 90
+<field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+wrong examples: 91
+<field>:0 where count <field>:1 greater two
+<field>:0 argmax count <field>:1 equal two
+wrong examples: 92
+<field>:0 where multivariate_data_analysis
+<field>:0 where count <field>:1 equal two
+wrong examples: 94
+<field>:0 where count <field>:1 equal one
+<field>:0 argmin count <field>:1 equal <value>:1
+wrong examples: 95
+<field>:0 where <field>:1 equal annals_of_statistics and <field>:2 equal true
+<field>:0 where count <field>:1 nl two count <field>:1
+wrong examples: 96
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 98
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 nl two
+wrong examples: 99
+<field>:0 where <field>:1 where <field>:2 to <field>:1 equal <value>:1
+<field>:0 where <field>:1 where <field>:2 from <field>:1 equal <value>:1
+wrong examples: 101
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:1 from <field>:0 equal <value>:0
+<field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:1 from <field>:0 equal <value>:0
+wrong examples: 103
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 108
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 109
+<field>:0 argmin count <field>:1 to
+<field>:0 argmin count <field>:1 from
+wrong examples: 112
+<field>:0 argmin count <field>:1
+<field>:0 argmax count <field>:1
+wrong examples: 115
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 ng two
+wrong examples: 117
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 to
+wrong examples: 121
+<field>:0 where multivariate_data_analysis
+<field>:0 argmin count <field>:1
+wrong examples: 122
+<field>:0 where count <field>:1 equal two
+<field>:0 where count <field>:1 ng two
+wrong examples: 131
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 to
+wrong examples: 133
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 to
+wrong examples: 134
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 greater two
+wrong examples: 139
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 to
+wrong examples: 141
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 to
+wrong examples: 142
+<field>:0 where more than two <field>:1
+<field>:0 argmin count <field>:1 ng two
+wrong examples: 143
+<field>:0 where <field>:1 from <field>:0 equal multivariate_data_analysis
+<field>:0 where <field>:1 from <field>:0 where <field>:2 equal true
+wrong examples: 146
+<field>:0 where <field>:1 to <field>:0 where <field>:1 from <field>:0 equal <value>:0
+<field>:0 where <field>:1 to <field>:0 where <field>:1 to <field>:0 equal <value>:0
+wrong examples: 151
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 152
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 153
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 greater two
+wrong examples: 155
+<field>:0 where multivariate_data_analysis
+<field>:0 where count <field>:1 equal two
+wrong examples: 156
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 160
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 nl two
+wrong examples: 161
+<field>:0 where <field>:1 to <field>:0 where <field>:1 to <field>:0 equal <value>:0
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:1 to <field>:0 equal <value>:0
+test accuracy: 0.565217391304
+wrong examples: 7
+<field>:0 where count <field>:1 equal one
+<field>:0 argmin count <field>:1 equal <value>:1
+wrong examples: 8
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 ng two
+wrong examples: 11
+mismatch 11: person that is <field>:0 of multivariate_data_analysis and that is <field>:0 of multivariate_data_analysis
+<field>:0 where count <field>:1 equal two equal <field>:1 equal two equal two equal two
+wrong examples: 14
+<field>:0 where count <field>:1 greater two
+<field>:0 argmax count <field>:1 greater two
+wrong examples: 19
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 20
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 from <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 to <field>:0 equal <value>:0
+wrong examples: 23
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 28
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 29
+mismatch 29: person that is <field>:0 of multivariate_data_analysis and that is <field>:0 of multivariate_data_analysis
+<field>:0 where count <field>:1 greater two count <field>:1 two two two two 2010
+wrong examples: 35
+<field>:0 where <field>:1 equal annals_of_statistics and <field>:2 to <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 to <field>:0 equal <value>:0
+wrong examples: 37
+mismatch 37: person that is <field>:0 of multivariate_data_analysis and that is <field>:0 of multivariate_data_analysis
+<field>:0 where count <field>:1 equal two and <field>:1 equal two two 2010 2010
+wrong examples: 39
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 44
+<field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:2 equal efron
+<field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:2 equal true
+wrong examples: 50
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 ng two
+wrong examples: 52
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 64
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 66
+mismatch 66: person that is <field>:0 of multivariate_data_analysis and that is <field>:0 of multivariate_data_analysis
+<field>:0 where count <field>:1 from equal two two <field>:1 equal two equal two
+wrong examples: 67
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 72
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 greater two
+wrong examples: 77
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 ng two
+wrong examples: 78
+mismatch 78: person that is <field>:0 of multivariate_data_analysis and that is <field>:0 of multivariate_data_analysis
+<field>:0 where count <field>:1 equal two and <field>:1 equal two equal two 2010
+wrong examples: 80
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 ng two
+wrong examples: 86
+<field>:0 where count <field>:1 equal one
+<field>:0 argmin count <field>:1 equal <value>:1
+wrong examples: 90
+<field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:1 from <field>:0 equal <value>:0
+<field>:0 where <field>:1 to <field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:1 to <field>:0
+wrong examples: 92
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 107
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal annals_of_statistics
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 110
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 111
+<field>:0 where <field>:1 nfrom <value>:0
+<field>:0 where <field>:1 _unk <value>:0
+wrong examples: 117
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 nl two
+wrong examples: 120
+<field>:0 where count <field>:1 greater two
+<field>:0 argmax count <field>:1 greater two
+wrong examples: 121
+<field>:0 where <field>:1 nfrom <value>:0
+<field>:0 where <field>:1 _unk <value>:0
+wrong examples: 122
+<field>:0 where <field>:1 nfrom <value>:0
+<field>:0 where <field>:1 _unk <value>:0
+wrong examples: 126
+mismatch 126: person that is <field>:0 of multivariate_data_analysis and that is <field>:0 of multivariate_data_analysis
+<field>:0 where count <field>:1 equal two and <field>:1 equal two equal two equal two
+wrong examples: 130
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 136
+<field>:0 where <field>:1 nto <value>:0
+<field>:0 where <field>:1 _unk <value>:0
+wrong examples: 137
+<field>:0 where count <field>:1 equal one
+<field>:0 argmin <field>:1 <field>:1 <field>:1
+wrong examples: 138
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 greater two
+wrong examples: 140
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 greater two
+wrong examples: 144
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 nl <value>:1
+wrong examples: 151
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 ng two
+wrong examples: 153
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 to
+wrong examples: 155
+<field>:0 where <field>:1 to <field>:0 where <field>:1 from <field>:0 equal <value>:0
+<field>:0 where <field>:1 from <field>:0 where <field>:1 from <field>:0 equal <value>:0
+wrong examples: 156
+mismatch 156: person that is <field>:0 of multivariate_data_analysis and that is <field>:0 of multivariate_data_analysis
+<field>:0 where count <field>:1 equal two equal <field>:1 equal two equal two equal two
+wrong examples: 158
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 ng two
+wrong examples: 162
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 greater two
+wrong examples: 163
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 169
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 nl two
+wrong examples: 170
+<field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+wrong examples: 171
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 to
+wrong examples: 174
+<field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:1 to <field>:0 equal <value>:0
+<field>:0 where <field>:1 from <field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:1 to <field>:0
+wrong examples: 175
+<field>:0 where <field>:1 to <field>:0 where <field>:1 from <field>:0 equal <value>:0
+<field>:0 where <field>:1 from <field>:0 where <field>:1 from <field>:0 equal <value>:0
+wrong examples: 178
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 to
+wrong examples: 183
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 187
+<field>:0 where <field>:1 nfrom <value>:0
+<field>:0 where <field>:1 _unk <value>:0
+wrong examples: 189
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 from <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 to <field>:0 equal <value>:0
+wrong examples: 193
+<field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:1 to <field>:0 equal <value>:0
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:1 to <field>:0 equal <value>:0
+wrong examples: 194
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 2010
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 200
+<field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+wrong examples: 206
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 207
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 208
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 greater two
+wrong examples: 211
+<field>:0 where <field>:1 from <field>:0 equal multivariate_data_analysis and <field>:2 equal <value>:2
+<field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+wrong examples: 216
+<field>:0 where <field>:1 nfrom <value>:0
+<field>:0 where <field>:1 _unk <value>:0
+wrong examples: 218
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 221
+<field>:0 where <field>:1 nfrom <value>:0
+<field>:0 where <field>:1 _unk <value>:0
+wrong examples: 231
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 ng two
+wrong examples: 236
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 from <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 to <field>:0 equal <value>:0
+wrong examples: 237
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 ng two
+wrong examples: 244
+<field>:0 where more than two <field>:1
+<field>:0 where count <field>:1 ng two
+wrong examples: 248
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 249
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 255
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 greater two
+wrong examples: 259
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 261
+<field>:0 where more than two <field>:1
+<field>:0 argmin count <field>:1 ng two
+wrong examples: 271
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 ng two
+wrong examples: 273
+<field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+wrong examples: 276
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 nl two
+wrong examples: 278
+<field>:0 where <field>:1 to <field>:0 where <field>:1 from <field>:0 equal <value>:0
+<field>:0 where <field>:1 from <field>:0 where <field>:1 to <field>:0 equal <value>:0
+wrong examples: 282
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 286
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 ng two
+wrong examples: 291
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 nl two
+wrong examples: 292
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 294
+<field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+wrong examples: 298
+<field>:0 where count <field>:1 from less two
+<field>:0 where count <field>:1 from nl two
+wrong examples: 300
+<field>:0 where count <field>:1 from nl two
+<field>:0 where count <field>:1 from equal two
+wrong examples: 303
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 to
+wrong examples: 305
+<field>:0 where count <field>:1 equal one
+<field>:0 argmin count <field>:1 to
+wrong examples: 306
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 nl two
+wrong examples: 309
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 310
+<field>:0 where <field>:1 ng 2004 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+wrong examples: 311
+<field>:0 where count <field>:1 equal one
+<field>:0 argmin count <field>:1 equal <value>:1
+wrong examples: 323
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 ng two
+wrong examples: 325
+<field>:0 where count <field>:1 to equal one
+<field>:0 where count <field>:1 to equal two
+wrong examples: 335
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 ng two
+wrong examples: 338
+<field>:0 where <field>:1 from <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+wrong examples: 342
+<field>:0 where <field>:1 nto <value>:0
+<field>:0 where <field>:1 _unk <value>:0
+wrong examples: 353
+<field>:0 where count <field>:1 to ng two
+<field>:0 where count <field>:1 to less two
+wrong examples: 363
+<field>:0 where <field>:1 where <field>:2 to <field>:1 equal <value>:1
+<field>:0 where <field>:1 where <field>:2 from <field>:1 equal <value>:1
+wrong examples: 366
+<field>:0 where count <field>:1 equal one
+<field>:0 argmin <field>:1 argmin <field>:1
+wrong examples: 369
+<field>:0 where <field>:1 where <field>:2 equal efron
+<field>:0 where <field>:1 where <field>:2 equal true
+wrong examples: 381
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 383
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 to
+wrong examples: 384
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 389
+<field>:0 where count <field>:1 to ng two
+<field>:0 where count <field>:1 to nl two
+wrong examples: 390
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 nl two
+wrong examples: 396
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 401
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 from <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 to <field>:0 equal <value>:0
+wrong examples: 403
+<field>:0 where <field>:1 nfrom <value>:0
+<field>:0 where <field>:1 _unk <value>:0
+wrong examples: 411
+<field>:0 where <field>:1 from <field>:0 equal multivariate_data_analysis and <field>:2 equal true
+<field>:0 where <field>:1 from <field>:0 equal true and <field>:2 equal true
+wrong examples: 430
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 nl two
+wrong examples: 437
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 439
+<field>:0 where count <field>:1 to greater two
+<field>:0 where count <field>:1 from greater two
+wrong examples: 440
+<field>:0 where <field>:1 equal 2004 and <field>:2 equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+wrong examples: 445
+<field>:0 where more than two <field>:1
+<field>:0 argmin count <field>:1 ng two
+wrong examples: 459
+<field>:0 argmin count <field>:1 from
+<field>:0 argmin count <field>:1 to
+wrong examples: 461
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 nl two
+wrong examples: 470
+<field>:0 where count <field>:1 nl two
+<field>:0 argmax count <field>:1 nl two
+wrong examples: 471
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 473
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 ng two
+wrong examples: 474
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 from <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 to <field>:0 equal <value>:0
+wrong examples: 485
+<field>:0 where count <field>:1 equal one
+<field>:0 argmin count <field>:1 equal <value>:1
+wrong examples: 491
+<field>:0 where count <field>:1 to ng two
+<field>:0 where count <field>:1 from ng two
+wrong examples: 496
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 to
+wrong examples: 498
+<field>:0 where count <field>:1 to equal one
+<field>:0 where count <field>:1 to equal two
+wrong examples: 500
+<field>:0 where count <field>:1 less two
+<field>:0 argmin count <field>:1 to
+wrong examples: 502
+<field>:0 where <field>:1 ng 2004 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+wrong examples: 504
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 nl two
+wrong examples: 506
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 nl two
+wrong examples: 513
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 nl two
+wrong examples: 515
+mismatch 515: person that is <field>:0 of multivariate_data_analysis and that is <field>:0 of multivariate_data_analysis
+<field>:0 where count <field>:1 to nl two count <field>:1 two two two two
+wrong examples: 519
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 greater two
+wrong examples: 520
+<field>:0 where <field>:1 nfrom <value>:0
+<field>:0 where <field>:1 _unk <value>:0
+wrong examples: 522
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:2 equal annals_of_statistics
+<field>:0 where <field>:1 to <field>:0 equal <value>:0 and <field>:2 equal true
+wrong examples: 532
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 536
+<field>:0 where count <field>:1 equal one
+<field>:0 argmin <field>:1 argmin <field>:1
+wrong examples: 541
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 to
+wrong examples: 547
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 548
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 ng two
+wrong examples: 549
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 greater two
+wrong examples: 552
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 557
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 560
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 nl two
+wrong examples: 561
+<field>:0 where count <field>:1 to greater two
+<field>:0 where count <field>:1 from greater two
+wrong examples: 563
+mismatch 563: person that is <field>:0 of multivariate_data_analysis and that is <field>:0 of multivariate_data_analysis
+<field>:0 where count <field>:1 from equal two two <field>:1 equal two equal two
+wrong examples: 570
+<field>:0 where <field>:1 equal annals_of_statistics and <field>:2 from <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 from <field>:0 equal <value>:0
+wrong examples: 575
+<field>:0 where count <field>:1 to greater two
+<field>:0 where count <field>:1 to equal two
+wrong examples: 579
+<field>:0 where <field>:1 greater 2004 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 581
+<field>:0 where <field>:1 nto <value>:0
+<field>:0 where <field>:1 _unk <value>:0
+wrong examples: 585
+<field>:0 where <field>:1 to <field>:0 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 from <field>:0 where <field>:2 equal <value>:2
+wrong examples: 589
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 ng two
+wrong examples: 591
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 equal two
+wrong examples: 599
+<field>:0 where more than two <field>:1
+<field>:0 where count <field>:1 ng two
+wrong examples: 600
+<field>:0 where count <field>:1 ng two
+<field>:0 argmax count <field>:1 ng two
+wrong examples: 601
+<field>:0 where <field>:1 nto <value>:0
+<field>:0 where <field>:1 _unk <value>:0
+wrong examples: 607
+<field>:0 where count <field>:1 to nl two
+<field>:0 where count <field>:1 from nl two
+wrong examples: 613
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 to
+wrong examples: 614
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 2010
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 622
+<field>:0 where count <field>:1 greater two
+<field>:0 argmin count <field>:1 greater two
+wrong examples: 626
+<field>:0 where count <field>:1 nl two
+<field>:0 argmin count <field>:1 less two
+wrong examples: 632
+<field>:0 where count <field>:1 nl two
+<field>:0 argmax count <field>:1 nl two
+wrong examples: 634
+mismatch 634: person that is <field>:0 of multivariate_data_analysis and that is <field>:0 of multivariate_data_analysis
+<field>:0 where count <field>:1 equal two two <field>:1 equal two equal two 2010
+wrong examples: 637
+<field>:0 where <field>:1 nfrom <value>:0
+<field>:0 where <field>:1 _unk <value>:0
+wrong examples: 638
+<field>:0 where count <field>:1 ng two
+<field>:0 argmin count <field>:1 greater two
+wrong examples: 639
+<field>:0 where count <field>:1 equal two
+<field>:0 argmin count <field>:1 equal two
+train accuracy: 0.74375
