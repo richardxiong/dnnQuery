@@ -48,7 +48,7 @@ conventions:
 end of it
 '''
 #==================================================================================
-subset = 'basketball'
+subset = 'publications'
     
 tf.app.flags.DEFINE_float("learning_rate", 0.05 * 0.007, "Learning rate.")
 tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.96,
@@ -99,7 +99,8 @@ FLAGS = tf.app.flags.FLAGS
 #_buckets = [(11, 8), (15, 12), (19, 14)]  # new logical forms
 #_buckets = [(10, 7), (15, 10), (18, 12)]  # socialnetwork
 #_buckets = [(14, 9), (16, 12), (18, 15)]  # blocks
-_buckets = [(10, 7), (15, 10), (18, 12)]  # basket
+#_buckets = [(10, 7), (15, 10), (18, 12)]  # basket
+_buckets = [(10, 7), (14, 9), (17, 11), (20, 15)]  #publications
 
 def read_data(source_path, target_path, tag_path, max_size=None):
   """Read data from source and target files and put into buckets.
