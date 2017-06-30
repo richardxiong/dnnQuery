@@ -98,7 +98,8 @@ FLAGS = tf.app.flags.FLAGS
 
 #_buckets = [(11, 8), (15, 12), (19, 14)]  # new logical forms
 #_buckets = [(10, 7), (15, 10), (18, 12)]  # socialnetwork
-_buckets = [(14, 9), (16, 12), (18, 15)]  # blocks
+#_buckets = [(14, 9), (16, 12), (18, 15)]  # blocks
+_buckets = [(10, 7), (15, 10), (18, 12)]  # basket
 
 def read_data(source_path, target_path, tag_path, max_size=None):
   """Read data from source and target files and put into buckets.
