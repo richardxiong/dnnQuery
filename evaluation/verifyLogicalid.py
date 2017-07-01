@@ -150,7 +150,8 @@ index = 0
 with open(test_output) as infile:
     for line0 in infile:
         line = line0.strip()
-        if line.lower() == truth[index]:
+        length = len(truth[index])
+        if line.lower()[:length] == truth[index]:
             correct += 1
         else:
             # compare line with all possible forms, and choose the most similar one
@@ -184,7 +185,8 @@ index = 0
 with open(geo_output) as infile:
     for line0 in infile:
         line = line0.strip()
-        if line.lower() == truth[index]:
+        length = len(truth[index])
+        if line.lower()[:length] == truth[index]:
             correct += 1
         else:
             # compare line with all possible forms, and choose the most similar one
