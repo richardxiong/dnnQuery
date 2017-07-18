@@ -48,7 +48,7 @@ conventions:
 end of it
 '''
 #==================================================================================
-subset = 'blocks'
+subset = 'basketball'
     
 tf.app.flags.DEFINE_float("learning_rate", 0.05 * 0.007, "Learning rate.")
 tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.96,
@@ -60,9 +60,9 @@ tf.app.flags.DEFINE_integer("batch_size", 128,
 tf.app.flags.DEFINE_integer("size", 256, "Size of each model layer.")
 tf.app.flags.DEFINE_integer("num_layers", 2, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("from_vocab_size", 1500, "English vocabulary size.")
-tf.app.flags.DEFINE_integer("to_vocab_size", 200, "French vocabulary size.")
+tf.app.flags.DEFINE_integer("to_vocab_size", 150, "French vocabulary size.")
 tf.app.flags.DEFINE_string("data_dir", "./Overnight/except_%s" % subset, "Data directory")
-tf.app.flags.DEFINE_string("train_dir", "./on_%s" % subset, "Training directory.")
+tf.app.flags.DEFINE_string("train_dir", "./test_%s" % subset, "Training directory.")
 tf.app.flags.DEFINE_string("from_train_data", None, "Training data.")
 tf.app.flags.DEFINE_string("to_train_data", None, "Training data.")
 tf.app.flags.DEFINE_string("from_dev_data", None, "Training data.")
