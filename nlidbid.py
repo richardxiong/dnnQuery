@@ -60,7 +60,7 @@ tf.app.flags.DEFINE_integer("batch_size", 128,
 tf.app.flags.DEFINE_integer("size", 256, "Size of each model layer.")
 tf.app.flags.DEFINE_integer("num_layers", 2, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("from_vocab_size", 1500, "English vocabulary size.")
-tf.app.flags.DEFINE_integer("to_vocab_size", 150, "French vocabulary size.")
+tf.app.flags.DEFINE_integer("to_vocab_size", 200, "French vocabulary size.")
 tf.app.flags.DEFINE_string("data_dir", "./Overnight/except_%s" % subset, "Data directory")
 tf.app.flags.DEFINE_string("train_dir", "./on_%s" % subset, "Training directory.")
 tf.app.flags.DEFINE_string("from_train_data", None, "Training data.")
@@ -266,19 +266,38 @@ def train():
           checkpoint_path = os.path.abspath(os.path.join(os.getcwd(), checkpoint_path))
         model.saver.save(sess, checkpoint_path, global_step=model.global_step)
         step_time, loss = 0.0, 0.0
+        eval_ppx = np.zeros(len(_buckets))
         for bucket_id in xrange(len(_buckets)):
           if len(dev_set[bucket_id]) == 0:
             print("  eval: empty bucket %d" % (bucket_id))
             continue
-          encoder_inputs, tag_inputs, decoder_inputs, target_weights = model.get_batch(
-              dev_set, bucket_id)
-          # _, eval_loss, _, eval_lasthidden = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs, ###
-          #                              target_weights, bucket_id, True)
-          _, eval_loss, _, _ = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs, ###
+          # 0717 newly modified
+          num_buckets = math.ceil(1.0 * len(dev_set[bucket_id]) / FLAGS.batch_size)
+          eval_loss = np.zeros(num_buckets)
+          for idx in range(num_buckets):
+            encoder_inputs, tag_inputs, decoder_inputs, target_weights = model.get_batch(
+              dev_set, bucket_id, idx=idx)
+            # _, eval_loss, _, eval_lasthidden = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs, ###
+            #                              target_weights, bucket_id, True)
+            _, eval_loss[idx], _, _ = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs, ###
                                        target_weights, bucket_id, True)
-          eval_ppx = math.exp(float(eval_loss)) if eval_loss < 300 else float(
+          eval_ppx[bucket_id] = math.exp(float(eval_loss.mean())) if eval_loss < 300 else float(
               "inf")
-          print("  eval: bucket %d perplexity %.4f" % (bucket_id, eval_ppx))
+          print("  eval: bucket %d perplexity %.4f" % (bucket_id, eval_ppx[bucket_id]))
+        # 0717 newly added: Stop criteria, minimum point passing 400 epoch
+        population = np.array([len(dev_set[bucket_id]) for bucket_id in xrange(len(_buckets))])
+        total_eval_ppx = np.sum(eval_ppx * population)
+        if len(eval_ppx_history) == 0:
+          eval_ppx_history.append(total_eval_ppx)
+          sys.stdout.flush()
+          continue
+        if total_eval_ppx > eval_ppx_history[0]:
+          eval_ppx_history.append(total_eval_ppx)
+          if len(eval_ppx_history) == 5:
+            sys.stdout.flush()
+            break
+        else: 
+          eval_ppx_history = [total_eval_ppx]
         sys.stdout.flush()
 
 

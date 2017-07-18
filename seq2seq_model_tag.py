@@ -280,7 +280,7 @@ class Seq2SeqModel(object):
     else:
       return None, outputs[0], outputs[2:], outputs[1]###,    No gradient norm, loss, outputs, last encoder hidden states.
 
-  def get_batch(self, data, bucket_id):
+  def get_batch(self, data, bucket_id, idx = None):
     """Get a random batch of data from the specified bucket, prepare for step.
     To feed data in step(..) it must be a list of batch-major vectors, while
     data here contains single length-major cases. So the main logic of this
@@ -298,9 +298,12 @@ class Seq2SeqModel(object):
 
     # Get a random batch of encoder and decoder inputs from data,
     # pad them if needed, reverse encoder inputs and add GO to decoder.
-    for _ in xrange(self.batch_size):
-      encoder_input, tag_input, decoder_input = random.choice(data[bucket_id])
-
+    for i in xrange(self.batch_size):
+      if idx == None:
+        encoder_input, tag_input, decoder_input = random.choice(data[bucket_id])
+      else:
+        whole_length = len(data[bucket_id])
+        encoder_input, tag_input, decoder_input = data[bucket_id][(i + idx * self.batch_size) % whole_length]
       # Encoder inputs are padded and then reversed.
       encoder_pad = [data_utils_tag.PAD_ID] * (encoder_size - len(encoder_input))
       encoder_inputs.append(list(reversed(encoder_input + encoder_pad)))

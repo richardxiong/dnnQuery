@@ -1789,19 +1789,35 @@ def embedding_attention_seq2seq_pretrain2_tag_nocon(encoder_inputs,
     embedding_matrix_from = tf.Variable(embedding_matrix_from, trainable = False)
     embedding_matrix_to_pre = tf.Variable(embedding_matrix_to, trainable = True)  # decoder vocab vectors could be trained
     # tag part of the variable
-    tag_matrix = np.zeros((7, 50), dtype = 'float32')
-    for i in range(5):
-      tag_matrix[i] = embedding_matrix_to[5+i, 50:]
-    tag_matrix[5] = embedding_matrix_to[5, 0:50]
-    tag_matrix[6] = embedding_matrix_to[10, 0:50]
+    tag_matrix = np.random.normal(0, 1, (12, 50), dtype = 'float32')
     tag_matrix = tf.Variable(tag_matrix, trainable = True)
-    embedding_matrix_tag = tf.stack([tf.concat([tag_matrix[5], tag_matrix[0]], 0), tf.concat([tag_matrix[5], tag_matrix[1]], 0),
-                                    tf.concat([tag_matrix[5], tag_matrix[2]], 0), tf.concat([tag_matrix[5], tag_matrix[3]], 0),
-                                    tf.concat([tag_matrix[5], tag_matrix[4]], 0), tf.concat([tag_matrix[6], tag_matrix[0]], 0),
-                                    tf.concat([tag_matrix[6], tag_matrix[1]], 0), tf.concat([tag_matrix[6], tag_matrix[2]], 0),
-                                    tf.concat([tag_matrix[6], tag_matrix[3]], 0), tf.concat([tag_matrix[6], tag_matrix[4]], 0)])
+    embedding_matrix_tag = tf.stack([tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[0,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[1,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[2,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[3,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[4,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[7,:30], tag_matrix[0,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[7,:30], tag_matrix[1,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[7,:30], tag_matrix[2,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[7,:30], tag_matrix[3,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[7,:30], tag_matrix[4,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[8,:30], tag_matrix[0,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[8,:30], tag_matrix[1,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[8,:30], tag_matrix[2,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[8,:30], tag_matrix[3,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[8,:30], tag_matrix[4,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[8,:30], tag_matrix[0,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[8,:30], tag_matrix[1,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[8,:30], tag_matrix[2,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[8,:30], tag_matrix[3,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[8,:30], tag_matrix[4,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[9,:30], tag_matrix[0,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[9,:30], tag_matrix[1,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[9,:30], tag_matrix[2,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[9,:30], tag_matrix[3,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[9,:30], tag_matrix[4,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[9,:30], tag_matrix[0,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[9,:30], tag_matrix[1,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[9,:30], tag_matrix[2,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[9,:30], tag_matrix[3,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[9,:30], tag_matrix[4,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[10,:30], tag_matrix[0,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[10,:30], tag_matrix[1,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[10,:30], tag_matrix[2,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[10,:30], tag_matrix[3,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[10,:30], tag_matrix[4,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[10,:30], tag_matrix[0,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[10,:30], tag_matrix[1,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[10,:30], tag_matrix[2,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[10,:30], tag_matrix[3,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[10,:30], tag_matrix[4,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[11,:30], tag_matrix[0,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[11,:30], tag_matrix[1,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[11,:30], tag_matrix[2,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[11,:30], tag_matrix[3,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[11,:30], tag_matrix[4,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[11,:30], tag_matrix[0,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[11,:30], tag_matrix[1,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[11,:30], tag_matrix[2,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[11,:30], tag_matrix[3,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[11,:30], tag_matrix[4,:40]], 0)])
     # recombine output embedding
-    embedding_matrix_to = tf.concat([embedding_matrix_to_pre[0:5], embedding_matrix_tag, embedding_matrix_to_pre[15:]], 0)
+    embedding_matrix_to = tf.concat([embedding_matrix_to_pre[0:5], embedding_matrix_tag, embedding_matrix_to_pre[55:]], 0)
     
     encoder_inputs_embed = []
     #tag_inputs_embed = []
@@ -1927,19 +1943,35 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
     embedding_matrix_from = tf.Variable(embedding_matrix_from, trainable = False)
     embedding_matrix_to_pre = tf.Variable(embedding_matrix_to, trainable = False)  # decoder vocab vectors could be trained
     # tag part of the variable
-    tag_matrix = np.zeros((7, 50), dtype = 'float32')
-    for i in range(5):
-      tag_matrix[i] = embedding_matrix_to[5+i, 50:]
-    tag_matrix[5] = embedding_matrix_to[5, 0:50]
-    tag_matrix[6] = embedding_matrix_to[10, 0:50]
+    tag_matrix = np.random.normal(0, 1, (12, 50), dtype = 'float32')
     tag_matrix = tf.Variable(tag_matrix, trainable = True)
-    embedding_matrix_tag = tf.stack([tf.concat([tag_matrix[5], tag_matrix[0]], 0), tf.concat([tag_matrix[5], tag_matrix[1]], 0),
-                                    tf.concat([tag_matrix[5], tag_matrix[2]], 0), tf.concat([tag_matrix[5], tag_matrix[3]], 0),
-                                    tf.concat([tag_matrix[5], tag_matrix[4]], 0), tf.concat([tag_matrix[6], tag_matrix[0]], 0),
-                                    tf.concat([tag_matrix[6], tag_matrix[1]], 0), tf.concat([tag_matrix[6], tag_matrix[2]], 0),
-                                    tf.concat([tag_matrix[6], tag_matrix[3]], 0), tf.concat([tag_matrix[6], tag_matrix[4]], 0)])
+    embedding_matrix_tag = tf.stack([tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[0,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[1,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[2,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[3,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[4,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[7,:30], tag_matrix[0,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[7,:30], tag_matrix[1,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[7,:30], tag_matrix[2,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[7,:30], tag_matrix[3,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[7,:30], tag_matrix[4,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[8,:30], tag_matrix[0,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[8,:30], tag_matrix[1,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[8,:30], tag_matrix[2,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[8,:30], tag_matrix[3,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[8,:30], tag_matrix[4,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[8,:30], tag_matrix[0,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[8,:30], tag_matrix[1,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[8,:30], tag_matrix[2,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[8,:30], tag_matrix[3,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[8,:30], tag_matrix[4,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[9,:30], tag_matrix[0,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[9,:30], tag_matrix[1,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[9,:30], tag_matrix[2,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[9,:30], tag_matrix[3,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[9,:30], tag_matrix[4,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[9,:30], tag_matrix[0,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[9,:30], tag_matrix[1,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[9,:30], tag_matrix[2,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[9,:30], tag_matrix[3,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[9,:30], tag_matrix[4,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[10,:30], tag_matrix[0,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[10,:30], tag_matrix[1,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[10,:30], tag_matrix[2,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[10,:30], tag_matrix[3,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[10,:30], tag_matrix[4,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[10,:30], tag_matrix[0,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[10,:30], tag_matrix[1,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[10,:30], tag_matrix[2,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[10,:30], tag_matrix[3,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[10,:30], tag_matrix[4,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[11,:30], tag_matrix[0,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[11,:30], tag_matrix[1,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[11,:30], tag_matrix[2,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[11,:30], tag_matrix[3,:40]], 0),
+                                    tf.concat([tag_matrix[5,:30], tag_matrix[11,:30], tag_matrix[4,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[11,:30], tag_matrix[0,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[11,:30], tag_matrix[1,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[11,:30], tag_matrix[2,:40]], 0),
+                                    tf.concat([tag_matrix[6,:30], tag_matrix[11,:30], tag_matrix[3,:40]], 0), tf.concat([tag_matrix[6,:30], tag_matrix[11,:30], tag_matrix[4,:40]], 0)])
     # recombine output embedding
-    embedding_matrix_to = tf.concat([embedding_matrix_to_pre[0:5], embedding_matrix_tag, embedding_matrix_to_pre[15:]], 0)
+    embedding_matrix_to = tf.concat([embedding_matrix_to_pre[0:5], embedding_matrix_tag, embedding_matrix_to_pre[55:]], 0)
     
     encoder_inputs_embed = []
     #tag_inputs_embed = []
