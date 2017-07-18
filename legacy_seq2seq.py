@@ -1789,7 +1789,7 @@ def embedding_attention_seq2seq_pretrain2_tag_nocon(encoder_inputs,
     embedding_matrix_from = tf.Variable(embedding_matrix_from, trainable = False)
     embedding_matrix_to_pre = tf.Variable(embedding_matrix_to, trainable = True)  # decoder vocab vectors could be trained
     # tag part of the variable
-    tag_matrix = np.random.normal(0, 1, (12, 50), dtype = 'float32')
+    tag_matrix = np.random.normal(0, 1, (12, 50))
     tag_matrix = tf.Variable(tag_matrix, trainable = True)
     embedding_matrix_tag = tf.stack([tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[0,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[1,:40]], 0),
                                     tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[2,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[3,:40]], 0),
@@ -1943,7 +1943,7 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
     embedding_matrix_from = tf.Variable(embedding_matrix_from, trainable = False)
     embedding_matrix_to_pre = tf.Variable(embedding_matrix_to, trainable = False)  # decoder vocab vectors could be trained
     # tag part of the variable
-    tag_matrix = np.random.normal(0, 1, (12, 50), dtype = 'float32')
+    tag_matrix = np.random.normal(0, 1, (12, 50))
     tag_matrix = tf.Variable(tag_matrix, trainable = True)
     embedding_matrix_tag = tf.stack([tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[0,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[1,:40]], 0),
                                     tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[2,:40]], 0), tf.concat([tag_matrix[5,:30], tag_matrix[7,:30], tag_matrix[3,:40]], 0),
