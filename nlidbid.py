@@ -266,14 +266,14 @@ def train():
           checkpoint_path = os.path.abspath(os.path.join(os.getcwd(), checkpoint_path))
         model.saver.save(sess, checkpoint_path, global_step=model.global_step)
         step_time, loss = 0.0, 0.0
-        eval_ppx = np.zeros(len(_buckets))
+        eval_ppx = np.zeros(len(_buckets), dtype=np.float32)
         for bucket_id in xrange(len(_buckets)):
           if len(dev_set[bucket_id]) == 0:
             print("  eval: empty bucket %d" % (bucket_id))
             continue
           # 0717 newly modified
           num_buckets = int(math.ceil(1.0 * len(dev_set[bucket_id]) / FLAGS.batch_size))
-          eval_loss = np.zeros(num_buckets)
+          eval_loss = np.zeros(num_buckets, dtype=np.float32)
           for idx in range(num_buckets):
             encoder_inputs, tag_inputs, decoder_inputs, target_weights = model.get_batch(
               dev_set, bucket_id, idx=idx)
@@ -281,7 +281,7 @@ def train():
             #                              target_weights, bucket_id, True)
             _, eval_loss[idx], _, _ = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs, ###
                                        target_weights, bucket_id, True)
-          eval_ppx[bucket_id] = math.exp(float(eval_loss.mean())) if eval_loss < 300 else float(
+          eval_ppx[bucket_id] = math.exp(np.mean(eval_loss)) if eval_loss.mean() < 300 else float(
               "inf")
           print("  eval: bucket %d perplexity %.4f" % (bucket_id, eval_ppx[bucket_id]))
         # 0717 newly added: Stop criteria, minimum point passing 400 epoch
