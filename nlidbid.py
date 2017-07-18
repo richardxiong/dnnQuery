@@ -287,6 +287,7 @@ def train():
         # 0717 newly added: Stop criteria, minimum point passing 400 epoch
         population = np.array([len(dev_set[bucket_id]) for bucket_id in xrange(len(_buckets))])
         total_eval_ppx = np.sum(eval_ppx * population)
+        print("  totsl eval perplexity %.4f" % total_eval_ppx)
         if len(eval_ppx_history) == 0:
           eval_ppx_history.append(total_eval_ppx)
           sys.stdout.flush()
