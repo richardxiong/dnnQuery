@@ -272,7 +272,7 @@ def train():
             print("  eval: empty bucket %d" % (bucket_id))
             continue
           # 0717 newly modified
-          num_buckets = math.ceil(1.0 * len(dev_set[bucket_id]) / FLAGS.batch_size)
+          num_buckets = int(math.ceil(1.0 * len(dev_set[bucket_id]) / FLAGS.batch_size))
           eval_loss = np.zeros(num_buckets)
           for idx in range(num_buckets):
             encoder_inputs, tag_inputs, decoder_inputs, target_weights = model.get_batch(
