@@ -341,7 +341,7 @@ def decode():
     geoQuestionFile = FLAGS.data_dir + '/%s_aug.qu.ids1500' % subset
     geoTagFile = FLAGS.data_dir + '/%s_aug.ta.ids150' % subset   # For tagging model, Hongyu
     geoLogicFile = FLAGS.data_dir + '/%s_aug.lox.ids150' % subset   # For tagging model, Hongyu
-    logicalTemp_geo = open(FLAGS.test_dir + '/%s_train.out' % subset, 'w')
+    logicalTemp_geo = open(FLAGS.test_dir + '/%s_aug.out' % subset, 'w')
     
     # logicalTemp_train = open(FLAGS.test_dir + '/logicalTemp_train.out', 'w')
     # logicalTemp_dev = open(FLAGS.test_dir + '/logicalTemp_dev.out', 'w')
