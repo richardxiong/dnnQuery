@@ -386,40 +386,43 @@ def decode():
                                              target_weights, bucket_id, True)
             
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
-            resultLogical = []
-            for i in range(len(output_logits)):
-              output = int(np.argmax(output_logits[i], axis=1))
+            # resultLogical = []
+            # for i in range(len(output_logits)):
+            #   output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
               # if i < len(logic_ids)-1 and output == data_utils_tag.EOS_ID:
               #   output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
-              if i == 0:
-                prev_idx = output
-                if output >= len(rev_fr_vocab):
-                  output = data_utils_tag.UNK_ID
-                prev = tf.compat.as_str(rev_fr_vocab[output])
-                resultLogical.append(prev)
-              else: # i>0
-                if str(prev) in ['equal','less','greater','neq','nl','ng']:
-                  # Constraint 2: after 'equal' should be 'value'
-                  output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
-                if output == 2: #data_utils_tag.EOS_ID:
-                  if i < len(logic_ids)-1:
-                    output = int(np.argmax(output_logits[i][:,3:], axis=1)) + 3
-                  else:
-                    break
-                pre_idx = output
-                if output >= len(rev_fr_vocab):
-                  output = data_utils_tag.UNK_ID
-                prev = tf.compat.as_str(rev_fr_vocab[output])
-                resultLogical.append(prev)
-            if str(resultLogical[-1]) in ['equal','less','greater','neq','nl','ng']:
-              resultLogical.append(resultLogical[-2])
-            # Constraint 3, formats
-            resultLogical = " ".join(resultLogical)
-            resultLogical = resultLogical.replace('<field>:1 equal <field>:1', '<field>:1')
-            resultLogical = resultLogical.replace('<value>:1 where <field>', '<value>:1 and <field>')
-            resultLogical = resultLogical.replace('and where', 'and')
-            #resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
+            #   if i == 0:
+            #     prev_idx = output
+            #     if output >= len(rev_fr_vocab):
+            #       output = data_utils_tag.UNK_ID
+            #     prev = tf.compat.as_str(rev_fr_vocab[output])
+            #     resultLogical.append(prev)
+            #   else: # i>0
+            #     if str(prev) in ['equal','less','greater','neq','nl','ng']:
+            #       # Constraint 2: after 'equal' should be 'value'
+            #       output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
+            #     if output == 2: #data_utils_tag.EOS_ID:
+            #       if i < len(logic_ids)-1:
+            #         output = int(np.argmax(output_logits[i][:,3:], axis=1)) + 3
+            #       else:
+            #         break
+            #     pre_idx = output
+            #     if output >= len(rev_fr_vocab):
+            #       output = data_utils_tag.UNK_ID
+            #     prev = tf.compat.as_str(rev_fr_vocab[output])
+            #     resultLogical.append(prev)
+            # if str(resultLogical[-1]) in ['equal','less','greater','neq','nl','ng']:
+            #   resultLogical.append(resultLogical[-2])
+            # # Constraint 3, formats
+            # resultLogical = " ".join(resultLogical)
+            # resultLogical = resultLogical.replace('<field>:1 equal <field>:1', '<field>:1')
+            # resultLogical = resultLogical.replace('<value>:1 where <field>', '<value>:1 and <field>')
+            # resultLogical = resultLogical.replace('and where', 'and')
+            outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
+            if data_utils_tag.EOS_ID in outputs:
+              outputs = outputs[:outputs.index(data_utils_tag.EOS_ID)]
+            resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
             if FLAGS.enable_table_test:
                 resultAnswer = logicalParser(tables[qid], resultLogical)
                 answerOutput.write(str(resultAnswer) + '\n')
@@ -462,40 +465,43 @@ def decode():
             _, _, output_logits, _ = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs,
                                              target_weights, bucket_id, True)
             # Newly modified 0624: This is a Constraint-Greedy decoder - outputs are just argmaxes of output_logits.
-            resultLogical = []
-            for i in range(len(output_logits)):
-              output = int(np.argmax(output_logits[i], axis=1))
+            # resultLogical = []
+            # for i in range(len(output_logits)):
+            #   output = int(np.argmax(output_logits[i], axis=1))
               # Constraint 1: advancd ending
               # if i < len(logic_ids)-1 and output == data_utils_tag.EOS_ID:
               #   output = int(np.argmax(output_logits[i][:,data_utils_tag.EOS_ID+1:], axis=1)) + data_utils_tag.EOS_ID+1
-              if i == 0:
-                prev_idx = output
-                if output >= len(rev_fr_vocab):
-                  output = data_utils_tag.UNK_ID
-                prev = tf.compat.as_str(rev_fr_vocab[output])
-                resultLogical.append(prev)
-              else: # i>0
-                if str(prev) in ['equal','less','greater','neq','nl','ng']:
-                  # Constraint 2: after 'equal' should be 'value'
-                  output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
-                if output == 2: #data_utils_tag.EOS_ID:
-                  if i < len(logic_ids)-1:
-                    output = int(np.argmax(output_logits[i][:,3:], axis=1)) + 3
-                  else:
-                    break
-                pre_idx = output
-                if output >= len(rev_fr_vocab):
-                  output = data_utils_tag.UNK_ID
-                prev = tf.compat.as_str(rev_fr_vocab[output])
-                resultLogical.append(prev)
-            if str(resultLogical[-1]) in ['equal','less','greater','neq','nl','ng']:
-              resultLogical.append(resultLogical[-2])
-            # Constraint 3, formats
-            resultLogical = " ".join(resultLogical)
-            resultLogical = resultLogical.replace('<field>:1 equal <field>:1', '<field>:1')
-            resultLogical = resultLogical.replace('<value>:1 where <field>', '<value>:1 and <field>')
-            resultLogical = resultLogical.replace('and where', 'and')
-            #resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
+            #   if i == 0:
+            #     prev_idx = output
+            #     if output >= len(rev_fr_vocab):
+            #       output = data_utils_tag.UNK_ID
+            #     prev = tf.compat.as_str(rev_fr_vocab[output])
+            #     resultLogical.append(prev)
+            #   else: # i>0
+            #     if str(prev) in ['equal','less','greater','neq','nl','ng']:
+            #       # Constraint 2: after 'equal' should be 'value'
+            #       output = int(np.argmax(output_logits[i][:,5:17], axis=1)) + 5
+            #     if output == 2: #data_utils_tag.EOS_ID:
+            #       if i < len(logic_ids)-1:
+            #         output = int(np.argmax(output_logits[i][:,3:], axis=1)) + 3
+            #       else:
+            #         break
+            #     pre_idx = output
+            #     if output >= len(rev_fr_vocab):
+            #       output = data_utils_tag.UNK_ID
+            #     prev = tf.compat.as_str(rev_fr_vocab[output])
+            #     resultLogical.append(prev)
+            # if str(resultLogical[-1]) in ['equal','less','greater','neq','nl','ng']:
+            #   resultLogical.append(resultLogical[-2])
+            # # Constraint 3, formats
+            # resultLogical = " ".join(resultLogical)
+            # resultLogical = resultLogical.replace('<field>:1 equal <field>:1', '<field>:1')
+            # resultLogical = resultLogical.replace('<value>:1 where <field>', '<value>:1 and <field>')
+            # resultLogical = resultLogical.replace('and where', 'and')
+            outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
+            if data_utils_tag.EOS_ID in outputs:
+              outputs = outputs[:outputs.index(data_utils_tag.EOS_ID)]
+            resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
             if FLAGS.enable_table_test:
                 resultAnswer = logicalParser(tables[qid], resultLogical)
                 answerOutput.write(str(resultAnswer) + '\n')
