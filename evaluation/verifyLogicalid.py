@@ -55,17 +55,27 @@ with open(test_truth) as infile:
         # wordsList = basic_tokenizer(line)
         line = line0.strip()
         '''1. Strip Parentheses'''
-        wordsList = line.replace('( ', '')
-        wordsList = wordsList.replace(' )', '')
+        line = line.replace('( ', '')
+        line = line.replace(' )', '')
         '''2. Strip value types'''
+        wordsList = line.split(' ')
+        wordsList = [x[:x.find(':')]+x[x.rfind(':'):] for x in wordsList]
+        line = ' '.join(wordsList)
         # for i in range(len(wordsList)):
         #     wordsList[i] = _DIGIT_RE.sub(b"0", wordsList[i])
         # truth.append(' '.join(wordsList))
-        truth.append(wordsList.lower())
+        truth.append(line.lower())
 index = 0
 with open(test_output) as infile:
     for line0 in infile:
         line = line0.strip()
+        '''1. Strip Parentheses'''
+        line = line.replace('( ', '')
+        line = line.replace(' )', '')
+        '''2. Strip value types'''
+        wordsList = line.split(' ')
+        wordsList = [x[:x.find(':')]+x[x.rfind(':'):] for x in wordsList]
+        line = ' '.join(wordsList)
         length = len(truth[index])
         if line.lower()[:length] == truth[index]:
             correct += 1
@@ -90,17 +100,31 @@ print "test accuracy: " + str(correct * 1.0 / len(truth))
 correct = 0
 truth = []
 with open(geo_truth) as infile:
-    for line in infile:
+    for line0 in infile:
         # wordsList = basic_tokenizer(line)
-        wordsList = line.strip()
+        line = line0.strip()
+        '''1. Strip Parentheses'''
+        line = line.replace('( ', '')
+        line = line.replace(' )', '')
+        '''2. Strip value types'''
+        wordsList = line.split(' ')
+        wordsList = [x[:x.find(':')]+x[x.rfind(':'):] for x in wordsList]
+        line = ' '.join(wordsList)
         # for i in range(len(wordsList)):
         #     wordsList[i] = _DIGIT_RE.sub(b"0", wordsList[i])
         # truth.append(' '.join(wordsList))
-        truth.append(wordsList.lower())
+        truth.append(line.lower())
 index = 0
 with open(geo_output) as infile:
     for line0 in infile:
         line = line0.strip()
+        '''1. Strip Parentheses'''
+        line = line.replace('( ', '')
+        line = line.replace(' )', '')
+        '''2. Strip value types'''
+        wordsList = line.split(' ')
+        wordsList = [x[:x.find(':')]+x[x.rfind(':'):] for x in wordsList]
+        line = ' '.join(wordsList)
         length = len(truth[index])
         if line.lower()[:length] == truth[index]:
             correct += 1
