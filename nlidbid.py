@@ -79,7 +79,7 @@ tf.app.flags.DEFINE_boolean("use_fp16", False,
                             "Train using fp16 instead of fp32.")
 
 # added by Kaifeng, can be changed
-tf.app.flags.DEFINE_string("test_dir", "./evaluation/Overnight/except_%s" % subset, "Test directory")
+tf.app.flags.DEFINE_string("test_dir", "./evaluation/dataover/except_%s" % subset, "Test directory")
 #tf.app.flags.DEFINE_integer('max_num_steps', 10000, 'the maximum number of steps.')
 # no need to change this line if not using real table to test
 tf.app.flags.DEFINE_boolean("enable_table_test", False, "Whether use a true table to test")
