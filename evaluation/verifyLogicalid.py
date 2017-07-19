@@ -38,8 +38,8 @@ output_path = "../evaluation/dataover/except_%s" % subset
 test_truth = truth_path + "/%s_test.lox" % subset
 test_output = output_path + "/%s_test.out" % subset
 
-geo_truth = truth_path + "/%s_train.lox" % subset
-geo_output = output_path + "/%s_train.out" % subset
+geo_truth = truth_path + "/%s_aug.lox" % subset
+geo_output = output_path + "/%s_aug.out" % subset
 
 # train_truth = truth_path + "/rand_train.lo"
 # train_output = output_path + "/forms_train.lo"
