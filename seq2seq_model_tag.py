@@ -153,7 +153,7 @@ class Seq2SeqModel(object):
           embedding_matrix_to,
           #num_encoder_symbols=source_vocab_size,
           num_decoder_symbols=target_vocab_size,
-          embedding_size=100,
+          embedding_size=300,
           output_projection=output_projection,
           feed_previous=do_decode,
           dtype=dtype)
