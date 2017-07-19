@@ -62,7 +62,7 @@ tf.app.flags.DEFINE_integer("num_layers", 2, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("from_vocab_size", 1500, "English vocabulary size.")
 tf.app.flags.DEFINE_integer("to_vocab_size", 150, "French vocabulary size.")
 tf.app.flags.DEFINE_string("data_dir", "./dataover/except_%s" % subset, "Data directory")
-tf.app.flags.DEFINE_string("train_dir", "./test_%s" % subset, "Training directory.")
+tf.app.flags.DEFINE_string("train_dir", "./in_%s" % subset, "Training directory.")
 tf.app.flags.DEFINE_string("from_train_data", None, "Training data.")
 tf.app.flags.DEFINE_string("to_train_data", None, "Training data.")
 tf.app.flags.DEFINE_string("from_dev_data", None, "Training data.")
@@ -99,7 +99,7 @@ FLAGS = tf.app.flags.FLAGS
 #_buckets = [(11, 8), (15, 12), (19, 14)]  # new logical forms
 #_buckets = [(10, 7), (15, 10), (18, 12)]  # socialnetwork
 #_buckets = [(14, 9), (16, 12), (18, 15)]  # blocks
-#_buckets = [(10, 7), (15, 10), (18, 12)]  # basket
+_buckets = [(12, 12), (17, 20)]  # basketball
 #_buckets = [(10, 7), (14, 9), (17, 15)]  # publications
 #_buckets = [(10, 7), (14, 10), (16, 13)]  # recipes
 #_buckets = [(10, 7), (13, 9), (16, 11)]  # restaurants
@@ -109,7 +109,7 @@ FLAGS = tf.app.flags.FLAGS
 #_buckets = [(10, 7), (15, 10), (18, 12), (21, 15)]  # except_basket
 #_buckets = [(10, 7), (14, 10), (16, 13), (21, 15)]  # except_recipes
 #_buckets = [(10, 7), (14, 10), (17, 15), (22, 16)]  # except_publications
-_buckets = [(14, 9), (16, 12), (18, 15), (22, 16)]  # except_blocks
+#_buckets = [(14, 9), (16, 12), (18, 15), (22, 16)]  # except_blocks
 
 def read_data(source_path, target_path, tag_path, max_size=None):
   """Read data from source and target files and put into buckets.
