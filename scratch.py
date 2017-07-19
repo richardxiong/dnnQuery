@@ -34,7 +34,7 @@ def generateEmbedMatrix(vocabulary_path, max_vocabulary_size, glove_path = None)
 		word_vectors = None
 	# random initialize word vectors, with a larger radius than glove vector, in order to deal with outside-vocab words
 	# embedding_matrix = np.asarray(np.random.uniform(-1.99, 1.99, (len(vocab), 100)), dtype = 'float32')
-	embedding_matrix = np.asarray(np.random.normal(0, 1, (len(vocab), 100)), dtype = 'float32')
+	embedding_matrix = np.asarray(np.random.normal(0, 1, (len(vocab), 300)), dtype = 'float32')
 
 	if word_vectors is not None:
 		print "Replacing GloVe word vectors as initialization"

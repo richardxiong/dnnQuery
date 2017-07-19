@@ -68,6 +68,10 @@ nl
 greater
 or
 neq
+select
+max
+min
+between
 argmin
 argmax
 to
@@ -143,4 +147,3 @@ dinner
 three
 block_2
 pyramid
-
