@@ -338,7 +338,7 @@ def decode():
             qid = 'qID_' + str(q_index)
             print('training question: ', qid)
             # Get token-ids for the input sentence.
-            token_ids = data_utils.sentence_to_token_ids(tf.compat.as_bytes(sentence), en_vocab)
+            token_ids = [int(x) for x in sentence.split()]
             logic_ids = [int(x) for x in logic_sen.split()]
             print(token_ids)
             print(logic_ids)
@@ -386,7 +386,7 @@ def decode():
             qid = 'qID_' + str(q_index)
             print('testing question: ', qid)
             # Get token-ids for the input sentence.
-            token_ids = data_utils.sentence_to_token_ids(tf.compat.as_bytes(sentence), en_vocab)
+            token_ids = [int(x) for x in sentence.split()]
             logic_ids = [int(x) for x in logic_sen.split()]
             # Which bucket does it belong to?
             bucket_id = len(_buckets) - 1
