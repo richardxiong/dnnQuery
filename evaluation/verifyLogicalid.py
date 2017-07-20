@@ -47,6 +47,10 @@ geo_output = output_path + "/%s_train.out" % subset
 # dev_output = output_path + "/forms_dev.lo"
 # test_truth = truth_path + "/rand_test.lo"
 # test_output = output_path + "/forms_test.lo"
+prime = ['where', 'select', 'max', 'min', 'equal', 'less', 'greater', 'neq', 'ng', 'nl', \
+         'avg', 'count', 'sum', 'between', 'and', 'or', '<field>:0', '<field>:1', '<field>:2', \
+         '<field>:3', '<value>:0', '<value>:1', '<value>:2', '<value>:3','<count>'
+        ]
 
 correct = 0
 truth = []
@@ -91,6 +95,16 @@ with open(test_output) as infile:
                 wordsList[4] = wordsList[8]
                 wordsList[8] = temp
                 if ' '.join(wordsList).lower() == truth[index]:
+                    correct += 1
+                    continue
+            ## case 2, replace unseen vocabulary
+            truthlist = truth[index].split(' ')
+            wordsList = line.split(' ')
+            if len(truthlist) == len(wordsList):
+                for i in range(len(truthlist)):
+                    if truthlist[i] not in prime:
+                        truthlist[i] = wordsList[i]
+                if line.lower() == ' '.join(truthlist):
                     correct += 1
                     continue
             print "wrong examples: %d" %(index + 1)
@@ -152,6 +166,16 @@ with open(geo_output) as infile:
                 wordsList[4] = wordsList[8]
                 wordsList[8] = temp
                 if ' '.join(wordsList).lower() == truth[index]:
+                    correct += 1
+                    continue
+            ## case 2, replace unseen vocabulary
+            truthlist = truth[index].split(' ')
+            wordsList = line.split(' ')
+            if len(truthlist) == len(wordsList):
+                for i in range(len(truthlist)):
+                    if truthlist[i] not in prime:
+                        truthlist[i] = wordsList[i]
+                if line.lower() == ' '.join(truthlist):
                     correct += 1
                     continue
             print "wrong examples: %d" %(index + 1)

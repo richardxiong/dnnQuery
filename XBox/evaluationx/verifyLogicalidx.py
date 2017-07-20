@@ -47,7 +47,11 @@ geo_output = output_path + "/%s_train.out" % subset
 # dev_output = output_path + "/forms_dev.lo"
 # test_truth = truth_path + "/rand_test.lo"
 # test_output = output_path + "/forms_test.lo"
-
+prime = ['where', 'select', 'max', 'min', 'equal', 'less', 'greater', 'neq', 'ng', 'nl', \
+         'avg', 'count', 'sum', 'between', 'and', 'or', '<field>:0', '<field>:1', '<field>:2', \
+         '<field>:3', '<value>:0', '<value>:1', '<value>:2', '<value>:3','<count>'
+        ]
+        
 correct = 0
 truth = []
 with open(test_truth) as infile:
