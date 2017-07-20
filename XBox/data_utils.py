@@ -257,13 +257,19 @@ def prepare_wmt_data(data_dir, en_vocabulary_size, fr_vocabulary_size, tokenizer
   # Get wmt data to the specified directory.
   #train_path = get_wmt_enfr_train_set(data_dir)
   #dev_path = get_wmt_enfr_dev_set(data_dir)
-  train_path = os.path.join(data_dir, "rand_train")
-  dev_path = os.path.join(data_dir, "rand_dev")
+  
+  subset = 'restaurants' # except_
+  # X domain
+  # train_path = os.path.join(data_dir, "except_%s_train" % subset)
+  # dev_path = os.path.join(data_dir, "except_%s_test" % subset)
+  # In domain
+  train_path = os.path.join(data_dir, "%s_train" % subset)
+  dev_path = os.path.join(data_dir, "%s_test" % subset)
 
-  from_train_path = train_path + ".qux"
-  to_train_path = train_path + ".lox"
-  from_dev_path = dev_path + ".qux"
-  to_dev_path = dev_path + ".lox"
+  from_train_path = train_path + ".qu"
+  to_train_path = train_path + ".lon"
+  from_dev_path = dev_path + ".qu"
+  to_dev_path = dev_path + ".lon"
   return prepare_data(data_dir, from_train_path, to_train_path, from_dev_path, to_dev_path, en_vocabulary_size,
                       fr_vocabulary_size, tokenizer)
 

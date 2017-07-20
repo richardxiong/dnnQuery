@@ -68,7 +68,7 @@ tf.app.flags.DEFINE_integer("batch_size", 128,
 tf.app.flags.DEFINE_integer("size", 256, "Size of each model layer.")
 tf.app.flags.DEFINE_integer("num_layers", 2, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("from_vocab_size", 1500, "English vocabulary size.")
-tf.app.flags.DEFINE_integer("to_vocab_size", 150, "French vocabulary size.")
+tf.app.flags.DEFINE_integer("to_vocab_size", 300, "French vocabulary size.")
 tf.app.flags.DEFINE_string("data_dir", "../dataover/except_%s" % subset, "Data directory")
 tf.app.flags.DEFINE_string("train_dir", "./in_%s" % subset, "Training directory.")
 tf.app.flags.DEFINE_string("from_train_data", None, "Training data.")
