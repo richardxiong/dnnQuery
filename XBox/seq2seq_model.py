@@ -26,7 +26,7 @@ from six.moves import xrange  # pylint: disable=redefined-builtin
 import tensorflow as tf
 
 import data_utils
-import scratchX
+import scratch
 import legacy_seq2seq as ls
 
 class Seq2SeqModel(object):
