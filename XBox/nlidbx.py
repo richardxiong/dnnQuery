@@ -361,7 +361,7 @@ def decode():
             if data_utils.EOS_ID in outputs:
               outputs = outputs[:outputs.index(data_utils.EOS_ID)]
             # Print out French sentence corresponding to outputs.
-            print outputs
+            print(outputs)
             for output in outputs:
               if output >= len(rev_fr_vocab):
                 output = 3
@@ -404,6 +404,7 @@ def decode():
             # This is a greedy decoder - outputs are just argmaxes of output_logits.
             outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
             # If there is an EOS symbol in outputs, cut them at that point.
+            print(outputs)
             if data_utils.EOS_ID in outputs:
               outputs = outputs[:outputs.index(data_utils.EOS_ID)]
             # Print out French sentence corresponding to outputs.
