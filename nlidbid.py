@@ -48,7 +48,7 @@ conventions:
 end of it
 '''
 #==================================================================================
-subset = 'basketball'
+subset = 'restaurants'
     
 tf.app.flags.DEFINE_float("learning_rate", 0.05 * 0.007, "Learning rate.")
 tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.96,
@@ -92,24 +92,17 @@ FLAGS = tf.app.flags.FLAGS
 
 # We use a number of buckets and pad to the closest one for efficiency.
 # See seq2seq_model.Seq2SeqModel for details of how they work.
-### _buckets = [(11, 8), (15, 12), (20, 16), (24, 21)]
-# 1. no field / tagging model
-#_buckets = [(10, 8), (15, 12), (19, 16), (23, 21)] #less pad then previous
-
-#_buckets = [(11, 8), (15, 12), (19, 14)]  # new logical forms
-#_buckets = [(10, 7), (15, 10), (18, 12)]  # socialnetwork
-#_buckets = [(14, 9), (16, 12), (18, 15)]  # blocks
-_buckets = [(12, 12), (17, 20)]  # basketball
-#_buckets = [(10, 7), (14, 9), (17, 15)]  # publications
+#_buckets = [(10, 7), (15, 10), (18, 12)]  # basketball
+_buckets = [(10, 12), (13, 17), (18, 20)]  # basketball
 #_buckets = [(10, 7), (14, 10), (16, 13)]  # recipes
 #_buckets = [(10, 7), (13, 9), (16, 11)]  # restaurants
+#_buckets = [(10, 12), (13, 17), (17, 20)]  # restaurants
 #_buckets = [(10, 7), (13, 9), (16, 11)]  # housing
 #_buckets = [(10, 7), (13, 9), (16, 11)]  # calendar
 #_buckets = [(10, 7), (13, 9), (16, 11), (21, 15)]  # except_calendar
 #_buckets = [(10, 7), (15, 10), (18, 12), (21, 15)]  # except_basket
 #_buckets = [(10, 7), (14, 10), (16, 13), (21, 15)]  # except_recipes
-#_buckets = [(10, 7), (14, 10), (17, 15), (22, 16)]  # except_publications
-#_buckets = [(14, 9), (16, 12), (18, 15), (22, 16)]  # except_blocks
+
 
 def read_data(source_path, target_path, tag_path, max_size=None):
   """Read data from source and target files and put into buckets.
