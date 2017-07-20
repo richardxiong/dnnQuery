@@ -48,10 +48,10 @@ conventions:
 end of it
 '''
 #==================================================================================
-subset = 'basketball'
+subset = 'restaurants'
     
 tf.app.flags.DEFINE_float("learning_rate", 0.05 * 0.007, "Learning rate.")
-tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.96,
+tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.6,
                           "Learning rate decays by this much.")
 tf.app.flags.DEFINE_float("max_gradient_norm", 5.0,
                           "Clip gradients to this norm.")
@@ -93,10 +93,10 @@ FLAGS = tf.app.flags.FLAGS
 # We use a number of buckets and pad to the closest one for efficiency.
 # See seq2seq_model.Seq2SeqModel for details of how they work.
 #_buckets = [(10, 7), (15, 10), (18, 12)]  # basketball
-_buckets = [(10, 12), (13, 17), (18, 20)]  # basketball
+#_buckets = [(10, 12), (13, 17), (18, 20)]  # basketball
 #_buckets = [(10, 7), (14, 10), (16, 13)]  # recipes
 #_buckets = [(10, 7), (13, 9), (16, 11)]  # restaurants
-#_buckets = [(10, 12), (13, 17), (17, 20)]  # restaurants
+_buckets = [(10, 12), (13, 17), (17, 20)]  # restaurants
 #_buckets = [(10, 7), (13, 9), (16, 11)]  # housing
 #_buckets = [(10, 7), (13, 9), (16, 11)]  # calendar
 #_buckets = [(10, 7), (13, 9), (16, 11), (21, 15)]  # except_calendar
@@ -288,6 +288,7 @@ def train():
           continue
         if total_eval_ppx > eval_ppx_history[0]:
           eval_ppx_history.append(total_eval_ppx)
+          sess.run(model.learning_rate_decay_op)
           if len(eval_ppx_history) == 5:
             sys.stdout.flush()
             break
