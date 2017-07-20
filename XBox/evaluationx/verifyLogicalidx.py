@@ -87,7 +87,7 @@ with open(test_output) as infile:
             # compare line with all possible forms, and choose the most similar one
             ## case 1, different sequence
             wordsList = line.split(' ')
-            if len(wordsList) > 5 and wordsList[5] == 'and':
+            if len(wordsList) > 8 and wordsList[5] == 'and':
                 temp = wordsList[2]
                 wordsList[2] = wordsList[6]
                 wordsList[6] = temp
@@ -148,7 +148,7 @@ with open(geo_output) as infile:
             # compare line with all possible forms, and choose the most similar one
             ## case 1, different sequence
             wordsList = line.split(' ')
-            if len(wordsList) > 5 and wordsList[5] == 'and':
+            if len(wordsList) > 8 and wordsList[5] == 'and':
                 temp = wordsList[2]
                 wordsList[2] = wordsList[6]
                 wordsList[6] = temp
