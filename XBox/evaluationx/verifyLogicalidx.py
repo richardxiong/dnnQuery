@@ -51,7 +51,7 @@ prime = ['where', 'select', 'max', 'min', 'equal', 'less', 'greater', 'neq', 'ng
          'avg', 'count', 'sum', 'between', 'and', 'or', '<field>:0', '<field>:1', '<field>:2', \
          '<field>:3', '<value>:0', '<value>:1', '<value>:2', '<value>:3','<count>'
         ]
-        
+
 correct = 0
 truth = []
 with open(test_truth) as infile:
@@ -87,7 +87,7 @@ with open(test_output) as infile:
             # compare line with all possible forms, and choose the most similar one
             ## case 1, different sequence
             wordsList = line.split(' ')
-            if wordsList[5] == 'and':
+            if len(wordsList) > 5 and wordsList[5] == 'and':
                 temp = wordsList[2]
                 wordsList[2] = wordsList[6]
                 wordsList[6] = temp
@@ -148,7 +148,7 @@ with open(geo_output) as infile:
             # compare line with all possible forms, and choose the most similar one
             ## case 1, different sequence
             wordsList = line.split(' ')
-            if wordsList[5] == 'and':
+            if len(wordsList) > 5 and wordsList[5] == 'and':
                 temp = wordsList[2]
                 wordsList[2] = wordsList[6]
                 wordsList[6] = temp
