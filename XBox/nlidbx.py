@@ -361,10 +361,13 @@ def decode():
             if data_utils.EOS_ID in outputs:
               outputs = outputs[:outputs.index(data_utils.EOS_ID)]
             # Print out French sentence corresponding to outputs.
+            for output in outputs:
+              if output >= len(rev_fr_vocab):
+                output = 3
             resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
             if FLAGS.enable_table_test:
-                resultAnswer = logicalParser(tables[qid], resultLogical)
-                answerOutput.write(str(resultAnswer) + '\n')
+              resultAnswer = logicalParser(tables[qid], resultLogical)
+              answerOutput.write(str(resultAnswer) + '\n')
 
             logicalTemp_geo.write(str(resultLogical) + '\n')
             q_index += 1
@@ -403,10 +406,13 @@ def decode():
             if data_utils.EOS_ID in outputs:
               outputs = outputs[:outputs.index(data_utils.EOS_ID)]
             # Print out French sentence corresponding to outputs.
+            for output in outputs:
+              if output >= len(rev_fr_vocab):
+                output = 3
             resultLogical = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
             if FLAGS.enable_table_test:
-                resultAnswer = logicalParser(tables[qid], resultLogical)
-                answerOutput.write(str(resultAnswer) + '\n')
+              resultAnswer = logicalParser(tables[qid], resultLogical)
+              answerOutput.write(str(resultAnswer) + '\n')
 
             logicalTemp_test.write(str(resultLogical) + '\n')
             q_index += 1
