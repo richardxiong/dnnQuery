@@ -1462,7 +1462,7 @@ def embedding_attention_seq2seq_pretrain(encoder_inputs,
                                            output_keep_prob=0.5,
                                            #state_keep_prob=0.95,
                                            variational_recurrent=True,
-                                           input_size=embedding_size*2,
+                                           input_size=embedding_size,
                                            dtype=tf.float32
                                            )
     embedding_matrix = tf.Variable(embedding_matrix, trainable = True)
