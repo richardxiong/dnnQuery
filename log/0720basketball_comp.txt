@@ -1,0 +1,949 @@
+Compare previous method
+
+wrong examples: 6
+number_of_rebounds where player equal kobe_bryant and number_of_rebounds equal 3
+season where player equal kobe_bryant and number_of_rebounds equal 3
+wrong examples: 9
+player where number_of_points ng select number_of_points where player equal kobe_bryant
+player where number_of_points less select number_of_points where player equal kobe_bryant
+wrong examples: 10
+player where number_of_rebounds nl 3
+player where number_of_rebounds greater 3
+wrong examples: 17
+number_of_assists where player equal kobe_bryant and number_of_steals equal 3
+number_of_assists where player equal kobe_bryant and number_of_assists equal 3
+wrong examples: 19
+number_of_blocks where player equal kobe_bryant and team equal los_angeles_lakers
+number_of_blocks where player equal kobe_bryant and season equal 2004
+wrong examples: 20
+position where player equal kobe_bryant
+count player
+wrong examples: 23
+player where number_of_steals greater 2
+player where number_of_steals greater 3
+wrong examples: 25
+team where team equal los_angeles_lakers or team equal cleveland_cavaliers
+player where team equal los_angeles_lakers or team equal cleveland_cavaliers
+wrong examples: 26
+player where number_of_played_games nl select number_of_played_games where player equal kobe_bryant
+player where number_of_played_games ng select number_of_played_games where player equal kobe_bryant
+wrong examples: 33
+player where number_of_fouls ng 3
+player where number_of_blocks nl 3
+wrong examples: 34
+player where number_of_assists ng select number_of_assists where player equal kobe_bryant
+player where number_of_assists less select number_of_assists where player equal kobe_bryant
+wrong examples: 37
+player where number_of_points nl 3
+player where number_of_points ng 3
+wrong examples: 47
+player where team equal select team where player equal kobe_bryant
+team where player equal kobe_bryant and position equal point_guard
+wrong examples: 51
+player where number_of_blocks greater 3
+player where number_of_blocks neq 3
+wrong examples: 53
+player where number_of_steals ng select number_of_steals where player equal kobe_bryant
+player where number_of_steals equal select number_of_steals where player equal kobe_bryant
+wrong examples: 57
+position where player equal kobe_bryant and team equal los_angeles_lakers
+position where player equal kobe_bryant and number_of_blocks equal 3
+wrong examples: 62
+player where number_of_played_games less select number_of_played_games where player equal kobe_bryant
+player where number_of_played_games ng select number_of_played_games where player equal kobe_bryant
+wrong examples: 64
+season where player equal kobe_bryant and number_of_played_games equal 3
+season where player equal kobe_bryant and season equal 2004
+wrong examples: 74
+player where number_of_assists ng select number_of_assists where player equal kobe_bryant
+player where number_of_assists nl select number_of_assists where player equal kobe_bryant
+wrong examples: 75
+player argmin count position
+player argmax count position
+wrong examples: 83
+player where number_of_played_games neq 3
+player where number_of_played_games less 3
+wrong examples: 85
+number_of_assists where player equal kobe_bryant and team equal los_angeles_lakers
+number_of_assists where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 86
+number_of_steals where player equal kobe_bryant and number_of_fouls equal 3
+season where player equal kobe_bryant and number_of_fouls equal 3
+wrong examples: 91
+player argmin count team
+player argmax count team
+wrong examples: 102
+player where number_of_turnovers less 4
+player where number_of_points neq 3
+wrong examples: 107
+player where number_of_played_games equal min number_of_played_games
+player where count position equal two
+wrong examples: 120
+player where number_of_rebounds ng select number_of_rebounds where player equal kobe_bryant
+player where number_of_rebounds equal select number_of_rebounds where player equal kobe_bryant
+wrong examples: 121
+number_of_rebounds where player equal kobe_bryant and number_of_blocks equal 3
+number_of_rebounds where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 122
+player where number_of_steals equal select number_of_steals where player equal kobe_bryant
+player where number_of_steals ng select number_of_steals where player equal kobe_bryant
+wrong examples: 127
+position where player equal kobe_bryant
+count player
+wrong examples: 130
+number_of_rebounds where player equal kobe_bryant and team equal los_angeles_lakers
+number_of_rebounds where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 134
+position where player equal kobe_bryant and position equal point_guard
+position where player equal kobe_bryant and season equal 2004
+wrong examples: 140
+number_of_assists where player equal kobe_bryant and number_of_fouls equal 3
+season where player equal kobe_bryant and number_of_fouls equal 3
+wrong examples: 142
+number_of_blocks where player equal kobe_bryant and team equal los_angeles_lakers
+number_of_rebounds where player equal kobe_bryant and team equal los_angeles_lakers
+wrong examples: 146
+season where player equal kobe_bryant and position equal point_guard
+position where player equal kobe_bryant and position equal point_guard
+wrong examples: 148
+player where count position equal one
+player where count position equal two
+wrong examples: 151
+number_of_blocks where player equal kobe_bryant and number_of_turnovers equal 3
+number_of_blocks where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 152
+number_of_points where player equal kobe_bryant and number_of_played_games equal 3
+number_of_points where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 161
+team where player equal kobe_bryant and season equal 2004
+season where player equal kobe_bryant and season equal 2004
+wrong examples: 162
+player where number_of_assists less 4
+player where number_of_assists less 3
+wrong examples: 163
+number_of_steals where player equal kobe_bryant and number_of_assists equal 3
+number_of_assists where player equal kobe_bryant and number_of_assists equal 3
+wrong examples: 165
+player where number_of_steals greater 3
+player where number_of_steals less 3
+wrong examples: 173
+player where number_of_points ng select number_of_points where player equal kobe_bryant
+player where number_of_points less select number_of_points where player equal kobe_bryant
+wrong examples: 181
+player where number_of_turnovers ng 3
+player where number_of_turnovers nl 3
+wrong examples: 184
+player where number_of_steals nl select number_of_steals where player equal kobe_bryant
+player where number_of_steals ng select number_of_steals where player equal kobe_bryant
+wrong examples: 191
+player where season equal 2004 and season equal 2010
+player where season neq 2004
+wrong examples: 192
+number_of_rebounds where player equal kobe_bryant and number_of_points equal 3
+number_of_rebounds where player equal kobe_bryant and season equal 2004
+wrong examples: 194
+player where number_of_rebounds less 4
+player where number_of_rebounds less 3
+wrong examples: 196
+number_of_played_games where player equal kobe_bryant and position equal point_guard
+season where player equal kobe_bryant and position equal point_guard
+wrong examples: 200
+player where team equal los_angeles_lakers and team equal cleveland_cavaliers
+player where count team equal two
+wrong examples: 207
+player where number_of_steals greater 3
+player where number_of_steals neq 3
+wrong examples: 209
+player where number_of_fouls nl select number_of_fouls where player equal kobe_bryant
+player where number_of_fouls less select number_of_fouls where player equal kobe_bryant
+wrong examples: 222
+number_of_turnovers where player equal kobe_bryant and team equal los_angeles_lakers
+number_of_turnovers where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 230
+season where player equal kobe_bryant and number_of_rebounds equal 3
+season where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 237
+number_of_points where player equal kobe_bryant and number_of_blocks nl 3
+number_of_points where player equal kobe_bryant and number_of_blocks equal 3
+wrong examples: 238
+player where number_of_points equal select number_of_points where player equal kobe_bryant
+player where number_of_points nl select number_of_points where player equal kobe_bryant
+wrong examples: 242
+number_of_fouls where player equal kobe_bryant and number_of_fouls equal 3
+number_of_fouls where player equal kobe_bryant and number_of_blocks equal 3
+wrong examples: 244
+number_of_points where player equal kobe_bryant and number_of_turnovers equal 3
+number_of_points where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 253
+team where team equal los_angeles_lakers or team equal cleveland_cavaliers
+player where team equal los_angeles_lakers or team equal cleveland_cavaliers
+wrong examples: 254
+player where number_of_steals nl select number_of_steals where player equal kobe_bryant
+player where number_of_steals ng select number_of_steals where player equal kobe_bryant
+wrong examples: 258
+player where number_of_points nl 3
+player where number_of_points ng 3
+wrong examples: 263
+player where season equal select season where player equal kobe_bryant
+player where number_of_played_games equal select number_of_played_games where player equal kobe_bryant
+wrong examples: 265
+player where number_of_blocks nl select number_of_blocks where player equal kobe_bryant
+player where number_of_blocks equal select number_of_blocks where player equal kobe_bryant
+wrong examples: 271
+player where number_of_blocks neq 3
+player where number_of_blocks less 3
+wrong examples: 273
+player where season equal select season where player equal kobe_bryant
+player where number_of_played_games equal select number_of_played_games where player equal kobe_bryant
+wrong examples: 274
+number_of_steals where player equal kobe_bryant and number_of_points equal 3
+number_of_points where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 276
+number_of_points where player equal kobe_bryant and number_of_turnovers equal 3
+number_of_points where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 281
+player where number_of_assists ng select number_of_assists where player equal kobe_bryant
+player where number_of_assists less select number_of_assists where player equal kobe_bryant
+wrong examples: 282
+number_of_points where player equal kobe_bryant and number_of_steals equal 3
+number_of_points where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 283
+number_of_points where player equal kobe_bryant and number_of_fouls equal 3
+number_of_points where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 286
+player where number_of_fouls ng select number_of_fouls where player equal kobe_bryant
+player where number_of_fouls less select number_of_fouls where player equal kobe_bryant
+wrong examples: 289
+player where number_of_played_games ng select number_of_played_games where player equal kobe_bryant
+player where number_of_played_games nl select number_of_played_games where player equal kobe_bryant
+wrong examples: 290
+player where number_of_rebounds equal max number_of_rebounds
+player where number_of_rebounds equal min number_of_rebounds
+wrong examples: 293
+number_of_rebounds where player equal kobe_bryant and number_of_rebounds equal 3
+team where player equal kobe_bryant and number_of_rebounds equal 3
+wrong examples: 295
+number_of_rebounds where player equal kobe_bryant and number_of_fouls nl 3
+number_of_rebounds where player equal kobe_bryant and number_of_fouls equal 3
+wrong examples: 296
+number_of_played_games where player equal kobe_bryant and number_of_rebounds nl 3
+number_of_played_games where player equal kobe_bryant and number_of_rebounds equal 3
+wrong examples: 307
+player where number_of_fouls less select number_of_fouls where player equal kobe_bryant
+player where number_of_fouls ng select number_of_fouls where player equal kobe_bryant
+wrong examples: 313
+player where number_of_assists equal min number_of_assists
+player where number_of_assists nl 3
+wrong examples: 314
+number_of_steals where player equal kobe_bryant and number_of_steals equal 3
+number_of_steals where player equal kobe_bryant and number_of_turnovers equal 3
+wrong examples: 320
+player where number_of_blocks equal select number_of_blocks where player equal kobe_bryant
+player where number_of_blocks nl select number_of_blocks where player equal kobe_bryant
+wrong examples: 324
+player where number_of_steals equal min number_of_steals
+player where number_of_steals equal max number_of_steals
+wrong examples: 326
+player where count team less two
+player where count team ng two
+wrong examples: 332
+player where position equal point_guard or position equal forward
+position where position equal point_guard or position equal forward
+wrong examples: 335
+position where player equal kobe_bryant and team equal los_angeles_lakers
+position where player equal kobe_bryant and number_of_blocks equal 3
+wrong examples: 342
+number_of_played_games where player equal kobe_bryant and number_of_turnovers equal 3
+number_of_played_games where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 343
+player where number_of_turnovers ng select number_of_turnovers where player equal kobe_bryant
+player where number_of_turnovers less select number_of_turnovers where player equal kobe_bryant
+wrong examples: 344
+player where number_of_steals ng 3
+player where number_of_steals nl 3
+wrong examples: 346
+player where number_of_played_games ng 3
+player where number_of_played_games nl 3
+wrong examples: 347
+number_of_played_games where player equal kobe_bryant and team equal los_angeles_lakers
+number_of_played_games where player equal kobe_bryant and number_of_blocks equal 3
+wrong examples: 349
+team where player equal kobe_bryant and position equal point_guard
+position where player equal kobe_bryant and position equal point_guard
+wrong examples: 356
+player where number_of_turnovers equal min number_of_turnovers
+player where number_of_turnovers equal max number_of_turnovers
+wrong examples: 357
+player where number_of_blocks equal select number_of_blocks where player equal kobe_bryant
+number_of_blocks where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 361
+player where number_of_points equal select number_of_points where player equal kobe_bryant
+player where number_of_points equal select team where player equal kobe_bryant
+wrong examples: 362
+number_of_fouls where player equal kobe_bryant and team equal los_angeles_lakers
+number_of_fouls where player equal kobe_bryant and number_of_turnovers equal 3
+wrong examples: 364
+team where player equal kobe_bryant and number_of_points equal 3
+team where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 366
+player where number_of_played_games ng select number_of_played_games where player equal kobe_bryant
+player where number_of_played_games equal select number_of_played_games where player equal kobe_bryant
+wrong examples: 375
+player argmin count position
+player argmax count position
+wrong examples: 376
+team where player equal kobe_bryant and team equal los_angeles_lakers
+team where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 378
+player where number_of_points greater 3
+player where number_of_blocks neq 3
+wrong examples: 389
+number_of_turnovers where player equal kobe_bryant and number_of_blocks equal 3
+number_of_blocks where player equal kobe_bryant and number_of_blocks equal 3
+test accuracy: 0.744245524297
+wrong examples: 6
+team where player equal kobe_bryant and number_of_turnovers equal 3
+number_of_turnovers where player equal kobe_bryant and number_of_turnovers equal 3
+wrong examples: 18
+count season where player equal kobe_bryant where number_of_fouls equal 3
+season where player equal kobe_bryant and number_of_fouls equal 3
+wrong examples: 19
+position where player equal kobe_bryant and number_of_steals greater 3
+position where player equal kobe_bryant and number_of_steals equal 3
+wrong examples: 35
+player where number_of_rebounds greater 2
+player where number_of_rebounds greater 3
+wrong examples: 77
+player where number_of_fouls equal min number_of_fouls
+player where number_of_fouls equal max number_of_fouls
+wrong examples: 86
+player where number_of_turnovers ng select number_of_turnovers where player equal kobe_bryant
+player where number_of_turnovers less select number_of_turnovers where player equal kobe_bryant
+wrong examples: 87
+player where number_of_assists equal min number_of_assists
+player where number_of_assists equal max number_of_assists
+wrong examples: 100
+season where player equal kobe_bryant and number_of_assists greater 3
+season where player equal kobe_bryant and number_of_assists equal 3
+wrong examples: 101
+player where number_of_steals ng select number_of_steals where player equal kobe_bryant
+player where number_of_steals less select number_of_steals where player equal kobe_bryant
+wrong examples: 108
+number_of_blocks where player equal kobe_bryant and number_of_played_games nl 3
+number_of_blocks where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 111
+player where number_of_fouls greater select number_of_fouls where player equal kobe_bryant
+player where number_of_fouls less select number_of_fouls where player equal kobe_bryant
+wrong examples: 112
+number_of_blocks where player equal kobe_bryant and number_of_played_games equal 3
+number_of_blocks where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 126
+player where count position ng two
+player where count position less two
+wrong examples: 131
+number_of_played_games where player equal kobe_bryant and number_of_fouls greater 3
+number_of_played_games where player equal kobe_bryant and number_of_fouls equal 3
+wrong examples: 132
+player where number_of_rebounds nl select number_of_rebounds where player equal kobe_bryant
+player where number_of_rebounds ng select number_of_rebounds where player equal kobe_bryant
+wrong examples: 139
+player where number_of_rebounds greater select number_of_rebounds where player equal kobe_bryant
+player where number_of_rebounds less select number_of_rebounds where player equal kobe_bryant
+wrong examples: 140
+player where number_of_steals greater select number_of_steals where player equal kobe_bryant
+player where number_of_steals less select number_of_steals where player equal kobe_bryant
+wrong examples: 143
+player where player equal kobe_bryant and number_of_blocks equal 3
+number_of_blocks where player equal kobe_bryant and number_of_blocks equal 3
+wrong examples: 145
+count season where player equal kobe_bryant and number_of_rebounds equal 3
+season where player equal kobe_bryant and number_of_rebounds equal 3
+wrong examples: 146
+number_of_turnovers where player equal kobe_bryant and number_of_points nl 3
+number_of_turnovers where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 147
+number_of_played_games where player equal kobe_bryant and number_of_blocks equal 3
+number_of_played_games where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 156
+player where number_of_fouls less 4
+player where number_of_fouls less 3
+wrong examples: 161
+player where number_of_fouls nl select number_of_fouls where player equal kobe_bryant
+player where number_of_fouls ng select number_of_fouls where player equal kobe_bryant
+wrong examples: 177
+player where number_of_turnovers nl select number_of_turnovers where player equal kobe_bryant
+player where number_of_turnovers ng select number_of_turnovers where player equal kobe_bryant
+wrong examples: 180
+number_of_steals where player equal kobe_bryant and number_of_blocks equal 3
+number_of_steals where player equal kobe_bryant and number_of_steals equal 3
+wrong examples: 190
+player where number_of_assists nl select number_of_assists where player equal kobe_bryant
+player where number_of_assists ng select number_of_assists where player equal kobe_bryant
+wrong examples: 205
+player where number_of_fouls nl select number_of_fouls where player equal kobe_bryant
+player where number_of_fouls ng select number_of_fouls where player equal kobe_bryant
+wrong examples: 220
+player where number_of_assists ng 3
+player where number_of_assists nl 3
+wrong examples: 226
+player where number_of_points nl select number_of_points where player equal kobe_bryant
+player where number_of_points less select number_of_points where player equal kobe_bryant
+wrong examples: 229
+player where number_of_blocks ng select number_of_blocks where player equal kobe_bryant
+player where number_of_blocks equal select number_of_blocks where player equal kobe_bryant
+wrong examples: 236
+player where number_of_rebounds equal min number_of_rebounds
+player where number_of_rebounds equal max number_of_rebounds
+wrong examples: 249
+player where number_of_fouls ng select number_of_fouls where player equal kobe_bryant
+player where number_of_fouls less select number_of_fouls where player equal kobe_bryant
+wrong examples: 253
+player where number_of_assists nl 3
+player where number_of_assists less 3
+wrong examples: 262
+player where number_of_played_games nl select number_of_played_games where player equal kobe_bryant
+player where number_of_played_games ng select number_of_played_games where player equal kobe_bryant
+wrong examples: 263
+player where number_of_rebounds nl select number_of_rebounds where player equal kobe_bryant
+player where number_of_rebounds ng select number_of_rebounds where player equal kobe_bryant
+wrong examples: 274
+player where number_of_fouls ng select number_of_fouls where player equal kobe_bryant
+player where number_of_fouls less select number_of_fouls where player equal kobe_bryant
+wrong examples: 279
+player where number_of_assists less 3
+player where number_of_assists nl 3
+wrong examples: 282
+player where number_of_blocks nl select number_of_blocks where player equal kobe_bryant
+player where number_of_blocks ng select number_of_blocks where player equal kobe_bryant
+wrong examples: 286
+player argmin count team
+player argmax count team
+wrong examples: 288
+player where number_of_blocks nl 3
+player where number_of_blocks less 3
+wrong examples: 294
+position where position equal point_guard or position equal forward
+player where position equal point_guard or position equal forward
+wrong examples: 301
+player where number_of_rebounds equal min number_of_rebounds
+player where number_of_rebounds equal max number_of_rebounds
+wrong examples: 320
+number_of_rebounds where player equal kobe_bryant and number_of_played_games equal 3
+number_of_rebounds where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 327
+player where number_of_rebounds ng 3
+player where number_of_rebounds nl 3
+wrong examples: 351
+number_of_turnovers where player equal kobe_bryant and number_of_turnovers equal 3
+number_of_turnovers where player equal kobe_bryant and season equal 2004
+wrong examples: 372
+number_of_played_games where player equal kobe_bryant and number_of_played_games equal 3
+season where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 373
+player argmin count position
+player argmax count position
+wrong examples: 383
+player where number_of_played_games ng select number_of_played_games where player equal kobe_bryant
+player where number_of_played_games less select number_of_played_games where player equal kobe_bryant
+wrong examples: 391
+player where count team less two
+player where count team ng two
+wrong examples: 406
+player where number_of_assists nl select number_of_assists where player equal kobe_bryant
+player where number_of_assists less select number_of_assists where player equal kobe_bryant
+wrong examples: 414
+player where number_of_rebounds nl select number_of_rebounds where player equal kobe_bryant
+player where number_of_rebounds equal select number_of_rebounds where player equal kobe_bryant
+wrong examples: 418
+number_of_points where player equal kobe_bryant and number_of_rebounds equal 3
+number_of_points where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 437
+player where number_of_steals ng 3
+player where number_of_steals less 3
+wrong examples: 442
+player where number_of_fouls ng 3
+player where number_of_fouls nl 3
+wrong examples: 443
+player where number_of_played_games nl select number_of_played_games where player equal kobe_bryant
+player where number_of_played_games ng select number_of_played_games where player equal kobe_bryant
+wrong examples: 454
+number_of_assists where player equal kobe_bryant and number_of_points equal 3
+number_of_assists where player equal kobe_bryant and number_of_assists equal 3
+wrong examples: 460
+number_of_played_games where player equal kobe_bryant and number_of_points equal 3
+number_of_played_games where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 468
+player where number_of_assists ng 3
+player where number_of_assists nl 3
+wrong examples: 475
+player where number_of_assists nl select number_of_assists where player equal kobe_bryant
+player where number_of_assists less select number_of_assists where player equal kobe_bryant
+wrong examples: 487
+player where number_of_assists ng 3
+player where number_of_assists less 3
+wrong examples: 492
+player where number_of_steals ng 3
+player where number_of_steals nl 3
+wrong examples: 499
+player where number_of_turnovers less select number_of_turnovers where player equal kobe_bryant
+player where number_of_turnovers ng select number_of_turnovers where player equal kobe_bryant
+wrong examples: 500
+number_of_rebounds where player equal kobe_bryant and position equal point_guard
+number_of_blocks where player equal kobe_bryant and position equal point_guard
+wrong examples: 501
+player where number_of_blocks ng select number_of_blocks where player equal kobe_bryant
+player where number_of_blocks less select number_of_blocks where player equal kobe_bryant
+wrong examples: 506
+number_of_played_games where player equal kobe_bryant and number_of_played_games equal 3
+season where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 511
+player where count team equal one
+player where count team equal two
+wrong examples: 522
+number_of_assists where player equal kobe_bryant and number_of_turnovers equal 3
+number_of_assists where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 529
+player where number_of_rebounds ng 3
+player where number_of_rebounds nl 3
+wrong examples: 536
+player where number_of_steals less 3
+player where number_of_steals greater 3
+wrong examples: 548
+player where season equal 2004 and season equal 2010
+player where season equal 2004 or season equal 2010
+wrong examples: 549
+player where number_of_rebounds ng select number_of_rebounds where player equal kobe_bryant
+player where number_of_rebounds less select number_of_rebounds where player equal kobe_bryant
+wrong examples: 553
+number_of_turnovers where player equal kobe_bryant and number_of_fouls equal 3
+number_of_turnovers where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 555
+number_of_rebounds where player equal kobe_bryant and number_of_steals equal 3
+number_of_rebounds where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 556
+number_of_assists where player equal kobe_bryant and number_of_blocks equal 3
+number_of_assists where player equal kobe_bryant and number_of_steals equal 3
+wrong examples: 565
+player where number_of_rebounds nl select number_of_rebounds where player equal kobe_bryant
+player where number_of_rebounds equal select number_of_rebounds where player equal kobe_bryant
+wrong examples: 566
+player where number_of_rebounds nl select number_of_rebounds where player equal kobe_bryant
+player where number_of_rebounds ng select number_of_rebounds where player equal kobe_bryant
+wrong examples: 567
+player where number_of_fouls equal max number_of_fouls
+player where number_of_fouls equal min number_of_fouls
+wrong examples: 576
+position where player equal kobe_bryant and number_of_steals equal 3
+position where player equal kobe_bryant and number_of_fouls equal 3
+wrong examples: 586
+number_of_points where player equal kobe_bryant and number_of_steals equal 3
+number_of_points where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 605
+number_of_steals where player equal kobe_bryant and number_of_fouls equal 3
+number_of_fouls where player equal kobe_bryant and number_of_fouls equal 3
+wrong examples: 608
+player where number_of_fouls nl select number_of_fouls where player equal kobe_bryant
+player where number_of_fouls ng select number_of_fouls where player equal kobe_bryant
+wrong examples: 612
+number_of_played_games where player equal kobe_bryant and number_of_blocks equal 3
+number_of_played_games where player equal kobe_bryant and number_of_steals equal 3
+wrong examples: 624
+player where number_of_steals ng select number_of_steals where player equal kobe_bryant
+player where number_of_steals less select number_of_steals where player equal kobe_bryant
+wrong examples: 633
+player where number_of_points neq 3
+player where number_of_points less 3
+wrong examples: 642
+number_of_blocks where player equal kobe_bryant and number_of_blocks equal 3
+number_of_played_games where player equal kobe_bryant and number_of_blocks equal 3
+wrong examples: 648
+number_of_points where player equal kobe_bryant and team equal los_angeles_lakers
+number_of_points where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 664
+number_of_blocks where player equal kobe_bryant and number_of_blocks equal 3
+season where player equal kobe_bryant and number_of_blocks equal 3
+wrong examples: 669
+number_of_turnovers where player equal kobe_bryant and number_of_blocks equal 3
+number_of_turnovers where player equal kobe_bryant and number_of_turnovers equal 3
+wrong examples: 688
+number_of_fouls where player equal kobe_bryant and number_of_turnovers equal 3
+number_of_fouls where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 693
+player where number_of_points ng select number_of_points where player equal kobe_bryant
+player where number_of_points less select number_of_points where player equal kobe_bryant
+wrong examples: 698
+team where player equal kobe_bryant and number_of_assists equal 3
+season where player equal kobe_bryant and number_of_assists equal 3
+wrong examples: 709
+player where number_of_steals equal min number_of_steals
+player where number_of_steals equal max number_of_steals
+wrong examples: 710
+team where player equal kobe_bryant and number_of_blocks equal 3
+team where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 719
+player where number_of_blocks ng select number_of_blocks where player equal kobe_bryant
+player where number_of_blocks less select number_of_blocks where player equal kobe_bryant
+wrong examples: 721
+player where number_of_assists less select number_of_assists where player equal kobe_bryant
+number_of_assists where player equal kobe_bryant and number_of_assists equal 3
+wrong examples: 722
+player where number_of_assists less select number_of_assists where player equal kobe_bryant
+number_of_assists where player equal kobe_bryant and number_of_assists equal 3
+wrong examples: 744
+player where number_of_steals nl select number_of_steals where player equal kobe_bryant
+player where number_of_steals less select number_of_steals where player equal kobe_bryant
+wrong examples: 746
+player where count position equal two
+player where count position ng two
+wrong examples: 748
+number_of_steals where player equal kobe_bryant and number_of_played_games equal 3
+number_of_steals where player equal kobe_bryant and number_of_steals equal 3
+wrong examples: 751
+position where player equal kobe_bryant and number_of_fouls equal 3
+position where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 763
+player where number_of_steals greater 3
+player where number_of_assists greater 3
+wrong examples: 765
+player where number_of_fouls nl select number_of_fouls where player equal kobe_bryant
+player where number_of_fouls less select number_of_fouls where player equal kobe_bryant
+wrong examples: 772
+position where position equal point_guard or position equal forward
+player where position equal point_guard or position equal forward
+wrong examples: 797
+player where number_of_points nl select number_of_points where player equal kobe_bryant
+player where number_of_points ng select number_of_points where player equal kobe_bryant
+wrong examples: 803
+number_of_rebounds where player equal kobe_bryant and number_of_steals equal 3
+number_of_rebounds where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 809
+player where number_of_steals nl select number_of_steals where player equal kobe_bryant
+player where number_of_steals ng select number_of_steals where player equal kobe_bryant
+wrong examples: 812
+player where count team equal one
+player where count team equal two
+wrong examples: 817
+player where number_of_fouls ng select number_of_fouls where player equal kobe_bryant
+player where number_of_fouls equal select number_of_fouls where player equal kobe_bryant
+wrong examples: 832
+number_of_blocks where player equal kobe_bryant and number_of_played_games equal 3
+number_of_blocks where player equal kobe_bryant and number_of_steals equal 3
+wrong examples: 848
+position where player equal kobe_bryant and number_of_points equal 3
+position where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 850
+player where number_of_turnovers nl select number_of_turnovers where player equal kobe_bryant
+player where number_of_turnovers ng select number_of_turnovers where player equal kobe_bryant
+wrong examples: 860
+player where number_of_turnovers nl select number_of_turnovers where player equal kobe_bryant
+player where number_of_turnovers less select number_of_turnovers where player equal kobe_bryant
+wrong examples: 866
+player where number_of_turnovers nl select number_of_turnovers where player equal kobe_bryant
+player where number_of_turnovers ng select number_of_turnovers where player equal kobe_bryant
+wrong examples: 883
+player where number_of_steals nl select number_of_steals where player equal kobe_bryant
+player where number_of_steals ng select number_of_steals where player equal kobe_bryant
+wrong examples: 887
+player where number_of_points greater 2
+player where number_of_points greater 3
+wrong examples: 888
+player where number_of_points equal min number_of_points
+player where number_of_points equal max number_of_points
+wrong examples: 892
+player where number_of_turnovers ng select number_of_turnovers where player equal kobe_bryant
+player where number_of_turnovers less select number_of_turnovers where player equal kobe_bryant
+wrong examples: 894
+number_of_fouls where player equal kobe_bryant and number_of_fouls equal 3
+number_of_fouls where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 898
+number_of_assists where player equal kobe_bryant and number_of_steals equal 3
+number_of_assists where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 899
+player where number_of_fouls equal min number_of_fouls
+player where number_of_fouls equal max number_of_fouls
+wrong examples: 901
+player where number_of_steals nl select number_of_steals where player equal kobe_bryant
+player where number_of_steals ng select number_of_steals where player equal kobe_bryant
+wrong examples: 906
+player where number_of_played_games equal min number_of_played_games
+player where number_of_played_games equal max number_of_played_games
+wrong examples: 920
+number_of_steals where player equal kobe_bryant and team equal los_angeles_lakers
+number_of_steals where player equal kobe_bryant and season equal 2004
+wrong examples: 921
+player where number_of_steals ng select number_of_steals where player equal kobe_bryant
+player where number_of_steals less select number_of_steals where player equal kobe_bryant
+wrong examples: 936
+player where number_of_played_games ng 3
+player where number_of_played_games nl 3
+wrong examples: 952
+player where number_of_played_games ng select number_of_played_games where player equal kobe_bryant
+player where number_of_played_games less select number_of_played_games where player equal kobe_bryant
+wrong examples: 953
+player argmin count position
+player argmax count position
+wrong examples: 958
+player where number_of_turnovers neq 3
+player where number_of_turnovers less 3
+wrong examples: 962
+player where number_of_rebounds ng select number_of_rebounds where player equal kobe_bryant
+player where number_of_rebounds less select number_of_rebounds where player equal kobe_bryant
+wrong examples: 968
+team where player equal kobe_bryant and position equal point_guard
+team where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 973
+player where count position less two
+player where count position ng two
+wrong examples: 982
+player where number_of_steals nl select number_of_steals where player equal kobe_bryant
+player where number_of_steals ng select number_of_steals where player equal kobe_bryant
+wrong examples: 991
+player where number_of_points ng select number_of_points where player equal kobe_bryant
+player where number_of_points nl select number_of_points where player equal kobe_bryant
+wrong examples: 997
+season where player equal kobe_bryant and number_of_played_games equal 3
+season where player equal kobe_bryant and number_of_fouls equal 3
+wrong examples: 1012
+player where number_of_blocks nl select number_of_blocks where player equal kobe_bryant
+player where number_of_blocks ng select number_of_blocks where player equal kobe_bryant
+wrong examples: 1017
+number_of_steals where player equal kobe_bryant and number_of_assists equal 3
+number_of_fouls where player equal kobe_bryant and number_of_assists equal 3
+wrong examples: 1019
+number_of_rebounds where player equal kobe_bryant and number_of_turnovers equal 3
+number_of_rebounds where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 1025
+number_of_turnovers where player equal kobe_bryant and number_of_assists equal 3
+number_of_turnovers where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 1027
+player where number_of_played_games equal max number_of_played_games
+player where number_of_played_games equal min number_of_played_games
+wrong examples: 1030
+number_of_assists where player equal kobe_bryant and number_of_played_games equal 3
+number_of_assists where player equal kobe_bryant and number_of_assists equal 3
+wrong examples: 1034
+player where number_of_played_games less select number_of_played_games where player equal kobe_bryant
+number_of_played_games where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 1039
+number_of_points where player equal kobe_bryant and number_of_points equal 3
+number_of_blocks where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 1042
+number_of_assists where player equal kobe_bryant and number_of_points equal 3
+number_of_assists where player equal kobe_bryant and number_of_assists equal 3
+wrong examples: 1044
+player argmin count position
+player argmax count position
+wrong examples: 1049
+number_of_points where player equal kobe_bryant and number_of_played_games equal 3
+number_of_points where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 1054
+number_of_turnovers where player equal kobe_bryant and number_of_turnovers equal 3
+number_of_turnovers where player equal kobe_bryant and season equal 2004
+wrong examples: 1056
+player where number_of_played_games ng 3
+player where number_of_played_games nl 3
+wrong examples: 1063
+player where number_of_blocks nl select number_of_blocks where player equal kobe_bryant
+player where number_of_blocks less select number_of_blocks where player equal kobe_bryant
+wrong examples: 1068
+player where number_of_turnovers less 4
+player where number_of_points less 3
+wrong examples: 1081
+player where number_of_assists nl 3
+player where number_of_assists greater 3
+wrong examples: 1087
+player where number_of_turnovers nl 3
+player where number_of_turnovers neq 3
+wrong examples: 1098
+player argmin count team
+player argmax count team
+wrong examples: 1105
+player where number_of_turnovers ng 3
+player where number_of_turnovers nl 3
+wrong examples: 1109
+number_of_assists where player equal kobe_bryant and number_of_played_games equal 3
+number_of_assists where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 1114
+player where number_of_steals equal min number_of_steals
+player where number_of_steals equal max number_of_steals
+wrong examples: 1123
+number_of_assists where player equal kobe_bryant and number_of_assists equal 3
+season where player equal kobe_bryant and number_of_assists equal 3
+wrong examples: 1137
+number_of_turnovers where player equal kobe_bryant and number_of_assists equal 3
+number_of_turnovers where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 1139
+player where number_of_blocks nl select number_of_blocks where player equal kobe_bryant
+player where number_of_blocks less select number_of_blocks where player equal kobe_bryant
+wrong examples: 1155
+player where number_of_points equal min number_of_points
+player where number_of_points equal max number_of_points
+wrong examples: 1162
+player argmin count position
+player argmax count position
+wrong examples: 1173
+number_of_points where player equal kobe_bryant and number_of_assists equal 3
+number_of_points where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 1179
+season where player equal kobe_bryant and number_of_fouls equal 3
+number_of_fouls where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 1180
+player where number_of_assists neq 3
+player where number_of_assists less 3
+wrong examples: 1185
+player argmin count team
+player argmax count team
+wrong examples: 1191
+player where number_of_fouls nl select number_of_fouls where player equal kobe_bryant
+player where number_of_fouls equal select number_of_fouls where player equal kobe_bryant
+wrong examples: 1192
+number_of_assists where player equal kobe_bryant and number_of_rebounds equal 3
+number_of_fouls where player equal kobe_bryant and number_of_rebounds equal 3
+wrong examples: 1196
+player where number_of_rebounds ng 3
+player where number_of_rebounds nl 3
+wrong examples: 1198
+player where number_of_blocks less select number_of_blocks where player equal kobe_bryant
+player where number_of_steals less select number_of_steals where player equal kobe_bryant
+wrong examples: 1230
+player where number_of_fouls nl select number_of_fouls where player equal kobe_bryant
+player where number_of_fouls ng select number_of_fouls where player equal kobe_bryant
+wrong examples: 1241
+player where count position less two
+player where count position ng two
+wrong examples: 1244
+number_of_blocks where player equal kobe_bryant and number_of_steals equal 3
+number_of_blocks where player equal kobe_bryant and number_of_blocks equal 3
+wrong examples: 1246
+player where number_of_points less select number_of_points where player equal kobe_bryant
+player where number_of_points nl select number_of_points where player equal kobe_bryant
+wrong examples: 1251
+number_of_fouls where player equal kobe_bryant and number_of_played_games nl 3
+number_of_fouls where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 1255
+number_of_rebounds where player equal kobe_bryant and number_of_assists equal 3
+number_of_rebounds where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 1259
+number_of_steals where player equal kobe_bryant and number_of_played_games equal 3
+number_of_turnovers where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 1262
+player where number_of_turnovers ng select number_of_turnovers where player equal kobe_bryant
+player where number_of_turnovers less select number_of_turnovers where player equal kobe_bryant
+wrong examples: 1267
+position where player equal kobe_bryant and number_of_blocks equal 3
+position where player equal kobe_bryant and number_of_fouls equal 3
+wrong examples: 1285
+player where number_of_blocks equal min number_of_blocks
+player where number_of_blocks equal max number_of_blocks
+wrong examples: 1294
+player where number_of_fouls ng select number_of_fouls where player equal kobe_bryant
+player where number_of_fouls equal select number_of_fouls where player equal kobe_bryant
+wrong examples: 1313
+number_of_steals where player equal kobe_bryant and number_of_fouls equal 3
+number_of_steals where player equal kobe_bryant and number_of_steals equal 3
+wrong examples: 1323
+player where number_of_assists nl select number_of_assists where player equal kobe_bryant
+player where number_of_assists less select number_of_assists where player equal kobe_bryant
+wrong examples: 1326
+number_of_assists where player equal kobe_bryant and number_of_assists nl 3
+number_of_assists where player equal kobe_bryant and number_of_assists equal 3
+wrong examples: 1327
+player where number_of_blocks equal min number_of_blocks
+player where number_of_blocks equal max number_of_blocks
+wrong examples: 1350
+player where number_of_assists equal min number_of_assists
+player where number_of_assists equal max number_of_assists
+wrong examples: 1351
+player where number_of_steals nl 3
+player where number_of_steals less 3
+wrong examples: 1362
+player where number_of_steals ng 3
+player where number_of_steals nl 3
+wrong examples: 1370
+player where count position less two
+player where count position ng two
+wrong examples: 1372
+player where number_of_played_games ng 3
+player where number_of_played_games nl 3
+wrong examples: 1377
+player where number_of_assists ng 3
+player where number_of_assists nl 3
+wrong examples: 1384
+number_of_blocks where player equal kobe_bryant and number_of_turnovers nl 3
+number_of_blocks where player equal kobe_bryant and number_of_turnovers equal 3
+wrong examples: 1388
+player where number_of_played_games neq 3
+player where number_of_played_games nl 3
+wrong examples: 1389
+player where number_of_fouls neq 3
+player where number_of_fouls less 3
+wrong examples: 1391
+player where number_of_played_games equal max number_of_played_games
+player where number_of_played_games equal min number_of_played_games
+wrong examples: 1433
+position where player equal kobe_bryant and number_of_rebounds equal 3
+position where player equal kobe_bryant and number_of_fouls equal 3
+wrong examples: 1439
+number_of_fouls where player equal kobe_bryant and position equal point_guard
+number_of_fouls where player equal kobe_bryant and number_of_fouls equal 3
+wrong examples: 1440
+player where number_of_turnovers ng select number_of_turnovers where player equal kobe_bryant
+player where number_of_turnovers less select number_of_turnovers where player equal kobe_bryant
+wrong examples: 1442
+player argmin count team
+player argmax count team
+wrong examples: 1443
+player where number_of_played_games equal select number_of_played_games where player equal kobe_bryant
+player where number_of_turnovers nl select number_of_turnovers where player equal kobe_bryant
+wrong examples: 1466
+player where number_of_rebounds nl 3
+player where number_of_rebounds ng 3
+wrong examples: 1474
+player where count team equal one
+player where count team equal two
+wrong examples: 1482
+player where number_of_rebounds ng select number_of_rebounds where player equal kobe_bryant
+player where number_of_rebounds less select number_of_rebounds where player equal kobe_bryant
+wrong examples: 1483
+number_of_played_games where player equal kobe_bryant and number_of_rebounds equal 3
+number_of_played_games where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 1493
+position where player equal kobe_bryant and number_of_assists equal 3
+position where player equal kobe_bryant and number_of_fouls equal 3
+wrong examples: 1497
+number_of_steals where player equal kobe_bryant and season equal 2004
+number_of_steals where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 1503
+number_of_turnovers where player equal kobe_bryant and number_of_turnovers equal 3
+season where player equal kobe_bryant and number_of_turnovers equal 3
+wrong examples: 1505
+player where number_of_assists nl select number_of_assists where player equal kobe_bryant
+player where number_of_assists ng select number_of_assists where player equal kobe_bryant
+wrong examples: 1510
+player where number_of_points nl select number_of_points where player equal kobe_bryant
+player where number_of_points ng select number_of_points where player equal kobe_bryant
+wrong examples: 1513
+number_of_steals where player equal kobe_bryant and number_of_turnovers equal 3
+number_of_steals where player equal kobe_bryant and number_of_steals equal 3
+wrong examples: 1514
+player where number_of_blocks nl select number_of_blocks where player equal kobe_bryant
+player where number_of_blocks ng select number_of_blocks where player equal kobe_bryant
+wrong examples: 1516
+player where number_of_fouls equal select number_of_fouls where player equal kobe_bryant
+player where number_of_turnovers equal select number_of_turnovers where player equal kobe_bryant
+wrong examples: 1518
+number_of_turnovers where player equal kobe_bryant and position equal point_guard
+number_of_turnovers where player equal kobe_bryant and number_of_points equal 3
+wrong examples: 1521
+player where number_of_blocks nl 3
+player where number_of_blocks neq 3
+wrong examples: 1535
+team where player equal kobe_bryant and number_of_blocks equal 3
+team where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 1550
+number_of_played_games where player equal kobe_bryant and number_of_steals equal 3
+number_of_played_games where player equal kobe_bryant and number_of_played_games equal 3
+wrong examples: 1558
+team where player equal kobe_bryant and team equal los_angeles_lakers
+team where player equal kobe_bryant and number_of_played_games equal 3
+train accuracy: 0.862267777066

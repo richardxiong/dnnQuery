@@ -56,7 +56,7 @@ conventions:
 end of it
 '''
 #==================================================================================
-subset = 'basketball'
+subset = 'restaurants'
     
 tf.app.flags.DEFINE_float("learning_rate", 0.05 * 0.007, "Learning rate.")
 tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.6,
@@ -103,7 +103,8 @@ FLAGS = tf.app.flags.FLAGS
 # 1. no field / tagging model
 #_buckets = [(10, 8), (15, 12), (19, 16), (23, 21)]
 
-_buckets = [(10, 12), (13, 17), (18, 20)]  # basketball
+#_buckets = [(10, 12), (13, 17), (18, 20)]  # basketball
+_buckets = [(10, 12), (13, 17), (17, 20)]  # restaurants
 
 def read_data(source_path, target_path, max_size=None):
   """Read data from source and target files and put into buckets.
