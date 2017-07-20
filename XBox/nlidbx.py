@@ -103,7 +103,7 @@ FLAGS = tf.app.flags.FLAGS
 # 1. no field / tagging model
 #_buckets = [(10, 8), (15, 12), (19, 16), (23, 21)]
 
-_buckets = [(12, 12), (17, 20)]  # basketball
+_buckets = [(10, 12), (13, 17), (17, 20)]  # restaurants
 
 def read_data(source_path, target_path, max_size=None):
   """Read data from source and target files and put into buckets.
@@ -268,7 +268,7 @@ def train():
               dev_set, bucket_id)
             _, eval_loss[idx], _, eval_lasthidden = model.step(sess, encoder_inputs, decoder_inputs, ###
                                        target_weights, bucket_id, True)
-          eval_ppx = math.exp(float(eval_loss)) if eval_loss < 300 else float(
+          eval_ppx = math.exp(np.mean(eval_loss)) if eval_loss.mean() < 300 else float(
               "inf")
           print("  eval: bucket %d perplexity %.2f" % (bucket_id, eval_ppx))
         # 0717 newly added: Stop criteria, minimum point passing 400 epoch
