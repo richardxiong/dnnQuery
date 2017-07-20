@@ -81,6 +81,18 @@ with open(test_output) as infile:
             correct += 1
         else:
             # compare line with all possible forms, and choose the most similar one
+            ## case 1, different sequence
+            wordsList = line.split(' ')
+            if wordsList[5] == 'and':
+                temp = wordsList[2]
+                wordsList[2] = wordsList[6]
+                wordsList[6] = temp
+                temp = wordsList[4]
+                wordsList[4] = wordsList[8]
+                wordsList[8] = temp
+                if ' '.join(wordsList).lower() == truth[index]:
+                    correct += 1
+                    continue
             print "wrong examples: %d" %(index + 1)
             print truth[index]
             print line.lower()
@@ -130,6 +142,18 @@ with open(geo_output) as infile:
             correct += 1
         else:
             # compare line with all possible forms, and choose the most similar one
+            ## case 1, different sequence
+            wordsList = line.split(' ')
+            if wordsList[5] == 'and':
+                temp = wordsList[2]
+                wordsList[2] = wordsList[6]
+                wordsList[6] = temp
+                temp = wordsList[4]
+                wordsList[4] = wordsList[8]
+                wordsList[8] = temp
+                if ' '.join(wordsList).lower() == truth[index]:
+                    correct += 1
+                    continue
             print "wrong examples: %d" %(index + 1)
             print truth[index]
             print line.lower()

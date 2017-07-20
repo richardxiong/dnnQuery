@@ -59,7 +59,7 @@ end of it
 subset = 'basketball'
     
 tf.app.flags.DEFINE_float("learning_rate", 0.05 * 0.007, "Learning rate.")
-tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.96,
+tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.6,
                           "Learning rate decays by this much.")
 tf.app.flags.DEFINE_float("max_gradient_norm", 5.0,
                           "Clip gradients to this norm.")
@@ -270,7 +270,7 @@ def train():
                                        target_weights, bucket_id, True)
           eval_ppx = math.exp(np.mean(eval_loss)) if eval_loss.mean() < 300 else float(
               "inf")
-          print("  eval: bucket %d perplexity %.2f" % (bucket_id, eval_ppx))
+          print("  eval: bucket %d perplexity %.4f" % (bucket_id, eval_ppx))
         # 0717 newly added: Stop criteria, minimum point passing 400 epoch
         population = np.array([len(dev_set[bucket_id]) for bucket_id in xrange(len(_buckets))])
         total_eval_ppx = np.sum(eval_ppx * population)
@@ -281,6 +281,7 @@ def train():
           continue
         if total_eval_ppx > eval_ppx_history[0]:
           eval_ppx_history.append(total_eval_ppx)
+          sess.run(model.learning_rate_decay_op)
           if len(eval_ppx_history) == 5:
             sys.stdout.flush()
             break
@@ -327,7 +328,7 @@ def decode():
 
     print('======= start testing =======')
     print('=== train dataset ===')
-    with gfile.GFile(geoQuestionFile, mode='r') as geoQuestions, gfile.GFile(geoLogicFile, mode='r') as geoLogics:
+    with tf.gfile.GFile(geoQuestionFile, mode='r') as geoQuestions, tf.gfile.GFile(geoLogicFile, mode='r') as geoLogics:
         q_index = 0
         sentence, logic_sen = geoQuestions.readline(), geoLogics.readline()
         while sentence and logic_sen:
@@ -369,7 +370,7 @@ def decode():
             q_index += 1
             sentence, logic_sen = geoQuestions.readline(), geoLogics.readline()
     print('=== test dataset ===')
-    with gfile.GFile(testQuestionFile, mode='r') as testQuestions, gfile.GFile(testLogicFile, mode='r') as testLogics:
+    with tf.gfile.GFile(testQuestionFile, mode='r') as testQuestions, tf.gfile.GFile(testLogicFile, mode='r') as testLogics:
         q_index = 0
         sentence, logic_sen = testQuestions.readline(), testLogics.readline()
         while sentence and logic_sen:
