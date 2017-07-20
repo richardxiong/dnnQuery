@@ -103,7 +103,7 @@ FLAGS = tf.app.flags.FLAGS
 # 1. no field / tagging model
 #_buckets = [(10, 8), (15, 12), (19, 16), (23, 21)]
 
-_buckets = [(10, 12), (13, 17), (17, 20)]  # restaurants
+_buckets = [(10, 12), (13, 17), (18, 20)]  # basketball
 
 def read_data(source_path, target_path, max_size=None):
   """Read data from source and target files and put into buckets.
