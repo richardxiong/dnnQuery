@@ -96,6 +96,7 @@ with open(test_output) as infile:
                 newline = ' '.join(newwordsList)
                 if newline.lower() == truth[index]:
                     correct += 1
+                    index += 1
                     continue
             # # case 2, replace unseen vocabulary
             # truthlist = truth[index].split(' ')
@@ -167,6 +168,7 @@ with open(geo_output) as infile:
                 newline = ' '.join(newwordsList)
                 if newline.lower() == truth[index]:
                     correct += 1
+                    index += 1
                     continue
             # # case 2, replace unseen vocabulary
             # truthlist = truth[index].split(' ')
