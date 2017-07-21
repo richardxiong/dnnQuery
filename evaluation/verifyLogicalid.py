@@ -85,21 +85,21 @@ with open(test_output) as infile:
             correct += 1
         else:
             # compare line with all possible forms, and choose the most similar one
-            ## case 1, different sequence
-            # wordsList = line.split(' ')
-            # if len(wordsList) > 8 and wordsList[5] == 'and':
-            #     temp = wordsList[2]
-            #     wordsList[2] = wordsList[6]
-            #     wordsList[6] = temp
-            #     temp = wordsList[4]
-            #     wordsList[4] = wordsList[8]
-            #     wordsList[8] = temp
-            #     if ' '.join(wordsList).lower() == truth[index]:
-            #         correct += 1
-            #         continue
-            # ## case 2, replace unseen vocabulary
+            # case 1, different sequence
+            #wordsList = line.split(' ')
+            if len(wordsList) > 8 and wordsList[5] == 'and':
+                newwordsList = [x for x in wordsList]
+                newwordsList[2] = wordsList[6]
+                newwordsList[6] = wordsList[2]
+                newwordsList[4] = wordsList[8]
+                newwordsList[8] = wordsList[4]
+                newline = ' '.join(newwordsList)
+                if newline.lower() == truth[index]:
+                    correct += 1
+                    continue
+            # # case 2, replace unseen vocabulary
             # truthlist = truth[index].split(' ')
-            # wordsList = line.split(' ')
+            # #wordsList = line.split(' ')
             # if len(truthlist) == len(wordsList):
             #     for i in range(len(truthlist)):
             #         if truthlist[i] not in prime:
@@ -156,19 +156,19 @@ with open(geo_output) as infile:
             correct += 1
         else:
             # compare line with all possible forms, and choose the most similar one
-            ## case 1, different sequence
-            # wordsList = line.split(' ')
-            # if len(wordsList) > 8 and wordsList[5] == 'and':
-            #     temp = wordsList[2]
-            #     wordsList[2] = wordsList[6]
-            #     wordsList[6] = temp
-            #     temp = wordsList[4]
-            #     wordsList[4] = wordsList[8]
-            #     wordsList[8] = temp
-            #     if ' '.join(wordsList).lower() == truth[index]:
-            #         correct += 1
-            #         continue
-            # ## case 2, replace unseen vocabulary
+            # case 1, different sequence
+            #wordsList = line.split(' ')
+            if len(wordsList) > 8 and wordsList[5] == 'and':
+                newwordsList = [x for x in wordsList]
+                newwordsList[2] = wordsList[6]
+                newwordsList[6] = wordsList[2]
+                newwordsList[4] = wordsList[8]
+                newwordsList[8] = wordsList[4]
+                newline = ' '.join(newwordsList)
+                if newline.lower() == truth[index]:
+                    correct += 1
+                    continue
+            # # case 2, replace unseen vocabulary
             # truthlist = truth[index].split(' ')
             # wordsList = line.split(' ')
             # if len(truthlist) == len(wordsList):
