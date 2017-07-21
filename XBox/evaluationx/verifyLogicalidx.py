@@ -49,7 +49,7 @@ geo_output = output_path + "/%s_train.out" % subset
 # test_output = output_path + "/forms_test.lo"
 prime = ['where', 'select', 'max', 'min', 'equal', 'less', 'greater', 'neq', 'ng', 'nl', \
          'avg', 'count', 'sum', 'between', 'and', 'or', '<field>:0', '<field>:1', '<field>:2', \
-         '<field>:3', '<value>:0', '<value>:1', '<value>:2', '<value>:3','<count>'
+         '<field>:3', '<value>:0', '<value>:1', '<value>:2', '<value>:3','<count>','true'
         ]
 
 correct = 0
@@ -86,16 +86,17 @@ with open(test_output) as infile:
         else:
             # compare line with all possible forms, and choose the most similar one
             ## case 1, different sequence
-            wordsList = line.split(' ')
+            #wordsList = line.split(' ')
             if len(wordsList) > 8 and wordsList[5] == 'and':
-                temp = wordsList[2]
-                wordsList[2] = wordsList[6]
-                wordsList[6] = temp
-                temp = wordsList[4]
-                wordsList[4] = wordsList[8]
-                wordsList[8] = temp
-                if ' '.join(wordsList).lower() == truth[index]:
+                newwordsList = [x for x in wordsList]
+                newwordsList[2] = wordsList[6]
+                newwordsList[6] = wordsList[2]
+                newwordsList[4] = wordsList[8]
+                newwordsList[8] = wordsList[4]
+                newline = ' '.join(newwordsList)
+                if newline.lower() == truth[index]:
                     correct += 1
+                    index += 1
                     continue
             print "wrong examples: %d" %(index + 1)
             print truth[index]
@@ -147,16 +148,17 @@ with open(geo_output) as infile:
         else:
             # compare line with all possible forms, and choose the most similar one
             ## case 1, different sequence
-            wordsList = line.split(' ')
+            #wordsList = line.split(' ')
             if len(wordsList) > 8 and wordsList[5] == 'and':
-                temp = wordsList[2]
-                wordsList[2] = wordsList[6]
-                wordsList[6] = temp
-                temp = wordsList[4]
-                wordsList[4] = wordsList[8]
-                wordsList[8] = temp
-                if ' '.join(wordsList).lower() == truth[index]:
+                newwordsList = [x for x in wordsList]
+                newwordsList[2] = wordsList[6]
+                newwordsList[6] = wordsList[2]
+                newwordsList[4] = wordsList[8]
+                newwordsList[8] = wordsList[4]
+                newline = ' '.join(newwordsList)
+                if newline.lower() == truth[index]:
                     correct += 1
+                    index += 1
                     continue
             print "wrong examples: %d" %(index + 1)
             print truth[index]

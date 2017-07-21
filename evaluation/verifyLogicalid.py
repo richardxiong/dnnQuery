@@ -49,7 +49,7 @@ geo_output = output_path + "/%s_train.out" % subset
 # test_output = output_path + "/forms_test.lo"
 prime = ['where', 'select', 'max', 'min', 'equal', 'less', 'greater', 'neq', 'ng', 'nl', \
          'avg', 'count', 'sum', 'between', 'and', 'or', '<field>:0', '<field>:1', '<field>:2', \
-         '<field>:3', '<value>:0', '<value>:1', '<value>:2', '<value>:3','<count>'
+         '<field>:3', '<value>:0', '<value>:1', '<value>:2', '<value>:3','<count>','true'
         ]
 
 correct = 0
