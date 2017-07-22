@@ -23,24 +23,38 @@ def constructGloveDict(glove_path, max_vocabulary_size):
 			print "		reading %d lines from GloVe file" % count
 	return word_vectors
 
-def generateEmbedMatrix(vocabulary_path, max_vocabulary_size, glove_path = None):
+def generateEmbedMatrix(vocabulary_path, max_vocabulary_size, glove_path = None, unit_var = False):
 	print "Importing GloVe pretrained word vectors"
     
 	vocab, _ = data_utils.initialize_vocabulary(vocabulary_path)	# (token ---> idx)
 
 	if glove_path is not None:
 		word_vectors = constructGloveDict(glove_path, max_vocabulary_size)
-	else:
+		glove_matrix = np.zeros((len(word_vectors), 300))
+		count = 0
+		for k,v in word_vectors.items():
+    		glove_matrix[count] = np.array(v) 
+    		count += 1
+    else:
 		word_vectors = None
 	# random initialize word vectors, with a larger radius than glove vector, in order to deal with outside-vocab words
 	# embedding_matrix = np.asarray(np.random.uniform(-1.99, 1.99, (len(vocab), 100)), dtype = 'float32')
-	embedding_matrix = np.asarray(np.random.normal(0, 1, (len(vocab), 300)), dtype = 'float32')
-
 	if word_vectors is not None:
 		print "Replacing GloVe word vectors as initialization"
+		stat = 0
+		mu = np.mean(glove_matrix, axis=0)
+		sigma = np.std(glove_matrix, axis=0)
+		embedding_matrix = np.concatenate([np.random.normal(mu[x], sigma[x], (len(vocab), 1)) for x in range(300)], axis=1)
 		for token in vocab:
 			if token in word_vectors:
 				embedding_matrix[vocab[token], :] = np.array(word_vectors[token]) 
+				stat += 1
+		print "Coverage = %.4f" % (1.0 * stat / len(vocab))
+		if unit_var:
+			embedding_matrix /= np.reshape(np.std(embedding_matrix, axis=1), (embedding_matrix.shape[0], 1))
+	else: 
+		embedding_matrix = np.asarray(np.random.normal(0, 1, (len(vocab), 300)), dtype = 'float32')
+		print "Coverage = NaN (no pretrained vector used)"
 	return embedding_matrix, vocab, word_vectors
 
 # def bucketStat():

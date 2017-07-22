@@ -1,0 +1,415 @@
+Output correction
+
+wrong examples: 6
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 15
+<field>:0 argmax count <field>:1
+<field>:0 argmin count <field>:1
+wrong examples: 23
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 37
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 43
+<field>:1 where <field>:0 equal <value>:0
+<field>:1 where <field>:0 neq <value>:0
+wrong examples: 47
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 equal <count>
+wrong examples: 50
+<field>:0 where count <field>:1 equal <count>
+<field>:0 where count <field>:1 nl <count>
+wrong examples: 52
+cuisine where <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0
+wrong examples: 60
+<field>:0 where <field>:0 neq select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where restaurant equal select restaurant where <field>:1 equal <value>:1
+wrong examples: 76
+<field>:0 argmax count <field>:1
+<field>:0 argmin count <field>:1
+wrong examples: 78
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 83
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 85
+<field>:0 where count <field>:1 nl <count>
+<field>:0 where count <field>:1 ng <count>
+wrong examples: 92
+<field>:1 where reservations equal true and <field>:0 equal <value>:0
+<field>:1 where <field>:0 equal <value>:0 and groups equal true
+wrong examples: 93
+<field>:0 where <field>:1 equal true and cuisine equal thai
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+wrong examples: 105
+<field>:1 where count <field>:0 greater <count>
+<field>:1 where count <field>:0 equal <count>
+wrong examples: 108
+<field>:1 where count <field>:0 equal <count>
+<field>:0 where count <field>:1 equal <count>
+wrong examples: 117
+<field>:0 where count <field>:1 equal <count>
+<field>:0 argmax count <field>:1
+wrong examples: 123
+<field>:0 where star_rating equal max star_rating
+count <field>:0
+wrong examples: 133
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal thai_cafe
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 134
+<field>:1 argmax count <field>:0
+<field>:1 where count <field>:0 equal <count>
+wrong examples: 136
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 140
+meal where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 145
+<field>:0 argmin count restaurant
+count <field>:0
+wrong examples: 150
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 152
+<field>:1 where count <field>:0 greater <count>
+<field>:1 where count <field>:0 equal <count>
+wrong examples: 155
+cuisine where count <field>:0 equal <count>
+<field>:0 where count neighborhood equal <count>
+wrong examples: 158
+<field>:0 where <field>:1 equal true and <field>:2 equal 2
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal true
+wrong examples: 161
+<field>:0 where count <field>:1 nl <count>
+<field>:0 argmax count <field>:1
+wrong examples: 169
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 178
+<field>:0 where <field>:1 equal <value>:1 and where <field>:1 <value>:1
+<field>:0 where <field>:1 equal <value>:1 or where <field>:1 <value>:1
+wrong examples: 182
+<field>:0 where meal equal select meal where <field>:0 equal <value>:0
+<field>:0 where star_rating equal select star_rating where <field>:0 equal <value>:0
+wrong examples: 185
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where <field>:1 equal <value>:1 and groups equal true
+wrong examples: 186
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 equal min <field>:1
+wrong examples: 191
+<field>:0 where reservations equal true and reservations equal true
+<field>:0 where price_rating equal 2 and price_rating equal 2
+wrong examples: 193
+cuisine where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 218
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 222
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 225
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 equal <count>
+wrong examples: 235
+<field>:0 where count <field>:1 greater <count>
+<field>:0 argmin count <field>:1
+wrong examples: 243
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 244
+<field>:0 argmin count <field>:1
+<field>:0 argmax count <field>:1
+wrong examples: 245
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where price_rating equal 2 and <field>:1 equal true
+wrong examples: 250
+<field>:0 where count <field>:1 less <count>
+<field>:1 where count <field>:0 equal <count>
+wrong examples: 253
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 261
+<field>:0 where cuisine equal select cuisine where <field>:0 equal <value>:0
+meal where <field>:0 equal select <field>:0 where <field>:1 equal true
+wrong examples: 268
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 275
+<field>:0 where price_rating greater select price_rating where <field>:0 equal <value>:0
+<field>:0 where star_rating greater select star_rating where <field>:0 equal <value>:0
+wrong examples: 285
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 287
+<field>:0 argmin count <field>:1
+<field>:0 where <field>:1 equal select <field>:1 where <field>:2 equal true
+wrong examples: 288
+<field>:0 argmin count <field>:1
+<field>:0 argmax count <field>:1
+wrong examples: 294
+<field>:0 where count <field>:1 nl <count>
+<field>:0 where count <field>:1 ng <count>
+wrong examples: 295
+<field>:0 where <field>:1 less 2
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 299
+<field>:1 where count <field>:0 equal <count>
+<field>:0 where count <field>:1 equal <count>
+wrong examples: 301
+<field>:0 argmin count <field>:1
+<field>:0 where count <field>:1 equal <count>
+wrong examples: 304
+<field>:0 where <field>:1 equal <value>:1 and waiter_service equal true
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 306
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 315
+<field>:0 where <field>:0 equal 3 or <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 320
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 322
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+cuisine where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 332
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+test accuracy: 0.816265060241
+wrong examples: 5
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 24
+<field>:0 where star_rating greater select star_rating where <field>:0 equal <value>:0
+<field>:0 where star_rating less select star_rating where <field>:0 equal <value>:0
+wrong examples: 51
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 60
+<field>:0 where count <field>:1 equal <count>
+<field>:0 where count <field>:1 greater <count>
+wrong examples: 77
+<field>:1 argmin count <field>:0
+<field>:0 argmin count <field>:1
+wrong examples: 97
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 104
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 5
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+wrong examples: 108
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+wrong examples: 126
+<field>:0 where <field>:1 equal <value>:1 and price_rating equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 131
+<field>:0 argmax count <field>:1
+<field>:0 argmin count <field>:1
+wrong examples: 149
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 nl <count>
+wrong examples: 169
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 175
+<field>:0 where star_rating nl select star_rating where <field>:0 equal <value>:0
+<field>:0 where star_rating ng select star_rating where <field>:0 equal <value>:0
+wrong examples: 177
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 greater <count>
+wrong examples: 189
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 204
+<field>:1 where waiter_service equal true and <field>:0 equal <value>:0
+<field>:1 where <field>:0 equal <value>:0 and <field>:2 equal true
+wrong examples: 205
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 228
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 less <count>
+wrong examples: 230
+<field>:0 where star_rating greater select star_rating where <field>:0 equal <value>:0
+<field>:0 where star_rating less select star_rating where <field>:0 equal <value>:0
+wrong examples: 233
+<field>:0 where count <field>:1 nl <count>
+<field>:0 where count <field>:1 greater <count>
+wrong examples: 256
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 265
+<field>:1 where <field>:0 equal <value>:0 or where <field>:0 pizzeria_juno
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 282
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 equal min <field>:1
+wrong examples: 286
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 326
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 327
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 357
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal thai_cafe
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 390
+<field>:0 where neighborhood equal midtown_west and <field>:1 equal true
+<field>:0 where price_rating equal 2 and <field>:1 equal true
+wrong examples: 406
+<field>:0 where <field>:1 equal true and takeout equal true
+<field>:0 where <field>:1 equal true and groups equal true
+wrong examples: 454
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 greater <count>
+wrong examples: 482
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+wrong examples: 539
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 574
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 604
+<field>:0 where outdoor_seating equal true and <field>:1 equal true
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+wrong examples: 615
+<field>:0 where <field>:0 neq select <field>:0 where restaurant equal thai_cafe
+<field>:0 where <field>:0 neq select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 643
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 655
+<field>:0 where neighborhood equal select neighborhood where <field>:0 equal <value>:0
+<field>:0 where star_rating equal select star_rating where <field>:0 equal <value>:0
+wrong examples: 666
+cuisine where cuisine neq select cuisine where <field>:0 equal <value>:0
+cuisine where cuisine equal select cuisine where <field>:0 equal <value>:0
+wrong examples: 691
+<field>:0 where count neighborhood greater <count>
+<field>:0 where count neighborhood equal <count>
+wrong examples: 705
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 775
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal thai_cafe
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal thai_cafe
+wrong examples: 777
+<field>:0 where star_rating equal max star_rating
+<field>:0 where price_rating neq 2
+wrong examples: 786
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 nl <count>
+wrong examples: 813
+<field>:1 where <field>:2 equal 2 and <field>:0 equal <value>:0
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 838
+<field>:0 where <field>:1 greater 2
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 840
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 greater <count>
+wrong examples: 844
+<field>:1 where count <field>:0 ng <count>
+<field>:1 where count <field>:0 equal <count>
+wrong examples: 850
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+wrong examples: 869
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 882
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 887
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+wrong examples: 897
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal thai_cafe
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal thai_cafe
+wrong examples: 912
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 nl <count>
+wrong examples: 955
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 equal min <field>:1
+wrong examples: 962
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 971
+<field>:1 where count <field>:0 less <count>
+<field>:0 where count <field>:1 less <count>
+wrong examples: 978
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 greater <count>
+wrong examples: 996
+<field>:0 where count <field>:1 equal <count>
+<field>:0 where count <field>:1 nl <count>
+wrong examples: 1009
+meal where <field>:0 equal <value>:0 or <field>:0 equal pizzeria_juno
+meal where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 1010
+<field>:0 where price_rating less select price_rating where <field>:0 equal <value>:0
+<field>:0 where star_rating less select star_rating where <field>:0 equal <value>:0
+wrong examples: 1048
+<field>:0 where star_rating less select star_rating where <field>:0 equal <value>:0
+<field>:0 where star_rating ng select star_rating where <field>:0 equal <value>:0
+wrong examples: 1054
+<field>:0 where count <field>:1 greater <count>
+<field>:0 where count <field>:1 less <count>
+wrong examples: 1086
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 1093
+<field>:0 where count <field>:1 greater <count>
+<field>:0 where count <field>:1 less <count>
+wrong examples: 1104
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1174
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 1207
+<field>:0 where price_rating less select price_rating where <field>:0 equal <value>:0
+<field>:0 where star_rating less select star_rating where <field>:0 equal <value>:0
+wrong examples: 1222
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+wrong examples: 1226
+<field>:1 where <field>:2 equal true and <field>:0 equal 2
+<field>:1 where <field>:2 equal true and <field>:0 equal <value>:0
+wrong examples: 1227
+<field>:1 where count <field>:0 greater <count>
+<field>:0 where count <field>:1 greater <count>
+wrong examples: 1233
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 1237
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 1280
+<field>:0 where <field>:1 equal select <field>:1 where price_rating equal 2
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1285
+<field>:0 where count <field>:1 equal <count>
+<field>:0 where count <field>:1 nl <count>
+wrong examples: 1311
+<field>:0 where count meal equal <count>
+<field>:0 where count neighborhood equal <count>
+wrong examples: 1314
+<field>:0 where kids equal true and reservations equal true
+<field>:0 where price_rating equal 2 and reservations equal true
+train accuracy: 0.942641509434
