@@ -1,0 +1,407 @@
+wrong examples: 4
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 6
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 7
+<field>:0 where cats equal true and dogs equal true
+<field>:0 where cats equal true and cats equal true
+wrong examples: 13
+avg <field>:0
+sum <field>:0
+wrong examples: 15
+<field>:1 where monthly_rent equal <value>:0 and <field>:0 equal true
+housing_unit where <field>:1 equal true and monthly_rent equal <value>:0
+wrong examples: 17
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 18
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 equal min <field>:1
+wrong examples: 19
+<field>:0 where size less select size where <field>:0 equal <value>:0
+<field>:0 where size greater select size where <field>:0 equal <value>:0
+wrong examples: 21
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 23
+housing_type where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 25
+<field>:0 where <field>:1 equal jan_2nd and <field>:2 equal <value>:2
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 33
+sum size
+count housing_type
+wrong examples: 36
+count <field>:0
+housing_type where count <field>:0 less <count>
+wrong examples: 37
+<field>:0 where <field>:2 equal true and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 40
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 42
+<field>:0 where <field>:0 neq <value>:0
+neighborhood where <field>:0 equal <value>:0
+wrong examples: 44
+<field>:0 where <field>:1 less <value>:1 and <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 45
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 56
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 57
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal <value>:0
+wrong examples: 63
+<field>:0 where <field>:1 equal midtown_west and <field>:2 equal <value>:2
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 64
+<field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal min <field>:1
+wrong examples: 68
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 70
+<field>:0 where count <field>:1 less <count>
+<field>:0 where count <field>:1 greater <count>
+wrong examples: 79
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 81
+<field>:1 where <field>:0 equal max <field>:0
+<field>:1 where <field>:0 equal true
+wrong examples: 83
+neighborhood where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 85
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 nl <count>
+wrong examples: 86
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 87
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 88
+<field>:0 where housing_unit equal select housing_unit where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 91
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+housing_unit where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 94
+<field>:0 where <field>:1 equal true and private_room equal true
+<field>:0 where <field>:1 equal true and private_bath equal true
+wrong examples: 100
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 nl <value>:1
+wrong examples: 101
+<field>:1 where <field>:0 equal <field>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 105
+housing_unit where <field>:0 equal max <field>:0
+sum <field>:0
+wrong examples: 108
+housing_unit where <field>:0 equal <value>:0 and <field>:0 equal <value>:0
+housing_unit where <field>:0 equal <value>:0 and private_bath equal true
+wrong examples: 110
+<field>:1 where <field>:0 greater select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:0 neq select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 113
+avg size
+count housing_unit
+wrong examples: 121
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 nl <count>
+wrong examples: 124
+<field>:2 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+<field>:1 where <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+wrong examples: 127
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 128
+housing_unit where <field>:0 equal <value>:0 and cats equal true
+<field>:0 where <field>:0 equal <value>:0 and private_bath equal true
+wrong examples: 129
+<field>:1 where <field>:0 equal select <field>:0 where <field>:2 equal true
+<field>:0 where <field>:1 equal select <field>:1 where <field>:2 equal true
+wrong examples: 131
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 132
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 133
+<field>:1 where <field>:0 equal max <field>:0
+<field>:1 where <field>:0 equal min <field>:0
+wrong examples: 134
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 136
+<field>:1 where <field>:0 equal min <field>:0
+<field>:1 where <field>:0 equal <value>:0
+wrong examples: 140
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 145
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 149
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 nl <count>
+wrong examples: 151
+<field>:0 where count <field>:1 equal <count>
+<field>:0 where count <field>:1 ng <count>
+wrong examples: 155
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 156
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 158
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 161
+<field>:0 where cats equal true and dogs equal true
+<field>:0 where count <field>:0 equal <count>
+wrong examples: 163
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 164
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 165
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 166
+<field>:0 where count <field>:1 greater <count>
+<field>:0 where count <field>:1 equal <count>
+wrong examples: 168
+housing_type where count housing_unit equal <count>
+housing_unit where count <field>:0 nl <count>
+wrong examples: 169
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 173
+housing_unit where <field>:0 less <value>:0 or <field>:0 less <value>:0
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+test accuracy: 0.642458100559
+wrong examples: 5
+<field>:0 where <field>:1 less 1500 or <field>:1 less <value>:1
+<field>:0 where <field>:1 greater 1500
+wrong examples: 8
+<field>:1 where <field>:0 equal max <field>:0
+<field>:1 where <field>:0 equal min <field>:0
+wrong examples: 25
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal 123_sesame_street
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 33
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 equal min <field>:1
+wrong examples: 50
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 52
+<field>:0 where size greater select size where <field>:0 equal <value>:0
+<field>:0 where size less select size where <field>:0 equal <value>:0
+wrong examples: 71
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 1000
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 88
+<field>:0 where <field>:1 equal <value>:1 and housing_type equal select housing_type where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 115
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 equal min <field>:1
+wrong examples: 119
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal select <field>:1 where <field>:0 equal 123_sesame_street
+<field>:0 where <field>:1 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 142
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 161
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:2 equal <value>:2
+wrong examples: 165
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 172
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 178
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 187
+<field>:0 where <field>:1 equal <value>:1 and size equal select size where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 196
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 197
+<field>:0 where <field>:1 equal <value>:1 and size equal select size where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 201
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal select <field>:1 where <field>:0 equal 123_sesame_street
+<field>:0 where <field>:1 equal select <field>:1 where <field>:2 equal <value>:2
+wrong examples: 229
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 232
+<field>:0 where count <field>:1 less <count>
+<field>:0 where count <field>:1 greater <count>
+wrong examples: 236
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 246
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+wrong examples: 270
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 281
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 286
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 298
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 300
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+wrong examples: 311
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal 123_sesame_street
+<field>:0 where <field>:1 equal select <field>:0 where <field>:2 equal <value>:2
+wrong examples: 314
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+wrong examples: 324
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 equal min <field>:1
+wrong examples: 333
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 343
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 nl <count>
+wrong examples: 352
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal condo
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 357
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 368
+<field>:0 where <field>:1 ng <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 371
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 377
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 383
+<field>:0 where <field>:0 equal midtown_west or <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 411
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 412
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 421
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 nl <count>
+wrong examples: 432
+<field>:0 where private_room equal true and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 441
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 450
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal 123_sesame_street
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 457
+<field>:0 where size equal select <field>:0 where <field>:1 equal <value>:1
+housing_type where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 461
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 equal min <field>:1
+wrong examples: 480
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:2 equal <value>:2
+wrong examples: 497
+<field>:0 where <field>:1 less <value>:1 or <field>:1 less <value>:1
+<field>:0 where <field>:1 less <value>:1 or <field>:1 greater <value>:1
+wrong examples: 499
+<field>:1 where <field>:0 equal max <field>:0
+<field>:1 where <field>:0 equal min <field>:0
+wrong examples: 502
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 504
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 520
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 equal min <field>:1
+wrong examples: 527
+<field>:0 where <field>:1 equal <value>:1 and neighborhood equal select neighborhood where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 528
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 538
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 equal min <field>:1
+wrong examples: 543
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 550
+<field>:0 where <field>:1 equal select <field>:0 where <field>:1 equal <value>:1
+housing_type where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 561
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 562
+<field>:0 where <field>:1 beetween <value>:1 and <value>:1
+<field>:0 where <field>:1 between <value>:1 and <value>:1
+wrong examples: 580
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:2 equal <value>:2
+wrong examples: 603
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 equal min <field>:1
+wrong examples: 604
+<field>:0 where <field>:1 equal <value>:1 and size equal select size where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 654
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 nl <count>
+wrong examples: 670
+<field>:0 where neighborhood equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where size equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 675
+<field>:1 where count <field>:0 less <count>
+<field>:0 where count <field>:1 greater <count>
+wrong examples: 683
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 equal min <field>:1
+wrong examples: 702
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 708
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 711
+<field>:0 where monthly_rent equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 715
+housing_unit where <field>:0 equal max <field>:0
+housing_unit where <field>:0 equal min <field>:0
+train accuracy: 0.901798063624
