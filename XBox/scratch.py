@@ -33,9 +33,9 @@ def generateEmbedMatrix(vocabulary_path, max_vocabulary_size, glove_path = None,
 		glove_matrix = np.zeros((len(word_vectors), 300))
 		count = 0
 		for k,v in word_vectors.items():
-    		glove_matrix[count] = np.array(v) 
-    		count += 1
-    else:
+			glove_matrix[count] = np.array(v)
+			count += 1
+	else:
 		word_vectors = None
 	# random initialize word vectors, with a larger radius than glove vector, in order to deal with outside-vocab words
 	# embedding_matrix = np.asarray(np.random.uniform(-1.99, 1.99, (len(vocab), 100)), dtype = 'float32')
