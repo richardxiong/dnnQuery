@@ -1,1151 +1,989 @@
 wrong examples: 6
 restaurant where star_rating greater 3
 restaurant where star_rating less 3
-wrong examples: 15
-restaurant argmax count meal
-restaurant argmin count meal
-wrong examples: 23
+wrong examples: 8
+restaurant where price_rating equal 2 and outdoor_seating equal true
+restaurant where price_rating equal select price_rating where restaurant equal thai_cafe
+wrong examples: 18
+restaurant where cuisine equal thai and price_rating equal 2
+restaurant where price_rating equal 2 and price_rating equal 2
+wrong examples: 19
+restaurant where price_rating equal 2 and delivery equal true
+restaurant where price_rating equal 2 and takeout equal true
+wrong examples: 22
 restaurant where star_rating ng select star_rating where restaurant equal thai_cafe
 restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
-wrong examples: 30
-count cuisine
-cuisine argmax restaurant equal thai_cafe
-wrong examples: 34
+wrong examples: 24
+restaurant where groups equal true and kids equal true
+restaurant where kids equal true and kids equal true
+wrong examples: 33
 restaurant where count cuisine equal one
 restaurant where count cuisine equal two
-wrong examples: 37
+wrong examples: 36
 price_rating where price_rating equal 2 or price_rating equal 3
-restaurant where price_rating equal 2 or price_rating equal 3
-wrong examples: 38
+restaurant where price_rating equal 2 or price_rating greater 3
+wrong examples: 37
 restaurant where price_rating less 2 or price_rating less 3
 restaurant where price_rating greater 2 or price_rating greater 3
 wrong examples: 42
-neighborhood where restaurant equal select restaurant where reservations equal true
-cuisine where restaurant equal select restaurant where reservations equal true
-wrong examples: 47
+restaurant where cuisine equal thai
+restaurant where cuisine neq thai
+wrong examples: 43
+restaurant where waiter_service equal true and star_rating equal 3
+restaurant where star_rating equal 3 and delivery equal true
+wrong examples: 46
 restaurant where count meal ng two
 restaurant where count meal equal two
+wrong examples: 47
+restaurant where delivery equal true and kids equal true
+restaurant where kids equal true and kids equal true
 wrong examples: 50
-restaurant where count meal equal two
-restaurant where count meal greater two
-wrong examples: 51
 meal where count restaurant equal two
 meal where count restaurant equal one
-wrong examples: 52
+wrong examples: 51
 cuisine where restaurant equal thai_cafe
 restaurant where restaurant equal thai_cafe
-wrong examples: 56
+wrong examples: 55
 restaurant where delivery equal true and groups equal true
 restaurant where groups equal true and groups equal true
-wrong examples: 57
+wrong examples: 56
 restaurant where price_rating less select price_rating where restaurant equal thai_cafe
-restaurant where price_rating nl select price_rating where restaurant equal thai_cafe
-wrong examples: 59
+restaurant where price_rating greater select price_rating where restaurant equal thai_cafe
+wrong examples: 58
 restaurant where reservations equal true and delivery equal true
 restaurant where delivery equal true and delivery equal true
-wrong examples: 60
+wrong examples: 59
 neighborhood where neighborhood neq select neighborhood where restaurant equal thai_cafe
-neighborhood where restaurant equal select restaurant where neighborhood equal thai_cafe
-wrong examples: 62
+neighborhood where restaurant equal select restaurant where credit_cards equal true
+wrong examples: 61
 meal where restaurant equal select restaurant where waiter_service equal true
 cuisine where restaurant equal select restaurant where waiter_service equal true
-wrong examples: 73
+wrong examples: 65
+restaurant where count meal less two
+restaurant where count meal greater two
+wrong examples: 71
 restaurant where groups equal true and outdoor_seating equal true
 restaurant where outdoor_seating equal true and outdoor_seating equal true
-wrong examples: 74
+wrong examples: 72
 restaurant where meal equal lunch and groups equal true
-restaurant where meal equal lunch and kids equal true
-wrong examples: 76
-restaurant argmax count neighborhood
-restaurant argmin count neighborhood
-wrong examples: 77
+restaurant where meal equal lunch and reservations equal true
+wrong examples: 74
 restaurant where reservations equal true and waiter_service equal true
 restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 78
+wrong examples: 75
 restaurant where star_rating nl 4
 restaurant where star_rating nl 3
-wrong examples: 79
+wrong examples: 76
 price_rating where price_rating equal 2 or price_rating equal 3
 restaurant where price_rating equal 2 or price_rating equal 3
 wrong examples: 80
-restaurant where neighborhood equal midtown_west
-restaurant where neighborhood neq midtown_west
-wrong examples: 83
 restaurant where star_rating greater 3
 restaurant where star_rating less 3
-wrong examples: 85
+wrong examples: 82
 meal where count restaurant nl two
-meal where count restaurant greater two
-wrong examples: 89
+meal where count restaurant ng two
+wrong examples: 86
 restaurant where credit_cards equal true and delivery equal true
 restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 93
+wrong examples: 90
 restaurant where waiter_service equal true and cuisine equal thai
 restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 97
-restaurant where groups equal true and credit_cards equal true
-restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 104
-cuisine where restaurant equal select restaurant where outdoor_seating equal true
-cuisine where restaurant equal select restaurant where delivery equal true
-wrong examples: 105
+wrong examples: 102
 cuisine where count restaurant greater two
-restaurant where price_rating equal select restaurant where cuisine
-wrong examples: 106
+restaurant where count cuisine equal two
+wrong examples: 103
 restaurant where credit_cards equal true and kids equal true
 restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 108
+wrong examples: 105
 cuisine where count restaurant equal two
 restaurant where count cuisine equal two
-wrong examples: 114
+wrong examples: 111
 cuisine where restaurant equal select restaurant where reservations equal true
-restaurant where reservations equal true
-wrong examples: 115
-restaurant where reservations equal true and delivery equal true
-restaurant where reservations equal true and reservations equal true
-wrong examples: 116
-cuisine where restaurant equal select restaurant where kids equal true
-cuisine where restaurant equal select restaurant where delivery equal true
-wrong examples: 120
+restaurant where equal equal true and cuisine equal thai
+wrong examples: 117
 cuisine where restaurant equal select restaurant where waiter_service equal true
-restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 122
+neighborhood where restaurant equal select restaurant where waiter_service equal true
+wrong examples: 119
 neighborhood where count restaurant equal two
 restaurant where neighborhood equal midtown_west
-wrong examples: 123
-restaurant where star_rating equal max star_rating
-count restaurant
-wrong examples: 125
+wrong examples: 121
 restaurant where credit_cards equal true and delivery equal true
 restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 126
+wrong examples: 122
 cuisine where count restaurant nl two
-cuisine where count restaurant greater two
-wrong examples: 127
+cuisine where count restaurant equal two
+wrong examples: 123
 restaurant where neighborhood equal select neighborhood where restaurant equal thai_cafe
-neighborhood where neighborhood equal select neighborhood where restaurant equal thai_cafe
-wrong examples: 131
+neighborhood where restaurant equal select restaurant where neighborhood equal midtown_west
+wrong examples: 125
+restaurant where cuisine equal thai and neighborhood equal midtown_west
+restaurant where cuisine equal thai and cuisine equal thai
+wrong examples: 127
 restaurant where waiter_service equal true and delivery equal true
 restaurant where delivery equal true and delivery equal true
-wrong examples: 133
+wrong examples: 129
 restaurant where cuisine equal select cuisine where restaurant equal thai_cafe
 cuisine where restaurant equal select restaurant where cuisine equal thai
-wrong examples: 134
-meal argmax count restaurant
-meal where count restaurant equal two
-wrong examples: 136
+wrong examples: 131
 restaurant where star_rating ng select star_rating where restaurant equal thai_cafe
-restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
-wrong examples: 137
+restaurant where star_rating less select star_rating where restaurant equal thai_cafe
+wrong examples: 132
 restaurant where price_rating equal min price_rating
 restaurant where price_rating equal 2
-wrong examples: 140
+wrong examples: 135
 meal where restaurant equal select restaurant where neighborhood equal midtown_west
 neighborhood where restaurant equal select restaurant where neighborhood equal midtown_west
 wrong examples: 145
-cuisine argmin count restaurant
-cuisine where count restaurant equal two
-wrong examples: 150
-restaurant where price_rating less 2
-restaurant where price_rating ng 2
-wrong examples: 151
-restaurant where delivery equal true and takeout equal true
-restaurant where delivery equal true and delivery equal true
-wrong examples: 152
 neighborhood where count restaurant greater two
 restaurant where count neighborhood equal two
-wrong examples: 153
+wrong examples: 146
 restaurant where outdoor_seating equal true and waiter_service equal true
 restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 155
+wrong examples: 148
 cuisine where count restaurant equal two
-restaurant where count cuisine equal two
-wrong examples: 159
+restaurant where count meal equal two
+wrong examples: 152
 restaurant where reservations equal true and delivery equal true
 restaurant where delivery equal true and delivery equal true
-wrong examples: 161
+wrong examples: 154
 restaurant where count cuisine nl two
 restaurant where count cuisine equal two
 wrong examples: 162
-meal where restaurant equal select restaurant where star_rating equal 3
-restaurant where equal true and star_rating equal 3
+restaurant where price_rating greater 2
+restaurant where price_rating less 2
 wrong examples: 165
-restaurant where outdoor_seating equal true and kids equal true
-restaurant where kids equal true and kids equal true
-wrong examples: 167
-restaurant where star_rating equal 3 and credit_cards equal true
-restaurant where star_rating equal 3 and reservations equal true
-wrong examples: 172
 price_rating where price_rating equal 2 or price_rating equal 3
 restaurant where price_rating equal 2 or price_rating equal 3
-wrong examples: 178
+wrong examples: 171
 neighborhood where restaurant equal thai_cafe and where restaurant pizzeria_juno
-neighborhood where restaurant equal thai_cafe or restaurant equal pizzeria_juno
-wrong examples: 180
-cuisine where restaurant equal select restaurant where kids equal true
-cuisine where restaurant equal select restaurant where groups equal true
-wrong examples: 182
+neighborhood where restaurant equal thai_cafe or where restaurant pizzeria_juno
+wrong examples: 175
 restaurant where meal equal select meal where restaurant equal thai_cafe
 restaurant where cuisine equal select cuisine where restaurant equal thai_cafe
-wrong examples: 183
+wrong examples: 176
 restaurant where waiter_service equal true and outdoor_seating equal true
-restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 185
+restaurant where outdoor_seating equal true and outdoor_seating equal true
+wrong examples: 178
 restaurant where count meal ng two
 restaurant where meal equal lunch or price_rating equal 3
-wrong examples: 186
+wrong examples: 179
 restaurant where star_rating equal max star_rating
 restaurant where star_rating equal min star_rating
-wrong examples: 193
+wrong examples: 186
 cuisine where restaurant equal thai_cafe or restaurant equal pizzeria_juno
-restaurant where restaurant equal thai_cafe or restaurant equal pizzeria_juno
-wrong examples: 197
+restaurant where neighborhood equal midtown_west or star_rating equal 5
+wrong examples: 190
 restaurant where delivery equal true and outdoor_seating equal true
-restaurant where outdoor_seating equal true and outdoor_seating equal true
-wrong examples: 206
-restaurant where price_rating equal 2 and meal equal lunch
-restaurant where price_rating equal 2 and price_rating equal 2
-wrong examples: 210
-restaurant where waiter_service equal true and outdoor_seating equal true
-restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 212
-restaurant where meal equal lunch and credit_cards equal true
-restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 215
+restaurant where delivery equal true and delivery equal true
+wrong examples: 207
 meal where meal equal lunch or meal equal dinner
 restaurant where meal equal lunch or meal equal dinner
-wrong examples: 218
+wrong examples: 210
 restaurant where price_rating ng 2
 restaurant where price_rating equal 2 and price_rating equal 2
-wrong examples: 222
+wrong examples: 212
+restaurant where groups equal true and outdoor_seating equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 214
 restaurant where price_rating nl 2 or price_rating nl 3
 restaurant where price_rating equal 2 or price_rating equal 3
-wrong examples: 225
+wrong examples: 216
+restaurant where star_rating equal min star_rating
+restaurant where star_rating equal 3
+wrong examples: 217
 neighborhood where count restaurant ng one
 neighborhood where count restaurant equal two
-wrong examples: 228
-restaurant where takeout equal true and kids equal true
-restaurant where takeout equal true and takeout equal true
-wrong examples: 235
+wrong examples: 227
 restaurant where count meal greater two
 restaurant where count meal equal two
-wrong examples: 241
+wrong examples: 233
 restaurant where star_rating less 5
 restaurant where star_rating less 3
-wrong examples: 243
+wrong examples: 234
+restaurant where delivery equal true
+restaurant where meal equal lunch
+wrong examples: 235
 restaurant where price_rating ng 2 or price_rating ng 3
-restaurant where star_rating less 3
-wrong examples: 244
-meal argmin count restaurant
-meal where count restaurant equal two
-wrong examples: 245
+restaurant where price_rating greater 2 or price_rating greater 3
+wrong examples: 236
 restaurant where count neighborhood ng two
-restaurant where price_rating equal 2 and groups equal true
-wrong examples: 246
+restaurant where neighborhood equal midtown_west and neighborhood equal midtown_west
+wrong examples: 237
 restaurant where takeout equal true and reservations equal true
 restaurant where reservations equal true and reservations equal true
-wrong examples: 249
+wrong examples: 240
 neighborhood where neighborhood neq select neighborhood where restaurant equal thai_cafe
-restaurant where neighborhood equal select neighborhood where restaurant equal thai_cafe
-wrong examples: 250
+neighborhood where restaurant equal select restaurant where neighborhood equal midtown_west
+wrong examples: 241
 cuisine where count restaurant less two
 cuisine where count restaurant equal two
-wrong examples: 254
-meal where restaurant equal select restaurant where cuisine equal thai
-cuisine where restaurant equal select restaurant where cuisine equal thai
-wrong examples: 258
+wrong examples: 247
+restaurant where waiter_service equal true and price_rating equal 2
+restaurant where price_rating equal 2 and price_rating equal 2
+wrong examples: 248
+restaurant where delivery equal true and waiter_service equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 249
 neighborhood where neighborhood equal midtown_west or neighborhood equal chelsea
 restaurant where neighborhood equal midtown_west or neighborhood equal chelsea
-wrong examples: 261
+wrong examples: 252
 restaurant where cuisine equal select cuisine where restaurant equal thai_cafe
-neighborhood where restaurant equal select neighborhood where restaurant equal thai_cafe
-wrong examples: 264
+meal where restaurant equal select restaurant where neighborhood equal midtown_west
+wrong examples: 255
 restaurant where kids equal true and reservations equal true
 restaurant where reservations equal true and reservations equal true
-wrong examples: 268
+wrong examples: 256
+neighborhood where restaurant equal select restaurant where waiter_service equal true
+neighborhood where restaurant equal select restaurant where neighborhood equal midtown_west
+wrong examples: 259
 restaurant where price_rating equal min price_rating
-restaurant where price_rating equal max price_rating
-wrong examples: 269
-restaurant where kids equal true and outdoor_seating equal true
-restaurant where kids equal true and kids equal true
-wrong examples: 272
-restaurant where waiter_service equal true and delivery equal true
-restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 275
+restaurant where price_rating equal 2
+wrong examples: 266
 restaurant where price_rating greater select price_rating where restaurant equal thai_cafe
-restaurant where price_rating equal select price_rating where restaurant equal thai_cafe
-wrong examples: 280
-restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
-restaurant where star_rating equal select star_rating where restaurant equal thai_cafe
-wrong examples: 281
+restaurant where price_rating nl select price_rating where restaurant equal thai_cafe
+wrong examples: 272
 restaurant where price_rating equal 1
 restaurant where price_rating equal 2
-wrong examples: 282
-restaurant argmin count meal
-restaurant argmax count meal
-wrong examples: 284
-restaurant argmin count cuisine
-restaurant argmax count cuisine
-wrong examples: 285
+wrong examples: 274
 restaurant where star_rating neq 3
 restaurant where star_rating equal 3
-wrong examples: 287
-meal argmin count restaurant
-meal where restaurant equal select restaurant where takeout equal true
-wrong examples: 288
-cuisine argmin count restaurant
-cuisine argmax count restaurant
-wrong examples: 291
+wrong examples: 278
 cuisine where cuisine equal thai or cuisine equal italian
 restaurant where cuisine equal thai or cuisine equal italian
-wrong examples: 294
+wrong examples: 281
 meal where count restaurant nl two
 meal where count restaurant greater two
-wrong examples: 295
+wrong examples: 282
 restaurant where price_rating less 2
 restaurant where price_rating equal 2
-wrong examples: 297
-restaurant where delivery equal true and takeout equal true
-restaurant where delivery equal true and delivery equal true
-wrong examples: 298
+wrong examples: 285
 cuisine where count restaurant nl two
-cuisine where count restaurant greater two
-wrong examples: 299
+cuisine where count restaurant equal two
+wrong examples: 286
 neighborhood where count restaurant equal one
-restaurant where price_rating equal select restaurant where price_rating
-wrong examples: 301
-restaurant argmin count cuisine
-restaurant where count cuisine
-wrong examples: 302
-restaurant where delivery equal true and waiter_service equal true
-restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 304
+restaurant where neighborhood neq midtown_west
+wrong examples: 290
 restaurant where meal equal lunch and waiter_service equal true
-restaurant where reservations equal true and meal equal lunch
-wrong examples: 307
+restaurant where meal equal lunch and delivery equal true
+wrong examples: 293
 cuisine where count restaurant ng two
-cuisine where count restaurant greater two
-wrong examples: 308
+cuisine where count restaurant nl two
+wrong examples: 294
 restaurant where price_rating equal 2 and star_rating equal 3
-restaurant where star_rating equal 3 or star_rating equal 3
-wrong examples: 310
+restaurant where price_rating equal 2 and price_rating equal 2
+wrong examples: 296
 count star_rating
-avg star_rating
-wrong examples: 311
+count restaurant
+wrong examples: 297
 restaurant where takeout equal true and outdoor_seating equal true
 restaurant where takeout equal true and takeout equal true
-wrong examples: 312
+wrong examples: 298
 meal where count restaurant ng two
-meal where count restaurant greater two
-wrong examples: 314
+meal where restaurant equal thai_cafe or restaurant equal pizzeria_juno
+wrong examples: 300
 restaurant where kids equal true and waiter_service equal true
 restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 315
+wrong examples: 301
 star_rating where star_rating equal 3 or star_rating equal 5
 restaurant where star_rating equal 3 and star_rating equal 3
-wrong examples: 318
+wrong examples: 304
 count meal
-meal argmax count restaurant
-wrong examples: 320
+meal where restaurant equal thai_cafe
+wrong examples: 306
 restaurant where star_rating greater select star_rating where restaurant equal thai_cafe
-restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
-wrong examples: 322
+restaurant where star_rating less select star_rating where restaurant equal thai_cafe
+wrong examples: 307
+restaurant where reservations equal true and outdoor_seating equal true
+restaurant where outdoor_seating equal true and outdoor_seating equal true
+wrong examples: 308
 restaurant where restaurant equal thai_cafe or restaurant equal pizzeria_juno
-neighborhood where restaurant equal thai_cafe or restaurant equal pizzeria_juno
-wrong examples: 323
-restaurant where cuisine neq thai
-restaurant where cuisine equal thai
-wrong examples: 325
-restaurant where neighborhood equal midtown_west and cuisine equal thai
-restaurant where cuisine equal thai and cuisine equal thai
-wrong examples: 326
+restaurant where neighborhood equal midtown_west and neighborhood equal midtown_west
+wrong examples: 312
 restaurant where star_rating greater select star_rating where restaurant equal thai_cafe
-restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
-wrong examples: 327
+restaurant where star_rating less select star_rating where restaurant equal thai_cafe
+wrong examples: 313
 meal where meal equal lunch or meal equal dinner
 restaurant where meal equal lunch or meal equal dinner
-wrong examples: 332
+wrong examples: 318
 restaurant where star_rating neq 3
 restaurant where star_rating nl 3
-test accuracy: 0.629518072289
+test accuracy: 0.676100628931
 wrong examples: 2
-cuisine argmin count restaurant
-cuisine argmax count restaurant
-wrong examples: 3
 cuisine where cuisine equal thai or cuisine equal italian
 restaurant where cuisine equal thai or cuisine equal italian
-wrong examples: 10
+wrong examples: 4
+restaurant where price_rating nl select price_rating where restaurant equal thai_cafe
+restaurant where price_rating less select price_rating where restaurant equal thai_cafe
+wrong examples: 6
+cuisine where restaurant equal select restaurant where kids equal true
+cuisine where restaurant equal select restaurant where groups equal true
+wrong examples: 9
 restaurant where price_rating equal 3 and price_rating equal 2
-restaurant where price_rating equal 2 and price_rating equal 2
-wrong examples: 16
-restaurant where takeout equal true and price_rating equal 2
-restaurant where star_rating equal 3 and takeout equal true
-wrong examples: 19
-restaurant where reservations equal true and groups equal true
-restaurant where reservations equal true and reservations equal true
-wrong examples: 24
+restaurant where price_rating equal 2 or price_rating equal 3
+wrong examples: 23
 restaurant where star_rating greater select star_rating where restaurant equal thai_cafe
 restaurant where star_rating less select star_rating where restaurant equal thai_cafe
-wrong examples: 28
+wrong examples: 27
 restaurant where takeout equal true and delivery equal true
 restaurant where takeout equal true and takeout equal true
-wrong examples: 37
-restaurant where groups equal true and cuisine equal thai
-restaurant where kids equal true and cuisine equal thai
-wrong examples: 43
+wrong examples: 42
 restaurant where star_rating nl 3 or star_rating nl 5
 restaurant where star_rating equal 3 or star_rating equal 5
-wrong examples: 51
+wrong examples: 50
 restaurant where price_rating greater 3
-restaurant where price_rating greater 2
-wrong examples: 56
-restaurant where takeout equal true and outdoor_seating equal true
-restaurant where outdoor_seating equal true and outdoor_seating equal true
-wrong examples: 60
+restaurant where price_rating less 2
+wrong examples: 51
+restaurant where outdoor_seating equal true and kids equal true
+restaurant where kids equal true and kids equal true
+wrong examples: 52
+restaurant where cuisine equal thai and neighborhood equal midtown_west
+restaurant where cuisine equal thai and cuisine equal thai
+wrong examples: 59
 restaurant where count cuisine equal two
-restaurant where count cuisine nl two
-wrong examples: 63
+restaurant where count cuisine greater two
+wrong examples: 61
 meal where count restaurant equal two
 restaurant where count meal equal two
-wrong examples: 65
+wrong examples: 63
 restaurant where price_rating nl 2 or price_rating nl 3
 restaurant where price_rating greater 2 or price_rating greater 3
+wrong examples: 64
+restaurant where kids equal true and groups equal true
+restaurant where groups equal true and groups equal true
 wrong examples: 68
-restaurant where takeout equal true and delivery equal true
-restaurant where delivery equal true and delivery equal true
-wrong examples: 71
 restaurant where delivery equal true and waiter_service equal true
 restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 74
+wrong examples: 71
 restaurant where star_rating ng 5
 restaurant where star_rating ng 3
-wrong examples: 77
-meal argmin count restaurant
-restaurant argmin count meal
-wrong examples: 79
+wrong examples: 74
 meal where count restaurant less two
 meal where count restaurant greater two
-wrong examples: 97
+wrong examples: 75
+restaurant where groups equal true and outdoor_seating equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 92
 restaurant where star_rating ng 3
-restaurant where star_rating less 3
-wrong examples: 104
+restaurant where star_rating nl 3
+wrong examples: 97
+meal where restaurant equal select restaurant where waiter_service equal true
+meal where restaurant equal select restaurant where groups equal true
+wrong examples: 99
 restaurant where star_rating greater 3 or star_rating greater 5
 restaurant where star_rating less 3 or star_rating less 5
-wrong examples: 108
+wrong examples: 103
 restaurant where star_rating greater 3 or star_rating greater 5
 restaurant where star_rating less 3 or star_rating less 5
-wrong examples: 122
+wrong examples: 116
 restaurant where credit_cards equal true and kids equal true
 restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 130
-restaurant where credit_cards equal true and groups equal true
-restaurant where credit_cards equal true and credit_cards equal true
+wrong examples: 117
+restaurant where waiter_service equal true and outdoor_seating equal true
+restaurant where outdoor_seating equal true and outdoor_seating equal true
+wrong examples: 124
+restaurant where kids equal true and credit_cards equal true
+restaurant where kids equal true and kids equal true
 wrong examples: 131
-restaurant argmax count neighborhood
-restaurant argmin count neighborhood
-wrong examples: 132
-cuisine argmin count restaurant
-cuisine argmax count restaurant
-wrong examples: 137
-restaurant where price_rating nl 2
-restaurant where price_rating ng 2
-wrong examples: 140
 restaurant where price_rating greater 2
-restaurant where price_rating ng 2
-wrong examples: 147
+restaurant where price_rating less 2
+wrong examples: 132
+restaurant where kids equal true and credit_cards equal true
+restaurant where kids equal true and kids equal true
+wrong examples: 137
 restaurant where meal neq lunch
 restaurant where meal equal lunch
-wrong examples: 149
+wrong examples: 139
 restaurant where count meal ng two
 restaurant where count meal nl two
-wrong examples: 151
-restaurant where star_rating nl 4
-restaurant where star_rating nl 3
-wrong examples: 152
-restaurant where takeout equal true and delivery equal true
-restaurant where delivery equal true and delivery equal true
-wrong examples: 154
-restaurant where price_rating less 2
-restaurant where price_rating greater 2
-wrong examples: 155
+wrong examples: 145
 meal where restaurant equal select restaurant where groups equal true
 meal where restaurant equal select restaurant where meal equal lunch
-wrong examples: 156
+wrong examples: 146
 restaurant where groups equal true and kids equal true
 restaurant where kids equal true and kids equal true
-wrong examples: 161
-restaurant where delivery equal true and waiter_service equal true
-restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 169
+wrong examples: 157
 restaurant where star_rating ng select star_rating where restaurant equal thai_cafe
 restaurant where star_rating equal select star_rating where restaurant equal thai_cafe
-wrong examples: 173
+wrong examples: 161
 restaurant where price_rating nl 2
 restaurant where price_rating ng 2
-wrong examples: 177
+wrong examples: 163
+restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
+restaurant where star_rating less select star_rating where restaurant equal thai_cafe
+wrong examples: 165
 cuisine where count restaurant ng two
 cuisine where count restaurant greater two
-wrong examples: 179
+wrong examples: 167
 restaurant where waiter_service equal true and outdoor_seating equal true
 restaurant where outdoor_seating equal true and outdoor_seating equal true
-wrong examples: 183
-neighborhood where count restaurant ng two
-neighborhood where count restaurant greater two
-wrong examples: 187
+wrong examples: 170
+restaurant where price_rating equal max price_rating
+restaurant where price_rating equal 2
+wrong examples: 175
 restaurant where star_rating greater 3 or star_rating greater 5
 restaurant where star_rating less 3 or star_rating less 5
-wrong examples: 188
+wrong examples: 176
 restaurant where takeout equal true and outdoor_seating equal true
 restaurant where outdoor_seating equal true and outdoor_seating equal true
-wrong examples: 195
-restaurant where kids equal true and takeout equal true
-restaurant where kids equal true and kids equal true
-wrong examples: 202
+wrong examples: 189
 restaurant where price_rating ng select price_rating where restaurant equal thai_cafe
 restaurant where price_rating nl select price_rating where restaurant equal thai_cafe
-wrong examples: 204
+wrong examples: 190
+restaurant where price_rating equal 2 and waiter_service equal true
+restaurant where price_rating equal 2 and groups equal true
+wrong examples: 191
 restaurant where waiter_service equal true and star_rating equal 3
-restaurant where star_rating equal 3 and kids equal true
-wrong examples: 205
+restaurant where kids equal true and star_rating equal 3
+wrong examples: 192
 restaurant where price_rating greater select price_rating where restaurant equal thai_cafe
 restaurant where price_rating less select price_rating where restaurant equal thai_cafe
-wrong examples: 214
+wrong examples: 201
 restaurant where star_rating nl 3
 restaurant where star_rating equal 3
-wrong examples: 215
+wrong examples: 202
 restaurant where kids equal true and outdoor_seating equal true
 restaurant where outdoor_seating equal true and outdoor_seating equal true
-wrong examples: 220
+wrong examples: 205
+meal where restaurant equal select restaurant where neighborhood equal midtown_west
+meal where restaurant equal select restaurant where meal equal lunch
+wrong examples: 207
 restaurant where waiter_service equal true and kids equal true
 restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 228
+wrong examples: 215
 neighborhood where count restaurant ng two
 neighborhood where count restaurant greater two
-wrong examples: 230
+wrong examples: 217
 restaurant where star_rating greater select star_rating where restaurant equal thai_cafe
-restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
-wrong examples: 237
-restaurant where takeout equal true and neighborhood equal midtown_west
-restaurant where neighborhood equal midtown_west and delivery equal true
-wrong examples: 238
+restaurant where star_rating less select star_rating where restaurant equal thai_cafe
+wrong examples: 220
+restaurant where count cuisine nl two
+restaurant where count cuisine greater two
+wrong examples: 221
+restaurant where waiter_service equal true and price_rating equal 2
+restaurant where price_rating equal 2 and price_rating equal 2
+wrong examples: 225
 neighborhood where count restaurant less two
 neighborhood where count restaurant greater two
-wrong examples: 240
-restaurant where credit_cards equal true and reservations equal true
-restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 256
+wrong examples: 226
+restaurant where reservations equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 243
 restaurant where star_rating nl 3 or star_rating nl 5
-restaurant where star_rating less 3 or star_rating equal 5
-wrong examples: 259
+restaurant where star_rating equal 3 or star_rating equal 5
+wrong examples: 246
 meal where count restaurant nl two
-meal where count restaurant greater two
-wrong examples: 263
-restaurant where star_rating less select star_rating where restaurant equal thai_cafe
-restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
-wrong examples: 265
+meal where count restaurant equal two
+wrong examples: 252
 neighborhood where restaurant equal thai_cafe or where restaurant pizzeria_juno
 restaurant where neighborhood equal select neighborhood where restaurant equal thai_cafe
-wrong examples: 277
+wrong examples: 259
+restaurant where delivery equal true and takeout equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 263
 restaurant where count cuisine less two
-restaurant where count cuisine nl two
-wrong examples: 278
+restaurant where count cuisine greater two
+wrong examples: 264
 restaurant where price_rating greater 3
-restaurant where price_rating ng 2
-wrong examples: 282
+restaurant where price_rating greater 2
+wrong examples: 268
 restaurant where star_rating equal max star_rating
 restaurant where star_rating equal min star_rating
-wrong examples: 286
+wrong examples: 272
 restaurant where price_rating ng select price_rating where restaurant equal thai_cafe
 restaurant where price_rating nl select price_rating where restaurant equal thai_cafe
-wrong examples: 298
-restaurant where waiter_service equal true and takeout equal true
-restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 301
+wrong examples: 287
 restaurant where price_rating equal min price_rating
 restaurant where price_rating equal max price_rating
-wrong examples: 308
-restaurant where reservations equal true and takeout equal true
-restaurant where reservations equal true and reservations equal true
-wrong examples: 316
-meal argmax count restaurant
-cuisine argmax count restaurant
-wrong examples: 325
+wrong examples: 301
+restaurant where credit_cards equal true and outdoor_seating equal true
+restaurant where outdoor_seating equal true and outdoor_seating equal true
+wrong examples: 307
+cuisine where restaurant equal select restaurant where waiter_service equal true
+cuisine where restaurant equal select restaurant where delivery equal true
+wrong examples: 309
 meal where count restaurant ng two
 meal where count restaurant greater two
-wrong examples: 326
+wrong examples: 310
 restaurant where star_rating ng select star_rating where restaurant equal thai_cafe
 restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
-wrong examples: 327
+wrong examples: 311
 restaurant where price_rating ng 3
 restaurant where price_rating nl 2
-wrong examples: 331
+wrong examples: 314
+restaurant where meal equal select meal where restaurant equal thai_cafe
+restaurant where meal equal select cuisine where restaurant equal thai_cafe
+wrong examples: 315
 restaurant where waiter_service equal true and outdoor_seating equal true
-restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 342
+restaurant where outdoor_seating equal true and outdoor_seating equal true
+wrong examples: 322
+restaurant where cuisine equal thai and neighborhood equal midtown_west
+restaurant where neighborhood equal midtown_west and neighborhood equal midtown_west
+wrong examples: 326
 restaurant where meal equal lunch and cuisine equal thai
 restaurant where meal equal lunch and meal equal lunch
-wrong examples: 343
-cuisine where cuisine neq select cuisine where restaurant equal thai_cafe
-cuisine where cuisine equal select cuisine where restaurant equal thai_cafe
-wrong examples: 344
-meal where count restaurant nl two
-meal where count restaurant greater two
-wrong examples: 346
+wrong examples: 330
 neighborhood where count restaurant less two
 neighborhood where count restaurant greater two
-wrong examples: 353
+wrong examples: 333
+restaurant where star_rating equal select star_rating where restaurant equal thai_cafe
+cuisine where restaurant equal select restaurant where star_rating equal 3
+wrong examples: 337
 restaurant where reservations equal true and outdoor_seating equal true
 restaurant where reservations equal true and reservations equal true
-wrong examples: 357
+wrong examples: 341
 restaurant where cuisine equal select cuisine where restaurant equal thai_cafe
 cuisine where restaurant equal select restaurant where cuisine equal thai
-wrong examples: 360
-restaurant where neighborhood neq midtown_west
-restaurant where neighborhood equal midtown_west
-wrong examples: 385
-restaurant where delivery equal true and takeout equal true
-restaurant where delivery equal true and delivery equal true
-wrong examples: 391
+wrong examples: 362
+restaurant where takeout equal true and kids equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 371
+restaurant where count meal less two
+restaurant where count meal greater two
+wrong examples: 375
 restaurant where credit_cards equal true and delivery equal true
 restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 396
+wrong examples: 380
 restaurant where groups equal true and reservations equal true
 restaurant where reservations equal true and reservations equal true
-wrong examples: 401
-restaurant where meal equal lunch and groups equal true
-restaurant where groups equal true and groups equal true
-wrong examples: 406
-restaurant where reservations equal true and takeout equal true
-restaurant where reservations equal true and reservations equal true
-wrong examples: 408
+wrong examples: 384
+restaurant where kids equal true and cuisine equal thai
+restaurant where groups equal true and cuisine equal thai
+wrong examples: 389
+restaurant where credit_cards equal true and outdoor_seating equal true
+restaurant where outdoor_seating equal true and outdoor_seating equal true
+wrong examples: 392
 restaurant where outdoor_seating equal true and groups equal true
 restaurant where outdoor_seating equal true and outdoor_seating equal true
-wrong examples: 410
-restaurant where price_rating between 2 and 3
-restaurant where price_rating equal 2 and price_rating equal 2
-wrong examples: 414
-restaurant argmin count cuisine
-restaurant argmax count cuisine
-wrong examples: 437
+wrong examples: 398
+restaurant where cuisine equal thai and meal equal lunch
+restaurant where meal equal lunch and meal equal lunch
+wrong examples: 419
 restaurant where credit_cards equal true and outdoor_seating equal true
 restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 440
-meal where restaurant equal select restaurant where outdoor_seating equal true
-cuisine where restaurant equal select restaurant where outdoor_seating equal true
-wrong examples: 446
+wrong examples: 428
 restaurant where count cuisine equal one
 restaurant where count cuisine equal two
-wrong examples: 447
-restaurant where groups equal true and takeout equal true
-restaurant where groups equal true and groups equal true
-wrong examples: 450
+wrong examples: 432
 star_rating where star_rating equal 3 or star_rating equal 5
-restaurant where star_rating equal 3 and star_rating equal 3
-wrong examples: 453
-restaurant where meal equal lunch and cuisine equal thai
-restaurant where cuisine equal thai and cuisine equal thai
-wrong examples: 454
+restaurant where star_rating equal 3 or star_rating equal 5
+wrong examples: 436
 restaurant where count cuisine ng two
-restaurant where count cuisine nl two
-wrong examples: 458
-restaurant where count meal greater two
-restaurant where count meal less two
-wrong examples: 468
-restaurant where delivery equal true and kids equal true
+restaurant where count cuisine greater two
+wrong examples: 444
+restaurant where groups equal true and price_rating equal 2
+restaurant where price_rating equal 2 and outdoor_seating equal true
+wrong examples: 452
+restaurant where waiter_service equal true and reservations equal true
+restaurant where reservations equal true and reservations equal true
+wrong examples: 459
+restaurant where delivery equal true and reservations equal true
 restaurant where delivery equal true and delivery equal true
-wrong examples: 473
-restaurant where price_rating nl 2
-restaurant where price_rating ng 2
-wrong examples: 474
-restaurant where credit_cards equal true and takeout equal true
-restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 480
-restaurant where waiter_service equal true and credit_cards equal true
-restaurant where credit_cards equal true and credit_cards equal true
+wrong examples: 463
+restaurant where groups equal true and neighborhood equal midtown_west
+restaurant where neighborhood equal midtown_west and waiter_service equal true
+wrong examples: 469
+restaurant where count meal less two
+restaurant where count meal greater two
+wrong examples: 478
+restaurant where credit_cards equal true and delivery equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 482
+restaurant where groups equal true and takeout equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 488
+restaurant where price_rating equal 2 and waiter_service equal true
+restaurant where price_rating equal 2 and takeout equal true
+wrong examples: 498
+restaurant where star_rating greater select star_rating where restaurant equal thai_cafe
+restaurant where star_rating less select star_rating where restaurant equal thai_cafe
 wrong examples: 514
+restaurant where meal equal select meal where restaurant equal thai_cafe
+meal where meal neq select meal where restaurant equal thai_cafe
+wrong examples: 515
+restaurant where outdoor_seating equal true and reservations equal true
+restaurant where reservations equal true and reservations equal true
+wrong examples: 516
+restaurant where count neighborhood greater two
+restaurant where count neighborhood nl two
+wrong examples: 517
 restaurant where reservations equal true and credit_cards equal true
 restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 517
-restaurant where star_rating greater select star_rating where restaurant equal thai_cafe
-restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
-wrong examples: 527
-restaurant where cuisine equal thai and meal equal lunch
-restaurant where cuisine equal thai and cuisine equal thai
-wrong examples: 531
-restaurant where groups equal true and waiter_service equal true
-restaurant where groups equal true and groups equal true
-wrong examples: 536
-restaurant where count neighborhood greater two
-restaurant where count neighborhood nl two
-wrong examples: 546
+wrong examples: 526
 restaurant where groups equal true and waiter_service equal true
 restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 557
+wrong examples: 535
 restaurant where star_rating less 5
 restaurant where star_rating less 3
-wrong examples: 559
-restaurant where groups equal true and meal equal lunch
-restaurant where groups equal true and groups equal true
-wrong examples: 563
-restaurant where takeout equal true and waiter_service equal true
-restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 567
+wrong examples: 545
 restaurant where price_rating nl 2 or price_rating nl 3
 restaurant where price_rating greater 2 or price_rating greater 3
-wrong examples: 570
-restaurant where groups equal true and cuisine equal thai
-restaurant where cuisine equal thai and takeout equal true
-wrong examples: 572
+wrong examples: 550
 restaurant where star_rating ng 2
 restaurant where star_rating ng 3
-wrong examples: 573
+wrong examples: 551
 restaurant where kids equal true and delivery equal true
 restaurant where delivery equal true and delivery equal true
-wrong examples: 575
+wrong examples: 552
+restaurant where price_rating ng 2
+restaurant where price_rating less 2
+wrong examples: 553
 restaurant where count meal ng two
 restaurant where count meal greater two
-wrong examples: 579
+wrong examples: 557
 restaurant where restaurant neq thai_cafe
 restaurant where restaurant equal thai_cafe
-wrong examples: 582
-restaurant where star_rating ng 3
-restaurant where star_rating nl 3
-wrong examples: 583
-restaurant where reservations equal true and waiter_service equal true
-restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 597
-restaurant where takeout equal true and credit_cards equal true
-restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 598
+wrong examples: 559
+restaurant where count meal less two
+restaurant where count meal greater two
+wrong examples: 568
+restaurant where star_rating equal max star_rating
+restaurant where star_rating equal 3
+wrong examples: 576
 restaurant where star_rating greater 3
-restaurant where star_rating nl 3
-wrong examples: 604
+restaurant where star_rating less 3
+wrong examples: 581
 restaurant where outdoor_seating equal true and takeout equal true
 restaurant where takeout equal true and takeout equal true
-wrong examples: 610
-restaurant where credit_cards equal true and takeout equal true
-restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 611
+wrong examples: 588
 restaurant where groups equal true and kids equal true
 restaurant where kids equal true and kids equal true
-wrong examples: 615
+wrong examples: 592
 cuisine where cuisine neq select cuisine where restaurant equal thai_cafe
 cuisine where cuisine equal select cuisine where restaurant equal thai_cafe
-wrong examples: 631
+wrong examples: 594
+restaurant where star_rating equal 3 and groups equal true
+restaurant where star_rating equal 3 and kids equal true
+wrong examples: 596
+cuisine where restaurant equal select restaurant where neighborhood equal midtown_west
+cuisine where restaurant equal select restaurant where cuisine equal thai
+wrong examples: 597
+restaurant where groups equal true and reservations equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 608
 restaurant where delivery equal true and waiter_service equal true
 restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 641
+wrong examples: 618
 restaurant where takeout equal true and reservations equal true
 restaurant where takeout equal true and takeout equal true
-wrong examples: 643
+wrong examples: 620
 restaurant where star_rating neq 3
-restaurant where star_rating nl 3
-wrong examples: 646
-restaurant where delivery equal true and takeout equal true
-restaurant where delivery equal true and delivery equal true
-wrong examples: 647
+restaurant where star_rating less 3
+wrong examples: 623
 restaurant where reservations equal true and groups equal true
 restaurant where reservations equal true and reservations equal true
-wrong examples: 653
-neighborhood argmin count restaurant
-neighborhood argmax count restaurant
-wrong examples: 659
+wrong examples: 625
+cuisine where count restaurant equal one
+cuisine where count restaurant equal two
+wrong examples: 634
 restaurant where count cuisine greater two
 restaurant where count cuisine equal two
-wrong examples: 660
-restaurant where price_rating less 2
-restaurant where price_rating greater 2
-wrong examples: 666
+wrong examples: 640
 cuisine where cuisine neq select cuisine where restaurant equal thai_cafe
 restaurant where cuisine equal select cuisine where restaurant equal thai_cafe
-wrong examples: 674
+wrong examples: 648
 restaurant where count neighborhood ng two
 restaurant where count neighborhood less two
-wrong examples: 675
+wrong examples: 649
 price_rating where price_rating 2 or price_rating 3
 restaurant where price_rating equal 2 or price_rating equal 3
-wrong examples: 677
+wrong examples: 651
 restaurant where credit_cards equal true and groups equal true
 restaurant where groups equal true and groups equal true
-wrong examples: 680
+wrong examples: 654
 restaurant where star_rating greater select star_rating where restaurant equal thai_cafe
-restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
-wrong examples: 682
-restaurant argmin count cuisine
-restaurant argmax count cuisine
-wrong examples: 688
+restaurant where star_rating less select star_rating where restaurant equal thai_cafe
+wrong examples: 656
+restaurant where meal equal select meal where restaurant equal thai_cafe
+restaurant where meal equal select cuisine where restaurant equal thai_cafe
+wrong examples: 661
 restaurant where kids equal true and delivery equal true
 restaurant where kids equal true and kids equal true
-wrong examples: 691
+wrong examples: 664
 restaurant where count neighborhood greater two
 restaurant where count neighborhood equal two
-wrong examples: 692
-restaurant where price_rating nl 2
-restaurant where price_rating ng 2
-wrong examples: 693
-restaurant where price_rating equal 2 and groups equal true
-restaurant where price_rating equal 2 and kids equal true
-wrong examples: 707
+wrong examples: 670
+restaurant where takeout equal true and waiter_service equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 680
 restaurant where groups equal true and delivery equal true
 restaurant where delivery equal true and delivery equal true
-wrong examples: 710
+wrong examples: 683
 restaurant where count meal nl two
-restaurant where count meal less two
-wrong examples: 718
-restaurant where star_rating ng 3
-restaurant where star_rating nl 3
-wrong examples: 720
+restaurant where count meal greater two
+wrong examples: 693
 restaurant where takeout equal true and waiter_service equal true
-restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 727
-cuisine where restaurant equal select restaurant where groups equal true
-neighborhood where restaurant equal select restaurant where groups equal true
-wrong examples: 728
+restaurant where takeout equal true and takeout equal true
+wrong examples: 701
 restaurant where outdoor_seating equal true and takeout equal true
 restaurant where outdoor_seating equal true and outdoor_seating equal true
-wrong examples: 738
-restaurant where kids equal true and takeout equal true
-restaurant where kids equal true and kids equal true
-wrong examples: 755
-restaurant where price_rating neq 2
-restaurant where price_rating ng 2
-wrong examples: 758
-restaurant where count meal greater two
-restaurant where count meal less two
-wrong examples: 761
+wrong examples: 731
 restaurant where takeout equal true and delivery equal true
 restaurant where delivery equal true and delivery equal true
-wrong examples: 762
+wrong examples: 732
 restaurant where star_rating ng select star_rating where restaurant equal thai_cafe
 restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
-wrong examples: 775
-restaurant where star_rating less select star_rating where restaurant equal thai_cafe
-restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
-wrong examples: 776
-restaurant where star_rating less 3
-restaurant where star_rating nl 3
-wrong examples: 786
-restaurant where count cuisine ng two
-restaurant where count cuisine nl two
-wrong examples: 792
+wrong examples: 738
+neighborhood where count restaurant equal two
+restaurant where count neighborhood equal two
+wrong examples: 761
 restaurant where count neighborhood nl two
 restaurant where count neighborhood equal two
-wrong examples: 796
+wrong examples: 765
 restaurant where reservations equal true and kids equal true
 restaurant where reservations equal true and reservations equal true
-wrong examples: 802
+wrong examples: 771
 restaurant where price_rating less select price_rating where restaurant equal thai_cafe
 restaurant where price_rating nl select price_rating where restaurant equal thai_cafe
-wrong examples: 805
+wrong examples: 774
 restaurant where price_rating equal 2 and reservations equal true
-restaurant where price_rating equal 2 and delivery equal true
-wrong examples: 808
-restaurant where price_rating nl select price_rating where restaurant equal thai_cafe
-restaurant where price_rating ng select price_rating where restaurant equal thai_cafe
-wrong examples: 810
+restaurant where price_rating equal 2 and groups equal true
+wrong examples: 775
+restaurant where groups equal true and credit_cards equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 779
 cuisine where count restaurant less two
 cuisine where count restaurant greater two
-wrong examples: 820
+wrong examples: 789
 restaurant where kids equal true and waiter_service equal true
-restaurant where kids equal true and kids equal true
-wrong examples: 823
+restaurant where waiter_service equal true and waiter_service equal true
+wrong examples: 791
 restaurant where outdoor_seating equal true and credit_cards equal true
 restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 824
+wrong examples: 792
 restaurant where price_rating equal min price_rating
 restaurant where price_rating equal max price_rating
-wrong examples: 825
-restaurant where groups equal true and credit_cards equal true
-restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 828
+wrong examples: 796
 restaurant where waiter_service equal true and takeout equal true
 restaurant where takeout equal true and takeout equal true
-wrong examples: 834
-restaurant where takeout equal true and kids equal true
-restaurant where kids equal true and kids equal true
-wrong examples: 835
+wrong examples: 803
 neighborhood where restaurant equal select restaurant where cuisine equal thai
-cuisine where restaurant equal select restaurant where cuisine equal thai
-wrong examples: 838
+cuisine where restaurant equal select restaurant where neighborhood equal midtown_west
+wrong examples: 806
 restaurant where price_rating greater 2
 restaurant where price_rating ng 2
-wrong examples: 840
+wrong examples: 808
 neighborhood where count restaurant ng two
-neighborhood where count restaurant equal two
-wrong examples: 841
-neighborhood where count restaurant greater two
-neighborhood where count restaurant less two
-wrong examples: 844
+neighborhood where count restaurant nl two
+wrong examples: 812
 meal where count restaurant ng two
 meal where count restaurant equal one
-wrong examples: 850
-restaurant where price_rating ng 2 or price_rating ng 3
-restaurant where price_rating equal 2 or price_rating equal 3
-wrong examples: 853
-restaurant where waiter_service equal true and takeout equal true
+wrong examples: 814
+restaurant where groups equal true and waiter_service equal true
 restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 861
+wrong examples: 818
+restaurant where price_rating ng 2 or price_rating ng 3
+restaurant where price_rating nl 2 or price_rating ng 3
+wrong examples: 829
 restaurant where count neighborhood equal one
 restaurant where count neighborhood equal two
-wrong examples: 869
+wrong examples: 836
 restaurant where price_rating ng select price_rating where restaurant equal thai_cafe
-restaurant where price_rating nl select price_rating where restaurant equal thai_cafe
-wrong examples: 872
-restaurant where star_rating nl 4
-restaurant where star_rating nl 3
-wrong examples: 882
+restaurant where price_rating greater select price_rating where restaurant equal thai_cafe
+wrong examples: 845
+restaurant where groups equal true and takeout equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 849
 restaurant where price_rating less select price_rating where restaurant equal thai_cafe
 restaurant where price_rating nl select price_rating where restaurant equal thai_cafe
-wrong examples: 887
+wrong examples: 853
 restaurant where price_rating greater 3
-restaurant where price_rating greater 2
-wrong examples: 890
-restaurant where waiter_service equal true and cuisine equal thai
-restaurant where cuisine equal thai and delivery equal true
-wrong examples: 893
+restaurant where price_rating less 2
+wrong examples: 858
 restaurant where delivery equal true and kids equal true
 restaurant where kids equal true and kids equal true
-wrong examples: 897
+wrong examples: 859
+restaurant where delivery equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 862
 restaurant where star_rating ng select star_rating where restaurant equal thai_cafe
 restaurant where star_rating equal select star_rating where restaurant equal thai_cafe
-wrong examples: 903
-restaurant where star_rating equal 3 and kids equal true
-restaurant where star_rating equal 3 and groups equal true
-wrong examples: 906
-restaurant where takeout equal true and waiter_service equal true
-restaurant where waiter_service equal true and waiter_service equal true
-wrong examples: 912
+wrong examples: 877
 restaurant where count cuisine ng two
-restaurant where count cuisine nl two
-wrong examples: 913
-restaurant where star_rating less select star_rating where restaurant equal thai_cafe
-restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
-wrong examples: 915
-restaurant where price_rating nl 2
-restaurant where price_rating ng 2
-wrong examples: 919
-restaurant where outdoor_seating equal true and takeout equal true
-restaurant where outdoor_seating equal true and outdoor_seating equal true
-wrong examples: 920
-restaurant where takeout equal true and kids equal true
-restaurant where kids equal true and kids equal true
-wrong examples: 921
+restaurant where count cuisine equal two
+wrong examples: 886
 restaurant where groups equal true and delivery equal true
 restaurant where delivery equal true and delivery equal true
-wrong examples: 933
-restaurant argmax count cuisine
-restaurant where count cuisine
-wrong examples: 938
+wrong examples: 888
+restaurant where reservations equal true and credit_cards equal true
+restaurant where reservations equal true and reservations equal true
+wrong examples: 890
+restaurant where outdoor_seating equal true and reservations equal true
+restaurant where reservations equal true and reservations equal true
+wrong examples: 902
 restaurant where credit_cards equal true and groups equal true
 restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 939
-restaurant where price_rating equal 2 and groups equal true
-restaurant where price_rating equal 2 and kids equal true
-wrong examples: 946
+wrong examples: 904
+restaurant where outdoor_seating equal true and delivery equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 909
 restaurant where kids equal true and credit_cards equal true
 restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 954
+wrong examples: 917
 restaurant where delivery equal true and outdoor_seating equal true
 restaurant where outdoor_seating equal true and outdoor_seating equal true
-wrong examples: 955
+wrong examples: 918
 restaurant where star_rating equal max star_rating
 restaurant where star_rating equal min star_rating
-wrong examples: 962
+wrong examples: 921
+restaurant where reservations equal true and outdoor_seating equal true
+restaurant where reservations equal true and reservations equal true
+wrong examples: 925
 restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
 restaurant where star_rating equal select star_rating where restaurant equal thai_cafe
-wrong examples: 971
+wrong examples: 933
 meal where count restaurant less one
 meal where count restaurant greater two
-wrong examples: 978
+wrong examples: 940
 restaurant where count cuisine ng two
 restaurant where count cuisine greater two
-wrong examples: 982
-restaurant where meal equal lunch and cuisine equal thai
-restaurant where meal equal lunch and meal equal lunch
-wrong examples: 986
-restaurant where kids equal true and credit_cards equal true
-restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 993
+wrong examples: 955
 restaurant where takeout equal true and waiter_service equal true
 restaurant where takeout equal true and takeout equal true
-wrong examples: 999
+wrong examples: 956
+restaurant where price_rating equal 2 and kids equal true
+restaurant where price_rating equal 2 and groups equal true
+wrong examples: 961
 restaurant where meal equal lunch or meal equal dinner
 restaurant where meal equal lunch and meal equal lunch
-wrong examples: 1002
+wrong examples: 964
 restaurant where kids equal true and delivery equal true
 restaurant where delivery equal true and delivery equal true
-wrong examples: 1005
-restaurant argmax count neighborhood
-restaurant argmin count neighborhood
-wrong examples: 1008
+wrong examples: 969
 restaurant where groups equal true and reservations equal true
 restaurant where reservations equal true and reservations equal true
-wrong examples: 1016
-meal where restaurant equal select restaurant where outdoor_seating equal true
-cuisine where restaurant equal select restaurant where outdoor_seating equal true
-wrong examples: 1048
-restaurant where star_rating less select star_rating where restaurant equal thai_cafe
-restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
-wrong examples: 1054
-restaurant where count meal greater two
-restaurant where count meal less two
-wrong examples: 1060
-neighborhood where restaurant equal thai_cafe or where restaurant pizzeria_juno
-neighborhood where restaurant equal thai_cafe or restaurant equal pizzeria_juno
-wrong examples: 1061
-cuisine where restaurant equal select restaurant where meal equal lunch
-meal where restaurant equal select restaurant where meal equal lunch
-wrong examples: 1064
-restaurant where price_rating greater select price_rating where restaurant equal thai_cafe
-restaurant where price_rating less select price_rating where restaurant equal thai_cafe
-wrong examples: 1068
+wrong examples: 975
+restaurant where outdoor_seating equal true and reservations equal true
+restaurant where outdoor_seating equal true and outdoor_seating equal true
+wrong examples: 988
+meal where restaurant equal select restaurant where takeout equal true
+meal where restaurant equal select restaurant where groups equal true
+wrong examples: 1005
+restaurant where kids equal true and outdoor_seating equal true
+restaurant where outdoor_seating equal true and outdoor_seating equal true
+wrong examples: 1014
+restaurant where cuisine equal thai and meal equal lunch
+restaurant where cuisine equal thai and cuisine equal thai
+wrong examples: 1022
+restaurant where waiter_service equal true and delivery equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 1024
+restaurant where waiter_service equal true and star_rating equal 3
+restaurant where star_rating equal 3 and kids equal true
+wrong examples: 1025
 restaurant where waiter_service equal true and groups equal true
 restaurant where groups equal true and groups equal true
-wrong examples: 1078
-neighborhood where restaurant equal thai_cafe or where restaurant pizzeria_juno
-neighborhood where restaurant equal thai_cafe or restaurant equal pizzeria_juno
-wrong examples: 1090
-neighborhood where restaurant equal select restaurant where kids equal true
-neighborhood where restaurant equal select restaurant where groups equal true
-wrong examples: 1093
+wrong examples: 1036
+restaurant where groups equal true and credit_cards equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 1041
+restaurant where meal equal lunch and credit_cards equal true
+restaurant where meal equal lunch and reservations equal true
+wrong examples: 1042
+restaurant where star_rating nl 3
+restaurant where star_rating ng 3
+wrong examples: 1049
 restaurant where count meal greater one
 restaurant where count meal greater two
-wrong examples: 1105
+wrong examples: 1051
+restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
+restaurant where star_rating less select star_rating where restaurant equal thai_cafe
+wrong examples: 1061
 restaurant where price_rating ng select price_rating where restaurant equal thai_cafe
-restaurant where price_rating nl select price_rating where restaurant equal thai_cafe
-wrong examples: 1107
+restaurant where price_rating greater select price_rating where restaurant equal thai_cafe
+wrong examples: 1063
 meal where restaurant equal select restaurant where cuisine equal thai
 cuisine where restaurant equal select restaurant where cuisine equal thai
-wrong examples: 1110
-neighborhood argmax count restaurant
-neighborhood argmin count restaurant
-wrong examples: 1117
-meal argmin count restaurant
-meal argmax count restaurant
-wrong examples: 1135
+wrong examples: 1089
 restaurant where price_rating nl select price_rating where restaurant equal thai_cafe
 restaurant where price_rating equal select price_rating where restaurant equal thai_cafe
-wrong examples: 1138
+wrong examples: 1092
 meal where restaurant equal select restaurant where neighborhood equal midtown_west
 neighborhood where restaurant equal select restaurant where neighborhood equal midtown_west
+wrong examples: 1107
+restaurant where reservations equal true and kids equal true
+restaurant where kids equal true and kids equal true
+wrong examples: 1120
+restaurant where kids equal true and delivery equal true
+restaurant where kids equal true and kids equal true
+wrong examples: 1122
+restaurant where groups equal true and star_rating equal 3
+restaurant where star_rating equal 3 and kids equal true
+wrong examples: 1128
+restaurant where star_rating ng 3 or star_rating ng 5
+restaurant where star_rating less 3 or star_rating less 5
+wrong examples: 1138
+restaurant where price_rating ng 3
+restaurant where price_rating ng 2
+wrong examples: 1140
+restaurant where reservations equal true and outdoor_seating equal true
+restaurant where outdoor_seating equal true and outdoor_seating equal true
 wrong examples: 1143
 restaurant where price_rating less 2
 restaurant where price_rating greater 2
-wrong examples: 1146
-restaurant where groups equal true and meal equal lunch
+wrong examples: 1147
+restaurant where waiter_service equal true and groups equal true
 restaurant where groups equal true and groups equal true
-wrong examples: 1153
-restaurant where reservations equal true and kids equal true
-restaurant where kids equal true and kids equal true
-wrong examples: 1156
-restaurant where count neighborhood nl two
-restaurant where count neighborhood greater two
-wrong examples: 1174
-restaurant where star_rating ng 3 or star_rating ng 5
-restaurant where star_rating less 3 or star_rating equal 5
-wrong examples: 1176
-restaurant where takeout equal true and neighborhood equal midtown_west
-restaurant where neighborhood equal midtown_west and delivery equal true
-wrong examples: 1178
-restaurant where price_rating less 2 or price_rating less 3
-restaurant where price_rating less 2 or price_rating greater 3
-wrong examples: 1184
-restaurant where price_rating ng 3
-restaurant where price_rating ng 2
-wrong examples: 1189
-restaurant where price_rating less 2
-restaurant where price_rating greater 2
-wrong examples: 1198
+wrong examples: 1152
 neighborhood where neighborhood equal midtown_west or neighborhood equal chelsea
 restaurant where neighborhood equal midtown_west or neighborhood equal chelsea
-wrong examples: 1201
+wrong examples: 1155
 restaurant where price_rating less 2 or price_rating less 3
 restaurant where price_rating greater 2 or price_rating greater 3
-wrong examples: 1207
-restaurant where price_rating less select price_rating where restaurant equal thai_cafe
-restaurant where price_rating nl select price_rating where restaurant equal thai_cafe
-wrong examples: 1214
+wrong examples: 1157
+restaurant where neighborhood equal select neighborhood where restaurant equal thai_cafe
+neighborhood where restaurant equal thai_cafe or neighborhood equal midtown_west
+wrong examples: 1162
+meal where restaurant equal select restaurant where credit_cards equal true
+meal where restaurant equal select restaurant where kids equal true
+wrong examples: 1168
 restaurant where kids equal true and groups equal true
 restaurant where kids equal true and kids equal true
-wrong examples: 1222
+wrong examples: 1176
 restaurant where price_rating ng 2 or price_rating ng 3
 restaurant where price_rating less 2 or price_rating greater 3
-wrong examples: 1224
+wrong examples: 1178
 restaurant where delivery equal true and credit_cards equal true
 restaurant where delivery equal true and delivery equal true
-wrong examples: 1227
+wrong examples: 1181
 cuisine where count restaurant greater two
 restaurant where count cuisine greater two
-wrong examples: 1233
+wrong examples: 1187
 restaurant where price_rating neq 2
-restaurant where price_rating ng 2
-wrong examples: 1236
-cuisine argmin count restaurant
-cuisine argmax count restaurant
-wrong examples: 1237
+restaurant where price_rating nl 2
+wrong examples: 1189
+restaurant where star_rating equal 3
+restaurant where star_rating neq 3
+wrong examples: 1190
 restaurant where price_rating equal min price_rating
 restaurant where price_rating equal max price_rating
-wrong examples: 1239
-restaurant where price_rating greater select price_rating where restaurant equal thai_cafe
-restaurant where price_rating nl select price_rating where restaurant equal thai_cafe
-wrong examples: 1244
+wrong examples: 1197
 meal where meal equal lunch or meal equal dinner
 restaurant where meal equal lunch or meal equal dinner
-wrong examples: 1247
-restaurant where count cuisine greater two
-restaurant where count cuisine nl two
-wrong examples: 1254
-restaurant argmin count meal
-restaurant argmax count meal
-wrong examples: 1260
-cuisine where restaurant equal select restaurant where reservations equal true
-meal where restaurant equal select restaurant where reservations equal true
-wrong examples: 1262
-restaurant where takeout equal true and delivery equal true
-restaurant where delivery equal true and delivery equal true
-wrong examples: 1274
-restaurant where star_rating neq 3
-restaurant where star_rating equal 3
-wrong examples: 1282
+wrong examples: 1217
+restaurant where outdoor_seating equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 1230
+restaurant where count meal less two
+restaurant where count meal greater two
+wrong examples: 1234
 restaurant where credit_cards equal true and delivery equal true
 restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 1283
+wrong examples: 1235
 restaurant where delivery equal true and credit_cards equal true
 restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 1285
+wrong examples: 1237
 neighborhood where count restaurant equal two
 neighborhood where count restaurant nl two
-wrong examples: 1287
+wrong examples: 1239
 restaurant where count cuisine less two
 restaurant where count cuisine greater two
-wrong examples: 1290
+wrong examples: 1242
 restaurant where outdoor_seating equal true and credit_cards equal true
 restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 1291
-neighborhood where count restaurant nl two
-neighborhood where count restaurant greater two
-wrong examples: 1294
-cuisine where restaurant equal select restaurant where star_rating equal 3
-restaurant where star_rating equal select star_rating where restaurant equal 3
-wrong examples: 1295
-restaurant where credit_cards equal true and kids equal true
-restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 1301
-restaurant where outdoor_seating equal true and delivery equal true
-restaurant where delivery equal true and delivery equal true
-wrong examples: 1302
-neighborhood where restaurant equal thai_cafe or where restaurant pizzeria_juno
-neighborhood where restaurant equal thai_cafe or restaurant equal pizzeria_juno
-wrong examples: 1310
-restaurant where takeout equal true and groups equal true
-restaurant where groups equal true and groups equal true
-wrong examples: 1314
+wrong examples: 1265
 restaurant where kids equal true and reservations equal true
 restaurant where reservations equal true and reservations equal true
-wrong examples: 1315
-restaurant where takeout equal true and credit_cards equal true
-restaurant where credit_cards equal true and credit_cards equal true
-wrong examples: 1319
-restaurant where star_rating less select star_rating where restaurant equal thai_cafe
-restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
-train accuracy: 0.803773584906
+wrong examples: 1276
+restaurant where cuisine equal thai and meal equal lunch
+restaurant where meal equal lunch and meal equal lunch
+train accuracy: 0.822884012539
