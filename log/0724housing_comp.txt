@@ -1,0 +1,446 @@
+wrong examples: 4
+housing_unit where monthly_rent equal 1500 and monthly_rent equal 2000
+housing_unit where monthly_rent equal 1500
+wrong examples: 6
+housing_unit where size ng 800 or size ng 1000
+housing_unit where size equal 800 or size equal 1000
+wrong examples: 7
+housing_unit where cats equal true and dogs equal true
+housing_unit where cats equal true and cats equal true
+wrong examples: 10
+housing_unit where count housing_type ng two
+housing_type where count housing_unit ng two
+wrong examples: 11
+housing_unit where private_room equal true and dogs equal true
+housing_unit where dogs equal true and dogs equal true
+wrong examples: 17
+housing_unit where size less 800 or size less 1000
+housing_unit where size greater 800 or size greater 1000
+wrong examples: 19
+housing_unit where size less select size where housing_unit equal 123_sesame_street
+housing_unit where size greater select size where housing_unit equal 123_sesame_street
+wrong examples: 21
+housing_unit where monthly_rent less select monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where monthly_rent ng select monthly_rent where housing_unit equal 123_sesame_street
+wrong examples: 23
+housing_type where housing_unit equal 123_sesame_street or housing_unit equal 900_mission_avenue
+housing_unit where housing_type equal 123_sesame_street or housing_unit equal 900_mission_avenue
+wrong examples: 25
+housing_unit where posting_date equal jan_2nd and size equal 800
+housing_unit where size equal 800 or size equal 1000
+wrong examples: 26
+neighborhood where housing_unit equal select housing_unit where cats equal true
+neighborhood where housing_unit equal select housing_unit where dogs equal true
+wrong examples: 29
+housing_unit where size less select size where housing_unit equal 123_sesame_street
+housing_unit where size greater select size where housing_unit equal 123_sesame_street
+wrong examples: 31
+housing_unit where housing_type equal apartment and private_room equal true
+housing_unit where cats equal true and cats equal true
+wrong examples: 32
+housing_type where monthly_rent equal 1500
+housing_unit where monthly_rent equal 1500
+wrong examples: 35
+housing_unit where monthly_rent equal min monthly_rent
+housing_unit where monthly_rent equal max monthly_rent
+wrong examples: 36
+count housing_unit
+count housing_type
+wrong examples: 37
+housing_unit where dogs equal true and monthly_rent equal 1500
+housing_unit where private_bath equal true and size equal 800
+wrong examples: 42
+housing_unit where housing_unit neq 123_sesame_street
+housing_unit where count housing_unit equal two
+wrong examples: 44
+housing_unit where size less 800 and size less 1000
+housing_unit where size equal 800 or size equal 1000
+wrong examples: 45
+housing_unit where size equal 800
+housing_unit where size nl 800
+wrong examples: 46
+housing_unit where dogs equal true and neighborhood equal midtown_west
+housing_unit where cats equal true and neighborhood equal midtown_west
+wrong examples: 57
+housing_type where neighborhood equal midtown_west
+housing_unit where neighborhood equal midtown_west
+wrong examples: 58
+housing_unit where size equal 800 and posting_date equal jan_2nd
+housing_unit where posting_date equal jan_2nd and posting_date equal jan_2nd
+wrong examples: 60
+neighborhood where neighborhood neq select neighborhood where housing_unit equal 123_sesame_street
+housing_unit where neighborhood equal select neighborhood where housing_unit equal 123_sesame_street
+wrong examples: 61
+housing_unit where dogs equal true and private_room equal true
+housing_unit where dogs equal true and dogs equal true
+wrong examples: 62
+neighborhood where housing_unit equal select housing_unit where posting_date equal jan_2nd
+housing_unit where neighborhood equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 66
+housing_unit where size equal 800 and private_room equal true
+housing_unit where size equal 800 and private_bath equal true
+wrong examples: 68
+housing_unit where housing_type equal select housing_type where housing_unit equal 123_sesame_street
+housing_type where housing_type equal select housing_type where housing_unit equal 123_sesame_street
+wrong examples: 73
+monthly_rent where monthly_rent equal 1500 or monthly_rent equal 2000
+housing_unit where monthly_rent equal 1500 or monthly_rent equal 2000
+wrong examples: 79
+housing_unit where posting_date equal jan_2nd and monthly_rent equal select monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where posting_date equal select posting_date where housing_unit equal 123_sesame_street
+wrong examples: 83
+neighborhood where housing_unit equal select housing_unit where monthly_rent equal 1500
+housing_unit where monthly_rent equal select monthly_rent where housing_unit equal 123_sesame_street
+wrong examples: 87
+housing_unit where monthly_rent equal 1500 or monthly_rent equal 2000
+housing_unit where monthly_rent equal 1500 and monthly_rent equal 1500
+wrong examples: 91
+neighborhood where neighborhood equal midtown_west or neighborhood equal chelsea
+housing_unit where neighborhood equal midtown_west or neighborhood equal chelsea
+wrong examples: 93
+housing_type where count housing_unit greater two
+housing_type where count housing_unit less two
+wrong examples: 94
+housing_unit where private_bath equal true and private_room equal true
+housing_unit where private_bath equal true and private_bath equal true
+wrong examples: 100
+housing_unit where monthly_rent less 1500 or monthly_rent less 2000
+housing_unit where monthly_rent greater 1500 or monthly_rent less 2000
+wrong examples: 101
+housing_unit where housing_type equal housing_unit and posting_date equal jan_2nd
+housing_unit where housing_type equal apartment and posting_date equal jan_2nd
+wrong examples: 105
+housing_unit where size equal max size
+housing_type where housing_unit equal 123_sesame_street
+wrong examples: 108
+housing_unit where neighborhood equal midtown_west and neighborhood equal midtown_west
+housing_unit where housing_type equal apartment and neighborhood equal midtown_west
+wrong examples: 109
+housing_unit where private_bath equal true and cats equal true
+housing_unit where private_bath equal true and private_bath equal true
+wrong examples: 110
+housing_unit where posting_date greater select posting_date where housing_unit equal 123_sesame_street
+housing_unit where posting_date ng select posting_date where housing_unit equal 123_sesame_street
+wrong examples: 111
+housing_unit where housing_type neq apartment
+housing_type where count housing_unit equal two
+wrong examples: 114
+housing_unit where size equal 800 and cats equal true
+housing_unit where dogs equal true and size equal 800
+wrong examples: 117
+housing_unit where housing_unit equal 123_sesame_street or housing_unit equal 900_mission_avenue
+housing_type where housing_unit equal 123_sesame_street or housing_unit equal 900_mission_avenue
+wrong examples: 119
+housing_unit where size ng select size where housing_unit equal 123_sesame_street
+housing_unit where size greater select size where housing_unit equal 123_sesame_street
+wrong examples: 120
+housing_unit where dogs equal true and private_room equal true
+housing_unit where private_room equal true and private_room equal true
+wrong examples: 121
+housing_unit where count housing_type ng two
+housing_unit where count housing_type equal two
+wrong examples: 122
+housing_unit where monthly_rent equal 1500 and dogs equal true
+housing_unit where size equal 800 and private_bath equal true
+wrong examples: 124
+housing_unit where housing_type equal apartment and size equal 800
+housing_unit where size equal 800 and dogs equal true
+wrong examples: 126
+housing_unit where monthly_rent equal 1500 and monthly_rent equal 1500
+housing_unit where monthly_rent equal 1500 and private_bath equal true
+wrong examples: 127
+housing_unit where posting_date equal jan_2nd and monthly_rent equal select monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where posting_date equal select posting_date where housing_unit equal 123_sesame_street
+wrong examples: 128
+housing_unit where housing_type equal apartment and cats equal true
+housing_unit where dogs equal true and housing_type equal apartment
+wrong examples: 129
+neighborhood where housing_unit equal select housing_unit where private_room equal true
+housing_unit where neighborhood equal select housing_unit where private_room equal true
+wrong examples: 132
+housing_unit where size neq 800
+housing_unit where size greater 800
+wrong examples: 134
+housing_unit where monthly_rent equal 1500 and monthly_rent equal 2000
+housing_unit where monthly_rent equal 1500 and monthly_rent equal 1500
+wrong examples: 138
+neighborhood where housing_unit equal select housing_unit where size equal 800
+housing_unit where size equal 800 or size equal 800
+wrong examples: 140
+housing_unit where posting_date greater select posting_date where housing_unit equal 123_sesame_street
+housing_unit where posting_date less select posting_date where housing_unit equal 123_sesame_street
+wrong examples: 141
+housing_unit where size equal min size
+sum size
+wrong examples: 142
+housing_unit where posting_date equal select posting_date where housing_unit equal 123_sesame_street
+housing_unit where housing_type equal select posting_date where housing_unit equal 123_sesame_street
+wrong examples: 143
+housing_unit where cats equal true and size equal 800
+housing_unit where dogs equal true and size equal 800
+wrong examples: 144
+housing_unit where neighborhood equal midtown_west
+housing_unit where neighborhood neq midtown_west
+wrong examples: 155
+housing_unit where monthly_rent less select monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where monthly_rent greater select monthly_rent where housing_unit equal 123_sesame_street
+wrong examples: 160
+count housing_unit
+sum size
+wrong examples: 161
+housing_unit where cats equal true and dogs equal true
+housing_unit where cats equal true and cats equal true
+wrong examples: 163
+housing_unit where monthly_rent neq 1500
+housing_unit where monthly_rent equal 1500
+wrong examples: 164
+housing_unit where posting_date ng jan_2nd or posting_date ng feb_3rd
+housing_unit where posting_date equal jan_2nd or posting_date equal feb_3rd
+wrong examples: 165
+housing_unit where size neq 800
+housing_unit where size less 800
+wrong examples: 166
+housing_unit where count neighborhood greater two
+housing_unit where count neighborhood equal two
+wrong examples: 168
+housing_type where count housing_unit equal two
+housing_unit where count housing_unit equal two
+wrong examples: 173
+housing_unit where size less 800 or size less 1000
+housing_unit where size equal 800 or size equal 1000
+wrong examples: 176
+housing_unit where private_bath equal true and private_room equal true
+housing_unit where private_room equal true and private_room equal true
+wrong examples: 178
+housing_unit where neighborhood equal midtown_west and private_bath equal true
+housing_unit where neighborhood equal midtown_west and cats equal true
+wrong examples: 179
+sum size
+avg size
+test accuracy: 0.59217877095
+wrong examples: 24
+housing_unit where monthly_rent less select monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where monthly_rent greater select monthly_rent where housing_unit equal 123_sesame_street
+wrong examples: 25
+housing_unit where posting_date equal jan_2nd and monthly_rent equal select monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where posting_date equal select posting_date where housing_unit equal 123_sesame_street
+wrong examples: 26
+housing_type where monthly_rent equal 1500 and private_room equal true
+housing_unit where monthly_rent equal 1500 and private_room equal true
+wrong examples: 50
+housing_unit where monthly_rent nl select monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where monthly_rent ng select monthly_rent where housing_unit equal 123_sesame_street
+wrong examples: 58
+neighborhood where count housing_unit nl two
+neighborhood where count housing_unit ng two
+wrong examples: 79
+housing_type where housing_type neq select housing_type where housing_unit equal 123_sesame_street
+housing_unit where housing_type equal select housing_type where housing_unit equal 123_sesame_street
+wrong examples: 88
+housing_unit where posting_date equal jan_2nd and housing_type equal select housing_type where housing_unit equal 123_sesame_street
+housing_unit where posting_date equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 103
+housing_unit where monthly_rent equal select monthly_rent where posting_date equal jan_2nd
+housing_unit where monthly_rent equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 119
+housing_unit where posting_date equal jan_2nd and posting_date equal select posting_date where housing_unit equal 123_sesame_street
+housing_unit where posting_date equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 122
+neighborhood where housing_unit equal select housing_unit where cats equal true
+housing_type where housing_unit equal select housing_unit where cats equal true
+wrong examples: 125
+neighborhood where count housing_unit nl two
+neighborhood where count housing_unit ng two
+wrong examples: 131
+housing_unit where count neighborhood nl two
+housing_unit where count neighborhood ng two
+wrong examples: 135
+housing_unit where posting_date equal jan_2nd and size equal 800
+housing_unit where posting_date equal jan_2nd and posting_date equal jan_2nd
+wrong examples: 161
+housing_unit where posting_date equal jan_2nd and housing_type equal select housing_type where housing_unit equal 123_sesame_street
+housing_unit where housing_type equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 165
+housing_unit where posting_date less jan_2nd or posting_date less feb_3rd
+housing_unit where posting_date greater jan_2nd or posting_date less feb_3rd
+wrong examples: 170
+housing_unit where dogs equal true and cats equal true
+housing_unit where cats equal true and cats equal true
+wrong examples: 172
+housing_unit where posting_date equal jan_2nd and housing_type equal select housing_type where housing_unit equal 123_sesame_street
+housing_unit where housing_type equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 185
+housing_unit where size less select size where housing_unit equal 123_sesame_street
+housing_unit where size greater select size where housing_unit equal 123_sesame_street
+wrong examples: 187
+housing_unit where posting_date equal jan_2nd and size equal select size where housing_unit equal 123_sesame_street
+housing_unit where housing_type equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 197
+housing_unit where posting_date equal jan_2nd and size equal select size where housing_unit equal 123_sesame_street
+housing_unit where housing_type equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 201
+housing_unit where posting_date equal jan_2nd and neighborhood equal select neighborhood where housing_unit equal 123_sesame_street
+housing_unit where neighborhood equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 206
+housing_unit where monthly_rent equal min monthly_rent
+housing_unit where monthly_rent equal max monthly_rent
+wrong examples: 208
+housing_unit where private_room equal true and private_room equal true
+housing_unit where housing_type equal apartment and private_room equal true
+wrong examples: 229
+housing_unit where size ng select size where housing_unit equal 123_sesame_street
+housing_unit where size greater select size where housing_unit equal 123_sesame_street
+wrong examples: 232
+housing_unit where count neighborhood less two
+housing_unit where count neighborhood greater two
+wrong examples: 233
+housing_unit where private_room equal true and private_bath equal true
+housing_unit where private_bath equal true and private_bath equal true
+wrong examples: 236
+housing_unit where posting_date equal jan_2nd and size equal select size where housing_unit equal 123_sesame_street
+housing_unit where posting_date equal select posting_date where housing_unit equal 123_sesame_street
+wrong examples: 270
+housing_unit where size nl select size where housing_unit equal 123_sesame_street
+housing_unit where size ng select size where housing_unit equal 123_sesame_street
+wrong examples: 303
+housing_type where size less select size where housing_unit equal 123_sesame_street
+housing_type where size greater select size where housing_unit equal 123_sesame_street
+wrong examples: 309
+housing_unit where size equal min size
+housing_unit where size equal max size
+wrong examples: 311
+housing_unit where posting_date equal jan_2nd and size equal select size where housing_unit equal 123_sesame_street
+housing_unit where size equal select posting_date where housing_unit equal 123_sesame_street
+wrong examples: 312
+housing_unit where private_room equal true and housing_type equal apartment
+housing_unit where cats equal true and private_bath equal true
+wrong examples: 316
+housing_type where count housing_unit greater one
+housing_type where count housing_unit greater two
+wrong examples: 320
+housing_unit where dogs equal true and monthly_rent equal 1500
+housing_unit where private_bath equal true and monthly_rent equal 1500
+wrong examples: 328
+housing_unit where cats equal true and size equal 800
+housing_unit where dogs equal true and size equal 800
+wrong examples: 333
+housing_unit where posting_date equal jan_2nd and posting_date equal select posting_date where housing_unit equal 123_sesame_street
+housing_unit where posting_date equal select posting_date where housing_unit equal 123_sesame_street
+wrong examples: 341
+housing_unit where cats equal true and private_room equal true
+housing_unit where private_room equal true and private_room equal true
+wrong examples: 357
+housing_unit where posting_date equal jan_2nd and monthly_rent equal select monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where monthly_rent equal select monthly_rent where housing_unit equal 123_sesame_street
+wrong examples: 385
+housing_unit where posting_date greater select posting_date where housing_unit equal 123_sesame_street
+housing_unit where posting_date less select posting_date where housing_unit equal 123_sesame_street
+wrong examples: 386
+housing_unit where size equal 800 and cats equal true
+housing_unit where dogs equal true and size equal 800
+wrong examples: 393
+housing_unit where dogs equal true and monthly_rent equal 1500
+housing_unit where cats equal true and monthly_rent equal 1500
+wrong examples: 407
+housing_unit where posting_date equal min posting_date
+housing_unit where posting_date equal max posting_date
+wrong examples: 411
+housing_unit where posting_date nl select posting_date where housing_unit equal 123_sesame_street
+housing_unit where posting_date ng select posting_date where housing_unit equal 123_sesame_street
+wrong examples: 412
+housing_unit where posting_date equal jan_2nd and posting_date equal select posting_date where housing_unit equal 123_sesame_street
+housing_unit where housing_type equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 415
+housing_type where monthly_rent greater 1500
+housing_type where monthly_rent less 1500
+wrong examples: 424
+housing_unit where private_bath equal true and dogs equal true
+housing_unit where dogs equal true and dogs equal true
+wrong examples: 427
+housing_unit where posting_date equal min posting_date
+housing_unit where posting_date equal max posting_date
+wrong examples: 432
+housing_unit where private_room equal true and neighborhood equal midtown_west
+housing_unit where cats equal true and neighborhood equal midtown_west
+wrong examples: 433
+housing_type where private_bath equal true and neighborhood equal midtown_west
+housing_type where private_room equal true and neighborhood equal midtown_west
+wrong examples: 441
+housing_unit where posting_date nl select posting_date where housing_unit equal 123_sesame_street
+housing_unit where posting_date greater select posting_date where housing_unit equal 123_sesame_street
+wrong examples: 450
+housing_unit where posting_date equal jan_2nd and housing_type equal select housing_type where housing_unit equal 123_sesame_street
+housing_unit where housing_type equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 457
+housing_unit where size equal select housing_unit where posting_date equal jan_2nd
+housing_unit where housing_type equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 469
+neighborhood where housing_unit equal select housing_unit where posting_date equal jan_2nd
+housing_unit where neighborhood equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 480
+housing_unit where posting_date equal jan_2nd and neighborhood equal select neighborhood where housing_unit equal 123_sesame_street
+housing_unit where neighborhood equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 481
+housing_unit where monthly_rent equal 1500 and dogs equal true
+housing_unit where monthly_rent equal 1500 and cats equal true
+wrong examples: 488
+housing_unit where size less select size where housing_unit equal 123_sesame_street
+housing_unit where size greater select size where housing_unit equal 123_sesame_street
+wrong examples: 502
+housing_unit where size nl select size where housing_unit equal 123_sesame_street
+housing_unit where size greater select size where housing_unit equal 123_sesame_street
+wrong examples: 504
+housing_unit where posting_date neq jan_2nd
+housing_unit where posting_date equal jan_2nd
+wrong examples: 527
+housing_unit where posting_date equal jan_2nd and neighborhood equal select neighborhood where housing_unit equal 123_sesame_street
+housing_unit where posting_date equal select posting_date where housing_unit equal 123_sesame_street
+wrong examples: 543
+housing_unit where posting_date equal jan_2nd and monthly_rent equal select monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where posting_date equal select posting_date where housing_unit equal 123_sesame_street
+wrong examples: 557
+housing_unit where private_bath equal true and neighborhood equal midtown_west
+housing_unit where neighborhood equal midtown_west and cats equal true
+wrong examples: 566
+housing_unit where cats equal true and dogs equal true
+housing_unit where cats equal true and cats equal true
+wrong examples: 579
+housing_unit where dogs equal true and cats equal true
+housing_unit where cats equal true and cats equal true
+wrong examples: 580
+housing_unit where posting_date equal jan_2nd and neighborhood equal select neighborhood where housing_unit equal 123_sesame_street
+housing_unit where neighborhood equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 592
+housing_unit where posting_date equal min posting_date
+housing_unit where posting_date equal max posting_date
+wrong examples: 597
+housing_unit where posting_date equal min posting_date
+housing_unit where posting_date equal max posting_date
+wrong examples: 604
+housing_unit where posting_date equal jan_2nd and size equal select size where housing_unit equal 123_sesame_street
+housing_unit where housing_type equal select housing_unit where posting_date equal jan_2nd
+wrong examples: 617
+housing_unit where neighborhood equal midtown_west and private_bath equal true
+housing_unit where neighborhood equal midtown_west and cats equal true
+wrong examples: 624
+housing_unit where monthly_rent equal min monthly_rent
+housing_unit where monthly_rent equal max monthly_rent
+wrong examples: 628
+housing_unit where dogs equal true and cats equal true
+housing_unit where dogs equal true and dogs equal true
+wrong examples: 643
+housing_type where count housing_unit nl three
+housing_type where count housing_unit nl two
+wrong examples: 693
+housing_type where private_room equal true and cats equal true
+housing_type where cats equal true and cats equal true
+wrong examples: 695
+housing_unit where monthly_rent less select monthly_rent where housing_unit equal 123_sesame_street
+housing_unit where monthly_rent greater select monthly_rent where housing_unit equal 123_sesame_street
+wrong examples: 712
+housing_unit where private_bath equal true and cats equal true
+housing_unit where private_bath equal true and private_bath equal true
+wrong examples: 722
+housing_unit where size equal 800 and monthly_rent equal 1500
+housing_unit where monthly_rent equal 1500 and monthly_rent equal 1500
+train accuracy: 0.896265560166
