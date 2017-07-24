@@ -72,7 +72,6 @@
 <nan> <field>:string:0 <nan> <nan> <nan> <value>:int:1 <field>:int:1 <nan> <nan>
 <field>:string:0 <nan> <nan> <nan> <nan> <value>:int:1 <field>:int:1
 <nan> <field>:string:0 <nan> <nan> <nan> <nan> <nan> <field>:int:1 <nan> <value>:string:0 <nan> <nan> <nan>
-<field>:string:0 <field>:string:0 <nan> <nan> <nan> <nan> <nan> <field>:string:1
 <nan> <nan> <value>:int:0 <nan> <field>:int:0 <nan> <value>:string:1 <nan>
 <nan> <field>:string:0 <nan> <nan> <nan> <nan> <nan> <nan> <value>:int:1 <field>:int:1 <nan> <nan> <nan>
 <nan> <nan> <field>:string:0 <field>:string:0 <nan> <nan> <nan> <value>:string:1
@@ -88,7 +87,6 @@
 <nan> <nan> <field>:int:0 <nan> <value>:string:1 <nan>
 <nan> <nan> <field>:int:0 <nan> <nan> <nan> <value>:string:1 <nan> <nan> <value>:int:2 <field>:int:2
 <field>:string:0 <nan> <nan> <value>:int:1 <field>:int:1
-<nan> <field>:string:0 <field>:string:0 <nan> <nan> <nan> <nan> <nan> <field>:string:1
 <nan> <nan> <field>:int:0 <value>:string:1 <nan> <nan> <nan> <nan> <field>:string:1 <value>:int:2 <field>:int:2
 <nan> <field>:string:0 <nan> <value>:string:1 <nan> <value>:int:2 <field>:int:2 <nan>
 <nan> <field>:date:0 <nan> <value>:string:1 <nan> <value>:int:2 <field>:int:2
@@ -177,7 +175,6 @@
 <nan> <nan> <field>:string:0 <nan> <value>:string:1 <nan> <value>:int:2 <field>:int:2
 <nan> <nan> <field>:int:0 <nan> <value>:string:1 <nan>
 <nan> <nan> <nan> <nan> <value>:int:0 <field>:int:0
-<nan> <nan> <field>:string:0 <field>:string:0 <field>:string:0 <nan> <nan> <nan> <nan> <nan> <field>:string:1
 <field>:string:0 <nan> <nan> <value>:int:1 <nan> <nan> <field>:int:1
 <nan> <nan> <nan> <field>:int:0 <field>:string:1 <nan> <value>:string:1
 <nan> <nan> <field>:date:0 <nan> <value>:string:1 <field>:string:1 <nan> <value>:string:2
@@ -372,7 +369,6 @@
 <nan> <nan> <nan> <field>:string:0 <nan> <value>:string:1 <field>:string:1 <nan> <value>:int:2 <field>:int:2
 <nan> <field>:string:0 <nan> <nan> <field>:int:1 <nan> <value>:string:0 <nan> <nan>
 <nan> <field>:string:0 <field>:string:0 <nan> <count> <nan> <nan> <field>:string:1
-<nan> <field>:string:0 <nan> <nan> <nan> <nan> <nan> <field>:string:1
 <nan> <field>:string:0 <nan> <value>:string:1 <field>:string:1 <nan>
 <nan> <field>:string:0 <nan> <value>:int:1 <nan> <nan> <field>:int:1
 <field>:string:0 <nan> <nan> <field>:string:0 <nan> <nan> <nan> <count> <nan> <nan> <nan> <field>:string:0

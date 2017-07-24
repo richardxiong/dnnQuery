@@ -12,7 +12,6 @@ which restaurant with a price_rating of 2 dollar signs is good for children
 what restaurants offers delivery and takes reservations
 which restaurant with a star_rating of 3 is good for groups
 what restaurant has lunch and waiter_service
-which hotel offers the most number of meals
 what kind of cuisine is thai_cafe
 restaurants that have waiters and you can sit outside
 what 2 dollar sign restaurant offers takeout
@@ -64,7 +63,6 @@ what is the average star_rating of all restaurants
 what restaurants offer reservations and waiter_service
 restaurants with outdoor_seating in midtown_west
 which resturants serve less than two meals
-which neighborhood has the most restaurants
 restaurants that deliver and are good for large parties
 which restaurant s cuisine has a price_rating of 2 dollar signs
 which hotel in midtown_west has a 3 star stating
@@ -73,7 +71,6 @@ neighborhood that is neighborhood of restaurant whose star_rating is 3 stars
 restaurants that accomodate groups and have outdoor_seating
 what groupfriendly restaurant serves lunch
 restaurant that has waiter_service and that is good for groups
-what restaurant is in the most number of neighborhoods
 what restaurants offers resversations and waiter_service
 restaurants with a star_rating of 4 or higher
 2 dollar signs or 3 dollar signs
@@ -121,7 +118,6 @@ hotel that has the facility of waiter_service
 restaurant that has takeout facilities and that which kids can enjoy
 restaurant near a neighborhood
 what is the highest rated restaurant
-what kind of cuisine has the most restaurants
 what restaurants makes deliveries and accepts credit_cards
 what kind of cuisines have at least two restaurants
 restaurants in the neighborhood of thai_cafe
@@ -131,7 +127,6 @@ neighborhood that is neighborhood of restaurant that takes credit_cards
 which restaurant has waiter and delivery service
 what meals do the thai_cafe serve
 which restaurant has thai cuisine
-the most common restaurant meal
 restaurant that can be booked in advance and has outdoor_seating facilities
 restaurant with the same or less stars as the thai_cafe
 restaurants rated least expensive
@@ -142,8 +137,6 @@ restaurant that has delivery and whose neighborhood is midtown_west
 restaurant whose price_rating is 2 dollar signs and whose neighborhood is midtown_west
 affordable restaurant with outdoor_seating
 what is the star_rating of thai_cafe
-which type of cuisine is least popular
-restaurant that serves the least number of meal
 restaurant with 2 dollar price_rating sign
 what 3 star restaurant has takeout
 restaurants that serve lunch with a price_rating of 2
@@ -196,7 +189,6 @@ what neighborhood has good a good kids restaurant
 which neighborhoods have restaurants that take credit_cards
 restaurants with delivery and outdoor_seating
 restaurant that takes reservations and whose star_rating is 3 stars
-what neighborhood has the most restaurants
 which restaurants in the midtown_west neighborhood are good for children
 which thai restaurants have takeout
 what meals do the restaurant with reservations serve
@@ -241,7 +233,6 @@ which 2 dollar sign rated restaurants have takeout
 restaurants rated less than 5 stars
 a delivering restaurant
 restaurants that are at most 2 or 3 dollar price_ratings
-what is the least served meal at restaurants
 hotel that is found in a maximum of two areas
 which resturants with takeout take reservations
 restaurants that are good for children and have outdoor_seating
@@ -279,13 +270,9 @@ restaurants that have outdoor_seating and is good for groups
 what midtown_west restaurants takes credit_cards
 restaurants which have the same star_rating or better of thai_cafe
 restaurant with 1 dollar sign
-what restaurant has the smallest menu
 which restaurants offer delivery and takeout
-which restaurants offer the least types of cuisines
 which resturants arent a 3 star_rating
 which restaurants accept credit_cards and has a rating of 2 dollar signs
-what kind of meal has the smallest number of restaurants that serve it
-what kind of cuisine has the smallest amount of restaurants
 what meals do delivery restaurants serve
 how many different cuisines are there to chose from
 restaurants serving thai or italian food
@@ -298,7 +285,6 @@ restaurants that offer takeout and delivery
 cuisine that is cuisine of at least two restaurant
 restaurants that are near a neighborhoood
 restaurant that is good for groups and whose neighborhood is midtown_west
-what restaurants serve a single type of cuisine
 what restaurants have waiter_service and delivery
 restaurants located in midtown_west that also serve lunch
 restaurants that have wait service and serve lunch
