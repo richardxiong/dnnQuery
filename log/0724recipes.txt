@@ -1,0 +1,101 @@
+wrong examples: 19
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 22
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 greater <count>
+wrong examples: 39
+<field>:0 where count <field>:1 equal <count>
+<field>:1 where count <field>:0 equal <count>
+wrong examples: 51
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 56
+<field>:0 where preparation_time equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where preparation_time equal select preparation_time where <field>:0 equal <value>:0
+wrong examples: 81
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 97
+<field>:0 where count <field>:1 equal <count>
+<field>:0 where count <field>:1 nl <count>
+wrong examples: 99
+meal where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 101
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 107
+ingredient where count <field>:0 ng <count>
+<field>:0 where count <field>:1 ng <count>
+wrong examples: 114
+<field>:0 where <field>:1 ng select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:2 where <field>:0 nl <value>:0
+wrong examples: 127
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where recipe equal select recipe where <field>:1 equal <value>:1
+wrong examples: 133
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 136
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 140
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 142
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:0 neq select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 146
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 148
+<field>:0 where <field>:1 greater select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 150
+<field>:0 where cooking_time equal min cooking_time
+<field>:0 where preparation_time equal max preparation_time
+wrong examples: 165
+avg <field>:0
+<field>:0
+wrong examples: 183
+<field>:0 where <field>:1 nl select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 188
+<field>:0 where count recipe ng <count>
+count <field>:0
+wrong examples: 195
+<field>:0 where <field>:2 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 196
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 equal min <field>:1
+test accuracy: 0.877551020408
+wrong examples: 138
+<field>:0 where <field>:1 ng select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:2 where <field>:0 nl
+wrong examples: 172
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+wrong examples: 257
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 275
+<field>:0 where <field>:1 equal select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 292
+<field>:0 where preparation_time equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 297
+<field>:0 where <field>:1 greater 2004 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 392
+<field>:0 where count <field>:1 nl <count>
+<field>:0 where count <field>:1 ng <count>
+wrong examples: 396
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 511
+<field>:0 where <field>:1 equal 2004
+<field>:0 where <field>:1 equal <value>:1
+train accuracy: 0.988549618321
