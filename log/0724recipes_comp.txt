@@ -1,0 +1,149 @@
+wrong examples: 21
+recipe where posting_date equal max posting_date
+recipe where posting_date equal min posting_date
+wrong examples: 22
+recipe where count meal ng two
+recipe where count meal greater two
+wrong examples: 25
+recipe where ingredient equal milk and meal equal lunch
+recipe where ingredient equal milk and ingredient equal milk
+wrong examples: 36
+recipe where posting_date greater select posting_date where recipe equal rice_pudding
+recipe where posting_date equal select posting_date where recipe equal rice_pudding
+wrong examples: 38
+recipe where cooking_time equal select preparation_time where recipe equal rice_pudding
+recipe where preparation_time equal select preparation_time where recipe equal rice_pudding
+wrong examples: 42
+recipe where cooking_time ng select cooking_time where recipe equal rice_pudding
+recipe where cooking_time nl select cooking_time where recipe equal rice_pudding
+wrong examples: 51
+recipe where posting_date equal 2004
+recipe where posting_date greater 2004
+wrong examples: 57
+recipe where posting_date greater select posting_date where recipe equal rice_pudding
+recipe where posting_date less select posting_date where recipe equal rice_pudding
+wrong examples: 59
+recipe where ingredient equal milk or ingredient equal spinach
+ingredient where ingredient equal milk or ingredient equal spinach
+wrong examples: 60
+recipe where cooking_time ng select preparation_time where recipe equal rice_pudding
+recipe where cooking_time nl select preparation_time where recipe equal rice_pudding
+wrong examples: 69
+recipe where posting_date less 2004 or posting_date less 2010
+recipe where posting_date greater 2004 or posting_date greater 2010
+wrong examples: 78
+meal where recipe neq rice_pudding
+meal where recipe equal rice_pudding
+wrong examples: 85
+recipe where cooking_time ng select preparation_time where recipe equal rice_pudding
+recipe where cooking_time nl select preparation_time where recipe equal rice_pudding
+wrong examples: 99
+meal where recipe equal select recipe where ingredient equal milk
+ingredient where recipe equal select recipe where ingredient equal milk
+wrong examples: 101
+recipe where posting_date nl 2004
+recipe where posting_date greater 2004
+wrong examples: 107
+ingredient where count recipe ng two
+recipe where count ingredient ng two
+wrong examples: 114
+recipe where cooking_time ng select preparation_time where recipe equal rice_pudding
+recipe where cooking_time nl select preparation_time where recipe equal rice_pudding
+wrong examples: 133
+recipe where preparation_time greater select preparation_time where recipe equal rice_pudding
+recipe where preparation_time equal select preparation_time where recipe equal rice_pudding
+wrong examples: 136
+recipe where cooking_time ng select cooking_time where recipe equal rice_pudding
+recipe where cooking_time greater select cooking_time where recipe equal rice_pudding
+wrong examples: 138
+recipe where ingredient neq milk
+recipe where ingredient equal milk
+wrong examples: 140
+meal where recipe equal rice_pudding and recipe equal quiche
+meal where recipe equal rice_pudding or recipe equal quiche
+wrong examples: 142
+recipe where ingredient equal select ingredient where recipe equal rice_pudding
+ingredient where ingredient neq select ingredient where recipe equal rice_pudding
+wrong examples: 146
+recipe where preparation_time nl select preparation_time where recipe equal rice_pudding
+recipe where preparation_time ng select preparation_time where recipe equal rice_pudding
+wrong examples: 150
+recipe where cooking_time equal min cooking_time
+recipe where preparation_time equal max preparation_time
+wrong examples: 164
+recipe where posting_date ng select posting_date where recipe equal rice_pudding
+recipe where posting_date nl select posting_date where recipe equal rice_pudding
+wrong examples: 165
+avg preparation_time
+preparation_time
+wrong examples: 183
+recipe where preparation_time nl select cooking_time where recipe equal rice_pudding
+recipe where preparation_time ng select cooking_time where recipe equal rice_pudding
+wrong examples: 195
+recipe where cooking_time equal select preparation_time where recipe equal rice_pudding
+recipe where preparation_time equal select cooking_time where recipe equal rice_pudding
+test accuracy: 0.857142857143
+wrong examples: 14
+recipe where preparation_time equal select preparation_time where recipe equal rice_pudding
+recipe where preparation_time equal select cooking_time where recipe equal rice_pudding
+wrong examples: 141
+recipe where posting_date less 2004 or posting_date less 2010
+recipe where posting_date less 2004 or posting_date greater 2010
+wrong examples: 154
+recipe where posting_date nl 2004
+recipe where posting_date ng 2004
+wrong examples: 172
+recipe where posting_date nl 2004 or posting_date nl 2010
+recipe where posting_date ng 2004 or posting_date ng 2010
+wrong examples: 224
+recipe where cooking_time ng select cooking_time where recipe equal rice_pudding
+recipe where cooking_time nl select cooking_time where recipe equal rice_pudding
+wrong examples: 254
+recipe where posting_date ng select posting_date where recipe equal rice_pudding
+recipe where posting_date nl select posting_date where recipe equal rice_pudding
+wrong examples: 257
+recipe where posting_date nl 2004
+recipe where posting_date ng 2004
+wrong examples: 275
+recipe where preparation_time equal select cooking_time where recipe equal rice_pudding
+recipe where preparation_time equal select preparation_time where recipe equal rice_pudding
+wrong examples: 318
+ingredient where count recipe ng two
+ingredient where count recipe nl two
+wrong examples: 392
+recipe where count cuisine nl two
+recipe where count cuisine ng two
+wrong examples: 396
+recipe where cooking_time nl select cooking_time where recipe equal rice_pudding
+recipe where cooking_time ng select cooking_time where recipe equal rice_pudding
+wrong examples: 436
+recipe where cooking_time equal select cooking_time where recipe equal rice_pudding
+recipe where preparation_time equal select cooking_time where recipe equal rice_pudding
+wrong examples: 512
+recipe where posting_date ng select posting_date where recipe equal rice_pudding
+recipe where posting_date nl select posting_date where recipe equal rice_pudding
+wrong examples: 536
+recipe where posting_date ng select posting_date where recipe equal rice_pudding
+recipe where posting_date nl select posting_date where recipe equal rice_pudding
+wrong examples: 537
+recipe where posting_date ng 2004
+recipe where posting_date nl 2004
+wrong examples: 558
+recipe where prepare_time equal select preparation_time where recipe equal rice_pudding
+recipe where preparation_time equal select preparation_time where recipe equal rice_pudding
+wrong examples: 638
+recipe where preparation_time ng select preparation_time where recipe equal rice_pudding
+recipe where preparation_time nl select preparation_time where recipe equal rice_pudding
+wrong examples: 645
+recipe where cooking_time ng select cooking_time where recipe equal rice_pudding
+recipe where cooking_time nl select cooking_time where recipe equal rice_pudding
+wrong examples: 728
+recipe where posting_date less 2004 or posting_date less 2010
+recipe where posting_date greater 2004 or posting_date greater 2010
+wrong examples: 759
+recipe where ingredient equal milk or ingredient equal spinach
+ingredient where ingredient equal milk or ingredient equal spinach
+wrong examples: 773
+meal where meal equal lunch or meal equal dinner
+recipe where meal equal lunch or meal equal dinner
+train accuracy: 0.973282442748
