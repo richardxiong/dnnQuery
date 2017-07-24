@@ -1463,9 +1463,9 @@ def embedding_attention_seq2seq_pretrain(encoder_inputs,
                                            #state_keep_prob=0.95,
                                            variational_recurrent=True,
                                            input_size=embedding_size,
-                                           dtype=tf.float32
+                                           dtype=dtype
                                            )
-    embedding_matrix = tf.Variable(embedding_matrix, trainable = True)
+    embedding_matrix = tf.Variable(embedding_matrix, trainable = True, dtype=dtype)
     encoder_inputs_embed = []
     for i in range(len(encoder_inputs)):
       encoder_inputs_embed.append(embedding_ops.embedding_lookup(embedding_matrix, encoder_inputs[i]))
@@ -1494,7 +1494,7 @@ def embedding_attention_seq2seq_pretrain(encoder_inputs,
                                            #state_keep_prob=0.95,
                                            variational_recurrent=True,
                                            input_size=embedding_size,
-                                           dtype=tf.float32
+                                           dtype=dtype
                                            )
     if isinstance(feed_previous, bool):
       outputs, state = embedding_attention_decoder(
