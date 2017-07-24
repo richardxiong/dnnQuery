@@ -1,0 +1,500 @@
+wrong examples: 10
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 15
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+count <field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 19
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 25
+<field>:0 where <field>:0 equal los_angeles_lakers or <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0 and number_of_turnovers equal 3
+wrong examples: 33
+<field>:0 where number_of_fouls ng 3
+<field>:0 where number_of_turnovers less 4
+wrong examples: 34
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 47
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 53
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 57
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and number_of_turnovers equal 3
+wrong examples: 62
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 82
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 84
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 85
+number_of_steals where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 87
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 105
+<field>:0 where number_of_played_games equal min number_of_played_games
+<field>:0 where number_of_points equal min number_of_points
+wrong examples: 114
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 118
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 119
+<field>:0 where <field>:1 equal <value>:1 and number_of_blocks equal 3
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal 3
+wrong examples: 126
+team where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 128
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 129
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 132
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal point_guard
+<field>:0 where <field>:1 equal <value>:1 and number_of_blocks equal 3
+wrong examples: 138
+number_of_assists where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 140
+number_of_blocks where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 144
+season where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 149
+<field>:0 where <field>:1 equal <value>:1 and number_of_turnovers equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 159
+team where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 165
+team where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 171
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 176
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 neq 3
+wrong examples: 181
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 188
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 189
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 190
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 193
+number_of_played_games where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 197
+<field>:0 where team equal los_angeles_lakers and team equal cleveland_cavaliers
+<field>:0 where <field>:1 equal min <field>:1
+wrong examples: 206
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 208
+<field>:2 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 217
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 219
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and number_of_blocks equal 3
+wrong examples: 227
+<field>:0 where <field>:1 equal <value>:1 and number_of_rebounds equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 235
+<field>:0 where number_of_points equal select number_of_points where <field>:0 equal <value>:0
+<field>:0 where number_of_rebounds less select number_of_rebounds where <field>:0 equal <value>:0
+wrong examples: 241
+<field>:0 where <field>:1 equal <value>:1 and number_of_turnovers equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 248
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 260
+<field>:0 where season equal select season where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 261
+<field>:0 where number_of_points equal select number_of_points where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 262
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 263
+<field>:1 where <field>:0 nl select <field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 268
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 270
+<field>:0 where season equal select season where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 271
+<field>:2 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 273
+<field>:0 where <field>:1 equal <value>:1 and number_of_turnovers equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 278
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 280
+<field>:0 where <field>:1 equal <value>:1 and number_of_fouls equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 286
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 292
+<field>:2 where <field>:0 equal <value>:0 and <field>:1 nl <value>:1
+<field>:2 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 293
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 nl <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 317
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 332
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and number_of_turnovers equal 3
+wrong examples: 338
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 nl <value>:0
+wrong examples: 339
+<field>:0 where <field>:1 equal <value>:1 and number_of_turnovers equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 344
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and number_of_steals equal 3
+wrong examples: 354
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and number_of_blocks equal 3
+wrong examples: 355
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 358
+<field>:0 where number_of_points equal select number_of_points where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 359
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 361
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 363
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal kobe_bryant
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal kobe_bryant
+wrong examples: 372
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 374
+<field>:0 where number_of_points greater 3
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 385
+<field>:1 where <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+<field>:2 where <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+test accuracy: 0.8165374677
+wrong examples: 18
+count <field>:0 where <field>:1 equal <value>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 65
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 86
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 111
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 126
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 less <count>
+wrong examples: 139
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 140
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 147
+<field>:0 where <field>:1 equal <value>:1 and number_of_blocks equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 200
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 201
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 225
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 228
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 255
+<field>:0 where <field>:1 equal <value>:1 and number_of_fouls equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 278
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 342
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 345
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 366
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 369
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 403
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 411
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 413
+<field>:0 where <field>:1 equal <value>:1 and number_of_fouls equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_rebounds equal 3
+wrong examples: 415
+<field>:0 where <field>:1 equal <value>:1 and number_of_rebounds equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 463
+<field>:0 where <field>:1 equal <value>:1 and number_of_rebounds equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 511
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 518
+<field>:0 where <field>:1 equal <value>:1 and number_of_turnovers equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 544
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 548
+<field>:0 where <field>:1 equal <value>:1 and number_of_fouls equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 550
+<field>:0 where <field>:1 equal <value>:1 and number_of_steals equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 551
+<field>:0 where <field>:1 equal <value>:1 and number_of_blocks equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 560
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 571
+<field>:0 where <field>:1 equal <value>:1 and number_of_steals equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_rebounds equal 3
+wrong examples: 581
+<field>:0 where <field>:1 equal <value>:1 and number_of_steals equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_assists equal 3
+wrong examples: 592
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 628
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 643
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 663
+<field>:1 where <field>:0 equal <value>:0 and number_of_blocks equal <value>:1
+number_of_steals where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 682
+<field>:0 where <field>:1 equal <value>:1 and number_of_turnovers equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 703
+<field>:0 where <field>:1 equal <value>:1 and number_of_blocks equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 714
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 715
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 737
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 744
+<field>:0 where <field>:1 equal <value>:1 and number_of_fouls equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 768
+<field>:0 where <field>:1 equal <value>:1 and number_of_fouls equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 795
+<field>:0 where <field>:1 equal <value>:1 and number_of_steals equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 809
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 837
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 852
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 883
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 889
+<field>:0 where <field>:1 equal <value>:1 and number_of_steals equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 941
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 955
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 956
+<field>:0 where <field>:1 equal <value>:1 and position equal point_guard
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 961
+<field>:0 where count <field>:1 less <count>
+<field>:0 where count <field>:1 ng <count>
+wrong examples: 965
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 979
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1000
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1007
+<field>:0 where <field>:1 equal <value>:1 and number_of_turnovers equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 1013
+<field>:0 where <field>:1 equal <value>:1 and number_of_assists equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 1022
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1072
+number_of_assists where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 1122
+<field>:0 where <field>:1 equal <value>:1 and number_of_assists equal 3
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal 3
+wrong examples: 1130
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 1132
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 1149
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1156
+<field>:0 where <field>:1 equal <value>:1 and number_of_assists equal 3
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal 3
+wrong examples: 1163
+<field>:0 where <field>:1 neq 3
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 1174
+number_of_assists where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 1219
+<field>:0 where <field>:1 equal <value>:1 and number_of_steals equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 1228
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 1234
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1244
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1249
+<field>:0 where <field>:1 equal <value>:1 and number_of_blocks equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_rebounds equal 3
+wrong examples: 1294
+<field>:0 where <field>:1 equal <value>:1 and number_of_fouls equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 1300
+<field>:0 where <field>:1 equal <value>:1 and position equal point_guard
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 1366
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1393
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 1419
+<field>:0 where <field>:1 equal <value>:1 and position equal point_guard
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal 3
+wrong examples: 1420
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1422
+<field>:0 where number_of_played_games equal select number_of_played_games where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1451
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 1460
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1461
+<field>:0 where <field>:1 equal <value>:1 and number_of_rebounds equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 1465
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 1475
+<field>:0 where <field>:1 equal <value>:1 and season equal 2004
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 1487
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+wrong examples: 1488
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal kobe_bryant
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal kobe_bryant
+wrong examples: 1496
+<field>:0 where <field>:1 equal <value>:1 and position equal point_guard
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 1498
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1499
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 1513
+<field>:0 where <field>:1 equal <value>:1 and number_of_blocks equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 1515
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 1518
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1528
+<field>:0 where <field>:1 equal <value>:1 and number_of_steals equal 3
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+wrong examples: 1530
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal 3
+wrong examples: 1536
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+train accuracy: 0.938271604938
