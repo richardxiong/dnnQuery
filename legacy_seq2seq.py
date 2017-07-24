@@ -1938,10 +1938,10 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
                                            #state_keep_prob=0.95,
                                            variational_recurrent=True,
                                            input_size=embedding_size*2,
-                                           dtype=tf.float32
+                                           dtype=dtype
                                            )
-    embedding_matrix_from = tf.Variable(embedding_matrix_from, trainable = True)
-    embedding_matrix_to_pre = tf.Variable(embedding_matrix_to, trainable = False)  # decoder vocab vectors could be trained
+    embedding_matrix_from = tf.Variable(embedding_matrix_from, trainable = True, dtype=dtype)
+    embedding_matrix_to_pre = tf.Variable(embedding_matrix_to, trainable = False, dtype=dtype)  # decoder vocab vectors could be trained
     # tag part of the variable
     tag_matrix = np.random.normal(0, 1, (12, 100))
     tag_matrix = tf.Variable(tag_matrix, trainable = True, dtype=dtype)
@@ -2020,7 +2020,7 @@ def embedding_attention_seq2seq_pretrain2_tag(encoder_inputs,
                                            #state_keep_prob=0.95,
                                            variational_recurrent=True,
                                            input_size=embedding_size,
-                                           dtype=tf.float32
+                                           dtype=dtype
                                            )
     if isinstance(feed_previous, bool):
       outputs, state, confusion_matrix = attention_decoder_confusion(
