@@ -25,7 +25,7 @@ def strSimilarity(word1, word2):
 '''
 input files
 '''
-subset = 'basketball'
+subset = 'housing'
 
 truth_path = "../dataover/except_%s" % subset
 output_path = "../evaluationx/dataover/except_%s" % subset
@@ -99,17 +99,17 @@ with open(test_output) as infile:
                     index += 1
                     continue
             # case 2 unseen vocab
-            truthlist = truth[index].split(' ')
-            if len(wordsList) == len(truthlist):
-                newwordsList = [x for x in wordsList]
-                for i in range(len(wordsList)):
-                    if newwordsList[i].lower() == '_unk':
-                        newwordsList[i] = truthlist[i]
-                newline = ' '.join(newwordsList)
-                if newline.lower() == ' '.join(truthlist):
-                    correct += 1
-                    index += 1
-                    continue
+            # truthlist = truth[index].split(' ')
+            # if len(wordsList) == len(truthlist):
+            #     newwordsList = [x for x in wordsList]
+            #     for i in range(len(wordsList)):
+            #         if newwordsList[i].lower() == '_unk':
+            #             newwordsList[i] = truthlist[i]
+            #     newline = ' '.join(newwordsList)
+            #     if newline.lower() == ' '.join(truthlist):
+            #         correct += 1
+            #         index += 1
+            #         continue
             print "wrong examples: %d" %(index + 1)
             print truth[index]
             print line.lower()
@@ -173,17 +173,17 @@ with open(geo_output) as infile:
                     index += 1
                     continue
             # case 2 unseen vocab
-            truthlist = truth[index].split(' ')
-            if len(wordsList) == len(truthlist):
-                newwordsList = [x for x in wordsList]
-                for i in range(len(wordsList)):
-                    if newwordsList[i].lower() == '_unk':
-                        newwordsList[i] = truthlist[i]
-                newline = ' '.join(newwordsList)
-                if newline.lower() == ' '.join(truthlist):
-                    correct += 1
-                    index += 1
-                    continue
+            # truthlist = truth[index].split(' ')
+            # if len(wordsList) == len(truthlist):
+            #     newwordsList = [x for x in wordsList]
+            #     for i in range(len(wordsList)):
+            #         if newwordsList[i].lower() == '_unk':
+            #             newwordsList[i] = truthlist[i]
+            #     newline = ' '.join(newwordsList)
+            #     if newline.lower() == ' '.join(truthlist):
+            #         correct += 1
+            #         index += 1
+            #         continue
             print "wrong examples: %d" %(index + 1)
             print truth[index]
             print line.lower()
