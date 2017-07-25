@@ -100,15 +100,16 @@ with open(test_output) as infile:
                     continue
             # case 2 unseen vocab
             truthlist = truth[index].split(' ')
-            newwordsList = [x for x in wordsList]
-            for i in range(len(wordsList)):
-                if newwordsList[i].lower() == '_unk':
-                    newwordsList[i] = truthlist[i]
-            newline = ' '.join(newwordsList)
-            if newline.lower() == ' '.join(truthlist):
-                correct += 1
-                index += 1
-                continue
+            if len(wordsList) == len(truthlist):
+                newwordsList = [x for x in wordsList]
+                for i in range(len(wordsList)):
+                    if newwordsList[i].lower() == '_unk':
+                        newwordsList[i] = truthlist[i]
+                newline = ' '.join(newwordsList)
+                if newline.lower() == ' '.join(truthlist):
+                    correct += 1
+                    index += 1
+                    continue
             print "wrong examples: %d" %(index + 1)
             print truth[index]
             print line.lower()
@@ -173,15 +174,16 @@ with open(geo_output) as infile:
                     continue
             # case 2 unseen vocab
             truthlist = truth[index].split(' ')
-            newwordsList = [x for x in wordsList]
-            for i in range(len(wordsList)):
-                if newwordsList[i].lower() == '_unk':
-                    newwordsList[i] = truthlist[i]
-            newline = ' '.join(newwordsList)
-            if newline.lower() == ' '.join(truthlist):
-                correct += 1
-                index += 1
-                continue
+            if len(wordsList) == len(truthlist):
+                newwordsList = [x for x in wordsList]
+                for i in range(len(wordsList)):
+                    if newwordsList[i].lower() == '_unk':
+                        newwordsList[i] = truthlist[i]
+                newline = ' '.join(newwordsList)
+                if newline.lower() == ' '.join(truthlist):
+                    correct += 1
+                    index += 1
+                    continue
             print "wrong examples: %d" %(index + 1)
             print truth[index]
             print line.lower()
