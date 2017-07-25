@@ -1,0 +1,2210 @@
+wrong examples: 5
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 6
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 8
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+wrong examples: 10
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 11
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 neq select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 15
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+wrong examples: 17
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 19
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:1 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 25
+<field>:0 where <field>:0 equal los_angeles_lakers or <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 27
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 28
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 33
+<field>:0 where number_of_fouls ng 3
+<field>:0 where count housing_unit ng <count>
+wrong examples: 34
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 35
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 36
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 38
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 39
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1 or <field>:2 nl <value>:2
+wrong examples: 45
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 47
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 49
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 51
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 54
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 57
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and groups equal true
+wrong examples: 58
+<field>:1 where <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 less <value>:1 and <field>:2 equal <value>:2
+wrong examples: 59
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 60
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 62
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 63
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 64
+<field>:0 where <field>:1 equal <value>:1 and number_of_played_games equal 3
+<field>:0 where <field>:1 equal <value>:1 and groups equal true
+wrong examples: 66
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 70
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 75
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 76
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+wrong examples: 82
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 84
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:1 where private_room equal true and <field>:1 equal <value>:1
+wrong examples: 85
+number_of_steals where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 87
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal 3
+<field>:1 where <field>:1 equal <value>:1 and <field>:0 equal true
+wrong examples: 90
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 93
+<field>:2 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+wrong examples: 94
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 96
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 98
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 99
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 100
+<field>:0 where number_of_turnovers less 4
+<field>:0 where monthly_rent ng 1500 or monthly_rent ng 2000
+wrong examples: 102
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 105
+<field>:0 where number_of_played_games equal min number_of_played_games
+<field>:0 where count <field>:0 nl <count>
+wrong examples: 109
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+<field>:1 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 113
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 119
+<field>:0 where <field>:1 equal <value>:1 and number_of_blocks equal 3
+<field>:1 where private_room equal true and <field>:1 equal <value>:1
+wrong examples: 122
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:2 equal <value>:2
+wrong examples: 123
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 124
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 126
+team where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 128
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:1 where private_room equal true and <field>:1 equal <value>:1
+wrong examples: 129
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 130
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 131
+<field>:2 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 132
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal point_guard
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 138
+number_of_assists where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 139
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 140
+number_of_blocks where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 144
+season where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 145
+<field>:2 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 149
+<field>:0 where <field>:1 equal <value>:1 and number_of_turnovers equal 3
+<field>:1 where private_room equal true and <field>:1 equal <value>:1
+wrong examples: 150
+<field>:2 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal true
+wrong examples: 153
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 159
+team where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+housing_unit where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 161
+<field>:2 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+wrong examples: 162
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 163
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+wrong examples: 165
+team where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater <value>:1
+wrong examples: 171
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 172
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 176
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 177
+player where <field>:0 nl <value>:0
+<field>:0 where <field>:0 equal <value>:0
+wrong examples: 181
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 182
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 188
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 189
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 190
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+wrong examples: 193
+number_of_played_games where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 195
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 197
+<field>:0 where team equal los_angeles_lakers and team equal cleveland_cavaliers
+<field>:0 where private_room equal true and end_time equal 2
+wrong examples: 199
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 200
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 201
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 203
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 204
+<field>:0 where <field>:1 greater <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 206
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 207
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 208
+<field>:2 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 217
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 218
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 219
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:1 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 221
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 222
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 223
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal 3
+<field>:1 where <field>:2 equal 2 and <field>:1 equal <value>:1
+wrong examples: 227
+<field>:0 where <field>:1 equal <value>:1 and number_of_rebounds equal 3
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 228
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 233
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 234
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 nl <value>:2
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 235
+<field>:0 where number_of_points equal select number_of_points where <field>:0 equal <value>:0
+<field>:0 where preparation_time equal select preparation_time where <field>:0 equal <value>:0
+wrong examples: 236
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 239
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal 3
+<field>:0 where <field>:1 equal <value>:1 and groups equal true
+wrong examples: 241
+<field>:0 where <field>:1 equal <value>:1 and number_of_turnovers equal 3
+<field>:1 where private_room equal true and <field>:1 equal <value>:1
+wrong examples: 242
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 243
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 244
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 246
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 247
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 nl <value>:1 or <field>:2 nl <value>:2
+wrong examples: 248
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 256
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 258
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 260
+<field>:0 where season equal select season where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 261
+<field>:0 where number_of_points equal select number_of_points where <field>:0 equal <value>:0
+<field>:0 where count <field>:1 greater <count>
+wrong examples: 265
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 268
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 270
+<field>:0 where season equal select season where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 271
+<field>:2 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+<field>:1 where <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+wrong examples: 272
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 273
+<field>:0 where <field>:1 equal <value>:1 and number_of_turnovers equal 3
+ingredient where <field>:1 equal <value>:1 or <field>:0 equal <value>:0
+wrong examples: 276
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 279
+<field>:2 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 280
+<field>:0 where <field>:1 equal <value>:1 and number_of_fouls equal 3
+<field>:1 where private_room equal true and <field>:1 equal <value>:1
+wrong examples: 284
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 290
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 291
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 292
+<field>:2 where <field>:0 equal <value>:0 and <field>:1 nl <value>:1
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+wrong examples: 293
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 nl <value>:2
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 294
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 296
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 299
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 300
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 304
+<field>:1 where <field>:0 less select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 306
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 309
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 310
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 311
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal 3
+ingredient where <field>:1 equal <value>:1 or <field>:0 equal <value>:0
+wrong examples: 312
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 313
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 314
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 316
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 319
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 322
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 326
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 330
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 331
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 332
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and groups equal true
+wrong examples: 334
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 336
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 338
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+wrong examples: 339
+<field>:0 where <field>:1 equal <value>:1 and number_of_turnovers equal 3
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 342
+<field>:1 where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+housing_unit where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 344
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:1 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 351
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 353
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 354
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 355
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 356
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 358
+<field>:0 where number_of_points equal select number_of_points where <field>:0 equal <value>:0
+<field>:0 where preparation_time equal select preparation_time where <field>:0 equal <value>:0
+wrong examples: 359
+<field>:0 where <field>:1 equal <value>:1 and team equal los_angeles_lakers
+<field>:1 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 361
+<field>:0 where <field>:1 equal <value>:1 and number_of_points equal 3
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 363
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal kobe_bryant
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 365
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 367
+<field>:0 where <field>:1 less <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 372
+<field>:0 where <field>:1 equal <value>:1 and <field>:0 equal los_angeles_lakers
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 374
+<field>:0 where number_of_points greater 3
+<field>:0 where price_rating neq 1500 or monthly_rent greater 2000
+wrong examples: 383
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 385
+<field>:1 where <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 less <value>:1
+test accuracy: 0.56330749354
+wrong examples: 4
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 6
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 9
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 12
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 13
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 17
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 18
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 22
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 24
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 28
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 30
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 31
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 35
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 36
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 41
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 43
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 46
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 47
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 49
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 50
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 53
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 54
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 59
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 60
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 63
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 64
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 66
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 68
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 71
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 74
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 77
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 78
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 87
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 91
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 93
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 101
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 104
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 108
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 109
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 110
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 113
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 117
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 118
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 119
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 122
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 neq <value>:0
+wrong examples: 123
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 124
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 128
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 130
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 133
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 134
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 135
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 136
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 137
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 141
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 150
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 152
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 153
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 154
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 159
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 neq <value>:0
+wrong examples: 161
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 162
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 166
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 169
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 171
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 176
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 177
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 178
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:2 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 179
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 183
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 185
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 188
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 194
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 199
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 208
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 211
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 212
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 213
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 216
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 218
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 219
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 221
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 231
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 233
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 237
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 239
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 241
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 245
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 247
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 249
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 250
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 252
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 254
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 255
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 257
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 262
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 265
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 271
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 273
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 274
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 276
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 278
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 279
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 283
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 295
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 296
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 297
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 301
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 302
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 304
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 312
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 313
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 316
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 322
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 327
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 328
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 329
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 330
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 333
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 334
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 335
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 336
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 340
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 342
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 343
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 344
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 345
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 350
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 353
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 355
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 359
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 365
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 368
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 372
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 373
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 374
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 381
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 382
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 383
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 384
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 388
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 395
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 397
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 399
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 401
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 403
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:2 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 405
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 408
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 414
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 416
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 417
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 419
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 422
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 423
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 424
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 426
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 429
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 430
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 431
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 435
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 436
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 437
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 440
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 441
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 442
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 443
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 445
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 447
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 451
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 452
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 458
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 459
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 460
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 461
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 464
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 468
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 469
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 470
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 472
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 476
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 477
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 482
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 484
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 485
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 487
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 489
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 490
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 496
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 499
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 504
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 507
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 510
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 512
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 514
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 515
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 518
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 522
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 525
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 528
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 530
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 532
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 534
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 535
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 536
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 540
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:2 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 542
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 544
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 545
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 547
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 548
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 553
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 554
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:2 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 560
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 563
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 565
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 569
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+wrong examples: 570
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 571
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 577
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 581
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 585
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 586
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 592
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 593
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 594
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 595
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 596
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 597
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 602
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 605
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 606
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 607
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 610
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 611
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 612
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 618
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 623
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 624
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 626
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 627
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 630
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 631
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 632
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 643
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 645
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 647
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 648
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 649
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 650
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 652
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 654
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 655
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 neq <value>:0
+wrong examples: 656
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 659
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 664
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 665
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 673
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 674
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 675
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 680
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 682
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 683
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 686
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 687
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 688
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 692
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 694
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 696
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 699
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 700
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 701
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 707
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 708
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 710
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 711
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 712
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 716
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 717
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 718
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 719
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 720
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 721
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 723
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 726
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 727
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 729
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 734
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 736
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 neq <value>:0
+wrong examples: 738
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 744
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 748
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 749
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 750
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 751
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 752
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 755
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 762
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 763
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 764
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 765
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 766
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 768
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 770
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 771
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 773
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 776
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 777
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 778
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 779
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 783
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 787
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 790
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 791
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 794
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 799
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 801
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal <value>:0 and <field>:2 equal <value>:2
+wrong examples: 802
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 806
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 807
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 808
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 809
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 811
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 813
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 819
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 822
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 823
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 824
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 827
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 828
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 829
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 831
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 832
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 833
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 835
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 837
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 840
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 841
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 842
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 843
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 844
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 846
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 851
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 853
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 854
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 865
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 868
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 869
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 871
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 873
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:2 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 875
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 880
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 883
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 885
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 891
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 892
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 894
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 901
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 902
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 903
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 905
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 907
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 911
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 912
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 913
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 914
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 916
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 917
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 918
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 919
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 929
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 932
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 neq max <field>:1
+wrong examples: 934
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 935
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 941
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 942
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 943
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 946
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 948
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 953
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 954
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 956
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 958
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 959
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 961
+count <field>:0
+<field>:0
+wrong examples: 963
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal max <field>:0
+wrong examples: 967
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 969
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 970
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 973
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 974
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 975
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 978
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 979
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 980
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 983
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 988
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 990
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 992
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 995
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 997
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1000
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1001
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1002
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 1008
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1009
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1010
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1014
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1019
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1020
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 neq <value>:0
+wrong examples: 1021
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1022
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1026
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1031
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1040
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1041
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 1046
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1048
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 1051
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1052
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 1053
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1054
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1056
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1057
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1060
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1063
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1066
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1067
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1068
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 1071
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1074
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1076
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1079
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1084
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1085
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 neq <value>:0
+wrong examples: 1086
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1087
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1088
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 neq max <field>:1
+wrong examples: 1090
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1092
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1097
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 neq <value>:0
+wrong examples: 1098
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 1099
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1104
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1105
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 1107
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1109
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1111
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1114
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1115
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 1116
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1122
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1123
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 1124
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1126
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1127
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1129
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1135
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 1145
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1149
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1150
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1151
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1152
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1155
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1156
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1157
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1159
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1163
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1164
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1165
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1166
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1167
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1170
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1174
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1175
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1177
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1178
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1179
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1180
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1184
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1185
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 1188
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1193
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1196
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1197
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1198
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1201
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 1209
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1210
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1216
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 1223
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1228
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1232
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1234
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1236
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1238
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1239
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1240
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 1250
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1251
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1255
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1261
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1262
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1264
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 1265
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1266
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1272
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1274
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1276
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 1280
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1282
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 1283
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1285
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1286
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1289
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1292
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1294
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1296
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1297
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1300
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1301
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1303
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 1306
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1313
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1314
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1317
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1318
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1323
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1325
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1335
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 1336
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1346
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1350
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 1352
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1354
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1359
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 1361
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 neq <value>:0
+wrong examples: 1364
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1368
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1370
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1375
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1376
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 1377
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 1379
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 neq <value>:1
+wrong examples: 1380
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 neq <value>:0
+wrong examples: 1381
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1383
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 neq <value>:0
+wrong examples: 1384
+<field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal max <field>:1
+wrong examples: 1386
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1393
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1396
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1398
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1402
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1404
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1405
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1407
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1408
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1409
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1417
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1418
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1419
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1422
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1425
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 1426
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1427
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:0 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 1431
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1433
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 1434
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+train accuracy: 0.60460251046
