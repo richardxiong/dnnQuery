@@ -374,12 +374,12 @@ def prepare_wmt_data(data_dir, en_vocabulary_size, fr_vocabulary_size, tokenizer
   # train_path = os.path.join(data_dir, "rand_train")
   # dev_path = os.path.join(data_dir, "rand_dev")
 
-  subset = 'restaurants' # except_
+  subset = 'except_calendar' # 
   # X domain
   # train_path = os.path.join(data_dir, "except_%s_train" % subset)
   # dev_path = os.path.join(data_dir, "except_%s_test" % subset)
   # In domain
-  train_path = os.path.join(data_dir, "%s_aug" % subset)
+  train_path = os.path.join(data_dir, "%s_train" % subset)
   dev_path = os.path.join(data_dir, "%s_test" % subset)
 
   from_train_path = train_path + ".qu"

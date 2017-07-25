@@ -1,0 +1,449 @@
+wrong examples: 22
+restaurant where star_rating ng select star_rating where restaurant equal thai_cafe
+restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
+wrong examples: 24
+restaurant where groups equal true and kids equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 36
+price_rating where price_rating equal 2 or price_rating equal 3
+restaurant where price_rating equal 2 or price_rating equal 3
+wrong examples: 41
+neighborhood where restaurant equal select restaurant where reservations equal true
+cuisine where restaurant equal select restaurant where reservations equal true
+wrong examples: 50
+meal where count restaurant equal two
+meal where count restaurant equal one
+wrong examples: 55
+restaurant where delivery equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 58
+restaurant where reservations equal true and delivery equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 59
+neighborhood where neighborhood neq select neighborhood where restaurant equal thai_cafe
+neighborhood where restaurant equal select restaurant where restaurant equal thai_cafe
+wrong examples: 60
+restaurant where neighborhood equal midtown_west and neighborhood equal midtown_west
+restaurant where neighborhood equal midtown_west and groups equal true
+wrong examples: 61
+meal where restaurant equal select restaurant where waiter_service equal true
+cuisine where restaurant equal select restaurant where waiter_service equal true
+wrong examples: 63
+restaurant where waiter_service equal true and reservations equal true
+restaurant where reservations equal true and reservations equal true
+wrong examples: 74
+restaurant where reservations equal true and waiter_service equal true
+restaurant where waiter_service equal true and waiter_service equal true
+wrong examples: 75
+restaurant where star_rating nl 4
+restaurant where star_rating nl 2
+wrong examples: 83
+restaurant where groups equal true and kids equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 90
+restaurant where waiter_service equal true and cuisine equal thai
+restaurant where waiter_service equal true and waiter_service equal true
+wrong examples: 101
+cuisine where restaurant equal select restaurant where outdoor_seating equal true
+cuisine where restaurant equal select restaurant where groups equal true
+wrong examples: 102
+cuisine where count restaurant greater two
+restaurant where count cuisine equal two
+wrong examples: 103
+restaurant where credit_cards equal true and kids equal true
+restaurant where credit_cards equal true and credit_cards equal true
+wrong examples: 105
+cuisine where count restaurant equal two
+restaurant where count cuisine equal two
+wrong examples: 111
+cuisine where restaurant equal select restaurant where reservations equal true
+meal where restaurant equal select restaurant where reservations equal true
+wrong examples: 113
+cuisine where restaurant equal select restaurant where kids equal true
+cuisine where restaurant equal select restaurant where groups equal true
+wrong examples: 114
+restaurant where count meal equal two
+meal where count restaurant nl two
+wrong examples: 117
+cuisine where restaurant equal select restaurant where waiter_service equal true
+restaurant where star_rating equal select star_rating where restaurant equal thai_cafe
+wrong examples: 119
+neighborhood where count restaurant equal two
+neighborhood where count restaurant equal one
+wrong examples: 123
+restaurant where neighborhood equal select neighborhood where restaurant equal thai_cafe
+neighborhood where restaurant equal thai_cafe or where restaurant pizzeria_juno
+wrong examples: 129
+restaurant where cuisine equal select cuisine where restaurant equal thai_cafe
+cuisine where restaurant equal select restaurant where cuisine equal thai
+wrong examples: 135
+meal where restaurant equal select restaurant where neighborhood equal midtown_west
+neighborhood where restaurant equal select restaurant where neighborhood equal midtown_west
+wrong examples: 138
+restaurant where price_rating equal 2 and outdoor_seating equal true
+restaurant where outdoor_seating equal true and outdoor_seating equal true
+wrong examples: 143
+restaurant where price_rating less 2
+restaurant where price_rating greater 2
+wrong examples: 144
+restaurant where delivery equal true and takeout equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 145
+neighborhood where count restaurant greater two
+restaurant where count neighborhood equal one
+wrong examples: 146
+restaurant where outdoor_seating equal true and waiter_service equal true
+restaurant where waiter_service equal true and waiter_service equal true
+wrong examples: 148
+cuisine where count restaurant equal two
+restaurant where count cuisine equal two
+wrong examples: 149
+restaurant where price_rating equal 2 and kids equal true
+restaurant where groups equal true and price_rating equal 2
+wrong examples: 152
+restaurant where reservations equal true and delivery equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 158
+restaurant where outdoor_seating equal true and kids equal true
+restaurant where kids equal true and kids equal true
+wrong examples: 161
+restaurant where star_rating equal 3 or star_rating equal 5
+star_rating where star_rating equal 3 or star_rating equal 5
+wrong examples: 165
+price_rating where price_rating equal 2 or price_rating equal 3
+restaurant where price_rating equal 2 or price_rating equal 3
+wrong examples: 171
+neighborhood where restaurant equal thai_cafe and where restaurant pizzeria_juno
+neighborhood where restaurant equal thai_cafe or where restaurant pizzeria_juno
+wrong examples: 175
+restaurant where meal equal select meal where restaurant equal thai_cafe
+restaurant where cuisine equal select neighborhood where restaurant equal thai_cafe
+wrong examples: 176
+restaurant where waiter_service equal true and outdoor_seating equal true
+restaurant where waiter_service equal true and waiter_service equal true
+wrong examples: 190
+restaurant where delivery equal true and outdoor_seating equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 201
+restaurant where star_rating equal 3 and meal equal lunch
+restaurant where price_rating equal 2 and meal equal lunch
+wrong examples: 207
+meal where meal equal lunch or meal equal dinner
+restaurant where meal equal lunch or meal equal dinner
+wrong examples: 210
+restaurant where price_rating ng 2
+restaurant where price_rating equal 2 and price_rating equal 2
+wrong examples: 214
+restaurant where price_rating nl 2 or price_rating nl 3
+restaurant where price_rating equal 2 or price_rating equal 3
+wrong examples: 216
+restaurant where star_rating equal min star_rating
+restaurant where star_rating equal max star_rating
+wrong examples: 227
+restaurant where count meal greater two
+meal where count restaurant nl two
+wrong examples: 237
+restaurant where takeout equal true and reservations equal true
+restaurant where reservations equal true and reservations equal true
+wrong examples: 240
+neighborhood where neighborhood neq select neighborhood where restaurant equal thai_cafe
+restaurant where neighborhood equal select neighborhood where restaurant equal thai_cafe
+wrong examples: 241
+cuisine where count restaurant less two
+cuisine where count restaurant equal two
+wrong examples: 246
+restaurant where waiter_service equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 248
+restaurant where delivery equal true and waiter_service equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 249
+neighborhood where neighborhood equal midtown_west or neighborhood equal chelsea
+restaurant where neighborhood equal midtown_west or neighborhood equal chelsea
+wrong examples: 252
+restaurant where cuisine equal select cuisine where restaurant equal thai_cafe
+cuisine where restaurant equal select restaurant where restaurant equal thai_cafe
+wrong examples: 255
+restaurant where kids equal true and reservations equal true
+restaurant where reservations equal true and reservations equal true
+wrong examples: 256
+neighborhood where restaurant equal select restaurant where waiter_service equal true
+neighborhood where restaurant equal select restaurant where neighborhood equal midtown_west
+wrong examples: 260
+restaurant where kids equal true and outdoor_seating equal true
+restaurant where kids equal true and kids equal true
+wrong examples: 261
+restaurant where count meal nl two
+meal where count restaurant nl two
+wrong examples: 272
+restaurant where price_rating equal 1
+restaurant where price_rating equal 2
+wrong examples: 273
+restaurant where takeout equal true and delivery equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 274
+restaurant where star_rating neq 3
+restaurant where star_rating equal 3
+wrong examples: 278
+cuisine where cuisine equal thai or cuisine equal italian
+restaurant where cuisine equal thai or cuisine equal italian
+wrong examples: 282
+restaurant where price_rating less 2
+restaurant where price_rating equal 2
+wrong examples: 286
+neighborhood where count restaurant equal one
+restaurant where count neighborhood equal one
+wrong examples: 296
+count star_rating
+count neighborhood
+wrong examples: 297
+restaurant where takeout equal true and outdoor_seating equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 300
+restaurant where kids equal true and waiter_service equal true
+restaurant where waiter_service equal true and waiter_service equal true
+wrong examples: 301
+star_rating where star_rating equal 3 or star_rating equal 5
+restaurant where star_rating equal 3 or star_rating equal 5
+wrong examples: 308
+restaurant where restaurant equal thai_cafe or restaurant equal pizzeria_juno
+neighborhood where restaurant equal thai_cafe or restaurant equal pizzeria_juno
+wrong examples: 311
+restaurant where neighborhood equal midtown_west and cuisine equal thai
+cuisine where cuisine equal thai and neighborhood equal midtown_west
+wrong examples: 313
+meal where meal equal lunch or meal equal dinner
+restaurant where meal equal lunch or meal equal dinner
+test accuracy: 0.77358490566
+wrong examples: 9
+restaurant where price_rating equal 3 and price_rating equal 2
+restaurant where price_rating equal 2 and price_rating equal 2
+wrong examples: 18
+restaurant where reservations equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 42
+restaurant where star_rating nl 3 or star_rating nl 5
+restaurant where star_rating equal 3 or star_rating equal 5
+wrong examples: 55
+restaurant where takeout equal true and outdoor_seating equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 62
+restaurant where star_rating equal select star_rating where restaurant equal thai_cafe
+restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
+wrong examples: 64
+restaurant where kids equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 75
+restaurant where groups equal true and outdoor_seating equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 116
+restaurant where credit_cards equal true and kids equal true
+restaurant where credit_cards equal true and credit_cards equal true
+wrong examples: 122
+restaurant where outdoor_seating equal true and waiter_service equal true
+restaurant where waiter_service equal true and waiter_service equal true
+wrong examples: 123
+restaurant where credit_cards equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 124
+restaurant where kids equal true and credit_cards equal true
+restaurant where credit_cards equal true and credit_cards equal true
+wrong examples: 157
+restaurant where star_rating ng select star_rating where restaurant equal thai_cafe
+restaurant where star_rating nl select star_rating where restaurant equal thai_cafe
+wrong examples: 162
+restaurant where groups equal true and kids equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 183
+restaurant where kids equal true and takeout equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 191
+restaurant where waiter_service equal true and star_rating equal 3
+restaurant where star_rating equal 3 and kids equal true
+wrong examples: 220
+restaurant where count cuisine nl two
+restaurant where count cuisine greater two
+wrong examples: 226
+restaurant where reservations equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 238
+restaurant where delivery equal true and outdoor_seating equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 239
+restaurant where takeout equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 300
+restaurant where delivery equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 315
+restaurant where waiter_service equal true and outdoor_seating equal true
+restaurant where waiter_service equal true and waiter_service equal true
+wrong examples: 337
+restaurant where reservations equal true and outdoor_seating equal true
+restaurant where reservations equal true and reservations equal true
+wrong examples: 359
+restaurant where outdoor_seating equal true and takeout equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 362
+restaurant where takeout equal true and kids equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 392
+restaurant where outdoor_seating equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 419
+restaurant where credit_cards equal true and outdoor_seating equal true
+restaurant where credit_cards equal true and credit_cards equal true
+wrong examples: 478
+restaurant where credit_cards equal true and delivery equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 520
+restaurant where outdoor_seating equal true and credit_cards equal true
+restaurant where credit_cards equal true and credit_cards equal true
+wrong examples: 522
+restaurant where groups equal true and kids equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 533
+restaurant where credit_cards equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 564
+restaurant where kids equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 581
+restaurant where outdoor_seating equal true and takeout equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 588
+restaurant where groups equal true and kids equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 592
+cuisine where cuisine neq select cuisine where restaurant equal thai_cafe
+cuisine where cuisine neq select cuisine where cuisine equal thai_cafe
+wrong examples: 597
+restaurant where groups equal true and reservations equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 619
+restaurant where outdoor_seating equal true and kids equal true
+restaurant where kids equal true and kids equal true
+wrong examples: 623
+restaurant where reservations equal true and groups equal true
+restaurant where reservations equal true and reservations equal true
+wrong examples: 639
+restaurant where waiter_service equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 651
+restaurant where credit_cards equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 672
+restaurant where kids equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 693
+restaurant where takeout equal true and waiter_service equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 694
+restaurant where takeout equal true and kids equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 698
+restaurant where kids equal true and outdoor_seating equal true
+restaurant where kids equal true and kids equal true
+wrong examples: 701
+restaurant where outdoor_seating equal true and takeout equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 724
+restaurant where meal equal lunch or meal equal dinner
+meal where meal equal lunch or meal equal dinner
+wrong examples: 765
+restaurant where reservations equal true and kids equal true
+restaurant where reservations equal true and reservations equal true
+wrong examples: 783
+restaurant where takeout equal true and waiter_service equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 796
+restaurant where waiter_service equal true and takeout equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 812
+meal where count restaurant ng two
+meal where count restaurant equal one
+wrong examples: 859
+restaurant where delivery equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 890
+restaurant where outdoor_seating equal true and reservations equal true
+restaurant where reservations equal true and reservations equal true
+wrong examples: 904
+restaurant where outdoor_seating equal true and delivery equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 938
+restaurant where delivery equal true and reservations equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 942
+restaurant where takeout equal true and outdoor_seating equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 955
+restaurant where takeout equal true and waiter_service equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 957
+restaurant where takeout equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 958
+cuisine where count restaurant equal two
+cuisine where count restaurant nl two
+wrong examples: 969
+restaurant where groups equal true and reservations equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 987
+restaurant where waiter_service equal true and takeout equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 1022
+restaurant where waiter_service equal true and delivery equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 1025
+restaurant where waiter_service equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 1036
+restaurant where groups equal true and credit_cards equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 1052
+restaurant where kids equal true and waiter_service equal true
+restaurant where kids equal true and kids equal true
+wrong examples: 1063
+meal where restaurant equal select restaurant where cuisine equal thai
+cuisine where restaurant equal select restaurant where cuisine equal thai
+wrong examples: 1112
+restaurant where kids equal true and takeout equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 1124
+restaurant where groups equal true and credit_cards equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 1138
+restaurant where price_rating ng 3
+restaurant where price_rating ng 2
+wrong examples: 1165
+restaurant where price_rating equal 2 and outdoor_seating equal true
+restaurant where outdoor_seating equal true and outdoor_seating equal true
+wrong examples: 1168
+restaurant where kids equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 1178
+restaurant where delivery equal true and credit_cards equal true
+restaurant where delivery equal true and delivery equal true
+wrong examples: 1216
+restaurant where outdoor_seating equal true and takeout equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 1217
+restaurant where outdoor_seating equal true and groups equal true
+restaurant where groups equal true and groups equal true
+wrong examples: 1234
+restaurant where credit_cards equal true and delivery equal true
+restaurant where credit_cards equal true and credit_cards equal true
+wrong examples: 1237
+neighborhood where count restaurant equal two
+neighborhood where count restaurant nl two
+wrong examples: 1265
+restaurant where kids equal true and reservations equal true
+restaurant where reservations equal true and reservations equal true
+wrong examples: 1266
+restaurant where takeout equal true and credit_cards equal true
+restaurant where takeout equal true and takeout equal true
+wrong examples: 1272
+restaurant where delivery equal true and reservations equal true
+restaurant where delivery equal true and delivery equal true
+train accuracy: 0.939655172414

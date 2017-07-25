@@ -82,7 +82,7 @@ class Seq2SeqModel(object):
       dtype: the data type to use to store internal variables.
     """
     # changed by Kaifeng
-    subset = 'restaurants'
+    subset = 'calendar'
     self.from_vocab_path = './dataover/except_%s/vocab1500.from' % subset
     self.to_vocab_path = './dataover/except_%s/vocab150.to' % subset
     self.glove_path = '../../glove.6B/glove.6B.300d.txt'

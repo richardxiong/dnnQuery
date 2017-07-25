@@ -48,7 +48,7 @@ conventions:
 end of it
 '''
 #==================================================================================
-subset = 'restaurants'
+subset = 'calendar'
     
 tf.app.flags.DEFINE_float("learning_rate", 0.05 * 0.007, "Learning rate.")
 tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.8,
@@ -239,12 +239,12 @@ def train():
           train_set, bucket_id)
       _, step_loss, _, _ = model.step(sess, encoder_inputs, tag_inputs, decoder_inputs, ###, _
                                    target_weights, bucket_id, False)
-      step_time += (time.time() - start_time) / 10#FLAGS.steps_per_checkpoint #
-      loss += step_loss / 10#FLAGS.steps_per_checkpoint #
+      step_time += (time.time() - start_time) / FLAGS.steps_per_checkpoint #10#
+      loss += step_loss / FLAGS.steps_per_checkpoint #10#
       current_step += 1
 
       # Once in a while, we save checkpoint, print statistics, and run evals.
-      if current_step % 10 == 0: #FLAGS.steps_per_checkpoint == 0: # 
+      if current_step % FLAGS.steps_per_checkpoint == 0: # 10 == 0: #
         # Print statistics for the previous epoch.
         perplexity = math.exp(float(loss)) if loss < 300 else float("inf")
         print ("global step %d learning rate %.4f step-time %.2f perplexity "
@@ -333,10 +333,10 @@ def decode():
     testTagFile = FLAGS.data_dir + '/%s_test.ta.ids150' % subset  # For tagging model, Hongyu
     testLogicFile = FLAGS.data_dir + '/%s_test.lox.ids150' % subset  # For tagging model, Hongyu
     #0530 newly added
-    geoQuestionFile = FLAGS.data_dir + '/%s_aug.qu.ids1500' % subset
-    geoTagFile = FLAGS.data_dir + '/%s_aug.ta.ids150' % subset   # For tagging model, Hongyu
-    geoLogicFile = FLAGS.data_dir + '/%s_aug.lox.ids150' % subset   # For tagging model, Hongyu
-    logicalTemp_geo = open(FLAGS.test_dir + '/%s_aug.out' % subset, 'w')
+    geoQuestionFile = FLAGS.data_dir + '/%s_train.qu.ids1500' % subset
+    geoTagFile = FLAGS.data_dir + '/%s_train.ta.ids150' % subset   # For tagging model, Hongyu
+    geoLogicFile = FLAGS.data_dir + '/%s_train.lox.ids150' % subset   # For tagging model, Hongyu
+    logicalTemp_geo = open(FLAGS.test_dir + '/%s_train.out' % subset, 'w')
     
     # logicalTemp_train = open(FLAGS.test_dir + '/logicalTemp_train.out', 'w')
     # logicalTemp_dev = open(FLAGS.test_dir + '/logicalTemp_dev.out', 'w')
