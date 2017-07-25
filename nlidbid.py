@@ -48,7 +48,7 @@ conventions:
 end of it
 '''
 #==================================================================================
-subset = 'housing'
+subset = 'basketball'
     
 tf.app.flags.DEFINE_float("learning_rate", 0.05 * 0.007, "Learning rate.")
 tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.8,
@@ -333,10 +333,10 @@ def decode():
     testTagFile = FLAGS.data_dir + '/%s_test.ta.ids150' % subset  # For tagging model, Hongyu
     testLogicFile = FLAGS.data_dir + '/%s_test.lox.ids150' % subset  # For tagging model, Hongyu
     #0530 newly added
-    geoQuestionFile = FLAGS.data_dir + '/%s_aug.qu.ids1500' % subset
-    geoTagFile = FLAGS.data_dir + '/%s_aug.ta.ids150' % subset   # For tagging model, Hongyu
-    geoLogicFile = FLAGS.data_dir + '/%s_aug.lox.ids150' % subset   # For tagging model, Hongyu
-    logicalTemp_geo = open(FLAGS.test_dir + '/%s_aug.out' % subset, 'w')
+    geoQuestionFile = FLAGS.data_dir + '/%s_train.qu.ids1500' % subset
+    geoTagFile = FLAGS.data_dir + '/%s_train.ta.ids150' % subset   # For tagging model, Hongyu
+    geoLogicFile = FLAGS.data_dir + '/%s_train.lox.ids150' % subset   # For tagging model, Hongyu
+    logicalTemp_geo = open(FLAGS.test_dir + '/%s_train.out' % subset, 'w')
     
     # logicalTemp_train = open(FLAGS.test_dir + '/logicalTemp_train.out', 'w')
     # logicalTemp_dev = open(FLAGS.test_dir + '/logicalTemp_dev.out', 'w')
