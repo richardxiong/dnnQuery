@@ -258,7 +258,7 @@ def prepare_wmt_data(data_dir, en_vocabulary_size, fr_vocabulary_size, tokenizer
   #train_path = get_wmt_enfr_train_set(data_dir)
   #dev_path = get_wmt_enfr_dev_set(data_dir)
   
-  subset = 'housing' # except_
+  subset = 'except_basketball' # 
   # X domain
   # train_path = os.path.join(data_dir, "except_%s_train" % subset)
   # dev_path = os.path.join(data_dir, "except_%s_test" % subset)
