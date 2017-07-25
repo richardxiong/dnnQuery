@@ -1,0 +1,737 @@
+wrong examples: 1
+<field>:0 where count housing_unit greater <count>
+<field>:0 where count _unk greater <count>
+wrong examples: 4
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 7
+<field>:0 where cats equal true and dogs equal true
+<field>:0 where _unk equal true and _unk equal true
+wrong examples: 10
+<field>:0 where count <field>:1 ng <count>
+<field>:1 where count <field>:0 ng <count>
+wrong examples: 15
+<field>:1 where monthly_rent equal <value>:0 and <field>:0 equal true
+_unk where <field>:0 equal true and _unk equal <value>:0
+wrong examples: 19
+<field>:0 where size less select size where <field>:0 equal <value>:0
+<field>:0 where _unk less select _unk where <field>:0 equal <value>:0
+wrong examples: 23
+housing_type where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 25
+<field>:0 where <field>:1 equal jan_2nd and <field>:2 equal <value>:2
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 29
+<field>:0 where size less select size where <field>:0 equal <value>:0
+<field>:0 where _unk less select _unk where <field>:0 equal <value>:0
+wrong examples: 33
+sum size
+count _unk
+wrong examples: 42
+<field>:0 where <field>:0 neq <value>:0
+neighborhood where <field>:0 equal <value>:0
+wrong examples: 44
+<field>:0 where <field>:1 less <value>:1 and <field>:1 less <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 45
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 nl <value>:1
+wrong examples: 47
+<field>:0 where monthly_rent equal 1500
+<field>:0 where _unk equal _unk
+wrong examples: 51
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where _unk equal true and <field>:1 equal <value>:1
+wrong examples: 55
+<field>:0 where housing_unit equal select housing_unit where <field>:1 equal <value>:1
+<field>:0 where _unk equal select _unk where <field>:1 equal <value>:1
+wrong examples: 61
+housing_unit where <field>:1 equal true and <field>:0 equal true
+_unk where <field>:1 equal true and <field>:0 equal true
+wrong examples: 62
+<field>:1 where <field>:0 equal select <field>:0 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal select <field>:1 where <field>:2 equal <value>:2
+wrong examples: 63
+<field>:0 where <field>:1 equal midtown_west and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 68
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 71
+housing_unit where <field>:0 equal true and <field>:1 equal <value>:1
+_unk where <field>:0 equal true and <field>:1 equal <value>:1
+wrong examples: 74
+housing_unit where <field>:1 equal true and <field>:0 equal <value>:0
+_unk where <field>:0 equal <value>:0 and <field>:1 equal true
+wrong examples: 75
+<field>:0 where housing_unit equal select housing_unit where <field>:1 equal <value>:1
+<field>:0 where <field>:0 neq select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 79
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:0 where <field>:2 equal <value>:2
+wrong examples: 83
+neighborhood where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 88
+<field>:0 where housing_unit equal select housing_unit where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 91
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+_unk where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 94
+<field>:0 where <field>:1 equal true and private_room equal true
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+wrong examples: 101
+<field>:1 where <field>:0 equal <field>:1 and <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 103
+housing_unit where <field>:1 equal <value>:1 and <field>:0 equal true
+_unk where <field>:1 equal <value>:1 and <field>:0 equal true
+wrong examples: 105
+housing_unit where <field>:0 equal max <field>:0
+_unk <field>:0
+wrong examples: 108
+housing_unit where <field>:0 equal <value>:0 and <field>:0 equal <value>:0
+_unk where <field>:0 equal <value>:0 and _unk equal true
+wrong examples: 109
+<field>:0 where <field>:2 equal true and <field>:1 equal true
+<field>:0 where <field>:1 equal select <field>:0 where <field>:2 equal true
+wrong examples: 110
+<field>:1 where <field>:0 greater select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where _unk greater select _unk where <field>:1 equal <value>:1
+wrong examples: 113
+avg size
+avg _unk
+wrong examples: 117
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+_unk where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 121
+<field>:0 where count <field>:1 ng <count>
+<field>:0 where count <field>:1 equal <count>
+wrong examples: 124
+<field>:2 where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+<field>:1 where <field>:2 equal <value>:2 and <field>:0 equal <value>:0
+wrong examples: 127
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 128
+housing_unit where <field>:0 equal <value>:0 and cats equal true
+_unk where <field>:0 equal <value>:0 and _unk equal true
+wrong examples: 132
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 141
+<field>:0 where size equal min size
+<field>:0 where _unk equal min _unk
+wrong examples: 146
+sum <field>:0
+_unk <field>:0
+wrong examples: 153
+<field>:0 where housing_unit equal select housing_unit where <field>:1 equal <value>:1
+<field>:0 where <field>:0 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 161
+<field>:0 where cats equal true and dogs equal true
+<field>:0 where _unk equal true and _unk equal true
+wrong examples: 164
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 165
+<field>:0 where <field>:1 neq <value>:1
+<field>:0 where <field>:1 less <value>:1
+wrong examples: 168
+housing_type where count housing_unit equal <count>
+_unk where _unk equal true and <field>:0 equal
+wrong examples: 171
+<field>:0 where <field>:1 equal true and monthly_rent equal <value>:1
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+wrong examples: 173
+housing_unit where <field>:0 less <value>:0 or <field>:0 less <value>:0
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 177
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal true
+_unk where <field>:1 equal true and <field>:0 equal <value>:0
+wrong examples: 178
+housing_unit where <field>:1 equal <value>:1 and <field>:0 equal true
+_unk where <field>:1 equal <value>:1 and <field>:0 equal true
+wrong examples: 179
+sum <field>:0
+_unk <field>:0
+test accuracy: 0.703910614525
+wrong examples: 5
+<field>:0 where <field>:1 less 1500 or <field>:1 less <value>:1
+<field>:0 where <field>:1 less _unk or <field>:1 less <value>:1
+wrong examples: 6
+<field>:1 where count <field>:0 greater <count>
+<field>:0 where count <field>:1 greater <count>
+wrong examples: 19
+<field>:0 where housing_unit equal select housing_unit where <field>:1 equal true
+<field>:0 where _unk equal select _unk where <field>:1 equal true
+wrong examples: 25
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal 123_sesame_street
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 38
+<field>:0 where count housing_unit greater <count>
+<field>:0 where count _unk greater <count>
+wrong examples: 45
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal true
+_unk where <field>:0 equal <value>:0 and <field>:1 equal true
+wrong examples: 47
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+_unk where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 51
+housing_unit where <field>:1 equal <value>:1 and <field>:0 equal true
+_unk where <field>:1 equal <value>:1 and <field>:0 equal true
+wrong examples: 52
+<field>:0 where size greater select size where <field>:0 equal <value>:0
+<field>:0 where _unk greater select _unk where <field>:0 equal <value>:0
+wrong examples: 64
+housing_unit where monthly_rent equal 1500 and <field>:0 equal <value>:0
+_unk where _unk equal _unk and <field>:0 equal <value>:0
+wrong examples: 68
+housing_type where count <field>:0 less <count>
+_unk where count <field>:0 less <count>
+wrong examples: 71
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater 1000
+<field>:0 where <field>:1 greater <value>:1 or <field>:1 greater _unk
+wrong examples: 79
+<field>:1 where <field>:1 neq select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 neq select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 82
+housing_unit where <field>:1 equal <value>:0 and <field>:0 equal true
+_unk where <field>:0 equal true and <field>:1 equal <value>:0
+wrong examples: 84
+<field>:0 where monthly_rent greater 1500 or monthly_rent greater 2000
+<field>:0 where _unk greater _unk or _unk greater _unk
+wrong examples: 88
+<field>:0 where <field>:1 equal <value>:1 and housing_type equal select housing_type where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 90
+<field>:0 where <field>:1 equal true and monthly_rent equal <value>:1
+<field>:0 where <field>:1 equal true and _unk equal <value>:1
+wrong examples: 91
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal true
+_unk where <field>:1 equal true and <field>:0 equal <value>:0
+wrong examples: 92
+housing_unit where <field>:1 equal true and <field>:0 equal <value>:0
+_unk where <field>:0 equal <value>:0 and <field>:1 equal true
+wrong examples: 96
+sum <field>:0
+_unk <field>:0
+wrong examples: 99
+<field>:0 where <field>:1 equal select <field>:1 where monthly_rent equal 1500
+<field>:0 where <field>:1 equal select <field>:1 where _unk equal _unk
+wrong examples: 104
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal true
+_unk where <field>:0 equal <value>:0 and <field>:1 equal true
+wrong examples: 106
+<field>:0 where dogs equal true
+<field>:0 where _unk equal true
+wrong examples: 109
+housing_type where count <field>:0 less <count>
+<field>:0 where _unk equal min _unk
+wrong examples: 110
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 119
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal select <field>:1 where <field>:0 equal 123_sesame_street
+<field>:0 where <field>:1 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 122
+neighborhood where <field>:0 equal select <field>:0 where <field>:1 equal true
+<field>:0 where _unk equal select _unk where <field>:1 equal true
+wrong examples: 124
+<field>:0 where housing_unit equal select housing_unit where <field>:0 equal <value>:0
+<field>:0 where _unk equal select _unk where <field>:0 equal <value>:0
+wrong examples: 132
+<field>:0 where count housing_unit equal <count>
+<field>:0 where count _unk equal <count>
+wrong examples: 134
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+_unk where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 136
+<field>:0 where housing_unit equal select housing_unit where <field>:1 equal <value>:1
+<field>:0 where _unk equal select _unk where <field>:1 equal <value>:1
+wrong examples: 139
+housing_unit where <field>:0 equal <value>:0
+_unk where <field>:0 equal <value>:0
+wrong examples: 140
+<field>:0 where <field>:1 equal select <field>:1 where monthly_rent equal 1500
+<field>:0 where <field>:1 equal select <field>:1 where _unk equal _unk
+wrong examples: 143
+<field>:0 where <field>:1 equal true and private_bath equal true
+<field>:0 where <field>:1 equal true and _unk equal true
+wrong examples: 150
+<field>:0 where monthly_rent nl 1500 or monthly_rent nl 2000
+<field>:0 where _unk nl _unk or _unk nl _unk
+wrong examples: 153
+housing_unit where <field>:0 less <value>:0 or <field>:0 less <value>:0
+_unk where <field>:0 less <value>:0 or <field>:0 less <value>:0
+wrong examples: 161
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:0 where <field>:2 equal <value>:2
+wrong examples: 163
+<field>:0 where <field>:1 equal <value>:1 and cats equal true
+<field>:0 where <field>:1 equal <value>:1 and _unk equal true
+wrong examples: 168
+housing_unit where count neighborhood less <count>
+_unk where count neighborhood less <count>
+wrong examples: 172
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 176
+<field>:0 where housing_unit equal select housing_unit where <field>:1 equal <value>:1
+<field>:0 where _unk equal select _unk where <field>:1 equal <value>:1
+wrong examples: 177
+housing_unit where <field>:0 equal <value>:0
+_unk where <field>:0 equal <value>:0
+wrong examples: 179
+housing_unit where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+_unk where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 181
+<field>:0 where housing_type equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 182
+count housing_unit
+count _unk
+wrong examples: 185
+<field>:0 where size less select size where <field>:0 equal <value>:0
+<field>:0 where _unk less select _unk where <field>:0 equal <value>:0
+wrong examples: 186
+<field>:0 where monthly_rent neq 1500
+<field>:0 where _unk neq _unk
+wrong examples: 187
+<field>:0 where <field>:1 equal <value>:1 and size equal select size where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 192
+<field>:0 where count housing_unit nl <count>
+<field>:0 where count _unk nl <count>
+wrong examples: 197
+<field>:0 where <field>:1 equal <value>:1 and size equal select size where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 201
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal select <field>:1 where <field>:0 equal 123_sesame_street
+<field>:0 where <field>:1 equal select <field>:1 where <field>:2 equal <value>:2
+wrong examples: 204
+<field>:0 where <field>:1 equal <value>:1 and monthly_rent equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 and _unk equal <value>:1
+wrong examples: 208
+housing_unit where <field>:0 equal true and <field>:0 equal true
+_unk where <field>:0 equal true and <field>:0 equal true
+wrong examples: 209
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal true
+_unk where <field>:0 equal <value>:0 and <field>:1 equal true
+wrong examples: 210
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal true
+_unk where <field>:0 equal <value>:0 and <field>:1 equal true
+wrong examples: 211
+housing_unit where private_bath equal true
+_unk where _unk equal true
+wrong examples: 215
+<field>:1 where count <field>:0 equal <count>
+<field>:0 where count <field>:1 equal <count>
+wrong examples: 216
+<field>:0 where housing_type equal select housing_type where <field>:0 equal <value>:0
+<field>:0 where _unk equal select _unk where <field>:0 equal <value>:0
+wrong examples: 217
+<field>:0 where <field>:1 equal select <field>:0 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal select <field>:1 where <field>:2 equal <value>:2
+wrong examples: 221
+<field>:1 where <field>:0 equal select <field>:1 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal select <field>:1 where <field>:2 equal <value>:2
+wrong examples: 223
+housing_unit where <field>:0 equal true and <field>:1 equal true
+_unk where <field>:1 equal true and <field>:0 equal true
+wrong examples: 230
+<field>:0 where housing_unit equal select housing_unit where <field>:1 equal true
+<field>:0 where _unk equal select _unk where <field>:1 equal true
+wrong examples: 233
+housing_unit where <field>:0 equal true and <field>:1 equal true
+_unk where <field>:1 equal true and <field>:0 equal true
+wrong examples: 236
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:2 where <field>:2 equal <value>:2
+wrong examples: 240
+housing_unit where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+_unk where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 243
+<field>:1 where <field>:0 equal <value>:0 and dogs equal true
+<field>:1 where <field>:0 equal <value>:0 and _unk equal true
+wrong examples: 247
+housing_unit where <field>:1 equal <value>:1 and <field>:0 equal true
+_unk where <field>:1 equal <value>:1 and <field>:0 equal true
+wrong examples: 249
+housing_unit where <field>:0 equal <value>:0
+_unk where <field>:0 equal <value>:0
+wrong examples: 260
+<field>:0 where <field>:1 equal <value>:1 and private_room equal true
+<field>:0 where <field>:1 equal <value>:1 and _unk equal true
+wrong examples: 261
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+_unk where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 271
+<field>:0 where <field>:1 equal 123_sesame_street
+<field>:0 where <field>:1 equal _unk
+wrong examples: 274
+<field>:0 where private_room equal true and <field>:1 equal true
+<field>:0 where <field>:1 equal true and <field>:1 equal true
+wrong examples: 275
+<field>:0 where size equal min size
+<field>:0 where _unk equal min _unk
+wrong examples: 288
+<field>:0 where count housing_type equal <count>
+<field>:0 where count _unk equal <count>
+wrong examples: 289
+<field>:0 where private_bath equal true and <field>:1 equal <value>:1
+<field>:0 where _unk equal true and <field>:1 equal <value>:1
+wrong examples: 291
+housing_type where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 293
+housing_unit where <field>:0 equal true and size equal <value>:0
+_unk where <field>:0 equal true and _unk equal <value>:0
+wrong examples: 302
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal true
+_unk where <field>:0 equal <value>:0 and <field>:1 equal true
+wrong examples: 303
+<field>:0 where size less select size where <field>:1 equal <value>:1
+<field>:0 where _unk less select _unk where <field>:1 equal <value>:1
+wrong examples: 305
+housing_unit where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+_unk where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 311
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal 123_sesame_street
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal <value>:1
+wrong examples: 312
+<field>:0 where private_room equal true and <field>:1 equal <value>:1
+<field>:0 where _unk equal true and <field>:1 equal <value>:1
+wrong examples: 320
+housing_unit where <field>:1 equal true and <field>:0 equal <value>:0
+_unk where <field>:1 equal true and <field>:0 equal <value>:0
+wrong examples: 330
+housing_type where count <field>:0 ng <count>
+_unk where count <field>:0 ng <count>
+wrong examples: 331
+sum <field>:0
+_unk <field>:0
+wrong examples: 333
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 334
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+_unk where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 337
+housing_unit where <field>:1 equal true and <field>:0 equal true
+_unk where <field>:1 equal true and <field>:0 equal true
+wrong examples: 352
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal condo
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal _unk
+wrong examples: 353
+housing_unit where <field>:1 equal true and <field>:0 equal true
+_unk where <field>:1 equal true and <field>:0 equal true
+wrong examples: 357
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 363
+housing_unit where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+_unk where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 365
+housing_unit where <field>:1 equal <value>:0 and <field>:0 equal true
+_unk where <field>:1 equal <value>:0 and <field>:0 equal true
+wrong examples: 374
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+_unk where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 375
+housing_unit where <field>:0 equal true and <field>:1 equal <value>:1
+_unk where <field>:0 equal true and <field>:1 equal <value>:1
+wrong examples: 379
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal true
+_unk where <field>:0 equal <value>:0 and <field>:1 equal true
+wrong examples: 380
+housing_type where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+_unk where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 386
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal true
+_unk where <field>:0 equal <value>:0 and <field>:1 equal true
+wrong examples: 389
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal midtown_west
+<field>:0 where _unk equal select _unk where <field>:1 equal midtown_west
+wrong examples: 391
+housing_unit where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+_unk where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 393
+<field>:0 where dogs equal true and <field>:1 equal <value>:1
+<field>:0 where _unk equal true and <field>:1 equal <value>:1
+wrong examples: 394
+<field>:1 where <field>:0 equal select <field>:0 where <field>:2 equal <value>:2
+<field>:0 where <field>:1 equal select <field>:0 where <field>:2 equal <value>:2
+wrong examples: 412
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 416
+<field>:0 where monthly_rent equal 1500 or monthly_rent equal 2000
+<field>:0 where _unk equal _unk or _unk equal _unk
+wrong examples: 417
+<field>:0 where housing_unit equal select housing_unit where <field>:1 equal <value>:1
+<field>:0 where _unk equal select _unk where <field>:1 equal <value>:1
+wrong examples: 418
+housing_unit where <field>:0 between <value>:0 and <value>:0
+_unk where <field>:0 between <value>:0 and <value>:0
+wrong examples: 425
+housing_unit where <field>:0 equal true and <field>:1 equal <value>:0
+_unk where <field>:0 equal true and <field>:1 equal <value>:0
+wrong examples: 432
+<field>:0 where private_room equal true and <field>:1 equal <value>:1
+<field>:0 where _unk equal true and <field>:1 equal <value>:1
+wrong examples: 436
+<field>:0 where <field>:1 equal true and private_bath equal true
+<field>:0 where <field>:1 equal true and _unk equal true
+wrong examples: 440
+<field>:0 where count housing_unit greater <count>
+<field>:0 where count _unk greater <count>
+wrong examples: 450
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal 123_sesame_street
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal <value>:2
+wrong examples: 454
+housing_unit where <field>:1 equal true and <field>:0 equal true
+_unk where <field>:1 equal true and <field>:0 equal true
+wrong examples: 455
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+_unk where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 457
+<field>:0 where size equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 462
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where _unk equal select _unk where <field>:1 equal <value>:1
+wrong examples: 464
+monthly_rent where monthly_rent equal 1500 or monthly_rent equal 2000
+_unk where _unk equal _unk or _unk equal _unk
+wrong examples: 467
+<field>:0 where <field>:1 equal true and private_bath equal true
+<field>:0 where <field>:1 equal true and _unk equal true
+wrong examples: 468
+housing_type where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+_unk where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 470
+housing_unit where <field>:0 equal true and <field>:1 equal <value>:1
+_unk where <field>:1 equal <value>:1 and <field>:0 equal true
+wrong examples: 475
+housing_unit where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+_unk where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 480
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:2 equal <value>:2
+wrong examples: 481
+<field>:0 where <field>:1 equal <value>:1 and dogs equal true
+<field>:0 where <field>:1 equal <value>:1 and _unk equal true
+wrong examples: 483
+<field>:0 where <field>:1 greater 1500
+<field>:0 where <field>:1 greater _unk
+wrong examples: 485
+housing_unit where <field>:1 equal <value>:1 and <field>:0 equal true
+_unk where <field>:1 equal <value>:1 and <field>:0 equal true
+wrong examples: 489
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where _unk equal select _unk where <field>:1 equal <value>:1
+wrong examples: 492
+<field>:0 where housing_unit equal select housing_unit where <field>:1 equal <value>:1
+<field>:0 where _unk equal select _unk where <field>:1 equal <value>:1
+wrong examples: 493
+<field>:0 where monthly_rent ng 1500 or monthly_rent ng 2000
+<field>:0 where _unk ng _unk or _unk ng _unk
+wrong examples: 503
+housing_unit where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+_unk where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 515
+size where <field>:0 equal <value>:0
+_unk where <field>:0 equal <value>:0
+wrong examples: 518
+<field>:0 where neighborhood equal midtown_west
+<field>:0 where _unk equal true
+wrong examples: 524
+sum <field>:0
+_unk <field>:0
+wrong examples: 527
+<field>:0 where <field>:1 equal <value>:1 and neighborhood equal select neighborhood where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 530
+housing_type where <field>:0 equal select <field>:0 where <field>:1 equal true
+<field>:0 where _unk equal select _unk where <field>:1 equal true
+wrong examples: 531
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+_unk where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 533
+housing_unit where <field>:0 equal min <field>:0
+_unk where <field>:0 equal min <field>:0
+wrong examples: 543
+<field>:0 where <field>:1 equal <value>:1 and <field>:2 equal select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:2 where <field>:2 equal <value>:2
+wrong examples: 548
+<field>:0 where cats equal true and cats equal true
+<field>:0 where _unk equal true and _unk equal true
+wrong examples: 552
+<field>:0 where housing_unit equal select housing_unit where <field>:1 equal <value>:1
+<field>:0 where _unk equal select _unk where <field>:1 equal <value>:1
+wrong examples: 555
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal true
+_unk where <field>:0 equal <value>:0 and <field>:1 equal true
+wrong examples: 558
+<field>:0 where monthly_rent ng 1500
+<field>:0 where _unk ng _unk
+wrong examples: 562
+<field>:0 where <field>:1 beetween <value>:1 and <value>:1
+<field>:0 where <field>:1 between <value>:1 and <value>:1
+wrong examples: 563
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal true
+_unk where <field>:0 equal <value>:0 and <field>:1 equal true
+wrong examples: 570
+count housing_type
+count _unk
+wrong examples: 578
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+_unk where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 580
+<field>:0 where <field>:2 equal <value>:2 and <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:0 where <field>:2 equal <value>:2
+wrong examples: 594
+<field>:0 where monthly_rent equal <value>:1 and <field>:1 equal true
+<field>:0 where _unk equal <value>:1 and <field>:1 equal true
+wrong examples: 598
+housing_unit where <field>:1 equal true and <field>:0 equal <value>:0
+_unk where <field>:1 equal true and <field>:0 equal <value>:0
+wrong examples: 604
+<field>:0 where <field>:1 equal <value>:1 and size equal select size where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 605
+<field>:0 where size equal min size
+<field>:0 where _unk equal min _unk
+wrong examples: 607
+<field>:0 where housing_unit equal select housing_unit where cats equal true
+<field>:0 where _unk equal select _unk where _unk equal true
+wrong examples: 608
+<field>:0 where monthly_rent greater 1500
+<field>:0 where _unk greater _unk
+wrong examples: 611
+housing_unit where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+<field>:0 where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 614
+sum <field>:0
+_unk <field>:0
+wrong examples: 617
+housing_unit where <field>:0 equal <value>:0 and private_bath equal true
+_unk where <field>:0 equal <value>:0 and _unk equal true
+wrong examples: 619
+housing_unit where <field>:1 equal true and <field>:0 equal true
+_unk where <field>:1 equal true and <field>:0 equal true
+wrong examples: 622
+<field>:0 where housing_unit equal select housing_unit where <field>:1 equal true
+<field>:0 where _unk equal select _unk where <field>:1 equal true
+wrong examples: 631
+<field>:1 where private_room equal true and <field>:0 equal <value>:0
+<field>:1 where _unk equal true and <field>:0 equal <value>:0
+wrong examples: 634
+housing_unit where <field>:0 equal true and <field>:1 equal <value>:0
+_unk where <field>:0 equal true and <field>:1 equal <value>:0
+wrong examples: 635
+<field>:0 where private_bath equal true and <field>:1 equal true
+<field>:0 where <field>:1 equal true and _unk equal true
+wrong examples: 638
+<field>:0 where housing_unit equal select housing_unit where <field>:1 equal <value>:1
+<field>:0 where _unk equal select _unk where <field>:1 equal <value>:1
+wrong examples: 639
+housing_unit where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+_unk where <field>:0 equal <value>:0 or <field>:0 equal <value>:0
+wrong examples: 651
+<field>:0 where housing_unit equal select housing_unit where <field>:0 equal <value>:0
+<field>:0 where _unk equal select _unk where <field>:0 equal <value>:0
+wrong examples: 653
+housing_unit where <field>:1 equal <value>:1 and <field>:0 equal true
+_unk where <field>:1 equal <value>:1 and <field>:0 equal true
+wrong examples: 656
+housing_unit where <field>:1 equal true and <field>:0 equal <value>:0
+_unk where <field>:0 equal <value>:0 and <field>:1 equal true
+wrong examples: 657
+<field>:0 where monthly_rent equal <value>:1 and <field>:1 equal true
+<field>:0 where _unk equal <value>:1 and <field>:1 equal true
+wrong examples: 662
+housing_type where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 663
+<field>:0 where monthly_rent nl 1500
+<field>:0 where _unk nl _unk
+wrong examples: 664
+sum <field>:0
+_unk <field>:0
+wrong examples: 666
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal true
+_unk where <field>:0 equal <value>:0 and <field>:1 equal true
+wrong examples: 668
+<field>:0 where <field>:1 between <value>:1 and <value>:1
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+wrong examples: 670
+<field>:0 where neighborhood equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 671
+housing_unit where <field>:0 equal true and <field>:1 equal <value>:1
+_unk where <field>:0 equal true and <field>:1 equal <value>:1
+wrong examples: 672
+housing_type where <field>:0 equal select <field>:0 where <field>:1 equal true
+<field>:0 where _unk equal select _unk where <field>:1 equal true
+wrong examples: 673
+<field>:0 where housing_unit equal select housing_unit where <field>:1 equal true
+<field>:0 where _unk equal select _unk where <field>:1 equal true
+wrong examples: 675
+<field>:1 where count <field>:0 less <count>
+<field>:0 where count <field>:1 less <count>
+wrong examples: 677
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+_unk where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 679
+housing_unit where size equal min size
+_unk where _unk equal min _unk
+wrong examples: 680
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+_unk where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 683
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 equal min <field>:1
+wrong examples: 685
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+_unk where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 687
+housing_type where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where _unk equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 688
+housing_unit where <field>:1 equal true and <field>:0 equal <value>:0
+_unk where <field>:1 equal true and <field>:0 equal <value>:0
+wrong examples: 691
+<field>:1 where <field>:0 equal <value>:0 and size equal <value>:0
+<field>:1 where <field>:0 equal <value>:0 and _unk equal <value>:0
+wrong examples: 696
+housing_unit where <field>:1 equal true and <field>:0 equal <value>:0
+_unk where <field>:1 equal true and <field>:0 equal <value>:0
+wrong examples: 703
+housing_unit where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+_unk where <field>:1 equal <value>:1 and <field>:0 equal <value>:0
+wrong examples: 707
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+_unk where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 710
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+_unk where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+wrong examples: 711
+<field>:0 where monthly_rent equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 713
+housing_unit where <field>:0 neq <value>:0
+_unk where <field>:0 neq <value>:0
+wrong examples: 715
+housing_unit where <field>:0 equal max <field>:0
+_unk where <field>:0 equal max <field>:0
+wrong examples: 716
+<field>:2 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 722
+housing_unit where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+_unk where <field>:0 equal <value>:0 and <field>:1 equal <value>:1
+train accuracy: 0.734439834025
