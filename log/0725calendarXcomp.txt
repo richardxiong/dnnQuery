@@ -1,0 +1,167 @@
+wrong examples: 1
+meeting where end_time greater 10am or end_time greater 3pm
+meeting where start_time greater 10am or start_time greater 3pm
+wrong examples: 4
+meeting where start_time ng end_time and meeting equal weekly_standup
+meeting where start_time nl select start_time where meeting equal weekly_standup
+wrong examples: 7
+meeting where date equal jan_2nd and length equal three
+meeting where length equal three and length equal three
+wrong examples: 20
+meeting where start_time nl end_time and meeting equal weekly_standup
+meeting where end_time nl select end_time where meeting equal weekly_standup
+wrong examples: 25
+meeting where start_time equal end_time and meeting equal weekly_standup
+meeting where start_time equal select end_time where meeting equal weekly_standup
+wrong examples: 31
+meeting where start_time less end_time and meeting equal weekly_standup
+meeting where start_time less select start_time where meeting equal weekly_standup
+wrong examples: 40
+attendee where meeting equal select meeting where start_time equal 10am
+attendee where meeting equal select meeting where important equal true
+wrong examples: 52
+meeting where attendee equal alice and location equal greenberg_cafe
+meeting where location equal greenberg_cafe and location equal greenberg_cafe
+wrong examples: 54
+meeting where end_time equal 10am or end_time equal 3pm
+meeting where end_time nl 10am or end_time nl 3pm
+wrong examples: 61
+location where meeting equal select meeting where location equal greenberg_cafe
+meeting where location equal select location where meeting equal weekly_standup
+wrong examples: 63
+meeting where date equal jan_2nd and length equal three
+meeting where length equal three
+wrong examples: 68
+meeting where end_time nl 10am
+meeting where end_time ng 10am
+wrong examples: 78
+meeting where start_time greater end_time and meeting equal weekly_standup
+meeting where end_time greater select end_time where meeting equal weekly_standup
+wrong examples: 82
+meeting where date nl jan_2nd
+meeting where date ng jan_2nd
+wrong examples: 86
+location where location equal greenberg_cafe or location equal central_office
+meeting where location equal greenberg_cafe or location equal central_office
+wrong examples: 90
+meeting where start_time nl select start_time where meeting equal weekly_standup
+meeting where start_time nl select end_time where meeting equal weekly_standup
+wrong examples: 96
+count location
+count meeting
+wrong examples: 99
+meeting where date equal jan_2nd and end_time equal 10am
+meeting where date equal jan_2nd and start_time equal 10am
+wrong examples: 105
+meeting where length equal three and length equal one
+meeting where length equal three and length equal three
+wrong examples: 114
+meeting where end_time equal start_time and meeting equal weekly_standup
+meeting where end_time equal select start_time where meeting equal weekly_standup
+wrong examples: 116
+meeting where end_time equal 10am and important equal true
+meeting where end_time equal 10am and end_time equal 10am
+wrong examples: 119
+meeting where end_time less 10am
+meeting where start_time less 10am
+wrong examples: 121
+meeting where start_time equal 10am and end_time equal 10am
+meeting where end_time equal 10am and end_time equal 10am
+wrong examples: 126
+meeting where attendee equal alice or attendee equal bob
+meeting where attendee equal alice or length equal one
+wrong examples: 127
+meeting where date ng jan_2nd and date ng jan_3rd
+meeting where date ng jan_2nd
+wrong examples: 134
+meeting where start_time greater select end_time where meeting equal weekly_standup
+meeting where start_time less select end_time where meeting equal weekly_standup
+wrong examples: 138
+meeting where meeting where length greater three or one
+meeting where length greater three or length greater one
+wrong examples: 140
+meeting where start_time equal 10am and length equal three
+meeting where length equal three and length equal three
+wrong examples: 144
+meeting where start_time equal 10am and important equal true
+meeting where start_time equal 10am and start_time equal 10am
+wrong examples: 145
+meeting where end_time nl select start_time where meeting equal weekly_standup
+meeting where end_time nl select end_time where meeting equal weekly_standup
+wrong examples: 147
+meeting where end_time nl 10am
+meeting where end_time ng 10am
+wrong examples: 148
+meeting where start_time equal 10am and end_time equal 10am
+meeting where end_time equal 10am and end_time equal 10am
+wrong examples: 155
+meeting where date nl select date where meeting equal weekly_standup
+meeting where date greater select date where meeting equal weekly_standup
+wrong examples: 157
+meeting where length less three and length less one
+meeting where length less three or length less one
+test accuracy: 0.7875
+wrong examples: 1
+meeting where start_time greater select end_time where meeting equal weekly_standup
+meeting where start_time greater select start_time where meeting equal weekly_standup
+wrong examples: 43
+meeting where end_time equal select start_time where meeting equal weekly_standup
+meeting where end_time equal select end_time where meeting equal weekly_standup
+wrong examples: 55
+meeting where start_time greater select end_time where meeting equal weekly_standup
+meeting where end_time greater select end_time where meeting equal weekly_standup
+wrong examples: 62
+meeting where end_time equal 10am and start_time equal 10am
+meeting where end_time equal 10am and end_time equal 10am
+wrong examples: 136
+meeting where start_time equal 10am and end_time equal 10am
+meeting where end_time equal 10am and end_time equal 10am
+wrong examples: 144
+meeting where end_time equal 10am and start_time equal 10am
+meeting where end_time equal 10am and end_time equal 10am
+wrong examples: 155
+meeting where end_time less select start_time where meeting equal weekly_standup
+meeting where end_time less select end_time where meeting equal weekly_standup
+wrong examples: 163
+meeting where end_time greater select start_time where meeting equal weekly_standup
+meeting where start_time greater select start_time where meeting equal weekly_standup
+wrong examples: 177
+meeting where start_time nl select start_time where meeting equal weekly_standup
+meeting where start_time ng select start_time where meeting equal weekly_standup
+wrong examples: 299
+meeting where end_time greater select start_time where meeting equal weekly_standup
+meeting where end_time greater select end_time where meeting equal weekly_standup
+wrong examples: 305
+meeting where date nl select date where meeting equal weekly_standup
+meeting where start_time ng select start_time where meeting equal weekly_standup
+wrong examples: 409
+meeting where end_time equal 10am and start_time equal 10am
+meeting where end_time equal 10am and end_time equal 10am
+wrong examples: 413
+meeting where start_time equal 10am and end_time equal 10am
+meeting where end_time equal 10am and end_time equal 10am
+wrong examples: 421
+meeting where end_time nl select start_time where meeting equal weekly_standup
+meeting where end_time nl select end_time where meeting equal weekly_standup
+wrong examples: 458
+meeting where start_time equal select end_time where meeting equal weekly_standup
+meeting where end_time equal select end_time where meeting equal weekly_standup
+wrong examples: 485
+meeting where end_time nl select start_time where meeting equal weekly_standup
+meeting where end_time nl select end_time where meeting equal weekly_standup
+wrong examples: 508
+meeting where start_time ng select end_time where meeting equal weekly_standup
+meeting where end_time ng select end_time where meeting equal weekly_standup
+wrong examples: 527
+meeting where length nl one or length nl three
+meeting where length nl three or length nl one
+wrong examples: 530
+meeting where end_time equal 1pm and start_time equal 10am
+meeting where end_time equal 10am and end_time equal 10am
+wrong examples: 578
+meeting where length greater one or length greater three
+meeting where length greater three or length greater one
+wrong examples: 599
+meeting where end_time less select start_time where meeting equal weekly_standup
+meeting where end_time less select end_time where meeting equal weekly_standup
+train accuracy: 0.966981132075
