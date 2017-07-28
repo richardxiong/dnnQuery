@@ -61,8 +61,8 @@ tf.app.flags.DEFINE_integer("size", 256, "Size of each model layer.")
 tf.app.flags.DEFINE_integer("num_layers", 2, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("from_vocab_size", 1500, "English vocabulary size.")
 tf.app.flags.DEFINE_integer("to_vocab_size", 150, "French vocabulary size.")
-tf.app.flags.DEFINE_string("data_dir", "./two_learn/ba_ca_%s" % subset, "Data directory")
-tf.app.flags.DEFINE_string("train_dir", "./ba_ca_%s" % subset, "Training directory.")
+tf.app.flags.DEFINE_string("data_dir", "./three_learn/ba_ca_ho_%s" % subset, "Data directory")
+tf.app.flags.DEFINE_string("train_dir", "./ba_ca_ho_%s" % subset, "Training directory.")
 tf.app.flags.DEFINE_string("from_train_data", None, "Training data.")
 tf.app.flags.DEFINE_string("to_train_data", None, "Training data.")
 tf.app.flags.DEFINE_string("from_dev_data", None, "Training data.")
@@ -79,7 +79,7 @@ tf.app.flags.DEFINE_boolean("use_fp16", False,
                             "Train using fp16 instead of fp32.")
 
 # added by Kaifeng, can be changed
-tf.app.flags.DEFINE_string("test_dir", "./evaluation/two_learn/ba_ca_%s" % subset, "Test directory")
+tf.app.flags.DEFINE_string("test_dir", "./evaluation/three_learn/ba_ca_ho_%s" % subset, "Test directory")
 #tf.app.flags.DEFINE_integer('max_num_steps', 10000, 'the maximum number of steps.')
 # no need to change this line if not using real table to test
 tf.app.flags.DEFINE_boolean("enable_table_test", False, "Whether use a true table to test")
