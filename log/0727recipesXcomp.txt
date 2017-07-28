@@ -1,0 +1,86 @@
+wrong examples: 1
+recipe where posting_date equal 2004
+recipe where posting_date neq 2004
+wrong examples: 5
+recipe where posting_date equal 2004 and ingredient equal milk
+recipe where posting_date equal 2004
+wrong examples: 30
+recipe where count cuisine ng two
+recipe where count cuisine nl two
+wrong examples: 39
+recipe where count meal equal two
+meal where count recipe equal two
+wrong examples: 51
+recipe where posting_date equal 2004
+recipe where posting_date greater 2004
+wrong examples: 54
+recipe where meal equal select meal where recipe equal rice_pudding
+meal where recipe equal select recipe where meal equal lunch
+wrong examples: 85
+recipe where cooking_time ng select preparation_time where recipe equal rice_pudding
+recipe where cooking_time nl select preparation_time where recipe equal rice_pudding
+wrong examples: 99
+meal where recipe equal select recipe where ingredient equal milk
+ingredient where recipe equal select recipe where ingredient equal milk
+wrong examples: 107
+ingredient where count recipe ng two
+recipe where count ingredient ng two
+wrong examples: 114
+recipe where cooking_time ng select preparation_time where recipe equal rice_pudding
+recipe where cooking_time nl select cooking_time where recipe equal rice_pudding
+wrong examples: 121
+recipe where preparation_time ng select cooking_time where recipe equal rice_pudding
+recipe where preparation_time ng select preparation_time where recipe equal rice_pudding
+wrong examples: 123
+recipe where preparation_time equal max preparation_time
+preparation_time
+wrong examples: 133
+recipe where preparation_time greater select preparation_time where recipe equal rice_pudding
+recipe where preparation_time equal select preparation_time where recipe equal rice_pudding
+wrong examples: 140
+meal where recipe equal rice_pudding and recipe equal quiche
+meal where recipe equal rice_pudding or recipe equal quiche
+wrong examples: 142
+recipe where ingredient equal select ingredient where recipe equal rice_pudding
+ingredient where ingredient equal select ingredient where recipe equal rice_pudding
+wrong examples: 146
+recipe where preparation_time nl select preparation_time where recipe equal rice_pudding
+recipe where preparation_time ng select preparation_time where recipe equal rice_pudding
+wrong examples: 147
+recipe where posting_date ng 2010
+recipe where posting_date ng 2004
+wrong examples: 150
+recipe where cooking_time equal min cooking_time
+recipe where preparation_time equal min preparation_time
+wrong examples: 163
+recipe where meal equal lunch or meal equal dinner
+meal where meal equal lunch or meal equal dinner
+wrong examples: 165
+avg preparation_time
+preparation_time
+wrong examples: 183
+recipe where preparation_time nl select cooking_time where recipe equal rice_pudding
+recipe where preparation_time ng select cooking_time where recipe equal rice_pudding
+wrong examples: 188
+ingredient where count recipe ng two
+recipe where count ingredient ng two
+wrong examples: 190
+recipe where recipe equal rice_pudding or recipe equal quiche
+ingredient where recipe equal rice_pudding or recipe equal quiche
+wrong examples: 195
+recipe where cooking_time equal select preparation_time where recipe equal rice_pudding
+recipe where preparation_time equal select cooking_time where recipe equal rice_pudding
+test accuracy: 0.877551020408
+wrong examples: 102
+recipe where ingredient equal milk or ingredient equal spinach
+ingredient where ingredient equal milk or ingredient equal spinach
+wrong examples: 243
+recipe where meal equal lunch or meal equal dinner
+meal where meal equal lunch or meal equal dinner
+wrong examples: 275
+recipe where preparation_time equal select cooking_time where recipe equal rice_pudding
+recipe where cooking_time equal select cooking_time where recipe equal rice_pudding
+wrong examples: 661
+recipe where preparation_time nl select cooking_time where recipe equal rice_pudding
+recipe where cooking_time nl select cooking_time where recipe equal rice_pudding
+train accuracy: 0.994910941476

@@ -1,0 +1,134 @@
+wrong examples: 1
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 3
+avg <field>:0
+<field>:0
+wrong examples: 6
+avg <field>:0
+<field>:0
+wrong examples: 39
+<field>:0 where count <field>:1 equal <count>
+<field>:1 where count <field>:0 equal <count>
+wrong examples: 43
+<field>:0 where <field>:1 equal min <field>:1
+<field>:0 where <field>:1 equal max <field>:1
+wrong examples: 51
+<field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 81
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:0 where <field>:2 equal select <field>:2 where <field>:1 equal <value>:1
+wrong examples: 85
+<field>:0 where <field>:1 ng select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 93
+<field>:1 where <field>:0 neq <value>:0
+<field>:1 where <field>:0 equal <value>:0
+wrong examples: 99
+meal where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 equal select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 101
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 107
+ingredient where count <field>:0 ng <count>
+<field>:0 where count <field>:1 ng <count>
+wrong examples: 114
+<field>:0 where <field>:1 ng select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 nl select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 133
+<field>:0 where <field>:1 greater select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 140
+<field>:0 where <field>:1 equal <value>:1 and <field>:1 equal <value>:1
+<field>:0 where <field>:1 equal <value>:1 or <field>:1 equal <value>:1
+wrong examples: 146
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 150
+<field>:0 where cooking_time equal min cooking_time
+<field>:0 where preparation_time nl min preparation_time
+wrong examples: 165
+avg <field>:0
+<field>:0
+wrong examples: 183
+<field>:0 where <field>:1 nl select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 188
+<field>:0 where count recipe ng <count>
+<field>:0 where count meal ng <count>
+wrong examples: 195
+<field>:0 where <field>:2 equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 196
+<field>:0 where <field>:1 equal max <field>:1
+<field>:0 where <field>:1 equal min <field>:1
+test accuracy: 0.887755102041
+wrong examples: 9
+<field>:0 where preparation_time less select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 less select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 29
+ingredient where ingredient neq select ingredient where <field>:0 equal <value>:0
+ingredient where ingredient neq select preparation_time where <field>:0 equal <value>:0
+wrong examples: 97
+<field>:1 where count <field>:0 nl <count>
+<field>:0 where count <field>:1 nl <count>
+wrong examples: 154
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 172
+<field>:0 where <field>:1 nl <value>:1 or <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1 or <field>:1 ng <value>:1
+wrong examples: 218
+<field>:0 where count <field>:1 nl <count>
+<field>:0 where count <field>:1 ng <count>
+wrong examples: 232
+<field>:0 where cooking_time nl select cooking_time where <field>:0 equal <value>:0
+<field>:0 where preparation_time nl select preparation_time where <field>:0 equal <value>:0
+wrong examples: 257
+<field>:0 where <field>:1 nl <value>:1
+<field>:0 where <field>:1 ng <value>:1
+wrong examples: 264
+<field>:0 where count cuisine equal <count>
+<field>:0 where count meal equal <count>
+wrong examples: 267
+<field>:0 where count <field>:1 nl <count>
+<field>:1 where count <field>:0 nl <count>
+wrong examples: 292
+<field>:0 where preparation_time equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 297
+<field>:0 where <field>:1 greater 2004 or <field>:1 greater <value>:1
+<field>:0 where <field>:1 greater <value>:1
+wrong examples: 392
+<field>:0 where count <field>:1 nl <count>
+<field>:0 where count <field>:1 ng <count>
+wrong examples: 396
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 511
+<field>:0 where <field>:1 equal 2004
+<field>:0 where <field>:1 equal <value>:1
+wrong examples: 524
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 558
+<field>:0 where prepare_time equal select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 equal select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 559
+<field>:0 where count <field>:1 equal <count>
+<field>:1 where count <field>:0 equal <count>
+wrong examples: 610
+<field>:1 where <field>:0 ng select <field>:0 where <field>:1 equal <value>:1
+<field>:1 where <field>:0 greater select <field>:0 where <field>:1 equal <value>:1
+wrong examples: 715
+<field>:0 where <field>:1 nl select <field>:2 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:2 where <field>:0 equal <value>:0
+wrong examples: 742
+<field>:0 where <field>:1 nl select <field>:1 where <field>:0 equal <value>:0
+<field>:0 where <field>:1 ng select <field>:1 where <field>:0 equal <value>:0
+wrong examples: 757
+<field>:0 where count <field>:1 greater <count>
+<field>:1 where count <field>:0 greater <count>
+train accuracy: 0.972010178117
