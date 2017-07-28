@@ -1,0 +1,580 @@
+which meetings end later than 10am in the morning or 3pm in the afternoon
+important meeting with three hour duration
+meeting that has duration of lesser than three hour
+meetings that start earlier than or at the same time as the weekly_standup meeting
+show me the meetings that are scheduled for longest length of time
+what meeting is alice not attending
+which jan_2nd meeting is three hours long
+meeting is no later than jan_2nd or jan_3rd
+show me all three hour meetings that begin at 10am
+meetings in greenberg_cafe that start at 10am
+show me meetings on jan_2nd
+show me all meetings scheduled to be longer than the weekly_standup meeting
+meetings after jan_2nd or after jan_3rd
+meeting which is on jan_3rd or before
+show me meetings shorter than three hours
+what meeting ends at 10am or earlier
+show me all meetings marked important beginning at 10am
+what is the longest meeting
+meetings that end at or before 10am or at or before 3pm
+meetings that start at the same time or after the weekly_standup meeting ends
+what is the location of the weekly_standup
+people that attend the weekly_standup meeting or the annual_review meeting
+what meeting has the longest length
+what meetings are located at greenberg_cafe
+meeting that starts when the weekly_standup meeting ends
+meetings in greenberg_cafe that end at 10am
+show me all meetings happening on jan_2nd
+what meeting doesnt end at 10am
+show me all meeting that will end by 10am
+meetings that start before 10am
+meeting starts before end_time of weekly_standup
+three hour meeting on jan_2nd
+which people are attending meetings on jan_2nd
+meetings that start at or after 10am
+location of more than two meetings
+show me all meetings in greenberg_cafe on jan_2nd
+show me any meetings labeled as important which are also three hours long
+show me all locations which have meetings ending at 10am
+show me the meeting that has the latest end_time
+who is attending the 10sm meeting
+show me meetings ending after 10am
+show me all meetings attended by alice beginning at 10am
+what meeting has and end_time the same as weekly_standup
+show me meetings that take three hours in greenberg_cafe
+meeting ends before 10am or 3pm
+meeting which starts at 10am or 3pm
+meetings attended by alice in greenberg_cafe
+show me meetings shorter than three hours
+what location is the three hour meeting
+which jan_2nd meetings is alice attenting
+show me all meetings that begin at 10am
+find the meeting with alice at greenberg_cafe
+what meeting has a date of jan_2nd or jan_3rd
+meeting ends at 10am or 3pm
+show me all meetings marked important which are also attended by alice
+show me important meetings at greenberg_cafe
+what is the end_time of weekly_standup
+meeting with no more than 2 locations
+meeting which starts at or before 10am
+show me all meetings at greenberg_cafe ending at 10am
+what meeting is at greenberg_cafe
+location is same as the location of meeting on jan_2nd
+what meetings are scheduled to run for three hours on jan_2nd
+show me all important meetings on jan_2nd
+show me all meetings alice has attended at the greenberg_cafe
+show me all meetings after jan_2nd
+what meeting has the earliest date
+what meeting ends no earlier than 10am
+what meetings occur on the same day as weekly_standup
+what meetings take place in greenberg_cafe
+what meeting has a length smaller than three hours
+what meeting is starting the same time as weekly_standup
+show me meetings starting at 10am that take three horus
+location same as weekly meeting or annual_review
+meeting in which alice is attending and ends at 10am
+what meeting start_time is later than 10am
+meetings that are not attended by alice
+show me all meetings ending after the weekly_standup ends
+what meeting is at greenberg_cafe and ends at 10am
+meeting is not at greenberg_cafe
+what meetings have a length of three hours and alice is attending
+what meetings are scheduled for a date no earlier than jan_2nd
+locations of meetings that end at 10am
+what meetings end no later then the weekly_standup meeting ends
+what meeting is in either greenberg_cafe or central_office
+show me all meetings happening at greenberg_cafe or central_office
+what is the average length of all meetings
+who is attending the three hour meeting
+what are some important meetings
+show me all meetings which start at the same time or later than the weekly_standup
+meeting on jan_2nd which ends at 10am
+what meeting starts earlier than 10am or 3pm
+show me all meetings that end at 10am in greenberg_cafe
+tell me the all meetings begins after 10am or 3pm
+people that attend important meetings
+how many locations house meetings
+show me all meetings happening before jan_2nd
+what is the date of weekly_standup
+create a meeting for jan_2nd until 10am
+what meeting is on jan_2nd
+show me important meetings at greenberg_cafe
+meeting starting at time of weekly_standup
+meetings held in the same location as the weekly_standup meeting
+show me all meetings which are either shorter or longer than three hours
+what meeting lasts from one to three hours
+what meeting has alice attending on jan_2nd
+show me all meetings alice has attended marked as important
+meetings that are longer than the weekly_standup meeting
+show me the important meetings that last three hours
+what meeting begins latest
+show me all meetings marked important ending at 10am
+what meeting ends at the same time as weekly_standup or later
+show me all meetings that alice is attending on jan_2nd
+what meeting ends at the start_time of weekly_standup
+meetings held in less than two locations
+what important meeting has an end_time of 10am
+meetings that are on or before jan_3rd
+what meeting has the same end_time as that of weekly_standup
+show me meetings before 10am
+show me all meetings that run either three hours or one hour
+show me the meeting that starts and ends at 10am
+show me all meetings that end earlier than the week standup meeting ends
+what person is attending a meeting that ends at 10am
+meetings on jan_2nd or jan_3rd
+show me meetings that take three hours and start at 10am
+alice or bob is an attendee at the meeting
+show me all meetings which are scheduled no later than jan_3rd
+who attends the weekly_standup meeting
+show me all meetings starting at 10am or after
+meetings that end later than 10am
+show me all meetings which have only one location
+who has attended the weekly_standup meeting
+who are the people attending at least two different meetings
+what meeting who starts right right after weekly_standup
+show me all meetings that have two or fewer attendees
+what meeting ends before 3pm or 10am
+what meetings have no more than two different locations
+meetings that are longer than three hours or longer than one hour
+show me all the meetings that have two or more participants
+show me all meetings beginning at 10am which are three hours long
+what three hour meeting is at greenberg_cafe
+show me all attendees of the weekly_standup meeting
+show me all meetings on jan_2nd which are three hours long
+which important meeting starts at 10am in the morning
+show me all meetings which end at the same time or later than the weekly_standup meeting begins
+show me meeting happening after the day of weekly_standup
+find me a meeting that ends 10am or later
+what meeting starts at 10am and ends at 10am q
+what meeting was on or before jan_2nd
+who is the person attending  more than two meetings
+meeting at greenberg_cafe ends at 10am
+show me all meetings ending at or after 10am
+what important meeting has a start_time at 10am
+show me all meetings with alice
+show me meetings after the weekly_standup day
+location of meetings that start at 10am
+what meeting has length shorter than one to three hours
+what meeting has less than two locations
+what meeting has a date earlier than weekly_standup
+show me all three hour meetings that alice is attending
+neighborhoods with more than two apartment complexes
+housing allowing dogs that was posted on jan_2nd
+which housing_unit has the rent of 123_sesame_street
+which housing_unit is available for a rent of 1500 2000 dollars
+housing_unit whose monthly_rent is 1500 dollars
+housing_unit at most 800 or 1000 square_feet
+find pet friendly housing_units
+housing_units with a posting_date of jan_2nd that are located in midtown_west
+find 800 square_feet housing_units
+housing that are either apartments or houses for rent
+which housing provides a private_room where dogs are allowed
+which 1500 monthly_rentals housing come with private_room
+what is the average monthly_rent
+housing_unit as costly as the rent of the homes in 123_sesame_street
+private_room housing for 1500 a month
+housing of more than two types
+housing_unit smaller than 800 or 1000 square_feet
+which housing_unit with the highest rent
+housing_units that are smaller than 123_sesame_street
+housing with private_bath that was posted on jan_2nd
+find housing_units with rental charges lesser than that of 123_sesame_street
+housing_units bigger than homes on 123_sesame_street
+housing_unit that is the same as the ones on 123_sesame_street or 900_mission_avenue
+which housing_unit has a private_bath and an area of 800 square_feet
+housing_units that are posted on january end and have a total size of 800 square_feet
+neighborhoods with catfriendly housing
+housing with monthly_rent less than 1500 dollars
+housing_units with private_room
+housing that is smaller than 123_sesame_street
+housing near at least two neighborhoods
+find housing_units with a private_room and is of the housing_type apartment
+apartment for 1500 dollars
+what is the total area of a housing_unit
+find 800 square_feet housing_units with 1500 dollars as rent
+find the housing_unit with the least monthly_rent
+show total number of all units
+what housing_unit has a price of 1500 dollars and allows dogs
+what neighborhood contains two housing_units
+seeking housing with rent at 1500
+housing_units that are 800 square_feet
+housing that allows cats that posted on jan_2nd
+exclude housing similar to 123_sesame_street
+what housing_unit posted on jan_2nd allows dogs
+find housing_units with size between 800 and 1000 square_feet
+housing_unit that is 800 square_feet or larger in size
+which housing_unit in midtown_west permits dogs
+housing available for 1500 month
+which housing_unit permits cats and has a private_room
+housing_unit with a private_bath
+housing_unit in the neighborhood of 123_sesame_street
+housing_units in the midtown_west area
+housing posted on jan_2nd that rents out for 1500 dollar per month
+what kinds of housing is there in midtown_west
+housing with private_bath posted on jan_2nd
+neighborhoods with apartment
+units with 1500 dollar rent
+apartment in midtown_west
+housing 800 sf in size posted on jan_2nd
+which housing_unit permits cats inside it and has a private_room
+list available neighborhoods besides 123_sesame_street
+show me places with private_rooms where dogs are welcome
+housing neighborhood that was posted on jan_2nd
+which housing_unit in midtown area has a monthly_rent of 1500 dollars
+what is the date on which 123_sesame_street was posted
+find housing_units in the neighborhoods of midtown_west or chelsea
+find housing_units with a private_room and is of size 800 square_feet
+housing in midtown_west with 1500 month rent
+show me the same kind of housing as 123_sesame_street
+dogfriendly housing that is 800 square_feet
+neighborhood with less than two housing
+dogfriendly apartment
+housing in midtown_west that costs 1500 month
+find housing_units with rental charges between 1500 and 2000 dollars
+find apartment with a private_room
+what neighborhoods have apartment
+housing_units with a private_bath and a 1500 dollar monthly_rent
+which housing has two types
+neighborhood that has at least two listings
+what housing that was posted on jan_2nd has the same rent as 123_sesame_street
+which housing_unit offers a private_room and a private_bath
+most recently posted housing
+housing that is bigger than 800 square_feet
+housing with rent at 1500
+what housing_unit posted on jan_2nd allows cats
+what kind of housing is at two or less housing_units
+unit is 800 square_feet
+housing_unit that costs 1500 or 2000 dollars in rent
+what is the housing_type that charges 1500 dollars as monthly_rent
+neighborhoods with housing that have a private_bathroom
+housing_units with monthly_rents of 1500 dollars that posted on jan_2nd
+looking for housing in midtown_west or chelsea area
+find housing with a private_bath
+housing_types of more than two units
+housing_unit with a private_bath and room
+housing apartment that costs 1500 dollars
+find 800 square_feet housing_units that allow cats
+housing_unit that costs as much rent as the homes in 123_sesame_street
+what is the average monthly_rent of housing_units
+what neighborhood has two housing_units
+housing with rent less than 1500 or less than 2000
+what type of housing_unit posted jan_2nd
+housing_units that have a private_bath
+cats permitted 1500 rent monthly
+housing that is more expensive than 123_sesame_street
+where are the biggest apartments
+800 square_feet housing_unit which allows dogs
+what is the average monthly_rent of the housing_units
+apartment in the midtown_west neighborhood
+which housing_unit permits cats inside it and has the facility of a private_bath
+apartment posted at a later date than 123_sesame_street
+which housing_unit does not have apartment type of house
+housing in midtown_west with 800 square_feet
+what is the average area  of a housing_unit
+which housing_unit with an area of 800 square_feet permits cats in it
+which unit allows dogs and has a private_bath
+which neighborhood has two housing_units maximum
+unit on 123_sesame_street or 900_mission_avenue
+what kinds of housing allow dogs
+housing that is the same size or smaller than 123_sesame_street
+which housing_units permits dogs and offers a private_room
+housing_units that have the most housing_types
+housing with 1500 rent and allows dogs
+what neighborhood housing_units allows dogs
+800 square_feet apartment type housing_unit
+what are the neighborhoods of 123_sesame_street or 900_mission_avenue
+find housing_units with rent as 1500 dollars
+housing_unit posted jan_2nd with the same rent as 123_sesame_street
+find apartment that are pet friendly
+which housing_unit in this area has a private_room
+what housing_units allow dogs
+which housing have more than 800 square_feet of space
+housing size other than 800 square_feet
+most expensive housing
+which housing_unit is available for a rent of 1500 pr 2000 dollars per month
+apartments bigger than 800 square_feet
+earliest posted housing
+find housing_units of the type apartment or condo
+which nearby area has a housing_unit of 800 square_feet by area
+neighborhoods that do not contain 123_sesame_street
+which housing_unit was posted after the posting_date of 123_sesame_street
+what is the smallest housing
+what housing has the same posting_date as those in 123_sesame_street
+which housing_unit with an area of 800 square_feet permits  cats and dogs inside it
+what housing_units are in midtown_west
+housing with 1500 dollar rent that was posted on jan_2nd
+what is the total monthly_rent
+neighborhoods in 123_sesame_street or 900_mission_avenue
+unit with same rent as 123_sesame_street
+what neighborhood has two or less housing_units
+apartments between 800 and 1000 square_feet
+a neighborhood with twohouse units
+what housing is posted either jan_2nd or feb_3rd
+what is the neighborhood area of that apartment
+housing in the same neighborhood at 123_sesame_street
+housing that is cheaper than 123_sesame_street
+find housing_units with rent as 1500 dollars per month
+housing with monthly_rent of 1500 dollars that was posted on jan_2nd
+any units costing more than 1500 a month
+which neighborhoods have housing with monthly_rent of 1500 dollars
+what is the housing_unit number
+looking for a pet friendly unit
+apartments posted after jan_2nd
+housing_unit whose monthly_rent is not 1500 dollars
+housing_unit posted at the latest jan_2nd or feb_3rd
+which housing_unit has less than 800 square_feet
+what housing_unit is in over two neighborhoods
+housing that allows cats posted on jan_2nd
+looking for a 2 family house
+what housing_units that are at least the size of 123_sesame_street
+what 800 square foot housing posted jan_2nd
+housing that is 1500 month and cats are allowed
+the neighborhood of apartment 123_sesame_street
+apartment that is below 1000 or 800 square_feet
+find housing_units with the same posting_date as 123_sesame_street
+housing_unit which is an apartment with a monthly_rent of 1500 dollars
+housing_unit with private_bath as well as private_room
+apartment that allows cats
+private_bath in midtown_west
+what is the size of the apartment
+7 reviews or 3 review
+hotels for thai rated 8 reviews signs
+outside friendly chelsea restaurant
+which lunch resturants have reservations
+a chelsea hotels in the italian cuisine
+which restaurant are rated 8 or 5 star
+what hotel offers only three cuisines
+what good kid hotels takes waiter_service
+hotels in lunch rated 4 reviews
+hotel that with more than 2 stars
+a midtown_west hotels in the italian cuisine
+hotels that with larger than 3 review
+how many different kind of neighborhoods are there
+reservations hotels that are rated 4 star
+find a hotel whose cuisine is thai and that has waiter_services
+group friendly hotels with review of 4
+how many meals are there
+restaurants in chelsea rated 6 star_rating
+what is the highest review rated hotel
+what 6 expensive signs restaurants takes groups
+which cuisines does a thai_cafe not serve
+groupfriendly friendly hotel with inexpensive of 2
+what hotel accept childfriendly
+restaurants whose star_rating is 7 star signs and that is good for kids
+restaurant that takes groups and that has reservation
+which hotels are rated 9 or 8 price_rating
+find a hotel whose neighborhoods is midtown_west and that has children
+how many areas are there
+what are the cuisines without pizzeria_juno
+3 reviews or 7 review
+the meal have restaurant with 5 reviews signs
+find a 6 stars signs italian restaurants
+credit friendly lunch hotel
+which meals have hotel that outside
+what good credit hotels takes kids
+areas have hotels serving lunch
+what delivery italian restaurants
+which thai resturants have deliver
+kidfriendly friendly midtown_west restaurants
+areas have restaurants serving italian
+waiter_service friendly chelsea restaurant
+what restaurants serve the same dishes as thai_cafe
+restaurant in thai rated 1 star_rating
+which cuisines have 4 star hotels
+outdoor_seating friendly hotels with star_rating of 2
+find a 9 star signs midtown_west restaurant
+restaurants that takes group and that has credit
+outside hotel that are rated 4 star
+which dishes have 4 review restaurants
+hotel whose review is 6 reviews signs and that is good for outdoors
+find a 6 star signs midtown_west restaurant
+what areas does the pizzeria_juno not have
+waiter_services friendly restaurant with review of 5
+what 6 price signs restaurant takes waiter_service
+waiter friendly dinner restaurant
+a cuisine with 3 restaurant
+outdoors friendly restaurants with dollars of 7
+which area have restaurants that groupfriendly
+which cuisine have 6 dollarsign hotel
+what good credit_cards restaurant takes reservation
+restaurants that has outside
+find a hotel whose meals is lunch and that has waiter_services
+what good reservation hotels takes deliver
+restaurant in italian rated 2 star_rating
+what 4 price signs restaurant takes waiter_service
+find 9 reviews or 7 reviews hotels
+hotel with 5 expensive and under
+what 1 star signs hotel takes credit
+what good kidfriendly restaurants takes delivers
+a restaurant offer the same neighborhoods as thai_cafe
+hotels whose price is 7 dollarsign signs and that is good for outside
+groupfriendly restaurant that are rated 5 inexpensive
+restaurant with 9 reviews and under
+find a restaurants whose neighborhoods is chelsea and that has waiters
+restaurants in dinner rated 2 stars
+restaurants whose star_rating is 2 star_rating signs and that is good for reservation
+a dinner hotels in the thai dishes
+a thai hotel in the dinner meal
+meal have restaurants serving chelsea
+hotels in dinner rated 5 reviews
+group friendly hotels with review of 3
+restaurants in chelsea rated 5 review
+what good takeout hotels takes waiter_services
+what cuisine does the thai_cafe not have
+group friendly thai restaurant
+what children lunch restaurants
+credit_card friendly hotels with price_rating of 7
+a chelsea or midtown_west restaurants
+restaurants whose star_rating is 5 star_rating signs and that is good for reservation
+reservation hotel that are rated 4 dollars
+a thai hotel in the lunch meal
+hotels whose reviews is 3 review signs and that is good for waiter_service
+what 4 reviews signs hotel takes takeout
+what groups midtown_west hotel
+delivering friendly lunch restaurants
+outside friendly midtown_west restaurant
+hotel for chelsea rated 1 stars signs
+find a 7 review signs midtown_west hotels
+what good child restaurants takes outside
+which areas have 4 star restaurant
+what 4 dollarsign signs restaurants takes deliver
+what good delivering hotels takes groupfriendly
+which hotels has a lower review than the thai_cafe
+restaurants for thai rated 3 dollarsign signs
+what 9 expensive signs restaurants takes groups
+restaurants for italian rated 1 stars signs
+find a restaurants whose neighborhoods is chelsea and that has outdoor
+find a 5 review signs lunch hotels
+find a 4 dollarsign signs italian restaurant
+what waiter_service chelsea hotels
+midtown_west or chelsea
+find 7 reviews or 5 reviews hotels
+credit_card hotels that are rated 5 dollars
+takeout friendly italian restaurant
+restaurant in italian rated 5 reviews
+what restaurant has the same or lower price as pizzeria_juno
+groups friendly chelsea restaurants
+what good groups restaurant takes outdoor_seating
+restaurant in midtown_west rated 7 expensive
+what good delivering hotels takes reserved
+which midtown_west resturants have waiters
+hotel whose review is 3 reviews signs and that is good for outdoors
+what waiter_service midtown_west hotels
+hotels that has fewer than a 2 stars
+what restaurant has more than 1 reviews
+the meal have hotel with 4 dollars signs
+neighborhood that is like thai_cafe or pizzeria_juno
+find a restaurant whose meal is lunch and that has groups
+hotels that with equal or more than 8 price_rating
+hotels that with no less than 5 review
+which dinner resturants have reservations
+which midtown_west resturants have delivering
+hotels that has kids
+which meals have 4 dollar hotel
+what 9 price signs restaurant takes waiter_service
+a lunch hotels in the italian dishes
+kidfriendly friendly chelsea restaurants
+9 stars or 1 star_rating
+find a hotel whose meals is dinner and that has takeout
+what waiter_service italian hotels
+number of cuisines are there
+what is a meal that 3 or less hotels serve
+restaurant in chelsea rated 8 expensive
+which dinner resturants have groups
+a hotels that has a 8 review or lower rating
+hotels whose review is 3 review signs and that is good for reserved
+delivering restaurants that are rated 9 reviews
+find a 9 stars signs dinner hotels
+hotels that has takeout
+find a restaurant whose meal is dinner and that has family
+what good delivers restaurants takes takeout
+restaurants in midtown_west rated 7 review
+restaurant for lunch rated 1 reviews signs
+find a restaurants whose cuisines is thai and that has delivery
+neighborhood that is like pizzeria_juno or thai_cafe
+hotels that has waiter_service
+1 stars or 8 star_rating
+which meals have 4 star_rating restaurants
+which areas have 3 star restaurant
+hotels that takes reservations and that has child
+what good delivering hotels takes outside
+waiter_service friendly restaurant with dollars of 7
+which dinner resturants have takeout
+reservation friendly chelsea restaurants
+find a restaurants whose area is midtown_west and that has credit
+which area have restaurant that deliveries
+takeout restaurants that are rated 1 star_rating
+hotel whose star is 7 star_rating signs and that is good for deliver
+find a 9 stars signs thai restaurants
+a italian or thai hotel
+what good credit restaurant takes groups
+which chelsea resturants have reserved
+which chelsea resturants have delivering
+hotel with 2 expensive and under
+restaurant in chelsea rated 3 expensive
+hotel whose star is 2 stars signs and that is good for waiter
+what is a cuisines that three or more hotels serve
+hotels rated 7 review or higher
+what good takeout hotels takes outside
+what good reservations hotel takes credit_cards
+find 4 stars or 8 star_rating hotels
+what family chelsea restaurant
+a midtown_west hotels in the thai cuisine
+reservations hotels that are rated 9 review
+restaurant for lunch rated 1 dollars signs
+restaurants in lunch rated 1 stars
+find a restaurants whose dishes is italian and that has groupfriendly
+which hotel are rated 6 or 3 review
+hotel whose review is 7 reviews signs and that is good for outdoors
+group restaurant that are rated 1 review
+restaurants which has a stars of 4 star_rating signs or 7 stars signs
+what 8 stars signs hotels takes takeout
+which dinner resturants have outside
+what outdoor_seating lunch hotel
+restaurants in midtown_west rated 4 review
+what 2 review signs restaurant takes kids
+which cuisine have 4 dollarsign hotel
+the meal have hotels with 2 stars signs
+restaurants whose star_rating is 2 star signs and that is good for kids
+what outside midtown_west hotel
+hotels that serve three meals at most at a time
+the neighborhoods have restaurants with 4 dollar signs
+find 7 reviews or 9 reviews hotels
+which meals have restaurant that takeout
+hotels that with larger than 1 price_rating
+what 4 dollarsign signs restaurants takes reservation
+what good waiter restaurant takes credit
+restaurants whose reviews is 7 review signs and that is good for takeout
+what good outdoor restaurants takes waiter_service
+hotel that takes child and that has waiter_service
+which cuisine have 2 dollarsign hotel
+find a restaurant whose meal is dinner and that has groups
+groupfriendly friendly hotel with inexpensive of 3
+kidfriendly friendly hotel with dollars of 7
+what 3 review signs hotel takes deliveries
+what 8 star signs hotel takes credit
+find a 3 review signs lunch hotels
+what restaurant has the same or lower star_rating as pizzeria_juno
+restaurant whose dollar is 6 dollars signs and that is good for waiter
+1 stars or 9 star_rating
+restaurant in italian rated 1 star_rating
+what 3 reviews signs restaurant takes credit_cards
+find a 4 dollar signs lunch restaurants
+groupfriendly restaurant that are rated 4 inexpensive
+outside restaurant that are rated 5 dollars
+restaurant with 7 stars and under
+which meal have hotels that reservation
+a hotels that has a 8 dollars or higher rating
+what good delivering restaurants takes child
+what good outdoor_seating restaurants takes takeout
+what good kidfriendly restaurants takes credit_cards
+which lunch resturants have credit_card
+takeout friendly restaurants with stars of 8
+hotels for lunch rated 6 stars signs
+what reservation chelsea restaurants
+find a restaurant whose neighborhoods is midtown_west and that has takeout
+restaurants that takes reserved and that has credit_cards
+hotels in dinner rated 7 reviews
+what good waiter hotel takes outdoor
+find a 5 review signs italian hotel
+what delivers lunch restaurant
