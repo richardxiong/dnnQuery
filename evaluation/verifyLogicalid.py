@@ -25,7 +25,7 @@ def strSimilarity(word1, word2):
 '''
 input files
 '''
-subset = 'calendar'
+subset = 'restaurants'
 
 truth_path = "../dataover/except_%s" % subset
 output_path = "../evaluation/dataover/except_%s" % subset
