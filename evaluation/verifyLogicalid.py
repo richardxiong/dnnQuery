@@ -27,11 +27,11 @@ input files
 '''
 subset = 'restaurants'
 
-truth_path = "../one_learn/ba_%s" % subset
+# truth_path = "../one_learn/ba_%s" % subset
 # truth_path = "../one_learn/ca_%s" % subset
 # truth_path = "../one_learn/ho_%s" % subset
 # truth_path = "../one_learn/re_%s" % subset
-# truth_path = "../two_learn/ba_ca_%s" % subset
+truth_path = "../two_learn/ba_ca_%s" % subset
 # truth_path = "../two_learn/ba_ho_%s" % subset
 # truth_path = "../two_learn/ba_re_%s" % subset
 # truth_path = "../two_learn/re_ca_%s" % subset
@@ -43,11 +43,11 @@ truth_path = "../one_learn/ba_%s" % subset
 # truth_path = "../three_learn/ca_ho_re_%s" % subset
 
 
-output_path = "../evaluation/one_learn/ba_%s" % subset
+# output_path = "../evaluation/one_learn/ba_%s" % subset
 # output_path = "../evaluation/one_learn/ca_%s" % subset
 # output_path = "../evaluation/one_learn/ho_%s" % subset
 # output_path = "../evaluation/one_learn/re_%s" % subset
-# output_path = "../evaluation/two_learn/ba_ca_%s" % subset
+output_path = "../evaluation/two_learn/ba_ca_%s" % subset
 # output_path = "../evaluation/two_learn/ba_ho_%s" % subset
 # output_path = "../evaluation/two_learn/ba_re_%s" % subset
 # output_path = "../evaluation/two_learn/re_ca_%s" % subset

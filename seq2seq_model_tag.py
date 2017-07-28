@@ -85,8 +85,8 @@ class Seq2SeqModel(object):
       dtype: the data type to use to store internal variables.
     """
     subset = 'restaurants'
-    self.from_vocab_path = './one_learn/ba_%s/vocab1500.from' % subset
-    self.to_vocab_path = './one_learn/ba_%s/vocab150.to' % subset
+    self.from_vocab_path = './two_learn/ba_ca_%s/vocab1500.from' % subset
+    self.to_vocab_path = './two_learn/ba_ca_%s/vocab150.to' % subset
     self.glove_path = '../glove.6B/glove.6B.300d.txt'
     self.source_vocab_size = source_vocab_size
     self.target_vocab_size = target_vocab_size
