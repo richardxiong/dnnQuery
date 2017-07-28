@@ -27,26 +27,44 @@ input files
 '''
 subset = 'restaurants'
 
-truth_path = "../dataover/except_%s" % subset
-output_path = "../evaluation/dataover/except_%s" % subset
+truth_path = "../one_learn/ba_%s" % subset
+# truth_path = "../one_learn/ca_%s" % subset
+# truth_path = "../one_learn/ho_%s" % subset
+# truth_path = "../one_learn/re_%s" % subset
+# truth_path = "../two_learn/ba_ca_%s" % subset
+# truth_path = "../two_learn/ba_ho_%s" % subset
+# truth_path = "../two_learn/ba_re_%s" % subset
+# truth_path = "../two_learn/re_ca_%s" % subset
+# truth_path = "../two_learn/re_ho_%s" % subset
+# truth_path = "../two_learn/ca_ho_%s" % subset
+# truth_path = "../three_learn/ba_ca_ho_%s" % subset
+# truth_path = "../three_learn/ba_ca_re_%s" % subset
+# truth_path = "../three_learn/ba_ho_re_%s" % subset
+# truth_path = "../three_learn/ca_ho_re_%s" % subset
 
 
-# train_truth = truth_path + "/rand_train.lox"
-# train_output = output_path + "/logicalTemp_train.out"
-# dev_truth = truth_path + "/rand_dev.lox"
-# dev_output = output_path + "/logicalTemp_dev.out"
+output_path = "../evaluation/one_learn/ba_%s" % subset
+# output_path = "../evaluation/one_learn/ca_%s" % subset
+# output_path = "../evaluation/one_learn/ho_%s" % subset
+# output_path = "../evaluation/one_learn/re_%s" % subset
+# output_path = "../evaluation/two_learn/ba_ca_%s" % subset
+# output_path = "../evaluation/two_learn/ba_ho_%s" % subset
+# output_path = "../evaluation/two_learn/ba_re_%s" % subset
+# output_path = "../evaluation/two_learn/re_ca_%s" % subset
+# output_path = "../evaluation/two_learn/re_ho_%s" % subset
+# output_path = "../evaluation/two_learn/ca_ho_%s" % subset
+# output_path = "../evaluation/three_learn/ba_ca_ho_%s" % subset
+# output_path = "../evaluation/three_learn/ba_ca_re_%s" % subset
+# output_path = "../evaluation/three_learn/ba_ho_re_%s" % subset
+# output_path = "../evaluation/three_learn/ca_ho_re_%s" % subset
+
+
 test_truth = truth_path + "/%s_test.lox" % subset
 test_output = output_path + "/%s_test.out" % subset
 
 geo_truth = truth_path + "/%s_train.lox" % subset
 geo_output = output_path + "/%s_train.out" % subset
 
-# train_truth = truth_path + "/rand_train.lo"
-# train_output = output_path + "/forms_train.lo"
-# dev_truth = truth_path + "/rand_dev.lo"
-# dev_output = output_path + "/forms_dev.lo"
-# test_truth = truth_path + "/rand_test.lo"
-# test_output = output_path + "/forms_test.lo"
 prime = ['where', 'select', 'max', 'min', 'equal', 'less', 'greater', 'neq', 'ng', 'nl', \
          'avg', 'count', 'sum', 'between', 'and', 'or', '<field>:0', '<field>:1', '<field>:2', \
          '<field>:3', '<value>:0', '<value>:1', '<value>:2', '<value>:3','<count>','true'
