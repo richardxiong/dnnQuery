@@ -1,53 +1,8 @@
-# Copyright 2015 The TensorFlow Authors. All Rights Reserved.
 # Model modified by Hongyu Xiong: Deep neural parsing for database query
 # specific model: (1) embedding_attention_seq2seq_pretrain
 # (2) embedding_attention_seq2seq_pretrain2_tag
 # (3) model_with_buckets_tag
 # (4) functions are also outputting last encoder hidden state for PCA visual
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-# ==============================================================================
-"""Library for creating sequence-to-sequence models in TensorFlow.
-Sequence-to-sequence recurrent neural networks can learn complex functions
-that map input sequences to output sequences. These models yield very good
-results on a number of tasks, such as speech recognition, parsing, machine
-translation, or even constructing automated replies to emails.
-Before using this module, it is recommended to read the TensorFlow tutorial
-on sequence-to-sequence models. It explains the basic concepts of this module
-and shows an end-to-end example of how to build a translation model.
-  https://www.tensorflow.org/versions/master/tutorials/seq2seq/index.html
-Here is an overview of functions available in this module. They all use
-a very similar interface, so after reading the above tutorial and using
-one of them, others should be easy to substitute.
-* Full sequence-to-sequence models.
-  - basic_rnn_seq2seq: The most basic RNN-RNN model.
-  - tied_rnn_seq2seq: The basic model with tied encoder and decoder weights.
-  - embedding_rnn_seq2seq: The basic model with input embedding.
-  - embedding_tied_rnn_seq2seq: The tied model with input embedding.
-  - embedding_attention_seq2seq: Advanced model with input embedding and
-      the neural attention mechanism; recommended for complex tasks.
-* Multi-task sequence-to-sequence models.
-  - one2many_rnn_seq2seq: The embedding model with multiple decoders.
-* Decoders (when you write your own encoder, you can use these to decode;
-    e.g., if you want to write a model that generates captions for images).
-  - rnn_decoder: The basic decoder based on a pure RNN.
-  - attention_decoder: A decoder that uses the attention mechanism.
-* Losses.
-  - sequence_loss: Loss for a sequence model returning average log-perplexity.
-  - sequence_loss_by_example: As above, but not averaging over all examples.
-* model_with_buckets: A convenience function to create models with bucketing
-    (see the tutorial above for an explanation of why and how to use it).
-"""
 
 from __future__ import absolute_import
 from __future__ import division
@@ -81,7 +36,7 @@ from tensorflow.python.ops import nn_ops
 from tensorflow.python.ops import variable_scope
 from tensorflow.python.util import nest
 
-# TODO(ebrevdo): Remove once _linear is fully deprecated.
+
 linear = core_rnn_cell_impl._linear  # pylint: disable=protected-access
 
 #############################################################################
@@ -439,46 +394,6 @@ def basic_rnn_seq2seq(encoder_inputs,
     return rnn_decoder(decoder_inputs, enc_state, cell)
 
 
-def tied_rnn_seq2seq(encoder_inputs,
-                     decoder_inputs,
-                     cell,
-                     loop_function=None,
-                     dtype=dtypes.float32,
-                     scope=None):
-  """RNN sequence-to-sequence model with tied encoder and decoder parameters.
-  This model first runs an RNN to encode encoder_inputs into a state vector, and
-  then runs decoder, initialized with the last encoder state, on decoder_inputs.
-  Encoder and decoder use the same RNN cell and share parameters.
-  Args:
-    encoder_inputs: A list of 2D Tensors [batch_size x input_size].
-    decoder_inputs: A list of 2D Tensors [batch_size x input_size].
-    cell: core_rnn_cell.RNNCell defining the cell function and size.
-    loop_function: If not None, this function will be applied to i-th output
-      in order to generate i+1-th input, and decoder_inputs will be ignored,
-      except for the first element ("GO" symbol), see rnn_decoder for details.
-    dtype: The dtype of the initial state of the rnn cell (default: tf.float32).
-    scope: VariableScope for the created subgraph; default: "tied_rnn_seq2seq".
-  Returns:
-    A tuple of the form (outputs, state), where:
-      outputs: A list of the same length as decoder_inputs of 2D Tensors with
-        shape [batch_size x output_size] containing the generated outputs.
-      state: The state of each decoder cell in each time-step. This is a list
-        with length len(decoder_inputs) -- one item for each time-step.
-        It is a 2D Tensor of shape [batch_size x cell.state_size].
-  """
-  with variable_scope.variable_scope("combined_tied_rnn_seq2seq"):
-    scope = scope or "tied_rnn_seq2seq"
-    _, enc_state = core_rnn.static_rnn(
-        cell, encoder_inputs, dtype=dtype, scope=scope)
-    variable_scope.get_variable_scope().reuse_variables()
-    return rnn_decoder(
-        decoder_inputs,
-        enc_state,
-        cell,
-        loop_function=loop_function,
-        scope=scope)
-
-
 def embedding_rnn_decoder(decoder_inputs,
                           initial_state,
                           cell,
@@ -648,131 +563,6 @@ def embedding_rnn_seq2seq(encoder_inputs,
     if nest.is_sequence(encoder_state):
       state = nest.pack_sequence_as(
           structure=encoder_state, flat_sequence=state_list)
-    return outputs_and_state[:outputs_len], state
-
-
-def embedding_tied_rnn_seq2seq(encoder_inputs,
-                               decoder_inputs,
-                               cell,
-                               num_symbols,
-                               embedding_size,
-                               num_decoder_symbols=None,
-                               output_projection=None,
-                               feed_previous=False,
-                               dtype=None,
-                               scope=None):
-  """Embedding RNN sequence-to-sequence model with tied (shared) parameters.
-  This model first embeds encoder_inputs by a newly created embedding (of shape
-  [num_symbols x input_size]). Then it runs an RNN to encode embedded
-  encoder_inputs into a state vector. Next, it embeds decoder_inputs using
-  the same embedding. Then it runs RNN decoder, initialized with the last
-  encoder state, on embedded decoder_inputs. The decoder output is over symbols
-  from 0 to num_decoder_symbols - 1 if num_decoder_symbols is none; otherwise it
-  is over 0 to num_symbols - 1.
-  Args:
-    encoder_inputs: A list of 1D int32 Tensors of shape [batch_size].
-    decoder_inputs: A list of 1D int32 Tensors of shape [batch_size].
-    cell: core_rnn_cell.RNNCell defining the cell function and size.
-    num_symbols: Integer; number of symbols for both encoder and decoder.
-    embedding_size: Integer, the length of the embedding vector for each symbol.
-    num_decoder_symbols: Integer; number of output symbols for decoder. If
-      provided, the decoder output is over symbols 0 to num_decoder_symbols - 1.
-      Otherwise, decoder output is over symbols 0 to num_symbols - 1. Note that
-      this assumes that the vocabulary is set up such that the first
-      num_decoder_symbols of num_symbols are part of decoding.
-    output_projection: None or a pair (W, B) of output projection weights and
-      biases; W has shape [output_size x num_symbols] and B has
-      shape [num_symbols]; if provided and feed_previous=True, each
-      fed previous output will first be multiplied by W and added B.
-    feed_previous: Boolean or scalar Boolean Tensor; if True, only the first
-      of decoder_inputs will be used (the "GO" symbol), and all other decoder
-      inputs will be taken from previous outputs (as in embedding_rnn_decoder).
-      If False, decoder_inputs are used as given (the standard decoder case).
-    dtype: The dtype to use for the initial RNN states (default: tf.float32).
-    scope: VariableScope for the created subgraph; defaults to
-      "embedding_tied_rnn_seq2seq".
-  Returns:
-    A tuple of the form (outputs, state), where:
-      outputs: A list of the same length as decoder_inputs of 2D Tensors with
-        shape [batch_size x output_symbols] containing the generated
-        outputs where output_symbols = num_decoder_symbols if
-        num_decoder_symbols is not None otherwise output_symbols = num_symbols.
-      state: The state of each decoder cell at the final time-step.
-        It is a 2D Tensor of shape [batch_size x cell.state_size].
-  Raises:
-    ValueError: When output_projection has the wrong shape.
-  """
-  with variable_scope.variable_scope(
-      scope or "embedding_tied_rnn_seq2seq", dtype=dtype) as scope:
-    dtype = scope.dtype
-
-    if output_projection is not None:
-      proj_weights = ops.convert_to_tensor(output_projection[0], dtype=dtype)
-      proj_weights.get_shape().assert_is_compatible_with([None, num_symbols])
-      proj_biases = ops.convert_to_tensor(output_projection[1], dtype=dtype)
-      proj_biases.get_shape().assert_is_compatible_with([num_symbols])
-
-    embedding = variable_scope.get_variable(
-        "embedding", [num_symbols, embedding_size], dtype=dtype)
-
-    emb_encoder_inputs = [
-        embedding_ops.embedding_lookup(embedding, x) for x in encoder_inputs
-    ]
-    emb_decoder_inputs = [
-        embedding_ops.embedding_lookup(embedding, x) for x in decoder_inputs
-    ]
-
-    output_symbols = num_symbols
-    if num_decoder_symbols is not None:
-      output_symbols = num_decoder_symbols
-    if output_projection is None:
-      cell = core_rnn_cell.OutputProjectionWrapper(cell, output_symbols)
-
-    if isinstance(feed_previous, bool):
-      loop_function = _extract_argmax_and_embed(embedding, output_projection,
-                                                True) if feed_previous else None
-      return tied_rnn_seq2seq(
-          emb_encoder_inputs,
-          emb_decoder_inputs,
-          cell,
-          loop_function=loop_function,
-          dtype=dtype)
-
-    # If feed_previous is a Tensor, we construct 2 graphs and use cond.
-    def decoder(feed_previous_bool):
-      loop_function = _extract_argmax_and_embed(
-          embedding, output_projection, False) if feed_previous_bool else None
-      reuse = None if feed_previous_bool else True
-      with variable_scope.variable_scope(
-          variable_scope.get_variable_scope(), reuse=reuse):
-        outputs, state = tied_rnn_seq2seq(
-            emb_encoder_inputs,
-            emb_decoder_inputs,
-            cell,
-            loop_function=loop_function,
-            dtype=dtype)
-        state_list = [state]
-        if nest.is_sequence(state):
-          state_list = nest.flatten(state)
-        return outputs + state_list
-
-    outputs_and_state = control_flow_ops.cond(feed_previous,
-                                              lambda: decoder(True),
-                                              lambda: decoder(False))
-    outputs_len = len(decoder_inputs)  # Outputs length same as decoder inputs.
-    state_list = outputs_and_state[outputs_len:]
-    state = state_list[0]
-    # Calculate zero-state to know it's structure.
-    static_batch_size = encoder_inputs[0].get_shape()[0]
-    for inp in encoder_inputs[1:]:
-      static_batch_size.merge_with(inp.get_shape()[0])
-    batch_size = static_batch_size.value
-    if batch_size is None:
-      batch_size = array_ops.shape(encoder_inputs[0])[0]
-    zero_state = cell.zero_state(batch_size, dtype)
-    if nest.is_sequence(zero_state):
-      state = nest.pack_sequence_as(
-          structure=zero_state, flat_sequence=state_list)
     return outputs_and_state[:outputs_len], state
 
 
@@ -1184,6 +974,7 @@ def attention_decoder_beamsearch(decoder_inputs,
       state = prevs[0][2]
 
   return outputs, state
+
 
 def embedding_attention_decoder(decoder_inputs,
                                 initial_state,
@@ -2201,133 +1992,6 @@ def embedding_attention_seq2seq_pretrain2_X(batch_size,
       state = nest.pack_sequence_as(
           structure=encoder_state, flat_sequence=state_list)
     return outputs_and_state[:outputs_len], state, encoder_state ### the last hidden state of encoder
-
-
-def one2many_rnn_seq2seq(encoder_inputs,
-                         decoder_inputs_dict,
-                         enc_cell,
-                         dec_cells_dict,
-                         num_encoder_symbols,
-                         num_decoder_symbols_dict,
-                         embedding_size,
-                         feed_previous=False,
-                         dtype=None,
-                         scope=None):
-  """One-to-many RNN sequence-to-sequence model (multi-task).
-  This is a multi-task sequence-to-sequence model with one encoder and multiple
-  decoders. Reference to multi-task sequence-to-sequence learning can be found
-  here: http://arxiv.org/abs/1511.06114
-  Args:
-    encoder_inputs: A list of 1D int32 Tensors of shape [batch_size].
-    decoder_inputs_dict: A dictionany mapping decoder name (string) to
-      the corresponding decoder_inputs; each decoder_inputs is a list of 1D
-      Tensors of shape [batch_size]; num_decoders is defined as
-      len(decoder_inputs_dict).
-    enc_cell: core_rnn_cell.RNNCell defining the encoder cell function and size.
-    dec_cells_dict: A dictionary mapping encoder name (string) to an
-      instance of core_rnn_cell.RNNCell.
-    num_encoder_symbols: Integer; number of symbols on the encoder side.
-    num_decoder_symbols_dict: A dictionary mapping decoder name (string) to an
-      integer specifying number of symbols for the corresponding decoder;
-      len(num_decoder_symbols_dict) must be equal to num_decoders.
-    embedding_size: Integer, the length of the embedding vector for each symbol.
-    feed_previous: Boolean or scalar Boolean Tensor; if True, only the first of
-      decoder_inputs will be used (the "GO" symbol), and all other decoder
-      inputs will be taken from previous outputs (as in embedding_rnn_decoder).
-      If False, decoder_inputs are used as given (the standard decoder case).
-    dtype: The dtype of the initial state for both the encoder and encoder
-      rnn cells (default: tf.float32).
-    scope: VariableScope for the created subgraph; defaults to
-      "one2many_rnn_seq2seq"
-  Returns:
-    A tuple of the form (outputs_dict, state_dict), where:
-      outputs_dict: A mapping from decoder name (string) to a list of the same
-        length as decoder_inputs_dict[name]; each element in the list is a 2D
-        Tensors with shape [batch_size x num_decoder_symbol_list[name]]
-        containing the generated outputs.
-      state_dict: A mapping from decoder name (string) to the final state of the
-        corresponding decoder RNN; it is a 2D Tensor of shape
-        [batch_size x cell.state_size].
-  Raises:
-    TypeError: if enc_cell or any of the dec_cells are not instances of RNNCell.
-    ValueError: if len(dec_cells) != len(decoder_inputs_dict).
-  """
-  outputs_dict = {}
-  state_dict = {}
-
-  if not isinstance(enc_cell, core_rnn_cell.RNNCell):
-    raise TypeError("enc_cell is not an RNNCell: %s" % type(enc_cell))
-  if set(dec_cells_dict) != set(decoder_inputs_dict):
-    raise ValueError("keys of dec_cells_dict != keys of decodre_inputs_dict")
-  for dec_cell in dec_cells_dict.values():
-    if not isinstance(dec_cell, core_rnn_cell.RNNCell):
-      raise TypeError("dec_cell is not an RNNCell: %s" % type(dec_cell))
-
-  with variable_scope.variable_scope(
-      scope or "one2many_rnn_seq2seq", dtype=dtype) as scope:
-    dtype = scope.dtype
-
-    # Encoder.
-    enc_cell = core_rnn_cell.EmbeddingWrapper(
-        enc_cell,
-        embedding_classes=num_encoder_symbols,
-        embedding_size=embedding_size)
-    _, encoder_state = core_rnn.static_rnn(
-        enc_cell, encoder_inputs, dtype=dtype)
-
-    # Decoder.
-    for name, decoder_inputs in decoder_inputs_dict.items():
-      num_decoder_symbols = num_decoder_symbols_dict[name]
-      dec_cell = dec_cells_dict[name]
-
-      with variable_scope.variable_scope("one2many_decoder_" + str(
-          name)) as scope:
-        dec_cell = core_rnn_cell.OutputProjectionWrapper(
-            dec_cell, num_decoder_symbols)
-        if isinstance(feed_previous, bool):
-          outputs, state = embedding_rnn_decoder(
-              decoder_inputs,
-              encoder_state,
-              dec_cell,
-              num_decoder_symbols,
-              embedding_size,
-              feed_previous=feed_previous)
-        else:
-          # If feed_previous is a Tensor, we construct 2 graphs and use cond.
-          def filled_embedding_rnn_decoder(feed_previous):
-            """The current decoder with a fixed feed_previous parameter."""
-            # pylint: disable=cell-var-from-loop
-            reuse = None if feed_previous else True
-            vs = variable_scope.get_variable_scope()
-            with variable_scope.variable_scope(vs, reuse=reuse):
-              outputs, state = embedding_rnn_decoder(
-                  decoder_inputs,
-                  encoder_state,
-                  dec_cell,
-                  num_decoder_symbols,
-                  embedding_size,
-                  feed_previous=feed_previous)
-            # pylint: enable=cell-var-from-loop
-            state_list = [state]
-            if nest.is_sequence(state):
-              state_list = nest.flatten(state)
-            return outputs + state_list
-
-          outputs_and_state = control_flow_ops.cond(
-              feed_previous, lambda: filled_embedding_rnn_decoder(True),
-              lambda: filled_embedding_rnn_decoder(False))
-          # Outputs length is the same as for decoder inputs.
-          outputs_len = len(decoder_inputs)
-          outputs = outputs_and_state[:outputs_len]
-          state_list = outputs_and_state[outputs_len:]
-          state = state_list[0]
-          if nest.is_sequence(encoder_state):
-            state = nest.pack_sequence_as(
-                structure=encoder_state, flat_sequence=state_list)
-      outputs_dict[name] = outputs
-      state_dict[name] = state
-
-  return outputs_dict, state_dict
 
 
 def sequence_loss_by_example(logits,

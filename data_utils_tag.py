@@ -1,24 +1,9 @@
-# Copyright 2015 The TensorFlow Authors. All Rights Reserved.
 # Model modified by Hongyu Xiong: Deep neural parsing for database query
 # specific model: (1) embedding_attention_seq2seq_pretrain
 # (2) embedding_attention_seq2seq_pretrain2_tag
 # (3) model_with_buckets_tag
 # (4) functions are also outputting last encoder hidden state for PCA visual
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-# ==============================================================================
 
-"""Utilities for downloading data from WMT, tokenizing, vocabularies."""
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -155,64 +140,6 @@ V44_ID = 54
 # Regular expressions used to tokenize.
 _WORD_SPLIT = re.compile(b"([,!?\")(])")   # get rid of '.':;'
 _DIGIT_RE = re.compile(br"\d")
-
-# URLs for WMT data.
-_WMT_ENFR_TRAIN_URL = "http://www.statmt.org/wmt10/training-giga-fren.tar"
-_WMT_ENFR_DEV_URL = "http://www.statmt.org/wmt15/dev-v2.tgz"
-
-
-def maybe_download(directory, filename, url):
-  """Download filename from url unless it's already in directory."""
-  if not os.path.exists(directory):
-    print("Creating directory %s" % directory)
-    os.mkdir(directory)
-  filepath = os.path.join(directory, filename)
-  if not os.path.exists(filepath):
-    print("Downloading %s to %s" % (url, filepath))
-    filepath, _ = urllib.request.urlretrieve(url, filepath)
-    statinfo = os.stat(filepath)
-    print("Successfully downloaded", filename, statinfo.st_size, "bytes")
-  return filepath
-
-
-def gunzip_file(gz_path, new_path):
-  """Unzips from gz_path into new_path."""
-  print("Unpacking %s to %s" % (gz_path, new_path))
-  with gzip.open(gz_path, "rb") as gz_file:
-    with open(new_path, "wb") as new_file:
-      for line in gz_file:
-        new_file.write(line)
-
-
-def get_wmt_enfr_train_set(directory):
-  """Download the WMT en-fr training corpus to directory unless it's there."""
-  train_path = os.path.join(directory, "giga-fren.release2.fixed")
-  if not (gfile.Exists(train_path +".fr") and gfile.Exists(train_path +".en")):
-    corpus_file = maybe_download(directory, "training-giga-fren.tar",
-                                 _WMT_ENFR_TRAIN_URL)
-    print("Extracting tar file %s" % corpus_file)
-    with tarfile.open(corpus_file, "r") as corpus_tar:
-      corpus_tar.extractall(directory)
-    gunzip_file(train_path + ".fr.gz", train_path + ".fr")
-    gunzip_file(train_path + ".en.gz", train_path + ".en")
-  return train_path
-
-
-def get_wmt_enfr_dev_set(directory):
-  """Download the WMT en-fr training corpus to directory unless it's there."""
-  dev_name = "newstest2013"
-  dev_path = os.path.join(directory, dev_name)
-  if not (gfile.Exists(dev_path + ".fr") and gfile.Exists(dev_path + ".en")):
-    dev_file = maybe_download(directory, "dev-v2.tgz", _WMT_ENFR_DEV_URL)
-    print("Extracting tgz file %s" % dev_file)
-    with tarfile.open(dev_file, "r:gz") as dev_tar:
-      fr_dev_file = dev_tar.getmember("dev/" + dev_name + ".fr")
-      en_dev_file = dev_tar.getmember("dev/" + dev_name + ".en")
-      fr_dev_file.name = dev_name + ".fr"  # Extract without "dev/" prefix.
-      en_dev_file.name = dev_name + ".en"
-      dev_tar.extract(fr_dev_file, directory)
-      dev_tar.extract(en_dev_file, directory)
-  return dev_path
 
 
 def basic_tokenizer(sentence):
@@ -444,31 +371,3 @@ def prepare_data(data_dir, from_train_path, to_train_path, tag_train_path, from_
   return (from_train_ids_path, to_train_ids_path, tag_train_ids_path,
           from_dev_ids_path, to_dev_ids_path, tag_dev_ids_path, 
           from_vocab_path, to_vocab_path)
-
-  # Get wmt data to the specified directory.
-  ###train_path = get_wmt_enfr_train_set(data_dir)
-  ###dev_path = get_wmt_enfr_dev_set(data_dir)
-  # train_path = os.path.join(data_dir, "dnnParsing.train")
-  # dev_path = os.path.join(data_dir, "dnnParsing.test")
-
-  # # Create vocabularies of the appropriate sizes.
-  # fr_vocab_path = os.path.join(data_dir, "vocab%d.lo" % fr_vocabulary_size)
-  # en_vocab_path = os.path.join(data_dir, "vocab%d.qu" % en_vocabulary_size)
-  # create_vocabulary(fr_vocab_path, train_path + ".lo", fr_vocabulary_size, tokenizer)
-  # create_vocabulary(en_vocab_path, train_path + ".qu", en_vocabulary_size, tokenizer)
-
-  # # Create token ids for the training data.
-  # fr_train_ids_path = train_path + (".ids%d.lo" % fr_vocabulary_size)
-  # en_train_ids_path = train_path + (".ids%d.qu" % en_vocabulary_size)
-  # data_to_token_ids(train_path + ".lo", fr_train_ids_path, fr_vocab_path, tokenizer)
-  # data_to_token_ids(train_path + ".qu", en_train_ids_path, en_vocab_path, tokenizer)
-
-  # # Create token ids for the development data.
-  # fr_dev_ids_path = dev_path + (".ids%d.lo" % fr_vocabulary_size)
-  # en_dev_ids_path = dev_path + (".ids%d.qu" % en_vocabulary_size)
-  # data_to_token_ids(dev_path + ".lo", fr_dev_ids_path, fr_vocab_path, tokenizer)
-  # data_to_token_ids(dev_path + ".qu", en_dev_ids_path, en_vocab_path, tokenizer)
-
-  # return (en_train_ids_path, fr_train_ids_path,
-  #         en_dev_ids_path, fr_dev_ids_path,
-  #         en_vocab_path, fr_vocab_path)
